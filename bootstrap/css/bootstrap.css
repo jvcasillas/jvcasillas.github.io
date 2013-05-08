@@ -6192,7 +6192,7 @@ a.badge:focus {
 
 .site .header a.extra {
   color: #aaa;
-  margin-left: 1em;
+  margin-left: 0;
 }
 
 .site .header a.extra:hover {
