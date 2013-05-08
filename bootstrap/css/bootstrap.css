@@ -2178,6 +2178,7 @@ table th[class*="span"],
   float: none;
   width: 204px;
   margin-left: 0;
+  margin-right: 0;
 }
 
 .table td.span4,
