@@ -417,7 +417,7 @@ a:focus {
 }
 
 .row-fluid [class*="span"]:first-child {
-  margin-left: 0;
+  margin-left: 10;
 }
 
 .row-fluid .controls-row [class*="span"] + [class*="span"] {
@@ -810,9 +810,6 @@ h4 small {
   border-bottom: 1px solid #eeeeee;
 }
 
-header {
-  padding-top: 20px;
-}
 
 ul,
 ol {
