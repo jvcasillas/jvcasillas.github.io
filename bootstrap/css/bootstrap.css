@@ -333,7 +333,7 @@ a:focus {
 }
 
 .span2 {
-  width: 180px;
+  width: 160px;
 }
 
 .span1 {
@@ -1363,7 +1363,7 @@ textarea.span10,
 input.span9,
 textarea.span9,
 .uneditable-input.span9 {
-  width: 686px;
+  width: 600px;
 }
 
 input.span8,
