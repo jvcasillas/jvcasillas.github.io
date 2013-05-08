@@ -301,7 +301,7 @@ a:focus {
 }
 
 .span10 {
-  width: 780px;
+  width: 700px;
 }
 
 .span9 {
@@ -435,12 +435,12 @@ a:focus {
 }
 
 .row-fluid .span10 {
-  width: 82.97872340425532%;
-  *width: 82.92553191489361%;
+  width: 74.97872340425532%;
+  *width: 74.92553191489361%;
 }
 
 .row-fluid .span9 {
-  width: 70.46808510638297%;
+  width: 74.46808510638297%;
   *width: 74.41489361702126%;
 }
 
@@ -1357,7 +1357,7 @@ textarea.span11,
 input.span10,
 textarea.span10,
 .uneditable-input.span10 {
-  width: 766px;
+  width: 700px;
 }
 
 input.span9,
@@ -2225,7 +2225,7 @@ table th[class*="span"],
 .table td.span10,
 .table th.span10 {
   float: none;
-  width: 764px;
+  width: 700px;
   margin-left: 0;
 }
 
