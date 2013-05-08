@@ -1,6 +1,6 @@
 safe: true
 lsi: false
 pygments: true
-server: false
+server: true
 auto: false
 watch: false
