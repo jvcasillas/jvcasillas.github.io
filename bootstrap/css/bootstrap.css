@@ -333,7 +333,7 @@ a:focus {
 }
 
 .span2 {
-  width: 180px;
+  width: 200px;
 }
 
 .span1 {
@@ -475,8 +475,8 @@ a:focus {
 }
 
 .row-fluid .span2 {
-  width: 16.893617021276595%;
-  *width: 16.840425531914894%;
+  width: 18.893617021276595%;
+  *width: 18.840425531914894%;
 }
 
 .row-fluid .span1 {
@@ -1405,7 +1405,7 @@ textarea.span3,
 input.span2,
 textarea.span2,
 .uneditable-input.span2 {
-  width: 160px;
+  width: 180px;
 }
 
 input.span1,
@@ -2169,7 +2169,7 @@ table th[class*="span"],
 .table td.span2,
 .table th.span2 {
   float: none;
-  width: 160px;
+  width: 180px;
   margin-left: 0;
 }
 
