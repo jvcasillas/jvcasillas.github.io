@@ -1,0 +1,34 @@
+Joseph V. Casillas
+========================================================
+
+
+[Home][ref1]  
+[Bio][ref2]  
+[Teaching][ref3]  
+[Research][ref4]  
+[Other][ref5]  
+
+
+
+
+209 Modern Languages  
+Department of Spanish and Portuguese  
+University of Arizona  
+Tucson, AZ 85721  
+jvcasill@email.arizona.edu  
+
+
+[ref1]: index.html
+[ref2]: bio.html
+[ref3]: teaching.html
+[ref4]: research.html
+[ref5]: other.html
+
+```{r echo=FALSE, results='hide'}
+options(rstudio.markdownToHTML = 
+  function(inputFile, outputFile) {      
+    require(markdown)
+    markdownToHTML(inputFile, outputFile, stylesheet='custom.css')   
+  }
+)
+```
