@@ -1363,7 +1363,7 @@ textarea.span10,
 input.span9,
 textarea.span9,
 .uneditable-input.span9 {
-  width: 600px;
+  width: 686px;
 }
 
 input.span8,
@@ -2218,7 +2218,7 @@ table th[class*="span"],
 .table td.span9,
 .table th.span9 {
   float: none;
-  width: 684px;
+  width: 600px;
   margin-left: 0;
 }
 
