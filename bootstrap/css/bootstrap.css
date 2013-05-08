@@ -6159,6 +6159,18 @@ a.badge:focus {
   position: fixed;
 }
 
+
+
+
+
+.site {
+  font-size: 115%;
+  text-align: justify;
+  width: 42em;
+  margin: 3em auto 2em;
+  line-height: 1.5em;
+}
+
 .site .header a {
   font-weight: bold;
   text-decoration: none;
@@ -6185,5 +6197,3 @@ a.badge:focus {
 .site .header a.extra:hover {
   color: #000;
 }
-
-
