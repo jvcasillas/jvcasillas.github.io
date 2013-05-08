@@ -440,7 +440,7 @@ a:focus {
 }
 
 .row-fluid .span9 {
-  width: 74.46808510638297%;
+  width: 70.46808510638297%;
   *width: 74.41489361702126%;
 }
 
@@ -2218,7 +2218,7 @@ table th[class*="span"],
 .table td.span9,
 .table th.span9 {
   float: none;
-  width: 600px;
+  width: 684px;
   margin-left: 0;
 }
 
