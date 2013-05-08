@@ -1,3 +1,10 @@
+---
+layout: post
+title:  "newtest"
+date:   2013-05-08 14:07:18
+categories: testing
+---
+
 Sample Markdown Cheat Sheet
 =========================== 
 
