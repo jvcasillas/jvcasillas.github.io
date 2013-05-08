@@ -347,7 +347,7 @@ table{max-width:100%;background-color:transparent;border-collapse:collapse;borde
 table td[class*="span"],table th[class*="span"],.row-fluid table td[class*="span"],.row-fluid table th[class*="span"]{display:table-cell;float:none;margin-left:0}
 .table td.span1,.table th.span1{float:none;width:44px;margin-left:0}
 .table td.span2,.table th.span2{float:none;width:124px;margin-left:0}
-.table td.span3,.table th.span3{float:none;width:204px;margin-left:0}
+.table td.span3,.table th.span3{float:left;width:204px;margin-left:20}
 .table td.span4,.table th.span4{float:none;width:284px;margin-left:0}
 .table td.span5,.table th.span5{float:none;width:364px;margin-left:0}
 .table td.span6,.table th.span6{float:none;width:444px;margin-left:0}
