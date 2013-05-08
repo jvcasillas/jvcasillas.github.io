@@ -93,7 +93,7 @@ a:hover,a:focus{color:#005580;text-decoration:underline}
 .row-fluid .span6{width:48.93617021276595%;*width:48.88297872340425%}
 .row-fluid .span5{width:40.42553191489362%;*width:40.37234042553192%}
 .row-fluid .span4{width:31.914893617021278%;*width:31.861702127659576%}
-.row-fluid .span3{width:23.404255319148934%;*width:23.351063829787233%}
+.row-fluid .span3{width:23.404255319148934%;*width:23.351063829787233%;padding-left:5%}
 .row-fluid .span2{width:14.893617021276595%;*width:14.840425531914894%}
 .row-fluid .span1{width:6.382978723404255%;*width:6.329787234042553%}
 .row-fluid .offset12{margin-left:104.25531914893617%;*margin-left:104.14893617021275%}
@@ -243,7 +243,7 @@ input.span7,textarea.span7,.uneditable-input.span7{width:526px}
 input.span6,textarea.span6,.uneditable-input.span6{width:446px}
 input.span5,textarea.span5,.uneditable-input.span5{width:366px}
 input.span4,textarea.span4,.uneditable-input.span4{width:286px}
-input.span3,textarea.span3,.uneditable-input.span3{width:206px; padding-left:50px;}
+input.span3,textarea.span3,.uneditable-input.span3{width:206px}
 input.span2,textarea.span2,.uneditable-input.span2{width:126px}
 input.span1,textarea.span1,.uneditable-input.span1{width:46px}
 .controls-row{*zoom:1}
