@@ -1,12 +1,10 @@
 ---
 layout: post
-title:  "R code test"
+title:  "R-code syntax"
 date:   2013-05-08 03:07:18
 categories: testing
 ---
 
-
-## R-code syntax
 
 
 ```{r echo=FALSE, results='hide'}
