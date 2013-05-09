@@ -22,7 +22,7 @@ sound = loadsound('welcome.wav')
 Now we're ready to make a spectrogram.
 
 ```{r fig.height=4.28, fig.width=8.24}
-spectrogram (sound, fs=44100, gridlines=FALSE, colors=TRUE, maintitle=Welcome, output=FALSE, zoom=FALSE, pause = FALSE)
+spectrogram (sound, fs=44100, gridlines=FALSE, colors=TRUE, maintitle= "Welcome", output=FALSE, zoom=FALSE, pause = FALSE)
 ```
 
 We can also see the oscillogram by using
