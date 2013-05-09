@@ -589,7 +589,7 @@ button.btn.btn-small,input[type="submit"].btn.btn-small{*padding-top:3px;*paddin
 button.btn.btn-mini,input[type="submit"].btn.btn-mini{*padding-top:1px;*padding-bottom:1px}
 .btn-link,.btn-link:active,.btn-link[disabled]{background-color:transparent;background-image:none;-webkit-box-shadow:none;-moz-box-shadow:none;box-shadow:none}
 .btn-link{color:#08c;cursor:pointer;border-color:transparent;-webkit-border-radius:0;-moz-border-radius:0;border-radius:0}
-.btn-link:hover,.btn-link:focus{color:#FF0000;text-decoration:underline;background-color:transparent}
+.btn-link:hover,.btn-link:focus{color:#005580;text-decoration:underline;background-color:transparent}
 .btn-link[disabled]:hover,.btn-link[disabled]:focus{color:#333;text-decoration:none}
 .btn-group{position:relative;display:inline-block;*display:inline;*margin-left:.3em;font-size:0;white-space:nowrap;vertical-align:middle;*zoom:1}
 .btn-group:first-child{*margin-left:0}
@@ -724,7 +724,7 @@ button.btn.btn-mini,input[type="submit"].btn.btn-mini{*padding-top:1px;*padding-
 .navbar .brand{display:block;float:left;padding:10px 20px 10px;margin-left:-20px;font-size:20px;font-weight:200;color:#777;text-shadow:0 1px 0 #fff}
 .navbar .brand:hover,.navbar .brand:focus{text-decoration:none}
 .navbar-text{margin-bottom:0;line-height:40px;color:#777}
-.navbar-link{color:#777}
+.navbar-link{color:#FF0000}
 .navbar-link:hover,.navbar-link:focus{color:#333}
 .navbar .divider-vertical{height:40px;margin:0 9px;border-right:1px solid #fff;border-left:1px solid #f2f2f2}
 .navbar .btn,.navbar .btn-group{margin-top:5px}
