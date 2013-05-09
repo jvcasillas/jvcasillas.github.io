@@ -1,10 +1,12 @@
 ---
+layout: post
+title: "Colored spectrograms"
+date: 2013-05-09 14:09:19
 published: true
 status: publish
+categories: r-code
 ---
- 
-Title
-========================================================
+
  
 This is how I made the colored spectrogram from the homepage (it's me saying 'welcome'). You need to load the package phonTools into R.
  
