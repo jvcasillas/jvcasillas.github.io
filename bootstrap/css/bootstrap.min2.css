@@ -979,4 +979,4 @@ to{background-position:0 0}
 
 
 html, body, #tbl_wrap { height: 100%; width: 99%; padding: 0; margin: auto; }
-        #td_wrap { vertical-align: middle; text-align: center; }
+        #td_wrap { vertical-align: middle; text-align: left; }
