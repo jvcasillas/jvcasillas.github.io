@@ -1,11 +1,11 @@
 ---
 layout: post
-title:  "Markdown cheatsheet"
+title:  "Sample Markdown Cheat Sheet"
 date:   2013-05-08 14:07:18
 categories: testing
 ---
 
-# Sample Markdown Cheat Sheet
+
 (this was copied from the sublimetext2 markdown package and is shown here for testing purposes)
 
 This is a sample markdown file to help you write Markdown quickly :)

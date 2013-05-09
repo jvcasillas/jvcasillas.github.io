@@ -8,18 +8,18 @@ categories: r-code
 ---
 
  
-This is how I made the colored spectrogram from the homepage (it's me saying 'welcome'). This was done using the __phonTools__ package written by Santiago Barreda.
+This is how I made the colored spectrogram from the homepage (it's me saying 'welcome'). This was done using the [phonTools][phonTools] package written by [Santiago Barreda][Santiago Barreda].
  
 
  
-First, you need to load the package __phonTools__ into __R__.
+First, you need to load the package [phonTools][phonTools] into [R][R].
  
 
 
     library(phonTools)
 
  
-Now you have to load the sound you want to make a spectrogram of (it has to be in your working directory). I recorded mine in Praat.
+Now you have to load the sound you want to make a spectrogram of (it has to be in your working directory). I recorded mine in [Praat][Praat].
  
 
     sound = loadsound("welcome.wav")
@@ -45,6 +45,12 @@ We can also see the oscillogram by using
  
  
 That's it.
+
+
+[phonTools]: http://cran.r-project.org/web/packages/phonTools/index.html
+[Santiago Barreda]: http://www.santiagobarreda.com/rscripts.html
+[Praat]: http://www.fon.hum.uva.nl/praat/
+[R]: http://www.r-project.org
 
 
 <div id="disqus_thread"></div>
