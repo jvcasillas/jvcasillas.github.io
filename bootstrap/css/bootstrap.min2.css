@@ -741,7 +741,7 @@ button.btn.btn-mini,input[type="submit"].btn.btn-mini{*padding-top:1px;*padding-
 .navbar-search .search-query{padding:4px 14px;margin-bottom:0;font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;font-size:13px;font-weight:normal;line-height:1;-webkit-border-radius:15px;-moz-border-radius:15px;border-radius:15px}
 .navbar-static-top{position:static;margin-bottom:0}
 .navbar-static-top .navbar-inner{-webkit-border-radius:0;-moz-border-radius:0;border-radius:0}
-.navbar-fixed-top,.navbar-fixed-bottom{position:fixed;right:0;left:10px;z-index:1030;margin-bottom:0;margin-top:10px}
+.navbar-fixed-top,.navbar-fixed-bottom{position:fixed;right:0;left:20px;z-index:1030;margin-bottom:0;margin-top:20px}
 .navbar-fixed-top .navbar-inner,.navbar-static-top .navbar-inner{border-width:0 0 1px}
 .navbar-fixed-bottom .navbar-inner{border-width:1px 0 0}
 .navbar-fixed-top .navbar-inner,.navbar-fixed-bottom .navbar-inner{padding-right:0;padding-left:0;-webkit-border-radius:0;-moz-border-radius:0;border-radius:0}
