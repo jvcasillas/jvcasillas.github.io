@@ -976,11 +976,7 @@ to{background-position:0 0}
 .affix{position:fixed}
 .title-main{color:red;}
 .header2{padding-bottom:15px}
-// Replace X and Y with a number and u with a unit. do calculations
- // and remove parens
-.centered_div {
-   width: 840px;
-   position: absolute;
-   left: 50%;
-   margin-left: -420px;
-}
+
+
+html, body, #tbl_wrap { height: 100%; width: 100%; padding: 0; margin: 0; }
+        #td_wrap { vertical-align: middle; text-align: center; }
