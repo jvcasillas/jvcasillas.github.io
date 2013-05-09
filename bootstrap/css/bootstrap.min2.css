@@ -978,8 +978,8 @@ to{background-position:0 0}
 .header2{padding-bottom:15px}
 
 
-html, body, #tbl_wrap { height: 99%; width: 99%; padding: 0; margin: 0; }
-        #td_wrap { vertical-align: middle; text-align: left; }
+/* html, body, #tbl_wrap { height: 99%; width: 99%; padding: 0; margin: 0; }
+        #td_wrap { vertical-align: middle; text-align: left; } */
 
 .centered-div{
  width:880px;
