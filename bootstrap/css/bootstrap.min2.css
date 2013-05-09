@@ -979,9 +979,8 @@ to{background-position:0 0}
 // Replace X and Y with a number and u with a unit. do calculations
  // and remove parens
 .centered_div {
-   width: 620px;
-   height: 620px;
+   width: 840px;
    position: absolute;
    left: 50%;
-   margin-left: -310px;
+   margin-left: -420px;
 }
