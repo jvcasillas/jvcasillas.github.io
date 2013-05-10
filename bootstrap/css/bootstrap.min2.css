@@ -995,3 +995,9 @@ to{background-position:0 0}
 }
 
 .h4title{font-size:22px}
+
+.navbar-container {
+	color:white;
+	width:900px;
+	margin:0 auto;
+}
