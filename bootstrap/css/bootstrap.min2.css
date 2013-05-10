@@ -756,7 +756,7 @@ button.btn.btn-mini,input[type="submit"].btn.btn-mini{*padding-top:1px;*padding-
 .navbar-static-top .container,.navbar-fixed-top .container,.navbar-fixed-bottom .container{width:940px}
 .navbar-fixed-top{top:0}
 .navbar-fixed-top .navbar-inner,.navbar-static-top .navbar-inner{-webkit-box-shadow:0 1px 10px rgba(0,0,0,0.1);-moz-box-shadow:0 1px 10px rgba(0,0,0,0.1);box-shadow:0 1px 10px rgba(0,0,0,0.1)}
-.navbar-fixed-bottom{bottom:0;color:#777;}
+.navbar-fixed-bottom{bottom:0}
 .navbar-fixed-bottom .navbar-inner{-webkit-box-shadow:0 -1px 10px rgba(0,0,0,0.1);-moz-box-shadow:0 -1px 10px rgba(0,0,0,0.1);box-shadow:0 -1px 10px rgba(0,0,0,0.1)}
 .navbar .nav{position:relative;left:0;display:block;float:left;margin:0 10px 0 0}
 .navbar .nav.pull-right{float:right;margin-right:0}
@@ -997,7 +997,6 @@ to{background-position:0 0}
 .h4title{font-size:22px}
 
 .navbar-container {
-	color:#777;
 	padding-left:150px;
 	padding-bottom:10px;
 	width:250px;
