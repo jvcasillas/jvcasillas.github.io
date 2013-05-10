@@ -7,6 +7,18 @@ title: Teaching
 
 Here you can find a list of some of the classes I have taught or am currently teaching at the University of Arizona. Click on the links for more information about each one.
 
+<div class="dropdown">
+  <!-- Link or button to toggle dropdown -->
+  <ul class="dropdown-menu" role="menu" aria-labelledby="dLabel">
+    <li><a tabindex="-1" href="#">Action</a></li>
+    <li><a tabindex="-1" href="#">Another action</a></li>
+    <li><a tabindex="-1" href="#">Something else here</a></li>
+    <li class="divider"></li>
+    <li><a tabindex="-1" href="#">Separated link</a></li>
+  </ul>
+</div>
+
+
 #### Spanish 102
 <strong>Elementary Spanish</strong>
 Second semester Spanish, which is a continuation of Spanish 101, for students with one year of previous study of Spanish or by placement exam.
