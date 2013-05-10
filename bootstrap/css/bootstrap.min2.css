@@ -996,7 +996,7 @@ to{background-position:0 0}
 
 .h4title{font-size:22px}
 
-.fixed-footer1 {background-color:#777;bottom:0; left:0; position:fixed; height:50px; width:100%; margin:0; padding:10px}
+.fixed-footer1 {background-color:white;bottom:0; left:0; position:fixed; height:50px; width:100%; margin:0; padding:10px}
 
 .navbar-container {
 	color:blue;
