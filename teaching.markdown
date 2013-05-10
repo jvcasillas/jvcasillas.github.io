@@ -45,4 +45,3 @@ By the end of the semester, the student will:
 
 #### Spanish 452
 #### Spanish 457
-
