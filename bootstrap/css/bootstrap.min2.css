@@ -48,7 +48,7 @@ h2,h3{page-break-after:avoid}
 body {
   padding:0;
   font:14px/1.5 Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
-  color:gray;
+  color:#E8E8E8;
   font-weight:300;
 }
 
