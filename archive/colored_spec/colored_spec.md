@@ -27,8 +27,8 @@ Now we're ready to make a spectrogram.
 
 
 ```r
-spectrogram(sound, fs = 44100, gridlines = FALSE, colors = TRUE, maintitle = Welcome, 
-    output = FALSE, zoom = FALSE, pause = FALSE)
+spectrogram(sound, fs = 44100, gridlines = FALSE, colors = TRUE, maintitle = "Welcome", 
+    output = FALSE, zoom = FALSE, pause = FALSE, maxfreq = 5500)
 ```
 
 ![plot of chunk unnamed-chunk-3](figure/unnamed-chunk-3.png) 
