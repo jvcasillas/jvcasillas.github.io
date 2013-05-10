@@ -7,17 +7,13 @@ title: Teaching
 
 Here you can find a list of some of the classes I have taught or am currently teaching at the University of Arizona. Click on the links for more information about each one.
 
-<div class="dropdown">
-  <!-- Link or button to toggle dropdown -->
-  test
-  <ul class="dropdown-menu" role="menu" aria-labelledby="dLabel">
-    <li><a tabindex="-1" href="#">Action</a></li>
-    <li><a tabindex="-1" href="#">Another action</a></li>
-    <li><a tabindex="-1" href="#">Something else here</a></li>
-    <li class="divider"></li>
-    <li><a tabindex="-1" href="#">Separated link</a></li>
-  </ul>
-</div>
+<ul id="ProjectSubmenu">
+    <li><a href="/projects/markdown/" title="Markdown Project Page">Main</a></li>
+    <li><a href="/projects/markdown/basics" title="Markdown Basics">Basics</a></li>
+    <li><a class="selected" title="Markdown Syntax Documentation">Syntax</a></li>
+    <li><a href="/projects/markdown/license" title="Pricing and License Information">License</a></li>
+    <li><a href="/projects/markdown/dingus" title="Online Markdown Web Form">Dingus</a></li>
+</ul>
 
 
 #### Spanish 102
