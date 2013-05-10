@@ -43,7 +43,15 @@ img{max-width:100%!important}
 p,h2,h3{orphans:3;widows:3}
 h2,h3{page-break-after:avoid}
 }
-body{margin:0;font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;font-size:14px;line-height:20px;color:#333;background-color:#fff}
+/* body{margin:0;font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;font-size:14px;line-height:20px;color:#333;background-color:#fff} */
+
+body {
+  padding:50px;
+  font:14px/1.5 Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color:#777;
+  font-weight:300;
+}
+
 a{color:#08c;text-decoration:none}
 a:hover,a:focus{color:#005580;text-decoration:underline}
 .img-rounded{-webkit-border-radius:6px;-moz-border-radius:6px;border-radius:6px}
