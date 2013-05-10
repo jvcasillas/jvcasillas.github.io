@@ -997,9 +997,9 @@ to{background-position:0 0}
 .h4title{font-size:22px}
 
 .navbar-container {
+	position:fixed;
 	color:white;
 	padding-left:150px;
 	padding-bottom:10px;
 	width:250px;
-	margin:0 auto;
 }
