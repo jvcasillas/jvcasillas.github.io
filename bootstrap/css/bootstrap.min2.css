@@ -1001,7 +1001,7 @@ to{background-position:0 0}
 .navbar-container {
 	background-color:white;
 	padding-left:150px;
-	padding-bottom:10px;
+	padding-bottom:0;
 	width:250px;
 	margin:0 auto;
 	z-index: 5;
