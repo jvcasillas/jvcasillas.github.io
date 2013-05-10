@@ -133,7 +133,7 @@ a:hover,a:focus{color:#005580;text-decoration:underline}
 .container{margin-right:auto;margin-left:auto;*zoom:1}
 .container:before,.container:after{display:table;line-height:0;content:""}
 .container:after{clear:both}
-.container-fluid{padding-right:0;padding-left:50px;*zoom:1}
+.container-fluid{padding-right:0;padding-left:50px;*zoom:1;padding-bottom:40px}
 .container-fluid:before,.container-fluid:after{display:table;line-height:0;content:""}
 .container-fluid:after{clear:both}
 p{margin:0 0 10px}
@@ -992,7 +992,6 @@ to{background-position:0 0}
 .centered-div{
  width:900px;
  margin:0 auto;
- padding-bottom:40px;
 }
 
 .h4title{font-size:22px}
