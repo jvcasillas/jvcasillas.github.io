@@ -31,7 +31,7 @@ Now we're ready to make a spectrogram.
     spectrogram(sound, fs = 44100, gridlines = FALSE, colors = TRUE, maintitle = Welcome, 
         output = FALSE, zoom = FALSE, pause = FALSE)
 
-![plot of chunk unnamed-chunk-3](/images/figure/unnamed-chunk-3.png) 
+![plot of chunk unnamed-chunk-3](/assets/images/figure/unnamed-chunk-3.png) 
 
  
 We can also see the oscillogram by using
@@ -39,7 +39,7 @@ We can also see the oscillogram by using
 
     plot(sound)
 
-![plot of chunk unnamed-chunk-4](/images/figure/unnamed-chunk-4.png) 
+![plot of chunk unnamed-chunk-4](/assets/images/figure/unnamed-chunk-4.png) 
 
  
  
