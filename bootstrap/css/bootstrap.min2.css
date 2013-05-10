@@ -46,7 +46,7 @@ h2,h3{page-break-after:avoid}
 /* body{margin:0;font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;font-size:14px;line-height:20px;color:#333;background-color:#fff} */
 
 body {
-  padding:50px;
+  padding:0;
   font:14px/1.5 Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
   color:#777;
   font-weight:300;
@@ -997,7 +997,7 @@ to{background-position:0 0}
 .h4title{font-size:22px}
 
 .navbar-container {
-	color:white;
-	width:900px;
+	color:#777;
+	width:400px;
 	margin:0 auto;
 }
