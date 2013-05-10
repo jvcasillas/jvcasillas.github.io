@@ -992,6 +992,7 @@ to{background-position:0 0}
 .centered-div{
  width:900px;
  margin:0 auto;
+ padding-bottom:40px;
 }
 
 .h4title{font-size:22px}
