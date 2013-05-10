@@ -6,11 +6,9 @@ title: Blog
 <div id="home" align="justify">
 	<h3 class="extra">Blog Posts </br></h3>
 	
-	<p>
 	<ul class="posts">
 	{% for post in site.posts %}
 		<li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
 	{% endfor %}
 	</ul>
-	</P>
 </div>
