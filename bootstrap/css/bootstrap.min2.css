@@ -1002,4 +1002,5 @@ to{background-position:0 0}
 	padding-bottom:10px;
 	width:250px;
 	margin:0 auto;
+	z-index: 5;
 }
