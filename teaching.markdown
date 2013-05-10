@@ -5,4 +5,12 @@ title: Teaching
 
 ### Teaching
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+Here you can find a list of some of the classes I have taught or am currently teaching at the University of Arizona. Click on the links for more information about each one.
+
+#### Spanish 102
+#### Spanish 251
+#### Spanish 340
+#### Spanish 343
+#### Spanish 452
+#### Spanish 457
+
