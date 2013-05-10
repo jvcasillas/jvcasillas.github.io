@@ -9,4 +9,4 @@ title: Research
 
 ![pdf logo][pdf]
 
-[pdf]: http://jvcasill.github.io/images/iconos/pdf.png
+[pdf]: http://jvcasill.github.io/images/icons/pdf.png
