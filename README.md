@@ -3,4 +3,10 @@ jvcasill.github.io
 
 Personal website
 
-Trying to get this thing to work.
+To do:
+- make rss work
+- finish teaching section
+- do research section
+- import old blog posts
+- write new blog posts
+- make sound work on landing page
