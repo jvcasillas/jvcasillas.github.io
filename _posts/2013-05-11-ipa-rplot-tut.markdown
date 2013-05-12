@@ -14,11 +14,11 @@ categories: r-code LaTeX
     \documentclass{article}
     \usepackage{tikz}
     \usepackage{tipa}
- 
+    
     \begin{document}
- 
+    
     \include{plot}
- 
+    
     \end{document}
  
  
@@ -39,13 +39,17 @@ categories: r-code LaTeX
     dev.off()
 
   
+  
 Which produces...
   
-
+  
+  
 ![plot of chunk unnamed-chunk-4](/assets/images/figure/unnamed-chunk-2.png) 
-
+  
+  
   
 That's great, but to see why this is really worth the trouble, let's plot something more common in linguistics. For example, here are the results of a fake 2AFC identification experiment where the y-axis is the proportion of one of the choices (the proportion of times the participants selected the word 'sheep' in this example) and the x-axis is each step in a resynthesized vowel continuum (11-steps from /i/ to /I/). You can download the fake data [here][fake-data] if you want to try. Here's the code.
+  
   
     require(tikzDevice)
     options(tikzLatexPackages = c(getOption("tikzLatexPackages"), 
@@ -69,7 +73,9 @@ That's great, but to see why this is really worth the trouble, let's plot someth
         scale_colour_discrete("Group")
 
   
+  
 Here is the output.
+  
   
 
 ![plot of chunk unnamed-chunk-6](/assets/images/figure/ident_plot.png)
