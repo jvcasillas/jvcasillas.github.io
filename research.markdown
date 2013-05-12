@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Research
+analytics : true
 ---
 
 ### Research

@@ -5,6 +5,7 @@ date: 2013-05-09 14:09:19
 published: true
 status: publish
 categories: r-code
+analytics : true
 ---
 
  
