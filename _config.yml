@@ -1,11 +1,10 @@
 title: Academic website
-name: Joseph V. Casillas
 author: Joseph V. Casillas
 email: jvcasill@email.arizona.edu
 github: jvcasill
 twitter: jvcasill
 pygments: true
-source: _source
+source: _site
 timezone: TIMEZONE
   
 # Settings for analytics
