@@ -4,7 +4,7 @@ title: "How to include IPA in R plots"
 date: 2013-05-11 15:43:19
 categories: r-code
 analytics : true
-tags: test r latex
+tags: r latex tikzDevice tutorial
 ---
 
 

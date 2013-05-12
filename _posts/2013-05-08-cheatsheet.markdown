@@ -4,6 +4,7 @@ title:  "Sample Markdown Cheat Sheet"
 date:   2013-05-08 14:07:18
 categories: testing
 analytics : true
+tags: tutorial markdown
 ---
 
 
