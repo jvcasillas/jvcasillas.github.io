@@ -7,6 +7,9 @@ analytics : true
 tags: test r latex
 ---
 
+<i class="icon-tags"></i> {% for tag in page.tags %} <a href="/tags/{{ tag }}" title="View posts tagged with &quot;{{ tag }}&quot;"><u>{{ tag }}</u></a>  {% if forloop.last != true %} {% endif %} {% endfor %}
+
+
 #### Overview
 
 
