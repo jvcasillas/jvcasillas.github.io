@@ -5,7 +5,11 @@ date: 2013-05-11 15:43:19
 categories: r-code LaTeX
 ---
 
-#### The LaTeX file
+#### Overview
+
+
+
+##### The LaTeX file
  
     \documentclass{article}
     \usepackage{tikz}
@@ -24,48 +28,14 @@ categories: r-code LaTeX
  
 
     require(tikzDevice)
-
-    ## Loading required package: tikzDevice
-
-    ## Loading required package: filehash
-
-    ## Loading required package: methods
-
-    ## filehash: Simple key-value database (2.2-1 2012-03-12)
-
-    ## tikzDevice: A Device for R Graphics Output in PGF/TikZ Format (v0.6.2)
-    ## Checking for a LaTeX compiler...
-
-    ## A working LaTeX compiler was found by checking: The PATH using the command
-    ## pdflatex
-    ## 
-    ## Global option tikzLatex set to: /usr/texbin/pdflatex
-
-    ## pdfTeX 3.1415926-2.4-1.40.13 (TeX Live 2012) kpathsea version 6.1.0
-
-    ## A working XeLaTeX compiler was found by checking: The PATH using the
-    ## command xelatex
-    ## 
-    ## Global option tikzXelatex set to: /usr/texbin/xelatex
-
-    ## XeTeX 3.1415926-2.4-0.9998 (TeX Live 2012) kpathsea version 6.1.0
-
- 
-
     options(tikzLatexPackages = c(getOption("tikzLatexPackages"), "\\usepackage{tipa}"))
 
- 
-
     tikz("/Users/casillas/Desktop/ipa_r_plot_tut/plot.tex")
-
-    ## Error: Cannot create: /Users/casillas/Desktop/ipa_r_plot_tut/plot.tex
-    ## Because the directory does not exist or is not writable.
-
- 
-
     require(stats)
     plot(cars)
     lines(lowess(cars))
+    
+    dev.off()
 
 ![plot of chunk unnamed-chunk-4](/assets/images/figure/unnamed-chunk-2.png) 
 
