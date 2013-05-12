@@ -4,7 +4,7 @@ title:  "Install tikzDevice in R"
 date:   2013-05-11 14:52:18
 categories: r latex
 analytics : true
-tags: r latex tutorial tikzDevice
+tags: r LaTeX tutorial tikzDevice
 ---
 
  

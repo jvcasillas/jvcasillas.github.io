@@ -4,7 +4,7 @@ title:  "Jekyll install"
 date:   2013-05-08 02:07:18
 categories: jekyll update
 analytics : true
-tags: test
+tags: Jekyll
 ---
 
 You'll find this post in your `_posts` directory - edit this post and re-build (or run with the `-w` switch) to see your changes!
