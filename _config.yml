@@ -1,12 +1,14 @@
+title: Academic website
 name: Joseph V. Casillas
+author: Joseph V. Casillas
+email: jvcasill@email.arizona.edu
+github: jvcasill
+twitter: jvcasill
 pygments: true
 source: _source
 timezone: TIMEZONE
-
-# Settings for analytics helper
-# Set 'provider' to the analytics provider you want to use.
-# Set 'provider' to false to turn analytics off globally.
-#        
+  
+# Settings for analytics
 analytics :
   provider : google
   google : 
