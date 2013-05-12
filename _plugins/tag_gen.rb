@@ -1,6 +1,6 @@
 module Jekyll
  
-  class TagIndex < Page    
+  class TagIndex < Page
     def initialize(site, base, dir, tag)
       @site = site
       @base = base
