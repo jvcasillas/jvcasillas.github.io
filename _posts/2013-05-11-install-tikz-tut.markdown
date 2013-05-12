@@ -12,7 +12,7 @@ This is a short tutorial for getting tikzDevice running on R version 3.0.0. If y
 
 #### Download tiksDevice
 
-TiksDevice is no longer officially supported by CRAN because the author was having trouble keeping it updated in a timely manner (Check out [this][why] webpage if you want to read a little more about the situation). Nonetheless, the tikzdevice package is very usable and still available for download. You can download the file directly by clicking [here][download].
+TiksDevice is no longer officially supported by CRAN because the author was having trouble keeping it updated in a timely manner (Check out [this][why] webpage if you want to read a little more about the situation). Nonetheless, the tikzdevice package is very usable and still available for download. You can download the tar.gz file directly by clicking [here][download].
 
 #### Install tiksDevice
 
