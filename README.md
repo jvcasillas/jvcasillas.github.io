@@ -6,7 +6,8 @@ Personal website
 To do:
 - make rss work
 - finish teaching section
-- do research section
+- finish research section
 - import old blog posts
-- write new blog posts
 - make sound work on landing page
+- pandoc
+- tags
