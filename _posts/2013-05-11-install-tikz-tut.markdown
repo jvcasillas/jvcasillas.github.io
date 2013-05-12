@@ -4,6 +4,7 @@ title:  "Install tikzDevice in R"
 date:   2013-05-11 14:52:18
 categories: r latex
 analytics : true
+tags: test r latex
 ---
 
  
@@ -33,7 +34,7 @@ That's it. Check out [this][tikz-latex] tutorial to see how it works.
 
 [why]: http://cran.r-project.org/web/packages/tikzDevice/index.html
 [download]: http://cran.r-project.org/src/contrib/Archive/tikzDevice/tikzDevice_0.6.2.tar.gz
-[tikz-latex]: http://jvcasill.github.io/r-code/LaTeX/2013/05/11/ipa-rplot-tut.html
+[tikz-latex]: http://jvcasill.github.io/r-code/2013/05/11/ipa-rplot-tut.html
 
 <div id="disqus_thread"></div>
 <script type="text/javascript">
