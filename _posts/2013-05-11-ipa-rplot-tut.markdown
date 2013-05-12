@@ -70,4 +70,4 @@ Here is the output.
 
 Notice that we can use IPA (using the TIPA LaTeX package). Yeah! Also, the font is the same (times) as the rest of the output in the .tex document.
 
-[fake-data]: (/archive/ipa_rplot_tut/my_data.txt)
+[fake-data]: /archive/ipa_rplot_tut/my_data.txt
