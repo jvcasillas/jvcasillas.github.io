@@ -8,11 +8,13 @@ categories: r latex
  
 #### Overview
  
-This is a short tutorial for getting tikzDevice running on R version 3.0.0. If you write in LaTeX and use R for statistics, this is a good way to get your plots/graphs/etc. into your .tex document. The advantages are (i) much higher quality and (ii) you can use IPA symbols. 
+This is a short tutorial for getting __tikzDevice__ running on __R__ version 3.0. If you write in __LaTeX__ and use __R__ for statistics, this is a good way to get your plots/graphs/etc. into your .tex document. The advantages are: 
+1 - much higher quality and 
+2 - you can use IPA symbols
 
 #### Download tiksDevice
 
-TiksDevice is no longer officially supported by CRAN because the author was having trouble keeping it updated in a timely manner (Check out [this][why] webpage if you want to read a little more about the situation). Nonetheless, the tikzdevice package is very usable and still available for download. You can download the tar.gz file directly by clicking [here][download].
+__TiksDevice__ is no longer officially supported by CRAN because the author was having trouble keeping it updated in a timely manner (Check out [this][why] webpage if you want to read a little more about the situation). Nonetheless, the __tikzdevice__ package is very usable and still available for download. You can download the tar.gz file directly by clicking [here][download].
 
 #### Install tiksDevice
 
@@ -22,7 +24,7 @@ Installing a package that is no longer supported is by no means difficult, but n
 
 #### Install dependencies
 
-In order for tikzdevice to work, we must also install the filehash package. This is much easier. 
+In order for __tikzDevice__ to work, you must also install the __filehash__ package. This is much easier. 
 
     install.packages('filehash')
 
