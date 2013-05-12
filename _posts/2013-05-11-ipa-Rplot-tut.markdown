@@ -67,7 +67,7 @@ categories: r-code LaTeX
     plot(cars)
     lines(lowess(cars))
 
-![plot of chunk unnamed-chunk-4](/images_temp/figure/unnamed-chunk-4.png) 
+![plot of chunk unnamed-chunk-4](/assets/images/figure/unnamed-chunk-2.png) 
 
  
 

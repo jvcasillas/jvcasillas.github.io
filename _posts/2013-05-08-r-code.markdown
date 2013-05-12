@@ -33,9 +33,7 @@ You can also embed plots, for example:
 plot(cars)
 ```
 
-![r plot](https://github.com/jvcasill/jvcasill.github.io/blob/master/assets/images/figure/unnamed-chunk-2.png)
-
-(/assets/images/figure/unnamed-chunk-2.png "r plot")
+![r plot](/assets/images/figure/unnamed-chunk-2.png "r plot")
 
 <div id="disqus_thread"></div>
 <script type="text/javascript">
