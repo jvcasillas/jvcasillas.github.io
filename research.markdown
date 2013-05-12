@@ -5,7 +5,7 @@ title: Research
 
 ### Research
 
-#### Current research
+##### Current research
 
 #### In preparation
 
