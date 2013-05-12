@@ -32,4 +32,4 @@ That's it. Check out [this][tikz-latex] tutorial to see how it works.
 
 [why]: http://cran.r-project.org/web/packages/tikzDevice/index.html
 [download]: http://cran.r-project.org/src/contrib/Archive/tikzDevice/tikzDevice_0.6.2.tar.gz
-[tikz-latex]: (http://jvcasill.github.io/r-code/LaTeX/2013/05/11/ipa-rplot-tut.html)
+[tikz-latex]: http://jvcasill.github.io/r-code/LaTeX/2013/05/11/ipa-rplot-tut.html
