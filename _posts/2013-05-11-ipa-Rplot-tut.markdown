@@ -8,7 +8,7 @@ categories: r-code
 ---
 
  
-### The LaTeX file
+#### The LaTeX file
  
     \documentclass{article}
     \usepackage{tikz}
@@ -22,7 +22,7 @@ categories: r-code
  
  
  
-### The R code
+#### The R code
  
  
 
@@ -92,6 +92,4 @@ categories: r-code
         fill = "grey97", size = 0.65, linetype = "solid")) + scale_linetype_discrete("Group") + 
         scale_shape_discrete("Group") + scale_colour_discrete("Group")
 
-![plot of chunk unnamed-chunk-6](/assets/images/figure/ident_plot.png) 
-
- 
+![plot of chunk unnamed-chunk-6](/assets/images/figure/ident_plot.png)
