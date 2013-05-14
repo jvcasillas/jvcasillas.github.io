@@ -8,7 +8,7 @@ analytics : true
 
 
 <div class="tabbable">
-    <ul class="nav nav-tabs" id="myTab a">
+    <ul class="nav nav-tabs" id="myTab">
         <li class="active">
             <a href="#current-research" data-toggle="tab">Current research</a>
         </li>
@@ -36,7 +36,7 @@ analytics : true
 <script type="text/javascript" src="/bootstrap/js/bootstrap.min.js"></script>
 <script type="text/javascript">
 $(function(){ 
-    $('#myTab a').on('click', function (e) {
+    $("#myTab a:last").on('click', function (e) {
         e.preventDefault();
         $(this).tab('show');
     });  
