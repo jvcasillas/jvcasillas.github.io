@@ -6,13 +6,8 @@ analytics : true
 
 ### Research
 
-
-<div class="tabbable"> <!-- Only required for left/right tabs -->
-  <ul class="nav nav-tabs" id="myTab">
-    <li><a href="#research" data-toggle="tab">Current research</a></li>
-    <li><a href="#publications" data-toggle="tab">Publications</a></li>
-    <li><a href="#presentations" data-toggle="tab">Presentations</a></li>
-    <li class="dropdown">  
+<!--
+<li class="dropdown">  
         <a class="dropdown-toggle" data-toggle="dropdown" href="#tab4">FrontEnd<b class="caret"></b></a>  
         <ul class="dropdown-menu">  
             <li><a href="#">Twitter Bootstrap</a></li>  
@@ -20,7 +15,14 @@ analytics : true
             <li><a href="#">HTML5</a></li>  
             <li><a href="#">Examples</a></li>  
         </ul>  
-    </li>  
+    </li> 
+-->
+
+<div class="tabbable"> <!-- Only required for left/right tabs -->
+  <ul class="nav nav-tabs" id="myTab">
+    <li><a href="#research" data-toggle="tab">Current research</a></li>
+    <li><a href="#publications" data-toggle="tab">Publications</a></li>
+    <li><a href="#presentations" data-toggle="tab">Presentations</a></li> 
   </ul>
   <div class="tab-content">
     <div class="tab-pane" id="research">
@@ -31,9 +33,6 @@ analytics : true
     </div>
     <div class="tab-pane" id="presentations">
       <p>Howdy, I'm in Section 3.</p>
-    </div>
-    <div class="tab-pane" id="tab4">
-      <p>Howdy, I'm in Section 4.</p>
     </div>
   </div>
 </div>
