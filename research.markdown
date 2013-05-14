@@ -20,9 +20,15 @@ analytics : true
 
 <div class="tabbable">
     <ul class="nav nav-tabs">
-        <li class="active"><a href="#research" data-toggle="tab">Current research</a></li>
-        <li class=""><a href="#publications" data-toggle="tab">Publications</a></li>
-        <li class=""><a href="#presentations" data-toggle="tab">Presentations</a></li> 
+        <li class="active">
+            <a href="#research" data-toggle="tab">Current research</a>
+        </li>
+        <li class="">
+            <a href="#publications" data-toggle="tab">Publications</a>
+        </li>
+        <li class="">
+            <a href="#presentations" data-toggle="tab">Presentations</a>
+        </li> 
     </ul>
     <div class="tab-content">
         <div class="tab-pane active" id="research">
@@ -37,7 +43,11 @@ analytics : true
     </div>
 </div>
 
-
+<script type="text/javascript">
+    jQuery(document).ready(function ($) {
+        $('.nav-tabs').tab();
+    });
+</script>
 
 ##### Current research
 
