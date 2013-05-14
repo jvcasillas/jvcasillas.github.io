@@ -8,7 +8,7 @@ analytics : true
 
 
 <div class="tabbable">
-    <ul class="nav nav-tabs" id="#myTab a">
+    <ul class="nav nav-tabs" id="myTab a">
         <li class="active">
             <a href="#current-research" data-toggle="tab">Current research</a>
         </li>
