@@ -12,7 +12,7 @@ I am an active member of the [Arizona Applied Phonetics Laboratory](https://site
 
 <div id="acdnmenu">
     <ul>
-        <li>Publications
+        <li><h3>Publications</h3>
             <ul>
 		      <li>Casillas, J. V. (2012). La fricativización del africado /ʧ/ en el habla de las mujeres del sur de Arizona. *Divergencias: Revista de estudios lingüísticos y literarios*, 10(1).</li>
 		      <li>Casillas, J. V. (2010). La vibrante múltiple intervocálica: los ejercicios de canto como ayuda a su pronunciación en español. *La Gaceta Hispánica de Madrid*, VIII.</li>
