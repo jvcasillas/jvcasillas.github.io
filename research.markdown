@@ -14,23 +14,23 @@ I am an active member of the [Arizona Applied Phonetics Laboratory](https://site
     <ul>
         <li><h4>Publications</h4>
             <ul>
-		      <li><p>Casillas, J. V. (2012). La fricativización del africado /ʧ/ en el habla de las mujeres del sur de Arizona. *Divergencias: Revista de estudios lingüísticos y literarios*, 10(1).</p></li>
-		      <li><p>Casillas, J. V. (2010). La vibrante múltiple intervocálica: los ejercicios de canto como ayuda a su pronunciación en español. *La Gaceta Hispánica de Madrid*, VIII.</p></li>
-              <li><p>Casillas, J. V. (2009). El uso de los refranes en el quijote. *La Gaceta Hispánica de Madrid*, VIII.</p></li>
+		      <li>Casillas, J. V. (2012). La fricativización del africado /ʧ/ en el habla de las mujeres del sur de Arizona. *Divergencias: Revista de estudios lingüísticos y literarios*, 10(1).</li>
+		      <li>Casillas, J. V. (2010). La vibrante múltiple intervocálica: los ejercicios de canto como ayuda a su pronunciación en español. *La Gaceta Hispánica de Madrid*, VIII.</li>
+              <li>Casillas, J. V. (2009). El uso de los refranes en el quijote. *La Gaceta Hispánica de Madrid*, VIII.</li>
             </ul>
         </li>
         <li><h4>Proceedings</h4>
             <ul>
-                <li><p>tester</p></li>
-                <li><p>testie</p></li>
+                <li>tester</li>
+                <li>testie</li>
             </ul>
         </li>
         <li><h4>Presentations</h4>
             <ul>
                 <li><h5>Oral</h5>
                 	<ul>
-                		<li><p>test</p></li>
-                		<li><p>test</p></li>
+                		<li>test</li>
+                		<li>test</li>
 			         </ul>
                 </li>
                 <li><h5>Poster</h5>
