@@ -14,28 +14,29 @@ I am an active member of the [Arizona Applied Phonetics Laboratory](https://site
     <ul>
         <li>Publications
             <ul>
-                <li>test</li>
+		<li>test</li>
 		<li>test2</li>
-                <li><a href="?2">Product 2</a></li>
-                <li><img src="../img/demo/coffee1.jpg" style="width:190px;height:87px;" /></li>
             </ul>
         </li>
         <li>Proceedings
-            <ul style="background:transparent url(coffee2.jpg) no-repeat 160px bottom;">
-                <li><a href="?3">Product Support</a></li>
-                <li id="li22">Locations
-                    <ul>
-                        <li><a href="?4">How-To Resources</a></li>
-                        <li><a href="?5">Product Support</a></li>
-                    </ul>
-                </li>
-                <li><a href="?6">Opening Time</a></li>
+            <ul>
+                <li>tester</li>
+                <li>testie</li>
             </ul>
         </li>
-        <li id="li3">Technical Solutions
+        <li>Presentations
             <ul>
-                <li><a href="?b">Javascript Code</a></li>
-                <li><a href="?c">CSS Code</a></li>
+                <li>Oral
+                	<ul>
+                		<li>test</li>
+                		<li>test</li>
+			</ul>
+		<li>Poster
+                	<ul>
+                		<li>test</li>
+                		<li>test</li>
+			</ul>
+		</li>
             </ul>
         </li>
     </ul>
