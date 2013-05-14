@@ -14,7 +14,7 @@ I am an active member of the [Arizona Applied Phonetics Laboratory](https://site
     <ul>
         <li>Publications
             <ul>
-		      <li>test</li>
+		      <li>Casillas, J. V. (2012). La fricativización del africado /ʧ/ en el habla de las mujeres del sur de Arizona. *Divergencias: Revista de estudios lingüísticos y literarios*, 10(1).</li>
 		      <li>test2</li>
             </ul>
         </li>
