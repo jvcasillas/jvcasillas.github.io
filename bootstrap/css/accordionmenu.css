@@ -6,8 +6,8 @@
     /* Note about height: 
     Set "height:auto;" if flexible height is required. 
     A fixed height is prefered as content below the menu won't be pulled down/up when the menu is expanding/collapsing. */
-    height: 300px;
-    width: 240px;
+    height: 400px;
+    width: 600px;
 }
 
 
