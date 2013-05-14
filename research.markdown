@@ -43,11 +43,16 @@ analytics : true
     </div>
 </div>
 
-<script type="text/javascript">
-    jQuery(document).ready(function ($) {
-        $('.nav-tabs').tab();
-    });
+
+
+<script src="/bootstrap/js/bootstrap.min.js"></script>
+<script>
+jQuery(document).ready(function ($) {
+    $('.nav-tabs').tab();
+});
 </script>
+
+
 
 ##### Current research
 
