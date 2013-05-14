@@ -21,7 +21,7 @@ analytics : true
 <div class="tabbable">
     <ul class="nav nav-tabs">
         <li class="active">
-            <a href="#research" data-toggle="tab">Current research</a>
+            <a href="#current-research" data-toggle="tab">Current research</a>
         </li>
         <li class="">
             <a href="#publications" data-toggle="tab">Publications</a>
