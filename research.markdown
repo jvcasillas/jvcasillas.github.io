@@ -31,9 +31,10 @@ analytics : true
 </div>
 
 <script>
-  $(function () {
-    $('#myTab a:last').tab('show');
-  })
+$('#myTab a[href="#profile"]').tab('show'); // Select tab by name
+$('#myTab a:first').tab('show'); // Select first tab
+$('#myTab a:last').tab('show'); // Select last tab
+$('#myTab li:eq(2) a').tab('show'); // Select third tab (0-indexed)
 </script>
 
 ##### Current research
@@ -41,25 +42,7 @@ analytics : true
 I am an active member of the [Arizona Applied Phonetics Laboratory](https://sites.google.com/site/miquelsimonet/sports-lab-az) at the University of Arizona. My main interests are in phonetics and syntax. My current projects are centered on second language speech learning & bilingualism. Specifically, I investigate native phonetic experience and its influence on L2 speech production, perception and lexical processing. I am also interested in how dilectal variation affects linguistic attitudes.
 
 
-<ul class="nav nav-tabs" id="myTab">
-  <li class="active"><a href="#home">Home</a></li>
-  <li><a href="#profile">Profile</a></li>
-  <li><a href="#messages">Messages</a></li>
-  <li><a href="#settings">Settings</a></li>
-</ul>
- 
-<div class="tab-content">
-  <div class="tab-pane active" id="home">...</div>
-  <div class="tab-pane" id="profile">...</div>
-  <div class="tab-pane" id="messages">...</div>
-  <div class="tab-pane" id="settings">...</div>
-</div>
- 
-<script>
-  $(function () {
-    $('#myTab a:last').tab('show');
-  })
-</script>
+
 
 
 ##### Publications
