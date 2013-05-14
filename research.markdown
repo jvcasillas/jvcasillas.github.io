@@ -17,7 +17,14 @@ analytics : true
         </li>
         <li class="">
             <a href="#presentations" data-toggle="tab">Presentations</a>
-        </li> 
+        </li>
+        <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Filters <b class="caret"></b></a>
+                <ul class="dropdown-menu">
+                    <li><a href="#">Filter1</a></li>
+                    <li><a href="#">Filter2</a></li>
+                </ul>
+        </li>
     </ul>
     <div class="tab-content">
         <div class="tab-pane active" id="current-research">
