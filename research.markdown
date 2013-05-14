@@ -14,9 +14,9 @@ I am an active member of the [Arizona Applied Phonetics Laboratory](https://site
     <ul>
         <li><h4>Publications</h4>
             <ul>
-		      <li>Casillas, J. V. (2012). La fricativización del africado /ʧ/ en el habla de las mujeres del sur de Arizona. *Divergencias: Revista de estudios lingüísticos y literarios*, 10(1).</li>
-		      <li>Casillas, J. V. (2010). La vibrante múltiple intervocálica: los ejercicios de canto como ayuda a su pronunciación en español. *La Gaceta Hispánica de Madrid*, VIII.</li>
-              <li>Casillas, J. V. (2009). El uso de los refranes en el quijote. *La Gaceta Hispánica de Madrid*, VIII.</li>
+		      <li>Casillas, J. V. (2012). La fricativización del africado /ʧ/ en el habla de las mujeres del sur de Arizona. <i>Divergencias: Revista de estudios lingüísticos y literarios</i>, 10(1).</li>
+		      <li>Casillas, J. V. (2010). La vibrante múltiple intervocálica: los ejercicios de canto como ayuda a su pronunciación en español. <i>La Gaceta Hispánica de Madrid</i>, VIII.</li>
+              <li>Casillas, J. V. (2009). El uso de los refranes en el quijote. <i>La Gaceta Hispánica de Madrid</i>, VIII.</li>
             </ul>
         </li>
         <li><h4>Proceedings</h4>
@@ -46,6 +46,13 @@ I am an active member of the [Arizona Applied Phonetics Laboratory](https://site
 
 
 
+
+
+
+
+
+
+
 ##### Publications
 
 Casillas, J. V. (2012). La fricativización del africado /ʧ/ en el habla de las mujeres del sur de Arizona. *Divergencias: Revista de estudios lingüísticos y literarios*, 10(1).
@@ -54,7 +61,20 @@ Casillas, J. V. (2010). La vibrante múltiple intervocálica: los ejercicios de 
 
 Casillas, J. V. (2009). El uso de los refranes en el quijote. *La Gaceta Hispánica de Madrid*, VIII.
 
+
+
+
+
+
+
+
 ##### Proceedings
+
+Casillas, J. V. La fricativización del africado /ʧ/: actitudes lingüísticas cerca de la frontera.
+
+##### Presentations
+
+###### Oral
 
 Casillas, J. V. (2013, accepted). English-dominant early Spanish-English bilinguals production and perception of English tense lax vowel contrasts. *Phonetics and Phonology in Iberia*. Universidade de Lisboa, Lisbon. Portugal. (June, 2013).
 
@@ -66,7 +86,8 @@ Casillas, J. V. (2011). Going mental with vocabulary: the use of idevice applica
 
 Casillas, J. V. (2011). La fricativización del africado /ʧ/ en el habla de las mujeres del sur de arizona. *21st Annual Symposium on Hispanic and Luso-Brazilian Literature*. University of Arizona. Tucson, Arizona (March, 2011). 
 
-##### Poster presentations
+
+###### Poster
 
 Casillas, J. V. & Simonet, M. (2013, accepted). English-dominant early Spanish/English bilinguals perception of English tense-lax vowel contrasts. *PPLC 13: Phonetics, phonology and languages in contact: Contact varieties, multilingualism, and second language learning*. Paris, Délégation Générale Wallonie-Bruxelles (August, 2013).
 
@@ -74,11 +95,9 @@ Casillas, J. V. & Simonet, M. (2013, accepted). English-dominant early Spanish/E
 
 Casillas, J. V. & Simonet, M. On how English-dominant Spanish-English bilinguals process English tense/lax vowel contrasts. 
 
-Casillas, J. V. La fricativización del africado /ʧ/: actitudes lingüísticas cerca de la frontera.
-
 ##### In preparation
 
 Casillas, J. V. Perception of English /i/-/I/ tense/lax vowel contrast by Spanish/English early bilinguals.  
 
-Casillas, J. V. El foco y el orden de palabras en español  
+Casillas, J. V. El foco y el orden de palabras en español  
 
