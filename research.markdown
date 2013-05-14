@@ -13,6 +13,16 @@ analytics : true
     <li><a href="#tab2" data-toggle="tab">Publications</a></li>
     <li><a href="#tab3" data-toggle="tab">Proceedings</a></li>
     <li><a href="#tab4" data-toggle="tab">Presentations</a></li>
+    <li class="dropdown">  
+        <a class="dropdown-toggle" data-toggle="dropdown" href="#">FrontEnd<b class="caret"></b></a>  
+            <ul class="dropdown-menu">  
+                <li><a href="#">Twitter Bootstrap</a></li>  
+                <li><a href="#">Google Plus API</a></li>  
+                <li><a href="#">HTML5</a></li>  
+                <li class="divider"></li>  
+                <li><a href="#">Examples</a></li>  
+            </ul>  
+    </li>  
   </ul>
   <div class="tab-content">
     <div class="tab-pane active" id="tab1">
