@@ -7,6 +7,16 @@ analytics : true
 ### Research
 
 
+<script type="text/javascript">
+$(function(){ 
+    $("#myTab a:last").on('click', function (e) {
+        e.preventDefault();
+        $(this).tab('show');
+    });  
+});
+</script>
+
+
 <div class="tabbable">
     <ul class="nav nav-tabs" id="myTab">
         <li class="active">
@@ -48,13 +58,3 @@ analytics : true
     </div>
 </div>
 
-
-
-<script type="text/javascript">
-$(function(){ 
-    $("#myTab a:last").on('click', function (e) {
-        e.preventDefault();
-        $(this).tab('show');
-    });  
-});
-</script>
