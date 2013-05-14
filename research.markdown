@@ -18,16 +18,18 @@ analytics : true
         <li class="">
             <a href="#presentations" data-toggle="tab">Presentations</a>
         </li>
-        <li class="dropdown" id="accountmenu">  
-                        <a class="dropdown-toggle" data-toggle="dropdown" href="#">Tutorials<b class="caret"></b></a>  
-                        <ul class="dropdown-menu">  
-                            <li><a href="#">PHP</a></li>  
-                            <li><a href="#">MySQL</a></li>  
-                            <li class="divider"></li>  
-                            <li><a href="#">JavaScript</a></li>  
-                            <li><a href="#">HTML5</a></li>  
-                        </ul>  
-                    </li>
+        <li class="dropdown all-camera-dropdown">  
+           <a class="dropdown-toggle" data-toggle="dropdown" href="#">  
+            Tutorials  
+            <b class="caret"></b>  
+           </a>  
+            <ul class="dropdown-menu">  
+                <li data-filter-camera-type="all"><a data-toggle="tab" href="#">HTML5</a></li>  
+                <li data-filter-camera-type="Alpha"><a data-toggle="tab" href="#">PHP</a></li>  
+                <li data-filter-camera-type="Zed"><a data-toggle="tab" href="#">MySQL</a></li>  
+                <li data-filter-camera-type="Bravo"><a data-toggle="tab" href="#">JavaScript</a></li>
+            </ul>  
+        </li>
     </ul>
     <div class="tab-content">
         <div class="tab-pane active" id="current-research">
@@ -43,8 +45,14 @@ analytics : true
 </div>
 
 
-<script type="text/javascript" src="/twitter-bootstrap/twitter-bootstrap-v2/docs/assets/js/jquery.js"></script>  
-<script type="text/javascript" src="/twitter-bootstrap/twitter-bootstrap-v2/docs/assets/js/bootstrap-dropdown.js"></script>  
+
+<!-- Jquery -->
+<script type="text/javascript" src="/bootstrap/js/jquery-1.7.1.js"></script>
+
+<!-- Javascript -->
+<script type="text/javascript" src="/bootstrap/js/bootstrap.min.js"></script>
+
+
 <script type="text/javascript">  
         $(document).ready(function () {  
             $('.dropdown-toggle').dropdown();  
