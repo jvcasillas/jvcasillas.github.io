@@ -8,10 +8,17 @@ analytics : true
 
 Here you can find a list of some of the classes I have taught or am currently teaching at the University of Arizona. Click on the links for more information about each one.
 
-<ul>
-    <li><a href="" title="class 1">Spanish 102 - Elementary Spanish</a></li>
-    <li><a href="" title="class 2">Spanish 251 - Intermediate Spanish</a></li>
-    <li><a href="" title="class 3">Spanish 340 - Introduction to Spanish Phonetics and Phonology</a></li>
-    <li><a href="" title="class 4">Spanish 343 - Introduction to Spanish Phonetics and Phonology for the Heritage Speaker</a></li>
-    <li><a href="" title="class 5">Spanish 452 - Introduction to Hispanic Linguistics</a></li>
-</ul>
+
+[Spanish 102 - Elementary Spanish][102]
+[Spanish 251 - Intermediate Spanish][251]
+[Spanish 340 - Introduction to Spanish Phonetics and Phonology][340]
+[Spanish 343 - Introduction to Spanish Phonetics and Phonology for the Heritage Speaker][343]
+[Spanish 452 - Introduction to Hispanic Linguistics][452]
+[Spanish 457 - Applied Linguistics][457]
+
+[102]: /classes/span102
+[251]: /classes/span251
+[340]: /classes/span340
+[343]: /classes/span343
+[452]: /classes/span452
+[457]: /classes/span457
