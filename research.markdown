@@ -41,7 +41,6 @@ I am an active member of the [Arizona Applied Phonetics Laboratory](https://site
             <ul>
                 <li><a href="?b">Javascript Code</a></li>
                 <li><a href="?c">CSS Code</a></li>
-                <li><img src="coffee3.jpg" style="width:190px;height:84px;" /></li>
             </ul>
         </li>
     </ul>
