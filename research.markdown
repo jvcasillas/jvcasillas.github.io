@@ -14,14 +14,13 @@ analytics : true
     <li><a href="#tab3" data-toggle="tab">Proceedings</a></li>
     <li><a href="#tab4" data-toggle="tab">Presentations</a></li>
     <li class="dropdown">  
-        <a class="dropdown-toggle" data-toggle="dropdown" href="#">FrontEnd<b class="caret"></b></a>  
-            <ul class="dropdown-menu">  
-                <li><a href="#">Twitter Bootstrap</a></li>  
-                <li><a href="#">Google Plus API</a></li>  
-                <li><a href="#">HTML5</a></li>  
-                <li class="divider"></li>  
-                <li><a href="#">Examples</a></li>  
-            </ul>  
+        <a class="dropdown-toggle" data-toggle="dropdown" href="#tab5">FrontEnd<b class="caret"></b></a>  
+        <ul class="dropdown-menu">  
+            <li><a href="#">Twitter Bootstrap</a></li>  
+            <li><a href="#">Google Plus API</a></li>  
+            <li><a href="#">HTML5</a></li>  
+            <li><a href="#">Examples</a></li>  
+        </ul>  
     </li>  
   </ul>
   <div class="tab-content">
@@ -36,6 +35,9 @@ analytics : true
     </div>
     <div class="tab-pane" id="tab4">
       <p>Howdy, I'm in Section 4.</p>
+    </div>
+    <div class="tab-pane" id="tab5">
+      <p>Howdy, I'm in Section 5.</p>
     </div>
   </div>
 </div>
