@@ -8,7 +8,7 @@ analytics : true
 
 
 <div class="tabbable">
-    <ul class="nav nav-tabs">
+    <ul class="nav nav-tabs" id="#myTab a">
         <li class="active">
             <a href="#current-research" data-toggle="tab">Current research</a>
         </li>
@@ -33,11 +33,10 @@ analytics : true
 </div>
 
 
-<script src="ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"; type="text/javascript"> </script>
 <script type="text/javascript" src="/bootstrap/js/bootstrap.min.js"></script>
 <script type="text/javascript">
 $(function(){ 
-    $('.nav-tabs a').on('click', function (e) {
+    $('#myTab a').on('click', function (e) {
         e.preventDefault();
         $(this).tab('show');
     });  
