@@ -50,7 +50,6 @@ I am an active member of the [Arizona Applied Phonetics Laboratory](https://site
     <li class="active"><a href="#tab1" data-toggle="tab">Current research</a></li>
     <li><a href="#tab2" data-toggle="tab">Publications</a></li>
     <li><a href="#tab3" data-toggle="tab">Proceedings</a></li>
-
   </ul>
   <div class="tab-content">
     <div class="tab-pane active" id="tab1">
