@@ -7,16 +7,6 @@ analytics : true
 ### Research
 
 
-<script type="text/javascript">
-$(function(){ 
-    $("#myTab a:last").on('click', function (e) {
-        e.preventDefault();
-        $(this).tab('show');
-    });  
-});
-</script>
-
-
 <div class="tabbable">
     <ul class="nav nav-tabs" id="myTab">
         <li class="active">
@@ -52,3 +42,11 @@ $(function(){
     </div>
 </div>
 
+
+<script type="text/javascript" src="/twitter-bootstrap/twitter-bootstrap-v2/docs/assets/js/jquery.js"></script>  
+<script type="text/javascript" src="/twitter-bootstrap/twitter-bootstrap-v2/docs/assets/js/bootstrap-dropdown.js"></script>  
+<script type="text/javascript">  
+        $(document).ready(function () {  
+            $('.dropdown-toggle').dropdown();  
+        });  
+</script>  
