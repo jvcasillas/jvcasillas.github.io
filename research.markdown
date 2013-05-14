@@ -11,6 +11,8 @@ analytics : true
   <ul class="nav nav-tabs">
     <li class="active"><a href="#tab1" data-toggle="tab">Current research</a></li>
     <li><a href="#tab2" data-toggle="tab">Publications</a></li>
+    <li><a href="#tab3" data-toggle="tab">Proceedings</a></li>
+    <li><a href="#tab4" data-toggle="tab">Presentations</a></li>
   </ul>
   <div class="tab-content">
     <div class="tab-pane active" id="tab1">
