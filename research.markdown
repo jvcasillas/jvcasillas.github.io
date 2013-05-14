@@ -43,7 +43,7 @@ Casillas, J. V. La fricativización del africado /ʧ/: actitudes lingüístic
 
 ##### In preparation
 
-Casillas, J. V. (2013). Perception of English /i/-/I/ tense/lax vowel contrast by Spanish/English early bilinguals.  
+Casillas, J. V. Perception of English /i/-/I/ tense/lax vowel contrast by Spanish/English early bilinguals.  
 
-Casillas, J. V. (2013). El foco y el orden de palabras en español  
+Casillas, J. V. El foco y el orden de palabras en español  
 
