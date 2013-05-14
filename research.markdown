@@ -9,12 +9,11 @@ analytics : true
 
 <div class="tabbable"> <!-- Only required for left/right tabs -->
   <ul class="nav nav-tabs" id="myTab">
-    <li class="active"><a href="#tab1" data-toggle="tab">Current research</a></li>
-    <li><a href="#tab2" data-toggle="tab">Publications</a></li>
-    <li><a href="#tab3" data-toggle="tab">Proceedings</a></li>
-    <li><a href="#tab4" data-toggle="tab">Presentations</a></li>
+    <li><a href="#research" data-toggle="tab">Current research</a></li>
+    <li><a href="#publications" data-toggle="tab">Publications</a></li>
+    <li><a href="#presentations" data-toggle="tab">Presentations</a></li>
     <li class="dropdown">  
-        <a class="dropdown-toggle" data-toggle="dropdown" href="#tab5">FrontEnd<b class="caret"></b></a>  
+        <a class="dropdown-toggle" data-toggle="dropdown" href="#tab4">FrontEnd<b class="caret"></b></a>  
         <ul class="dropdown-menu">  
             <li><a href="#">Twitter Bootstrap</a></li>  
             <li><a href="#">Google Plus API</a></li>  
@@ -24,20 +23,17 @@ analytics : true
     </li>  
   </ul>
   <div class="tab-content">
-    <div class="tab-pane active" id="tab1">
+    <div class="tab-pane" id="research">
       <p>I am an active member of the Arizona Applied Phonetics Laboratory at the University of Arizona. My main interests are in phonetics and syntax. My current projects are centered on second language speech learning &amp; bilingualism. Specifically, I investigate native phonetic experience and its influence on L2 speech production, perception and lexical processing. I am also interested in how dilectal variation affects linguistic attitudes.</p>
     </div>
-    <div class="tab-pane" id="tab2">
+    <div class="tab-pane" id="publications">
       <p>Howdy, I'm in Section 2.</p>
     </div>
-    <div class="tab-pane" id="tab3">
+    <div class="tab-pane" id="presentations">
       <p>Howdy, I'm in Section 3.</p>
     </div>
     <div class="tab-pane" id="tab4">
       <p>Howdy, I'm in Section 4.</p>
-    </div>
-    <div class="tab-pane" id="tab5">
-      <p>Howdy, I'm in Section 5.</p>
     </div>
   </div>
 </div>
