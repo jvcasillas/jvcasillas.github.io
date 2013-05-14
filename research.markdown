@@ -8,7 +8,7 @@ analytics : true
 
 
 <div class="tabbable"> <!-- Only required for left/right tabs -->
-  <ul class="nav nav-tabs">
+  <ul class="nav nav-tabs" id="myTab">
     <li class="active"><a href="#tab1" data-toggle="tab">Current research</a></li>
     <li><a href="#tab2" data-toggle="tab">Publications</a></li>
     <li><a href="#tab3" data-toggle="tab">Proceedings</a></li>
@@ -30,7 +30,11 @@ analytics : true
   </div>
 </div>
 
-
+<script>
+  $(function () {
+    $('#myTab a:last').tab('show');
+  })
+</script>
 
 ##### Current research
 
