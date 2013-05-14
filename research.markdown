@@ -6,43 +6,9 @@ analytics : true
 
 ### Research
 
-##### Current research
 
-I am an active member of the [Arizona Applied Phonetics Laboratory](https://sites.google.com/site/miquelsimonet/sports-lab-az) at the University of Arizona. My main interests are in phonetics and syntax. My current projects are centered on second language speech learning & bilingualism. Specifically, I investigate native phonetic experience and its influence on L2 speech production, perception and lexical processing. I am also interested in how dilectal variation affects linguistic attitudes.
 
-<div id="acdnmenu">
-    <ul>
-        <li><h4>Publications</h4>
-            <ul>
-		      <li>Casillas, J. V. (2012). La fricativización del africado /ʧ/ en el habla de las mujeres del sur de Arizona. <i>Divergencias: Revista de estudios lingüísticos y literarios</i>, 10(1).</li>
-		      <li>Casillas, J. V. (2010). La vibrante múltiple intervocálica: los ejercicios de canto como ayuda a su pronunciación en español. <i>La Gaceta Hispánica de Madrid</i>, VIII.</li>
-              <li>Casillas, J. V. (2009). El uso de los refranes en el quijote. <i>La Gaceta Hispánica de Madrid</i>, VIII.</li>
-            </ul>
-        </li>
-        <li><h4>Proceedings</h4>
-            <ul>
-                <li>tester</li>
-                <li>testie</li>
-            </ul>
-        </li>
-        <li><h4>Presentations</h4>
-            <ul>
-                <li><h5>Oral</h5>
-                	<ul>
-                		<li>test</li>
-                		<li>test</li>
-			         </ul>
-                </li>
-                <li><h5>Poster</h5>
-                	<ul>
-                		<li>test</li>
-                		<li>test</li>
-                    </ul>
-                </li>
-            </ul>
-        </li>
-    </ul>
-</div>
+
 
 
 <div class="tabbable"> <!-- Only required for left/right tabs -->
@@ -63,7 +29,9 @@ I am an active member of the [Arizona Applied Phonetics Laboratory](https://site
 
 
 
+##### Current research
 
+I am an active member of the [Arizona Applied Phonetics Laboratory](https://sites.google.com/site/miquelsimonet/sports-lab-az) at the University of Arizona. My main interests are in phonetics and syntax. My current projects are centered on second language speech learning & bilingualism. Specifically, I investigate native phonetic experience and its influence on L2 speech production, perception and lexical processing. I am also interested in how dilectal variation affects linguistic attitudes.
 
 
 
