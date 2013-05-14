@@ -53,7 +53,7 @@ I am an active member of the [Arizona Applied Phonetics Laboratory](https://site
   </ul>
   <div class="tab-content">
     <div class="tab-pane active" id="tab1">
-      <p>I am an active member of the [Arizona Applied Phonetics Laboratory](https://sites.google.com/site/miquelsimonet/sports-lab-az) at the University of Arizona. My main interests are in phonetics and syntax. My current projects are centered on second language speech learning & bilingualism. Specifically, I investigate native phonetic experience and its influence on L2 speech production, perception and lexical processing. I am also interested in how dilectal variation affects linguistic attitudes.</p>
+      <p>I am an active member of the [Arizona Applied Phonetics Laboratory](https://sites.google.com/site/miquelsimonet/sports-lab-az) at the University of Arizona. My main interests are in phonetics and syntax. My current projects are centered on second language speech learning &amp; bilingualism. Specifically, I investigate native phonetic experience and its influence on L2 speech production, perception and lexical processing. I am also interested in how dilectal variation affects linguistic attitudes.</p>
     </div>
     <div class="tab-pane" id="tab2">
       <p>Howdy, I'm in Section 2.</p>
