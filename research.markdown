@@ -32,6 +32,9 @@ analytics : true
     </div>
 </div>
 
+<script>
+$('.dropdown-toggle').dropdown()
+</script>
 
 <script type="text/javascript">
 $(function(){ 
