@@ -8,8 +8,7 @@ analytics : true
 
 ##### Current research
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-
+My main interests are in phonetics and syntax. My current projects are centered on second language speech learning & bilingualism. Specifically, I investigate native phonetic experience and its influence on L2 speech production, perception and lexical processing. I am also interested in how dilectal variation affects linguistic attitudes.
 
 ##### Publications
 
