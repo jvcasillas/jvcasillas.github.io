@@ -14,8 +14,8 @@ I am an active member of the [Arizona Applied Phonetics Laboratory](https://site
     <ul>
         <li>Publications
             <ul>
-		<li>test</li>
-		<li>test2</li>
+		      <li>test</li>
+		      <li>test2</li>
             </ul>
         </li>
         <li>Proceedings
@@ -30,13 +30,14 @@ I am an active member of the [Arizona Applied Phonetics Laboratory](https://site
                 	<ul>
                 		<li>test</li>
                 		<li>test</li>
-			</ul>
-		<li>Poster
+			         </ul>
+                </li>
+                <li>Poster
                 	<ul>
                 		<li>test</li>
                 		<li>test</li>
-			</ul>
-		</li>
+                    </ul>
+                </li>
             </ul>
         </li>
     </ul>
