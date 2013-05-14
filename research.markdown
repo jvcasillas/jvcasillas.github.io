@@ -4,10 +4,43 @@ title: Research
 analytics : true
 ---
 
-<head>
-	<meta http-equiv="Content-type" content="text/html; charset=utf-8" />
-	<link rel="stylesheet" href="/bootstrap/css/accordion.css">
-</head>
+
+<div id="acdnmenu">
+    <ul>
+        <li>Categories
+            <ul>
+                <li>Sub Categories
+                    <ul>
+                        <li><a href="?0">Accordion Menus</a></li>
+                        <li><a href="accordion-menu">Web Menus</a></li>
+                        <li><a href="?1">Sliding Menus</a></li>
+                    </ul>
+                </li>
+                <li><a href="?2">Product 2</a></li>
+                <li><img src="../img/demo/coffee1.jpg" style="width:190px;height:87px;" /></li>
+            </ul>
+        </li>
+        <li>Support
+            <ul style="background:transparent url(coffee2.jpg) no-repeat 160px bottom;">
+                <li><a href="?3">Product Support</a></li>
+                <li id="li22">Locations
+                    <ul>
+                        <li><a href="?4">How-To Resources</a></li>
+                        <li><a href="?5">Product Support</a></li>
+                    </ul>
+                </li>
+                <li><a href="?6">Opening Time</a></li>
+            </ul>
+        </li>
+        <li id="li3">Technical Solutions
+            <ul>
+                <li><a href="?b">Javascript Code</a></li>
+                <li><a href="?c">CSS Code</a></li>
+                <li><img src="coffee3.jpg" style="width:190px;height:84px;" /></li>
+            </ul>
+        </li>
+    </ul>
+</div>
 
 ### Research
 
