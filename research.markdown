@@ -32,8 +32,7 @@ analytics : true
     </div>
 </div>
 
-<script type="text/javascript" src="/bootstrap/js/jquery-1.7.1.js"></script>
-<script type="text/javascript" src="/bootstrap/js/bootstrap.js"></script>
+
 <script type="text/javascript">
 $(function(){ 
     $("#myTab a:last").on('click', function (e) {
