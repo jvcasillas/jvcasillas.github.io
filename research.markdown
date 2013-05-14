@@ -12,20 +12,15 @@ I am an active member of the [Arizona Applied Phonetics Laboratory](https://site
 
 <div id="acdnmenu">
     <ul>
-        <li>Categories
+        <li>Publications
             <ul>
-                <li>Sub Categories
-                    <ul>
-                        <li><a href="?0">Accordion Menus</a></li>
-                        <li><a href="accordion-menu">Web Menus</a></li>
-                        <li><a href="?1">Sliding Menus</a></li>
-                    </ul>
-                </li>
+                <li>test</li>
+		<li>test2</li>
                 <li><a href="?2">Product 2</a></li>
                 <li><img src="../img/demo/coffee1.jpg" style="width:190px;height:87px;" /></li>
             </ul>
         </li>
-        <li>Support
+        <li>Proceedings
             <ul style="background:transparent url(coffee2.jpg) no-repeat 160px bottom;">
                 <li><a href="?3">Product Support</a></li>
                 <li id="li22">Locations
