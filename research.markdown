@@ -4,6 +4,11 @@ title: Research
 analytics : true
 ---
 
+<head>
+	<meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+	<link rel="stylesheet" href="/bootstrap/css/accordion.css">
+</head>
+
 ### Research
 
 ##### Current research
