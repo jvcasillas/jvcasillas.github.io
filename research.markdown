@@ -39,9 +39,15 @@ analytics : true
     </div>
 </div>
 
-<script>
-$('.dropdown-toggle').dropdown()
-</script>
+<!-- Custom CSS -->
+<link rel="stylesheet" href="/bootstrap/css/bootstrap.min2.css">
+
+<!-- Jquery -->
+<script type="text/javascript" src="/bootstrap/js/jquery-1.7.1.js"></script>
+
+<!-- Javascript -->
+<script type="text/javascript" src="/bootstrap/js/bootstrap.min.js"></script>
+
 
 <script type="text/javascript">
 $(function(){ 
