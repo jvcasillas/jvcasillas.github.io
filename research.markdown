@@ -35,11 +35,8 @@ analytics : true
 
 <script type="text/javascript" src="/bootstrap/js/bootstrap.js"></script>
 <script type="text/javascript">
-$(function(){ 
-    $("#myTab a:last").on('click', function (e) {
-        e.preventDefault();
-        $(this).tab('show');
-    });  
+$("#btn-next").click(function(event) {
+    $('#2').tab('show');
 });
 </script>
 
