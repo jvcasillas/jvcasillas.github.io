@@ -47,11 +47,13 @@ analytics : true
 
 <script src="/bootstrap/js/bootstrap.min.js"></script>
 <script>
-jQuery(document).ready(function ($) {
-    $('.nav-tabs').tab();
+$(function(){ 
+    $('.nav-tabs a').on('click', function (e) {
+        e.preventDefault();
+        $(this).tab('show');
+    });  
 });
 </script>
-
 
 
 ##### Current research
