@@ -28,13 +28,16 @@ $(function(){
         <li class="">
             <a href="#presentations" data-toggle="tab">Presentations</a>
         </li>
-        <li class="dropdown">
-            <a href="#new" class="dropdown-toggle" data-toggle="dropdown">Filters<b class="caret"></b></a>
-                <ul class="dropdown-menu">
-                    <li><a href="#new1">Filter1</a></li>
-                    <li><a href="#new2">Filter2</a></li>
-                </ul>
-        </li>
+        <li class="dropdown" id="accountmenu">  
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#">Tutorials<b class="caret"></b></a>  
+                        <ul class="dropdown-menu">  
+                            <li><a href="#">PHP</a></li>  
+                            <li><a href="#">MySQL</a></li>  
+                            <li class="divider"></li>  
+                            <li><a href="#">JavaScript</a></li>  
+                            <li><a href="#">HTML5</a></li>  
+                        </ul>  
+                    </li>
     </ul>
     <div class="tab-content">
         <div class="tab-pane active" id="current-research">
@@ -46,15 +49,6 @@ $(function(){
         <div class="tab-pane" id="presentations">
             <p>Howdy, I'm in Section 3.</p>
         </div>
-        <div class="tab-pane" id="new">
-            <p>Howdy, I'm in Section 3.</p>
-        </div>
-        <div class="tab-pane" id="new1">
-            <p>Howdy, I'm in Section 3.</p>
-        </div>
-        <div class="tab-pane" id="new2">
-            <p>Howdy, I'm in Section 3.</p>
-        </div>                     
     </div>
 </div>
 
