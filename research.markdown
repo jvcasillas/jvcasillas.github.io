@@ -9,12 +9,11 @@ analytics : true
 
 <div class="tabbable"> <!-- Only required for left/right tabs -->
   <ul class="nav nav-tabs">
-    <li><a href="#tab1" data-toggle="tab">Current research</a></li>
+    <li class="active"><a href="#tab1" data-toggle="tab">Current research</a></li>
     <li><a href="#tab2" data-toggle="tab">Publications</a></li>
-    <li><a href="#tab3" data-toggle="tab">Proceedings</a></li>
   </ul>
   <div class="tab-content">
-    <div class="tab-pane" id="tab1">
+    <div class="tab-pane active" id="tab1">
       <p>I am an active member of the Arizona Applied Phonetics Laboratory at the University of Arizona. My main interests are in phonetics and syntax. My current projects are centered on second language speech learning &amp; bilingualism. Specifically, I investigate native phonetic experience and its influence on L2 speech production, perception and lexical processing. I am also interested in how dilectal variation affects linguistic attitudes.</p>
     </div>
     <div class="tab-pane" id="tab2">
