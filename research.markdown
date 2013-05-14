@@ -19,30 +19,25 @@ analytics : true
 -->
 
 <div class="tabbable"> <!-- Only required for left/right tabs -->
-  <ul class="nav nav-tabs" id="myTab">
-    <li class="active"><a href="#research" data-toggle="tab">Current research</a></li>
-    <li class=""><a href="#publications" data-toggle="tab">Publications</a></li>
-    <li class=""><a href="#presentations" data-toggle="tab">Presentations</a></li> 
-  </ul>
-  <div class="tab-content">
-    <div class="tab-pane active" id="research">
-      <p>I am an active member of the Arizona Applied Phonetics Laboratory at the University of Arizona. My main interests are in phonetics and syntax. My current projects are centered on second language speech learning &amp; bilingualism. Specifically, I investigate native phonetic experience and its influence on L2 speech production, perception and lexical processing. I am also interested in how dilectal variation affects linguistic attitudes.</p>
+    <ul class="nav nav-tabs">
+        <li class="active"><a href="#research" data-toggle="tab">Current research</a></li>
+        <li class=""><a href="#publications" data-toggle="tab">Publications</a></li>
+        <li class=""><a href="#presentations" data-toggle="tab">Presentations</a></li> 
+    </ul>
+    <div class="tab-content">
+        <div class="tab-pane active" id="research">
+            <p>I am an active member of the Arizona Applied Phonetics Laboratory at the University of Arizona. My main interests are in phonetics and syntax. My current projects are centered on second language speech learning &amp; bilingualism. Specifically, I investigate native phonetic experience and its influence on L2 speech production, perception and lexical processing. I am also interested in how dilectal variation affects linguistic attitudes.</p>
+        </div>
+        <div class="tab-pane" id="publications">
+            <p>Howdy, I'm in Section 2.</p>
+        </div>
+        <div class="tab-pane" id="presentations">
+            <p>Howdy, I'm in Section 3.</p>
+        </div>
     </div>
-    <div class="tab-pane" id="publications">
-      <p>Howdy, I'm in Section 2.</p>
-    </div>
-    <div class="tab-pane" id="presentations">
-      <p>Howdy, I'm in Section 3.</p>
-    </div>
-  </div>
 </div>
 
-<script>
-$('#myTab a[href="#profile"]').tab('show'); // Select tab by name
-$('#myTab a:first').tab('show'); // Select first tab
-$('#myTab a:last').tab('show'); // Select last tab
-$('#myTab li:eq(2) a').tab('show'); // Select third tab (0-indexed)
-</script>
+
 
 ##### Current research
 
