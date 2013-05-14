@@ -19,10 +19,10 @@ analytics : true
             <a href="#presentations" data-toggle="tab">Presentations</a>
         </li>
         <li class="dropdown">
-            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Filters <b class="caret"></b></a>
+            <a href="#new" class="dropdown-toggle" data-toggle="dropdown">Filters<b class="caret"></b></a>
                 <ul class="dropdown-menu">
-                    <li><a href="#">Filter1</a></li>
-                    <li><a href="#">Filter2</a></li>
+                    <li><a href="#new1">Filter1</a></li>
+                    <li><a href="#new2">Filter2</a></li>
                 </ul>
         </li>
     </ul>
@@ -36,17 +36,18 @@ analytics : true
         <div class="tab-pane" id="presentations">
             <p>Howdy, I'm in Section 3.</p>
         </div>
+        <div class="tab-pane" id="new">
+            <p>Howdy, I'm in Section 3.</p>
+        </div>
+        <div class="tab-pane" id="new1">
+            <p>Howdy, I'm in Section 3.</p>
+        </div>
+        <div class="tab-pane" id="new2">
+            <p>Howdy, I'm in Section 3.</p>
+        </div>                     
     </div>
 </div>
 
-<!-- Custom CSS -->
-<link rel="stylesheet" href="/bootstrap/css/bootstrap.min2.css">
-
-<!-- Jquery -->
-<script type="text/javascript" src="/bootstrap/js/jquery-1.7.1.js"></script>
-
-<!-- Javascript -->
-<script type="text/javascript" src="/bootstrap/js/bootstrap.min.js"></script>
 
 
 <script type="text/javascript">
