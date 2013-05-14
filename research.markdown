@@ -35,7 +35,7 @@ analytics : true
 
 
 <!-- Jquery -->
-<script type="text/javascript" src="/bootstrap/js/jquery-1.7.2.js"></script>
+<script type="text/javascript" src="/bootstrap/js/jquery-1.7.2.min.js"></script>
 <!-- Javascript -->
 <script type="text/javascript" src="/bootstrap/js/bootstrap.min.js"></script>
 
