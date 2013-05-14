@@ -6,17 +6,6 @@ analytics : true
 
 ### Research
 
-<!--
-<li class="dropdown">  
-        <a class="dropdown-toggle" data-toggle="dropdown" href="#tab4">FrontEnd<b class="caret"></b></a>  
-        <ul class="dropdown-menu">  
-            <li><a href="#">Twitter Bootstrap</a></li>  
-            <li><a href="#">Google Plus API</a></li>  
-            <li><a href="#">HTML5</a></li>  
-            <li><a href="#">Examples</a></li>  
-        </ul>  
-    </li> 
--->
 
 <div class="tabbable">
     <ul class="nav nav-tabs">
@@ -43,6 +32,15 @@ analytics : true
     </div>
 </div>
 
+<script type="text/javascript" src="/bootstrap/js/bootstrap.min.js"></script>
+<script type="text/javascript">
+$(function(){ 
+    $('.nav-tabs a').on('click', function (e) {
+        e.preventDefault();
+        $(this).tab('show');
+    });  
+});
+</script>
 
 
 ##### Current research
