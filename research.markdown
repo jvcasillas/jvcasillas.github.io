@@ -26,10 +26,14 @@ analytics : true
         <div class="tab-pane" id="publications">
             <h4>Recent Publications</h4>
                 <p>
-                Casillas, J. V. (2012). La fricativización del africado /ʧ/ en el habla de las mujeres del sur de Arizona. <i>Divergencias: Revista de estudios lingüísticos y literarios</i>, 10(1). </br>
+                Casillas, J. V. (2012). La fricativización del africado /ʧ/ en el habla de las mujeres del sur de Arizona. <i>Divergencias: Revista de estudios lingüísticos y literarios</i>, 10(1).
+                </p>
 
-                Casillas, J. V. (2010). La vibrante múltiple intervocálica: los ejercicios de canto como ayuda a su pronunciación en español. <i>La Gaceta Hispánica de Madrid</i>, VIII. </br>
+                <p>
+                Casillas, J. V. (2010). La vibrante múltiple intervocálica: los ejercicios de canto como ayuda a su pronunciación en español. <i>La Gaceta Hispánica de Madrid</i>, VIII.
+                </p>
 
+                <p>
                 Casillas, J. V. (2009). El uso de los refranes en el quijote. <i>La Gaceta Hispánica de Madrid</i>, VIII. 
                 </p>
 
@@ -40,10 +44,12 @@ analytics : true
 
             <h4>In preparation</h4>
                 <p>
-                Casillas, J. V. Perception of English /i/-/I/ tense/lax vowel contrast by Spanish/English early bilinguals. </br> 
+                Casillas, J. V. Perception of English /i/-/I/ tense/lax vowel contrast by Spanish/English early bilinguals.
+                </p> 
 
+                <p>
                 Casillas, J. V. El foco y el orden de palabras en español
-            </p>
+                </p>
         </div>
         <div class="tab-pane" id="presentations">
             <p>Howdy, I'm in Section 3.</p>
