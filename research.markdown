@@ -28,7 +28,7 @@ analytics : true
         <div class="tab-pane" id="publications">
             <h4>Recent Publications</h4>
                 <p>
-                    Casillas, J. V. (2012). La fricativización del africado /ʧ/ en el habla de las mujeres del sur de Arizona. <i>Divergencias: Revista de estudios lingüísticos y literarios</i>, 10(1).
+                    Casillas, J. V. (2012). La fricativización del africado /ʧ/ en el habla de las mujeres del sur de Arizona. <i>Divergencias: Revista de estudios lingüísticos y literarios</i>, 10 (1).
                 </p>
 
                 <p>
@@ -41,7 +41,7 @@ analytics : true
 
             <h4>Proceedings</h4>
                 <p>
-                    Casillas, J. V. La fricativización del africado /ʧ/: actitudes lingüísticas cerca de la frontera.
+                    Casillas, J. V. La fricativización del africado /ʧ/: actitudes lingüísticas cerca de la frontera. In <i>Selected Proceedings of the 6th Workshop on Spanish Sociolinguistics</i>. Somerville, MA: Cascadilla Proceedings Project. www.lingref.com
                 </p>
 
             <h4>Submitted</h4>
@@ -77,7 +77,7 @@ analytics : true
                 </p>
 
                 <p>
-                    Casillas, J. V. (2011). Going mental with vocabulary: the use of idevice applications in the classroom. Spanish Heritage Language Program Share Day. University of Arizona. Tucson, Arizona (March, 2011). 
+                    Casillas, J. V. (2011). Going mental with vocabulary: the use of iDevice applications in the classroom. Spanish Heritage Language Program Share Day. University of Arizona. Tucson, Arizona (March, 2011). 
                 </p>
 
                 <p>
