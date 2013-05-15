@@ -26,29 +26,33 @@ analytics : true
         <div class="tab-pane" id="publications">
             <h4>Recent Publications</h4>
                 <p>
-                Casillas, J. V. (2012). La fricativización del africado /ʧ/ en el habla de las mujeres del sur de Arizona. <i>Divergencias: Revista de estudios lingüísticos y literarios</i>, 10(1).
+                    Casillas, J. V. (2012). La fricativización del africado /ʧ/ en el habla de las mujeres del sur de Arizona. <i>Divergencias: Revista de estudios lingüísticos y literarios</i>, 10(1).
                 </p>
 
                 <p>
-                Casillas, J. V. (2010). La vibrante múltiple intervocálica: los ejercicios de canto como ayuda a su pronunciación en español. <i>La Gaceta Hispánica de Madrid</i>, VIII.
+                    Casillas, J. V. (2010). La vibrante múltiple intervocálica: los ejercicios de canto como ayuda a su pronunciación en español. <i>La Gaceta Hispánica de Madrid</i>, VIII.
                 </p>
 
                 <p>
-                Casillas, J. V. (2009). El uso de los refranes en el quijote. <i>La Gaceta Hispánica de Madrid</i>, VIII. 
+                    Casillas, J. V. (2009). El uso de los refranes en el quijote. <i>La Gaceta Hispánica de Madrid</i>, VIII. 
                 </p>
 
             <h4>Submitted</h4>
                 <p>
-                Casillas, J. V. &amp; Simonet, M. On how English-dominant Spanish-English bilinguals process English tense/lax vowel contrasts.
+                    Casillas, J. V. &amp; Simonet, M. On how English-dominant Spanish-English bilinguals process English tense/lax vowel contrasts.
                 </p>
 
             <h4>In preparation</h4>
                 <p>
-                Casillas, J. V. Perception of English /i/-/I/ tense/lax vowel contrast by Spanish/English early bilinguals.
+                    Casillas, J. V. Perception of English /i/-/I/ tense/lax vowel contrast by Spanish/English early bilinguals.
                 </p> 
 
                 <p>
-                Casillas, J. V. El foco y el orden de palabras en español
+                    Casillas, J. V. &amp; Simonet, M. Production, perception and processing (lexical) of voiced and voiceless Spanish and English stops by early and late Spanish-English bilinguals.
+                </p>
+                
+                <p>
+                    Casillas, J. V. El foco y el orden de palabras en español
                 </p>
         </div>
         <div class="tab-pane" id="presentations">
