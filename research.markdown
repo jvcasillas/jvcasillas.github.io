@@ -25,6 +25,8 @@ analytics : true
         </div>
         <div class="tab-pane" id="publications">
             <p>
+                <h4>Recent Publications</h4>
+                
                 Casillas, J. V. (2012). La fricativización del africado /ʧ/ en el habla de las mujeres del sur de Arizona. <i>Divergencias: Revista de estudios lingüísticos y literarios</i>, 10(1). </br>
 
                 Casillas, J. V. (2010). La vibrante múltiple intervocálica: los ejercicios de canto como ayuda a su pronunciación en español. <i>La Gaceta Hispánica de Madrid</i>, VIII. </br>
