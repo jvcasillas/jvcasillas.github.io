@@ -24,21 +24,22 @@ analytics : true
             <p>I am an active member of the <a alt="AAPL" href="https://sites.google.com/site/miquelsimonet/sports-lab-az" target='_new'><span class="showtooltip" title="AAPL webpage">Arizona Applied Phonetics Laboratory</span></a> at the University of Arizona. My main interests are in phonetics and syntax. My current projects are centered on second language speech learning &amp; bilingualism. Specifically, I investigate native phonetic experience and its influence on L2 speech production, perception and lexical processing. I am also interested in how dilectal variation affects linguistic attitudes.</p>
         </div>
         <div class="tab-pane" id="publications">
-            <p>
-                <h4>Recent Publications</h4>
-                
+            <h4>Recent Publications</h4>
+                <p>
                 Casillas, J. V. (2012). La fricativización del africado /ʧ/ en el habla de las mujeres del sur de Arizona. <i>Divergencias: Revista de estudios lingüísticos y literarios</i>, 10(1). </br>
 
                 Casillas, J. V. (2010). La vibrante múltiple intervocálica: los ejercicios de canto como ayuda a su pronunciación en español. <i>La Gaceta Hispánica de Madrid</i>, VIII. </br>
 
-                Casillas, J. V. (2009). El uso de los refranes en el quijote. <i>La Gaceta Hispánica de Madrid</i>, VIII. </br>
+                Casillas, J. V. (2009). El uso de los refranes en el quijote. <i>La Gaceta Hispánica de Madrid</i>, VIII. 
+                </p>
 
-                <h4>Submitted</h4>
+            <h4>Submitted</h4>
+                <p>
+                Casillas, J. V. &amp; Simonet, M. On how English-dominant Spanish-English bilinguals process English tense/lax vowel contrasts.
+                </p>
 
-                Casillas, J. V. &amp; Simonet, M. On how English-dominant Spanish-English bilinguals process English tense/lax vowel contrasts. </br>
-
-                <h4>In preparation</h4>
-
+            <h4>In preparation</h4>
+                <p>
                 Casillas, J. V. Perception of English /i/-/I/ tense/lax vowel contrast by Spanish/English early bilinguals. </br> 
 
                 Casillas, J. V. El foco y el orden de palabras en español
