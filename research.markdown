@@ -18,19 +18,9 @@ analytics : true
         <li class="">
             <a href="#presentations" data-toggle="tab">Presentations</a>
         </li>
-        <li class="dropdown">  
-          <a class="dropdown-toggle" data-toggle="dropdown" href="#">BackEnd<b class="caret bottom-up"></b></a>  
-          <ul class="dropdown-menu bottom-up pull-right">  
-            <li><a href="#">PHP</a></li>  
-            <li><a href="#">MySQL</a></li>  
-            <li><a href="#">PostgreSQL</a></li>  
-            <li class="divider"></li>  
-            <li><a href="#">Live Demos</a></li>  
-          </ul>  
-        </li>
     </ul>
 
-    
+
     <div class="tab-content">
         <div class="tab-pane active" id="current-research">
             <p>I am an active member of the <a alt="AAPL" href="https://sites.google.com/site/miquelsimonet/sports-lab-az" target='_new'><span class="showtooltip" title="AAPL webpage">Arizona Applied Phonetics Laboratory</span></a> at the University of Arizona. My main interests are in phonetics and syntax. My current projects are centered on second language speech learning &amp; bilingualism. Specifically, I investigate native phonetic experience and its influence on L2 speech production, perception and lexical processing. I am also interested in how dilectal variation affects linguistic attitudes.</p>
@@ -75,10 +65,10 @@ analytics : true
 
 
 
-<!-- Jquery -->
+<!-- Jquery
 <script type="text/javascript" src="/bootstrap/js/jquery-1.7.2.min.js"></script>
-<!-- Javascript -->
-<script type="text/javascript" src="/bootstrap/js/bootstrap.min.js"></script>
+Javascript <script type="text/javascript" src="/bootstrap/js/bootstrap.min.js"></script>
+-->
 
 
 <script type="text/javascript">  
