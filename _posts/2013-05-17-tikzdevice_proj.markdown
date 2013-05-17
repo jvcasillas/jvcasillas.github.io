@@ -26,7 +26,7 @@ Next we need to prepare where we are going to keep the plots produced by tikzDev
 ![tree](/assets/images/tikz_workflow.png)
 
 [part I]: "/r/latex/2013/05/11/install-tikz-tut.html"
-[R]: 
+[R]: "http://www.r-project.org"
 [knitr]: "http://yihui.name/knitr/"
 [tm2]: "https://github.com/textmate/textmate"
 [st2]: "http://www.sublimetext.com"
