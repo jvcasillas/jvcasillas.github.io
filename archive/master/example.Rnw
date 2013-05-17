@@ -1,0 +1,56 @@
+\documentclass[12pt]{article}
+\usepackage{tikz}
+\usepackage{tipa}
+\usepackage[hmargin=1.54cm,vmargin=1.54cm]{geometry}
+\geometry{a4paper}
+\usepackage{fancyhdr} % This should be set AFTER setting up the page geometry
+\pagestyle{fancy} % options: empty , plain , fancy
+\renewcommand{\headrulewidth}{0pt} % customise the layout...
+\lhead{}\chead{}\rhead{}
+\lfoot{}\cfoot{}\rfoot{}
+
+
+
+
+\begin{document}
+
+
+<<set-options, echo=FALSE, cache=FALSE, warning=FALSE, message=FALSE>>=
+options(replace.assign=TRUE,width=90)
+knit_hooks$set(par=function(before, options, envir){if (before) par(mar=c(4,4,.1,.1),cex.lab=.95,cex.axis=.9,mgp=c(2,.7,0),tcl=-.3)})
+opts_chunk$set(fig.width=3, fig.height=3)
+read_chunk('example.R')
+@
+
+
+
+<<load, echo=FALSE, results="hide", warning=FALSE, message=FALSE>>=
+@
+
+
+
+
+<<cars, dev="tikz",results='hide', echo=FALSE, warning=FALSE, message=FALSE>>=
+@
+
+\begin{figure}
+\caption{Here is the cars plot}
+\centering
+\include{plots_folder/cars-plot}
+\end{figure}
+
+
+
+<<ident, dev="tikz",results="hide", echo=FALSE, warning=FALSE, message=FALSE>>=
+@
+
+\begin{figure}
+\caption{here is the identification plot}
+\centering
+\include{plots_folder/ident-plot}
+\end{figure}
+
+% section ident_example (end)
+
+\end{document}
+
