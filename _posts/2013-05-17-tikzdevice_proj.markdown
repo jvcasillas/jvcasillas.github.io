@@ -11,7 +11,7 @@ tags: r LaTeX tikzDevice knitr tutorial
 
 #### Overview
 
-This mini tutorial is part II about incorporating __tikzDevice__ into your workflow. It explains the file structure necessary to successfully include __tikzDevice__ plots into your __LaTeX document___. You must first have __tikzDevice installed___. If you don't, see [part I][part I] for more information.
+This mini tutorial is part II about incorporating __tikzDevice__ into your workflow. It explains the file structure necessary to successfully include __tikzDevice__ plots into your __LaTeX document__. You must first have __tikzDevice installed___. If you don't, see [part I][part I] for more information.
 
 #### The structure
 
@@ -25,12 +25,12 @@ Next we need to prepare where we are going to keep the plots produced by tikzDev
 
 ![tree](/assets/images/tikz_workflow.png)
 
-[part I]: 
+[part I]: "/r/latex/2013/05/11/install-tikz-tut.html"
 [R]: 
 [knitr]: "http://yihui.name/knitr/"
 [tm2]: "https://github.com/textmate/textmate"
 [st2]: "http://www.sublimetext.com"
-[master.zip]: (/assests/files/master.zip)
+[master.zip]: "/assests/files/master.zip"
 
 <div id="disqus_thread"></div>
 <script type="text/javascript">
