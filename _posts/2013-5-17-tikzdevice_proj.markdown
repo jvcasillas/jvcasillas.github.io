@@ -6,7 +6,7 @@ published: true
 status: publish
 categories: r-code
 analytics : true
-tags: r LaTeX tikzDevice knitr
+tags: r LaTeX tikzDevice knitr tutorial
 ---
 
 #### Overview
