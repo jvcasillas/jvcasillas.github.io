@@ -11,7 +11,7 @@ tags: r LaTeX tikzDevice knitr tutorial
 
 #### Overview
 
-This mini tutorial is part II about incorporating __tikzDevice__ into your workflow. It explains the file structure necessary to successfully include __tikzDevice__ plots into your __LaTeX document__. You must first have __tikzDevice installed___. If you don't, see [part I][part I] for more information.
+This mini tutorial is part II about incorporating __tikzDevice__ into your workflow. It explains the file structure necessary to successfully include __tikzDevice__ plots into your __LaTeX document__. You must first have __tikzDevice installed__. If you don't, see [part I][part I] for more information.
 
 #### The structure
 
