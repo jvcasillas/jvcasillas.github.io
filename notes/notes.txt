@@ -1,0 +1,8 @@
+tags
+	- currently don't remember how I did these
+	- used the ruby tag_gen.rb command, it doesn't work now
+	- must put notes here when i remember
+
+Markdown to html
+	- use rmd.sh shell script in the archive folder
+	- this is going to take some relearning too
