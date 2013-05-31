@@ -10,7 +10,7 @@ tags: r phonTools spectrogram praat
 ---
 
  
-This is how I made the colored spectrogram from the homepage (it's me saying 'welcome'). This was done using the [phonTools][phonTools] package written by [Santiago Barreda][Santiago Barreda].
+This is how I made the colored spectrogram from the homepage (it's me saying 'welcome'). This was done using the [phonTools][phonTools] package written by [Santiago Barreda][Santiago Barreda]. 
  
 
  
