@@ -42,6 +42,8 @@ analytics : true
             <h4>Proceedings</h4>
                 <p>
                     Casillas, J. V. La fricativización del africado /ʧ/: actitudes lingüísticas cerca de la frontera. In <i>Selected Proceedings of the 6th Workshop on Spanish Sociolinguistics</i>. Somerville, MA: Cascadilla Proceedings Project. www.lingref.com
+
+                    Casillas, J. V. 2013. La fricativización del africado /ʧ/: actitudes lingüísticas cerca de la frontera. In <i>Selected Proceedings of the 6th Workshop on Spanish Sociolinguistics</i>, ed. Ana M. Carvalho and Sara Beaudrie, 177-188. Somerville, MA: Cascadilla Proceedings Project. www.lingref.com, document #2867.
                 </p>
 
             <h4>Submitted</h4>
