@@ -13,3 +13,4 @@ To do:
 - make sound work on landing page
 - pandoc
 - make rss work
+- update cv
