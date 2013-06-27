@@ -28,7 +28,7 @@ analytics : true
         <div class="tab-pane" id="publications">
             <h4>Recent Publications</h4>
                 <p>
-                    Casillas, J. V. (2012). La fricativización del africado /ʧ/ en el habla de las mujeres del sur de Arizona. <i>Divergencias: Revista de estudios lingüísticos y literarios</i>, 10 (1).
+                    Casillas, J. V. (2012). La fricativización del africado /ʧ/ en el habla de las mujeres del sur de Arizona. <i>Divergencias: Revista de estudios lingüísticos y literarios</i>, 10 (1). <a alt="Divergencias" href="http://divergencias.arizona.edu/sites/divergenciasweb.arizona.edu/files/articles/FricativizacionDivergencias.pdf" target='_new'><span class="showtooltip" title="Read paper">Link</span></a> 
                 </p>
 
                 <p>
@@ -65,7 +65,7 @@ analytics : true
         <div class="tab-pane" id="presentations">
             <h4>Presentations</h4>
                 <p>
-                    Casillas, J. V. (2013, accepted). English-dominant early Spanish-English bilinguals production and perception of English tense lax vowel contrasts. <i>Phonetics and Phonology in Iberia</i>. Universidade de Lisboa, Lisbon. Portugal. (June, 2013).
+                    Casillas, J. V. (2013). English-dominant early Spanish-English bilinguals production and perception of English tense lax vowel contrasts. <i>Phonetics and Phonology in Iberia</i>. Universidade de Lisboa, Lisbon. Portugal. (June, 2013).
                 </p>
 
                 <p>
