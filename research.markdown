@@ -86,7 +86,7 @@ analytics : true
 
             <h4>Poster Presentations</h4>
                 <p>
-                    Casillas, J. V. &amp; Simonet, M. (2013, accepted). English-dominant early Spanish/English bilinguals perception of English tense-lax vowel contrasts. <i>PPLC 13: Phonetics, phonology and languages in contact: Contact varieties, multilingualism, and second language learning</i>. Paris, Délégation Générale Wallonie-Bruxelles (August, 2013).
+                    Casillas, J. V. &amp; Simonet, M. (2013). English-dominant early Spanish/English bilinguals perception of English tense-lax vowel contrasts. <i>PPLC 13: Phonetics, phonology and languages in contact: Contact varieties, multilingualism, and second language learning</i>. Paris, Délégation Générale Wallonie-Bruxelles (August, 2013).
                 </p>
         </div>
     </div>
