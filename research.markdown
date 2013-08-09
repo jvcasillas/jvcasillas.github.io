@@ -55,16 +55,13 @@ analytics : true
                 </p> 
 
                 <p>
-			Casillas, J. V. &amp; Simonet, M. Production, perception and processing (lexical) of voiced and voiceless Spanish and English stops by early and late Spanish-English bilinguals.
+			Casillas, J. V., Diaz, Y., Obeso, O., Porta, M. &amp; Simonet, M. Production and perception of English and Spanish coronal stops by bilinguals and monolinguals.
                 </p>
                 
                 <p>
 			Casillas, J. V. El foco y el orden de palabras en español
                 </p>
 		
-		<p>
-			Casillas, J. V., Diaz, Y., Obeso, O., Porta, M., Simonet, M. Production and perception of English and Spanish coronal stops by bilinguals and monolinguals.
-		</p>
         </div>
         <div class="tab-pane" id="presentations">
             <h4>Presentations</h4>
