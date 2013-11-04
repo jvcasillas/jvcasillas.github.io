@@ -65,8 +65,11 @@ analytics : true
         </div>
         <div class="tab-pane" id="presentations">
             <h4>Presentations</h4>
+		<p>
+			Casillas, J. V. (2013). Perception of English /i/-/I/ tense/lax vowel contrast by early learners of English. <i>Second Language Research Forum (SLRF)</i>. Bringham Young University. Provo, Utah. (October, 2013).
+		</p>
                 <p>
-			Casillas, J. V. (2013). English-dominant early Spanish-English bilinguals production and perception of English tense lax vowel contrasts. <i>Phonetics and Phonology in Iberia</i>. Universidade de Lisboa, Lisbon. Portugal. (June, 2013).
+			Casillas, J. V. (2013). English-dominant early Spanish-English bilinguals production and perception of English tense lax vowel contrasts. <i>Phonetics and Phonology in Iberia</i>. Universidade de Lisboa. Lisbon, Portugal. (June, 2013).
                 </p>
 
                 <p>
