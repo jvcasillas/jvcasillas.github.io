@@ -14,6 +14,7 @@ Here you can find a list of some of the classes I have taught or am currently te
 [Spanish 340 - Introduction to Spanish Phonetics and Phonology][340]  
 [Spanish 343 - Introduction to Spanish Phonetics and Phonology for the Heritage Speaker][343]  
 [Spanish 452 - Introduction to Hispanic Linguistics][452]  
+[Spanish 455 - History of the Spanish Language][455]  
 [Spanish 457 - Applied Linguistics][457]  
 
 [102]: /classes/span102
@@ -21,4 +22,5 @@ Here you can find a list of some of the classes I have taught or am currently te
 [340]: /classes/span340
 [343]: /classes/span343
 [452]: /classes/span452
+[455]: /classes/span455
 [457]: /classes/span457
