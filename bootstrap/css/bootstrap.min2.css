@@ -52,6 +52,14 @@ body {
   font-weight:300;
 }
 
+@media only screen and (min-width: 481px) {
+  body {
+    padding-top: 24px;
+    padding-right: 24px;
+    padding-left: 24px;
+  }
+}
+
 a{color:#08c;text-decoration:none}
 a:hover,a:focus{color:#005580;text-decoration:underline}
 .img-rounded{-webkit-border-radius:6px;-moz-border-radius:6px;border-radius:6px}
