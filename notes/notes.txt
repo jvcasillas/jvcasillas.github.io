@@ -1,7 +1,7 @@
 tags
 	- the command 'ruby tag_gen.rb' doesn't seem to be the key
 	- the 'tag_gen.rb' file, however, is important
-	- to add a new tag, you must cd to the jvcasill.githubt.io folder and then do 'jekyll build'
+	- to add a new tag, you must cd to the jvcasill.github.io folder and then do 'jekyll build'
 	- the new tag folder will be in the sites folder
 
 Markdown to html
