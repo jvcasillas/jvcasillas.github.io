@@ -7,3 +7,6 @@ tags
 Markdown to html
 	- use rmd.sh shell script in the archive folder
 	- this is going to take some relearning too
+
+	!! update !!
+	- this is no longer necessary (the markdown to html stuff). You can do it all directly in Rstudio and pandoc. Much easier. 
