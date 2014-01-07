@@ -6,7 +6,7 @@ published: true
 status: publish
 categories: r-code
 analytics : true
-tags: r knitr html5 Slidy tutorial
+tags: r knitr html5 Slidy
 ---
   
   
