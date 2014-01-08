@@ -65,7 +65,6 @@ df &lt;-<span class="st"> </span><span class="kw">as.data.frame</span>(<span cla
 <div id="fit-a-model" class="slide section level1">
 <h1>Fit a model</h1>
 <pre class="sourceCode r"><code class="sourceCode r">fit &lt;-<span class="st"> </span><span class="kw">glm</span>(b ~<span class="st"> </span>a, <span class="dt">data =</span> df, <span class="dt">family =</span> <span class="st">&quot;binomial&quot;</span>)</code></pre>
-<pre><code>## Warning: glm.fit: fitted probabilities numerically 0 or 1 occurred</code></pre>
 <pre class="sourceCode r"><code class="sourceCode r"><span class="kw">summary</span>(fit)</code></pre>
 <pre><code>## 
 ## Call:
@@ -94,12 +93,12 @@ df &lt;-<span class="st"> </span><span class="kw">as.data.frame</span>(<span cla
 <h1>Test normality of residuals</h1>
 <pre class="sourceCode r"><code class="sourceCode r"><span class="kw">hist</span>(<span class="kw">residuals</span>(fit))</code></pre>
 <div class="figure">
-<img src="figure/unnamed-chunk-31.png" alt="plot of chunk unnamed-chunk-3" /><p class="caption">plot of chunk unnamed-chunk-3</p>
+<img src="figure/unnamed-chunk-31.png" alt="plot of chunk unnamed-chunk-3" /><p class="caption"></p>
 </div>
 <pre class="sourceCode r"><code class="sourceCode r"><span class="kw">qqnorm</span>(<span class="kw">residuals</span>(fit))
 <span class="kw">qqline</span>(<span class="kw">residuals</span>(fit))</code></pre>
 <div class="figure">
-<img src="figure/unnamed-chunk-32.png" alt="plot of chunk unnamed-chunk-3" /><p class="caption">plot of chunk unnamed-chunk-3</p>
+<img src="figure/unnamed-chunk-32.png" alt="plot of chunk unnamed-chunk-3" /><p class="caption"></p>
 </div>
 </div>
 <div id="plot-it" class="slide section level1">
@@ -109,7 +108,7 @@ df &lt;-<span class="st"> </span><span class="kw">as.data.frame</span>(<span cla
 <span class="kw">curve</span>(<span class="kw">predict</span>(fit, <span class="kw">data.frame</span>(<span class="dt">a =</span> x), <span class="dt">type =</span> <span class="st">&quot;resp&quot;</span>), <span class="dt">add =</span> <span class="ot">TRUE</span>)
 <span class="kw">points</span>(a, <span class="kw">fitted</span>(fit), <span class="dt">pch =</span> <span class="dv">20</span>)</code></pre>
 <div class="figure">
-<img src="figure/unnamed-chunk-4.png" alt="plot of chunk unnamed-chunk-4" /><p class="caption">plot of chunk unnamed-chunk-4</p>
+<img src="figure/unnamed-chunk-4.png" alt="plot of chunk unnamed-chunk-4" /><p class="caption"></p>
 </div>
 </div>
 <div id="plot-it-1" class="slide section level1">
@@ -117,9 +116,8 @@ df &lt;-<span class="st"> </span><span class="kw">as.data.frame</span>(<span cla
 <pre class="sourceCode r"><code class="sourceCode r"><span class="kw">library</span>(popbio)</code></pre>
 <pre><code>## Loading required package: quadprog</code></pre>
 <pre class="sourceCode r"><code class="sourceCode r"><span class="kw">logi.hist.plot</span>(a, b, <span class="dt">boxp =</span> <span class="ot">FALSE</span>, <span class="dt">type =</span> <span class="st">&quot;hist&quot;</span>, <span class="dt">col =</span> <span class="st">&quot;gray&quot;</span>)</code></pre>
-<pre><code>## Warning: glm.fit: fitted probabilities numerically 0 or 1 occurred</code></pre>
 <div class="figure">
-<img src="figure/unnamed-chunk-5.png" alt="plot of chunk unnamed-chunk-5" /><p class="caption">plot of chunk unnamed-chunk-5</p>
+<img src="figure/unnamed-chunk-5.png" alt="plot of chunk unnamed-chunk-5" /><p class="caption"></p>
 </div>
 </div>
 </body>
