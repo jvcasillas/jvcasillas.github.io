@@ -1,8 +1,16 @@
 R example in markdown
 ========================================================
 
-#R example in markdown
+<div class="slide cover"> 
+ <h1>R example in markdown</h1> 
+ <img src="figure/r.png" alt="Cover page image" height="300" width="300" class="cover" /> 
+ <br clear="all" />            
+ <p><a href="http://www.jvcasillas.com">Joseph Casillas,</a> 
+ <a href="mailto:jvcasill@email.arizona.edu">jvcasill@email.arizona.edu</a></p> 
+</div> 
 
+
+#What is this?
 - These slides were created in markdown
 - Knitr allows for inline R code in _.Rmd_ files
 - The _.md_ file was generated in in ST3
