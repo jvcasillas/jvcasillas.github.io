@@ -1,6 +1,8 @@
 R example in markdown
 ========================================================
 
+#R example in markdown
+
 - These slides were created in markdown
 - Knitr allows for inline R code in _.Rmd_ files
 - The _.md_ file was generated in in ST3
