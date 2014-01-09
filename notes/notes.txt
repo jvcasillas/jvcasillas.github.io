@@ -5,8 +5,18 @@ tags
 	- the new tag folder will be in the sites folder
 
 Markdown to html
-	- use rmd.sh shell script in the archive folder
-	- this is going to take some relearning too
+	- You can do it all directly in Rstudio and pandoc. Much easier. 
+	- in order to get a custim layout, you have to link to the customslidy.css file:
+	  <link rel="stylesheet" type="text/css" media="screen, projection, print"
+     href="/bootstrap/css/customslidy.css" />
+    - you can access this using the snippet "myslidy"
+    - to get a specficic title page you need to change the div class to "slide titlepage". Heres an example:
+    
+    <div id="r-example-in-markdown" class="slide titlepage">
+		<h1>R example in markdown</h1>
+		<p>
+			<a href="http://www.jvcasillas.com">Joseph Casillas,</a> <a href="mailto:jvcasill@email.arizona.edu">jvcasill@email.arizona.edu</a>
+		</p> 
+	</div> 
 
-	!! update !!
-	- this is no longer necessary (the markdown to html stuff). You can do it all directly in Rstudio and pandoc. Much easier. 
+	- you can get this using the snippet "title"
