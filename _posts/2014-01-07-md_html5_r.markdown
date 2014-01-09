@@ -14,7 +14,7 @@ tags: r knitr html5 Slidy
 
 I recently learned how to create HTML5 slides using __.Rmd__ files and __pandoc__. [Click here][Click here] to check out an example. I will be posting a tutorial on how to do this in the near future (I hope).
 
-**Update** Here is a much cooler example I found on [mages' blog][mages' blog]
+**Update** [Here][Here] is a much cooler example I found on [mages' blog][mages' blog]
 
 [Click here]: /archive/md_to_html5_ex/md_html_ex.html
 [Here]: /archive/mages_ex/mages_ex.html
