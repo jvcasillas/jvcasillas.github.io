@@ -50,7 +50,7 @@ analytics : true
                 </p>
 				
                 <p>
-			Casillas, J. V. Perception of English /i/-/ɪ/ tense/lax vowel contrast by Spanish/English early bilinguals.
+			Casillas, J. V. Production and perception of the English /i/-/ɪ/ vowel contrast in L2 dominant early learners of English.
                 </p> 
 				
                 <p>
