@@ -48,15 +48,16 @@ analytics : true
                 <p>
 			Casillas, J. V. &amp; Simonet, M. On how English-dominant Spanish-English bilinguals process English tense/lax vowel contrasts.
                 </p>
-
-            <h4>In preparation</h4>
+				
                 <p>
-			Casillas, J. V. Perception of English /i/-/I/ tense/lax vowel contrast by Spanish/English early bilinguals.
+			Casillas, J. V. Perception of English /i/-/ɪ/ tense/lax vowel contrast by Spanish/English early bilinguals.
                 </p> 
-
+				
                 <p>
 			Casillas, J. V., Diaz, Y., Obeso, O., Porta, M. &amp; Simonet, M. Production and perception of English and Spanish coronal stops by bilinguals and monolinguals.
                 </p>
+
+            <h4>In preparation</h4>
                 
                 <p>
 			Casillas, J. V. El foco y el orden de palabras en español
@@ -66,7 +67,7 @@ analytics : true
         <div class="tab-pane" id="presentations" style="margin-left:2em;text-indent:-2em">
             <h4>Presentations</h4>
 		<p>
-			Casillas, J. V. (2013). Perception of English /i/-/I/ tense/lax vowel contrast by early learners of English. <i>Second Language Research Forum (SLRF)</i>. Brigham Young University. Provo, Utah. (October, 2013).
+			Casillas, J. V. (2013). Perception of English /i/-/ɪ/ tense/lax vowel contrast by early learners of English. <i>Second Language Research Forum (SLRF)</i>. Brigham Young University. Provo, Utah. (October, 2013).
 		</p>
                 <p>
 			Casillas, J. V. (2013). English-dominant early Spanish-English bilinguals production and perception of English tense lax vowel contrasts. <i>Phonetics and Phonology in Iberia</i>. Universidade de Lisboa. Lisbon, Portugal. (June, 2013).
