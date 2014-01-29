@@ -46,7 +46,7 @@ analytics : true
 
             <h4>Submitted</h4>
                 <p>
-			Casillas, J. V. &amp; Simonet, M. On how English-dominant Spanish-English bilinguals process English tense/lax vowel contrasts.
+			Casillas, J. V. &amp; Simonet, M. Perception and spoken-word recognition of English-specific vowel contrasts by early and late L2 learners: The case of Spanish-L1 attriters.
                 </p>
 				
                 <p>
@@ -54,7 +54,7 @@ analytics : true
                 </p> 
 				
                 <p>
-			Casillas, J. V., Diaz, Y., Obeso, O., Porta, M. &amp; Simonet, M. Production and perception of English and Spanish coronal stops by bilinguals and monolinguals.
+			Simonet, M., Casillas, J. V., &amp; Diaz, Y. The effects of stress/accent on VOT depend on language (English, Spanish), consonant (/d/, /t/) and linguistic experience (monolinguals, bilinguals).
                 </p>
 
             <h4>In preparation</h4>
