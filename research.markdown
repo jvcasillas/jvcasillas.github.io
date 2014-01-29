@@ -21,11 +21,11 @@ analytics : true
     </ul>
 
 
-    <div class="tab-content" style="margin-left:3.4em;text-indent:-3.4em">
+    <div class="tab-content">
         <div class="tab-pane active" id="current-research">
             <p>I am an active member of the <a alt="AAPL" href="https://sites.google.com/site/miquelsimonet/sports-lab-az" target='_new'><span class="showtooltip" title="AAPL webpage">Arizona Applied Phonetics Laboratory</span></a> at the University of Arizona. My main interests are in phonetics and syntax. My current projects are centered on second language speech learning &amp; bilingualism. Specifically, I investigate native phonetic experience and its influence on L2 speech production, perception and lexical processing. I am also interested in how dialectal variation affects linguistic attitudes.</p>
         </div>
-        <div class="tab-pane" id="publications">
+        <div class="tab-pane" id="publications" style="margin-left:2em;text-indent:2em">
             <h4>Recent Publications</h4>
                 <p>
 			Casillas, J. V. (2012). La fricativización del africado /ʧ/ en el habla de las mujeres del sur de Arizona. <i>Divergencias: Revista de estudios lingüísticos y literarios</i>, 10 (1). <a alt="Divergencias" href="http://divergencias.arizona.edu/sites/divergenciasweb.arizona.edu/files/articles/FricativizacionDivergencias.pdf" target='_new'><span class="showtooltip" title="Read paper">Link</span></a> 
@@ -63,7 +63,7 @@ analytics : true
                 </p>
 		
         </div>
-        <div class="tab-pane" id="presentations">
+        <div class="tab-pane" id="presentations" style="margin-left:2em;text-indent:-2em">
             <h4>Presentations</h4>
 		<p>
 			Casillas, J. V. (2013). Perception of English /i/-/I/ tense/lax vowel contrast by early learners of English. <i>Second Language Research Forum (SLRF)</i>. Brigham Young University. Provo, Utah. (October, 2013).
