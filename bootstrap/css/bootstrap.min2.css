@@ -20,7 +20,8 @@ a:hover,a:active{outline:0}
 sub,sup{position:relative;font-size:75%;line-height:0;vertical-align:baseline}
 sup{top:-0.5em}
 sub{bottom:-0.25em}
-img{width:auto\9;height:auto;max-width:100%;vertical-align:middle;border:0;-ms-interpolation-mode:bicubic}
+/*img{width:auto\9;height:auto;max-width:100%;vertical-align:middle;border:0;-ms-interpolation-mode:bicubic}*/
+img{max-width: 100%;min-width: 200px;height: auto;}
 #map_canvas img,.google-maps img{max-width:none}
 button,input,select,textarea{margin:0;font-size:100%;vertical-align:middle}
 button,input{*overflow:visible;line-height:normal}
