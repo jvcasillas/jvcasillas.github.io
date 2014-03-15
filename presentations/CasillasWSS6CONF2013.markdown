@@ -7,7 +7,7 @@ title: CasillasWSS6CONF2013
 
 __La fricativización del africado /ʧ/: actitudes lingüísticas cerca de la frontera__  
 
-    @conference{CasillasWSS62013,
+    @conference{CasillasWSS6CONF2013,
       Author = {Joseph Vincent Casillas},
       Month = {April},
       Organization = {In Selected Proceedings of the 6th Workshop on Spanish Sociolinguistics.},
