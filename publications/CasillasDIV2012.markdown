@@ -7,7 +7,7 @@ title: CasillasDIV2012
 
 
 <div style="float: left">
-<img height="50" src="/assets/images/CasillasDIV2012.png"/>
+<img height="20" src="/assets/images/CasillasDIV2012.png"/>
 </div>
 __La fricativización del africado /ʧ/ en el habla de las mujeres del sur de Arizona__
 
