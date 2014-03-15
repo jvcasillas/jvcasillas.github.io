@@ -8,6 +8,10 @@ title: CasillasWSS62013
 __La fricativización del africado /ʧ/: actitudes lingüísticas cerca de la frontera__   
 In the selected proceeding of WSS6.
 
+<div align="center">
+<img width="275" src="/assets/images/CasillasWSS62013.png"/>
+</div>
+
     @inproceedings{CasillasWSS62013,
       Author = {Casillas, Joseph Vincent},
       Editor = {Ana M. Carvalho and Sara Beaudrie},
