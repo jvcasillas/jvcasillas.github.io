@@ -3,7 +3,9 @@ layout: default
 title: CasillasPPLC2013
 ---
 
-###English-dominant early Spanish/English bilinguals perception of English tense-lax vowel contrasts
+###Presentations
+
+__English-dominant early Spanish/English bilinguals perception of English tense-lax vowel contrasts__ 
 
     @conference{CasillasPPLC2013,
       Author = {Joseph Vincent Casillas and Miquel Simonet},

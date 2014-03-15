@@ -3,7 +3,9 @@ layout: default
 title: CasillasSLRF2013
 ---
 
-###Perception of English /i/-/ɪ/ tense/lax vowel contrast by early learners of English
+###Presentations
+
+__Perception of English /i/-/ɪ/ tense/lax vowel contrast by early learners of English__  
 
     @conference{CasillasSLRF2013,
       Author = {Joseph Vincent Casillas},
