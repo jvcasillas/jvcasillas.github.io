@@ -1,9 +1,9 @@
 ---
 layout: default
-title: CasillasSLRF2013
+title: CasillasPPLC2013
 ---
 
-###Perception of English /i/-/ɪ/ tense/lax vowel contrast by early learners of English
+###English-dominant early Spanish/English bilinguals perception of English tense-lax vowel contrasts
 
     @conference{CasillasPPLC2013,
       Author = {Joseph Vincent Casillas and Miquel Simonet},
