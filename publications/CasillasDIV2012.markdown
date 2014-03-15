@@ -5,7 +5,10 @@ title: CasillasDIV2012
 
 ###Publications
 
-![CasillasDIV2012](/assets/images/CasillasDIV2012.png)
+
+<div style="float: left">
+<img height="250" src="/assets/images/CasillasDIV2012.png"/>
+</div>
 __La fricativización del africado /ʧ/ en el habla de las mujeres del sur de Arizona__
 
     @article{CasillasDIV2012,
@@ -15,3 +18,7 @@ __La fricativización del africado /ʧ/ en el habla de las mujeres del sur de Ar
       Title = {La fricativizaci{\'o}n del africado \textipa{/\textteshlig/} en el habla de las mujeres del sur de Arizona},
       Volume = {10},
       Year = {2012}}
+
+
+
+![CasillasDIV2012](/assets/images/CasillasDIV2012.png)
