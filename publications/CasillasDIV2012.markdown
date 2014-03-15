@@ -7,9 +7,8 @@ title: CasillasDIV2012
 
 
 <div align="left">
-<img width="150" src="/assets/images/CasillasDIV2012.png"/>
-</div>
-__La fricativización del africado /ʧ/ en el habla de las mujeres del sur de Arizona__   
+<img width="175" src="/assets/images/CasillasDIV2012.png"/>
+</div> __La fricativización del africado /ʧ/ en el habla de las mujeres del sur de Arizona__   
 
     @article{CasillasDIV2012,
       Author = {Joseph Vincent Casillas},
