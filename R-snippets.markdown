@@ -11,7 +11,7 @@ R snippets for Sublimetext
 
 
 <div align="left">
-	<div class="indent"><button class="minimal-indent"><a href="https://github.com/jvcasill/R-snippets/zipball/master">Download </br> <strong>ZIP File</strong></a></button></div>
+	<div class="indent"><button class="minimal-indent"><a href="https://github.com/jvcasill/R-snippets/zipball/master">Download<strong>ZIP File</strong></a></button></div>
 	<div class="indent"><button class="minimal-indent"><a href="https://github.com/jvcasill/R-snippets/tarball/master">Download </br> <strong>TAR Ball</strong></a></button></div>
 	<div class="indent"><button class="minimal-indent"><a href="https://github.com/jvcasill/R-snippets">View On </br><strong>GitHub</strong></a></button></div>
 </div>
