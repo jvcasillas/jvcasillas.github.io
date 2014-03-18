@@ -25,7 +25,7 @@ Brings up the following window
 	<img width="100%" src="/assets/images/lm.png" alt="lm image">
 </div>
 
-Selecting "random slope and random intercept model" expands to...
+Selecting <code>Random slope and random intercept model</code> expands to...
 
     # load lme4 for mixed models
 	library(lme4)
