@@ -3,7 +3,7 @@ layout: default
 title: Spanish 455
 ---
 
-### Spanish 455
+## Spanish 455
 
 [Programa de la asignatura][Programa de la asignatura]  
 [Introducción][Introducción]  
