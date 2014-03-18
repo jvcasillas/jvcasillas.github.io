@@ -10,8 +10,11 @@ R snippets for Sublimetext
 <p class="view"><a href="https://github.com/jvcasill/R-snippets">View the Project on GitHub <small>jvcasill/R-snippets</small></a></p>
 
 
-| --- | ---- | ---- |
-| <a href="https://github.com/jvcasill/R-snippets/zipball/master">Download <strong>ZIP File</strong></a> | <a href="https://github.com/jvcasill/R-snippets/tarball/master">Download <strong>TAR Ball</strong></a> | <a href="https://github.com/jvcasill/R-snippets">View On <strong>GitHub</strong></a> |
+<div align="center">
+	<a href="https://github.com/jvcasill/R-snippets/zipball/master">Download <strong>ZIP File</strong></a>
+	<a href="https://github.com/jvcasill/R-snippets/tarball/master">Download <strong>TAR Ball</strong></a>
+	<a href="https://github.com/jvcasill/R-snippets">View On <strong>GitHub</strong></a>
+</div>
 
 This package includes a selection of R snippets for Sublimetext that I find useful when using R through SublimeREPL.
 
