@@ -10,13 +10,13 @@ analytics : true
 <div class="tabbable">
     <ul class="nav nav-tabs" id="myTab">
         <li class="active">
-            <a href="research/#current-research" data-toggle="tab">Current research</a>
+            <a href="#current-research" data-toggle="tab">Current research</a>
         </li>
         <li class="">
-            <a href="research/#publications" data-toggle="tab">Publications</a>
+            <a href="#publications" data-toggle="tab">Publications</a>
         </li>
         <li class="">
-            <a href="research/#presentations" data-toggle="tab">Presentations</a>
+            <a href="#presentations" data-toggle="tab">Presentations</a>
         </li>
     </ul>
 
