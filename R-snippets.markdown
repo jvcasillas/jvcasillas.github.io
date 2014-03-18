@@ -10,8 +10,8 @@ R snippets for Sublimetext
 <p class="view"><a href="https://github.com/jvcasill/R-snippets">View the Project on GitHub <small>jvcasill/R-snippets</small></a></p>
 
 
-<div align="center">
-	<button class="minimal"><a href="https://github.com/jvcasill/R-snippets/zipball/master">Download  
+<div align="left">
+	<button class="minimal"><a href="https://github.com/jvcasill/R-snippets/zipball/master">Download </br> 
 	<strong>ZIP File</strong></a></button>
 	<button class="minimal"><a href="https://github.com/jvcasill/R-snippets/tarball/master">Download  
 	<strong>TAR Ball</strong></a></button>
