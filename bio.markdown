@@ -4,7 +4,7 @@ title: Bio
 analytics : true
 ---
 
-<div align="center" class="thumbnail">
+<div  class="thumbnail">
 	<img width="100%" src="/assets/images/alhambra.jpg" alt="bio image">
 	<h4>Alhambra - Granada, Spain</h4>
 </div>  <br>
