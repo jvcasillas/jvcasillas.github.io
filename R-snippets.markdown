@@ -3,7 +3,6 @@ layout: default
 title: R-snippets
 analytics : true
 ---
-<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
 
 ##R-snippets
 R snippets for Sublimetext
@@ -11,11 +10,8 @@ R snippets for Sublimetext
 <p class="view"><a href="https://github.com/jvcasill/R-snippets">View the Project on GitHub <small>jvcasill/R-snippets</small></a></p>
 
 
-<ul>
-	<li><a href="https://github.com/jvcasill/R-snippets/zipball/master">Download <strong>ZIP File</strong></a></li>
-	<li><a href="https://github.com/jvcasill/R-snippets/tarball/master">Download <strong>TAR Ball</strong></a></li>
-	<li><a href="https://github.com/jvcasill/R-snippets">View On <strong>GitHub</strong></a></li>
-</ul>
+| --- | ---- | ---- |
+| <a href="https://github.com/jvcasill/R-snippets/zipball/master">Download <strong>ZIP File</strong></a> | <a href="https://github.com/jvcasill/R-snippets/tarball/master">Download <strong>TAR Ball</strong></a> | <a href="https://github.com/jvcasill/R-snippets">View On <strong>GitHub</strong></a> |
 
 This package includes a selection of R snippets for Sublimetext that I find useful when using R through SublimeREPL.
 
@@ -37,9 +33,4 @@ Extras:
 - "read": read/load/install data/packages into R
 - "save": save plots, dfs, tables, etc.
 - "tikz": template for creating R plots in LaTeX
-
-
-This project is maintained by <a href="https://github.com/jvcasill">jvcasill</a>
-
-<script src="/bootstrap/js/scale.fix.js"></script>
 
