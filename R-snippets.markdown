@@ -39,6 +39,6 @@ Extras:
 - "tikz": template for creating R plots in LaTeX
 
 
-This project is maintained by <a href="https://github.com/jvcasill">jvcasill</a>
+<!-- This project is maintained by <a href="https://github.com/jvcasill">jvcasill</a>
 <script src="javascripts/scale.fix.js"></script>
-
+ -->
