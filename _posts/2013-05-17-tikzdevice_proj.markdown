@@ -24,7 +24,10 @@ The next step is to create the "no web" .Rnw file. This is as simple as creating
 
 Next we need to prepare where we are going to keep the plots produced by tikzDevice. I find it most convenient to have a specific folder, "plots\_folder", where I only keep the tikzDevice plots. So, create this folder inside the "master" folder. TikzDevice creates the R plots and converts them to a LaTeX format (the benefits of this are further explained in part III of this tutorial), saves them in "plots\_folder" and we will then include them in the example.tex file which can be compiled into a PDF. The image below shows what this should look like when it's all said and done. You can download a reproducible example [here][master.zip].
 
-![tree](/assets/images/tikz_workflow.png)
+<div aligh="center">
+	<img width="100%" src="/assets/images/tikz_workflow.png" alt="bio image">
+</div>
+
 
 [part I]: /r/latex/2013/05/11/install-tikz-tut.html
 [R]: http://www.r-project.org
