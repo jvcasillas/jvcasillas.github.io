@@ -17,7 +17,7 @@ R snippets for Sublimetext
 	<li><a href="https://github.com/jvcasill/R-snippets">View On <strong>GitHub</strong></a></li>
 </ul>
 
-<a name="r-snippets" class="anchor" href="#r-snippets"><span class="octicon octicon-link"></span></a>R-snippets</h1>
+<a name="r-snippets" class="anchor" href="#r-snippets"><span class="octicon octicon-link"></span></a>R-snippets
 
 <p>This package includes a selection of R snippets for Sublimetext that I find useful when using R through SublimeREPL</p>
 
@@ -42,6 +42,6 @@ R snippets for Sublimetext
 <li>"tikz": template for creating R plots in LaTeX</li>
 </ul>
 
-        <p>This project is maintained by <a href="https://github.com/jvcasill">jvcasill</a></p>
-        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
-        <script src="javascripts/scale.fix.js"></script>
+<p>This project is maintained by <a href="https://github.com/jvcasill">jvcasill</a></p>
+<p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+<script src="javascripts/scale.fix.js"></script>
