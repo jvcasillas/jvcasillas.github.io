@@ -12,6 +12,7 @@ analytics : true
 	<button class="clean-gray"><a href="https://github.com/jvcasill/R-snippets">View On <strong>GitHub</strong></a></button>
 </div>
 
+  
 This package includes a selection of R snippets for Sublimetext that I find useful when using R through SublimeREPL.
 
 Just type the trigger and hit the tab key.  
