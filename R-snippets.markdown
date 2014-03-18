@@ -41,5 +41,5 @@ Extras:
 
 This project is maintained by <a href="https://github.com/jvcasill">jvcasill</a>
 
-<script src="javascripts/scale.fix.js"></script>
+<script src="/bootstrap/js/scale.fix.js"></script>
 
