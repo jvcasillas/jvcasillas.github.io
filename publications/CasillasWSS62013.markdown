@@ -3,7 +3,7 @@ layout: default
 title: CasillasWSS62013
 ---
 
-###Publications
+## Publications
 
 __La fricativización del africado /ʧ/: actitudes lingüísticas cerca de la frontera__   
 In the selected proceeding of WSS6.

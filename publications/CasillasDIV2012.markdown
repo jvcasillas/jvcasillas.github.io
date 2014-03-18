@@ -3,7 +3,7 @@ layout: default
 title: CasillasDIV2012
 ---
 
-###Publications
+## Publications
 
 __La fricativización del africado /ʧ/ en el habla de las mujeres del sur de Arizona__  
 
