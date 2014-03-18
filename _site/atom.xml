@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+ 
+ <title>Joseph V. Casillas</title>
+ <link href="http://jvcasill.github.com/atom.xml" rel="self"/>
+ <link href="http://jvcasill.github.com/"/>
+ <updated>2014-03-18T16:11:23+00:00</updated>
+ <id>http://jvcasill.github.com</id>
+ <author>
+   <name>Joseph V. Casillas</name>
+ </author>
+ 
+ 
+ <entry>
+   <title>Converting markdown files to HTML5 in RStudio</title>
+   <link href="http://jvcasill.github.com/r-code/2014/01/07/md_html5_r.html"/>
+   <updated>2014-01-07T14:05:19+00:00</updated>
+   <id>http://jvcasill.github.com/r-code/2014/01/07/md_html5_r</id>
+   <content type="html">&lt;h4 id='html5_slides'&gt;HTML5 slides&lt;/h4&gt;
+
+&lt;p&gt;I recently learned how to create HTML5 slides using &lt;strong&gt;.Rmd&lt;/strong&gt; files and &lt;strong&gt;pandoc&lt;/strong&gt;. &lt;a href='/archive/md_to_html5_ex/md_html_ex.html'&gt;Click here&lt;/a&gt; to check out an example. I will be posting a tutorial on how to do this in the near future (I hope).&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Update&lt;/strong&gt; &lt;a href='/archive/mages_ex/mages_ex.html'&gt;Here&lt;/a&gt; is a much cooler example I found on &lt;a href='http://lamages.blogspot.com.au/2012/05/interactive-reports-in-r-with-knitr-and.html'&gt;mages&amp;#8217; blog&lt;/a&gt;&lt;/p&gt;
+&lt;div id='disqus_thread' /&gt;&lt;script type='text/javascript'&gt;
+/* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+var disqus_shortname = 'jvcasillas'; // required: replace example with your forum shortname
+
+/* * * DON'T EDIT BELOW THIS LINE * * */
+(function() {
+var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+})();
+&lt;/script&gt;&lt;noscript&gt;Please enable JavaScript to view the &lt;a href='http://disqus.com/?ref_noscript'&gt;comments powered by Disqus.&lt;/a&gt;&lt;/noscript&gt;&lt;a href='http://disqus.com' class='dsq-brlink'&gt;comments powered by &lt;span class='logo-disqus'&gt;Disqus&lt;/span&gt;&lt;/a&gt;</content>
+ </entry>
+ 
+ <entry>
+   <title>TikzDevice tutorial part II: structuring a project</title>
+   <link href="http://jvcasill.github.com/r-code/2013/05/17/tikzdevice_proj.html"/>
+   <updated>2013-05-17T14:40:19+00:00</updated>
+   <id>http://jvcasill.github.com/r-code/2013/05/17/tikzdevice_proj</id>
+   <content type="html">&lt;h4 id='overview'&gt;Overview&lt;/h4&gt;
+
+&lt;p&gt;This mini tutorial is part II about incorporating &lt;strong&gt;tikzDevice&lt;/strong&gt; into your workflow. It explains the file structure necessary to successfully include &lt;strong&gt;tikzDevice&lt;/strong&gt; plots into your &lt;strong&gt;LaTeX document&lt;/strong&gt;. You must first have &lt;strong&gt;tikzDevice&lt;/strong&gt; installed. If you don&amp;#8217;t, see &lt;a href='/r/latex/2013/05/11/install-tikz-tut.html'&gt;part I&lt;/a&gt; for more information.&lt;/p&gt;
+
+&lt;h4 id='the_structure'&gt;The structure&lt;/h4&gt;
+
+&lt;p&gt;A simple yet effective way to do reproducible research is to use &lt;a href='http://www.r-project.org'&gt;R&lt;/a&gt; (for statistical analysis) directly in a &lt;strong&gt;LaTeX&lt;/strong&gt; environment. There are two ways to accomplish this: (1) Sweave and (2) &lt;a href='http://yihui.name/knitr/'&gt;knitr&lt;/a&gt;. Knitr seems to be the better choice, as it builds on some of the deficiencies of Sweave, and is what I am currently using in my workflow. In order to successfully &amp;#8220;knit&amp;#8221; R code into a .tex format we must use a no-web (.nw) file to create the .tex file. There are two types of no-web files: .Rnw and .Snw. I am not completely sure what the differences are between then, but I use .Rnw and that is what I will mention in this tutorial.&lt;/p&gt;
+
+&lt;p&gt;The first step is to create a project folder. For the purposes of this tutorial let&amp;#8217;s call this folder &amp;#8220;master&amp;#8221;. Next, we will need some data and some R code that analyzes it. The most common, no-hassle way to accomplish this in R is to save your R code in a separate .R file. For this tutorial, we will call our data &amp;#8220;my-data.txt&amp;#8221; and our R code &amp;#8220;example.R&amp;#8221;. The fake data we are going to analyze is for a two-alternative forced choice identification experiment. So, our fake data is in the &amp;#8220;my-data.txt&amp;#8221; file and the R code that analyzes it is in the example.R file.&lt;/p&gt;
+
+&lt;p&gt;The next step is to create the &amp;#8220;no web&amp;#8221; .Rnw file. This is as simple as creating a document in your text editor of choice (I use &lt;a href='https://github.com/textmate/textmate'&gt;TextMate 2&lt;/a&gt; and &lt;a href='http://www.sublimetext.com'&gt;Sublime Text 2&lt;/a&gt;) and saving it with a .Rnw extension. For this tutorial we will call this file &amp;#8220;example.Rnw&amp;#8221;. Its purpose is to call the R code written in &amp;#8220;example.R&amp;#8221; (which uses the fake data in &amp;#8220;my-data.txt&amp;#8221;) in order to produce a .tex file (in this case &amp;#8220;example.tex&amp;#8221;). Still with me? Good.&lt;/p&gt;
+
+&lt;p&gt;Next we need to prepare where we are going to keep the plots produced by tikzDevice. I find it most convenient to have a specific folder, &amp;#8220;plots_folder&amp;#8221;, where I only keep the tikzDevice plots. So, create this folder inside the &amp;#8220;master&amp;#8221; folder. TikzDevice creates the R plots and converts them to a LaTeX format (the benefits of this are further explained in part III of this tutorial), saves them in &amp;#8220;plots_folder&amp;#8221; and we will then include them in the example.tex file which can be compiled into a PDF. The image below shows what this should look like when it&amp;#8217;s all said and done. You can download a reproducible example &lt;a href='http://jvcasill.github.io/assets/files/master.zip'&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;div aligh='center'&gt;
+	&lt;img width='100%' alt='bio image' src='/assets/images/tikz_workflow.png' /&gt;
+&lt;/div&gt;&lt;div id='disqus_thread' /&gt;&lt;script type='text/javascript'&gt;
+/* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+var disqus_shortname = 'jvcasillas'; // required: replace example with your forum shortname
+
+/* * * DON'T EDIT BELOW THIS LINE * * */
+(function() {
+var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+})();
+&lt;/script&gt;&lt;noscript&gt;Please enable JavaScript to view the &lt;a href='http://disqus.com/?ref_noscript'&gt;comments powered by Disqus.&lt;/a&gt;&lt;/noscript&gt;&lt;a href='http://disqus.com' class='dsq-brlink'&gt;comments powered by &lt;span class='logo-disqus'&gt;Disqus&lt;/span&gt;&lt;/a&gt;</content>
+ </entry>
+ 
+ <entry>
+   <title>TikzDevice tutorial part I: install tikzDevice in R</title>
+   <link href="http://jvcasill.github.com/r/latex/2013/05/11/install-tikz-tut.html"/>
+   <updated>2013-05-11T14:52:18+00:00</updated>
+   <id>http://jvcasill.github.com/r/latex/2013/05/11/install-tikz-tut</id>
+   <content type="html">&lt;h4 id='overview'&gt;Overview&lt;/h4&gt;
+
+&lt;p&gt;This is a short tutorial for getting &lt;strong&gt;tikzDevice&lt;/strong&gt; running on &lt;strong&gt;R&lt;/strong&gt; version 3.0. If you write in &lt;strong&gt;LaTeX&lt;/strong&gt; and use &lt;strong&gt;R&lt;/strong&gt; for statistics, this is a good way to get your plots/graphs/etc. into your .tex document. The advantages are: 1 - much higher quality and 2 - you can use IPA symbols&lt;/p&gt;
+
+&lt;h4 id='download_tiksdevice'&gt;Download tiksDevice&lt;/h4&gt;
+
+&lt;p&gt;&lt;strong&gt;TiksDevice&lt;/strong&gt; is no longer officially supported by CRAN because the author was having trouble keeping it updated in a timely manner (Check out &lt;a href='http://cran.r-project.org/web/packages/tikzDevice/index.html'&gt;this&lt;/a&gt; webpage if you want to read a little more about the situation). Nonetheless, the &lt;strong&gt;tikzdevice&lt;/strong&gt; package is very usable and still available for download. You can download the tar.gz file directly by clicking &lt;a href='http://cran.r-project.org/src/contrib/Archive/tikzDevice/tikzDevice_0.6.2.tar.gz'&gt;here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h4 id='install_tiksdevice'&gt;Install tiksDevice&lt;/h4&gt;
+
+&lt;p&gt;Installing a package that is no longer supported is by no means difficult, but not as simple as &lt;code&gt;install.package(&amp;#39;tikzDevice&amp;#39;)&lt;/code&gt; (try it if you want to see why). Use the following code install the tar file (make sure to specify your file path to wherever you downloaded the file). This is what it looked like for me.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;install.packages(&amp;quot;/Users/USERNAME/Downloads/tikzDevice_0.6.2.tar&amp;quot;, repos = NULL, type=&amp;quot;source&amp;quot;)&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h4 id='install_dependencies'&gt;Install dependencies&lt;/h4&gt;
+
+&lt;p&gt;In order for &lt;strong&gt;tikzDevice&lt;/strong&gt; to work, you must also install the &lt;strong&gt;filehash&lt;/strong&gt; package. This is much easier.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;install.packages(&amp;#39;filehash&amp;#39;)&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;That&amp;#8217;s it. Check out &lt;a href='http://jvcasill.github.io/r-code/2013/05/11/ipa-rplot-tut.html'&gt;this&lt;/a&gt; tutorial to see how it works.&lt;/p&gt;
+&lt;div id='disqus_thread' /&gt;&lt;script type='text/javascript'&gt;
+/* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+var disqus_shortname = 'jvcasillas'; // required: replace example with your forum shortname
+
+/* * * DON'T EDIT BELOW THIS LINE * * */
+(function() {
+var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+})();
+&lt;/script&gt;&lt;noscript&gt;Please enable JavaScript to view the &lt;a href='http://disqus.com/?ref_noscript'&gt;comments powered by Disqus.&lt;/a&gt;&lt;/noscript&gt;&lt;a href='http://disqus.com' class='dsq-brlink'&gt;comments powered by &lt;span class='logo-disqus'&gt;Disqus&lt;/span&gt;&lt;/a&gt;</content>
+ </entry>
+ 
+ <entry>
+   <title>Colored spectrograms</title>
+   <link href="http://jvcasill.github.com/r-code/2013/05/09/colored_spec.html"/>
+   <updated>2013-05-09T14:09:19+00:00</updated>
+   <id>http://jvcasill.github.com/r-code/2013/05/09/colored_spec</id>
+   <content type="html">&lt;p&gt;This is how I made the colored spectrogram from the homepage (it&amp;#8217;s me saying &amp;#8216;welcome&amp;#8217;). This was done using the &lt;a href='http://cran.r-project.org/web/packages/phonTools/index.html'&gt;phonTools&lt;/a&gt; package written by &lt;a href='http://www.santiagobarreda.com/rscripts.html'&gt;Santiago Barreda&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;First, you need to load the package &lt;a href='http://cran.r-project.org/web/packages/phonTools/index.html'&gt;phonTools&lt;/a&gt; into &lt;a href='http://www.r-project.org'&gt;R&lt;/a&gt;.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;library(phonTools)&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Now you have to load the sound you want to make a spectrogram of (it has to be in your working directory). I recorded mine in &lt;a href='http://www.fon.hum.uva.nl/praat/'&gt;Praat&lt;/a&gt;.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;sound = loadsound(&amp;quot;welcome.wav&amp;quot;)&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Now we&amp;#8217;re ready to make a spectrogram.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;spectrogram(sound, fs = 44100, gridlines = FALSE, colors = TRUE, maintitle = Welcome, 
+    output = FALSE, zoom = FALSE, pause = FALSE)&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;img alt='plot of chunk unnamed-chunk-3' src='/assets/images/figure/unnamed-chunk-3.png' /&gt;&lt;/p&gt;
+
+&lt;p&gt;We can also see the oscillogram by using&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;plot(sound)&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;img alt='plot of chunk unnamed-chunk-4' src='/assets/images/figure/unnamed-chunk-4.png' /&gt;&lt;/p&gt;
+
+&lt;p&gt;That&amp;#8217;s it.&lt;/p&gt;
+&lt;div id='disqus_thread' /&gt;&lt;script type='text/javascript'&gt;
+/* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+var disqus_shortname = 'jvcasillas'; // required: replace example with your forum shortname
+
+/* * * DON'T EDIT BELOW THIS LINE * * */
+(function() {
+var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+})();
+&lt;/script&gt;&lt;noscript&gt;Please enable JavaScript to view the &lt;a href='http://disqus.com/?ref_noscript'&gt;comments powered by Disqus.&lt;/a&gt;&lt;/noscript&gt;&lt;a href='http://disqus.com' class='dsq-brlink'&gt;comments powered by &lt;span class='logo-disqus'&gt;Disqus&lt;/span&gt;&lt;/a&gt;</content>
+ </entry>
+ 
+ 
+</feed>
