@@ -1,0 +1,27 @@
+<h1 id='title'>Title</h1>
+
+<p>This is how I made the colored spectrogram from the homepage (it&#8217;s me saying &#8216;welcome&#8217;). You need to load the package phonTools into R.</p>
+
+<p><code>{r}
+library(phonTools)
+</code></p>
+
+<p>Now you have to load the sound you want to make a spectrogram of (it has to be in your working directory). I recorded mine in Praat.</p>
+
+<p><code>{r}
+sound = loadsound(&#39;welcome.wav&#39;)
+</code></p>
+
+<p>Now we&#8217;re ready to make a spectrogram.</p>
+
+<p><code>{r fig.height=4.28, fig.width=8.24}
+spectrogram (sound, fs=44100, gridlines=FALSE, colors=TRUE, maintitle= &quot;Welcome&quot;, output=FALSE, zoom=FALSE, pause = FALSE, maxfreq=5500)
+</code></p>
+
+<p>We can also see the oscillogram by using</p>
+
+<p><code>{r fig.height=4.28, fig.width=8.24}
+plot(sound)
+</code></p>
+
+<p>That&#8217;s it.</p>
