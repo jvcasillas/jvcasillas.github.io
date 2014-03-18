@@ -15,11 +15,7 @@ analytics : true
   
 This package includes a selection of R snippets for Sublimetext that I find useful when using R through SublimeREPL.
 
-Just type the trigger and hit the tab key. For example...
-
-    lm
-
-Brings up the following window
+Just type the trigger and hit the tab key. For example, typing <code>lm</code> brings up the following window:
 
 <div  class="thumbnail">
 	<img width="100%" src="/assets/images/lm.png" alt="lm image">
