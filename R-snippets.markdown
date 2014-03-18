@@ -15,25 +15,27 @@ analytics : true
   
 This package includes a selection of R snippets for Sublimetext that I find useful when using R through SublimeREPL.
 
-Just type the trigger and hit the tab key. For example, typing <code>lm</code> brings up the following window:
+Just type the trigger and hit the tab key. For example, typing `lm` brings up the following window:
 
 <div  class="thumbnail">
 	<img width="100%" src="/assets/images/lm.png" alt="lm image">
 </div>
+</br>
 
-Selecting <code>Random slope and random intercept model</code> expands to...
+Selecting `Random slope and random intercept model` expands to...
 
-    # load lme4 for mixed models
-	library(lme4)
+{% highlight js %}
+# load lme4 for mixed models
+library(lme4)
 
-	# random intercept and random slope model
-	modelName = lmer(DV ~ fixedFactor1 +* fixedFactor2 + (1 + randomSlope|randomInt), data=df)
-	modelName
+# random intercept and random slope model
+modelName = lmer(DV ~ fixedFactor1 +* fixedFactor2 + (1 + randomSlope|randomInt), data=df)
+modelName
 
-	hist(residuals(modelName))
-	qqnorm(residuals(modelName))
-	qqline(residuals(modelName))
-
+hist(residuals(modelName))
+qqnorm(residuals(modelName))
+qqline(residuals(modelName))
+{% endhighlight %}
 
 Main triggers:  
 
