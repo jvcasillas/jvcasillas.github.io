@@ -11,11 +11,11 @@ R snippets for Sublimetext
 <p class="view"><a href="https://github.com/jvcasill/R-snippets">View the Project on GitHub <small>jvcasill/R-snippets</small></a></p>
 
 
-        <ul>
-          <li><a href="https://github.com/jvcasill/R-snippets/zipball/master">Download <strong>ZIP File</strong></a></li>
-          <li><a href="https://github.com/jvcasill/R-snippets/tarball/master">Download <strong>TAR Ball</strong></a></li>
-          <li><a href="https://github.com/jvcasill/R-snippets">View On <strong>GitHub</strong></a></li>
-        </ul>
+<ul>
+	<li><a href="https://github.com/jvcasill/R-snippets/zipball/master">Download <strong>ZIP File</strong></a></li>
+	<li><a href="https://github.com/jvcasill/R-snippets/tarball/master">Download <strong>TAR Ball</strong></a></li>
+	<li><a href="https://github.com/jvcasill/R-snippets">View On <strong>GitHub</strong></a></li>
+</ul>
 
 <a name="r-snippets" class="anchor" href="#r-snippets"><span class="octicon octicon-link"></span></a>R-snippets</h1>
 
