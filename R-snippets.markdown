@@ -3,7 +3,7 @@ layout: default
 title: R-snippets
 analytics : true
 ---
-
+<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
 
 ##R-snippets
 R snippets for Sublimetext
@@ -39,6 +39,7 @@ Extras:
 - "tikz": template for creating R plots in LaTeX
 
 
-<!-- This project is maintained by <a href="https://github.com/jvcasill">jvcasill</a>
+This project is maintained by <a href="https://github.com/jvcasill">jvcasill</a>
+
 <script src="javascripts/scale.fix.js"></script>
- -->
+
