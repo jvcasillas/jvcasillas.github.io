@@ -41,13 +41,7 @@ R snippets for Sublimetext
 <li>"save": save plots, dfs, tables, etc.</li>
 <li>"tikz": template for creating R plots in LaTeX</li>
 </ul>
-      </section>
-      <footer>
+
         <p>This project is maintained by <a href="https://github.com/jvcasill">jvcasill</a></p>
         <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
-      </footer>
-    </div>
-    <script src="javascripts/scale.fix.js"></script>
-    
-  </body>
-</html>
+        <script src="javascripts/scale.fix.js"></script>
