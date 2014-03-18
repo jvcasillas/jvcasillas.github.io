@@ -3,7 +3,7 @@ layout: default
 title: Spanish 343
 ---
 
-### Spanish 343
+## Spanish 343
 
 <strong>Introduction to Spanish Phonetics and Phonology for the Native Speaker</strong>
 Spanish 343 is the last course in the Spanish for heritage learners program: 103-203-253-323-333-343. It introduces learners to descriptive linguistics, specifically in the area of phonology and phonetics. Students learn about the differences between spoken and written language and use their new knowledge as the basis to improve their orthography. A main focus in this course is to expose students to the different dialects of the Spanish-speaking world. They particularly enjoy learning to identify similarities and differences between the speech of people from Spanish-speaking countries such as Cuba, Mexico, Spain, or Argentina, to name a few.
