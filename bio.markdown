@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: default
 title: Bio
 analytics : true
 ---
