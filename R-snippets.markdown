@@ -19,7 +19,13 @@ Just type the trigger and hit the tab key. For example...
 
     lm
 
-Expands to...
+Brings up the following window
+
+<div  class="thumbnail">
+	<img width="100%" src="/assets/images/lm.png" alt="lm image">
+</div>
+
+Selecting "random slope and random intercept model" expands to...
 
     # load lme4 for mixed models
 	library(lme4)
