@@ -12,6 +12,4 @@ To do:
 	- tikz document setup (3 part)
 	- sublime text 3 (R-snippets)
 - make sound work on landing page
-- pandoc
 - make rss work
-- update cv
