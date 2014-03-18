@@ -5,10 +5,6 @@ analytics : true
 ---
 
 ##R-snippets
-R snippets for Sublimetext
-
-<p class="view"><a href="https://github.com/jvcasill/R-snippets">View the Project on GitHub <small>jvcasill/R-snippets</small></a></p>
-
 
 <div align="left">
 	<button class="clean-gray"><a href="https://github.com/jvcasill/R-snippets/zipball/master">Download <strong>ZIP File</strong></a></button>
