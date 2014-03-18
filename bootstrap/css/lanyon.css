@@ -860,3 +860,6 @@ to{background-position:0 0}
 .title-main{font-size:23px;color:#a00;margin:10px 0;font-family:inherit;font-weight:bold;line-height:20px;text-rendering:optimizelegibility}
 .header1{padding-bottom:0}
 
+a img{
+border:0;
+}
