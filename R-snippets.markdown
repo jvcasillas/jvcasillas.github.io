@@ -11,11 +11,27 @@ analytics : true
 	<button class="clean-gray"><a href="https://github.com/jvcasill/R-snippets/tarball/master">Download <strong>TAR Ball</strong></a></button>
 	<button class="clean-gray"><a href="https://github.com/jvcasill/R-snippets">View On <strong>GitHub</strong></a></button>
 </div>
-
+</br>
   
 This package includes a selection of R snippets for Sublimetext that I find useful when using R through SublimeREPL.
 
-Just type the trigger and hit the tab key.  
+Just type the trigger and hit the tab key. For example...
+
+    lm
+
+Expands to...
+
+    # load lme4 for mixed models
+	library(lme4)
+
+	# random intercept and random slope model
+	modelName = lmer(DV ~ fixedFactor1 +* fixedFactor2 + (1 + randomSlope|randomInt), data=df)
+	modelName
+
+	hist(residuals(modelName))
+	qqnorm(residuals(modelName))
+	qqline(residuals(modelName))
+
 
 Main triggers:  
 
