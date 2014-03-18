@@ -17,31 +17,29 @@ R snippets for Sublimetext
 	<li><a href="https://github.com/jvcasill/R-snippets">View On <strong>GitHub</strong></a></li>
 </ul>
 
-<a name="r-snippets" class="anchor" href="#r-snippets"><span class="octicon octicon-link"></span></a>R-snippets
+This package includes a selection of R snippets for Sublimetext that I find useful when using R through SublimeREPL.
 
-<p>This package includes a selection of R snippets for Sublimetext that I find useful when using R through SublimeREPL</p>
+Just type the trigger and hit the tab key.  
 
-<p>Just type the trigger and hit the tab key.</p>
+Main triggers:  
 
-<p>Main triggers:</p>
 
-<ul>
-<li>"plot": templates for plotting in base R</li>
-<li>"edit": options useful for data cleansing and saving</li>
-<li>"desc": descriptive statistics of data</li>
-<li>"ttest": distinct types of t-test</li>
-<li>"aov": distinct analysis of variance models</li>
-<li>"lm": linear and logistic regression</li>
-<li>"lmem": linear mixed effects models</li>
-</ul><p>Extras:</p>
+- "plot": templates for plotting in base R
+- "edit": options useful for data cleansing and saving
+- "desc": descriptive statistics of data
+- "ttest": distinct types of t-test
+- "aov": distinct analysis of variance models
+- "lm": linear and logistic regression
+- "lmem": linear mixed effects models
 
-<ul>
-<li>"subset": make subsets of a DF</li>
-<li>"read": read/load/install data/packages into R</li>
-<li>"save": save plots, dfs, tables, etc.</li>
-<li>"tikz": template for creating R plots in LaTeX</li>
-</ul>
+Extras:  
 
-<p>This project is maintained by <a href="https://github.com/jvcasill">jvcasill</a></p>
-<p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+- "subset": make subsets of a DF
+- "read": read/load/install data/packages into R
+- "save": save plots, dfs, tables, etc.
+- "tikz": template for creating R plots in LaTeX
+
+
+This project is maintained by <a href="https://github.com/jvcasill">jvcasill</a>
+<small>Hosted on GitHub Pages &mdash; </small>
 <script src="javascripts/scale.fix.js"></script>
