@@ -16,7 +16,7 @@ I recently learned how to create HTML5 slides using __.Rmd__ files and __pandoc_
 
 **Update** [Here][Here] is a much cooler example I found on [mages' blog][mages' blog]
 
-**Update** This process has been streamlined in the newest update to RStudio ([check it out here][check it out here]). The results are quite impressive ([Ex. 1][Ex. 1], [Ex. 2][Ex. 2])
+**Update 2** This process has been streamlined in the newest update to RStudio ([check it out here][check it out here]). The results are quite impressive ([Ex. 1][Ex. 1], [Ex. 2][Ex. 2])
 
 
 [Click here]: /archive/md_to_html5_ex/md_html_ex.html
@@ -24,7 +24,7 @@ I recently learned how to create HTML5 slides using __.Rmd__ files and __pandoc_
 [mages' blog]: http://lamages.blogspot.com.au/2012/05/interactive-reports-in-r-with-knitr-and.html
 [check it out here]: http://rmarkdown.rstudio.com/index.html
 [Ex. 1]: /archive/reveal/reaveal.html
-[Ex.2]: /archive/ioslides/ioslides.html
+[Ex. 2]: /archive/ioslides/ioslides.html
 
 <div id="disqus_thread"></div>
 <script type="text/javascript">
