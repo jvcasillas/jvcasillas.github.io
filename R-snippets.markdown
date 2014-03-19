@@ -14,8 +14,7 @@ analytics : true
 </div>
 </br>
 
-<iframe src="http://ghbtns.com/github-btn.html?user=mdo&repo=github-buttons&type=watch"
-  allowtransparency="true" frameborder="0" scrolling="0" width="62" height="20"></iframe>
+<iframe src="http://ghbtns.com/github-btn.html?user=mdo&repo=github-buttons&type=watch" allowtransparency="true" frameborder="0" scrolling="0" width="62" height="20"></iframe>
 
 This package includes a selection of R snippets for Sublimetext that I find useful when using R through SublimeREPL.
 
