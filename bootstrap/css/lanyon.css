@@ -758,15 +758,64 @@ a.pagination-item:hover {
 .popover.bottom .arrow:after{top:1px;margin-left:-10px;border-bottom-color:#fff;border-top-width:0}
 .popover.left .arrow{top:50%;right:-11px;margin-top:-11px;border-left-color:#999;border-left-color:rgba(0,0,0,0.25);border-right-width:0}
 .popover.left .arrow:after{right:1px;bottom:-10px;border-left-color:#fff;border-right-width:0}
-.thumbnails{margin-left:-20px;list-style:none;*zoom:1}
-.thumbnails:before,.thumbnails:after{display:table;line-height:0;content:""}
-.thumbnails:after{clear:both}
-.row-fluid .thumbnails{margin-left:0}
-.thumbnails>li{float:left;margin-bottom:20px;margin-left:20px}
-.thumbnail{display:block;padding:4px;line-height:20px;border:1px solid #ddd;-webkit-border-radius:4px;-moz-border-radius:4px;border-radius:4px;-webkit-box-shadow:0 1px 3px rgba(0,0,0,0.055);-moz-box-shadow:0 1px 3px rgba(0,0,0,0.055);box-shadow:0 1px 3px rgba(0,0,0,0.055);-webkit-transition:all .2s ease-in-out;-moz-transition:all .2s ease-in-out;-o-transition:all .2s ease-in-out;transition:all .2s ease-in-out}
-a.thumbnail:hover,a.thumbnail:focus{border-color:#08c;-webkit-box-shadow:0 1px 4px rgba(0,105,214,0.25);-moz-box-shadow:0 1px 4px rgba(0,105,214,0.25);box-shadow:0 1px 4px rgba(0,105,214,0.25)}
-.thumbnail>img{display:block;max-width:100%;margin-right:auto;margin-left:auto}
-.thumbnail .caption{padding:1px;color:#555}
+
+img {
+  vertical-align: middle;
+}
+.img-responsive,
+.thumbnail > img,
+.thumbnail a > img,
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+.img-rounded {
+  border-radius: 6px;
+}
+.img-thumbnail {
+  display: inline-block;
+  max-width: 100%;
+  height: auto;
+  padding: 4px;
+  line-height: 1.42857143;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  -webkit-transition: all .2s ease-in-out;
+          transition: all .2s ease-in-out;
+}
+
+.thumbnail {
+  display: block;
+  padding: 4px;
+  margin-bottom: 20px;
+  line-height: 1.42857143;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  -webkit-transition: all .2s ease-in-out;
+          transition: all .2s ease-in-out;
+}
+.thumbnail > img,
+.thumbnail a > img {
+  margin-right: auto;
+  margin-left: auto;
+}
+a.thumbnail:hover,
+a.thumbnail:focus,
+a.thumbnail.active {
+  border-color: #428bca;
+}
+.thumbnail .caption {
+  padding: 9px;
+  color: #333;
+}
+
+
+
+
 
 
 a img{
