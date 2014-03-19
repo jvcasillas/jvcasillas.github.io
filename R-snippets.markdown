@@ -6,7 +6,6 @@ analytics : true
 
 ##R-snippets
 
-<iframe src="github-btn.html?user=mdo&repo=github-buttons&type=fork&count=true" allowtransparency="true" frameborder="0" scrolling="0" width="95px" height="20px"></iframe>
 
 <div align="left">
 	<button class="clean-gray"><a href="https://github.com/jvcasill/R-snippets/zipball/master">Download <strong>ZIP File</strong></a></button>
@@ -14,7 +13,10 @@ analytics : true
 	<button class="clean-gray"><a href="https://github.com/jvcasill/R-snippets">View On <strong>GitHub</strong></a></button>
 </div>
 </br>
-  
+
+<iframe src="http://ghbtns.com/github-btn.html?user=mdo&repo=github-buttons&type=watch"
+  allowtransparency="true" frameborder="0" scrolling="0" width="62" height="20"></iframe>
+
 This package includes a selection of R snippets for Sublimetext that I find useful when using R through SublimeREPL.
 
 Just type the trigger and hit the tab key. For example, typing `lm` brings up the following window:
