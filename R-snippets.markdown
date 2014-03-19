@@ -6,8 +6,10 @@ analytics : true
 
 ##R-snippets
 
+<div>
 <iframe src="http://ghbtns.com/github-btn.html?user=mdo&repo=github-buttons&type=watch"
   allowtransparency="true" frameborder="0" scrolling="0" width="62" height="20"></iframe>
+</div>
 
 <div align="left">
 	<button class="clean-gray"><a href="https://github.com/jvcasill/R-snippets/zipball/master">Download <strong>ZIP File</strong></a></button>
