@@ -73,7 +73,7 @@ h1, h2, h3, h4, h5, h6 {
  */
 
 .container {
-  max-width: 34rem;
+  max-width: 28rem;
 }
 @media (min-width: 38rem) {
   .container {
@@ -155,7 +155,7 @@ h1, h2, h3, h4, h5, h6 {
   -webkit-transition: all .3s ease-in-out;
           transition: all .3s ease-in-out;
 }
-@media (min-width: 30rem) {
+@media (min-width: 34rem) {
   .sidebar {
     font-size: .75rem; /* 14px */
   }
