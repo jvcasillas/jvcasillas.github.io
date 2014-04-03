@@ -5,6 +5,7 @@ github: jvcasill
 twitter: jvcasill
 pygments: true
 timezone: TIMEZONE
+markdown: kramdown
   
 # Settings for analytics
 analytics :
