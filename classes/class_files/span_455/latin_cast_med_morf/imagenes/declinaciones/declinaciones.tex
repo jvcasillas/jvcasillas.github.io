@@ -1,0 +1,44 @@
+% !TEX encoding = UTF-8 Unicode
+\documentclass[convert={density=300,size=1000x700,outext=.png}]{standalone}
+\usepackage{tikz}
+% \usepackage[active,tightpage,psfixbb]{preview}
+\usepackage{tipa}
+% \PreviewEnvironment{pgfpicture}
+% \setlength\PreviewBorder{2pt}
+
+\begin{document}
+\begin{tikzpicture}[scale=.65]
+
+% \draw[help lines] (0,8) grid (7,20);
+
+
+
+\node [font=\Large,blue] at (9,17) {};
+
+\node [font=\Large,blue] (a1) at (2,17) {1};
+\node [font=\Large,blue] (a2) at (2,15) {2};
+\node [font=\Large,blue] (a3) at (2,13) {3};
+\node [font=\Large,blue] (a4) at (2,11) {4};
+\node [font=\Large,blue] (a5) at (2,9) {5};
+
+\node [font=\Large,blue] (b1) at (5,15) {1};
+\node [font=\Large,blue] (b2) at (5,13) {2};
+\node [font=\Large,blue] (b3) at (5,11) {3};
+
+% arrows
+\draw [->, thick] (a1) -- (b1);
+\draw [->, thick] (a2) -- (b2);
+\draw [->, thick] (a3) -- (b3);
+\draw [->, thick] (a4) -- (b2);
+\draw [->, thick] (a5) -- (b1);
+\draw [->, thick] (a5) -- (b3);
+
+
+
+
+
+
+
+
+\end{tikzpicture}
+\end{document}
