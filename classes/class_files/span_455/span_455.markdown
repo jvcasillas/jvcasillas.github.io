@@ -21,4 +21,4 @@ Capítulo 3. Historia externa de la Península Ibérica hasta el siglo XIII
 [Capítulo 2. La genealogía del español]: /classes/class_files/span_455/genealogia/genealogia.html
 [Capítulo 4. La lengua latina]: /classes/class_files/span_455/latin/latin.html
 [Capítulo 5. Del latín al castellano medieval: Fonología]: /classes/class_files/span_455/latin_cast_med_fon/latin_castellano_medieval_fon.html
-[Capítulo 6. Del latín al castellano medieval: Morfología y sintaxis]: /classes/class_files/span_455/latin_cast_med_morfosintaxis/latin_castellano_medieval_morfosintaxis.html
+[Capítulo 5. Del latín al castellano medieval: Morfología y sintaxis]: /classes/class_files/span_455/latin_cast_med_morfosintaxis/latin_castellano_medieval_morfosintaxis.html
