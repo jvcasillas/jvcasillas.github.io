@@ -11,5 +11,3 @@ To do:
 - new blog posts
 	- tikz document setup (3 part)
 	- sublime text 3 (R-snippets)
-- make sound work on landing page
-- make rss work
