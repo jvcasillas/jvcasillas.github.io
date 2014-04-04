@@ -4,13 +4,16 @@ title: Home
 analytics : true
 ---
 
-
-<div>
-	<img width="100%" class="img-thumbnail" src="/assets/images/praat.png" alt="welcome image">
-</div>
-
-<audio autoplay>
+<audio id="welcome">
     <source src="/assets/sounds/welcome_robot.wav" type="audio/mpeg">
     <source src="/assets/sounds/welcome_robot.ogg" type="audio/ogg">
     Your browser does not support the HTML5 Audio element.
 </audio>
+
+
+<div>
+	<img width="100%" class="img-thumbnail" src="/assets/images/praat.png" alt="welcome image" usemap="#my_image">
+	<map name="my_image"> <area shape="rect" coords="20,65,50,95" onClick="document.getElementById('welcome').play(); return false;" />
+    </map>
+</div>
+
