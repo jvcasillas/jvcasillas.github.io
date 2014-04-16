@@ -28,7 +28,7 @@ analytics : true
         <div class="tab-pane" id="publications" style="margin-left:2em;text-indent:-2em">
             <h4>Recent Publications</h4>
                 <p>
-			Casillas, J. V. (2012). La fricativización del africado /ʧ/ en el habla de las mujeres del sur de Arizona. <i>Divergencias: Revista de estudios lingüísticos y literarios</i>, 10 (1). <a alt="Divergencias" href="http://divergencias.arizona.edu/sites/divergenciasweb.arizona.edu/files/articles/FricativizacionDivergencias.pdf" target='_new'><span class="showtooltip" title="Read paper">Link</span></a> 
+			Casillas, J. V. (2012). La fricativización del africado /ʧ/ en el habla de las mujeres del sur de Arizona. <i>Divergencias: Revista de estudios lingüísticos y literarios</i>, 10 (1). <a alt="Divergencias" href="http://divergencias.arizona.edu/sites/divergenciasweb.arizona.edu/files/articles/FricativizacionDivergencias.pdf" target='_new'><span class="showtooltip" title="Read paper">Link</span></a>
                 </p>
 
                 <p>
@@ -36,7 +36,7 @@ analytics : true
                 </p>
 
                 <p>
-			Casillas, J. V. (2009). El uso de los refranes en el quijote. <i>La Gaceta Hispánica de Madrid</i>, VIII. 
+			Casillas, J. V. (2009). El uso de los refranes en el quijote. <i>La Gaceta Hispánica de Madrid</i>, VIII.
                 </p>
 
             <h4>Proceedings</h4>
@@ -48,27 +48,32 @@ analytics : true
                 <p>
 			Casillas, J. V. &amp; Simonet, M. Perception and spoken-word recognition of English-specific vowel contrasts by early and late L2 learners: The case of Spanish-L1 attriters.
                 </p>
-				
+
                 <p>
 			Casillas, J. V. Production and perception of the English /i/-/ɪ/ vowel contrast in L2 dominant early learners of English.
-                </p> 
-				
+                </p>
+
                 <p>
 			Simonet, M., Casillas, J. V., &amp; Diaz, Y. The effects of stress/accent on VOT depend on language (English, Spanish), consonant (/d/, /t/) and linguistic experience (monolinguals, bilinguals).
                 </p>
 
             <h4>In preparation</h4>
-                
+
                 <p>
 			Casillas, J. V. El foco y el orden de palabras en español
                 </p>
-		
+
         </div>
         <div class="tab-pane" id="presentations" style="margin-left:2em;text-indent:-2em">
             <h4>Presentations</h4>
-		<p>
+		        <p>
+            Bessett, R. M., Casillas, J. V. &amp; Ramírez Martínez, M. (2014). La fricativización del africado /ʧ/: actitudes lingüísticas cerca de la frontera. <i>7th International Workshop on Spanish Sociolinguistics</i>. University of Wisconsin-Madison. Madison, Wisconsin (April, 2014).
+               </p>
+
+                <p>
 			Casillas, J. V. (2013). Perception of English /i/-/ɪ/ tense/lax vowel contrast by early learners of English. <i>Second Language Research Forum (SLRF)</i>. Brigham Young University. Provo, Utah. (October, 2013).
-		</p>
+		        </p>
+
                 <p>
 			Casillas, J. V. (2013). English-dominant early Spanish-English bilinguals production and perception of English tense lax vowel contrasts. <i>Phonetics and Phonology in Iberia</i>. Universidade de Lisboa. Lisbon, Portugal. (June, 2013).
                 </p>
@@ -82,11 +87,11 @@ analytics : true
                 </p>
 
                 <p>
-			Casillas, J. V. (2011). Going mental with vocabulary: the use of iDevice applications in the classroom. Spanish Heritage Language Program Share Day. University of Arizona. Tucson, Arizona (March, 2011). 
+			Casillas, J. V. (2011). Going mental with vocabulary: the use of iDevice applications in the classroom. Spanish Heritage Language Program Share Day. University of Arizona. Tucson, Arizona (March, 2011).
                 </p>
 
                 <p>
-			Casillas, J. V. (2011). La fricativización del africado /ʧ/ en el habla de las mujeres del sur de arizona. <i>21st Annual Symposium on Hispanic and Luso-Brazilian Literature</i>. University of Arizona. Tucson, Arizona (March, 2011). 
+			Casillas, J. V. (2011). La fricativización del africado /ʧ/ en el habla de las mujeres del sur de arizona. <i>21st Annual Symposium on Hispanic and Luso-Brazilian Literature</i>. University of Arizona. Tucson, Arizona (March, 2011).
                 </p>
 
             <h4>Poster Presentations</h4>
