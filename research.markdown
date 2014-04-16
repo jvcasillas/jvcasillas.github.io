@@ -67,7 +67,7 @@ analytics : true
         <div class="tab-pane" id="presentations" style="margin-left:2em;text-indent:-2em">
             <h4>Presentations</h4>
 		        <p>
-            Bessett, R. M., Casillas, J. V. &amp; Ramírez Martínez, M. (2014). La fricativización del africado /ʧ/: actitudes lingüísticas cerca de la frontera. <i>7th International Workshop on Spanish Sociolinguistics</i>. University of Wisconsin-Madison. Madison, Wisconsin (April, 2014).
+            Bessett, R. M., Casillas, J. V. &amp; Ramírez Martínez, M. (2014). Language Choice and Accommodation: Casual Encounters Along the U.S. Border. <i>7th International Workshop on Spanish Sociolinguistics</i>. University of Wisconsin-Madison. Madison, Wisconsin (April, 2014).
                </p>
 
                 <p>
