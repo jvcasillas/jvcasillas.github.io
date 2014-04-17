@@ -1,0 +1,110 @@
+---
+title: "lingreference.org"
+author: "Joseph V. Casillas"
+date: "April 29 2014"
+output:
+  ioslides_presentation:
+    fig_caption: yes
+    smaller: yes
+    transition: faster
+    widescreen: yes
+  beamer_presentation: default
+  revealjs_presentation: default
+---
+
+
+# Overview
+
+## Purpose
+
+- Translate linguistic terminology in Romance languages
+- Provide community forum for consulting/suggesting/discussing translation
+- Made by end-user for end-user (i.e. linguists)
+
+# The interface
+
+## KISS
+
+- Minimalist design
+- Intuitive
+- Accesible from mobile devices
+
+##
+
+<div align="center">
+<img width="950" src='../images/home.png'>
+</div>
+
+##
+
+<div align="center">
+<img width="950" src='../images/entry.png'>
+</div>
+
+##
+
+<div align="center">
+<img width="950" src='../images/null.png'>
+</div>
+
+# Database
+
+## How it works
+
+- User submission
+- Staging
+- Revision
+- Inclusion
+
+##
+
+<div align="center">
+<img width="950" src='../images/database_wf/database_wf.pdf'>
+</div>
+
+## Searching
+
+- Query sent to database through PHP
+- Database searched for 'x' term
+- Result sent back to webpage through PHP
+
+##
+
+<div align="center">
+<img width="950" src='../images/database_search/database_search.pdf'>
+</div>
+
+# Roadmap
+
+## Functionality
+
+- entry count in 'about' section
+- google form to submit entries (same excel as staging)
+    - from forum
+    - from search results
+- rating system
+    - 'thumbs up'/'thumbs down'
+    - display % 'thumbs up' with each entry
+    - rating occurs in entry, but accessible from forum
+- Definitions
+    - include English definition with each entry
+    - expand to other languages? (probably not)
+
+# Goals
+
+## Short term
+
+- Functional dictionary with limited entries
+- Build forum
+- Promote to linguists
+    - facebook
+    - twitter
+
+## Long term
+
+- Become principle reference for linguistic terminology in Romance
+- Grow user base
+- Serve as model for language revitalization projects
+    - open source code (github)
+    - article (Comanche)
+
