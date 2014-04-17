@@ -78,14 +78,19 @@ output:
 
 ## Functionality
 
-- entry count in 'about' section
-- google form to submit entries (same excel as staging)
-    - from forum
-    - from search results
 - rating system
     - 'thumbs up'/'thumbs down'
     - display % 'thumbs up' with each entry
     - rating occurs in entry, but accessible from forum
+- include multiple possibilities/translations for each entry (if suggested by users)
+    - Ex.
+        - English: 'voice-onset time'
+        - Spanish: 'tiempo de inicio de sonoridad'/'tiempo de inicio de fonación'
+    - Entries listed vertically, in order of highest rating
+- entry count in 'about' section
+- google form to submit entries (same excel as staging)
+    - from forum
+    - from search results
 - Definitions
     - include English definition with each entry
     - expand to other languages? (probably not)
