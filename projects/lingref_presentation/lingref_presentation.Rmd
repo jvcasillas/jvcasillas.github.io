@@ -5,22 +5,18 @@ date: "April 29 2014"
 output:
   revealjs_presentation:
     center: yes
-    highlight: zenburn
-    incremental: yes
-  ioslides_presentation:
-    fig_caption: yes
     highlight: pygments
-    logo: ~/Google_Drive/13_primavera_2014/classes/span_696c_translation_spring_2014/lingref_manuscript/images/ua.gif
-    transition: faster
-    widescreen: yes
+    incremental: yes
+    transition: linear
+    theme: night
 subtitle: lingreference.org
 ---
 
 # Overview
 
-## Problem
+## <font color="#AA0000">Problem</font> 
 
-How do I say VOT in Spanish?
+<font color="#0000FF">How do I say VOT in Spanish?</font>
 
 - Technical fields with specialized terminology need translations 
 
@@ -28,23 +24,35 @@ How do I say VOT in Spanish?
 
 - Most academics aren't translators
 
-## Proposal
+## <font color="#AA0000">Proposal</font>
+
+</br>
 
 <div style="float: right">
 <img width="400" src="../images/nosubs.png">
 </div>
 
 - We can learn from anime
+
 - ```Fansubs``` are...
+
 - Arose out of necessity
 
-##
+## 
 
 <div align="center">
 <iframe width="960" height="720" src="//www.youtube.com/embed/9w-aeU0KwuE" frameborder="0" allowfullscreen></iframe>
 </div>
 
-## Purpose
+
+## 
+
+<div align="center">
+<img width="900" src="../images/funny_cantdie.jpg">
+</div>
+
+
+##  <font color="#AA0000">Purpose</font>
 
 - Translate linguistic terminology in Romance languages
 
@@ -52,93 +60,115 @@ How do I say VOT in Spanish?
 
 - Made by end-user for end-user (i.e. linguists)
 
-## Current practices
+##  <font color="#AA0000">Current practices</font>
 
 - Reverse wikipedia + google search
+
 - Find articles/books
+
 - Ask a prof/advisor/lab buddy
+
 - Wing it
 
-## Problems with current practices
+##  <font color="#AA0000">Problems with current practices</font>
 
 - Wikipedia only has entries in russian
+
 - No pertinant articles/books in TL
+
 - (linguistic) God complex
+
     - reliance on specific translation because it's what somebody else said first (Chomsky, Bosque, etc.)
+    
     - doesn't take into account that it might not be a good translation
+    
 - Prof/advisor/lab buddy doesn't know/care
 
-## What we need
+##  <font color="#AA0000">What we need</font>
+</br>
 
 - Forum where end-users (linguists) discuss, propose and rate translations of linguistic terminology
 
-Possible consequences:  
+</br>
+
+### <font color="#0000FF"> Possible consequences:</font>
+
+</br>
 
 - Eliminates God complex?
+
 - Creates a database that formed by linguists that can be accessed by linguists (students, profs)
 
-# The interface
+# The interface 
 
-## KISS
+## <font color="#AA0000">KISS</font>
 
 - Minimalist design
+
 - Intuitive
+
 - Accesible from mobile devices
 
-##
+## {data-background="#000000"}
 
 <div align="center">
 <img width="950" src='../images/home.png'>
 </div>
 
-##
+## {data-background="#000000"}
 
 <div align="center">
 <img width="950" src='../images/entry.png'>
 </div>
 
-##
+## {data-background="#000000"}
 
 <div align="center">
 <img width="950" src='../images/null.png'>
 </div>
 
-# Database
+# Database 
 
-## How it works
+## <font color="#AA0000">How it works</font>
 
 - User submissions
+
 - Staging
+
 - Revision
+
 - Inclusion
 
-##
+## {data-background="#000000"}
 
 <div align="center">
 <iframe width="960" height="820" src="//www.lingreference.org" frameborder="0" allowfullscreen></iframe>
 </div>
 
-##
+## 
 
 <div align="center">
 <img width="950" src='../images/database_wf/database_wf.pdf'>
 </div>
 
-## Searching
+## <font color="#AA0000">Searching</font>
 
 - Query sent to database through PHP
+
 - Database searched for 'x' term
+
 - Result sent back to webpage through PHP
 
-##
+## 
 
 <div align="center">
 <img width="950" src='../images/database_search/database_search.pdf'>
 </div>
 
-## Submission process
+## <font color="#AA0000">Submission process</font>
 
 - Required info collected for each submission
+
     - SL entry
     - TL entry
     - meaning
@@ -146,9 +176,9 @@ Possible consequences:
     - references
     - tags
 
-# Roadmap
+# Roadmap 
 
-## Functionality
+## <font color="#AA0000">Functionality</font>
 
 - Rating system
     - 'thumbs up'/'thumbs down'
@@ -160,6 +190,9 @@ Possible consequences:
         - Spanish: 'tiempo de inicio de sonoridad'/'tiempo de inicio de fonación'
     - Entries listed vertically, in order of highest rating
 - Entry count in 'about' section
+
+## <font color="#AA0000">Functionality</font>
+
 - Google form to submit entries (same excel as staging)
     - Submissions come from:
         - forum
@@ -167,31 +200,37 @@ Possible consequences:
 - Definitions
     - Include English definition with each entry
 
-# Goals
+# Goals 
 
-##
+## 
 
 <div align="center">
-![internet gif](../images/internet.gif)
+<img width="700" src="../images/internet.gif">
 </div>
 
-## Short term
+## <font color="#AA0000">Short term</font>
 
 - Functional dictionary with limited entries
+
 - Build forum
+
 - Promote to linguists
+
     - facebook
+    
     - twitter
 
-## Long term
+## <font color="#AA0000">Long term</font>
 
 - Become principle reference for linguistic terminology in Romance
-- Grow user base
-- Serve as model for language revitalization projects
-    - open source code (github)
-    - article (Comanche)
 
-## References
+- Grow user base
+
+- Serve as model for language revitalization projects
+
+- open source code (github)
+
+## <font color="#AA0000">References</font>
 
 - lots
 - and lots
