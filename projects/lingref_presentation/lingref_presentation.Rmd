@@ -109,23 +109,17 @@ subtitle: lingreference.org
 
 - Accesible from mobile devices
 
-## {data-background="#000000"}
+## {data-background-image="../images/home.png"}
 
-<div align="center">
-<img width="950" src='../images/home.png'>
-</div>
 
-## {data-background="#000000"}
 
-<div align="center">
-<img width="950" src='../images/entry.png'>
-</div>
+## {data-background-image="../images/entry.png"}
 
-## {data-background="#000000"}
 
-<div align="center">
-<img width="950" src='../images/null.png'>
-</div>
+
+## {data-background-image="../images/null.png"}
+
+
 
 # Database 
 
@@ -139,7 +133,7 @@ subtitle: lingreference.org
 
 - Inclusion
 
-## {data-background="#000000"}
+## 
 
 <div align="center">
 <iframe width="960" height="820" src="//www.lingreference.org" frameborder="0" allowfullscreen></iframe>
