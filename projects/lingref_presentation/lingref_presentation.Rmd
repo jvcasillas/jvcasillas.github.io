@@ -1,5 +1,6 @@
 ---
-title: "Community based translations"
+title: "lingreference.org:"
+subtitle: "All your base are belong to us"
 author: "Joseph V. Casillas"
 date: "April 29 2014"
 output:
@@ -9,14 +10,13 @@ output:
     incremental: yes
     transition: linear
     theme: night
-subtitle: lingreference.org
 ---
 
 # Overview
 
 ## <font color="#AA0000">Problem</font> 
 
-<font color="#0000FF">How do I say VOT in Spanish?</font>
+<font color="#0000FF">How do you say VOT in Spanish?</font>
 
 - Technical fields with specialized terminology need translations 
 
@@ -34,22 +34,7 @@ subtitle: lingreference.org
 
 - We can learn from anime
 
-- ```Fansubs``` are...
-
-- Arose out of necessity
-
-## 
-
-<div align="center">
-<iframe width="960" height="720" src="//www.youtube.com/embed/9w-aeU0KwuE" frameborder="0" allowfullscreen></iframe>
-</div>
-
-
-## 
-
-<div align="center">
-<img width="900" src="../images/funny_cantdie.jpg">
-</div>
+- ```Fansubs``` are a subcultural that has dealt with similar problems
 
 
 ##  <font color="#AA0000">Purpose</font>
@@ -75,14 +60,15 @@ subtitle: lingreference.org
 - Wikipedia only has entries in russian
 
 - No pertinant articles/books in TL
+    
+- Prof/advisor/lab buddy doesn't know/care
 
 - (linguistic) God complex
 
     - reliance on specific translation because it's what somebody else said first (Chomsky, Bosque, etc.)
     
     - doesn't take into account that it might not be a good translation
-    
-- Prof/advisor/lab buddy doesn't know/care
+
 
 ##  <font color="#AA0000">What we need</font>
 </br>
@@ -95,11 +81,50 @@ subtitle: lingreference.org
 
 </br>
 
-- Eliminates God complex?
-
 - Creates a database that formed by linguists that can be accessed by linguists (students, profs)
 
-# The interface 
+- Eliminates God complex?
+
+
+# Fansubs
+
+## <font color="#AA0000">What are they?</font>
+
+## <font color="#AA0000">Why?</font>
+
+##
+
+<div align="center">
+<iframe width="960" height="720" src="//www.youtube.com/embed/9w-aeU0KwuE" frameborder="0" allowfullscreen></iframe>
+</div>
+
+
+## 
+
+<div align="center">
+<img width="900" src="../images/funny_cantdie.jpg">
+</div>
+
+## <font color="#AA0000">TS issues</font>
+
+## <font color="#AA0000">Equivalence</font>
+
+- cosas
+- cosas
+
+## <font color="#AA0000">(in)visibility of the translator</font>
+
+- cosas
+- cosas
+
+## <font color="#AA0000">So what?</font>
+
+- community-based translations can help avoid problems involved with translation of techinical terminology
+
+
+# lingreference.org
+
+## <font color="#AA0000">The interface</font>
 
 ## <font color="#AA0000">KISS</font>
 
@@ -121,7 +146,7 @@ subtitle: lingreference.org
 
 
 
-# Database 
+# <font color="#AA0000">Database</font>
 
 ## <font color="#AA0000">How it works</font>
 
@@ -170,7 +195,7 @@ subtitle: lingreference.org
     - references
     - tags
 
-# Roadmap 
+# <font color="#AA0000">Roadmap</font>
 
 ## <font color="#AA0000">Functionality</font>
 
@@ -194,7 +219,7 @@ subtitle: lingreference.org
 - Definitions
     - Include English definition with each entry
 
-# Goals 
+# <font color="#AA0000">Goals</font>
 
 ## 
 
