@@ -3,6 +3,10 @@ title: "Community based translations"
 author: "Joseph V. Casillas"
 date: "April 29 2014"
 output:
+  revealjs_presentation:
+    center: yes
+    highlight: zenburn
+    incremental: yes
   ioslides_presentation:
     fig_caption: yes
     highlight: pygments
@@ -16,13 +20,13 @@ subtitle: lingreference.org
 
 ## Problem
 
-<pre class = 'prettyprint lang-r'> &quot;How do I say VOT in Spanish?&quot;</pre>
+How do I say VOT in Spanish?
 
-> - Technical fields with specialized terminology need translations 
+- Technical fields with specialized terminology need translations 
 
-> - Many fields don't have satisfactory translations into many langauges
+- Many fields don't have satisfactory translations into many langauges
 
-> - Most academics aren't translators
+- Most academics aren't translators
 
 ## Proposal
 
@@ -42,11 +46,11 @@ subtitle: lingreference.org
 
 ## Purpose
 
-> - Translate linguistic terminology in Romance languages
+- Translate linguistic terminology in Romance languages
 
-> - Provide community forum for consulting/suggesting/discussing translation
+- Provide community forum for consulting/suggesting/discussing translation
 
-> - Made by end-user for end-user (i.e. linguists)
+- Made by end-user for end-user (i.e. linguists)
 
 ## Current practices
 
@@ -111,7 +115,7 @@ Possible consequences:
 ##
 
 <div align="center">
-<iframe width="960" height="720" src="//www.lingreference.org" frameborder="0" allowfullscreen></iframe>
+<iframe width="960" height="820" src="//www.lingreference.org" frameborder="0" allowfullscreen></iframe>
 </div>
 
 ##
