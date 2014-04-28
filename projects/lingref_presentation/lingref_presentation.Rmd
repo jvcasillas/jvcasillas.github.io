@@ -18,6 +18,8 @@ output:
 
 <font color="#0000FF">How do you say VOT in Spanish?</font>
 
+</br>
+
 - Technical fields with specialized terminology need translations 
 
 - Many fields don't have satisfactory translations into many langauges
@@ -28,14 +30,23 @@ output:
 
 </br>
 
-<div style="float: right">
-<img width="400" src="../images/nosubs.png">
-</div>
-
 - We can learn from anime
 
-- ```Fansubs``` are a subcultural that has dealt with similar problems
+- <font color="#0000FF">Fansubs</font> represent a subculture that has dealt with similar problems
 
+- The <font color="#0000FF">fansub</font> model can be used for technical translations
+
+##
+
+<div aligh="center">
+<img width="900" src="../images/awkward_inside.jpg">
+</div>
+
+##
+
+<div aligh="center">
+<img width="900" src="../images/awkward_pleasurefish.jpg">
+</div>
 
 ##  <font color="#AA0000">Purpose</font>
 
@@ -90,7 +101,7 @@ output:
 
 ## <font color="#AA0000">What are they?</font>
 
-## <font color="#AA0000">Why?</font>
+- definition fo some sort
 
 ##
 
@@ -98,12 +109,19 @@ output:
 <iframe width="960" height="720" src="//www.youtube.com/embed/9w-aeU0KwuE" frameborder="0" allowfullscreen></iframe>
 </div>
 
+##
+
+<div align="center">
+<iframe width="960" height="720" src="//www.youtube.com/embed/SwSU7Y8xb-Y" frameborder="0" allowfullscreen></iframe>
+</div>
 
 ## 
 
 <div align="center">
 <img width="900" src="../images/funny_cantdie.jpg">
 </div>
+
+## <font color="#AA0000">Why?</font>
 
 ## <font color="#AA0000">TS issues</font>
 
