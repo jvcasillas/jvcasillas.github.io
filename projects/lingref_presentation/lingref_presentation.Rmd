@@ -1,6 +1,6 @@
 ---
-title: "lingreference.org:"
-subtitle: "All your base are belong to us"
+title: "All your base are belong to us:"
+subtitle: "lingreference.org"
 author: "Joseph V. Casillas"
 date: "April 29 2014"
 output:
@@ -39,13 +39,13 @@ output:
 ##
 
 <div aligh="center">
-<img width="900" src="../images/awkward_inside.jpg">
+<img width="850" src="../images/awkward_inside.jpg">
 </div>
 
 ##
 
 <div aligh="center">
-<img width="900" src="../images/awkward_pleasurefish.jpg">
+<img width="850" src="../images/awkward_pleasurefish.jpg">
 </div>
 
 ##  <font color="#AA0000">Purpose</font>
@@ -101,7 +101,11 @@ output:
 
 ## <font color="#AA0000">What are they?</font>
 
-- definition fo some sort
+- Subtitles in anime cartoons
+
+- made by the fanbase for the fanbase (doesn’t understand Japanese)
+
+## <font color="#AA0000">Why?</font>
 
 ##
 
@@ -115,25 +119,168 @@ output:
 <iframe width="960" height="720" src="//www.youtube.com/embed/SwSU7Y8xb-Y" frameborder="0" allowfullscreen></iframe>
 </div>
 
-## 
+
+## <font color="#AA0000">Problems</font>
+
+##
 
 <div align="center">
 <img width="900" src="../images/funny_cantdie.jpg">
 </div>
 
-## <font color="#AA0000">Why?</font>
+##
+
+<div align="center">
+<img width="800" src="../images/awkward_check.jpg">
+</div>
+
+##
+
+<div align="center">
+<img width="800" src="../images/funny_car.jpg">
+</div>
+
+##
+
+<div align="center">
+<img width="800" src="../images/funny_killhim.jpg">
+</div>
+
+##
+
+<div align="center">
+<img width="750" src="../images/funny_losewin.jpg">
+</div>
+
+##
+
+<div align="center">
+<img width="800" src="../images/funny_pidgeon.jpg">
+</div>
+
+##
+
+<div align="center">
+<img width="500" src="../images/funny_right.jpg">
+</div>
+
+
+## <font color="#AA0000">Other genres</font>
+
+- The concept of fansubbing has extended to other cultures and genres
+    - HIMYM
+    - Lost
+- Fansubbers are <font color="#0000FF">FAST</font>!
 
 ## <font color="#AA0000">TS issues</font>
 
 ## <font color="#AA0000">Equivalence</font>
 
-- cosas
-- cosas
+- Websites dedicated to reviewing and rating 'quality' of fansubs
+
+- Certain groups regarded as 'better', 'worse', more/less equivalent
+
+##
+
+<div align="center">
+<img width="800" src="../images/equivalence3.jpg">
+</div>
+
+##
+
+<div align="center">
+<img width="800" src="../images/equivalence2.png">
+</div>
+
+##
+
+<div align="center">
+<img width="800" src="../images/equivalence1.jpg">
+</div>
+
+##
+
+<div align="center">
+<img width="900" src="../images/funny_pew.jpg">
+</div>
+
+## <font color="#AA0000">What gets translated?</font>
+
+- Honorifics
+    
+    - san
+        
+    - sama
+        
+    - kun
 
 ## <font color="#AA0000">(in)visibility of the translator</font>
 
-- cosas
-- cosas
+- Some fansub groups are known for providing relevant information that may be unknown to the viewer
+
+- Sometimes the information is not too relevant
+
+##
+
+<div align="center">
+<img width="750" src="../images/visibility_damn.jpg">
+</div>
+
+##
+
+<div align="center">
+<img width="750" src="../images/visibility_def.jpg">
+</div>
+
+##
+
+<div align="center">
+<img width="750" src="../images/visibility_gatuno.jpg">
+</div>
+
+##
+
+<div align="center">
+<img width="750" src="../images/visibility_loaded1.jpg">
+</div>
+
+##
+
+<div align="center">
+<img width="750" src="../images/visibility_loaded2.jpg">
+</div>
+
+##
+
+<div align="center">
+<img width="750" src="../images/visibility_loaded3.jpg">
+</div>
+
+##
+
+<div align="center">
+<img width="750" src="../images/visibility_name.png">
+</div>
+
+##
+
+<div align="center">
+<img width="750" src="../images/visibility_nota.jpg">
+</div>
+
+##
+
+<div align="center">
+<img width="750" src="../images/visibility_plan.jpg">
+</div>
+
+##
+
+<div align="center">
+<img width="750" src="../images/visibility_wtf.png">
+</div>
+
+
 
 ## <font color="#AA0000">So what?</font>
 
@@ -266,6 +413,12 @@ output:
 - Serve as model for language revitalization projects
 
 - open source code (github)
+
+##
+
+<div align="center">
+<img width="400" src="../images/clap.gif"
+</div>
 
 ## <font color="#AA0000">References</font>
 
