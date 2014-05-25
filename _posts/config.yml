@@ -10,6 +10,9 @@ hitheme: twitter-bootstrap
 prettify:
   linenums: true
 
+url:
+  lib: ../libraries
+  assets: ../assets
 
 # WIDGETS
 widgets: [disqus, mathjax]
