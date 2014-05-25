@@ -1,0 +1,524 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>test blog post</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="" />
+  <meta name="author" content="ramnathv.gmail@gmail.com,ramnathv,Ramnath,Vaidyanathan">
+  <link rel="shortcut icon" href="assets/img/poirot.jpg">
+  <link rel="alternate" type="application/rss+xml" href="">
+  <link href="../libraries/frameworks/purus/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="../libraries/frameworks/purus/css/bootstrap-responsive.min.css" rel="stylesheet" />
+  <link href="../libraries/frameworks/purus/css/main.css" rel="stylesheet" />
+  <link href="../libraries/highlighters/prettify/css/twitter-bootstrap.css" rel="stylesheet">
+  <!-- IE6-8 support of HTML5 elements -->
+  <!--[if lt IE 9]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+  <link href='http://fonts.googleapis.com/css?family=Raleway:400,600,200,800' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Droid+Sans' rel='stylesheet' type='text/css'>
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+    <style>
+	  #sidebar .sidebar-nav .info h3 a:hover, a:hover { color: #01A9DB; }
+	  #sidebar .sidebar-nav #avatar img, #sidebar .sidebar-nav ul#links li.active a { border-color: #01A9DB; }
+	  #sidebar .sidebar-nav ul#links li a:hover { background: #01A9DB; }
+    p {text-align: justify;}
+  </style>
+  <link rel="stylesheet" href = "../assets/css/custom.css">
+<link rel="stylesheet" href = "../assets/css/ribbons.css">
+
+</head>
+<body>
+	<div class="container-fluid">
+		<div class="row-fluid">
+			<div id="sidebar" class="span2">
+			  <div class="sidebar-nav sidebar-nav-fixed">
+			    <a href="https://github.com/ramnathv/poirot">
+      <img style="position: absolute; top: 0; left: 100px; border: 0; height: 100px; z-index: 1;" 
+        alt="Fork me on GitHub" 
+        src="https://s3.amazonaws.com/github/ribbons/forkme_right_red_aa0000.png" >
+    </a>
+	  <div class="info">
+				    <p id="avatar"><a href="#"><img alt="Title" src="http://ramnathv.github.com/poirotBlog/assets/img/poirot.jpg " /></a></p>
+				    <h3><a href="/">Poirot </a></h3>
+					  <p class="description">Blogging for Data Scientists</p>
+					</div>
+					<ul id="links">
+			        <li><a href="http://ramnathv.github.com/poirotBlog/index.html">Home</a></li>
+        <li><a href="http://ramnathv.github.com/poirotBlog/about.html">About</a></li>
+      
+        <li><a href="http://github.com/ramnathv" id="Github-link">Github</a></li>
+                
+        <li><a href="http://twitter.com/#!/ramnath_vaidya" id="Twitter-link">Twitter</a></li>
+      
+			    </ul>
+				</div>
+			</div>
+						<div id="content" class='span10'>
+				<div id="post-wrapper">
+          <ol id="posts">
+            <li class="post">
+              <h3>
+                <a href="#">test blog post</a>
+              </h3>
+              <span>2014-05-24</span><br/>
+               <a class='label label-success' href='https://raw.github.com/ramnathv/poirotBlog/gh-pages/test_post.Rmd'>Source</a>
+              <h1>Simulate data</h1>
+<p>This section shows how to simulate the data. The <code>R Source</code> tab shows the 
+code input into R. The <code>R Output</code> tab shows what the R console displays 
+after running the code. </p>
+
+<p>The structure is as follows: </p>
+
+<ul>
+<li>40 participants </li>
+<li>2 groups (sp/cat)</li>
+<li>3 etm (b, v, vb)</li>
+<li>8 items per level of etm</li>
+<li>4 repetitions of each item (not included)</li>
+</ul>
+
+<p>That gives a total of 960 rows (not counting the repetitions), so that is what 
+we have to simulate. Remember that the dependent variable is no longer binary, 
+the percents represent the proportion of times the participants produced [v].</p>
+
+<pre><code class="r"># generate 40 participants
+participant &lt;- 1:40
+participants &lt;- rep(participant,24)
+participants &lt;- sort(participants)
+
+# Assign participants to two groups (cat/sp)
+# factor called &#39;bil&#39; (bilingual)
+bil &lt;- c(rep(&quot;cat&quot;, 480),rep(&quot;sp&quot;, 480))
+df &lt;- as.data.frame(cbind(participants,bil))
+
+# Create factor etimology (etm)
+# 3 levels (b, v, v&gt;b)
+df$etm &lt;- c(rep(&quot;b&quot;, 8), rep(&quot;v&quot;, 8), rep(&quot;vb&quot;, 8))
+df$etm &lt;- as.factor(df$etm)
+
+# Create 8 items for each level of &#39;etm&#39;
+# Note: items have been repeated 4 times, these averages
+# are included here already
+df$items &lt;- c(&quot;b1&quot;,&quot;b2&quot;,&quot;b3&quot;,&quot;b4&quot;,&quot;b5&quot;,&quot;b6&quot;,&quot;b7&quot;,&quot;b8&quot;,
+              &quot;v1&quot;,&quot;v2&quot;,&quot;v3&quot;,&quot;v4&quot;,&quot;v5&quot;,&quot;v6&quot;,&quot;v7&quot;,&quot;v8&quot;,
+              &quot;vb1&quot;,&quot;vb2&quot;,&quot;vb3&quot;,&quot;vb4&quot;,&quot;vb5&quot;,&quot;vb6&quot;,&quot;vb7&quot;,&quot;vb8&quot;)
+df$items &lt;- as.factor(df$items)
+
+# sort rows of dataframe
+df &lt;- df[with(df, order(bil, etm)), ]
+
+# Generate percents (proportion of [v] production)
+set.seed(1)
+propcatb &lt;- rnorm(160, 20, 5)
+propcatv &lt;- rnorm(160,92, 3)
+propcatvb &lt;- rnorm(160, 20, 5)
+propspb &lt;- rnorm(160, 20, 4)
+propspv &lt;- rnorm(160,35, 5)
+propspvb &lt;- rnorm(160, 50, 10)
+
+df$prop &lt;- c(propcatb, 
+             propcatv,
+             propcatvb,
+             propspb,
+             propspv,
+             propspvb)
+
+df &lt;- df[with(df, order(participants, bil, etm)), ]
+</code></pre>
+
+<p>That should do it. We use the <code>summary()</code> command to see if it worked and 
+the <code>structure()</code> command to make sure our factors are indeed factors.</p>
+
+<pre><code class="r"># Check data
+summary(df)
+</code></pre>
+
+<pre><code>##   participants  bil      etm          items          prop      
+##  1      : 24   cat:480   b :320   b1     : 40   Min.   : 4.96  
+##  10     : 24   sp :480   v :320   b2     : 40   1st Qu.:19.71  
+##  11     : 24             vb:320   b3     : 40   Median :27.97  
+##  12     : 24                      b4     : 40   Mean   :39.49  
+##  13     : 24                      b5     : 40   3rd Qu.:51.60  
+##  14     : 24                      b6     : 40   Max.   :99.95  
+##  (Other):816                      (Other):720
+</code></pre>
+
+<pre><code class="r">str(df)
+</code></pre>
+
+<pre><code>## &#39;data.frame&#39;:    960 obs. of  5 variables:
+##  $ participants: Factor w/ 40 levels &quot;1&quot;,&quot;10&quot;,&quot;11&quot;,..: 1 1 1 1 1 1 1 1 1 1 ...
+##  $ bil         : Factor w/ 2 levels &quot;cat&quot;,&quot;sp&quot;: 1 1 1 1 1 1 1 1 1 1 ...
+##  $ etm         : Factor w/ 3 levels &quot;b&quot;,&quot;v&quot;,&quot;vb&quot;: 1 1 1 1 1 1 1 1 2 2 ...
+##  $ items       : Factor w/ 24 levels &quot;b1&quot;,&quot;b2&quot;,&quot;b3&quot;,..: 1 2 3 4 5 6 7 8 9 10 ...
+##  $ prop        : num  16.9 20.9 15.8 28 21.6 ...
+</code></pre>
+
+<p>Looks good. </p>
+
+<p>Here&#39;s the output on one participant in a pretty table:</p>
+
+<pre><code class="r">knitr::kable(head(df, 24))
+</code></pre>
+
+<table><thead>
+<tr>
+<th align="left">participants</th>
+<th align="left">bil</th>
+<th align="left">etm</th>
+<th align="left">items</th>
+<th align="right">prop</th>
+</tr>
+</thead><tbody>
+<tr>
+<td align="left">1</td>
+<td align="left">cat</td>
+<td align="left">b</td>
+<td align="left">b1</td>
+<td align="right">16.87</td>
+</tr>
+<tr>
+<td align="left">1</td>
+<td align="left">cat</td>
+<td align="left">b</td>
+<td align="left">b2</td>
+<td align="right">20.92</td>
+</tr>
+<tr>
+<td align="left">1</td>
+<td align="left">cat</td>
+<td align="left">b</td>
+<td align="left">b3</td>
+<td align="right">15.82</td>
+</tr>
+<tr>
+<td align="left">1</td>
+<td align="left">cat</td>
+<td align="left">b</td>
+<td align="left">b4</td>
+<td align="right">27.98</td>
+</tr>
+<tr>
+<td align="left">1</td>
+<td align="left">cat</td>
+<td align="left">b</td>
+<td align="left">b5</td>
+<td align="right">21.65</td>
+</tr>
+<tr>
+<td align="left">1</td>
+<td align="left">cat</td>
+<td align="left">b</td>
+<td align="left">b6</td>
+<td align="right">15.90</td>
+</tr>
+<tr>
+<td align="left">1</td>
+<td align="left">cat</td>
+<td align="left">b</td>
+<td align="left">b7</td>
+<td align="right">22.44</td>
+</tr>
+<tr>
+<td align="left">1</td>
+<td align="left">cat</td>
+<td align="left">b</td>
+<td align="left">b8</td>
+<td align="right">23.69</td>
+</tr>
+<tr>
+<td align="left">1</td>
+<td align="left">cat</td>
+<td align="left">v</td>
+<td align="left">v1</td>
+<td align="right">93.28</td>
+</tr>
+<tr>
+<td align="left">1</td>
+<td align="left">cat</td>
+<td align="left">v</td>
+<td align="left">v2</td>
+<td align="right">91.28</td>
+</tr>
+<tr>
+<td align="left">1</td>
+<td align="left">cat</td>
+<td align="left">v</td>
+<td align="left">v3</td>
+<td align="right">95.18</td>
+</tr>
+<tr>
+<td align="left">1</td>
+<td align="left">cat</td>
+<td align="left">v</td>
+<td align="left">v4</td>
+<td align="right">94.66</td>
+</tr>
+<tr>
+<td align="left">1</td>
+<td align="left">cat</td>
+<td align="left">v</td>
+<td align="left">v5</td>
+<td align="right">90.14</td>
+</tr>
+<tr>
+<td align="left">1</td>
+<td align="left">cat</td>
+<td align="left">v</td>
+<td align="left">v6</td>
+<td align="right">98.62</td>
+</tr>
+<tr>
+<td align="left">1</td>
+<td align="left">cat</td>
+<td align="left">v</td>
+<td align="left">v7</td>
+<td align="right">91.23</td>
+</tr>
+<tr>
+<td align="left">1</td>
+<td align="left">cat</td>
+<td align="left">v</td>
+<td align="left">v8</td>
+<td align="right">87.73</td>
+</tr>
+<tr>
+<td align="left">1</td>
+<td align="left">cat</td>
+<td align="left">vb</td>
+<td align="left">vb1</td>
+<td align="right">26.54</td>
+</tr>
+<tr>
+<td align="left">1</td>
+<td align="left">cat</td>
+<td align="left">vb</td>
+<td align="left">vb2</td>
+<td align="right">27.49</td>
+</tr>
+<tr>
+<td align="left">1</td>
+<td align="left">cat</td>
+<td align="left">vb</td>
+<td align="left">vb3</td>
+<td align="right">24.07</td>
+</tr>
+<tr>
+<td align="left">1</td>
+<td align="left">cat</td>
+<td align="left">vb</td>
+<td align="left">vb4</td>
+<td align="right">10.65</td>
+</tr>
+<tr>
+<td align="left">1</td>
+<td align="left">cat</td>
+<td align="left">vb</td>
+<td align="left">vb5</td>
+<td align="right">22.41</td>
+</tr>
+<tr>
+<td align="left">1</td>
+<td align="left">cat</td>
+<td align="left">vb</td>
+<td align="left">vb6</td>
+<td align="right">22.28</td>
+</tr>
+<tr>
+<td align="left">1</td>
+<td align="left">cat</td>
+<td align="left">vb</td>
+<td align="left">vb7</td>
+<td align="right">18.23</td>
+</tr>
+<tr>
+<td align="left">1</td>
+<td align="left">cat</td>
+<td align="left">vb</td>
+<td align="left">vb8</td>
+<td align="right">20.85</td>
+</tr>
+</tbody></table>
+
+<h1>Plot it</h1>
+
+<p>This uses the <code>lattice</code> library to create boxplots. Pretty straightforward.</p>
+
+<pre><code class="r">#-----------------------------------------
+# plots
+#-----------------------------------------
+
+library(lattice)
+bwplot(prop ~ etm|bil, data = df, ylab=&quot;% [v]&quot;)
+</code></pre>
+
+<p><img src="assets/fig/unnamed-chunk-4.png" alt="plot of chunk unnamed-chunk-4"> </p>
+
+<h1>Analyze it</h1>
+
+<p>&quot;The data were analyzed using a 2 x (3) mixed design ANOVA...&quot;. I also included
+an analysis using linear mixed effects because I don&#39;t know how the bossman told
+you to analyze the data. Take your pick. You need to decide on the post-hoc 
+analysis based on your research questions but this should be a good start.</p>
+
+<pre><code class="r">#-----------------------------------------
+# analysis
+#-----------------------------------------
+
+# 2 x (3) mixed design anova
+aov.prop = aov(prop ~ bil * etm + Error(participants/etm), data=df)
+summary(aov.prop)
+</code></pre>
+
+<pre><code>## 
+## Error: participants
+##           Df Sum Sq Mean Sq F value Pr(&gt;F)    
+## bil        1  19899   19899     891 &lt;2e-16 ***
+## Residuals 38    849      22                   
+## ---
+## Signif. codes:  0 &#39;***&#39; 0.001 &#39;**&#39; 0.01 &#39;*&#39; 0.05 &#39;.&#39; 0.1 &#39; &#39; 1
+## 
+## Error: participants:etm
+##           Df Sum Sq Mean Sq F value Pr(&gt;F)    
+## etm        2 310046  155023    5723 &lt;2e-16 ***
+## bil:etm    2 322780  161390    5958 &lt;2e-16 ***
+## Residuals 76   2059      27                   
+## ---
+## Signif. codes:  0 &#39;***&#39; 0.001 &#39;**&#39; 0.01 &#39;*&#39; 0.05 &#39;.&#39; 0.1 &#39; &#39; 1
+## 
+## Error: Within
+##            Df Sum Sq Mean Sq F value Pr(&gt;F)
+## Residuals 840  31709    37.7
+</code></pre>
+
+<pre><code class="r"># Get descriptives from ANOVA table
+model.tables(aov.prop, &quot;means&quot;)
+</code></pre>
+
+<pre><code>## Tables of means
+## Grand mean
+##       
+## 39.49 
+## 
+##  bil 
+## bil
+##   cat    sp 
+## 44.05 34.94 
+## 
+##  etm 
+## etm
+##     b     v    vb 
+## 19.96 63.34 35.18 
+## 
+##  bil:etm 
+##      etm
+## bil   b     v     vb   
+##   cat 20.02 92.25 19.86
+##   sp  19.89 34.42 50.51
+</code></pre>
+
+<pre><code class="r"># Make subset
+postb = subset(df,etm==&quot;b&quot;)
+# Make subset
+postv = subset(df,etm==&quot;v&quot;)
+# Make subset
+postvb = subset(df,etm==&quot;vb&quot;)
+
+
+# all models were Bonferroni corrected
+# 0.05 / 3 = 0.01 (new alpha level)
+
+# One-way between subjects ANOVA (same as ttest)
+# compare cat vs. sp for &#39;b&#39;
+aov.postb = aov(prop ~ bil, data=postb)
+summary(aov.postb)
+</code></pre>
+
+<pre><code>##              Df Sum Sq Mean Sq F value Pr(&gt;F)
+## bil           1      1    1.44    0.07   0.79
+## Residuals   318   6225   19.58
+</code></pre>
+
+<pre><code class="r"># One-way between subjects ANOVA
+# compare cat vs. sp for &#39;v&#39;
+aov.postv = aov(prop ~ bil, data=postv)
+summary(aov.postv)
+</code></pre>
+
+<pre><code>##              Df Sum Sq Mean Sq F value Pr(&gt;F)    
+## bil           1 267539  267539   13608 &lt;2e-16 ***
+## Residuals   318   6252      20                   
+## ---
+## Signif. codes:  0 &#39;***&#39; 0.001 &#39;**&#39; 0.01 &#39;*&#39; 0.05 &#39;.&#39; 0.1 &#39; &#39; 1
+</code></pre>
+
+<pre><code class="r"># One-way between subjects ANOVA
+# compare cat vs. sp for &#39;vb&#39;
+aov.postvb = aov(prop ~ bil, data=postvb)
+summary(aov.postvb)
+</code></pre>
+
+<pre><code>##              Df Sum Sq Mean Sq F value Pr(&gt;F)    
+## bil           1  75138   75138    1079 &lt;2e-16 ***
+## Residuals   318  22139      70                   
+## ---
+## Signif. codes:  0 &#39;***&#39; 0.001 &#39;**&#39; 0.01 &#39;*&#39; 0.05 &#39;.&#39; 0.1 &#39; &#39; 1
+</code></pre>
+
+              <div id="disqus_thread"></div>
+            </li>
+          </ol>
+          <div class="pagination">
+            <ul>
+              <li><a href="http://ramnathv.github.com/poirotBlog/">&#171; Back Home</a></li>
+            </ul>
+          </div> 
+        </div>
+			</div>
+		</div>
+  </div>
+</body>
+  <script src='../libraries/frameworks/purus/js/bootstrap.min.js'></script>
+  <script>
+      var disqus_developer = 1;
+      var disqus_shortname = 'slidify'; 
+      // required: replace example with your forum shortname
+      /* * * DON'T EDIT BELOW THIS LINE * * */
+      (function() {
+          var dsq = document.createElement('script'); 
+          dsq.type = 'text/javascript'; dsq.async = true;
+          dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
+          (document.getElementsByTagName('head')[0] || 
+           document.getElementsByTagName('body')[0]).appendChild(dsq);
+      })();
+  </script>
+  <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+  <!-- MathJax: Fall back to local if CDN offline but local image fonts are not supported (saves >100MB) -->
+  <script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+      tex2jax: {
+        inlineMath: [['$','$'], ['\\(','\\)']],
+        processEscapes: true
+      }
+    });
+  </script>
+  <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/2.0-latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+  <!-- <script src="https://c328740.ssl.cf1.rackcdn.com/mathjax/2.0-latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+  </script> -->
+  <script>window.MathJax || document.write('<script type="text/x-mathjax-config">MathJax.Hub.Config({"HTML-CSS":{imageFont:null}});<\/script><script src="../libraries/widgets/mathjax/MathJax.js?config=TeX-AMS-MML_HTMLorMML"><\/script>')
+</script>
+<!-- Google Prettify -->
+  <script src="http://cdnjs.cloudflare.com/ajax/libs/prettify/188.0.0/prettify.js"></script>
+  <script src='../libraries/highlighters/prettify/js/lang-r.js'></script>
+  <script>
+    var pres = document.getElementsByTagName("pre");
+    for (var i=0; i < pres.length; ++i) {
+      pres[i].className = "prettyprint linenums";
+    }
+    prettyPrint();
+  </script>
+  <!-- End Google Prettify --> 
+  </html>
