@@ -8,6 +8,7 @@ status: publish
 categories: r-code
 analytics : true
 comments : true
+mode: selfcontained
 ---
 
 
