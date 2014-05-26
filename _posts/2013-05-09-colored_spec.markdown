@@ -7,7 +7,7 @@ status: publish
 categories: r-code
 analytics : true
 comments : true
-tags: R phonTools spectrogram praat
+tags: r phonTools spectrogram praat
 ---
 
 

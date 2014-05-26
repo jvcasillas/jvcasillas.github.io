@@ -7,7 +7,7 @@ status: publish
 categories: r-code
 analytics : true
 comments : true
-tags: R knitr html5 Slidy
+tags: r knitr html5 Slidy
 ---
 
 ####HTML5 slides

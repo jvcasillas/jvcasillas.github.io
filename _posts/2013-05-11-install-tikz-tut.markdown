@@ -5,7 +5,7 @@ date:   2013-05-11 14:52:18
 categories: r latex
 analytics : true
 comments : true
-tags: R LaTeX tutorial tikzDevice knitr
+tags: r LaTeX tutorial tikzDevice knitr
 ---
 
 
