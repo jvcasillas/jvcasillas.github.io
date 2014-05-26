@@ -2,27 +2,27 @@
 layout: post
 title: test blog post
 date: 2014-05-24
-tags: [test, fun, R]
+tags: test R
 category: test
 ---
 
 
 # Simulate data
 
-This section shows how to simulate the data. The ```R Source``` tab shows the 
-code input into R. The ```R Output``` tab shows what the R console displays 
-after running the code. 
+This section shows how to simulate the data. The ```R Source``` tab shows the
+code input into R. The ```R Output``` tab shows what the R console displays
+after running the code.
 
-The structure is as follows: 
+The structure is as follows:
 
-- 40 participants 
+- 40 participants
 - 2 groups (sp/cat)
 - 3 etm (b, v, vb)
 - 8 items per level of etm
 - 4 repetitions of each item (not included)
 
-That gives a total of 960 rows (not counting the repetitions), so that is what 
-we have to simulate. Remember that the dependent variable is no longer binary, 
+That gives a total of 960 rows (not counting the repetitions), so that is what
+we have to simulate. Remember that the dependent variable is no longer binary,
 the percents represent the proportion of times the participants produced [v].
 
 
@@ -62,7 +62,7 @@ propspb <- rnorm(160, 20, 4)
 propspv <- rnorm(160,35, 5)
 propspvb <- rnorm(160, 50, 10)
 
-df$prop <- c(propcatb, 
+df$prop <- c(propcatb,
 	         propcatv,
 	         propcatvb,
 	         propspb,
@@ -72,7 +72,7 @@ df$prop <- c(propcatb,
 df <- df[with(df, order(participants, bil, etm)), ]
 ```
 
-That should do it. We use the ```summary()``` command to see if it worked and 
+That should do it. We use the ```summary()``` command to see if it worked and
 the ```structure()``` command to make sure our factors are indeed factors.
 
 
@@ -82,7 +82,7 @@ summary(df)
 ```
 
 ```
-##   participants  bil      etm          items          prop      
+##   participants  bil      etm          items          prop
 ##  1      : 24   cat:480   b :320   b1     : 40   Min.   : 4.96  
 ##  10     : 24   sp :480   v :320   b2     : 40   1st Qu.:19.71  
 ##  11     : 24             vb:320   b3     : 40   Median :27.97  
@@ -105,7 +105,7 @@ str(df)
 ##  $ prop        : num  16.9 20.9 15.8 28 21.6 ...
 ```
 
-Looks good. 
+Looks good.
 
 Here's the output on one participant in a pretty table:
 
@@ -157,14 +157,14 @@ library(lattice)
 bwplot(prop ~ etm|bil, data = df, ylab="% [v]")
 ```
 
-![plot of chunk unnamed-chunk-4](assets/fig/unnamed-chunk-4.png) 
+![plot of chunk unnamed-chunk-4](assets/fig/unnamed-chunk-4.png)
 
 
 # Analyze it
 
 "The data were analyzed using a 2 x (3) mixed design ANOVA...". I also included
 an analysis using linear mixed effects because I don't know how the bossman told
-you to analyze the data. Take your pick. You need to decide on the post-hoc 
+you to analyze the data. Take your pick. You need to decide on the post-hoc
 analysis based on your research questions but this should be a good start.
 
 
@@ -179,22 +179,22 @@ summary(aov.prop)
 ```
 
 ```
-## 
+##
 ## Error: participants
-##           Df Sum Sq Mean Sq F value Pr(>F)    
+##           Df Sum Sq Mean Sq F value Pr(>F)
 ## bil        1  19899   19899     891 <2e-16 ***
-## Residuals 38    849      22                   
+## Residuals 38    849      22
 ## ---
 ## Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
-## 
+##
 ## Error: participants:etm
-##           Df Sum Sq Mean Sq F value Pr(>F)    
+##           Df Sum Sq Mean Sq F value Pr(>F)
 ## etm        2 310046  155023    5723 <2e-16 ***
 ## bil:etm    2 322780  161390    5958 <2e-16 ***
-## Residuals 76   2059      27                   
+## Residuals 76   2059      27
 ## ---
 ## Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
-## 
+##
 ## Error: Within
 ##            Df Sum Sq Mean Sq F value Pr(>F)
 ## Residuals 840  31709    37.7
@@ -208,22 +208,22 @@ model.tables(aov.prop, "means")
 ```
 ## Tables of means
 ## Grand mean
-##       
-## 39.49 
-## 
-##  bil 
+##
+## 39.49
+##
+##  bil
 ## bil
-##   cat    sp 
-## 44.05 34.94 
-## 
-##  etm 
+##   cat    sp
+## 44.05 34.94
+##
+##  etm
 ## etm
-##     b     v    vb 
-## 19.96 63.34 35.18 
-## 
-##  bil:etm 
+##     b     v    vb
+## 19.96 63.34 35.18
+##
+##  bil:etm
 ##      etm
-## bil   b     v     vb   
+## bil   b     v     vb
 ##   cat 20.02 92.25 19.86
 ##   sp  19.89 34.42 50.51
 ```
@@ -260,9 +260,9 @@ summary(aov.postv)
 ```
 
 ```
-##              Df Sum Sq Mean Sq F value Pr(>F)    
+##              Df Sum Sq Mean Sq F value Pr(>F)
 ## bil           1 267539  267539   13608 <2e-16 ***
-## Residuals   318   6252      20                   
+## Residuals   318   6252      20
 ## ---
 ## Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
 ```
@@ -275,11 +275,9 @@ summary(aov.postvb)
 ```
 
 ```
-##              Df Sum Sq Mean Sq F value Pr(>F)    
+##              Df Sum Sq Mean Sq F value Pr(>F)
 ## bil           1  75138   75138    1079 <2e-16 ***
-## Residuals   318  22139      70                   
+## Residuals   318  22139      70
 ## ---
 ## Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
 ```
-
-
