@@ -7,7 +7,7 @@ status: publish
 categories: r-code
 analytics : true
 comments : true
-tags: r knitr html5 Slidy
+tags: R knitr html5 Slidy
 ---
 
 ####HTML5 slides
@@ -25,7 +25,3 @@ I recently learned how to create HTML5 slides using __.Rmd__ files and __pandoc_
 [check it out here]: http://rmarkdown.rstudio.com/index.html
 [Ex. 1]: /archive/reveal/reaveal.html
 [Ex. 2]: /archive/ioslides/ioslides.html
-
-
-
-

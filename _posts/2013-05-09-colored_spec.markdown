@@ -7,46 +7,46 @@ status: publish
 categories: r-code
 analytics : true
 comments : true
-tags: r phonTools spectrogram praat
+tags: R phonTools spectrogram praat
 ---
 
- 
-This is how I made the colored spectrogram from the homepage (it's me saying 'welcome'). This was done using the [phonTools][phonTools] package written by [Santiago Barreda][Santiago Barreda]. 
- 
 
- 
+This is how I made the colored spectrogram from the homepage (it's me saying 'welcome'). This was done using the [phonTools][phonTools] package written by [Santiago Barreda][Santiago Barreda].
+
+
+
 First, you need to load the package [phonTools][phonTools] into [R][R].
- 
+
 
 
     library(phonTools)
 
- 
+
 Now you have to load the sound you want to make a spectrogram of (it has to be in your working directory). I recorded mine in [Praat][Praat].
- 
+
 
     sound = loadsound("welcome.wav")
 
- 
-Now we're ready to make a spectrogram.
- 
 
-    spectrogram(sound, fs = 44100, gridlines = FALSE, colors = TRUE, maintitle = Welcome, 
+Now we're ready to make a spectrogram.
+
+
+    spectrogram(sound, fs = 44100, gridlines = FALSE, colors = TRUE, maintitle = Welcome,
         output = FALSE, zoom = FALSE, pause = FALSE)
 
-![plot of chunk unnamed-chunk-3](/assets/images/figure/unnamed-chunk-3.png) 
+![plot of chunk unnamed-chunk-3](/assets/images/figure/unnamed-chunk-3.png)
 
- 
+
 We can also see the oscillogram by using
- 
+
 
     plot(sound)
 
-![plot of chunk unnamed-chunk-4](/assets/images/figure/unnamed-chunk-4.png) 
+![plot of chunk unnamed-chunk-4](/assets/images/figure/unnamed-chunk-4.png)
 
- 
- 
- 
+
+
+
 That's it.
 
 

@@ -5,14 +5,14 @@ date:   2013-05-11 14:52:18
 categories: r latex
 analytics : true
 comments : true
-tags: r LaTeX tutorial tikzDevice knitr
+tags: R LaTeX tutorial tikzDevice knitr
 ---
 
- 
+
 #### Overview
- 
-This is a short tutorial for getting __tikzDevice__ running on __R__ version 3.0. If you write in __LaTeX__ and use __R__ for statistics, this is a good way to get your plots/graphs/etc. into your .tex document. The advantages are: 
-1 - much higher quality and 
+
+This is a short tutorial for getting __tikzDevice__ running on __R__ version 3.0. If you write in __LaTeX__ and use __R__ for statistics, this is a good way to get your plots/graphs/etc. into your .tex document. The advantages are:
+1 - much higher quality and
 2 - you can use IPA symbols
 
 #### Download tiksDevice
@@ -21,13 +21,13 @@ __TiksDevice__ is no longer officially supported by CRAN because the author was 
 
 #### Install tiksDevice
 
-Installing a package that is no longer supported is by no means difficult, but not as simple as ```install.package('tikzDevice')``` (try it if you want to see why). Use the following code install the tar file (make sure to specify your file path to wherever you downloaded the file). This is what it looked like for me. 
+Installing a package that is no longer supported is by no means difficult, but not as simple as ```install.package('tikzDevice')``` (try it if you want to see why). Use the following code install the tar file (make sure to specify your file path to wherever you downloaded the file). This is what it looked like for me.
 
     install.packages("/Users/USERNAME/Downloads/tikzDevice_0.6.2.tar", repos = NULL, type="source")
 
 #### Install dependencies
 
-In order for __tikzDevice__ to work, you must also install the __filehash__ package. This is much easier. 
+In order for __tikzDevice__ to work, you must also install the __filehash__ package. This is much easier.
 
     install.packages('filehash')
 

@@ -7,7 +7,7 @@ status: publish
 categories: r-code
 analytics : true
 comments : true
-tags: r LaTeX tikzDevice knitr tutorial
+tags: R LaTeX tikzDevice knitr tutorial
 ---
 
 #### Overview
@@ -20,7 +20,7 @@ A simple yet effective way to do reproducible research is to use [R][R] (for sta
 
 The first step is to create a project folder. For the purposes of this tutorial let's call this folder "master". Next, we will need some data and some R code that analyzes it. The most common, no-hassle way to accomplish this in R is to save your R code in a separate .R file. For this tutorial, we will call our data "my-data.txt" and our R code "example.R". The fake data we are going to analyze is for a two-alternative forced choice identification experiment. So, our fake data is in the "my-data.txt" file and the R code that analyzes it is in the example.R file.
 
-The next step is to create the "no web" .Rnw file. This is as simple as creating a document in your text editor of choice (I use [TextMate 2][tm2] and [Sublime Text 2][st2]) and saving it with a .Rnw extension. For this tutorial we will call this file "example.Rnw". Its purpose is to call the R code written in "example.R" (which uses the fake data in "my-data.txt") in order to produce a .tex file (in this case "example.tex"). Still with me? Good. 
+The next step is to create the "no web" .Rnw file. This is as simple as creating a document in your text editor of choice (I use [TextMate 2][tm2] and [Sublime Text 2][st2]) and saving it with a .Rnw extension. For this tutorial we will call this file "example.Rnw". Its purpose is to call the R code written in "example.R" (which uses the fake data in "my-data.txt") in order to produce a .tex file (in this case "example.tex"). Still with me? Good.
 
 Next we need to prepare where we are going to keep the plots produced by tikzDevice. I find it most convenient to have a specific folder, "plots\_folder", where I only keep the tikzDevice plots. So, create this folder inside the "master" folder. TikzDevice creates the R plots and converts them to a LaTeX format (the benefits of this are further explained in part III of this tutorial), saves them in "plots\_folder" and we will then include them in the example.tex file which can be compiled into a PDF. The image below shows what this should look like when it's all said and done. You can download a reproducible example [here][master.zip].
 
