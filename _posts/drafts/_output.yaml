@@ -2,6 +2,7 @@ html_document:
   knitrBootstrap::bootstrap_document:
   self_contained: false
   theme: spacelab
+  encoding: UTF-8
   highlight: pygments
   toc: true
   toc_depth: 2
