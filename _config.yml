@@ -6,18 +6,7 @@ twitter: jvcasill
 pygments: true
 timezone: TIMEZONE
 markdown: kramdown
-
-# HIGHLIGHTER SETTINGS
-highlighter: prettify
-hitheme: twitter-bootstrap
-prettify:
-  linenums: true
-
-# WIDGETS
-widgets: [disqus, mathjax]
-disqus:
-  shortname: slidify
-
+  
 # Settings for analytics
 analytics :
   provider : google
