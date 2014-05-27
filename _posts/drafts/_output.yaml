@@ -1,4 +1,5 @@
 html_document:
+  knitrBootstrap::bootstrap_document:
   self_contained: false
   theme: spacelab
   highlight: pygments
