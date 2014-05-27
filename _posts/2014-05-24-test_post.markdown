@@ -36,12 +36,6 @@ if (window.hljs && document.readyState && document.readyState === "complete") {
 <div class="container">
 
 
-<div id="header">
-<h1 class="title">test blog post</h1>
-<h4 class="date"><em>2014-05-24</em></h4>
-</div>
-
-
 <div id="simulate-data" class="section level1">
 <h1>Simulate data</h1>
 <p>This section shows how to simulate the data. The <code>R Source</code> tab shows the code input into R. The <code>R Output</code> tab shows what the R console displays after running the code.</p>
