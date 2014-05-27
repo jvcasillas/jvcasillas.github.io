@@ -1,0 +1,9 @@
+html_document:
+  self_contained: false
+  theme: spacelab
+  highlight: pygments
+  toc: true
+  toc_depth: 2
+  lib_dir: ../assets
+  includes:
+    in_header: ../includes/bloghead.html
