@@ -1,0 +1,7 @@
+html_document:
+  knitrBootstrap::bootstrap_document:
+  self_contained: true
+  theme: united
+  highlight: sunburst
+  lib_dir: ../assets
+

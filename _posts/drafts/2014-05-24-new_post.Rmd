@@ -1,8 +1,13 @@
 ---
-title: ""
+output:
+  knitrBootstrap::bootstrap_document:
+    title: ""
+    theme: default
+    highlight: sunburst
+    theme.chooser: FALSE
+    highlight.chooser: FALSE
+    bootstrap.menu: FALSE
 ---
-
-
 
 ### Simulate data
 
