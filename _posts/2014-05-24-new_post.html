@@ -1,17 +1,14 @@
 ---
 layout: post
-title: test post
-date: 2014-05-24
+title: new test
+date: 
 published: true
 status: publish
 category: test
 analytics : true
 comments : true
-tags: 
+tags: test
 ---
-
-
-
 
 <!DOCTYPE html>
 
@@ -25,16 +22,13 @@ tags:
 <meta name="generator" content="pandoc" />
 
 
-<meta name="date" content="2014-05-24" />
 
-<title>test blog post</title>
 
 <script src="../assets/jquery-1.11.0/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <link href="../assets/bootstrap-2.3.2/css/spacelab.min.css" rel="stylesheet" />
 <link href="../assets/bootstrap-2.3.2/css/bootstrap-responsive.min.css" rel="stylesheet" />
 <script src="../assets/bootstrap-2.3.2/js/bootstrap.min.js"></script>
-
 
 
 <style type="text/css">code{white-space: pre;}</style>
@@ -72,21 +66,10 @@ code > span.er { color: #ff0000; font-weight: bold; }
 <div class="container">
 
 
-<div id="header">
-<h1 class="title">test blog post</h1>
-<h4 class="date"><em>2014-05-24</em></h4>
-</div>
 
-<div id="TOC">
-<ul>
-<li><a href="#simulate-data">Simulate data</a></li>
-<li><a href="#plot-it">Plot it</a></li>
-<li><a href="#analyze-it">Analyze it</a></li>
-</ul>
-</div>
 
-<div id="simulate-data" class="section level1">
-<h1>Simulate data</h1>
+<div id="simulate-data" class="section level3">
+<h3>Simulate data</h3>
 <p>This section shows how to simulate the data. The <code>R Source</code> tab shows the code input into R. The <code>R Output</code> tab shows what the R console displays after running the code.</p>
 <p>The structure is as follows:</p>
 <ul>
@@ -343,8 +326,8 @@ df &lt;-<span class="st"> </span>df[<span class="kw">with</span>(df, <span class
 </tbody>
 </table>
 </div>
-<div id="plot-it" class="section level1">
-<h1>Plot it</h1>
+<div id="plot-it" class="section level3">
+<h3>Plot it</h3>
 <p>This uses the <code>lattice</code> library to create boxplots. Pretty straightforward.</p>
 <pre class="sourceCode r"><code class="sourceCode r"><span class="co">#-----------------------------------------</span>
 <span class="co"># plots</span>
@@ -352,10 +335,10 @@ df &lt;-<span class="st"> </span>df[<span class="kw">with</span>(df, <span class
 
 <span class="kw">library</span>(lattice)
 <span class="kw">bwplot</span>(prop ~<span class="st"> </span>etm|bil, <span class="dt">data =</span> df, <span class="dt">ylab=</span><span class="st">&quot;% [v]&quot;</span>)</code></pre>
-<p><img src="test_post_files/figure-html/unnamed-chunk-4.png" title="plot of chunk unnamed-chunk-4" alt="plot of chunk unnamed-chunk-4" width="672" /></p>
+<p><img src="2014-05-24-new_post_files/figure-html/unnamed-chunk-4.png" title="plot of chunk unnamed-chunk-4" alt="plot of chunk unnamed-chunk-4" width="672" /></p>
 </div>
-<div id="analyze-it" class="section level1">
-<h1>Analyze it</h1>
+<div id="analyze-it" class="section level3">
+<h3>Analyze it</h3>
 <p>“The data were analyzed using a 2 x (3) mixed design ANOVA…”. I also included an analysis using linear mixed effects because I don’t know how the bossman told you to analyze the data. Take your pick. You need to decide on the post-hoc analysis based on your research questions but this should be a good start.</p>
 <pre class="sourceCode r"><code class="sourceCode r"><span class="co">#-----------------------------------------</span>
 <span class="co"># analysis</span>
