@@ -43,8 +43,6 @@ Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">c
 <p><a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a></p>
 
 
-</div>
-
 <script>
 
 // add bootstrap table styles to pandoc tables
