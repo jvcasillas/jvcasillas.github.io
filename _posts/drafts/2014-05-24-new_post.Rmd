@@ -8,10 +8,9 @@ output:
     highlight: sunburst
     theme.chooser: FALSE
     highlight.chooser: FALSE
-    bootstrap.menu: FALSE
 ---
 
-### Simulate data
+# Simulate data
 
 This section shows how to simulate the data. The ```R Source``` tab shows the 
 code input into R. The ```R Output``` tab shows what the R console displays 
@@ -93,7 +92,7 @@ Here's the output on one participant in a pretty table:
 knitr::kable(head(df, 24))
 ```
 
-### Plot it
+# Plot it
 
 This uses the ```lattice``` library to create boxplots. Pretty straightforward.
 
@@ -108,7 +107,7 @@ bwplot(prop ~ etm|bil, data = df, ylab="% [v]")
 ```
 
 
-### Analyze it
+# Analyze it
 
 "The data were analyzed using a 2 x (3) mixed design ANOVA...". I also included
 an analysis using linear mixed effects because I don't know how the bossman told
