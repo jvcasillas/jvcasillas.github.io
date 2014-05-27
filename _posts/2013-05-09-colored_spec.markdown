@@ -10,14 +10,6 @@ comments : true
 tags: r phonTools spectrogram praat
 ---
 
-<title>Colored spectrograms</title>
-
-
-<h1 class="title">Colored spectrograms</h1>
-<h4 class="date"><em>2013-05-09 14:09:19</em></h4>
-</div>
-
-
 <p>This is how I made the colored spectrogram from the homepage (it’s me saying ‘welcome’). This was done using the <a href="http://cran.r-project.org/web/packages/phonTools/index.html">phonTools</a> package written by <a href="http://www.santiagobarreda.com/rscripts.html">Santiago Barreda</a>.</p>
 <p>First, you need to load the package <a href="http://cran.r-project.org/web/packages/phonTools/index.html">phonTools</a> into <a href="http://www.r-project.org">R</a>.</p>
 <pre><code>library(phonTools)</code></pre>
