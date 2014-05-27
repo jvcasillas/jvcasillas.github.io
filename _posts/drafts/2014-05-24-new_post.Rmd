@@ -149,4 +149,6 @@ summary(aov.postvb)
 
 ```
 
+$$logit(p) = log(odds(p)) = log\left({p \over {1 - p}}\right) = log(p) - log(1 - p).$$
+
 
