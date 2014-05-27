@@ -1,5 +1,4 @@
 ---
-layout: post
 published: false
 output:
   knitrBootstrap::bootstrap_document:
