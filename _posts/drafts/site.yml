@@ -1,0 +1,22 @@
+title: Poirot
+tagline: Blogging for Data Scientists
+logo: assets/img/poirot.jpg 
+owner: Ramnath Vaidyanathan
+author:
+  email: ramnathv.gmail@gmail.com
+  github: ramnathv
+  firstname: Ramnath
+  lastname: Vaidyanathan
+
+social:
+  github: ramnathv
+  twitter: ramnath_vaidya
+
+# Choose url: / for local development
+url: http://ramnathv.github.com/poirotBlog/
+rawurl: https://raw.github.com/ramnathv/poirotBlog/gh-pages/
+# url: /
+URL: http://github.com/ramnathv/poirot
+navigation: 
+  - {item: Home, href: index.html}
+  - {item: About, href: about.html}

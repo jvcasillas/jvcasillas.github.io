@@ -2,6 +2,13 @@
 title: test blog post
 date: 2014-05-24
 tags: [test, fun, R]
+output:
+  knitrBootstrap::bootstrap_document:
+    title: "Test file"
+    theme: default
+    highlight: sunburst
+    theme.chooser: TRUE
+    highlight.chooser: TRUE
 ---
 
 

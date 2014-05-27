@@ -1,8 +1,8 @@
 mode     : selfcontained
 framework: purus
 github:
-  user: ramnathv
-  repo: poirot
+  user: jvcasill
+  repo: jvcasill.github.io
 
 # HIGHLIGHTER SETTINGS
 highlighter: prettify
@@ -11,7 +11,7 @@ prettify:
   linenums: true
 
 url:
-  lib: ../libraries
+  lib: ../assests
   assets: ../assets
 
 # WIDGETS
