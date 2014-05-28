@@ -1,5 +1,6 @@
 .cache
+*.md
 .DS_Store
 .Rhistory
-.md
-
+.RData
+.Rproj.user
