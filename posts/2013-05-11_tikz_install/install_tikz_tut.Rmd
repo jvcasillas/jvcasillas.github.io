@@ -33,5 +33,5 @@ That's it. Check out [this][tikz-latex] tutorial to see how to set up a project.
 
 [why]: http://cran.r-project.org/web/packages/tikzDevice/index.html
 [download]: http://cran.r-project.org/src/contrib/Archive/tikzDevice/tikzDevice_0.6.2.tar.gz
-[tikz-latex]: posts/2013-05-17_tikz_project/tikz_proj.html
+[tikz-latex]: /2013-05-17_tikz_project/tikz_proj.html
 
