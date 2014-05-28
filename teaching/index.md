@@ -18,10 +18,10 @@ Here you can find a list of some of the classes I have taught or am currently te
 - [Spanish 455 - History of the Spanish Language][455]  
 - [Spanish 457 - Applied Linguistics][457]  
 
-[102]: teaching/span_102/index.html
-[251]: teaching/span_251/index.html
-[340]: teaching/span_340/index.html
-[343]: teaching/span_343/index.html
-[452]: teaching/span_452/index.html
-[455]: teaching/span_455/index.html
-[457]: teaching/span_457/index.html
+[102]: span_102/index.html
+[251]: span_251/index.html
+[340]: span_340/index.html
+[343]: span_343/index.html
+[452]: span_452/index.html
+[455]: span_455/index.html
+[457]: span_457/index.html
