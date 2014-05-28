@@ -1,0 +1,5 @@
+framework: lanyon
+mode: selfcontained
+hitheme: sunburst
+url: {lib: ../../libraries}
+onefile: False

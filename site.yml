@@ -1,0 +1,28 @@
+title: Joseph V. Casillas
+tagline: ""
+theme: "01"
+reverse: False
+description: >
+
+
+url: "http://www.jvcasillas.com"
+author:
+  name: "Joseph V. Casillas"
+  github: "jvcasill"
+  twitter: "jvcasill"
+
+sidebar:
+  - {item: bio, href: '/bio', icon: 'cogs'}
+  - {item: teaching, href: '/teaching', icon: 'pencil-square'}
+  - {item: research, href: '/research', icon: 'puzzle-piece'}
+  - {item: cv, href: '/cv', icon: 'code'}
+  - {item: code, href: '/code', icon: 'archive'}
+  - {item: blog, href: '/blog', icon: 'archive'}
+
+
+
+# Settings for analytics
+analytics :
+  provider : google
+  google : 
+      tracking_id : UA-27236322-1
