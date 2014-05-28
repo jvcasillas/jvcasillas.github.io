@@ -14,7 +14,7 @@ The purpose of this class is to study the history of the Spanish language from i
 - [Introducción][Introducción]  
 - [Capítulo 1. El cambio lingüístico][Capítulo 1. El cambio lingüístico]  
 - [Capítulo 2. La genealogía del español][Capítulo 2. La genealogía del español]  
-Capítulo 3. Historia externa de la Península Ibérica hasta el siglo XIII  
+- Capítulo 3. Historia externa de la Península Ibérica hasta el siglo XIII  
 - [Capítulo 4. La lengua latina][Capítulo 4. La lengua latina]  
 - [Capítulo 5. Del latín al castellano medieval: Fonología][Capítulo 5. Del latín al castellano medieval: Fonología]  
 - [Capítulo 6. Del latín al castellano medieval: Morfología y sintaxis][Capítulo 6. Del latín al castellano medieval: Morfología y sintaxis]  
