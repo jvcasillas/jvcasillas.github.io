@@ -165,7 +165,18 @@
           <h1 class="post-title">Knitr bootstrap</h1>
           <span class="post-date">2014-05-27</span>
           
-<p>This is how you use knitr bootstrap. Here is an example. </p>
+<p>Knitr bootstrap makes generating standalone reports extremely easy and the output looks really neat. Check out the example <a href="/posts/assets/knitr_bootstrap/knitr_bootstrap.html">here</a>. To recreate this you need to download the preview release of <a href="http://rmarkdown.rstudio.com/index.html">R Studio</a>, and set up the front matter as follows:</p>
+
+<pre><code>---
+output:
+  knitrBootstrap::bootstrap_document:
+    title: &quot;&quot;
+    theme: default
+    highlight: sunburst
+    theme.chooser: TRUE
+    highlight.chooser: TRUE
+---
+</code></pre>
 
         </div>
         <div id="disqus_thread"></div>
