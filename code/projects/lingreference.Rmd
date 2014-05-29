@@ -1,9 +1,9 @@
 ---
+title: "lingreference.org"
 config: "../config.yml"
 disqus: True
 ---
 
-### lingreference.org 
 
 <p></p>
 <ul class="bs-docs-social-buttons">
