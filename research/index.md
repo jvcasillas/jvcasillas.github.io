@@ -5,10 +5,9 @@ mode: selfcontained
 url: {lib: ../libraries}
 ---
 
-
 ## Research
-<p></p>
 
+<p></p>
 <div class="tabbable">
     <ul class="nav nav-tabs" id="myTab">
         <li class="active">
