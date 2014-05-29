@@ -167,27 +167,27 @@
           
 <p>This is how I made the colored spectrogram from the homepage (it&#39;s me saying &#39;welcome&#39;). You need to load the package phonTools into R.</p>
 
-<pre><code class="r">library(phonTools)
+<pre><code>library(phonTools)
 </code></pre>
 
 <p>Now you have to load the sound you want to make a spectrogram of (it has to be in your working directory). I recorded mine in Praat.</p>
 
-<pre><code class="r">sound = loadsound(&#39;welcome.wav&#39;)
+<pre><code>sound &lt;- loadsound(&#39;welcome.wav&#39;)
 </code></pre>
 
 <p>Now we&#39;re ready to make a spectrogram.</p>
 
-<pre><code class="r">spectrogram (sound, fs=44100, colors=TRUE, maintitle= &quot;Welcome&quot;, maxfreq=5500)
+<pre><code>spectrogram(sound, fs=44100, colors=TRUE, maintitle= &quot;Welcome&quot;, maxfreq=5500)
 </code></pre>
 
-<p><img src="assets/fig/unnamed-chunk-3.png" alt="plot of chunk unnamed-chunk-3"> </p>
+<p><img width="100%" src="assets/fig/unnamed-chunk-3.png"></p>
 
 <p>We can also see the oscillogram by using</p>
 
-<pre><code class="r">plot(sound)
+<pre><code>plot(sound)
 </code></pre>
 
-<p><img src="assets/fig/unnamed-chunk-4.png" alt="plot of chunk unnamed-chunk-4"> </p>
+<p><img width="100%" src="assets/fig/unnamed-chunk-4.png"></p>
 
 <p>That&#39;s it. </p>
 

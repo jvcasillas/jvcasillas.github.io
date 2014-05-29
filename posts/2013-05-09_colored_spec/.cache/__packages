@@ -1,5 +1,6 @@
 base
 devtools
+filehash
 ggplot2
 googleVis
 knitr
@@ -11,3 +12,4 @@ poirot
 popbio
 quadprog
 scales
+tikzDevice

@@ -40,8 +40,7 @@ Comment here.
     dev.off()
 
 Comments here
-![Here is the result](assets/plot.pdf)
-
+<img width="100%" src="assets/plot.pdf">
 
 Now let's do it with some IPA. Download this dataset and load it into R.
 
@@ -77,4 +76,5 @@ Now we will call tikz device.
 
 
 Comments here
-![Here is the result](assets/ipa_plot.pdf)
+<img width="100%" src="assets/ipa_plot.pdf">
+
