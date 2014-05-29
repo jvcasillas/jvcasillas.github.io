@@ -13,9 +13,9 @@ author:
 
 
 sidebar:
-  - {item: bio, href: '/bio', icon: 'cogs'}
+  - {item: bio, href: '/bio', icon: 'puzzle-piece'}
   - {item: teaching, href: '/teaching', icon: 'pencil-square'}
-  - {item: research, href: '/research', icon: 'puzzle-piece'}
+  - {item: research, href: '/research', icon: 'cogs'}
   - {item: cv, href: '/cv', icon: 'puzzle-piece'}
   - {item: code, href: '/code', icon: 'code'}
   - {item: blog, href: '/blog', icon: 'archive'}
