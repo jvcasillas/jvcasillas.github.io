@@ -1,9 +1,9 @@
 ---
+title: "R-snippets"
 config: "../config.yml"
 disqus: True
 ---
 
-### R-snippets
 
 <p></p>
 

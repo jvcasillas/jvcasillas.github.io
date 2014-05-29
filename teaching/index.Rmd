@@ -1,11 +1,11 @@
 ---
+title: "Teaching"
 framework: lanyon
 onefile: False
 mode: selfcontained
 url: {lib: ../libraries}
 ---
 
-## Teaching
 
 Here you can find a list of some of the classes I have taught or am currently teaching at the University of Arizona. Click on the links for more information about each one.
 

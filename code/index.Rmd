@@ -1,11 +1,11 @@
 ---
+title: "Current projects"
 framework: lanyon
 onefile: False
 mode: selfcontained
 url: {lib: ../libraries}
 ---
 
-## Current projects
 
 ### lingreference.org  
   Under development. Created specifically for linguistic terminology, the [lingreference.org][lingreference] database currently contains approx. 0,000 terms, phrases and abbreviations. This dictionary is in no way intended to be exhaustive, but rather is a technical resource specializing in the fields of phonetics, phonology, syntax, and sociolinguistics. The terms included were compiled over the past several years during graduate coursework, as well as taken from journal articles, and books. More info available [here](projects/lingreference).
