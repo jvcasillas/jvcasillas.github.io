@@ -1,5 +1,5 @@
 ---
-title: "TikzDevice tutorial part I: install tikzDevice in R"
+title: "TikzDevice tutorial I: install tikzDevice in R"
 date: "2013-05-11"
 config: "../config.yml"
 card: True

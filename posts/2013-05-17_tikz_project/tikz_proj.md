@@ -1,5 +1,5 @@
 ---
-title: "TikzDevice tutorial part II: structuring a project"
+title: "TikzDevice tutorial II: structuring a project"
 date: "2013-05-17"
 config: "../config.yml"
 card: True
