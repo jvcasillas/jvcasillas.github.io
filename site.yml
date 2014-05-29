@@ -10,6 +10,8 @@ author:
   name: "Joseph V. Casillas"
   github: "jvcasill"
   twitter: "jvcasill"
+  markdown: kramdown
+
 
 sidebar:
   - {item: bio, href: '/bio', icon: 'cogs'}
