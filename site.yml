@@ -15,8 +15,8 @@ sidebar:
   - {item: bio, href: '/bio', icon: 'cogs'}
   - {item: teaching, href: '/teaching', icon: 'pencil-square'}
   - {item: research, href: '/research', icon: 'puzzle-piece'}
-  - {item: cv, href: '/cv', icon: 'code'}
-  - {item: code, href: '/code', icon: 'archive'}
+  - {item: cv, href: '/cv', icon: 'puzzle-piece'}
+  - {item: code, href: '/code', icon: 'code'}
   - {item: blog, href: '/blog', icon: 'archive'}
 
 
