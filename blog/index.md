@@ -18,13 +18,4 @@ url: {lib: ../libraries}
     </ul>
     {{/ date }}{{/ pages }}
   </div>
-
-  <div id="home" align="justify">
-    <h3 class="extra">Categories</br></h3>
-    <ul>
-      {{% for tag in site.tags %}}    
-        <li><a href="./tags/{{ tag[0] }}">{{ tag[0] }}</a></li>
-      {{% endfor %}}
-    </ul>
-  </div>
 </div>
