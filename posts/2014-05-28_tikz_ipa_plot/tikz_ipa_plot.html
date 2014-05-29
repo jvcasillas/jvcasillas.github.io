@@ -222,14 +222,11 @@ dev.off()
 <p>Now we will call tikz device.</p>
 
 <pre><code>require(tikzDevice)
-options(tikzLatexPackages = c(getOption(&quot;tikzLatexPackages&quot;), 
-    &quot;\\usepackage{tipa}&quot;))
+options(tikzLatexPackages = c(getOption(&quot;tikzLatexPackages&quot;), &quot;\\usepackage{tipa}&quot;))
 tikz(&#39;plots/ipa_plot.tex&#39;, standAlone=TRUE, width=10, height=6)
-
 my_data$group &lt;- factor(my_data$group, levels = c(&quot;EL&quot;, &quot;NE&quot;, &quot;LL&quot;))
 df&lt;-with(my_data, aggregate(fpro, list(group=group, fstim=fstim), mean))
-df$se&lt;-with(my_data, aggregate(fpro, list(group=group, fstim=fstim), 
-    function(x) sd(x)/sqrt(10)))[,3]
+df$se&lt;-with(my_data, aggregate(fpro, list(group=group, fstim=fstim), function(x) sd(x)/sqrt(10)))[,3]
 gp &lt;- ggplot(df, aes(x=fstim, y=x, colour=group, ymin=x-se, ymax=x+se))
 gp + geom_line(aes(linetype=group), size = .5) + 
     geom_point(aes(shape=group)) + 

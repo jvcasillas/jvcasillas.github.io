@@ -59,14 +59,11 @@ We will use ggplot2 for this graph.
 Now we will call tikz device.
 
     require(tikzDevice)
-    options(tikzLatexPackages = c(getOption("tikzLatexPackages"), 
-        "\\usepackage{tipa}"))
+    options(tikzLatexPackages = c(getOption("tikzLatexPackages"), "\\usepackage{tipa}"))
     tikz('plots/ipa_plot.tex', standAlone=TRUE, width=10, height=6)
-
     my_data$group <- factor(my_data$group, levels = c("EL", "NE", "LL"))
     df<-with(my_data, aggregate(fpro, list(group=group, fstim=fstim), mean))
-    df$se<-with(my_data, aggregate(fpro, list(group=group, fstim=fstim), 
-        function(x) sd(x)/sqrt(10)))[,3]
+    df$se<-with(my_data, aggregate(fpro, list(group=group, fstim=fstim), function(x) sd(x)/sqrt(10)))[,3]
     gp <- ggplot(df, aes(x=fstim, y=x, colour=group, ymin=x-se, ymax=x+se))
     gp + geom_line(aes(linetype=group), size = .5) + 
         geom_point(aes(shape=group)) + 
