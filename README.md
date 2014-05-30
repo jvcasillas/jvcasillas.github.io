@@ -8,5 +8,5 @@ Personal/academic website
 - Generated in R using .Rmd files
 
 [poole/lanyon]: https://github.com/poole/lanyon
-[poirot][poirot]: https://github.com/ramnathv/poirot
+[poirot]: https://github.com/ramnathv/poirot
 [Rmarkdown]: https://github.com/rstudio/rmarkdown
