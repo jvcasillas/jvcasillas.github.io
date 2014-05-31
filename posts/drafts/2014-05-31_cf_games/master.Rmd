@@ -1,0 +1,29 @@
+---
+author: "Joseph V. Casillas"
+output:
+  knitrBootstrap::bootstrap_document:
+    title: "cf games"
+    theme: default
+    highlight: sunburst
+    theme.chooser: TRUE
+    highlight.chooser: TRUE
+---
+
+# Load data
+
+
+
+```{r, external-code, cache=FALSE, results='hide',echo=FALSE}
+library(knitr)
+source('stats/leaderboard_scrape.R')
+```
+
+```{r, results='asis'}
+knitr::kable(head(data_men, 60), row.names=FALSE)
+```
+
+
+# References
+
+- ref 1
+
