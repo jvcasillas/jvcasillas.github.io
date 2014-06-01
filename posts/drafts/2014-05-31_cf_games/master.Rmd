@@ -9,19 +9,207 @@ output:
     highlight.chooser: TRUE
 ---
 
-# Load data
 
+# Results - overall
 
-
-```{r, external-code, cache=FALSE, results='hide',echo=FALSE}
+```{r, external-code-0, cache=FALSE, results='hide',echo=FALSE}
 library(knitr)
-source('stats/leaderboard_scrape.R')
+source('stats/00_lb_scrape_overall.R')
+```
+
+## Overall men
+```{r, results='asis'}
+knitr::kable(head(data_men_overall, 60), row.names=FALSE)
+```
+
+## Overall women
+
+```{r, results='asis'}
+knitr::kable(head(data_women_overall, 60), row.names=FALSE)
+```
+
+## Average scores
+
+| Workout    | 14.1 | 14.2 | 14.3 | 14.4 | 14.5 |
+|:-----------|:-----|:-----|:-----|:-----|:-----|
+| Men | `r mean(data_men_overall$'14.1 score')` (`r sd(data_men_overall$'14.1 score')`) | `r mean(data_men_overall$'14.2 score')` (`r sd(data_men_overall$'14.2 score')`) | `r mean(data_men_overall$'14.3 score')` (`r sd(data_men_overall$'14.3 score')`) | `r mean(data_men_overall$'14.4 score')` (`r sd(data_men_overall$'14.4 score')`) | NA |
+| Women | `r mean(data_women_overall$'14.1 score')` (`r sd(data_women_overall$'14.1 score')`) | `r mean(data_women_overall$'14.2 score')` (`r sd(data_women_overall$'14.2 score')`) | `r mean(data_women_overall$'14.3 score')` (`r sd(data_women_overall$'14.3 score')`) | `r mean(data_women_overall$'14.4 score')` (`r sd(data_women_overall$'14.4 score')`) | NA |
+
+# Results - by region
+
+```{r, external-code-x, cache=FALSE, results='hide',echo=FALSE}
+source('stats/combine_all_regions.R')
+```
+
+## Africa
+
+```{r, results='asis'}
+knitr::kable(head(data_men_overall_africa, 3), row.names=FALSE)
 ```
 
 ```{r, results='asis'}
-knitr::kable(head(data_men, 60), row.names=FALSE)
+knitr::kable(head(data_women_overall_africa, 3), row.names=FALSE)
 ```
 
+## Asia
+
+```{r, results='asis'}
+knitr::kable(head(data_men_overall_asia, 3), row.names=FALSE)
+```
+
+```{r, results='asis'}
+knitr::kable(head(data_women_overall_asia, 3), row.names=FALSE)
+```
+
+## Australia
+
+```{r, results='asis'}
+knitr::kable(head(data_men_overall_australia, 3), row.names=FALSE)
+```
+
+```{r, results='asis'}
+knitr::kable(head(data_women_overall_australia, 3), row.names=FALSE)
+```
+
+## Canada East
+
+```{r, results='asis'}
+knitr::kable(head(data_men_overall_canadaeast, 3), row.names=FALSE)
+```
+
+```{r, results='asis'}
+knitr::kable(head(data_women_overall_canadaeast, 3), row.names=FALSE)
+```
+
+## Canada West
+
+```{r, results='asis'}
+knitr::kable(head(data_men_overall_canadawest, 3), row.names=FALSE)
+```
+
+```{r, results='asis'}
+knitr::kable(head(data_women_overall_canadawest, 3), row.names=FALSE)
+```
+
+## Central East
+
+```{r, results='asis'}
+knitr::kable(head(data_men_overall_centraleast, 3), row.names=FALSE)
+```
+
+```{r, results='asis'}
+knitr::kable(head(data_women_overall_centraleast, 3), row.names=FALSE)
+```
+
+## Europe
+
+```{r, results='asis'}
+knitr::kable(head(data_men_overall_europe, 3), row.names=FALSE)
+```
+
+```{r, results='asis'}
+knitr::kable(head(data_women_overall_europe, 3), row.names=FALSE)
+```
+
+## Latin America
+
+```{r, results='asis'}
+knitr::kable(head(data_men_overall_latinamerica, 3), row.names=FALSE)
+```
+
+```{r, results='asis'}
+knitr::kable(head(data_women_overall_latinamerica, 3), row.names=FALSE)
+```
+
+## Mid Atlantic
+
+```{r, results='asis'}
+knitr::kable(head(data_men_overall_midatlantic, 3), row.names=FALSE)
+```
+
+```{r, results='asis'}
+knitr::kable(head(data_women_overall_midatlantic, 3), row.names=FALSE)
+```
+
+## North Central
+
+```{r, results='asis'}
+knitr::kable(head(data_men_overall_northcentral, 3), row.names=FALSE)
+```
+
+```{r, results='asis'}
+knitr::kable(head(data_women_overall_northcentral, 3), row.names=FALSE)
+```
+
+## North East
+
+```{r, results='asis'}
+knitr::kable(head(data_men_overall_northeast, 3), row.names=FALSE)
+```
+
+```{r, results='asis'}
+knitr::kable(head(data_women_overall_northeast, 3), row.names=FALSE)
+```
+
+## Northern California
+
+```{r, results='asis'}
+knitr::kable(head(data_men_overall_northerncalifornia, 3), row.names=FALSE)
+```
+
+```{r, results='asis'}
+knitr::kable(head(data_women_overall_northerncalifornia, 3), row.names=FALSE)
+```
+
+## North West
+
+```{r, results='asis'}
+knitr::kable(head(data_men_overall_northwest, 3), row.names=FALSE)
+```
+
+```{r, results='asis'}
+knitr::kable(head(data_women_overall_northwest, 3), row.names=FALSE)
+```
+
+## South Central
+
+```{r, results='asis'}
+knitr::kable(head(data_men_overall_southcentral, 3), row.names=FALSE)
+```
+
+```{r, results='asis'}
+knitr::kable(head(data_women_overall_southcentral, 3), row.names=FALSE)
+```
+
+## South East
+
+```{r, results='asis'}
+knitr::kable(head(data_men_overall_southeast, 3), row.names=FALSE)
+```
+
+```{r, results='asis'}
+knitr::kable(head(data_women_overall_southeast, 3), row.names=FALSE)
+```
+
+## Southern California
+
+```{r, results='asis'}
+knitr::kable(head(data_men_overall_southerncalifornia, 3), row.names=FALSE)
+```
+
+```{r, results='asis'}
+knitr::kable(head(data_women_overall_southerncalifornia, 3), row.names=FALSE)
+```
+
+## South West
+
+```{r, results='asis'}
+knitr::kable(head(data_men_overall_southwest, 3), row.names=FALSE)
+```
+
+```{r, results='asis'}
+knitr::kable(head(data_women_overall_southwest, 3), row.names=FALSE)
+```
 
 # References
 

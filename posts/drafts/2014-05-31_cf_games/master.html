@@ -863,930 +863,4356 @@ cf games
 <div class="container">
 <div class="row row-offcanvas row-offcanvas-right">
 <div class="contents col-xs-12 col-md-10">
-<h1>Load data</h1>
+<h1>Results - overall</h1>
+<h2>Overall men</h2>
 <div class="row">
 <button class="source R toggle btn btn-xs btn-primary">
 <span class="glyphicon glyphicon-chevron-down"></span> R source
-</button><pre style=""><code class="source r">knitr::kable(head(data_men, 60), row.names=FALSE)</code></pre>
+</button><pre style=""><code class="source r">knitr::kable(head(data_men_overall, 60), row.names=FALSE)</code></pre>
 
 <table>
 <thead>
 <tr class="header">
 <th align="left">Athlete</th>
-<th align="left">Overall rank</th>
-<th align="left">Overall score</th>
-<th align="left">14.1 rank</th>
-<th align="left">14.1 score</th>
-<th align="left">14.2 rank</th>
-<th align="left">14.2 score</th>
-<th align="left">14.3 rank</th>
-<th align="left">14.3 score</th>
-<th align="left">14.4 rank</th>
-<th align="left">14.4 score</th>
-<th align="left">14.5 rank</th>
+<th align="right">Overall rank</th>
+<th align="right">Overall score</th>
+<th align="right">14.1 rank</th>
+<th align="right">14.1 score</th>
+<th align="right">14.2 rank</th>
+<th align="right">14.2 score</th>
+<th align="right">14.3 rank</th>
+<th align="right">14.3 score</th>
+<th align="right">14.4 rank</th>
+<th align="right">14.4 score</th>
+<th align="right">14.5 rank</th>
 <th align="left">14.5 score</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td align="left">Rich Froning</td>
-<td align="left">1</td>
-<td align="left">18</td>
-<td align="left">4</td>
-<td align="left">444</td>
-<td align="left">2</td>
-<td align="left">359</td>
-<td align="left">8</td>
-<td align="left">177</td>
-<td align="left">1</td>
-<td align="left">277</td>
-<td align="left">3</td>
+<td align="right">1</td>
+<td align="right">18</td>
+<td align="right">4</td>
+<td align="right">444</td>
+<td align="right">2</td>
+<td align="right">359</td>
+<td align="right">8</td>
+<td align="right">177</td>
+<td align="right">1</td>
+<td align="right">277</td>
+<td align="right">3</td>
 <td align="left">08:26</td>
 </tr>
 <tr class="even">
 <td align="left">Jason Khalipa</td>
-<td align="left">2</td>
-<td align="left">72</td>
-<td align="left">6</td>
-<td align="left">442</td>
-<td align="left">15</td>
-<td align="left">339</td>
-<td align="left">12</td>
-<td align="left">176</td>
-<td align="left">16</td>
-<td align="left">253</td>
-<td align="left">23</td>
+<td align="right">2</td>
+<td align="right">72</td>
+<td align="right">6</td>
+<td align="right">442</td>
+<td align="right">15</td>
+<td align="right">339</td>
+<td align="right">12</td>
+<td align="right">176</td>
+<td align="right">16</td>
+<td align="right">253</td>
+<td align="right">23</td>
 <td align="left">09:05</td>
 </tr>
 <tr class="odd">
 <td align="left">Ben Smith</td>
-<td align="left">3</td>
-<td align="left">92</td>
-<td align="left">16</td>
-<td align="left">433</td>
-<td align="left">4</td>
-<td align="left">353</td>
-<td align="left">34</td>
-<td align="left">175</td>
-<td align="left">2</td>
-<td align="left">265</td>
-<td align="left">36</td>
+<td align="right">3</td>
+<td align="right">92</td>
+<td align="right">16</td>
+<td align="right">433</td>
+<td align="right">4</td>
+<td align="right">353</td>
+<td align="right">34</td>
+<td align="right">175</td>
+<td align="right">2</td>
+<td align="right">265</td>
+<td align="right">36</td>
 <td align="left">09:16</td>
 </tr>
 <tr class="even">
 <td align="left">Dan Bailey</td>
-<td align="left">4</td>
-<td align="left">122</td>
-<td align="left">1</td>
-<td align="left">461</td>
-<td align="left">34</td>
-<td align="left">326</td>
-<td align="left">28</td>
-<td align="left">175</td>
-<td align="left">18</td>
-<td align="left">252</td>
-<td align="left">41</td>
+<td align="right">4</td>
+<td align="right">122</td>
+<td align="right">1</td>
+<td align="right">461</td>
+<td align="right">34</td>
+<td align="right">326</td>
+<td align="right">28</td>
+<td align="right">175</td>
+<td align="right">18</td>
+<td align="right">252</td>
+<td align="right">41</td>
 <td align="left">09:18</td>
 </tr>
 <tr class="odd">
 <td align="left">Scott Panchik</td>
-<td align="left">5</td>
-<td align="left">157</td>
-<td align="left">14</td>
-<td align="left">435</td>
-<td align="left">8</td>
-<td align="left">347</td>
-<td align="left">93</td>
-<td align="left">162</td>
-<td align="left">27</td>
-<td align="left">250</td>
-<td align="left">15</td>
+<td align="right">5</td>
+<td align="right">157</td>
+<td align="right">14</td>
+<td align="right">435</td>
+<td align="right">8</td>
+<td align="right">347</td>
+<td align="right">93</td>
+<td align="right">162</td>
+<td align="right">27</td>
+<td align="right">250</td>
+<td align="right">15</td>
 <td align="left">08:56</td>
 </tr>
 <tr class="even">
 <td align="left">Rob Forte</td>
-<td align="left">6</td>
-<td align="left">199</td>
-<td align="left">19</td>
-<td align="left">424</td>
-<td align="left">104</td>
-<td align="left">277</td>
-<td align="left">54</td>
-<td align="left">168</td>
-<td align="left">3</td>
-<td align="left">263</td>
-<td align="left">19</td>
+<td align="right">6</td>
+<td align="right">199</td>
+<td align="right">19</td>
+<td align="right">424</td>
+<td align="right">104</td>
+<td align="right">277</td>
+<td align="right">54</td>
+<td align="right">168</td>
+<td align="right">3</td>
+<td align="right">263</td>
+<td align="right">19</td>
 <td align="left">09:01</td>
 </tr>
 <tr class="odd">
 <td align="left">Mathew Fraser</td>
-<td align="left">7</td>
-<td align="left">208</td>
-<td align="left">28</td>
-<td align="left">415</td>
-<td align="left">67</td>
-<td align="left">317</td>
-<td align="left">71</td>
-<td align="left">165</td>
-<td align="left">40</td>
-<td align="left">247</td>
-<td align="left">2</td>
+<td align="right">7</td>
+<td align="right">208</td>
+<td align="right">28</td>
+<td align="right">415</td>
+<td align="right">67</td>
+<td align="right">317</td>
+<td align="right">71</td>
+<td align="right">165</td>
+<td align="right">40</td>
+<td align="right">247</td>
+<td align="right">2</td>
 <td align="left">08:18</td>
 </tr>
 <tr class="even">
 <td align="left">Bobby Noyce</td>
-<td align="left">8</td>
-<td align="left">309</td>
-<td align="left">42</td>
-<td align="left">407</td>
-<td align="left">27</td>
-<td align="left">331</td>
-<td align="left">50</td>
-<td align="left">169</td>
-<td align="left">45</td>
-<td align="left">246</td>
-<td align="left">145</td>
+<td align="right">8</td>
+<td align="right">309</td>
+<td align="right">42</td>
+<td align="right">407</td>
+<td align="right">27</td>
+<td align="right">331</td>
+<td align="right">50</td>
+<td align="right">169</td>
+<td align="right">45</td>
+<td align="right">246</td>
+<td align="right">145</td>
 <td align="left">09:49</td>
 </tr>
 <tr class="odd">
 <td align="left">Austin Malleolo</td>
-<td align="left">9</td>
-<td align="left">345</td>
-<td align="left">252</td>
-<td align="left">394</td>
-<td align="left">31</td>
-<td align="left">328</td>
-<td align="left">1</td>
-<td align="left">182</td>
-<td align="left">12</td>
-<td align="left">256</td>
-<td align="left">49</td>
+<td align="right">9</td>
+<td align="right">345</td>
+<td align="right">252</td>
+<td align="right">394</td>
+<td align="right">31</td>
+<td align="right">328</td>
+<td align="right">1</td>
+<td align="right">182</td>
+<td align="right">12</td>
+<td align="right">256</td>
+<td align="right">49</td>
 <td align="left">09:23</td>
 </tr>
 <tr class="even">
 <td align="left">Neal Maddox</td>
-<td align="left">10</td>
-<td align="left">400</td>
-<td align="left">92</td>
-<td align="left">401</td>
-<td align="left">45</td>
-<td align="left">323</td>
-<td align="left">174</td>
-<td align="left">158</td>
-<td align="left">23</td>
-<td align="left">251</td>
-<td align="left">66</td>
+<td align="right">10</td>
+<td align="right">400</td>
+<td align="right">92</td>
+<td align="right">401</td>
+<td align="right">45</td>
+<td align="right">323</td>
+<td align="right">174</td>
+<td align="right">158</td>
+<td align="right">23</td>
+<td align="right">251</td>
+<td align="right">66</td>
 <td align="left">09:30</td>
 </tr>
 <tr class="odd">
 <td align="left">Tommy Hackenbruck</td>
-<td align="left">11</td>
-<td align="left">438</td>
-<td align="left">81</td>
-<td align="left">402</td>
-<td align="left">115</td>
-<td align="left">276</td>
-<td align="left">28</td>
-<td align="left">175</td>
-<td align="left">106</td>
-<td align="left">237</td>
-<td align="left">108</td>
+<td align="right">11</td>
+<td align="right">438</td>
+<td align="right">81</td>
+<td align="right">402</td>
+<td align="right">115</td>
+<td align="right">276</td>
+<td align="right">28</td>
+<td align="right">175</td>
+<td align="right">106</td>
+<td align="right">237</td>
+<td align="right">108</td>
 <td align="left">09:42</td>
 </tr>
 <tr class="even">
 <td align="left">Roy Gamboa</td>
-<td align="left">12</td>
-<td align="left">448</td>
-<td align="left">25</td>
-<td align="left">420</td>
-<td align="left">91</td>
-<td align="left">278</td>
-<td align="left">145</td>
-<td align="left">159</td>
-<td align="left">87</td>
-<td align="left">239</td>
-<td align="left">100</td>
+<td align="right">12</td>
+<td align="right">448</td>
+<td align="right">25</td>
+<td align="right">420</td>
+<td align="right">91</td>
+<td align="right">278</td>
+<td align="right">145</td>
+<td align="right">159</td>
+<td align="right">87</td>
+<td align="right">239</td>
+<td align="right">100</td>
 <td align="left">09:40</td>
 </tr>
 <tr class="odd">
 <td align="left">Julian Serna</td>
-<td align="left">13</td>
-<td align="left">468</td>
-<td align="left">186</td>
-<td align="left">396</td>
-<td align="left">74</td>
-<td align="left">310</td>
-<td align="left">102</td>
-<td align="left">161</td>
-<td align="left">58</td>
-<td align="left">244</td>
-<td align="left">48</td>
+<td align="right">13</td>
+<td align="right">468</td>
+<td align="right">186</td>
+<td align="right">396</td>
+<td align="right">74</td>
+<td align="right">310</td>
+<td align="right">102</td>
+<td align="right">161</td>
+<td align="right">58</td>
+<td align="right">244</td>
+<td align="right">48</td>
 <td align="left">09:22</td>
 </tr>
 <tr class="even">
 <td align="left">Jonathan Gibson</td>
-<td align="left">14</td>
-<td align="left">503</td>
-<td align="left">81</td>
-<td align="left">402</td>
-<td align="left">282</td>
-<td align="left">267</td>
-<td align="left">28</td>
-<td align="left">175</td>
-<td align="left">19</td>
-<td align="left">252</td>
-<td align="left">93</td>
+<td align="right">14</td>
+<td align="right">503</td>
+<td align="right">81</td>
+<td align="right">402</td>
+<td align="right">282</td>
+<td align="right">267</td>
+<td align="right">28</td>
+<td align="right">175</td>
+<td align="right">19</td>
+<td align="right">252</td>
+<td align="right">93</td>
 <td align="left">09:38</td>
 </tr>
 <tr class="odd">
 <td align="left">Ryan Fischer</td>
-<td align="left">15</td>
-<td align="left">522</td>
-<td align="left">186</td>
-<td align="left">396</td>
-<td align="left">91</td>
-<td align="left">278</td>
-<td align="left">81</td>
-<td align="left">164</td>
-<td align="left">157</td>
-<td align="left">232</td>
-<td align="left">7</td>
+<td align="right">15</td>
+<td align="right">522</td>
+<td align="right">186</td>
+<td align="right">396</td>
+<td align="right">91</td>
+<td align="right">278</td>
+<td align="right">81</td>
+<td align="right">164</td>
+<td align="right">157</td>
+<td align="right">232</td>
+<td align="right">7</td>
 <td align="left">08:45</td>
 </tr>
 <tr class="even">
 <td align="left">Ben Garard</td>
-<td align="left">16</td>
-<td align="left">556</td>
-<td align="left">136</td>
-<td align="left">398</td>
-<td align="left">140</td>
-<td align="left">274</td>
-<td align="left">227</td>
-<td align="left">156</td>
-<td align="left">42</td>
-<td align="left">246</td>
-<td align="left">11</td>
+<td align="right">16</td>
+<td align="right">556</td>
+<td align="right">136</td>
+<td align="right">398</td>
+<td align="right">140</td>
+<td align="right">274</td>
+<td align="right">227</td>
+<td align="right">156</td>
+<td align="right">42</td>
+<td align="right">246</td>
+<td align="right">11</td>
 <td align="left">08:49</td>
 </tr>
 <tr class="odd">
 <td align="left">Travis Mayer</td>
-<td align="left">17</td>
-<td align="left">566</td>
-<td align="left">285</td>
-<td align="left">393</td>
-<td align="left">31</td>
-<td align="left">328</td>
-<td align="left">34</td>
-<td align="left">175</td>
-<td align="left">10</td>
-<td align="left">258</td>
-<td align="left">206</td>
+<td align="right">17</td>
+<td align="right">566</td>
+<td align="right">285</td>
+<td align="right">393</td>
+<td align="right">31</td>
+<td align="right">328</td>
+<td align="right">34</td>
+<td align="right">175</td>
+<td align="right">10</td>
+<td align="right">258</td>
+<td align="right">206</td>
 <td align="left">09:57</td>
 </tr>
 <tr class="even">
 <td align="left">Drew Shamblin</td>
-<td align="left">18</td>
-<td align="left">576</td>
-<td align="left">2</td>
-<td align="left">450</td>
-<td align="left">85</td>
-<td align="left">279</td>
-<td align="left">227</td>
-<td align="left">156</td>
-<td align="left">44</td>
-<td align="left">246</td>
-<td align="left">218</td>
+<td align="right">18</td>
+<td align="right">576</td>
+<td align="right">2</td>
+<td align="right">450</td>
+<td align="right">85</td>
+<td align="right">279</td>
+<td align="right">227</td>
+<td align="right">156</td>
+<td align="right">44</td>
+<td align="right">246</td>
+<td align="right">218</td>
 <td align="left">09:58</td>
 </tr>
 <tr class="odd">
 <td align="left">Jon Pera</td>
-<td align="left">19</td>
-<td align="left">590</td>
-<td align="left">49</td>
-<td align="left">405</td>
-<td align="left">57</td>
-<td align="left">320</td>
-<td align="left">120</td>
-<td align="left">160</td>
-<td align="left">89</td>
-<td align="left">239</td>
-<td align="left">275</td>
+<td align="right">19</td>
+<td align="right">590</td>
+<td align="right">49</td>
+<td align="right">405</td>
+<td align="right">57</td>
+<td align="right">320</td>
+<td align="right">120</td>
+<td align="right">160</td>
+<td align="right">89</td>
+<td align="right">239</td>
+<td align="right">275</td>
 <td align="left">10:04</td>
 </tr>
 <tr class="even">
 <td align="left">Noah Ohlsen</td>
-<td align="left">20</td>
-<td align="left">596</td>
-<td align="left">560</td>
-<td align="left">386</td>
-<td align="left">4</td>
-<td align="left">353</td>
-<td align="left">14</td>
-<td align="left">175</td>
-<td align="left">11</td>
-<td align="left">256</td>
-<td align="left">7</td>
+<td align="right">20</td>
+<td align="right">596</td>
+<td align="right">560</td>
+<td align="right">386</td>
+<td align="right">4</td>
+<td align="right">353</td>
+<td align="right">14</td>
+<td align="right">175</td>
+<td align="right">11</td>
+<td align="right">256</td>
+<td align="right">7</td>
 <td align="left">08:45</td>
 </tr>
 <tr class="odd">
 <td align="left">Marcus Filly</td>
-<td align="left">20</td>
-<td align="left">596</td>
-<td align="left">327</td>
-<td align="left">392</td>
-<td align="left">6</td>
-<td align="left">350</td>
-<td align="left">195</td>
-<td align="left">157</td>
-<td align="left">8</td>
-<td align="left">260</td>
-<td align="left">60</td>
+<td align="right">20</td>
+<td align="right">596</td>
+<td align="right">327</td>
+<td align="right">392</td>
+<td align="right">6</td>
+<td align="right">350</td>
+<td align="right">195</td>
+<td align="right">157</td>
+<td align="right">8</td>
+<td align="right">260</td>
+<td align="right">60</td>
 <td align="left">09:27</td>
 </tr>
 <tr class="even">
 <td align="left">Josh Golden</td>
-<td align="left">22</td>
-<td align="left">601</td>
-<td align="left">31</td>
-<td align="left">413</td>
-<td align="left">104</td>
-<td align="left">277</td>
-<td align="left">157</td>
-<td align="left">158</td>
-<td align="left">201</td>
-<td align="left">229</td>
-<td align="left">108</td>
+<td align="right">22</td>
+<td align="right">601</td>
+<td align="right">31</td>
+<td align="right">413</td>
+<td align="right">104</td>
+<td align="right">277</td>
+<td align="right">157</td>
+<td align="right">158</td>
+<td align="right">201</td>
+<td align="right">229</td>
+<td align="right">108</td>
 <td align="left">09:42</td>
 </tr>
 <tr class="odd">
 <td align="left">Brennan Fjord</td>
-<td align="left">23</td>
-<td align="left">611</td>
-<td align="left">14</td>
-<td align="left">435</td>
-<td align="left">91</td>
-<td align="left">278</td>
-<td align="left">165</td>
-<td align="left">158</td>
-<td align="left">76</td>
-<td align="left">241</td>
-<td align="left">265</td>
+<td align="right">23</td>
+<td align="right">611</td>
+<td align="right">14</td>
+<td align="right">435</td>
+<td align="right">91</td>
+<td align="right">278</td>
+<td align="right">165</td>
+<td align="right">158</td>
+<td align="right">76</td>
+<td align="right">241</td>
+<td align="right">265</td>
 <td align="left">10:03</td>
 </tr>
 <tr class="even">
 <td align="left">Rasmus Wisbech Andersen</td>
-<td align="left">24</td>
-<td align="left">634</td>
-<td align="left">107</td>
-<td align="left">400</td>
-<td align="left">16</td>
-<td align="left">338</td>
-<td align="left">306</td>
-<td align="left">155</td>
-<td align="left">60</td>
-<td align="left">244</td>
-<td align="left">145</td>
+<td align="right">24</td>
+<td align="right">634</td>
+<td align="right">107</td>
+<td align="right">400</td>
+<td align="right">16</td>
+<td align="right">338</td>
+<td align="right">306</td>
+<td align="right">155</td>
+<td align="right">60</td>
+<td align="right">244</td>
+<td align="right">145</td>
 <td align="left">09:49</td>
 </tr>
 <tr class="odd">
 <td align="left">Alex Anderson</td>
-<td align="left">25</td>
-<td align="left">650</td>
-<td align="left">42</td>
-<td align="left">407</td>
-<td align="left">128</td>
-<td align="left">275</td>
-<td align="left">284</td>
-<td align="left">155</td>
-<td align="left">163</td>
-<td align="left">231</td>
-<td align="left">33</td>
+<td align="right">25</td>
+<td align="right">650</td>
+<td align="right">42</td>
+<td align="right">407</td>
+<td align="right">128</td>
+<td align="right">275</td>
+<td align="right">284</td>
+<td align="right">155</td>
+<td align="right">163</td>
+<td align="right">231</td>
+<td align="right">33</td>
 <td align="left">09:14</td>
 </tr>
 <tr class="even">
 <td align="left">Graham Holmberg</td>
-<td align="left">26</td>
-<td align="left">671</td>
-<td align="left">23</td>
-<td align="left">422</td>
-<td align="left">57</td>
-<td align="left">320</td>
-<td align="left">64</td>
-<td align="left">166</td>
-<td align="left">116</td>
-<td align="left">236</td>
-<td align="left">411</td>
+<td align="right">26</td>
+<td align="right">671</td>
+<td align="right">23</td>
+<td align="right">422</td>
+<td align="right">57</td>
+<td align="right">320</td>
+<td align="right">64</td>
+<td align="right">166</td>
+<td align="right">116</td>
+<td align="right">236</td>
+<td align="right">411</td>
 <td align="left">10:20</td>
 </tr>
 <tr class="odd">
 <td align="left">Adam Neiffer</td>
-<td align="left">27</td>
-<td align="left">747</td>
-<td align="left">186</td>
-<td align="left">396</td>
-<td align="left">325</td>
-<td align="left">265</td>
-<td align="left">160</td>
-<td align="left">158</td>
-<td align="left">53</td>
-<td align="left">245</td>
-<td align="left">23</td>
+<td align="right">27</td>
+<td align="right">747</td>
+<td align="right">186</td>
+<td align="right">396</td>
+<td align="right">325</td>
+<td align="right">265</td>
+<td align="right">160</td>
+<td align="right">158</td>
+<td align="right">53</td>
+<td align="right">245</td>
+<td align="right">23</td>
 <td align="left">09:05</td>
 </tr>
 <tr class="even">
 <td align="left">Ben Stoneberg</td>
-<td align="left">28</td>
-<td align="left">791</td>
-<td align="left">427</td>
-<td align="left">390</td>
-<td align="left">8</td>
-<td align="left">347</td>
-<td align="left">153</td>
-<td align="left">159</td>
-<td align="left">138</td>
-<td align="left">234</td>
-<td align="left">65</td>
+<td align="right">28</td>
+<td align="right">791</td>
+<td align="right">427</td>
+<td align="right">390</td>
+<td align="right">8</td>
+<td align="right">347</td>
+<td align="right">153</td>
+<td align="right">159</td>
+<td align="right">138</td>
+<td align="right">234</td>
+<td align="right">65</td>
 <td align="left">09:29</td>
 </tr>
 <tr class="odd">
 <td align="left">Ryan Swobody</td>
-<td align="left">29</td>
-<td align="left">814</td>
-<td align="left">427</td>
-<td align="left">390</td>
-<td align="left">71</td>
-<td align="left">315</td>
-<td align="left">56</td>
-<td align="left">167</td>
-<td align="left">137</td>
-<td align="left">234</td>
-<td align="left">123</td>
+<td align="right">29</td>
+<td align="right">814</td>
+<td align="right">427</td>
+<td align="right">390</td>
+<td align="right">71</td>
+<td align="right">315</td>
+<td align="right">56</td>
+<td align="right">167</td>
+<td align="right">137</td>
+<td align="right">234</td>
+<td align="right">123</td>
 <td align="left">09:45</td>
 </tr>
 <tr class="even">
 <td align="left">Irving Hernandez</td>
-<td align="left">30</td>
-<td align="left">865</td>
-<td align="left">136</td>
-<td align="left">398</td>
-<td align="left">1</td>
-<td align="left">396</td>
-<td align="left">576</td>
-<td align="left">152</td>
-<td align="left">131</td>
-<td align="left">234</td>
-<td align="left">21</td>
+<td align="right">30</td>
+<td align="right">865</td>
+<td align="right">136</td>
+<td align="right">398</td>
+<td align="right">1</td>
+<td align="right">396</td>
+<td align="right">576</td>
+<td align="right">152</td>
+<td align="right">131</td>
+<td align="right">234</td>
+<td align="right">21</td>
 <td align="left">09:04</td>
 </tr>
 <tr class="odd">
 <td align="left">Jacob Heppner</td>
-<td align="left">31</td>
-<td align="left">884</td>
-<td align="left">136</td>
-<td align="left">398</td>
-<td align="left">11</td>
-<td align="left">345</td>
-<td align="left">671</td>
-<td align="left">152</td>
-<td align="left">39</td>
-<td align="left">247</td>
-<td align="left">27</td>
+<td align="right">31</td>
+<td align="right">884</td>
+<td align="right">136</td>
+<td align="right">398</td>
+<td align="right">11</td>
+<td align="right">345</td>
+<td align="right">671</td>
+<td align="right">152</td>
+<td align="right">39</td>
+<td align="right">247</td>
+<td align="right">27</td>
 <td align="left">09:09</td>
 </tr>
 <tr class="even">
 <td align="left">Jakob Magnusson</td>
-<td align="left">32</td>
-<td align="left">893</td>
-<td align="left">44</td>
-<td align="left">406</td>
-<td align="left">91</td>
-<td align="left">278</td>
-<td align="left">351</td>
-<td align="left">155</td>
-<td align="left">142</td>
-<td align="left">234</td>
-<td align="left">265</td>
+<td align="right">32</td>
+<td align="right">893</td>
+<td align="right">44</td>
+<td align="right">406</td>
+<td align="right">91</td>
+<td align="right">278</td>
+<td align="right">351</td>
+<td align="right">155</td>
+<td align="right">142</td>
+<td align="right">234</td>
+<td align="right">265</td>
 <td align="left">10:03</td>
 </tr>
 <tr class="odd">
 <td align="left">Matt Reilly</td>
-<td align="left">33</td>
-<td align="left">909</td>
-<td align="left">92</td>
-<td align="left">401</td>
-<td align="left">178</td>
-<td align="left">272</td>
-<td align="left">371</td>
-<td align="left">154</td>
-<td align="left">15</td>
-<td align="left">253</td>
-<td align="left">253</td>
+<td align="right">33</td>
+<td align="right">909</td>
+<td align="right">92</td>
+<td align="right">401</td>
+<td align="right">178</td>
+<td align="right">272</td>
+<td align="right">371</td>
+<td align="right">154</td>
+<td align="right">15</td>
+<td align="right">253</td>
+<td align="right">253</td>
 <td align="left">10:01</td>
 </tr>
 <tr class="even">
 <td align="left">Brandon Swan</td>
-<td align="left">34</td>
-<td align="left">949</td>
-<td align="left">379</td>
-<td align="left">391</td>
-<td align="left">178</td>
-<td align="left">272</td>
-<td align="left">286</td>
-<td align="left">155</td>
-<td align="left">79</td>
-<td align="left">240</td>
-<td align="left">27</td>
+<td align="right">34</td>
+<td align="right">949</td>
+<td align="right">379</td>
+<td align="right">391</td>
+<td align="right">178</td>
+<td align="right">272</td>
+<td align="right">286</td>
+<td align="right">155</td>
+<td align="right">79</td>
+<td align="right">240</td>
+<td align="right">27</td>
 <td align="left">09:09</td>
 </tr>
 <tr class="odd">
 <td align="left">Keegan Wolfenden</td>
-<td align="left">35</td>
-<td align="left">954</td>
-<td align="left">92</td>
-<td align="left">401</td>
-<td align="left">305</td>
-<td align="left">266</td>
-<td align="left">195</td>
-<td align="left">157</td>
-<td align="left">129</td>
-<td align="left">235</td>
-<td align="left">233</td>
+<td align="right">35</td>
+<td align="right">954</td>
+<td align="right">92</td>
+<td align="right">401</td>
+<td align="right">305</td>
+<td align="right">266</td>
+<td align="right">195</td>
+<td align="right">157</td>
+<td align="right">129</td>
+<td align="right">235</td>
+<td align="right">233</td>
 <td align="left">09:59</td>
 </tr>
 <tr class="even">
 <td align="left">Craig Kenney</td>
-<td align="left">36</td>
-<td align="left">955</td>
-<td align="left">2</td>
-<td align="left">450</td>
-<td align="left">533</td>
-<td align="left">258</td>
-<td align="left">251</td>
-<td align="left">156</td>
-<td align="left">52</td>
-<td align="left">245</td>
-<td align="left">117</td>
+<td align="right">36</td>
+<td align="right">955</td>
+<td align="right">2</td>
+<td align="right">450</td>
+<td align="right">533</td>
+<td align="right">258</td>
+<td align="right">251</td>
+<td align="right">156</td>
+<td align="right">52</td>
+<td align="right">245</td>
+<td align="right">117</td>
 <td align="left">09:44</td>
 </tr>
 <tr class="odd">
 <td align="left">Garret Fisher</td>
-<td align="left">37</td>
-<td align="left">965</td>
-<td align="left">285</td>
-<td align="left">393</td>
-<td align="left">128</td>
-<td align="left">275</td>
-<td align="left">19</td>
-<td align="left">175</td>
-<td align="left">73</td>
-<td align="left">241</td>
-<td align="left">460</td>
+<td align="right">37</td>
+<td align="right">965</td>
+<td align="right">285</td>
+<td align="right">393</td>
+<td align="right">128</td>
+<td align="right">275</td>
+<td align="right">19</td>
+<td align="right">175</td>
+<td align="right">73</td>
+<td align="right">241</td>
+<td align="right">460</td>
 <td align="left">10:24</td>
 </tr>
 <tr class="even">
 <td align="left">Brent Fikowski</td>
-<td align="left">38</td>
-<td align="left">975</td>
-<td align="left">5</td>
-<td align="left">443</td>
-<td align="left">26</td>
-<td align="left">333</td>
-<td align="left">704</td>
-<td align="left">151</td>
-<td align="left">7</td>
-<td align="left">260</td>
-<td align="left">233</td>
+<td align="right">38</td>
+<td align="right">975</td>
+<td align="right">5</td>
+<td align="right">443</td>
+<td align="right">26</td>
+<td align="right">333</td>
+<td align="right">704</td>
+<td align="right">151</td>
+<td align="right">7</td>
+<td align="right">260</td>
+<td align="right">233</td>
 <td align="left">09:59</td>
 </tr>
 <tr class="odd">
 <td align="left">Adrian Conway</td>
-<td align="left">38</td>
-<td align="left">975</td>
-<td align="left">17</td>
-<td align="left">430</td>
-<td align="left">257</td>
-<td align="left">268</td>
-<td align="left">21</td>
-<td align="left">175</td>
-<td align="left">269</td>
-<td align="left">225</td>
-<td align="left">411</td>
+<td align="right">38</td>
+<td align="right">975</td>
+<td align="right">17</td>
+<td align="right">430</td>
+<td align="right">257</td>
+<td align="right">268</td>
+<td align="right">21</td>
+<td align="right">175</td>
+<td align="right">269</td>
+<td align="right">225</td>
+<td align="right">411</td>
 <td align="left">10:20</td>
 </tr>
 <tr class="even">
 <td align="left">Jeremy Kinnick</td>
-<td align="left">40</td>
-<td align="left">1000</td>
-<td align="left">160</td>
-<td align="left">397</td>
-<td align="left">10</td>
-<td align="left">346</td>
-<td align="left">423</td>
-<td align="left">154</td>
-<td align="left">174</td>
-<td align="left">231</td>
-<td align="left">233</td>
+<td align="right">40</td>
+<td align="right">1000</td>
+<td align="right">160</td>
+<td align="right">397</td>
+<td align="right">10</td>
+<td align="right">346</td>
+<td align="right">423</td>
+<td align="right">154</td>
+<td align="right">174</td>
+<td align="right">231</td>
+<td align="right">233</td>
 <td align="left">09:59</td>
 </tr>
 <tr class="odd">
 <td align="left">Gary Helmick</td>
-<td align="left">41</td>
-<td align="left">1005</td>
-<td align="left">607</td>
-<td align="left">383</td>
-<td align="left">128</td>
-<td align="left">275</td>
-<td align="left">145</td>
-<td align="left">159</td>
-<td align="left">41</td>
-<td align="left">246</td>
-<td align="left">84</td>
+<td align="right">41</td>
+<td align="right">1005</td>
+<td align="right">607</td>
+<td align="right">383</td>
+<td align="right">128</td>
+<td align="right">275</td>
+<td align="right">145</td>
+<td align="right">159</td>
+<td align="right">41</td>
+<td align="right">246</td>
+<td align="right">84</td>
 <td align="left">09:35</td>
 </tr>
 <tr class="even">
 <td align="left">Joseph Weigel</td>
-<td align="left">42</td>
-<td align="left">1035</td>
-<td align="left">379</td>
-<td align="left">391</td>
-<td align="left">21</td>
-<td align="left">335</td>
-<td align="left">110</td>
-<td align="left">160</td>
-<td align="left">74</td>
-<td align="left">241</td>
-<td align="left">451</td>
+<td align="right">42</td>
+<td align="right">1035</td>
+<td align="right">379</td>
+<td align="right">391</td>
+<td align="right">21</td>
+<td align="right">335</td>
+<td align="right">110</td>
+<td align="right">160</td>
+<td align="right">74</td>
+<td align="right">241</td>
+<td align="right">451</td>
 <td align="left">10:23</td>
 </tr>
 <tr class="odd">
 <td align="left">Björgvin Karl Guðmundsson</td>
-<td align="left">43</td>
-<td align="left">1052</td>
-<td align="left">427</td>
-<td align="left">390</td>
-<td align="left">16</td>
-<td align="left">338</td>
-<td align="left">381</td>
-<td align="left">154</td>
-<td align="left">22</td>
-<td align="left">251</td>
-<td align="left">206</td>
+<td align="right">43</td>
+<td align="right">1052</td>
+<td align="right">427</td>
+<td align="right">390</td>
+<td align="right">16</td>
+<td align="right">338</td>
+<td align="right">381</td>
+<td align="right">154</td>
+<td align="right">22</td>
+<td align="right">251</td>
+<td align="right">206</td>
 <td align="left">09:57</td>
 </tr>
 <tr class="even">
 <td align="left">James Hobart</td>
-<td align="left">44</td>
-<td align="left">1075</td>
-<td align="left">285</td>
-<td align="left">393</td>
-<td align="left">33</td>
-<td align="left">327</td>
-<td align="left">590</td>
-<td align="left">152</td>
-<td align="left">4</td>
-<td align="left">261</td>
-<td align="left">163</td>
+<td align="right">44</td>
+<td align="right">1075</td>
+<td align="right">285</td>
+<td align="right">393</td>
+<td align="right">33</td>
+<td align="right">327</td>
+<td align="right">590</td>
+<td align="right">152</td>
+<td align="right">4</td>
+<td align="right">261</td>
+<td align="right">163</td>
 <td align="left">09:51</td>
 </tr>
 <tr class="odd">
 <td align="left">Josh Miller</td>
-<td align="left">45</td>
-<td align="left">1089</td>
-<td align="left">69</td>
-<td align="left">403</td>
-<td align="left">85</td>
-<td align="left">279</td>
-<td align="left">563</td>
-<td align="left">152</td>
-<td align="left">354</td>
-<td align="left">222</td>
-<td align="left">18</td>
+<td align="right">45</td>
+<td align="right">1089</td>
+<td align="right">69</td>
+<td align="right">403</td>
+<td align="right">85</td>
+<td align="right">279</td>
+<td align="right">563</td>
+<td align="right">152</td>
+<td align="right">354</td>
+<td align="right">222</td>
+<td align="right">18</td>
 <td align="left">08:58</td>
 </tr>
 <tr class="even">
 <td align="left">Zach Morton-Adair</td>
-<td align="left">46</td>
-<td align="left">1091</td>
-<td align="left">252</td>
-<td align="left">394</td>
-<td align="left">199</td>
-<td align="left">271</td>
-<td align="left">368</td>
-<td align="left">154</td>
-<td align="left">87</td>
-<td align="left">239</td>
-<td align="left">185</td>
+<td align="right">46</td>
+<td align="right">1091</td>
+<td align="right">252</td>
+<td align="right">394</td>
+<td align="right">199</td>
+<td align="right">271</td>
+<td align="right">368</td>
+<td align="right">154</td>
+<td align="right">87</td>
+<td align="right">239</td>
+<td align="right">185</td>
 <td align="left">09:54</td>
 </tr>
 <tr class="odd">
 <td align="left">Daniel Petro</td>
-<td align="left">47</td>
-<td align="left">1101</td>
-<td align="left">121</td>
-<td align="left">399</td>
-<td align="left">140</td>
-<td align="left">274</td>
-<td align="left">264</td>
-<td align="left">156</td>
-<td align="left">227</td>
-<td align="left">227</td>
-<td align="left">349</td>
+<td align="right">47</td>
+<td align="right">1101</td>
+<td align="right">121</td>
+<td align="right">399</td>
+<td align="right">140</td>
+<td align="right">274</td>
+<td align="right">264</td>
+<td align="right">156</td>
+<td align="right">227</td>
+<td align="right">227</td>
+<td align="right">349</td>
 <td align="left">10:13</td>
 </tr>
 <tr class="even">
 <td align="left">Alex Nettey</td>
-<td align="left">48</td>
-<td align="left">1102</td>
-<td align="left">427</td>
-<td align="left">390</td>
-<td align="left">115</td>
-<td align="left">276</td>
-<td align="left">202</td>
-<td align="left">157</td>
-<td align="left">25</td>
-<td align="left">251</td>
-<td align="left">333</td>
+<td align="right">48</td>
+<td align="right">1102</td>
+<td align="right">427</td>
+<td align="right">390</td>
+<td align="right">115</td>
+<td align="right">276</td>
+<td align="right">202</td>
+<td align="right">157</td>
+<td align="right">25</td>
+<td align="right">251</td>
+<td align="right">333</td>
 <td align="left">10:11</td>
 </tr>
 <tr class="odd">
 <td align="left">Frosti Gylfason</td>
-<td align="left">49</td>
-<td align="left">1107</td>
-<td align="left">81</td>
-<td align="left">402</td>
-<td align="left">178</td>
-<td align="left">272</td>
-<td align="left">111</td>
-<td align="left">160</td>
-<td align="left">412</td>
-<td align="left">220</td>
-<td align="left">325</td>
+<td align="right">49</td>
+<td align="right">1107</td>
+<td align="right">81</td>
+<td align="right">402</td>
+<td align="right">178</td>
+<td align="right">272</td>
+<td align="right">111</td>
+<td align="right">160</td>
+<td align="right">412</td>
+<td align="right">220</td>
+<td align="right">325</td>
 <td align="left">10:10</td>
 </tr>
 <tr class="even">
 <td align="left">Lukas Högberg</td>
-<td align="left">50</td>
-<td align="left">1111</td>
-<td align="left">327</td>
-<td align="left">392</td>
-<td align="left">210</td>
-<td align="left">270</td>
-<td align="left">412</td>
-<td align="left">154</td>
-<td align="left">29</td>
-<td align="left">250</td>
-<td align="left">133</td>
+<td align="right">50</td>
+<td align="right">1111</td>
+<td align="right">327</td>
+<td align="right">392</td>
+<td align="right">210</td>
+<td align="right">270</td>
+<td align="right">412</td>
+<td align="right">154</td>
+<td align="right">29</td>
+<td align="right">250</td>
+<td align="right">133</td>
 <td align="left">09:47</td>
 </tr>
 <tr class="odd">
 <td align="left">Jonne Koski</td>
-<td align="left">51</td>
-<td align="left">1125</td>
-<td align="left">29</td>
-<td align="left">414</td>
-<td align="left">42</td>
-<td align="left">324</td>
-<td align="left">704</td>
-<td align="left">151</td>
-<td align="left">105</td>
-<td align="left">237</td>
-<td align="left">245</td>
+<td align="right">51</td>
+<td align="right">1125</td>
+<td align="right">29</td>
+<td align="right">414</td>
+<td align="right">42</td>
+<td align="right">324</td>
+<td align="right">704</td>
+<td align="right">151</td>
+<td align="right">105</td>
+<td align="right">237</td>
+<td align="right">245</td>
 <td align="left">10:00</td>
 </tr>
 <tr class="even">
 <td align="left">Brendan Marolda</td>
-<td align="left">52</td>
-<td align="left">1129</td>
-<td align="left">427</td>
-<td align="left">390</td>
-<td align="left">52</td>
-<td align="left">321</td>
-<td align="left">184</td>
-<td align="left">157</td>
-<td align="left">248</td>
-<td align="left">226</td>
-<td align="left">218</td>
+<td align="right">52</td>
+<td align="right">1129</td>
+<td align="right">427</td>
+<td align="right">390</td>
+<td align="right">52</td>
+<td align="right">321</td>
+<td align="right">184</td>
+<td align="right">157</td>
+<td align="right">248</td>
+<td align="right">226</td>
+<td align="right">218</td>
 <td align="left">09:58</td>
 </tr>
 <tr class="odd">
 <td align="left">Sigurður Þrastarson</td>
-<td align="left">53</td>
-<td align="left">1130</td>
-<td align="left">26</td>
-<td align="left">417</td>
-<td align="left">257</td>
-<td align="left">268</td>
-<td align="left">397</td>
-<td align="left">154</td>
-<td align="left">205</td>
-<td align="left">229</td>
-<td align="left">245</td>
+<td align="right">53</td>
+<td align="right">1130</td>
+<td align="right">26</td>
+<td align="right">417</td>
+<td align="right">257</td>
+<td align="right">268</td>
+<td align="right">397</td>
+<td align="right">154</td>
+<td align="right">205</td>
+<td align="right">229</td>
+<td align="right">245</td>
 <td align="left">10:00</td>
 </tr>
 <tr class="even">
 <td align="left">Duke Burk</td>
-<td align="left">54</td>
-<td align="left">1141</td>
-<td align="left">427</td>
-<td align="left">390</td>
-<td align="left">91</td>
-<td align="left">278</td>
-<td align="left">336</td>
-<td align="left">155</td>
-<td align="left">200</td>
-<td align="left">229</td>
-<td align="left">87</td>
+<td align="right">54</td>
+<td align="right">1141</td>
+<td align="right">427</td>
+<td align="right">390</td>
+<td align="right">91</td>
+<td align="right">278</td>
+<td align="right">336</td>
+<td align="right">155</td>
+<td align="right">200</td>
+<td align="right">229</td>
+<td align="right">87</td>
 <td align="left">09:36</td>
 </tr>
 <tr class="odd">
 <td align="left">Ronnie Teasdale</td>
-<td align="left">55</td>
-<td align="left">1147</td>
-<td align="left">44</td>
-<td align="left">406</td>
-<td align="left">470</td>
-<td align="left">260</td>
-<td align="left">272</td>
-<td align="left">156</td>
-<td align="left">108</td>
-<td align="left">237</td>
-<td align="left">253</td>
+<td align="right">55</td>
+<td align="right">1147</td>
+<td align="right">44</td>
+<td align="right">406</td>
+<td align="right">470</td>
+<td align="right">260</td>
+<td align="right">272</td>
+<td align="right">156</td>
+<td align="right">108</td>
+<td align="right">237</td>
+<td align="right">253</td>
 <td align="left">10:01</td>
 </tr>
 <tr class="even">
 <td align="left">Jordan Wallace</td>
-<td align="left">56</td>
-<td align="left">1172</td>
-<td align="left">186</td>
-<td align="left">396</td>
-<td align="left">45</td>
-<td align="left">323</td>
-<td align="left">769</td>
-<td align="left">151</td>
-<td align="left">136</td>
-<td align="left">234</td>
-<td align="left">36</td>
+<td align="right">56</td>
+<td align="right">1172</td>
+<td align="right">186</td>
+<td align="right">396</td>
+<td align="right">45</td>
+<td align="right">323</td>
+<td align="right">769</td>
+<td align="right">151</td>
+<td align="right">136</td>
+<td align="right">234</td>
+<td align="right">36</td>
 <td align="left">09:16</td>
 </tr>
 <tr class="odd">
 <td align="left">Will Moorad</td>
-<td align="left">57</td>
-<td align="left">1216</td>
-<td align="left">285</td>
-<td align="left">393</td>
-<td align="left">57</td>
-<td align="left">320</td>
-<td align="left">690</td>
-<td align="left">151</td>
-<td align="left">70</td>
-<td align="left">242</td>
-<td align="left">114</td>
+<td align="right">57</td>
+<td align="right">1216</td>
+<td align="right">285</td>
+<td align="right">393</td>
+<td align="right">57</td>
+<td align="right">320</td>
+<td align="right">690</td>
+<td align="right">151</td>
+<td align="right">70</td>
+<td align="right">242</td>
+<td align="right">114</td>
 <td align="left">09:43</td>
 </tr>
 <tr class="even">
 <td align="left">Nathan Keil</td>
-<td align="left">58</td>
-<td align="left">1266</td>
-<td align="left">136</td>
-<td align="left">398</td>
-<td align="left">91</td>
-<td align="left">278</td>
-<td align="left">432</td>
-<td align="left">153</td>
-<td align="left">217</td>
-<td align="left">228</td>
-<td align="left">390</td>
+<td align="right">58</td>
+<td align="right">1266</td>
+<td align="right">136</td>
+<td align="right">398</td>
+<td align="right">91</td>
+<td align="right">278</td>
+<td align="right">432</td>
+<td align="right">153</td>
+<td align="right">217</td>
+<td align="right">228</td>
+<td align="right">390</td>
 <td align="left">10:18</td>
 </tr>
 <tr class="odd">
 <td align="left">Shane McBride</td>
-<td align="left">59</td>
-<td align="left">1275</td>
-<td align="left">220</td>
-<td align="left">395</td>
-<td align="left">140</td>
-<td align="left">274</td>
-<td align="left">306</td>
-<td align="left">155</td>
-<td align="left">424</td>
-<td align="left">219</td>
-<td align="left">185</td>
+<td align="right">59</td>
+<td align="right">1275</td>
+<td align="right">220</td>
+<td align="right">395</td>
+<td align="right">140</td>
+<td align="right">274</td>
+<td align="right">306</td>
+<td align="right">155</td>
+<td align="right">424</td>
+<td align="right">219</td>
+<td align="right">185</td>
 <td align="left">09:54</td>
 </tr>
 <tr class="even">
 <td align="left">Antony Monks</td>
-<td align="left">60</td>
-<td align="left">1286</td>
-<td align="left">160</td>
-<td align="left">397</td>
-<td align="left">631</td>
-<td align="left">255</td>
-<td align="left">112</td>
-<td align="left">160</td>
-<td align="left">69</td>
-<td align="left">242</td>
-<td align="left">314</td>
+<td align="right">60</td>
+<td align="right">1286</td>
+<td align="right">160</td>
+<td align="right">397</td>
+<td align="right">631</td>
+<td align="right">255</td>
+<td align="right">112</td>
+<td align="right">160</td>
+<td align="right">69</td>
+<td align="right">242</td>
+<td align="right">314</td>
 <td align="left">10:09</td>
+</tr>
+</tbody>
+</table>
+</div>
+<h2>Overall women</h2>
+<div class="row">
+<button class="source R toggle btn btn-xs btn-primary">
+<span class="glyphicon glyphicon-chevron-down"></span> R source
+</button><pre style=""><code class="source r">knitr::kable(head(data_women_overall, 60), row.names=FALSE)</code></pre>
+
+<table>
+<thead>
+<tr class="header">
+<th align="left">Athlete</th>
+<th align="right">Overall rank</th>
+<th align="right">Overall score</th>
+<th align="right">14.1 rank</th>
+<th align="right">14.1 score</th>
+<th align="right">14.2 rank</th>
+<th align="right">14.2 score</th>
+<th align="right">14.3 rank</th>
+<th align="right">14.3 score</th>
+<th align="right">14.4 rank</th>
+<th align="right">14.4 score</th>
+<th align="right">14.5 rank</th>
+<th align="left">14.5 score</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">Samantha Briggs</td>
+<td align="right">1</td>
+<td align="right">35</td>
+<td align="right">1</td>
+<td align="right">472</td>
+<td align="right">27</td>
+<td align="right">274</td>
+<td align="right">5</td>
+<td align="right">187</td>
+<td align="right">1</td>
+<td align="right">256</td>
+<td align="right">1</td>
+<td align="left">08:31</td>
+</tr>
+<tr class="even">
+<td align="left">Camille Leblanc-Bazinet</td>
+<td align="right">2</td>
+<td align="right">162</td>
+<td align="right">9</td>
+<td align="right">427</td>
+<td align="right">1</td>
+<td align="right">404</td>
+<td align="right">135</td>
+<td align="right">168</td>
+<td align="right">10</td>
+<td align="right">205</td>
+<td align="right">7</td>
+<td align="left">08:54</td>
+</tr>
+<tr class="odd">
+<td align="left">Kaleena Ladeairous</td>
+<td align="right">3</td>
+<td align="right">191</td>
+<td align="right">14</td>
+<td align="right">416</td>
+<td align="right">33</td>
+<td align="right">272</td>
+<td align="right">20</td>
+<td align="right">180</td>
+<td align="right">60</td>
+<td align="right">196</td>
+<td align="right">64</td>
+<td align="left">09:52</td>
+</tr>
+<tr class="even">
+<td align="left">Jennifer Smith</td>
+<td align="right">4</td>
+<td align="right">208</td>
+<td align="right">34</td>
+<td align="right">402</td>
+<td align="right">55</td>
+<td align="right">265</td>
+<td align="right">55</td>
+<td align="right">175</td>
+<td align="right">26</td>
+<td align="right">199</td>
+<td align="right">38</td>
+<td align="left">09:38</td>
+</tr>
+<tr class="odd">
+<td align="left">Michelle Kinney</td>
+<td align="right">5</td>
+<td align="right">214</td>
+<td align="right">110</td>
+<td align="right">392</td>
+<td align="right">63</td>
+<td align="right">264</td>
+<td align="right">8</td>
+<td align="right">184</td>
+<td align="right">9</td>
+<td align="right">206</td>
+<td align="right">24</td>
+<td align="left">09:24</td>
+</tr>
+<tr class="even">
+<td align="left">Valerie Voboril</td>
+<td align="right">6</td>
+<td align="right">232</td>
+<td align="right">47</td>
+<td align="right">399</td>
+<td align="right">12</td>
+<td align="right">332</td>
+<td align="right">59</td>
+<td align="right">175</td>
+<td align="right">81</td>
+<td align="right">195</td>
+<td align="right">33</td>
+<td align="left">09:35</td>
+</tr>
+<tr class="odd">
+<td align="left">Martina Barbaro</td>
+<td align="right">7</td>
+<td align="right">251</td>
+<td align="right">16</td>
+<td align="right">415</td>
+<td align="right">75</td>
+<td align="right">261</td>
+<td align="right">14</td>
+<td align="right">181</td>
+<td align="right">49</td>
+<td align="right">197</td>
+<td align="right">97</td>
+<td align="left">10:05</td>
+</tr>
+<tr class="even">
+<td align="left">Alea Helmick</td>
+<td align="right">8</td>
+<td align="right">258</td>
+<td align="right">55</td>
+<td align="right">398</td>
+<td align="right">55</td>
+<td align="right">265</td>
+<td align="right">16</td>
+<td align="right">181</td>
+<td align="right">105</td>
+<td align="right">194</td>
+<td align="right">27</td>
+<td align="left">09:30</td>
+</tr>
+<tr class="odd">
+<td align="left">Emily Bridgers</td>
+<td align="right">9</td>
+<td align="right">273</td>
+<td align="right">19</td>
+<td align="right">409</td>
+<td align="right">7</td>
+<td align="right">337</td>
+<td align="right">239</td>
+<td align="right">159</td>
+<td align="right">3</td>
+<td align="right">221</td>
+<td align="right">5</td>
+<td align="left">08:47</td>
+</tr>
+<tr class="even">
+<td align="left">Ruth Anderson Horrell</td>
+<td align="right">10</td>
+<td align="right">295</td>
+<td align="right">59</td>
+<td align="right">397</td>
+<td align="right">40</td>
+<td align="right">269</td>
+<td align="right">65</td>
+<td align="right">175</td>
+<td align="right">6</td>
+<td align="right">217</td>
+<td align="right">125</td>
+<td align="left">10:12</td>
+</tr>
+<tr class="odd">
+<td align="left">Anna Tunnicliffe</td>
+<td align="right">11</td>
+<td align="right">296</td>
+<td align="right">6</td>
+<td align="right">431</td>
+<td align="right">21</td>
+<td align="right">276</td>
+<td align="right">65</td>
+<td align="right">175</td>
+<td align="right">188</td>
+<td align="right">192</td>
+<td align="right">16</td>
+<td align="left">09:13</td>
+</tr>
+<tr class="even">
+<td align="left">Rory Zambard</td>
+<td align="right">12</td>
+<td align="right">304</td>
+<td align="right">2</td>
+<td align="right">445</td>
+<td align="right">226</td>
+<td align="right">204</td>
+<td align="right">34</td>
+<td align="right">177</td>
+<td align="right">13</td>
+<td align="right">203</td>
+<td align="right">29</td>
+<td align="left">09:33</td>
+</tr>
+<tr class="odd">
+<td align="left">Cheryl Nasso</td>
+<td align="right">13</td>
+<td align="right">314</td>
+<td align="right">47</td>
+<td align="right">399</td>
+<td align="right">55</td>
+<td align="right">265</td>
+<td align="right">104</td>
+<td align="right">171</td>
+<td align="right">79</td>
+<td align="right">195</td>
+<td align="right">29</td>
+<td align="left">09:33</td>
+</tr>
+<tr class="even">
+<td align="left">Julie Foucher</td>
+<td align="right">14</td>
+<td align="right">338</td>
+<td align="right">110</td>
+<td align="right">392</td>
+<td align="right">2</td>
+<td align="right">353</td>
+<td align="right">220</td>
+<td align="right">160</td>
+<td align="right">4</td>
+<td align="right">219</td>
+<td align="right">2</td>
+<td align="left">08:38</td>
+</tr>
+<tr class="odd">
+<td align="left">Mikki Nuccio</td>
+<td align="right">15</td>
+<td align="right">341</td>
+<td align="right">11</td>
+<td align="right">424</td>
+<td align="right">144</td>
+<td align="right">244</td>
+<td align="right">18</td>
+<td align="right">181</td>
+<td align="right">146</td>
+<td align="right">193</td>
+<td align="right">22</td>
+<td align="left">09:21</td>
+</tr>
+<tr class="even">
+<td align="left">Kelley Jackson</td>
+<td align="right">16</td>
+<td align="right">350</td>
+<td align="right">16</td>
+<td align="right">415</td>
+<td align="right">2</td>
+<td align="right">353</td>
+<td align="right">260</td>
+<td align="right">158</td>
+<td align="right">64</td>
+<td align="right">196</td>
+<td align="right">8</td>
+<td align="left">08:57</td>
+</tr>
+<tr class="odd">
+<td align="left">Christy Adkins</td>
+<td align="right">17</td>
+<td align="right">353</td>
+<td align="right">87</td>
+<td align="right">394</td>
+<td align="right">81</td>
+<td align="right">260</td>
+<td align="right">85</td>
+<td align="right">174</td>
+<td align="right">16</td>
+<td align="right">200</td>
+<td align="right">84</td>
+<td align="left">10:01</td>
+</tr>
+<tr class="even">
+<td align="left">Stacie Tovar</td>
+<td align="right">18</td>
+<td align="right">409</td>
+<td align="right">77</td>
+<td align="right">395</td>
+<td align="right">47</td>
+<td align="right">267</td>
+<td align="right">237</td>
+<td align="right">159</td>
+<td align="right">33</td>
+<td align="right">198</td>
+<td align="right">15</td>
+<td align="left">09:11</td>
+</tr>
+<tr class="odd">
+<td align="left">Jamie Hagiya</td>
+<td align="right">19</td>
+<td align="right">435</td>
+<td align="right">22</td>
+<td align="right">405</td>
+<td align="right">186</td>
+<td align="right">207</td>
+<td align="right">113</td>
+<td align="right">170</td>
+<td align="right">70</td>
+<td align="right">196</td>
+<td align="right">44</td>
+<td align="left">09:42</td>
+</tr>
+<tr class="even">
+<td align="left">Chelsey Hughes</td>
+<td align="right">20</td>
+<td align="right">447</td>
+<td align="right">13</td>
+<td align="right">417</td>
+<td align="right">9</td>
+<td align="right">334</td>
+<td align="right">317</td>
+<td align="right">157</td>
+<td align="right">61</td>
+<td align="right">196</td>
+<td align="right">47</td>
+<td align="left">09:43</td>
+</tr>
+<tr class="odd">
+<td align="left">Carleen Lessard</td>
+<td align="right">21</td>
+<td align="right">453</td>
+<td align="right">47</td>
+<td align="right">399</td>
+<td align="right">81</td>
+<td align="right">260</td>
+<td align="right">254</td>
+<td align="right">159</td>
+<td align="right">35</td>
+<td align="right">198</td>
+<td align="right">36</td>
+<td align="left">09:37</td>
+</tr>
+<tr class="even">
+<td align="left">Margaux Alvarez</td>
+<td align="right">22</td>
+<td align="right">458</td>
+<td align="right">34</td>
+<td align="right">402</td>
+<td align="right">169</td>
+<td align="right">239</td>
+<td align="right">137</td>
+<td align="right">168</td>
+<td align="right">84</td>
+<td align="right">195</td>
+<td align="right">34</td>
+<td align="left">09:36</td>
+</tr>
+<tr class="odd">
+<td align="left">Mandi Janowitz</td>
+<td align="right">23</td>
+<td align="right">462</td>
+<td align="right">34</td>
+<td align="right">402</td>
+<td align="right">63</td>
+<td align="right">264</td>
+<td align="right">49</td>
+<td align="right">175</td>
+<td align="right">15</td>
+<td align="right">202</td>
+<td align="right">301</td>
+<td align="left">10:44</td>
+</tr>
+<tr class="even">
+<td align="left">Emily Friedman</td>
+<td align="right">24</td>
+<td align="right">467</td>
+<td align="right">315</td>
+<td align="right">360</td>
+<td align="right">47</td>
+<td align="right">267</td>
+<td align="right">59</td>
+<td align="right">175</td>
+<td align="right">28</td>
+<td align="right">199</td>
+<td align="right">18</td>
+<td align="left">09:16</td>
+</tr>
+<tr class="odd">
+<td align="left">Danielle Hale</td>
+<td align="right">25</td>
+<td align="right">479</td>
+<td align="right">22</td>
+<td align="right">405</td>
+<td align="right">99</td>
+<td align="right">256</td>
+<td align="right">77</td>
+<td align="right">175</td>
+<td align="right">27</td>
+<td align="right">199</td>
+<td align="right">254</td>
+<td align="left">10:38</td>
+</tr>
+<tr class="even">
+<td align="left">Whitney Heuser</td>
+<td align="right">26</td>
+<td align="right">519</td>
+<td align="right">47</td>
+<td align="right">399</td>
+<td align="right">40</td>
+<td align="right">269</td>
+<td align="right">268</td>
+<td align="right">158</td>
+<td align="right">90</td>
+<td align="right">195</td>
+<td align="right">74</td>
+<td align="left">09:56</td>
+</tr>
+<tr class="odd">
+<td align="left">Kristine Andali</td>
+<td align="right">27</td>
+<td align="right">562</td>
+<td align="right">230</td>
+<td align="right">374</td>
+<td align="right">53</td>
+<td align="right">266</td>
+<td align="right">110</td>
+<td align="right">170</td>
+<td align="right">159</td>
+<td align="right">193</td>
+<td align="right">10</td>
+<td align="left">09:00</td>
+</tr>
+<tr class="even">
+<td align="left">Annie Thorisdottir</td>
+<td align="right">28</td>
+<td align="right">580</td>
+<td align="right">20</td>
+<td align="right">407</td>
+<td align="right">21</td>
+<td align="right">276</td>
+<td align="right">35</td>
+<td align="right">176</td>
+<td align="right">31</td>
+<td align="right">198</td>
+<td align="right">473</td>
+<td align="left">11:05</td>
+</tr>
+<tr class="odd">
+<td align="left">Rebecca Voigt</td>
+<td align="right">29</td>
+<td align="right">583</td>
+<td align="right">119</td>
+<td align="right">391</td>
+<td align="right">186</td>
+<td align="right">207</td>
+<td align="right">118</td>
+<td align="right">170</td>
+<td align="right">61</td>
+<td align="right">196</td>
+<td align="right">99</td>
+<td align="left">10:06</td>
+</tr>
+<tr class="even">
+<td align="left">Lindy Barber</td>
+<td align="right">30</td>
+<td align="right">631</td>
+<td align="right">87</td>
+<td align="right">394</td>
+<td align="right">67</td>
+<td align="right">263</td>
+<td align="right">69</td>
+<td align="right">175</td>
+<td align="right">90</td>
+<td align="right">195</td>
+<td align="right">318</td>
+<td align="left">10:46</td>
+</tr>
+<tr class="odd">
+<td align="left">Kristin Holte</td>
+<td align="right">31</td>
+<td align="right">641</td>
+<td align="right">47</td>
+<td align="right">399</td>
+<td align="right">87</td>
+<td align="right">259</td>
+<td align="right">423</td>
+<td align="right">155</td>
+<td align="right">78</td>
+<td align="right">195</td>
+<td align="right">6</td>
+<td align="left">08:52</td>
+</tr>
+<tr class="even">
+<td align="left">Kristin Miller</td>
+<td align="right">32</td>
+<td align="right">650</td>
+<td align="right">43</td>
+<td align="right">400</td>
+<td align="right">67</td>
+<td align="right">263</td>
+<td align="right">247</td>
+<td align="right">159</td>
+<td align="right">121</td>
+<td align="right">194</td>
+<td align="right">172</td>
+<td align="left">10:24</td>
+</tr>
+<tr class="odd">
+<td align="left">Lauren Fisher</td>
+<td align="right">33</td>
+<td align="right">668</td>
+<td align="right">562</td>
+<td align="right">354</td>
+<td align="right">34</td>
+<td align="right">271</td>
+<td align="right">33</td>
+<td align="right">177</td>
+<td align="right">11</td>
+<td align="right">205</td>
+<td align="right">28</td>
+<td align="left">09:31</td>
+</tr>
+<tr class="even">
+<td align="left">Alessandra Pichelli</td>
+<td align="right">34</td>
+<td align="right">677</td>
+<td align="right">380</td>
+<td align="right">359</td>
+<td align="right">34</td>
+<td align="right">271</td>
+<td align="right">166</td>
+<td align="right">164</td>
+<td align="right">19</td>
+<td align="right">200</td>
+<td align="right">78</td>
+<td align="left">09:58</td>
+</tr>
+<tr class="odd">
+<td align="left">Sarah Scholl</td>
+<td align="right">35</td>
+<td align="right">686</td>
+<td align="right">12</td>
+<td align="right">422</td>
+<td align="right">186</td>
+<td align="right">207</td>
+<td align="right">194</td>
+<td align="right">162</td>
+<td align="right">179</td>
+<td align="right">192</td>
+<td align="right">115</td>
+<td align="left">10:09</td>
+</tr>
+<tr class="even">
+<td align="left">Pip Malone</td>
+<td align="right">36</td>
+<td align="right">703</td>
+<td align="right">47</td>
+<td align="right">399</td>
+<td align="right">55</td>
+<td align="right">265</td>
+<td align="right">540</td>
+<td align="right">154</td>
+<td align="right">8</td>
+<td align="right">212</td>
+<td align="right">53</td>
+<td align="left">09:46</td>
+</tr>
+<tr class="odd">
+<td align="left">Delaina Snider</td>
+<td align="right">37</td>
+<td align="right">719</td>
+<td align="right">22</td>
+<td align="right">405</td>
+<td align="right">376</td>
+<td align="right">198</td>
+<td align="right">21</td>
+<td align="right">179</td>
+<td align="right">185</td>
+<td align="right">192</td>
+<td align="right">115</td>
+<td align="left">10:09</td>
+</tr>
+<tr class="even">
+<td align="left">Michele Letendre</td>
+<td align="right">38</td>
+<td align="right">720</td>
+<td align="right">6</td>
+<td align="right">431</td>
+<td align="right">11</td>
+<td align="right">333</td>
+<td align="right">666</td>
+<td align="right">153</td>
+<td align="right">21</td>
+<td align="right">200</td>
+<td align="right">16</td>
+<td align="left">09:13</td>
+</tr>
+<tr class="odd">
+<td align="left">Jessie Jo Young</td>
+<td align="right">39</td>
+<td align="right">721</td>
+<td align="right">183</td>
+<td align="right">382</td>
+<td align="right">87</td>
+<td align="right">259</td>
+<td align="right">88</td>
+<td align="right">173</td>
+<td align="right">109</td>
+<td align="right">194</td>
+<td align="right">254</td>
+<td align="left">10:38</td>
+</tr>
+<tr class="even">
+<td align="left">Jessica Schulz</td>
+<td align="right">40</td>
+<td align="right">729</td>
+<td align="right">87</td>
+<td align="right">394</td>
+<td align="right">47</td>
+<td align="right">267</td>
+<td align="right">138</td>
+<td align="right">168</td>
+<td align="right">53</td>
+<td align="right">197</td>
+<td align="right">404</td>
+<td align="left">10:57</td>
+</tr>
+<tr class="odd">
+<td align="left">Tiffany Hendrickson</td>
+<td align="right">41</td>
+<td align="right">734</td>
+<td align="right">216</td>
+<td align="right">376</td>
+<td align="right">4</td>
+<td align="right">346</td>
+<td align="right">428</td>
+<td align="right">155</td>
+<td align="right">42</td>
+<td align="right">197</td>
+<td align="right">44</td>
+<td align="left">09:42</td>
+</tr>
+<tr class="even">
+<td align="left">Emma Rosengren</td>
+<td align="right">42</td>
+<td align="right">849</td>
+<td align="right">59</td>
+<td align="right">397</td>
+<td align="right">21</td>
+<td align="right">276</td>
+<td align="right">270</td>
+<td align="right">158</td>
+<td align="right">108</td>
+<td align="right">194</td>
+<td align="right">391</td>
+<td align="left">10:56</td>
+</tr>
+<tr class="odd">
+<td align="left">Lindsey Valenzuela</td>
+<td align="right">43</td>
+<td align="right">868</td>
+<td align="right">34</td>
+<td align="right">402</td>
+<td align="right">342</td>
+<td align="right">199</td>
+<td align="right">36</td>
+<td align="right">176</td>
+<td align="right">106</td>
+<td align="right">194</td>
+<td align="right">350</td>
+<td align="left">10:51</td>
+</tr>
+<tr class="even">
+<td align="left">Emily Carothers</td>
+<td align="right">44</td>
+<td align="right">893</td>
+<td align="right">87</td>
+<td align="right">394</td>
+<td align="right">24</td>
+<td align="right">275</td>
+<td align="right">597</td>
+<td align="right">153</td>
+<td align="right">23</td>
+<td align="right">199</td>
+<td align="right">162</td>
+<td align="left">10:22</td>
+</tr>
+<tr class="odd">
+<td align="left">Dani Horan</td>
+<td align="right">45</td>
+<td align="right">902</td>
+<td align="right">380</td>
+<td align="right">359</td>
+<td align="right">38</td>
+<td align="right">270</td>
+<td align="right">156</td>
+<td align="right">166</td>
+<td align="right">38</td>
+<td align="right">198</td>
+<td align="right">290</td>
+<td align="left">10:43</td>
+</tr>
+<tr class="even">
+<td align="left">Kristan Clever</td>
+<td align="right">46</td>
+<td align="right">912</td>
+<td align="right">197</td>
+<td align="right">379</td>
+<td align="right">144</td>
+<td align="right">244</td>
+<td align="right">455</td>
+<td align="right">155</td>
+<td align="right">54</td>
+<td align="right">197</td>
+<td align="right">62</td>
+<td align="left">09:51</td>
+</tr>
+<tr class="odd">
+<td align="left">Kyla Evers</td>
+<td align="right">47</td>
+<td align="right">925</td>
+<td align="right">55</td>
+<td align="right">398</td>
+<td align="right">498</td>
+<td align="right">195</td>
+<td align="right">24</td>
+<td align="right">179</td>
+<td align="right">245</td>
+<td align="right">191</td>
+<td align="right">103</td>
+<td align="left">10:07</td>
+</tr>
+<tr class="even">
+<td align="left">Michelle Crawford</td>
+<td align="right">48</td>
+<td align="right">926</td>
+<td align="right">562</td>
+<td align="right">354</td>
+<td align="right">202</td>
+<td align="right">206</td>
+<td align="right">6</td>
+<td align="right">186</td>
+<td align="right">114</td>
+<td align="right">194</td>
+<td align="right">42</td>
+<td align="left">09:41</td>
+</tr>
+<tr class="odd">
+<td align="left">Jolaine Bloom</td>
+<td align="right">49</td>
+<td align="right">931</td>
+<td align="right">5</td>
+<td align="right">436</td>
+<td align="right">109</td>
+<td align="right">254</td>
+<td align="right">565</td>
+<td align="right">154</td>
+<td align="right">205</td>
+<td align="right">192</td>
+<td align="right">47</td>
+<td align="left">09:43</td>
+</tr>
+<tr class="even">
+<td align="left">Elisabeth Akinwale</td>
+<td align="right">50</td>
+<td align="right">945</td>
+<td align="right">471</td>
+<td align="right">356</td>
+<td align="right">75</td>
+<td align="right">261</td>
+<td align="right">2</td>
+<td align="right">191</td>
+<td align="right">143</td>
+<td align="right">193</td>
+<td align="right">254</td>
+<td align="left">10:38</td>
+</tr>
+<tr class="odd">
+<td align="left">Denae Brown</td>
+<td align="right">51</td>
+<td align="right">957</td>
+<td align="right">136</td>
+<td align="right">390</td>
+<td align="right">185</td>
+<td align="right">208</td>
+<td align="right">575</td>
+<td align="right">153</td>
+<td align="right">48</td>
+<td align="right">197</td>
+<td align="right">13</td>
+<td align="left">09:06</td>
+</tr>
+<tr class="even">
+<td align="left">Katelyn Schuh</td>
+<td align="right">52</td>
+<td align="right">974</td>
+<td align="right">47</td>
+<td align="right">399</td>
+<td align="right">498</td>
+<td align="right">195</td>
+<td align="right">65</td>
+<td align="right">175</td>
+<td align="right">186</td>
+<td align="right">192</td>
+<td align="right">178</td>
+<td align="left">10:25</td>
+</tr>
+<tr class="odd">
+<td align="left">Amanda Allen</td>
+<td align="right">53</td>
+<td align="right">983</td>
+<td align="right">183</td>
+<td align="right">382</td>
+<td align="right">342</td>
+<td align="right">199</td>
+<td align="right">377</td>
+<td align="right">156</td>
+<td align="right">30</td>
+<td align="right">198</td>
+<td align="right">51</td>
+<td align="left">09:45</td>
+</tr>
+<tr class="even">
+<td align="left">Becca Clarin</td>
+<td align="right">54</td>
+<td align="right">995</td>
+<td align="right">167</td>
+<td align="right">385</td>
+<td align="right">410</td>
+<td align="right">197</td>
+<td align="right">238</td>
+<td align="right">159</td>
+<td align="right">142</td>
+<td align="right">193</td>
+<td align="right">38</td>
+<td align="left">09:38</td>
+</tr>
+<tr class="odd">
+<td align="left">Brandy Richardson</td>
+<td align="right">55</td>
+<td align="right">997</td>
+<td align="right">59</td>
+<td align="right">397</td>
+<td align="right">342</td>
+<td align="right">199</td>
+<td align="right">6</td>
+<td align="right">186</td>
+<td align="right">104</td>
+<td align="right">194</td>
+<td align="right">486</td>
+<td align="left">11:07</td>
+</tr>
+<tr class="even">
+<td align="left">Marie-Emilie Perreault</td>
+<td align="right">56</td>
+<td align="right">998</td>
+<td align="right">264</td>
+<td align="right">371</td>
+<td align="right">202</td>
+<td align="right">206</td>
+<td align="right">255</td>
+<td align="right">159</td>
+<td align="right">213</td>
+<td align="right">192</td>
+<td align="right">64</td>
+<td align="left">09:52</td>
+</tr>
+<tr class="odd">
+<td align="left">Ashleigh Moe</td>
+<td align="right">57</td>
+<td align="right">1010</td>
+<td align="right">34</td>
+<td align="right">402</td>
+<td align="right">30</td>
+<td align="right">273</td>
+<td align="right">390</td>
+<td align="right">156</td>
+<td align="right">346</td>
+<td align="right">190</td>
+<td align="right">210</td>
+<td align="left">10:31</td>
+</tr>
+<tr class="even">
+<td align="left">Bjork Odinsdottir</td>
+<td align="right">58</td>
+<td align="right">1037</td>
+<td align="right">202</td>
+<td align="right">378</td>
+<td align="right">95</td>
+<td align="right">257</td>
+<td align="right">298</td>
+<td align="right">158</td>
+<td align="right">74</td>
+<td align="right">196</td>
+<td align="right">368</td>
+<td align="left">10:53</td>
+</tr>
+<tr class="odd">
+<td align="left">Kristin King</td>
+<td align="right">59</td>
+<td align="right">1040</td>
+<td align="right">230</td>
+<td align="right">374</td>
+<td align="right">226</td>
+<td align="right">204</td>
+<td align="right">23</td>
+<td align="right">179</td>
+<td align="right">532</td>
+<td align="right">188</td>
+<td align="right">29</td>
+<td align="left">09:33</td>
+</tr>
+<tr class="even">
+<td align="left">Jayde Quilty</td>
+<td align="right">60</td>
+<td align="right">1070</td>
+<td align="right">223</td>
+<td align="right">375</td>
+<td align="right">342</td>
+<td align="right">199</td>
+<td align="right">73</td>
+<td align="right">175</td>
+<td align="right">213</td>
+<td align="right">192</td>
+<td align="right">219</td>
+<td align="left">10:32</td>
+</tr>
+</tbody>
+</table>
+</div>
+<h2>Average scores</h2>
+<table>
+<thead>
+<tr class="header">
+<th align="left">Workout</th>
+<th align="left">14.1</th>
+<th align="left">14.2</th>
+<th align="left">14.3</th>
+<th align="left">14.4</th>
+<th align="left">14.5</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">Men</td>
+<td align="left">406.5 (18.6398)</td>
+<td align="left">302.5833 (34.0534)</td>
+<td align="left">160.55 (8.4541)</td>
+<td align="left">242.3167 (12.0317)</td>
+<td align="left">NA</td>
+</tr>
+<tr class="even">
+<td align="left">Women</td>
+<td align="left">397.1 (22.4641)</td>
+<td align="left">258.8167 (46.0293)</td>
+<td align="left">168.6833 (10.6014)</td>
+<td align="left">198.4333 (9.965)</td>
+<td align="left">NA</td>
+</tr>
+</tbody>
+</table>
+<h1>Results - by region</h1>
+<h2>Africa</h2>
+<div class="row">
+<button class="source R toggle btn btn-xs btn-primary">
+<span class="glyphicon glyphicon-chevron-down"></span> R source
+</button><pre style=""><code class="source r">knitr::kable(head(data_men_overall_africa, 3), row.names=FALSE)</code></pre>
+
+<table>
+<thead>
+<tr class="header">
+<th align="left">Athlete</th>
+<th align="right">overall_rank</th>
+<th align="right">overall_score</th>
+<th align="right">14_1_rank</th>
+<th align="right">14_1_score</th>
+<th align="right">14_2_rank</th>
+<th align="right">14_2_score</th>
+<th align="right">14_3_rank</th>
+<th align="right">14_3_score</th>
+<th align="right">14_4_rank</th>
+<th align="right">14_4_score</th>
+<th align="right">14_5_rank</th>
+<th align="left">14_5_score</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">Jason Smith</td>
+<td align="right">1</td>
+<td align="right">21</td>
+<td align="right">1</td>
+<td align="right">422</td>
+<td align="right">4</td>
+<td align="right">234</td>
+<td align="right">13</td>
+<td align="right">146</td>
+<td align="right">2</td>
+<td align="right">212</td>
+<td align="right">1</td>
+<td align="left">10:35</td>
+</tr>
+<tr class="even">
+<td align="left">Jean-Claude Jar dim</td>
+<td align="right">2</td>
+<td align="right">38</td>
+<td align="right">5</td>
+<td align="right">360</td>
+<td align="right">13</td>
+<td align="right">193</td>
+<td align="right">9</td>
+<td align="right">148</td>
+<td align="right">6</td>
+<td align="right">202</td>
+<td align="right">5</td>
+<td align="left">11:10</td>
+</tr>
+<tr class="odd">
+<td align="left">Johann Werth</td>
+<td align="right">3</td>
+<td align="right">45</td>
+<td align="right">8</td>
+<td align="right">355</td>
+<td align="right">23</td>
+<td align="right">185</td>
+<td align="right">1</td>
+<td align="right">164</td>
+<td align="right">1</td>
+<td align="right">219</td>
+<td align="right">12</td>
+<td align="left">12:02</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="row">
+<button class="source R toggle btn btn-xs btn-primary">
+<span class="glyphicon glyphicon-chevron-down"></span> R source
+</button><pre style=""><code class="source r">knitr::kable(head(data_women_overall_africa, 3), row.names=FALSE)</code></pre>
+
+<table>
+<thead>
+<tr class="header">
+<th align="left">Athlete</th>
+<th align="right">overall_rank</th>
+<th align="right">overall_score</th>
+<th align="right">14_1_rank</th>
+<th align="right">14_1_score</th>
+<th align="right">14_2_rank</th>
+<th align="right">14_2_score</th>
+<th align="right">14_3_rank</th>
+<th align="right">14_3_score</th>
+<th align="right">14_4_rank</th>
+<th align="right">14_4_score</th>
+<th align="right">14_5_rank</th>
+<th align="left">14_5_score</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">Rika Diedericks</td>
+<td align="right">1</td>
+<td align="right">18</td>
+<td align="right">2</td>
+<td align="right">358</td>
+<td align="right">11</td>
+<td align="right">127</td>
+<td align="right">1</td>
+<td align="right">163</td>
+<td align="right">1</td>
+<td align="right">187</td>
+<td align="right">3</td>
+<td align="left">12:06</td>
+</tr>
+<tr class="even">
+<td align="left">Nicole Seymour</td>
+<td align="right">2</td>
+<td align="right">26</td>
+<td align="right">7</td>
+<td align="right">314</td>
+<td align="right">2</td>
+<td align="right">142</td>
+<td align="right">12</td>
+<td align="right">142</td>
+<td align="right">4</td>
+<td align="right">183</td>
+<td align="right">1</td>
+<td align="left">11:51</td>
+</tr>
+<tr class="odd">
+<td align="left">Mary Jamieson</td>
+<td align="right">3</td>
+<td align="right">27</td>
+<td align="right">4</td>
+<td align="right">335</td>
+<td align="right">5</td>
+<td align="right">136</td>
+<td align="right">5</td>
+<td align="right">149</td>
+<td align="right">11</td>
+<td align="right">182</td>
+<td align="right">2</td>
+<td align="left">11:53</td>
+</tr>
+</tbody>
+</table>
+</div>
+<h2>Asia</h2>
+<div class="row">
+<button class="source R toggle btn btn-xs btn-primary">
+<span class="glyphicon glyphicon-chevron-down"></span> R source
+</button><pre style=""><code class="source r">knitr::kable(head(data_men_overall_asia, 3), row.names=FALSE)</code></pre>
+
+<table>
+<thead>
+<tr class="header">
+<th align="left">Athlete</th>
+<th align="right">overall_rank</th>
+<th align="right">overall_score</th>
+<th align="right">14_1_rank</th>
+<th align="right">14_1_score</th>
+<th align="right">14_2_rank</th>
+<th align="right">14_2_score</th>
+<th align="right">14_3_rank</th>
+<th align="right">14_3_score</th>
+<th align="right">14_4_rank</th>
+<th align="right">14_4_score</th>
+<th align="right">14_5_rank</th>
+<th align="left">14_5_score</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">Tanner Shuck</td>
+<td align="right">1</td>
+<td align="right">22</td>
+<td align="right">4</td>
+<td align="right">390</td>
+<td align="right">1</td>
+<td align="right">269</td>
+<td align="right">2</td>
+<td align="right">167</td>
+<td align="right">4</td>
+<td align="right">231</td>
+<td align="right">11</td>
+<td align="left">10:26</td>
+</tr>
+<tr class="even">
+<td align="left">Mikko Aronpää</td>
+<td align="right">2</td>
+<td align="right">25</td>
+<td align="right">6</td>
+<td align="right">376</td>
+<td align="right">5</td>
+<td align="right">266</td>
+<td align="right">7</td>
+<td align="right">152</td>
+<td align="right">6</td>
+<td align="right">218</td>
+<td align="right">1</td>
+<td align="left">09:37</td>
+</tr>
+<tr class="odd">
+<td align="left">Eric Carmody</td>
+<td align="right">3</td>
+<td align="right">28</td>
+<td align="right">16</td>
+<td align="right">357</td>
+<td align="right">6</td>
+<td align="right">262</td>
+<td align="right">3</td>
+<td align="right">165</td>
+<td align="right">1</td>
+<td align="right">240</td>
+<td align="right">2</td>
+<td align="left">09:52</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="row">
+<button class="source R toggle btn btn-xs btn-primary">
+<span class="glyphicon glyphicon-chevron-down"></span> R source
+</button><pre style=""><code class="source r">knitr::kable(head(data_women_overall_asia, 3), row.names=FALSE)</code></pre>
+
+<table>
+<thead>
+<tr class="header">
+<th align="left">Athlete</th>
+<th align="right">overall_rank</th>
+<th align="right">overall_score</th>
+<th align="right">14_1_rank</th>
+<th align="right">14_1_score</th>
+<th align="right">14_2_rank</th>
+<th align="right">14_2_score</th>
+<th align="right">14_3_rank</th>
+<th align="right">14_3_score</th>
+<th align="right">14_4_rank</th>
+<th align="right">14_4_score</th>
+<th align="right">14_5_rank</th>
+<th align="left">14_5_score</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">Marlene Andersson</td>
+<td align="right">1</td>
+<td align="right">8</td>
+<td align="right">1</td>
+<td align="right">348</td>
+<td align="right">1</td>
+<td align="right">194</td>
+<td align="right">1</td>
+<td align="right">182</td>
+<td align="right">2</td>
+<td align="right">189</td>
+<td align="right">3</td>
+<td align="left">11:30</td>
+</tr>
+<tr class="even">
+<td align="left">Eva Clarke</td>
+<td align="right">2</td>
+<td align="right">25</td>
+<td align="right">2</td>
+<td align="right">344</td>
+<td align="right">9</td>
+<td align="right">136</td>
+<td align="right">11</td>
+<td align="right">144</td>
+<td align="right">1</td>
+<td align="right">189</td>
+<td align="right">2</td>
+<td align="left">10:43</td>
+</tr>
+<tr class="odd">
+<td align="left">Yuko Sakuyama</td>
+<td align="right">3</td>
+<td align="right">32</td>
+<td align="right">2</td>
+<td align="right">344</td>
+<td align="right">5</td>
+<td align="right">139</td>
+<td align="right">9</td>
+<td align="right">144</td>
+<td align="right">15</td>
+<td align="right">182</td>
+<td align="right">1</td>
+<td align="left">10:28</td>
+</tr>
+</tbody>
+</table>
+</div>
+<h2>Australia</h2>
+<div class="row">
+<button class="source R toggle btn btn-xs btn-primary">
+<span class="glyphicon glyphicon-chevron-down"></span> R source
+</button><pre style=""><code class="source r">knitr::kable(head(data_men_overall_australia, 3), row.names=FALSE)</code></pre>
+
+<table>
+<thead>
+<tr class="header">
+<th align="left">Athlete</th>
+<th align="right">overall_rank</th>
+<th align="right">overall_score</th>
+<th align="right">14_1_rank</th>
+<th align="right">14_1_score</th>
+<th align="right">14_2_rank</th>
+<th align="right">14_2_score</th>
+<th align="right">14_3_rank</th>
+<th align="right">14_3_score</th>
+<th align="right">14_4_rank</th>
+<th align="right">14_4_score</th>
+<th align="right">14_5_rank</th>
+<th align="left">14_5_score</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">Rob Forte</td>
+<td align="right">1</td>
+<td align="right">17</td>
+<td align="right">2</td>
+<td align="right">424</td>
+<td align="right">6</td>
+<td align="right">277</td>
+<td align="right">4</td>
+<td align="right">168</td>
+<td align="right">1</td>
+<td align="right">263</td>
+<td align="right">4</td>
+<td align="left">09:01</td>
+</tr>
+<tr class="even">
+<td align="left">Ben Garard</td>
+<td align="right">2</td>
+<td align="right">44</td>
+<td align="right">13</td>
+<td align="right">398</td>
+<td align="right">9</td>
+<td align="right">274</td>
+<td align="right">15</td>
+<td align="right">156</td>
+<td align="right">6</td>
+<td align="right">246</td>
+<td align="right">1</td>
+<td align="left">08:49</td>
+</tr>
+<tr class="odd">
+<td align="left">Matt Reilly</td>
+<td align="right">3</td>
+<td align="right">79</td>
+<td align="right">8</td>
+<td align="right">401</td>
+<td align="right">13</td>
+<td align="right">272</td>
+<td align="right">28</td>
+<td align="right">154</td>
+<td align="right">2</td>
+<td align="right">253</td>
+<td align="right">28</td>
+<td align="left">10:01</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="row">
+<button class="source R toggle btn btn-xs btn-primary">
+<span class="glyphicon glyphicon-chevron-down"></span> R source
+</button><pre style=""><code class="source r">knitr::kable(head(data_women_overall_australia, 3), row.names=FALSE)</code></pre>
+
+<table>
+<thead>
+<tr class="header">
+<th align="left">Athlete</th>
+<th align="right">overall_rank</th>
+<th align="right">overall_score</th>
+<th align="right">14_1_rank</th>
+<th align="right">14_1_score</th>
+<th align="right">14_2_rank</th>
+<th align="right">14_2_score</th>
+<th align="right">14_3_rank</th>
+<th align="right">14_3_score</th>
+<th align="right">14_4_rank</th>
+<th align="right">14_4_score</th>
+<th align="right">14_5_rank</th>
+<th align="left">14_5_score</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">Ruth Anderson Horrell</td>
+<td align="right">1</td>
+<td align="right">29</td>
+<td align="right">7</td>
+<td align="right">397</td>
+<td align="right">5</td>
+<td align="right">269</td>
+<td align="right">4</td>
+<td align="right">175</td>
+<td align="right">2</td>
+<td align="right">217</td>
+<td align="right">11</td>
+<td align="left">10:12</td>
+</tr>
+<tr class="even">
+<td align="left">Pip Malone</td>
+<td align="right">2</td>
+<td align="right">47</td>
+<td align="right">6</td>
+<td align="right">399</td>
+<td align="right">6</td>
+<td align="right">265</td>
+<td align="right">28</td>
+<td align="right">154</td>
+<td align="right">3</td>
+<td align="right">212</td>
+<td align="right">4</td>
+<td align="left">09:46</td>
+</tr>
+<tr class="odd">
+<td align="left">Kara Webb</td>
+<td align="right">3</td>
+<td align="right">68</td>
+<td align="right">1</td>
+<td align="right">431</td>
+<td align="right">1</td>
+<td align="right">340</td>
+<td align="right">64</td>
+<td align="right">149</td>
+<td align="right">1</td>
+<td align="right">236</td>
+<td align="right">1</td>
+<td align="left">08:44</td>
+</tr>
+</tbody>
+</table>
+</div>
+<h2>Canada East</h2>
+<div class="row">
+<button class="source R toggle btn btn-xs btn-primary">
+<span class="glyphicon glyphicon-chevron-down"></span> R source
+</button><pre style=""><code class="source r">knitr::kable(head(data_men_overall_canadaeast, 3), row.names=FALSE)</code></pre>
+
+<table>
+<thead>
+<tr class="header">
+<th align="left">Athlete</th>
+<th align="right">overall_rank</th>
+<th align="right">overall_score</th>
+<th align="right">14_1_rank</th>
+<th align="right">14_1_score</th>
+<th align="right">14_2_rank</th>
+<th align="right">14_2_score</th>
+<th align="right">14_3_rank</th>
+<th align="right">14_3_score</th>
+<th align="right">14_4_rank</th>
+<th align="right">14_4_score</th>
+<th align="right">14_5_rank</th>
+<th align="left">14_5_score</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">Alex Vigneault</td>
+<td align="right">1</td>
+<td align="right">64</td>
+<td align="right">23</td>
+<td align="right">379</td>
+<td align="right">27</td>
+<td align="right">255</td>
+<td align="right">1</td>
+<td align="right">175</td>
+<td align="right">9</td>
+<td align="right">222</td>
+<td align="right">4</td>
+<td align="left">09:32</td>
+</tr>
+<tr class="even">
+<td align="left">Albert-Dominic Larouche</td>
+<td align="right">2</td>
+<td align="right">65</td>
+<td align="right">2</td>
+<td align="right">400</td>
+<td align="right">35</td>
+<td align="right">246</td>
+<td align="right">2</td>
+<td align="right">175</td>
+<td align="right">1</td>
+<td align="right">249</td>
+<td align="right">25</td>
+<td align="left">10:28</td>
+</tr>
+<tr class="odd">
+<td align="left">Simon Paquette</td>
+<td align="right">3</td>
+<td align="right">101</td>
+<td align="right">4</td>
+<td align="right">398</td>
+<td align="right">2</td>
+<td align="right">279</td>
+<td align="right">27</td>
+<td align="right">152</td>
+<td align="right">58</td>
+<td align="right">199</td>
+<td align="right">10</td>
+<td align="left">10:07</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="row">
+<button class="source R toggle btn btn-xs btn-primary">
+<span class="glyphicon glyphicon-chevron-down"></span> R source
+</button><pre style=""><code class="source r">knitr::kable(head(data_women_overall_canadaeast, 3), row.names=FALSE)</code></pre>
+
+<table>
+<thead>
+<tr class="header">
+<th align="left">Athlete</th>
+<th align="right">overall_rank</th>
+<th align="right">overall_score</th>
+<th align="right">14_1_rank</th>
+<th align="right">14_1_score</th>
+<th align="right">14_2_rank</th>
+<th align="right">14_2_score</th>
+<th align="right">14_3_rank</th>
+<th align="right">14_3_score</th>
+<th align="right">14_4_rank</th>
+<th align="right">14_4_score</th>
+<th align="right">14_5_rank</th>
+<th align="left">14_5_score</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">Camille Leblanc-Bazinet</td>
+<td align="right">1</td>
+<td align="right">14</td>
+<td align="right">2</td>
+<td align="right">427</td>
+<td align="right">1</td>
+<td align="right">404</td>
+<td align="right">9</td>
+<td align="right">168</td>
+<td align="right">1</td>
+<td align="right">205</td>
+<td align="right">1</td>
+<td align="left">08:54</td>
+</tr>
+<tr class="even">
+<td align="left">Kristine Andali</td>
+<td align="right">2</td>
+<td align="right">36</td>
+<td align="right">12</td>
+<td align="right">374</td>
+<td align="right">5</td>
+<td align="right">266</td>
+<td align="right">7</td>
+<td align="right">170</td>
+<td align="right">10</td>
+<td align="right">193</td>
+<td align="right">2</td>
+<td align="left">09:00</td>
+</tr>
+<tr class="odd">
+<td align="left">Michele Letendre</td>
+<td align="right">3</td>
+<td align="right">45</td>
+<td align="right">1</td>
+<td align="right">431</td>
+<td align="right">3</td>
+<td align="right">333</td>
+<td align="right">36</td>
+<td align="right">153</td>
+<td align="right">2</td>
+<td align="right">200</td>
+<td align="right">3</td>
+<td align="left">09:13</td>
+</tr>
+</tbody>
+</table>
+</div>
+<h2>Canada West</h2>
+<div class="row">
+<button class="source R toggle btn btn-xs btn-primary">
+<span class="glyphicon glyphicon-chevron-down"></span> R source
+</button><pre style=""><code class="source r">knitr::kable(head(data_men_overall_canadawest, 3), row.names=FALSE)</code></pre>
+
+<table>
+<thead>
+<tr class="header">
+<th align="left">Athlete</th>
+<th align="right">overall_rank</th>
+<th align="right">overall_score</th>
+<th align="right">14_1_rank</th>
+<th align="right">14_1_score</th>
+<th align="right">14_2_rank</th>
+<th align="right">14_2_score</th>
+<th align="right">14_3_rank</th>
+<th align="right">14_3_score</th>
+<th align="right">14_4_rank</th>
+<th align="right">14_4_score</th>
+<th align="right">14_5_rank</th>
+<th align="left">14_5_score</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">Jonathan Gibson</td>
+<td align="right">1</td>
+<td align="right">14</td>
+<td align="right">4</td>
+<td align="right">402</td>
+<td align="right">5</td>
+<td align="right">267</td>
+<td align="right">2</td>
+<td align="right">175</td>
+<td align="right">2</td>
+<td align="right">252</td>
+<td align="right">1</td>
+<td align="left">09:38</td>
+</tr>
+<tr class="even">
+<td align="left">Brent Fikowski</td>
+<td align="right">2</td>
+<td align="right">26</td>
+<td align="right">1</td>
+<td align="right">443</td>
+<td align="right">1</td>
+<td align="right">333</td>
+<td align="right">20</td>
+<td align="right">151</td>
+<td align="right">1</td>
+<td align="right">260</td>
+<td align="right">3</td>
+<td align="left">09:59</td>
+</tr>
+<tr class="odd">
+<td align="left">Joe Scali</td>
+<td align="right">3</td>
+<td align="right">29</td>
+<td align="right">5</td>
+<td align="right">397</td>
+<td align="right">12</td>
+<td align="right">255</td>
+<td align="right">3</td>
+<td align="right">166</td>
+<td align="right">4</td>
+<td align="right">225</td>
+<td align="right">5</td>
+<td align="left">10:11</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="row">
+<button class="source R toggle btn btn-xs btn-primary">
+<span class="glyphicon glyphicon-chevron-down"></span> R source
+</button><pre style=""><code class="source r">knitr::kable(head(data_women_overall_canadawest, 3), row.names=FALSE)</code></pre>
+
+<table>
+<thead>
+<tr class="header">
+<th align="left">Athlete</th>
+<th align="right">overall_rank</th>
+<th align="right">overall_score</th>
+<th align="right">14_1_rank</th>
+<th align="right">14_1_score</th>
+<th align="right">14_2_rank</th>
+<th align="right">14_2_score</th>
+<th align="right">14_3_rank</th>
+<th align="right">14_3_score</th>
+<th align="right">14_4_rank</th>
+<th align="right">14_4_score</th>
+<th align="right">14_5_rank</th>
+<th align="left">14_5_score</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">Delaina Snider</td>
+<td align="right">1</td>
+<td align="right">12</td>
+<td align="right">2</td>
+<td align="right">405</td>
+<td align="right">5</td>
+<td align="right">198</td>
+<td align="right">2</td>
+<td align="right">179</td>
+<td align="right">1</td>
+<td align="right">192</td>
+<td align="right">2</td>
+<td align="left">10:09</td>
+</tr>
+<tr class="even">
+<td align="left">Jayde Quilty</td>
+<td align="right">2</td>
+<td align="right">22</td>
+<td align="right">7</td>
+<td align="right">375</td>
+<td align="right">3</td>
+<td align="right">199</td>
+<td align="right">3</td>
+<td align="right">175</td>
+<td align="right">3</td>
+<td align="right">192</td>
+<td align="right">6</td>
+<td align="left">10:32</td>
+</tr>
+<tr class="odd">
+<td align="left">Jolaine Bloom</td>
+<td align="right">3</td>
+<td align="right">25</td>
+<td align="right">1</td>
+<td align="right">436</td>
+<td align="right">1</td>
+<td align="right">254</td>
+<td align="right">20</td>
+<td align="right">154</td>
+<td align="right">2</td>
+<td align="right">192</td>
+<td align="right">1</td>
+<td align="left">09:43</td>
+</tr>
+</tbody>
+</table>
+</div>
+<h2>Central East</h2>
+<div class="row">
+<button class="source R toggle btn btn-xs btn-primary">
+<span class="glyphicon glyphicon-chevron-down"></span> R source
+</button><pre style=""><code class="source r">knitr::kable(head(data_men_overall_centraleast, 3), row.names=FALSE)</code></pre>
+
+<table>
+<thead>
+<tr class="header">
+<th align="left">Athlete</th>
+<th align="right">overall_rank</th>
+<th align="right">overall_score</th>
+<th align="right">14_1_rank</th>
+<th align="right">14_1_score</th>
+<th align="right">14_2_rank</th>
+<th align="right">14_2_score</th>
+<th align="right">14_3_rank</th>
+<th align="right">14_3_score</th>
+<th align="right">14_4_rank</th>
+<th align="right">14_4_score</th>
+<th align="right">14_5_rank</th>
+<th align="left">14_5_score</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">Rich Froning</td>
+<td align="right">1</td>
+<td align="right">5</td>
+<td align="right">1</td>
+<td align="right">444</td>
+<td align="right">1</td>
+<td align="right">359</td>
+<td align="right">1</td>
+<td align="right">177</td>
+<td align="right">1</td>
+<td align="right">277</td>
+<td align="right">1</td>
+<td align="left">08:26</td>
+</tr>
+<tr class="even">
+<td align="left">Scott Panchik</td>
+<td align="right">2</td>
+<td align="right">19</td>
+<td align="right">3</td>
+<td align="right">435</td>
+<td align="right">2</td>
+<td align="right">347</td>
+<td align="right">8</td>
+<td align="right">162</td>
+<td align="right">3</td>
+<td align="right">250</td>
+<td align="right">3</td>
+<td align="left">08:56</td>
+</tr>
+<tr class="odd">
+<td align="left">Graham Holmberg</td>
+<td align="right">3</td>
+<td align="right">57</td>
+<td align="right">4</td>
+<td align="right">422</td>
+<td align="right">6</td>
+<td align="right">320</td>
+<td align="right">5</td>
+<td align="right">166</td>
+<td align="right">11</td>
+<td align="right">236</td>
+<td align="right">31</td>
+<td align="left">10:20</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="row">
+<button class="source R toggle btn btn-xs btn-primary">
+<span class="glyphicon glyphicon-chevron-down"></span> R source
+</button><pre style=""><code class="source r">knitr::kable(head(data_women_overall_centraleast, 3), row.names=FALSE)</code></pre>
+
+<table>
+<thead>
+<tr class="header">
+<th align="left">Athlete</th>
+<th align="right">overall_rank</th>
+<th align="right">overall_score</th>
+<th align="right">14_1_rank</th>
+<th align="right">14_1_score</th>
+<th align="right">14_2_rank</th>
+<th align="right">14_2_score</th>
+<th align="right">14_3_rank</th>
+<th align="right">14_3_score</th>
+<th align="right">14_4_rank</th>
+<th align="right">14_4_score</th>
+<th align="right">14_5_rank</th>
+<th align="left">14_5_score</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">Michelle Kinney</td>
+<td align="right">1</td>
+<td align="right">22</td>
+<td align="right">8</td>
+<td align="right">392</td>
+<td align="right">6</td>
+<td align="right">264</td>
+<td align="right">2</td>
+<td align="right">184</td>
+<td align="right">2</td>
+<td align="right">206</td>
+<td align="right">4</td>
+<td align="left">09:24</td>
+</tr>
+<tr class="even">
+<td align="left">Jennifer Smith</td>
+<td align="right">2</td>
+<td align="right">27</td>
+<td align="right">3</td>
+<td align="right">402</td>
+<td align="right">5</td>
+<td align="right">265</td>
+<td align="right">8</td>
+<td align="right">175</td>
+<td align="right">4</td>
+<td align="right">199</td>
+<td align="right">7</td>
+<td align="left">09:38</td>
+</tr>
+<tr class="odd">
+<td align="left">Julie Foucher</td>
+<td align="right">3</td>
+<td align="right">31</td>
+<td align="right">8</td>
+<td align="right">392</td>
+<td align="right">1</td>
+<td align="right">353</td>
+<td align="right">20</td>
+<td align="right">160</td>
+<td align="right">1</td>
+<td align="right">219</td>
+<td align="right">1</td>
+<td align="left">08:38</td>
+</tr>
+</tbody>
+</table>
+</div>
+<h2>Europe</h2>
+<div class="row">
+<button class="source R toggle btn btn-xs btn-primary">
+<span class="glyphicon glyphicon-chevron-down"></span> R source
+</button><pre style=""><code class="source r">knitr::kable(head(data_men_overall_europe, 3), row.names=FALSE)</code></pre>
+
+<table>
+<thead>
+<tr class="header">
+<th align="left">Athlete</th>
+<th align="right">overall_rank</th>
+<th align="right">overall_score</th>
+<th align="right">14_1_rank</th>
+<th align="right">14_1_score</th>
+<th align="right">14_2_rank</th>
+<th align="right">14_2_score</th>
+<th align="right">14_3_rank</th>
+<th align="right">14_3_score</th>
+<th align="right">14_4_rank</th>
+<th align="right">14_4_score</th>
+<th align="right">14_5_rank</th>
+<th align="left">14_5_score</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">Jakob Magnusson</td>
+<td align="right">1</td>
+<td align="right">81</td>
+<td align="right">3</td>
+<td align="right">406</td>
+<td align="right">9</td>
+<td align="right">278</td>
+<td align="right">22</td>
+<td align="right">155</td>
+<td align="right">24</td>
+<td align="right">234</td>
+<td align="right">23</td>
+<td align="left">10:03</td>
+</tr>
+<tr class="even">
+<td align="left">Björgvin Karl Guðmundsson</td>
+<td align="right">2</td>
+<td align="right">92</td>
+<td align="right">44</td>
+<td align="right">390</td>
+<td align="right">2</td>
+<td align="right">338</td>
+<td align="right">24</td>
+<td align="right">154</td>
+<td align="right">3</td>
+<td align="right">251</td>
+<td align="right">19</td>
+<td align="left">09:57</td>
+</tr>
+<tr class="odd">
+<td align="left">Lukas Högberg</td>
+<td align="right">3</td>
+<td align="right">99</td>
+<td align="right">32</td>
+<td align="right">392</td>
+<td align="right">20</td>
+<td align="right">270</td>
+<td align="right">28</td>
+<td align="right">154</td>
+<td align="right">6</td>
+<td align="right">250</td>
+<td align="right">13</td>
+<td align="left">09:47</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="row">
+<button class="source R toggle btn btn-xs btn-primary">
+<span class="glyphicon glyphicon-chevron-down"></span> R source
+</button><pre style=""><code class="source r">knitr::kable(head(data_women_overall_europe, 3), row.names=FALSE)</code></pre>
+
+<table>
+<thead>
+<tr class="header">
+<th align="left">Athlete</th>
+<th align="right">overall_rank</th>
+<th align="right">overall_score</th>
+<th align="right">14_1_rank</th>
+<th align="right">14_1_score</th>
+<th align="right">14_2_rank</th>
+<th align="right">14_2_score</th>
+<th align="right">14_3_rank</th>
+<th align="right">14_3_score</th>
+<th align="right">14_4_rank</th>
+<th align="right">14_4_score</th>
+<th align="right">14_5_rank</th>
+<th align="left">14_5_score</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">Samantha Briggs</td>
+<td align="right">1</td>
+<td align="right">9</td>
+<td align="right">1</td>
+<td align="right">472</td>
+<td align="right">5</td>
+<td align="right">274</td>
+<td align="right">1</td>
+<td align="right">187</td>
+<td align="right">1</td>
+<td align="right">256</td>
+<td align="right">1</td>
+<td align="left">08:31</td>
+</tr>
+<tr class="even">
+<td align="left">Martina Barbaro</td>
+<td align="right">2</td>
+<td align="right">28</td>
+<td align="right">3</td>
+<td align="right">415</td>
+<td align="right">7</td>
+<td align="right">261</td>
+<td align="right">2</td>
+<td align="right">181</td>
+<td align="right">7</td>
+<td align="right">197</td>
+<td align="right">9</td>
+<td align="left">10:05</td>
+</tr>
+<tr class="odd">
+<td align="left">Annie Thorisdottir</td>
+<td align="right">3</td>
+<td align="right">53</td>
+<td align="right">4</td>
+<td align="right">407</td>
+<td align="right">3</td>
+<td align="right">276</td>
+<td align="right">3</td>
+<td align="right">176</td>
+<td align="right">3</td>
+<td align="right">198</td>
+<td align="right">40</td>
+<td align="left">11:05</td>
+</tr>
+</tbody>
+</table>
+</div>
+<h2>Latin America</h2>
+<div class="row">
+<button class="source R toggle btn btn-xs btn-primary">
+<span class="glyphicon glyphicon-chevron-down"></span> R source
+</button><pre style=""><code class="source r">knitr::kable(head(data_men_overall_latinamerica, 3), row.names=FALSE)</code></pre>
+
+<table>
+<thead>
+<tr class="header">
+<th align="left">Athlete</th>
+<th align="right">overall_rank</th>
+<th align="right">overall_score</th>
+<th align="right">14_1_rank</th>
+<th align="right">14_1_score</th>
+<th align="right">14_2_rank</th>
+<th align="right">14_2_score</th>
+<th align="right">14_3_rank</th>
+<th align="right">14_3_score</th>
+<th align="right">14_4_rank</th>
+<th align="right">14_4_score</th>
+<th align="right">14_5_rank</th>
+<th align="left">14_5_score</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">Leonidas Jenkins</td>
+<td align="right">1</td>
+<td align="right">40</td>
+<td align="right">2</td>
+<td align="right">396</td>
+<td align="right">3</td>
+<td align="right">265</td>
+<td align="right">23</td>
+<td align="right">144</td>
+<td align="right">1</td>
+<td align="right">228</td>
+<td align="right">11</td>
+<td align="left">11:10</td>
+</tr>
+<tr class="even">
+<td align="left">Orlando Trejo</td>
+<td align="right">2</td>
+<td align="right">50</td>
+<td align="right">21</td>
+<td align="right">354</td>
+<td align="right">6</td>
+<td align="right">259</td>
+<td align="right">19</td>
+<td align="right">146</td>
+<td align="right">3</td>
+<td align="right">215</td>
+<td align="right">1</td>
+<td align="left">09:45</td>
+</tr>
+<tr class="odd">
+<td align="left">Mark Desin</td>
+<td align="right">3</td>
+<td align="right">93</td>
+<td align="right">10</td>
+<td align="right">359</td>
+<td align="right">49</td>
+<td align="right">197</td>
+<td align="right">10</td>
+<td align="right">149</td>
+<td align="right">4</td>
+<td align="right">213</td>
+<td align="right">20</td>
+<td align="left">11:31</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="row">
+<button class="source R toggle btn btn-xs btn-primary">
+<span class="glyphicon glyphicon-chevron-down"></span> R source
+</button><pre style=""><code class="source r">knitr::kable(head(data_women_overall_latinamerica, 3), row.names=FALSE)</code></pre>
+
+<table>
+<thead>
+<tr class="header">
+<th align="left">Athlete</th>
+<th align="right">overall_rank</th>
+<th align="right">overall_score</th>
+<th align="right">14_1_rank</th>
+<th align="right">14_1_score</th>
+<th align="right">14_2_rank</th>
+<th align="right">14_2_score</th>
+<th align="right">14_3_rank</th>
+<th align="right">14_3_score</th>
+<th align="right">14_4_rank</th>
+<th align="right">14_4_score</th>
+<th align="right">14_5_rank</th>
+<th align="left">14_5_score</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">Wanda Brenton</td>
+<td align="right">1</td>
+<td align="right">15</td>
+<td align="right">7</td>
+<td align="right">350</td>
+<td align="right">1</td>
+<td align="right">205</td>
+<td align="right">3</td>
+<td align="right">155</td>
+<td align="right">1</td>
+<td align="right">191</td>
+<td align="right">3</td>
+<td align="left">10:51</td>
+</tr>
+<tr class="even">
+<td align="left">Anita Pravatti</td>
+<td align="right">2</td>
+<td align="right">28</td>
+<td align="right">7</td>
+<td align="right">350</td>
+<td align="right">5</td>
+<td align="right">186</td>
+<td align="right">5</td>
+<td align="right">150</td>
+<td align="right">2</td>
+<td align="right">189</td>
+<td align="right">9</td>
+<td align="left">11:46</td>
+</tr>
+<tr class="odd">
+<td align="left">Antonelli Nicole</td>
+<td align="right">3</td>
+<td align="right">63</td>
+<td align="right">4</td>
+<td align="right">352</td>
+<td align="right">7</td>
+<td align="right">182</td>
+<td align="right">25</td>
+<td align="right">142</td>
+<td align="right">25</td>
+<td align="right">182</td>
+<td align="right">2</td>
+<td align="left">10:49</td>
+</tr>
+</tbody>
+</table>
+</div>
+<h2>Mid Atlantic</h2>
+<div class="row">
+<button class="source R toggle btn btn-xs btn-primary">
+<span class="glyphicon glyphicon-chevron-down"></span> R source
+</button><pre style=""><code class="source r">knitr::kable(head(data_men_overall_midatlantic, 3), row.names=FALSE)</code></pre>
+
+<table>
+<thead>
+<tr class="header">
+<th align="left">Athlete</th>
+<th align="right">overall_rank</th>
+<th align="right">overall_score</th>
+<th align="right">14_1_rank</th>
+<th align="right">14_1_score</th>
+<th align="right">14_2_rank</th>
+<th align="right">14_2_score</th>
+<th align="right">14_3_rank</th>
+<th align="right">14_3_score</th>
+<th align="right">14_4_rank</th>
+<th align="right">14_4_score</th>
+<th align="right">14_5_rank</th>
+<th align="left">14_5_score</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">Ben Smith</td>
+<td align="right">1</td>
+<td align="right">11</td>
+<td align="right">3</td>
+<td align="right">433</td>
+<td align="right">1</td>
+<td align="right">353</td>
+<td align="right">4</td>
+<td align="right">175</td>
+<td align="right">1</td>
+<td align="right">265</td>
+<td align="right">2</td>
+<td align="left">09:16</td>
+</tr>
+<tr class="even">
+<td align="left">Gary Helmick</td>
+<td align="right">2</td>
+<td align="right">87</td>
+<td align="right">50</td>
+<td align="right">383</td>
+<td align="right">8</td>
+<td align="right">275</td>
+<td align="right">19</td>
+<td align="right">159</td>
+<td align="right">3</td>
+<td align="right">246</td>
+<td align="right">7</td>
+<td align="left">09:35</td>
+</tr>
+<tr class="odd">
+<td align="left">Nathan Keil</td>
+<td align="right">3</td>
+<td align="right">105</td>
+<td align="right">15</td>
+<td align="right">398</td>
+<td align="right">5</td>
+<td align="right">278</td>
+<td align="right">40</td>
+<td align="right">153</td>
+<td align="right">16</td>
+<td align="right">228</td>
+<td align="right">29</td>
+<td align="left">10:18</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="row">
+<button class="source R toggle btn btn-xs btn-primary">
+<span class="glyphicon glyphicon-chevron-down"></span> R source
+</button><pre style=""><code class="source r">knitr::kable(head(data_women_overall_midatlantic, 3), row.names=FALSE)</code></pre>
+
+<table>
+<thead>
+<tr class="header">
+<th align="left">Athlete</th>
+<th align="right">overall_rank</th>
+<th align="right">overall_score</th>
+<th align="right">14_1_rank</th>
+<th align="right">14_1_score</th>
+<th align="right">14_2_rank</th>
+<th align="right">14_2_score</th>
+<th align="right">14_3_rank</th>
+<th align="right">14_3_score</th>
+<th align="right">14_4_rank</th>
+<th align="right">14_4_score</th>
+<th align="right">14_5_rank</th>
+<th align="left">14_5_score</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">Alea Helmick</td>
+<td align="right">1</td>
+<td align="right">16</td>
+<td align="right">2</td>
+<td align="right">398</td>
+<td align="right">4</td>
+<td align="right">265</td>
+<td align="right">2</td>
+<td align="right">181</td>
+<td align="right">5</td>
+<td align="right">194</td>
+<td align="right">3</td>
+<td align="left">09:30</td>
+</tr>
+<tr class="even">
+<td align="left">Anna Tunnicliffe</td>
+<td align="right">2</td>
+<td align="right">26</td>
+<td align="right">1</td>
+<td align="right">431</td>
+<td align="right">1</td>
+<td align="right">276</td>
+<td align="right">7</td>
+<td align="right">175</td>
+<td align="right">16</td>
+<td align="right">192</td>
+<td align="right">1</td>
+<td align="left">09:13</td>
+</tr>
+<tr class="odd">
+<td align="left">Christy Adkins</td>
+<td align="right">3</td>
+<td align="right">28</td>
+<td align="right">4</td>
+<td align="right">394</td>
+<td align="right">6</td>
+<td align="right">260</td>
+<td align="right">10</td>
+<td align="right">174</td>
+<td align="right">1</td>
+<td align="right">200</td>
+<td align="right">7</td>
+<td align="left">10:01</td>
+</tr>
+</tbody>
+</table>
+</div>
+<h2>North Central</h2>
+<div class="row">
+<button class="source R toggle btn btn-xs btn-primary">
+<span class="glyphicon glyphicon-chevron-down"></span> R source
+</button><pre style=""><code class="source r">knitr::kable(head(data_men_overall_northcentral, 3), row.names=FALSE)</code></pre>
+
+<table>
+<thead>
+<tr class="header">
+<th align="left">Athlete</th>
+<th align="right">overall_rank</th>
+<th align="right">overall_score</th>
+<th align="right">14_1_rank</th>
+<th align="right">14_1_score</th>
+<th align="right">14_2_rank</th>
+<th align="right">14_2_score</th>
+<th align="right">14_3_rank</th>
+<th align="right">14_3_score</th>
+<th align="right">14_4_rank</th>
+<th align="right">14_4_score</th>
+<th align="right">14_5_rank</th>
+<th align="left">14_5_score</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">Bobby Noyce</td>
+<td align="right">1</td>
+<td align="right">28</td>
+<td align="right">4</td>
+<td align="right">407</td>
+<td align="right">3</td>
+<td align="right">331</td>
+<td align="right">7</td>
+<td align="right">169</td>
+<td align="right">3</td>
+<td align="right">246</td>
+<td align="right">11</td>
+<td align="left">09:49</td>
+</tr>
+<tr class="even">
+<td align="left">Jacob Heppner</td>
+<td align="right">2</td>
+<td align="right">86</td>
+<td align="right">14</td>
+<td align="right">398</td>
+<td align="right">1</td>
+<td align="right">345</td>
+<td align="right">66</td>
+<td align="right">152</td>
+<td align="right">2</td>
+<td align="right">247</td>
+<td align="right">3</td>
+<td align="left">09:09</td>
+</tr>
+<tr class="odd">
+<td align="left">Alex Nettey</td>
+<td align="right">3</td>
+<td align="right">89</td>
+<td align="right">38</td>
+<td align="right">390</td>
+<td align="right">11</td>
+<td align="right">276</td>
+<td align="right">16</td>
+<td align="right">157</td>
+<td align="right">1</td>
+<td align="right">251</td>
+<td align="right">23</td>
+<td align="left">10:11</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="row">
+<button class="source R toggle btn btn-xs btn-primary">
+<span class="glyphicon glyphicon-chevron-down"></span> R source
+</button><pre style=""><code class="source r">knitr::kable(head(data_women_overall_northcentral, 3), row.names=FALSE)</code></pre>
+
+<table>
+<thead>
+<tr class="header">
+<th align="left">Athlete</th>
+<th align="right">overall_rank</th>
+<th align="right">overall_score</th>
+<th align="right">14_1_rank</th>
+<th align="right">14_1_score</th>
+<th align="right">14_2_rank</th>
+<th align="right">14_2_score</th>
+<th align="right">14_3_rank</th>
+<th align="right">14_3_score</th>
+<th align="right">14_4_rank</th>
+<th align="right">14_4_score</th>
+<th align="right">14_5_rank</th>
+<th align="left">14_5_score</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">Kelley Jackson</td>
+<td align="right">1</td>
+<td align="right">28</td>
+<td align="right">1</td>
+<td align="right">415</td>
+<td align="right">1</td>
+<td align="right">353</td>
+<td align="right">21</td>
+<td align="right">158</td>
+<td align="right">4</td>
+<td align="right">196</td>
+<td align="right">1</td>
+<td align="left">08:57</td>
+</tr>
+<tr class="even">
+<td align="left">Stacie Tovar</td>
+<td align="right">1</td>
+<td align="right">28</td>
+<td align="right">5</td>
+<td align="right">395</td>
+<td align="right">3</td>
+<td align="right">267</td>
+<td align="right">17</td>
+<td align="right">159</td>
+<td align="right">1</td>
+<td align="right">198</td>
+<td align="right">2</td>
+<td align="left">09:11</td>
+</tr>
+<tr class="odd">
+<td align="left">Kristin Miller</td>
+<td align="right">3</td>
+<td align="right">49</td>
+<td align="right">2</td>
+<td align="right">400</td>
+<td align="right">5</td>
+<td align="right">263</td>
+<td align="right">19</td>
+<td align="right">159</td>
+<td align="right">8</td>
+<td align="right">194</td>
+<td align="right">15</td>
+<td align="left">10:24</td>
+</tr>
+</tbody>
+</table>
+</div>
+<h2>North East</h2>
+<div class="row">
+<button class="source R toggle btn btn-xs btn-primary">
+<span class="glyphicon glyphicon-chevron-down"></span> R source
+</button><pre style=""><code class="source r">knitr::kable(head(data_men_overall_northeast, 3), row.names=FALSE)</code></pre>
+
+<table>
+<thead>
+<tr class="header">
+<th align="left">Athlete</th>
+<th align="right">overall_rank</th>
+<th align="right">overall_score</th>
+<th align="right">14_1_rank</th>
+<th align="right">14_1_score</th>
+<th align="right">14_2_rank</th>
+<th align="right">14_2_score</th>
+<th align="right">14_3_rank</th>
+<th align="right">14_3_score</th>
+<th align="right">14_4_rank</th>
+<th align="right">14_4_score</th>
+<th align="right">14_5_rank</th>
+<th align="left">14_5_score</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">Mathew Fraser</td>
+<td align="right">1</td>
+<td align="right">25</td>
+<td align="right">2</td>
+<td align="right">415</td>
+<td align="right">6</td>
+<td align="right">317</td>
+<td align="right">12</td>
+<td align="right">165</td>
+<td align="right">4</td>
+<td align="right">247</td>
+<td align="right">1</td>
+<td align="left">08:18</td>
+</tr>
+<tr class="even">
+<td align="left">Austin Malleolo</td>
+<td align="right">2</td>
+<td align="right">29</td>
+<td align="right">20</td>
+<td align="right">394</td>
+<td align="right">2</td>
+<td align="right">328</td>
+<td align="right">1</td>
+<td align="right">182</td>
+<td align="right">2</td>
+<td align="right">256</td>
+<td align="right">4</td>
+<td align="left">09:23</td>
+</tr>
+<tr class="odd">
+<td align="left">Craig Kenney</td>
+<td align="right">3</td>
+<td align="right">100</td>
+<td align="right">1</td>
+<td align="right">450</td>
+<td align="right">45</td>
+<td align="right">258</td>
+<td align="right">36</td>
+<td align="right">156</td>
+<td align="right">5</td>
+<td align="right">245</td>
+<td align="right">13</td>
+<td align="left">09:44</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="row">
+<button class="source R toggle btn btn-xs btn-primary">
+<span class="glyphicon glyphicon-chevron-down"></span> R source
+</button><pre style=""><code class="source r">knitr::kable(head(data_women_overall_northeast, 3), row.names=FALSE)</code></pre>
+
+<table>
+<thead>
+<tr class="header">
+<th align="left">Athlete</th>
+<th align="right">overall_rank</th>
+<th align="right">overall_score</th>
+<th align="right">14_1_rank</th>
+<th align="right">14_1_score</th>
+<th align="right">14_2_rank</th>
+<th align="right">14_2_score</th>
+<th align="right">14_3_rank</th>
+<th align="right">14_3_score</th>
+<th align="right">14_4_rank</th>
+<th align="right">14_4_score</th>
+<th align="right">14_5_rank</th>
+<th align="left">14_5_score</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">Kaleena Ladeairous</td>
+<td align="right">1</td>
+<td align="right">20</td>
+<td align="right">3</td>
+<td align="right">416</td>
+<td align="right">3</td>
+<td align="right">272</td>
+<td align="right">3</td>
+<td align="right">180</td>
+<td align="right">4</td>
+<td align="right">196</td>
+<td align="right">7</td>
+<td align="left">09:52</td>
+</tr>
+<tr class="even">
+<td align="left">Cheryl Nasso</td>
+<td align="right">2</td>
+<td align="right">33</td>
+<td align="right">6</td>
+<td align="right">399</td>
+<td align="right">5</td>
+<td align="right">265</td>
+<td align="right">14</td>
+<td align="right">171</td>
+<td align="right">6</td>
+<td align="right">195</td>
+<td align="right">2</td>
+<td align="left">09:33</td>
+</tr>
+<tr class="odd">
+<td align="left">Sarah Scholl</td>
+<td align="right">3</td>
+<td align="right">64</td>
+<td align="right">2</td>
+<td align="right">422</td>
+<td align="right">19</td>
+<td align="right">207</td>
+<td align="right">22</td>
+<td align="right">162</td>
+<td align="right">11</td>
+<td align="right">192</td>
+<td align="right">10</td>
+<td align="left">10:09</td>
+</tr>
+</tbody>
+</table>
+</div>
+<h2>Northern California</h2>
+<div class="row">
+<button class="source R toggle btn btn-xs btn-primary">
+<span class="glyphicon glyphicon-chevron-down"></span> R source
+</button><pre style=""><code class="source r">knitr::kable(head(data_men_overall_northerncalifornia, 3), row.names=FALSE)</code></pre>
+
+<table>
+<thead>
+<tr class="header">
+<th align="left">Athlete</th>
+<th align="right">overall_rank</th>
+<th align="right">overall_score</th>
+<th align="right">14_1_rank</th>
+<th align="right">14_1_score</th>
+<th align="right">14_2_rank</th>
+<th align="right">14_2_score</th>
+<th align="right">14_3_rank</th>
+<th align="right">14_3_score</th>
+<th align="right">14_4_rank</th>
+<th align="right">14_4_score</th>
+<th align="right">14_5_rank</th>
+<th align="left">14_5_score</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">Jason Khalipa</td>
+<td align="right">1</td>
+<td align="right">8</td>
+<td align="right">1</td>
+<td align="right">442</td>
+<td align="right">3</td>
+<td align="right">339</td>
+<td align="right">1</td>
+<td align="right">176</td>
+<td align="right">2</td>
+<td align="right">253</td>
+<td align="right">1</td>
+<td align="left">09:05</td>
+</tr>
+<tr class="even">
+<td align="left">Neal Maddox</td>
+<td align="right">2</td>
+<td align="right">22</td>
+<td align="right">4</td>
+<td align="right">401</td>
+<td align="right">6</td>
+<td align="right">323</td>
+<td align="right">6</td>
+<td align="right">158</td>
+<td align="right">3</td>
+<td align="right">251</td>
+<td align="right">3</td>
+<td align="left">09:30</td>
+</tr>
+<tr class="odd">
+<td align="left">Marcus Filly</td>
+<td align="right">3</td>
+<td align="right">37</td>
+<td align="right">25</td>
+<td align="right">392</td>
+<td align="right">1</td>
+<td align="right">350</td>
+<td align="right">8</td>
+<td align="right">157</td>
+<td align="right">1</td>
+<td align="right">260</td>
+<td align="right">2</td>
+<td align="left">09:27</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="row">
+<button class="source R toggle btn btn-xs btn-primary">
+<span class="glyphicon glyphicon-chevron-down"></span> R source
+</button><pre style=""><code class="source r">knitr::kable(head(data_women_overall_northerncalifornia, 3), row.names=FALSE)</code></pre>
+
+<table>
+<thead>
+<tr class="header">
+<th align="left">Athlete</th>
+<th align="right">overall_rank</th>
+<th align="right">overall_score</th>
+<th align="right">14_1_rank</th>
+<th align="right">14_1_score</th>
+<th align="right">14_2_rank</th>
+<th align="right">14_2_score</th>
+<th align="right">14_3_rank</th>
+<th align="right">14_3_score</th>
+<th align="right">14_4_rank</th>
+<th align="right">14_4_score</th>
+<th align="right">14_5_rank</th>
+<th align="left">14_5_score</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">Margaux Alvarez</td>
+<td align="right">1</td>
+<td align="right">43</td>
+<td align="right">3</td>
+<td align="right">402</td>
+<td align="right">18</td>
+<td align="right">239</td>
+<td align="right">7</td>
+<td align="right">168</td>
+<td align="right">10</td>
+<td align="right">195</td>
+<td align="right">5</td>
+<td align="left">09:36</td>
+</tr>
+<tr class="even">
+<td align="left">Whitney Heuser</td>
+<td align="right">2</td>
+<td align="right">45</td>
+<td align="right">4</td>
+<td align="right">399</td>
+<td align="right">5</td>
+<td align="right">269</td>
+<td align="right">17</td>
+<td align="right">158</td>
+<td align="right">12</td>
+<td align="right">195</td>
+<td align="right">7</td>
+<td align="left">09:56</td>
+</tr>
+<tr class="odd">
+<td align="left">Alessandra Pichelli</td>
+<td align="right">3</td>
+<td align="right">55</td>
+<td align="right">33</td>
+<td align="right">359</td>
+<td align="right">3</td>
+<td align="right">271</td>
+<td align="right">9</td>
+<td align="right">164</td>
+<td align="right">2</td>
+<td align="right">200</td>
+<td align="right">8</td>
+<td align="left">09:58</td>
+</tr>
+</tbody>
+</table>
+</div>
+<h2>North West</h2>
+<div class="row">
+<button class="source R toggle btn btn-xs btn-primary">
+<span class="glyphicon glyphicon-chevron-down"></span> R source
+</button><pre style=""><code class="source r">knitr::kable(head(data_men_overall_northwest, 3), row.names=FALSE)</code></pre>
+
+<table>
+<thead>
+<tr class="header">
+<th align="left">Athlete</th>
+<th align="right">overall_rank</th>
+<th align="right">overall_score</th>
+<th align="right">14_1_rank</th>
+<th align="right">14_1_score</th>
+<th align="right">14_2_rank</th>
+<th align="right">14_2_score</th>
+<th align="right">14_3_rank</th>
+<th align="right">14_3_score</th>
+<th align="right">14_4_rank</th>
+<th align="right">14_4_score</th>
+<th align="right">14_5_rank</th>
+<th align="left">14_5_score</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">Adam Neiffer</td>
+<td align="right">1</td>
+<td align="right">39</td>
+<td align="right">10</td>
+<td align="right">396</td>
+<td align="right">15</td>
+<td align="right">265</td>
+<td align="right">9</td>
+<td align="right">158</td>
+<td align="right">2</td>
+<td align="right">245</td>
+<td align="right">3</td>
+<td align="left">09:05</td>
+</tr>
+<tr class="even">
+<td align="left">Ben Stoneberg</td>
+<td align="right">2</td>
+<td align="right">41</td>
+<td align="right">20</td>
+<td align="right">390</td>
+<td align="right">1</td>
+<td align="right">347</td>
+<td align="right">7</td>
+<td align="right">159</td>
+<td align="right">5</td>
+<td align="right">234</td>
+<td align="right">8</td>
+<td align="left">09:29</td>
+</tr>
+<tr class="odd">
+<td align="left">Ryan Swobody</td>
+<td align="right">3</td>
+<td align="right">47</td>
+<td align="right">20</td>
+<td align="right">390</td>
+<td align="right">7</td>
+<td align="right">315</td>
+<td align="right">4</td>
+<td align="right">167</td>
+<td align="right">4</td>
+<td align="right">234</td>
+<td align="right">12</td>
+<td align="left">09:45</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="row">
+<button class="source R toggle btn btn-xs btn-primary">
+<span class="glyphicon glyphicon-chevron-down"></span> R source
+</button><pre style=""><code class="source r">knitr::kable(head(data_women_overall_northwest, 3), row.names=FALSE)</code></pre>
+
+<table>
+<thead>
+<tr class="header">
+<th align="left">Athlete</th>
+<th align="right">overall_rank</th>
+<th align="right">overall_score</th>
+<th align="right">14_1_rank</th>
+<th align="right">14_1_score</th>
+<th align="right">14_2_rank</th>
+<th align="right">14_2_score</th>
+<th align="right">14_3_rank</th>
+<th align="right">14_3_score</th>
+<th align="right">14_4_rank</th>
+<th align="right">14_4_score</th>
+<th align="right">14_5_rank</th>
+<th align="left">14_5_score</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">Rory Zambard</td>
+<td align="right">1</td>
+<td align="right">18</td>
+<td align="right">1</td>
+<td align="right">445</td>
+<td align="right">10</td>
+<td align="right">204</td>
+<td align="right">3</td>
+<td align="right">177</td>
+<td align="right">1</td>
+<td align="right">203</td>
+<td align="right">3</td>
+<td align="left">09:33</td>
+</tr>
+<tr class="even">
+<td align="left">Carleen Lessard</td>
+<td align="right">2</td>
+<td align="right">41</td>
+<td align="right">4</td>
+<td align="right">399</td>
+<td align="right">6</td>
+<td align="right">260</td>
+<td align="right">22</td>
+<td align="right">159</td>
+<td align="right">5</td>
+<td align="right">198</td>
+<td align="right">4</td>
+<td align="left">09:37</td>
+</tr>
+<tr class="odd">
+<td align="left">Ashleigh Moe</td>
+<td align="right">3</td>
+<td align="right">71</td>
+<td align="right">3</td>
+<td align="right">402</td>
+<td align="right">2</td>
+<td align="right">273</td>
+<td align="right">34</td>
+<td align="right">156</td>
+<td align="right">17</td>
+<td align="right">190</td>
+<td align="right">15</td>
+<td align="left">10:31</td>
+</tr>
+</tbody>
+</table>
+</div>
+<h2>South Central</h2>
+<div class="row">
+<button class="source R toggle btn btn-xs btn-primary">
+<span class="glyphicon glyphicon-chevron-down"></span> R source
+</button><pre style=""><code class="source r">knitr::kable(head(data_men_overall_southcentral, 3), row.names=FALSE)</code></pre>
+
+<table>
+<thead>
+<tr class="header">
+<th align="left">Athlete</th>
+<th align="right">overall_rank</th>
+<th align="right">overall_score</th>
+<th align="right">14_1_rank</th>
+<th align="right">14_1_score</th>
+<th align="right">14_2_rank</th>
+<th align="right">14_2_score</th>
+<th align="right">14_3_rank</th>
+<th align="right">14_3_score</th>
+<th align="right">14_4_rank</th>
+<th align="right">14_4_score</th>
+<th align="right">14_5_rank</th>
+<th align="left">14_5_score</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">Roy Gamboa</td>
+<td align="right">1</td>
+<td align="right">13</td>
+<td align="right">2</td>
+<td align="right">420</td>
+<td align="right">2</td>
+<td align="right">278</td>
+<td align="right">7</td>
+<td align="right">159</td>
+<td align="right">1</td>
+<td align="right">239</td>
+<td align="right">1</td>
+<td align="left">09:40</td>
+</tr>
+<tr class="even">
+<td align="left">Jason Hoggan</td>
+<td align="right">2</td>
+<td align="right">92</td>
+<td align="right">19</td>
+<td align="right">394</td>
+<td align="right">5</td>
+<td align="right">274</td>
+<td align="right">1</td>
+<td align="right">175</td>
+<td align="right">19</td>
+<td align="right">219</td>
+<td align="right">48</td>
+<td align="left">10:41</td>
+</tr>
+<tr class="odd">
+<td align="left">Braden Torrez</td>
+<td align="right">3</td>
+<td align="right">106</td>
+<td align="right">16</td>
+<td align="right">395</td>
+<td align="right">3</td>
+<td align="right">276</td>
+<td align="right">42</td>
+<td align="right">152</td>
+<td align="right">26</td>
+<td align="right">216</td>
+<td align="right">19</td>
+<td align="left">10:19</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="row">
+<button class="source R toggle btn btn-xs btn-primary">
+<span class="glyphicon glyphicon-chevron-down"></span> R source
+</button><pre style=""><code class="source r">knitr::kable(head(data_women_overall_southcentral, 3), row.names=FALSE)</code></pre>
+
+<table>
+<thead>
+<tr class="header">
+<th align="left">Athlete</th>
+<th align="right">overall_rank</th>
+<th align="right">overall_score</th>
+<th align="right">14_1_rank</th>
+<th align="right">14_1_score</th>
+<th align="right">14_2_rank</th>
+<th align="right">14_2_score</th>
+<th align="right">14_3_rank</th>
+<th align="right">14_3_score</th>
+<th align="right">14_4_rank</th>
+<th align="right">14_4_score</th>
+<th align="right">14_5_rank</th>
+<th align="left">14_5_score</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">Jessie Jo Young</td>
+<td align="right">1</td>
+<td align="right">37</td>
+<td align="right">9</td>
+<td align="right">382</td>
+<td align="right">6</td>
+<td align="right">259</td>
+<td align="right">3</td>
+<td align="right">173</td>
+<td align="right">5</td>
+<td align="right">194</td>
+<td align="right">14</td>
+<td align="left">10:38</td>
+</tr>
+<tr class="even">
+<td align="left">Cassidy Lance</td>
+<td align="right">2</td>
+<td align="right">64</td>
+<td align="right">17</td>
+<td align="right">360</td>
+<td align="right">1</td>
+<td align="right">309</td>
+<td align="right">37</td>
+<td align="right">153</td>
+<td align="right">8</td>
+<td align="right">194</td>
+<td align="right">1</td>
+<td align="left">09:40</td>
+</tr>
+<tr class="odd">
+<td align="left">Chely Galvan</td>
+<td align="right">3</td>
+<td align="right">68</td>
+<td align="right">17</td>
+<td align="right">360</td>
+<td align="right">21</td>
+<td align="right">204</td>
+<td align="right">6</td>
+<td align="right">167</td>
+<td align="right">1</td>
+<td align="right">197</td>
+<td align="right">23</td>
+<td align="left">10:58</td>
+</tr>
+</tbody>
+</table>
+</div>
+<h2>South East</h2>
+<div class="row">
+<button class="source R toggle btn btn-xs btn-primary">
+<span class="glyphicon glyphicon-chevron-down"></span> R source
+</button><pre style=""><code class="source r">knitr::kable(head(data_men_overall_southeast, 3), row.names=FALSE)</code></pre>
+
+<table>
+<thead>
+<tr class="header">
+<th align="left">Athlete</th>
+<th align="right">overall_rank</th>
+<th align="right">overall_score</th>
+<th align="right">14_1_rank</th>
+<th align="right">14_1_score</th>
+<th align="right">14_2_rank</th>
+<th align="right">14_2_score</th>
+<th align="right">14_3_rank</th>
+<th align="right">14_3_score</th>
+<th align="right">14_4_rank</th>
+<th align="right">14_4_score</th>
+<th align="right">14_5_rank</th>
+<th align="left">14_5_score</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">Julian Serna</td>
+<td align="right">1</td>
+<td align="right">44</td>
+<td align="right">17</td>
+<td align="right">396</td>
+<td align="right">7</td>
+<td align="right">310</td>
+<td align="right">7</td>
+<td align="right">161</td>
+<td align="right">5</td>
+<td align="right">244</td>
+<td align="right">8</td>
+<td align="left">09:22</td>
+</tr>
+<tr class="even">
+<td align="left">Noah Ohlsen</td>
+<td align="right">2</td>
+<td align="right">50</td>
+<td align="right">43</td>
+<td align="right">386</td>
+<td align="right">2</td>
+<td align="right">353</td>
+<td align="right">2</td>
+<td align="right">175</td>
+<td align="right">2</td>
+<td align="right">256</td>
+<td align="right">1</td>
+<td align="left">08:45</td>
+</tr>
+<tr class="odd">
+<td align="left">Travis Mayer</td>
+<td align="right">3</td>
+<td align="right">53</td>
+<td align="right">26</td>
+<td align="right">393</td>
+<td align="right">3</td>
+<td align="right">328</td>
+<td align="right">3</td>
+<td align="right">175</td>
+<td align="right">1</td>
+<td align="right">258</td>
+<td align="right">20</td>
+<td align="left">09:57</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="row">
+<button class="source R toggle btn btn-xs btn-primary">
+<span class="glyphicon glyphicon-chevron-down"></span> R source
+</button><pre style=""><code class="source r">knitr::kable(head(data_women_overall_southeast, 3), row.names=FALSE)</code></pre>
+
+<table>
+<thead>
+<tr class="header">
+<th align="left">Athlete</th>
+<th align="right">overall_rank</th>
+<th align="right">overall_score</th>
+<th align="right">14_1_rank</th>
+<th align="right">14_1_score</th>
+<th align="right">14_2_rank</th>
+<th align="right">14_2_score</th>
+<th align="right">14_3_rank</th>
+<th align="right">14_3_score</th>
+<th align="right">14_4_rank</th>
+<th align="right">14_4_score</th>
+<th align="right">14_5_rank</th>
+<th align="left">14_5_score</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">Emily Bridgers</td>
+<td align="right">1</td>
+<td align="right">16</td>
+<td align="right">1</td>
+<td align="right">409</td>
+<td align="right">2</td>
+<td align="right">337</td>
+<td align="right">11</td>
+<td align="right">159</td>
+<td align="right">1</td>
+<td align="right">221</td>
+<td align="right">1</td>
+<td align="left">08:47</td>
+</tr>
+<tr class="even">
+<td align="left">Talayna Fortunato</td>
+<td align="right">2</td>
+<td align="right">75</td>
+<td align="right">6</td>
+<td align="right">390</td>
+<td align="right">4</td>
+<td align="right">320</td>
+<td align="right">34</td>
+<td align="right">153</td>
+<td align="right">3</td>
+<td align="right">199</td>
+<td align="right">28</td>
+<td align="left">10:51</td>
+</tr>
+<tr class="odd">
+<td align="left">Lauren Brooks</td>
+<td align="right">3</td>
+<td align="right">110</td>
+<td align="right">82</td>
+<td align="right">346</td>
+<td align="right">7</td>
+<td align="right">251</td>
+<td align="right">14</td>
+<td align="right">158</td>
+<td align="right">4</td>
+<td align="right">196</td>
+<td align="right">3</td>
+<td align="left">09:20</td>
+</tr>
+</tbody>
+</table>
+</div>
+<h2>Southern California</h2>
+<div class="row">
+<button class="source R toggle btn btn-xs btn-primary">
+<span class="glyphicon glyphicon-chevron-down"></span> R source
+</button><pre style=""><code class="source r">knitr::kable(head(data_men_overall_southerncalifornia, 3), row.names=FALSE)</code></pre>
+
+<table>
+<thead>
+<tr class="header">
+<th align="left">Athlete</th>
+<th align="right">overall_rank</th>
+<th align="right">overall_score</th>
+<th align="right">14_1_rank</th>
+<th align="right">14_1_score</th>
+<th align="right">14_2_rank</th>
+<th align="right">14_2_score</th>
+<th align="right">14_3_rank</th>
+<th align="right">14_3_score</th>
+<th align="right">14_4_rank</th>
+<th align="right">14_4_score</th>
+<th align="right">14_5_rank</th>
+<th align="left">14_5_score</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">Dan Bailey</td>
+<td align="right">1</td>
+<td align="right">14</td>
+<td align="right">1</td>
+<td align="right">461</td>
+<td align="right">6</td>
+<td align="right">326</td>
+<td align="right">1</td>
+<td align="right">175</td>
+<td align="right">1</td>
+<td align="right">252</td>
+<td align="right">5</td>
+<td align="left">09:18</td>
+</tr>
+<tr class="even">
+<td align="left">Ryan Fischer</td>
+<td align="right">2</td>
+<td align="right">49</td>
+<td align="right">16</td>
+<td align="right">396</td>
+<td align="right">13</td>
+<td align="right">278</td>
+<td align="right">5</td>
+<td align="right">164</td>
+<td align="right">13</td>
+<td align="right">232</td>
+<td align="right">2</td>
+<td align="left">08:45</td>
+</tr>
+<tr class="odd">
+<td align="left">Rasmus Wisbech Andersen</td>
+<td align="right">3</td>
+<td align="right">50</td>
+<td align="right">9</td>
+<td align="right">400</td>
+<td align="right">3</td>
+<td align="right">338</td>
+<td align="right">20</td>
+<td align="right">155</td>
+<td align="right">6</td>
+<td align="right">244</td>
+<td align="right">12</td>
+<td align="left">09:49</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="row">
+<button class="source R toggle btn btn-xs btn-primary">
+<span class="glyphicon glyphicon-chevron-down"></span> R source
+</button><pre style=""><code class="source r">knitr::kable(head(data_women_overall_southerncalifornia, 3), row.names=FALSE)</code></pre>
+
+<table>
+<thead>
+<tr class="header">
+<th align="left">Athlete</th>
+<th align="right">overall_rank</th>
+<th align="right">overall_score</th>
+<th align="right">14_1_rank</th>
+<th align="right">14_1_score</th>
+<th align="right">14_2_rank</th>
+<th align="right">14_2_score</th>
+<th align="right">14_3_rank</th>
+<th align="right">14_3_score</th>
+<th align="right">14_4_rank</th>
+<th align="right">14_4_score</th>
+<th align="right">14_5_rank</th>
+<th align="left">14_5_score</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">Valerie Voboril</td>
+<td align="right">1</td>
+<td align="right">30</td>
+<td align="right">6</td>
+<td align="right">399</td>
+<td align="right">3</td>
+<td align="right">332</td>
+<td align="right">9</td>
+<td align="right">175</td>
+<td align="right">9</td>
+<td align="right">195</td>
+<td align="right">3</td>
+<td align="left">09:35</td>
+</tr>
+<tr class="even">
+<td align="left">Chelsey Hughes</td>
+<td align="right">2</td>
+<td align="right">35</td>
+<td align="right">1</td>
+<td align="right">417</td>
+<td align="right">1</td>
+<td align="right">334</td>
+<td align="right">23</td>
+<td align="right">157</td>
+<td align="right">5</td>
+<td align="right">196</td>
+<td align="right">5</td>
+<td align="left">09:43</td>
+</tr>
+<tr class="odd">
+<td align="left">Danielle Hale</td>
+<td align="right">3</td>
+<td align="right">41</td>
+<td align="right">2</td>
+<td align="right">405</td>
+<td align="right">10</td>
+<td align="right">256</td>
+<td align="right">11</td>
+<td align="right">175</td>
+<td align="right">2</td>
+<td align="right">199</td>
+<td align="right">16</td>
+<td align="left">10:38</td>
+</tr>
+</tbody>
+</table>
+</div>
+<h2>South West</h2>
+<div class="row">
+<button class="source R toggle btn btn-xs btn-primary">
+<span class="glyphicon glyphicon-chevron-down"></span> R source
+</button><pre style=""><code class="source r">knitr::kable(head(data_men_overall_southwest, 3), row.names=FALSE)</code></pre>
+
+<table>
+<thead>
+<tr class="header">
+<th align="left">Athlete</th>
+<th align="right">overall_rank</th>
+<th align="right">overall_score</th>
+<th align="right">14_1_rank</th>
+<th align="right">14_1_score</th>
+<th align="right">14_2_rank</th>
+<th align="right">14_2_score</th>
+<th align="right">14_3_rank</th>
+<th align="right">14_3_score</th>
+<th align="right">14_4_rank</th>
+<th align="right">14_4_score</th>
+<th align="right">14_5_rank</th>
+<th align="left">14_5_score</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">Tommy Hackenbruck</td>
+<td align="right">1</td>
+<td align="right">19</td>
+<td align="right">5</td>
+<td align="right">402</td>
+<td align="right">6</td>
+<td align="right">276</td>
+<td align="right">3</td>
+<td align="right">175</td>
+<td align="right">3</td>
+<td align="right">237</td>
+<td align="right">2</td>
+<td align="left">09:42</td>
+</tr>
+<tr class="even">
+<td align="left">Brennan Fjord</td>
+<td align="right">2</td>
+<td align="right">26</td>
+<td align="right">2</td>
+<td align="right">435</td>
+<td align="right">5</td>
+<td align="right">278</td>
+<td align="right">9</td>
+<td align="right">158</td>
+<td align="right">1</td>
+<td align="right">241</td>
+<td align="right">9</td>
+<td align="left">10:03</td>
+</tr>
+<tr class="odd">
+<td align="left">Adrian Conway</td>
+<td align="right">3</td>
+<td align="right">40</td>
+<td align="right">3</td>
+<td align="right">430</td>
+<td align="right">13</td>
+<td align="right">268</td>
+<td align="right">2</td>
+<td align="right">175</td>
+<td align="right">7</td>
+<td align="right">225</td>
+<td align="right">15</td>
+<td align="left">10:20</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="row">
+<button class="source R toggle btn btn-xs btn-primary">
+<span class="glyphicon glyphicon-chevron-down"></span> R source
+</button><pre style=""><code class="source r">knitr::kable(head(data_women_overall_southwest, 3), row.names=FALSE)</code></pre>
+
+<table>
+<thead>
+<tr class="header">
+<th align="left">Athlete</th>
+<th align="right">overall_rank</th>
+<th align="right">overall_score</th>
+<th align="right">14_1_rank</th>
+<th align="right">14_1_score</th>
+<th align="right">14_2_rank</th>
+<th align="right">14_2_score</th>
+<th align="right">14_3_rank</th>
+<th align="right">14_3_score</th>
+<th align="right">14_4_rank</th>
+<th align="right">14_4_score</th>
+<th align="right">14_5_rank</th>
+<th align="left">14_5_score</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">Mandi Janowitz</td>
+<td align="right">1</td>
+<td align="right">18</td>
+<td align="right">2</td>
+<td align="right">402</td>
+<td align="right">3</td>
+<td align="right">264</td>
+<td align="right">1</td>
+<td align="right">175</td>
+<td align="right">1</td>
+<td align="right">202</td>
+<td align="right">11</td>
+<td align="left">10:44</td>
+</tr>
+<tr class="even">
+<td align="left">Tiffany Hendrickson</td>
+<td align="right">2</td>
+<td align="right">61</td>
+<td align="right">19</td>
+<td align="right">376</td>
+<td align="right">1</td>
+<td align="right">346</td>
+<td align="right">36</td>
+<td align="right">155</td>
+<td align="right">4</td>
+<td align="right">197</td>
+<td align="right">1</td>
+<td align="left">09:42</td>
+</tr>
+<tr class="odd">
+<td align="left">Jasmine Dever</td>
+<td align="right">3</td>
+<td align="right">69</td>
+<td align="right">1</td>
+<td align="right">441</td>
+<td align="right">16</td>
+<td align="right">206</td>
+<td align="right">3</td>
+<td align="right">175</td>
+<td align="right">29</td>
+<td align="right">189</td>
+<td align="right">20</td>
+<td align="left">11:08</td>
 </tr>
 </tbody>
 </table>
