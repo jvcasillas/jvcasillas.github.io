@@ -17,5 +17,124 @@ source('stats/15_lb_scrape_southeast.R')
 source('stats/16_lb_scrape_southerncalifornia.R')
 source('stats/17_lb_scrape_southwest.R')
 
+# Men
+data_men_overall_africa["region"] <- "africa"
+data_men_overall_asia["region"] <- "asia"
+data_men_overall_australia["region"] <- "australia"
+data_men_overall_canadaeast["region"] <- "canadaeast"
+data_men_overall_canadawest["region"] <- "canadawest"
+data_men_overall_centraleast["region"] <- "centraleast"
+data_men_overall_europe["region"] <- "europe"
+data_men_overall_latinamerica["region"] <- "latinamerica"
+data_men_overall_midatlantic["region"] <- "midatlantic"
+data_men_overall_northcentral["region"] <- "northcentral"
+data_men_overall_northeast["region"] <- "northeast"
+data_men_overall_northerncalifornia["region"] <- "northerncalifornia"
+data_men_overall_northwest["region"] <- "northwest"
+data_men_overall_southcentral["region"] <- "southcentral"
+data_men_overall_southeast["region"] <- "southeast"
+data_men_overall_southerncalifornia["region"] <- "southerncalifor"
+data_men_overall_southwest["region"] <- "southwest"
 
-a <- 2 + 2
+data_men_overall_africa["gender"] <- "m"
+data_men_overall_asia["gender"] <- "m"
+data_men_overall_australia["gender"] <- "m"
+data_men_overall_canadaeast["gender"] <- "m"
+data_men_overall_canadawest["gender"] <- "m"
+data_men_overall_centraleast["gender"] <- "m"
+data_men_overall_europe["gender"] <- "m"
+data_men_overall_latinamerica["gender"] <- "m"
+data_men_overall_midatlantic["gender"] <- "m"
+data_men_overall_northcentral["gender"] <- "m"
+data_men_overall_northeast["gender"] <- "m"
+data_men_overall_northerncalifornia["gender"] <- "m"
+data_men_overall_northwest["gender"] <- "m"
+data_men_overall_southcentral["gender"] <- "m"
+data_men_overall_southeast["gender"] <- "m"
+data_men_overall_southerncalifornia["gender"] <- "m"
+data_men_overall_southwest["gender"] <- "m"
+
+
+# Women
+data_women_overall_africa["region"] <- "africa"
+data_women_overall_asia["region"] <- "asia"
+data_women_overall_australia["region"] <- "australia"
+data_women_overall_canadaeast["region"] <- "canadaeast"
+data_women_overall_canadawest["region"] <- "canadawest"
+data_women_overall_centraleast["region"] <- "centraleast"
+data_women_overall_europe["region"] <- "europe"
+data_women_overall_latinamerica["region"] <- "latinamerica"
+data_women_overall_midatlantic["region"] <- "midatlantic"
+data_women_overall_northcentral["region"] <- "northcentral"
+data_women_overall_northeast["region"] <- "northeast"
+data_women_overall_northerncalifornia["region"] <- "northerncalifornia"
+data_women_overall_northwest["region"] <- "northwest"
+data_women_overall_southcentral["region"] <- "southcentral"
+data_women_overall_southeast["region"] <- "southeast"
+data_women_overall_southerncalifornia["region"] <- "southerncalifornia"
+data_women_overall_southwest["region"] <- "southwest"
+
+data_women_overall_africa["gender"] <- "f"
+data_women_overall_asia["gender"] <- "f"
+data_women_overall_australia["gender"] <- "f"
+data_women_overall_canadaeast["gender"] <- "f"
+data_women_overall_canadawest["gender"] <- "f"
+data_women_overall_centraleast["gender"] <- "f"
+data_women_overall_europe["gender"] <- "f"
+data_women_overall_latinamerica["gender"] <- "f"
+data_women_overall_midatlantic["gender"] <- "f"
+data_women_overall_northcentral["gender"] <- "f"
+data_women_overall_northeast["gender"] <- "f"
+data_women_overall_northerncalifornia["gender"] <- "f"
+data_women_overall_northwest["gender"] <- "f"
+data_women_overall_southcentral["gender"] <- "f"
+data_women_overall_southeast["gender"] <- "f"
+data_women_overall_southerncalifornia["gender"] <- "f"
+data_women_overall_southwest["gender"] <- "f"
+
+# write tables
+write.table(data_men_overall_africa, "assets/data_men_overall_africa.csv", row.names=F, quote=F, sep=",")
+write.table(data_men_overall_africa, "assets/data_men_overall_africa.csv", row.names=F, quote=F, sep=",")
+write.table(data_men_overall_asia, "assets/data_men_overall_asia.csv", row.names=F, quote=F, sep=",")
+write.table(data_men_overall_australia, "assets/data_men_overall_australia.csv", row.names=F, quote=F, sep=",")
+write.table(data_men_overall_canadaeast, "assets/data_men_overall_canadaeast.csv", row.names=F, quote=F, sep=",")
+write.table(data_men_overall_canadawest, "assets/data_men_overall_canadawest.csv", row.names=F, quote=F, sep=",")
+write.table(data_men_overall_centraleast, "assets/data_men_overall_centraleast.csv", row.names=F, quote=F, sep=",")
+write.table(data_men_overall_europe, "assets/data_men_overall_europe.csv", row.names=F, quote=F, sep=",")
+write.table(data_men_overall_latinamerica, "assets/data_men_overall_latinamerica.csv", row.names=F, quote=F, sep=",")
+write.table(data_men_overall_midatlantic, "assets/data_men_overall_midatlantic.csv", row.names=F, quote=F, sep=",")
+write.table(data_men_overall_northcentral, "assets/data_men_overall_northcentral.csv", row.names=F, quote=F, sep=",")
+write.table(data_men_overall_northeast, "assets/data_men_overall_northeast.csv", row.names=F, quote=F, sep=",")
+write.table(data_men_overall_northerncalifornia, "assets/data_men_overall_northerncalifornia.csv", row.names=F, quote=F, sep=",")
+write.table(data_men_overall_northwest, "assets/data_men_overall_northwest.csv", row.names=F, quote=F, sep=",")
+write.table(data_men_overall_southcentral, "assets/data_men_overall_southcentral.csv", row.names=F, quote=F, sep=",")
+write.table(data_men_overall_southeast, "assets/data_men_overall_southeast.csv", row.names=F, quote=F, sep=",")
+write.table(data_men_overall_southerncalifornia, "assets/data_men_overall_southerncalifornia.csv", row.names=F, quote=F, sep=",")
+write.table(data_men_overall_southwest, "assets/data_men_overall_southwest.csv", row.names=F, quote=F, sep=",")
+
+write.table(data_women_overall_africa, "assets/data_women_overall_africa.csv", row.names=F, quote=F, sep=",")
+write.table(data_women_overall_africa, "assets/data_women_overall_africa.csv", row.names=F, quote=F, sep=",")
+write.table(data_women_overall_asia, "assets/data_women_overall_asia.csv", row.names=F, quote=F, sep=",")
+write.table(data_women_overall_australia, "assets/data_women_overall_australia.csv", row.names=F, quote=F, sep=",")
+write.table(data_women_overall_canadaeast, "assets/data_women_overall_canadaeast.csv", row.names=F, quote=F, sep=",")
+write.table(data_women_overall_canadawest, "assets/data_women_overall_canadawest.csv", row.names=F, quote=F, sep=",")
+write.table(data_women_overall_centraleast, "assets/data_women_overall_centraleast.csv", row.names=F, quote=F, sep=",")
+write.table(data_women_overall_europe, "assets/data_women_overall_europe.csv", row.names=F, quote=F, sep=",")
+write.table(data_women_overall_latinamerica, "assets/data_women_overall_latinamerica.csv", row.names=F, quote=F, sep=",")
+write.table(data_women_overall_midatlantic, "assets/data_women_overall_midatlantic.csv", row.names=F, quote=F, sep=",")
+write.table(data_women_overall_northcentral, "assets/data_women_overall_northcentral.csv", row.names=F, quote=F, sep=",")
+write.table(data_women_overall_northeast, "assets/data_women_overall_northeast.csv", row.names=F, quote=F, sep=",")
+write.table(data_women_overall_northerncalifornia, "assets/data_women_overall_northerncalifornia.csv", row.names=F, quote=F, sep=",")
+write.table(data_women_overall_northwest, "assets/data_women_overall_northwest.csv", row.names=F, quote=F, sep=",")
+write.table(data_women_overall_southcentral, "assets/data_women_overall_southcentral.csv", row.names=F, quote=F, sep=",")
+write.table(data_women_overall_southeast, "assets/data_women_overall_southeast.csv", row.names=F, quote=F, sep=",")
+write.table(data_women_overall_southerncalifornia, "assets/data_women_overall_southerncalifornia.csv", row.names=F, quote=F, sep=",")
+write.table(data_women_overall_southwest, "assets/data_women_overall_southwest.csv", row.names=F, quote=F, sep=",")
+
+
+# Combine files vertically into large data frame
+temp <- list.files(path="assets/", full.names=TRUE)
+myfiles = lapply(temp, read.delim,sep = ",")
+df <- do.call("rbind",myfiles)
+
+write.table(df, "stats/open_results.csv", row.names=F, quote=F, sep=",")
