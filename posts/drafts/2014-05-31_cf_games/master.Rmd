@@ -3,7 +3,7 @@ author: "Joseph V. Casillas"
 output:
   knitrBootstrap::bootstrap_document:
     title: "cf games"
-    theme: default
+    theme: united
     highlight: sunburst
     theme.chooser: TRUE
     highlight.chooser: TRUE
