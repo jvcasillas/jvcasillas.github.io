@@ -37,189 +37,157 @@ knitr::kable(head(data_women_overall, 60), row.names=FALSE)
 
 # Results - by region
 
-```{r, external-code-x, cache=FALSE, results='hide',echo=FALSE}
+```{r, external-code-x, cache=FALSE, results='hide',echo=FALSE, warning=FALSE}
 source('stats/combine_all_regions.R')
 ```
 
 ## Africa
 
-```{r, results='asis'}
-knitr::kable(head(data_men_overall_africa, 3), row.names=FALSE)
-```
-
-```{r, results='asis'}
-knitr::kable(head(data_women_overall_africa, 3), row.names=FALSE)
-```
+| Workout    | 14.1 | 14.2 | 14.3 | 14.4 | 14.5 |
+|:-----------|:-----|:-----|:-----|:-----|:-----|
+| Men | `r mean(data_men_overall_africa$'14_1_score')` (`r sd(data_men_overall_africa$'14_1_score')`) | `r mean(data_men_overall_africa$'14_2_score')` (`r sd(data_men_overall_africa$'14_2_score')`) | `r mean(data_men_overall_africa$'14_3_score')` (`r sd(data_men_overall_africa$'14_3_score')`) | `r mean(data_men_overall_africa$'14_4_score')` (`r sd(data_men_overall_africa$'14_4_score')`) | NA |
+| Women | `r mean(data_women_overall_africa$'14_1_score')` (`r sd(data_women_overall_africa$'14_1_score')`) | `r mean(data_women_overall_africa$'14_2_score')` (`r sd(data_women_overall_africa$'14_2_score')`) | `r mean(data_women_overall_africa$'14_3_score')` (`r sd(data_women_overall_africa$'14_3_score')`) | `r mean(data_women_overall_africa$'14_4_score')` (`r sd(data_women_overall_africa$'14_4_score')`) | NA |
 
 ## Asia
 
-```{r, results='asis'}
-knitr::kable(head(data_men_overall_asia, 3), row.names=FALSE)
-```
-
-```{r, results='asis'}
-knitr::kable(head(data_women_overall_asia, 3), row.names=FALSE)
-```
+| Workout    | 14.1 | 14.2 | 14.3 | 14.4 | 14.5 |
+|:-----------|:-----|:-----|:-----|:-----|:-----|
+| Men | `r mean(data_men_overall_asia$'14_1_score')` (`r sd(data_men_overall_asia$'14_1_score')`) | `r mean(data_men_overall_asia$'14_2_score')` (`r sd(data_men_overall_asia$'14_2_score')`) | `r mean(data_men_overall_asia$'14_3_score')` (`r sd(data_men_overall_asia$'14_3_score')`) | `r mean(data_men_overall_asia$'14_4_score')` (`r sd(data_men_overall_asia$'14_4_score')`) | NA |
+| Women | `r mean(data_women_overall_asia$'14_1_score')` (`r sd(data_women_overall_asia$'14_1_score')`) | `r mean(data_women_overall_asia$'14_2_score')` (`r sd(data_women_overall_asia$'14_2_score')`) | `r mean(data_women_overall_asia$'14_3_score')` (`r sd(data_women_overall_asia$'14_3_score')`) | `r mean(data_women_overall_asia$'14_4_score')` (`r sd(data_women_overall_asia$'14_4_score')`) | NA |
 
 ## Australia
 
-```{r, results='asis'}
-knitr::kable(head(data_men_overall_australia, 3), row.names=FALSE)
-```
-
-```{r, results='asis'}
-knitr::kable(head(data_women_overall_australia, 3), row.names=FALSE)
-```
+| Workout    | 14.1 | 14.2 | 14.3 | 14.4 | 14.5 |
+|:-----------|:-----|:-----|:-----|:-----|:-----|
+| Men | `r mean(data_men_overall_australia$'14_1_score')` (`r sd(data_men_overall_australia$'14_1_score')`) | `r mean(data_men_overall_australia$'14_2_score')` (`r sd(data_men_overall_australia$'14_2_score')`) | `r mean(data_men_overall_australia$'14_3_score')` (`r sd(data_men_overall_australia$'14_3_score')`) | `r mean(data_men_overall_australia$'14_4_score')` (`r sd(data_men_overall_australia$'14_4_score')`) | NA |
+| Women | `r mean(data_women_overall_australia$'14_1_score')` (`r sd(data_women_overall_australia$'14_1_score')`) | `r mean(data_women_overall_australia$'14_2_score')` (`r sd(data_women_overall_australia$'14_2_score')`) | `r mean(data_women_overall_australia$'14_3_score')` (`r sd(data_women_overall_australia$'14_3_score')`) | `r mean(data_women_overall_australia$'14_4_score')` (`r sd(data_women_overall_australia$'14_4_score')`) | NA |
 
 ## Canada East
 
-```{r, results='asis'}
-knitr::kable(head(data_men_overall_canadaeast, 3), row.names=FALSE)
-```
+| Workout    | 14.1 | 14.2 | 14.3 | 14.4 | 14.5 |
+|:-----------|:-----|:-----|:-----|:-----|:-----|
+| Men | `r mean(data_men_overall_canadaeast$'14_1_score')` (`r sd(data_men_overall_canadaeast$'14_1_score')`) | `r mean(data_men_overall_canadaeast$'14_2_score')` (`r sd(data_men_overall_canadaeast$'14_2_score')`) | `r mean(data_men_overall_canadaeast$'14_3_score')` (`r sd(data_men_overall_canadaeast$'14_3_score')`) | `r mean(data_men_overall_canadaeast$'14_4_score')` (`r sd(data_men_overall_canadaeast$'14_4_score')`) | NA |
+| Women | `r mean(data_women_overall_canadaeast$'14_1_score')` (`r sd(data_women_overall_canadaeast$'14_1_score')`) | `r mean(data_women_overall_canadaeast$'14_2_score')` (`r sd(data_women_overall_canadaeast$'14_2_score')`) | `r mean(data_women_overall_canadaeast$'14_3_score')` (`r sd(data_women_overall_canadaeast$'14_3_score')`) | `r mean(data_women_overall_canadaeast$'14_4_score')` (`r sd(data_women_overall_canadaeast$'14_4_score')`) | NA |
 
-```{r, results='asis'}
-knitr::kable(head(data_women_overall_canadaeast, 3), row.names=FALSE)
-```
 
 ## Canada West
 
-```{r, results='asis'}
-knitr::kable(head(data_men_overall_canadawest, 3), row.names=FALSE)
-```
+| Workout    | 14.1 | 14.2 | 14.3 | 14.4 | 14.5 |
+|:-----------|:-----|:-----|:-----|:-----|:-----|
+| Men | `r mean(data_men_overall_canadawest$'14_1_score')` (`r sd(data_men_overall_canadawest$'14_1_score')`) | `r mean(data_men_overall_canadawest$'14_2_score')` (`r sd(data_men_overall_canadawest$'14_2_score')`) | `r mean(data_men_overall_canadawest$'14_3_score')` (`r sd(data_men_overall_canadawest$'14_3_score')`) | `r mean(data_men_overall_canadawest$'14_4_score')` (`r sd(data_men_overall_canadawest$'14_4_score')`) | NA |
+| Women | `r mean(data_women_overall_canadawest$'14_1_score')` (`r sd(data_women_overall_canadawest$'14_1_score')`) | `r mean(data_women_overall_canadawest$'14_2_score')` (`r sd(data_women_overall_canadawest$'14_2_score')`) | `r mean(data_women_overall_canadawest$'14_3_score')` (`r sd(data_women_overall_canadawest$'14_3_score')`) | `r mean(data_women_overall_canadawest$'14_4_score')` (`r sd(data_women_overall_canadawest$'14_4_score')`) | NA |
 
-```{r, results='asis'}
-knitr::kable(head(data_women_overall_canadawest, 3), row.names=FALSE)
-```
 
 ## Central East
 
-```{r, results='asis'}
-knitr::kable(head(data_men_overall_centraleast, 3), row.names=FALSE)
-```
+| Workout    | 14.1 | 14.2 | 14.3 | 14.4 | 14.5 |
+|:-----------|:-----|:-----|:-----|:-----|:-----|
+| Men | `r mean(data_men_overall_centraleast$'14_1_score')` (`r sd(data_men_overall_centraleast$'14_1_score')`) | `r mean(data_men_overall_centraleast$'14_2_score')` (`r sd(data_men_overall_centraleast$'14_2_score')`) | `r mean(data_men_overall_centraleast$'14_3_score')` (`r sd(data_men_overall_centraleast$'14_3_score')`) | `r mean(data_men_overall_centraleast$'14_4_score')` (`r sd(data_men_overall_centraleast$'14_4_score')`) | NA |
+| Women | `r mean(data_women_overall_centraleast$'14_1_score')` (`r sd(data_women_overall_centraleast$'14_1_score')`) | `r mean(data_women_overall_centraleast$'14_2_score')` (`r sd(data_women_overall_centraleast$'14_2_score')`) | `r mean(data_women_overall_centraleast$'14_3_score')` (`r sd(data_women_overall_centraleast$'14_3_score')`) | `r mean(data_women_overall_centraleast$'14_4_score')` (`r sd(data_women_overall_centraleast$'14_4_score')`) | NA |
 
-```{r, results='asis'}
-knitr::kable(head(data_women_overall_centraleast, 3), row.names=FALSE)
-```
 
 ## Europe
 
-```{r, results='asis'}
-knitr::kable(head(data_men_overall_europe, 3), row.names=FALSE)
-```
+| Workout    | 14.1 | 14.2 | 14.3 | 14.4 | 14.5 |
+|:-----------|:-----|:-----|:-----|:-----|:-----|
+| Men | `r mean(data_men_overall_europe$'14_1_score')` (`r sd(data_men_overall_europe$'14_1_score')`) | `r mean(data_men_overall_europe$'14_2_score')` (`r sd(data_men_overall_europe$'14_2_score')`) | `r mean(data_men_overall_europe$'14_3_score')` (`r sd(data_men_overall_europe$'14_3_score')`) | `r mean(data_men_overall_europe$'14_4_score')` (`r sd(data_men_overall_europe$'14_4_score')`) | NA |
+| Women | `r mean(data_women_overall_europe$'14_1_score')` (`r sd(data_women_overall_europe$'14_1_score')`) | `r mean(data_women_overall_europe$'14_2_score')` (`r sd(data_women_overall_europe$'14_2_score')`) | `r mean(data_women_overall_europe$'14_3_score')` (`r sd(data_women_overall_europe$'14_3_score')`) | `r mean(data_women_overall_europe$'14_4_score')` (`r sd(data_women_overall_europe$'14_4_score')`) | NA |
 
-```{r, results='asis'}
-knitr::kable(head(data_women_overall_europe, 3), row.names=FALSE)
-```
 
 ## Latin America
 
-```{r, results='asis'}
-knitr::kable(head(data_men_overall_latinamerica, 3), row.names=FALSE)
-```
+| Workout    | 14.1 | 14.2 | 14.3 | 14.4 | 14.5 |
+|:-----------|:-----|:-----|:-----|:-----|:-----|
+| Men | `r mean(data_men_overall_latinamerica$'14_1_score')` (`r sd(data_men_overall_latinamerica$'14_1_score')`) | `r mean(data_men_overall_latinamerica$'14_2_score')` (`r sd(data_men_overall_latinamerica$'14_2_score')`) | `r mean(data_men_overall_latinamerica$'14_3_score')` (`r sd(data_men_overall_latinamerica$'14_3_score')`) | `r mean(data_men_overall_latinamerica$'14_4_score')` (`r sd(data_men_overall_latinamerica$'14_4_score')`) | NA |
+| Women | `r mean(data_women_overall_latinamerica$'14_1_score')` (`r sd(data_women_overall_latinamerica$'14_1_score')`) | `r mean(data_women_overall_latinamerica$'14_2_score')` (`r sd(data_women_overall_latinamerica$'14_2_score')`) | `r mean(data_women_overall_latinamerica$'14_3_score')` (`r sd(data_women_overall_latinamerica$'14_3_score')`) | `r mean(data_women_overall_latinamerica$'14_4_score')` (`r sd(data_women_overall_latinamerica$'14_4_score')`) | NA |
 
-```{r, results='asis'}
-knitr::kable(head(data_women_overall_latinamerica, 3), row.names=FALSE)
-```
 
 ## Mid Atlantic
 
-```{r, results='asis'}
-knitr::kable(head(data_men_overall_midatlantic, 3), row.names=FALSE)
-```
+| Workout    | 14.1 | 14.2 | 14.3 | 14.4 | 14.5 |
+|:-----------|:-----|:-----|:-----|:-----|:-----|
+| Men | `r mean(data_men_overall_midatlantic$'14_1_score')` (`r sd(data_men_overall_midatlantic$'14_1_score')`) | `r mean(data_men_overall_midatlantic$'14_2_score')` (`r sd(data_men_overall_midatlantic$'14_2_score')`) | `r mean(data_men_overall_midatlantic$'14_3_score')` (`r sd(data_men_overall_midatlantic$'14_3_score')`) | `r mean(data_men_overall_midatlantic$'14_4_score')` (`r sd(data_men_overall_midatlantic$'14_4_score')`) | NA |
+| Women | `r mean(data_women_overall_midatlantic$'14_1_score')` (`r sd(data_women_overall_midatlantic$'14_1_score')`) | `r mean(data_women_overall_midatlantic$'14_2_score')` (`r sd(data_women_overall_midatlantic$'14_2_score')`) | `r mean(data_women_overall_midatlantic$'14_3_score')` (`r sd(data_women_overall_midatlantic$'14_3_score')`) | `r mean(data_women_overall_midatlantic$'14_4_score')` (`r sd(data_women_overall_midatlantic$'14_4_score')`) | NA |
 
-```{r, results='asis'}
-knitr::kable(head(data_women_overall_midatlantic, 3), row.names=FALSE)
-```
 
 ## North Central
 
-```{r, results='asis'}
-knitr::kable(head(data_men_overall_northcentral, 3), row.names=FALSE)
-```
+| Workout    | 14.1 | 14.2 | 14.3 | 14.4 | 14.5 |
+|:-----------|:-----|:-----|:-----|:-----|:-----|
+| Men | `r mean(data_men_overall_northcentral$'14_1_score')` (`r sd(data_men_overall_northcentral$'14_1_score')`) | `r mean(data_men_overall_northcentral$'14_2_score')` (`r sd(data_men_overall_northcentral$'14_2_score')`) | `r mean(data_men_overall_northcentral$'14_3_score')` (`r sd(data_men_overall_northcentral$'14_3_score')`) | `r mean(data_men_overall_northcentral$'14_4_score')` (`r sd(data_men_overall_northcentral$'14_4_score')`) | NA |
+| Women | `r mean(data_women_overall_northcentral$'14_1_score')` (`r sd(data_women_overall_northcentral$'14_1_score')`) | `r mean(data_women_overall_northcentral$'14_2_score')` (`r sd(data_women_overall_northcentral$'14_2_score')`) | `r mean(data_women_overall_northcentral$'14_3_score')` (`r sd(data_women_overall_northcentral$'14_3_score')`) | `r mean(data_women_overall_northcentral$'14_4_score')` (`r sd(data_women_overall_northcentral$'14_4_score')`) | NA |
 
-```{r, results='asis'}
-knitr::kable(head(data_women_overall_northcentral, 3), row.names=FALSE)
-```
 
 ## North East
 
-```{r, results='asis'}
-knitr::kable(head(data_men_overall_northeast, 3), row.names=FALSE)
-```
+| Workout    | 14.1 | 14.2 | 14.3 | 14.4 | 14.5 |
+|:-----------|:-----|:-----|:-----|:-----|:-----|
+| Men | `r mean(data_men_overall_northeast$'14_1_score')` (`r sd(data_men_overall_northeast$'14_1_score')`) | `r mean(data_men_overall_northeast$'14_2_score')` (`r sd(data_men_overall_northeast$'14_2_score')`) | `r mean(data_men_overall_northeast$'14_3_score')` (`r sd(data_men_overall_northeast$'14_3_score')`) | `r mean(data_men_overall_northeast$'14_4_score')` (`r sd(data_men_overall_northeast$'14_4_score')`) | NA |
+| Women | `r mean(data_women_overall_northeast$'14_1_score')` (`r sd(data_women_overall_northeast$'14_1_score')`) | `r mean(data_women_overall_northeast$'14_2_score')` (`r sd(data_women_overall_northeast$'14_2_score')`) | `r mean(data_women_overall_northeast$'14_3_score')` (`r sd(data_women_overall_northeast$'14_3_score')`) | `r mean(data_women_overall_northeast$'14_4_score')` (`r sd(data_women_overall_northeast$'14_4_score')`) | NA |
 
-```{r, results='asis'}
-knitr::kable(head(data_women_overall_northeast, 3), row.names=FALSE)
-```
 
 ## Northern California
 
-```{r, results='asis'}
-knitr::kable(head(data_men_overall_northerncalifornia, 3), row.names=FALSE)
-```
+| Workout    | 14.1 | 14.2 | 14.3 | 14.4 | 14.5 |
+|:-----------|:-----|:-----|:-----|:-----|:-----|
+| Men | `r mean(data_men_overall_northerncalifornia$'14_1_score')` (`r sd(data_men_overall_northerncalifornia$'14_1_score')`) | `r mean(data_men_overall_northerncalifornia$'14_2_score')` (`r sd(data_men_overall_northerncalifornia$'14_2_score')`) | `r mean(data_men_overall_northerncalifornia$'14_3_score')` (`r sd(data_men_overall_northerncalifornia$'14_3_score')`) | `r mean(data_men_overall_northerncalifornia$'14_4_score')` (`r sd(data_men_overall_northerncalifornia$'14_4_score')`) | NA |
+| Women | `r mean(data_women_overall_northerncalifornia$'14_1_score')` (`r sd(data_women_overall_northerncalifornia$'14_1_score')`) | `r mean(data_women_overall_northerncalifornia$'14_2_score')` (`r sd(data_women_overall_northerncalifornia$'14_2_score')`) | `r mean(data_women_overall_northerncalifornia$'14_3_score')` (`r sd(data_women_overall_northerncalifornia$'14_3_score')`) | `r mean(data_women_overall_northerncalifornia$'14_4_score')` (`r sd(data_women_overall_northerncalifornia$'14_4_score')`) | NA |
 
-```{r, results='asis'}
-knitr::kable(head(data_women_overall_northerncalifornia, 3), row.names=FALSE)
-```
 
 ## North West
 
-```{r, results='asis'}
-knitr::kable(head(data_men_overall_northwest, 3), row.names=FALSE)
-```
+| Workout    | 14.1 | 14.2 | 14.3 | 14.4 | 14.5 |
+|:-----------|:-----|:-----|:-----|:-----|:-----|
+| Men | `r mean(data_men_overall_northwest$'14_1_score')` (`r sd(data_men_overall_northwest$'14_1_score')`) | `r mean(data_men_overall_northwest$'14_2_score')` (`r sd(data_men_overall_northwest$'14_2_score')`) | `r mean(data_men_overall_northwest$'14_3_score')` (`r sd(data_men_overall_northwest$'14_3_score')`) | `r mean(data_men_overall_northwest$'14_4_score')` (`r sd(data_men_overall_northwest$'14_4_score')`) | NA |
+| Women | `r mean(data_women_overall_northwest$'14_1_score')` (`r sd(data_women_overall_northwest$'14_1_score')`) | `r mean(data_women_overall_northwest$'14_2_score')` (`r sd(data_women_overall_northwest$'14_2_score')`) | `r mean(data_women_overall_northwest$'14_3_score')` (`r sd(data_women_overall_northwest$'14_3_score')`) | `r mean(data_women_overall_northwest$'14_4_score')` (`r sd(data_women_overall_northwest$'14_4_score')`) | NA |
 
-```{r, results='asis'}
-knitr::kable(head(data_women_overall_northwest, 3), row.names=FALSE)
-```
 
 ## South Central
 
-```{r, results='asis'}
-knitr::kable(head(data_men_overall_southcentral, 3), row.names=FALSE)
-```
+| Workout    | 14.1 | 14.2 | 14.3 | 14.4 | 14.5 |
+|:-----------|:-----|:-----|:-----|:-----|:-----|
+| Men | `r mean(data_men_overall_southcentral$'14_1_score')` (`r sd(data_men_overall_southcentral$'14_1_score')`) | `r mean(data_men_overall_southcentral$'14_2_score')` (`r sd(data_men_overall_southcentral$'14_2_score')`) | `r mean(data_men_overall_southcentral$'14_3_score')` (`r sd(data_men_overall_southcentral$'14_3_score')`) | `r mean(data_men_overall_southcentral$'14_4_score')` (`r sd(data_men_overall_southcentral$'14_4_score')`) | NA |
+| Women | `r mean(data_women_overall_southcentral$'14_1_score')` (`r sd(data_women_overall_southcentral$'14_1_score')`) | `r mean(data_women_overall_southcentral$'14_2_score')` (`r sd(data_women_overall_southcentral$'14_2_score')`) | `r mean(data_women_overall_southcentral$'14_3_score')` (`r sd(data_women_overall_southcentral$'14_3_score')`) | `r mean(data_women_overall_southcentral$'14_4_score')` (`r sd(data_women_overall_southcentral$'14_4_score')`) | NA |
 
-```{r, results='asis'}
-knitr::kable(head(data_women_overall_southcentral, 3), row.names=FALSE)
-```
 
 ## South East
 
-```{r, results='asis'}
-knitr::kable(head(data_men_overall_southeast, 3), row.names=FALSE)
-```
+| Workout    | 14.1 | 14.2 | 14.3 | 14.4 | 14.5 |
+|:-----------|:-----|:-----|:-----|:-----|:-----|
+| Men | `r mean(data_men_overall_southeast$'14_1_score')` (`r sd(data_men_overall_southeast$'14_1_score')`) | `r mean(data_men_overall_southeast$'14_2_score')` (`r sd(data_men_overall_southeast$'14_2_score')`) | `r mean(data_men_overall_southeast$'14_3_score')` (`r sd(data_men_overall_southeast$'14_3_score')`) | `r mean(data_men_overall_southeast$'14_4_score')` (`r sd(data_men_overall_southeast$'14_4_score')`) | NA |
+| Women | `r mean(data_women_overall_southeast$'14_1_score')` (`r sd(data_women_overall_southeast$'14_1_score')`) | `r mean(data_women_overall_southeast$'14_2_score')` (`r sd(data_women_overall_southeast$'14_2_score')`) | `r mean(data_women_overall_southeast$'14_3_score')` (`r sd(data_women_overall_southeast$'14_3_score')`) | `r mean(data_women_overall_southeast$'14_4_score')` (`r sd(data_women_overall_southeast$'14_4_score')`) | NA |
 
-```{r, results='asis'}
-knitr::kable(head(data_women_overall_southeast, 3), row.names=FALSE)
-```
 
 ## Southern California
 
-```{r, results='asis'}
-knitr::kable(head(data_men_overall_southerncalifornia, 3), row.names=FALSE)
-```
+| Workout    | 14.1 | 14.2 | 14.3 | 14.4 | 14.5 |
+|:-----------|:-----|:-----|:-----|:-----|:-----|
+| Men | `r mean(data_men_overall_southerncalifornia$'14_1_score')` (`r sd(data_men_overall_southerncalifornia$'14_1_score')`) | `r mean(data_men_overall_southerncalifornia$'14_2_score')` (`r sd(data_men_overall_southerncalifornia$'14_2_score')`) | `r mean(data_men_overall_southerncalifornia$'14_3_score')` (`r sd(data_men_overall_southerncalifornia$'14_3_score')`) | `r mean(data_men_overall_southerncalifornia$'14_4_score')` (`r sd(data_men_overall_southerncalifornia$'14_4_score')`) | NA |
+| Women | `r mean(data_women_overall_southerncalifornia$'14_1_score')` (`r sd(data_women_overall_southerncalifornia$'14_1_score')`) | `r mean(data_women_overall_southerncalifornia$'14_2_score')` (`r sd(data_women_overall_southerncalifornia$'14_2_score')`) | `r mean(data_women_overall_southerncalifornia$'14_3_score')` (`r sd(data_women_overall_southerncalifornia$'14_3_score')`) | `r mean(data_women_overall_southerncalifornia$'14_4_score')` (`r sd(data_women_overall_southerncalifornia$'14_4_score')`) | NA |
 
-```{r, results='asis'}
-knitr::kable(head(data_women_overall_southerncalifornia, 3), row.names=FALSE)
-```
 
 ## South West
 
-```{r, results='asis'}
-knitr::kable(head(data_men_overall_southwest, 3), row.names=FALSE)
-```
+| Workout    | 14.1 | 14.2 | 14.3 | 14.4 | 14.5 |
+|:-----------|:-----|:-----|:-----|:-----|:-----|
+| Men | `r mean(data_men_overall_southwest$'14_1_score')` (`r sd(data_men_overall_southwest$'14_1_score')`) | `r mean(data_men_overall_southwest$'14_2_score')` (`r sd(data_men_overall_southwest$'14_2_score')`) | `r mean(data_men_overall_southwest$'14_3_score')` (`r sd(data_men_overall_southwest$'14_3_score')`) | `r mean(data_men_overall_southwest$'14_4_score')` (`r sd(data_men_overall_southwest$'14_4_score')`) | NA |
+| Women | `r mean(data_women_overall_southwest$'14_1_score')` (`r sd(data_women_overall_southwest$'14_1_score')`) | `r mean(data_women_overall_southwest$'14_2_score')` (`r sd(data_women_overall_southwest$'14_2_score')`) | `r mean(data_women_overall_southwest$'14_3_score')` (`r sd(data_women_overall_southwest$'14_3_score')`) | `r mean(data_women_overall_southwest$'14_4_score')` (`r sd(data_women_overall_southwest$'14_4_score')`) | NA |
 
-```{r, results='asis'}
-knitr::kable(head(data_women_overall_southwest, 3), row.names=FALSE)
-```
 
 # Graphs
 
 ## 14.1
 
 ```{r,fig.height=12,fig.width=24}
+library(ggplot2)
 wod14_1m <- subset(df_final, wod=="14_1" & gender=="m")
 wod14_1f <- subset(df_final, wod=="14_1" & gender=="f")
-plot(score~region, data=wod14_1m, main="14.1 - Average score by region (men)")
-plot(score~region, data=wod14_1f, main="14.1 - Average score by region (women)")
+m14_1 <- ggplot(wod14_1m, aes(factor(region), score))
+m14_1 + geom_boxplot() +
+    geom_point(alpha = 3/10)
+f14_1 <- ggplot(wod14_1f, aes(factor(region), score))
+f14_1 + geom_boxplot() +
+    geom_point(alpha = 3/10)
 ```
 
 ## 14.2
@@ -227,8 +195,12 @@ plot(score~region, data=wod14_1f, main="14.1 - Average score by region (women)")
 ```{r,fig.height=12,fig.width=24}
 wod14_2m <- subset(df_final, wod=="14_2" & gender=="m")
 wod14_2f <- subset(df_final, wod=="14_2" & gender=="f")
-plot(score~region, data=wod14_2m, main="14.2 - Average score by region (men)")
-plot(score~region, data=wod14_2f, main="14.2 - Average score by region (women)")
+m14_2 <- ggplot(wod14_2m, aes(factor(region), score))
+m14_2 + geom_boxplot() +
+    geom_point(alpha = 3/10)
+f14_2 <- ggplot(wod14_2f, aes(factor(region), score))
+f14_2 + geom_boxplot() +
+    geom_point(alpha = 3/10)
 ```
 
 ## 14.3
@@ -236,8 +208,12 @@ plot(score~region, data=wod14_2f, main="14.2 - Average score by region (women)")
 ```{r,fig.height=12,fig.width=24}
 wod14_3m <- subset(df_final, wod=="14_3" & gender=="m")
 wod14_3f <- subset(df_final, wod=="14_3" & gender=="f")
-plot(score~region, data=wod14_3m, main="14.3 - Average score by region (men)")
-plot(score~region, data=wod14_3f, main="14.3 - Average score by region (women)")
+m14_3 <- ggplot(wod14_3m, aes(factor(region), score))
+m14_3 + geom_boxplot() +
+    geom_point(alpha = 3/10)
+f14_3 <- ggplot(wod14_3f, aes(factor(region), score))
+f14_3 + geom_boxplot() +
+    geom_point(alpha = 3/10)
 ```
 
 ## 14.4
@@ -245,8 +221,12 @@ plot(score~region, data=wod14_3f, main="14.3 - Average score by region (women)")
 ```{r,fig.height=12,fig.width=24}
 wod14_4m <- subset(df_final, wod=="14_4" & gender=="m")
 wod14_4f <- subset(df_final, wod=="14_4" & gender=="f")
-plot(score~region, data=wod14_4m, main="14.4 - Average score by region (men)")
-plot(score~region, data=wod14_4f, main="14.4 - Average score by region (women)")
+m14_4 <- ggplot(wod14_4m, aes(factor(region), score))
+m14_4 + geom_boxplot() +
+    geom_point(alpha = 3/10)
+f14_4 <- ggplot(wod14_4f, aes(factor(region), score))
+f14_4 + geom_boxplot() +
+    geom_point(alpha = 3/10)
 ```
 
 # References
