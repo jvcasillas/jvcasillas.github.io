@@ -211,6 +211,44 @@ knitr::kable(head(data_men_overall_southwest, 3), row.names=FALSE)
 knitr::kable(head(data_women_overall_southwest, 3), row.names=FALSE)
 ```
 
+# Graphs
+
+## 14.1
+
+```{r,fig.height=12,fig.width=24}
+wod14_1m <- subset(df_final, wod=="14_1" & gender=="m")
+wod14_1f <- subset(df_final, wod=="14_1" & gender=="f")
+plot(score~region, data=wod14_1m, main="14.1 - Average score by region (men)")
+plot(score~region, data=wod14_1f, main="14.1 - Average score by region (women)")
+```
+
+## 14.2
+
+```{r,fig.height=12,fig.width=24}
+wod14_2m <- subset(df_final, wod=="14_2" & gender=="m")
+wod14_2f <- subset(df_final, wod=="14_2" & gender=="f")
+plot(score~region, data=wod14_2m, main="14.2 - Average score by region (men)")
+plot(score~region, data=wod14_2f, main="14.2 - Average score by region (women)")
+```
+
+## 14.3
+
+```{r,fig.height=12,fig.width=24}
+wod14_3m <- subset(df_final, wod=="14_3" & gender=="m")
+wod14_3f <- subset(df_final, wod=="14_3" & gender=="f")
+plot(score~region, data=wod14_3m, main="14.3 - Average score by region (men)")
+plot(score~region, data=wod14_3f, main="14.3 - Average score by region (women)")
+```
+
+## 14.4
+
+```{r,fig.height=12,fig.width=24}
+wod14_4m <- subset(df_final, wod=="14_4" & gender=="m")
+wod14_4f <- subset(df_final, wod=="14_4" & gender=="f")
+plot(score~region, data=wod14_4m, main="14.4 - Average score by region (men)")
+plot(score~region, data=wod14_4f, main="14.4 - Average score by region (women)")
+```
+
 # References
 
 - ref 1

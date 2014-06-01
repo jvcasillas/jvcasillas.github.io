@@ -33,7 +33,7 @@ data_men_overall_northerncalifornia["region"] <- "northerncalifornia"
 data_men_overall_northwest["region"] <- "northwest"
 data_men_overall_southcentral["region"] <- "southcentral"
 data_men_overall_southeast["region"] <- "southeast"
-data_men_overall_southerncalifornia["region"] <- "southerncalifor"
+data_men_overall_southerncalifornia["region"] <- "southerncalifornia"
 data_men_overall_southwest["region"] <- "southwest"
 
 data_men_overall_africa["gender"] <- "m"
@@ -173,6 +173,9 @@ df_final <- df_final[,c(1,4:8,3:2)]
 # sort rows of dataframe
 df_final <- df_final[with(df_final, order(gender, region, wod, score)), ]
 
-
+df_final$region <- as.factor(df_final$region)
+df_final$wod <- as.factor(df_final$wod)
+df_final$score <- as.numeric(df_final$score)
+df_final$overall_score <- as.numeric(df_final$overall_score)
 
 write.table(df_final, "stats/open_results.csv", row.names=F, quote=F, sep=",")
