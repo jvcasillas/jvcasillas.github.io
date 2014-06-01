@@ -41,137 +41,51 @@ knitr::kable(head(data_women_overall, 60), row.names=FALSE)
 source('stats/combine_all_regions.R')
 ```
 
-## Africa
+## Men
 
-| Workout    | 14.1 | 14.2 | 14.3 | 14.4 | 14.5 |
+| Region    | 14.1 | 14.2 | 14.3 | 14.4 | 14.5 |
 |:-----------|:-----|:-----|:-----|:-----|:-----|
-| Men | `r mean(data_men_overall_africa$'14_1_score')` (`r sd(data_men_overall_africa$'14_1_score')`) | `r mean(data_men_overall_africa$'14_2_score')` (`r sd(data_men_overall_africa$'14_2_score')`) | `r mean(data_men_overall_africa$'14_3_score')` (`r sd(data_men_overall_africa$'14_3_score')`) | `r mean(data_men_overall_africa$'14_4_score')` (`r sd(data_men_overall_africa$'14_4_score')`) | NA |
-| Women | `r mean(data_women_overall_africa$'14_1_score')` (`r sd(data_women_overall_africa$'14_1_score')`) | `r mean(data_women_overall_africa$'14_2_score')` (`r sd(data_women_overall_africa$'14_2_score')`) | `r mean(data_women_overall_africa$'14_3_score')` (`r sd(data_women_overall_africa$'14_3_score')`) | `r mean(data_women_overall_africa$'14_4_score')` (`r sd(data_women_overall_africa$'14_4_score')`) | NA |
+| Africa | `r mean(data_men_overall_africa$'14_1_score')` (`r sd(data_men_overall_africa$'14_1_score')`) | `r mean(data_men_overall_africa$'14_2_score')` (`r sd(data_men_overall_africa$'14_2_score')`) | `r mean(data_men_overall_africa$'14_3_score')` (`r sd(data_men_overall_africa$'14_3_score')`) | `r mean(data_men_overall_africa$'14_4_score')` (`r sd(data_men_overall_africa$'14_4_score')`) | NA |
+| Asia | `r mean(data_men_overall_asia$'14_1_score')` (`r sd(data_men_overall_asia$'14_1_score')`) | `r mean(data_men_overall_asia$'14_2_score')` (`r sd(data_men_overall_asia$'14_2_score')`) | `r mean(data_men_overall_asia$'14_3_score')` (`r sd(data_men_overall_asia$'14_3_score')`) | `r mean(data_men_overall_asia$'14_4_score')` (`r sd(data_men_overall_asia$'14_4_score')`) | NA |
+| Australia | `r mean(data_men_overall_australia$'14_1_score')` (`r sd(data_men_overall_australia$'14_1_score')`) | `r mean(data_men_overall_australia$'14_2_score')` (`r sd(data_men_overall_australia$'14_2_score')`) | `r mean(data_men_overall_australia$'14_3_score')` (`r sd(data_men_overall_australia$'14_3_score')`) | `r mean(data_men_overall_australia$'14_4_score')` (`r sd(data_men_overall_australia$'14_4_score')`) | NA |
+| Canada East | `r mean(data_men_overall_canadaeast$'14_1_score')` (`r sd(data_men_overall_canadaeast$'14_1_score')`) | `r mean(data_men_overall_canadaeast$'14_2_score')` (`r sd(data_men_overall_canadaeast$'14_2_score')`) | `r mean(data_men_overall_canadaeast$'14_3_score')` (`r sd(data_men_overall_canadaeast$'14_3_score')`) | `r mean(data_men_overall_canadaeast$'14_4_score')` (`r sd(data_men_overall_canadaeast$'14_4_score')`) | NA |
+| Canada West | `r mean(data_men_overall_canadawest$'14_1_score')` (`r sd(data_men_overall_canadawest$'14_1_score')`) | `r mean(data_men_overall_canadawest$'14_2_score')` (`r sd(data_men_overall_canadawest$'14_2_score')`) | `r mean(data_men_overall_canadawest$'14_3_score')` (`r sd(data_men_overall_canadawest$'14_3_score')`) | `r mean(data_men_overall_canadawest$'14_4_score')` (`r sd(data_men_overall_canadawest$'14_4_score')`) | NA |
+| Central East | `r mean(data_men_overall_centraleast$'14_1_score')` (`r sd(data_men_overall_centraleast$'14_1_score')`) | `r mean(data_men_overall_centraleast$'14_2_score')` (`r sd(data_men_overall_centraleast$'14_2_score')`) | `r mean(data_men_overall_centraleast$'14_3_score')` (`r sd(data_men_overall_centraleast$'14_3_score')`) | `r mean(data_men_overall_centraleast$'14_4_score')` (`r sd(data_men_overall_centraleast$'14_4_score')`) | NA |
+| Europe | `r mean(data_men_overall_europe$'14_1_score')` (`r sd(data_men_overall_europe$'14_1_score')`) | `r mean(data_men_overall_europe$'14_2_score')` (`r sd(data_men_overall_europe$'14_2_score')`) | `r mean(data_men_overall_europe$'14_3_score')` (`r sd(data_men_overall_europe$'14_3_score')`) | `r mean(data_men_overall_europe$'14_4_score')` (`r sd(data_men_overall_europe$'14_4_score')`) | NA |
+| Latin America | `r mean(data_men_overall_latinamerica$'14_1_score')` (`r sd(data_men_overall_latinamerica$'14_1_score')`) | `r mean(data_men_overall_latinamerica$'14_2_score')` (`r sd(data_men_overall_latinamerica$'14_2_score')`) | `r mean(data_men_overall_latinamerica$'14_3_score')` (`r sd(data_men_overall_latinamerica$'14_3_score')`) | `r mean(data_men_overall_latinamerica$'14_4_score')` (`r sd(data_men_overall_latinamerica$'14_4_score')`) | NA |
+| Mid Atlantic | `r mean(data_men_overall_midatlantic$'14_1_score')` (`r sd(data_men_overall_midatlantic$'14_1_score')`) | `r mean(data_men_overall_midatlantic$'14_2_score')` (`r sd(data_men_overall_midatlantic$'14_2_score')`) | `r mean(data_men_overall_midatlantic$'14_3_score')` (`r sd(data_men_overall_midatlantic$'14_3_score')`) | `r mean(data_men_overall_midatlantic$'14_4_score')` (`r sd(data_men_overall_midatlantic$'14_4_score')`) | NA |
+| North Central | `r mean(data_men_overall_northcentral$'14_1_score')` (`r sd(data_men_overall_northcentral$'14_1_score')`) | `r mean(data_men_overall_northcentral$'14_2_score')` (`r sd(data_men_overall_northcentral$'14_2_score')`) | `r mean(data_men_overall_northcentral$'14_3_score')` (`r sd(data_men_overall_northcentral$'14_3_score')`) | `r mean(data_men_overall_northcentral$'14_4_score')` (`r sd(data_men_overall_northcentral$'14_4_score')`) | NA |
+| North East | `r mean(data_men_overall_northeast$'14_1_score')` (`r sd(data_men_overall_northeast$'14_1_score')`) | `r mean(data_men_overall_northeast$'14_2_score')` (`r sd(data_men_overall_northeast$'14_2_score')`) | `r mean(data_men_overall_northeast$'14_3_score')` (`r sd(data_men_overall_northeast$'14_3_score')`) | `r mean(data_men_overall_northeast$'14_4_score')` (`r sd(data_men_overall_northeast$'14_4_score')`) | NA |
+| Northern California | `r mean(data_men_overall_northerncalifornia$'14_1_score')` (`r sd(data_men_overall_northerncalifornia$'14_1_score')`) | `r mean(data_men_overall_northerncalifornia$'14_2_score')` (`r sd(data_men_overall_northerncalifornia$'14_2_score')`) | `r mean(data_men_overall_northerncalifornia$'14_3_score')` (`r sd(data_men_overall_northerncalifornia$'14_3_score')`) | `r mean(data_men_overall_northerncalifornia$'14_4_score')` (`r sd(data_men_overall_northerncalifornia$'14_4_score')`) | NA |
+| North West | `r mean(data_men_overall_northwest$'14_1_score')` (`r sd(data_men_overall_northwest$'14_1_score')`) | `r mean(data_men_overall_northwest$'14_2_score')` (`r sd(data_men_overall_northwest$'14_2_score')`) | `r mean(data_men_overall_northwest$'14_3_score')` (`r sd(data_men_overall_northwest$'14_3_score')`) | `r mean(data_men_overall_northwest$'14_4_score')` (`r sd(data_men_overall_northwest$'14_4_score')`) | NA |
+| South Central | `r mean(data_men_overall_southcentral$'14_1_score')` (`r sd(data_men_overall_southcentral$'14_1_score')`) | `r mean(data_men_overall_southcentral$'14_2_score')` (`r sd(data_men_overall_southcentral$'14_2_score')`) | `r mean(data_men_overall_southcentral$'14_3_score')` (`r sd(data_men_overall_southcentral$'14_3_score')`) | `r mean(data_men_overall_southcentral$'14_4_score')` (`r sd(data_men_overall_southcentral$'14_4_score')`) | NA |
+| South East | `r mean(data_men_overall_southeast$'14_1_score')` (`r sd(data_men_overall_southeast$'14_1_score')`) | `r mean(data_men_overall_southeast$'14_2_score')` (`r sd(data_men_overall_southeast$'14_2_score')`) | `r mean(data_men_overall_southeast$'14_3_score')` (`r sd(data_men_overall_southeast$'14_3_score')`) | `r mean(data_men_overall_southeast$'14_4_score')` (`r sd(data_men_overall_southeast$'14_4_score')`) | NA |
+| Southern California | `r mean(data_men_overall_southerncalifornia$'14_1_score')` (`r sd(data_men_overall_southerncalifornia$'14_1_score')`) | `r mean(data_men_overall_southerncalifornia$'14_2_score')` (`r sd(data_men_overall_southerncalifornia$'14_2_score')`) | `r mean(data_men_overall_southerncalifornia$'14_3_score')` (`r sd(data_men_overall_southerncalifornia$'14_3_score')`) | `r mean(data_men_overall_southerncalifornia$'14_4_score')` (`r sd(data_men_overall_southerncalifornia$'14_4_score')`) | NA |
+| South West | `r mean(data_men_overall_southwest$'14_1_score')` (`r sd(data_men_overall_southwest$'14_1_score')`) | `r mean(data_men_overall_southwest$'14_2_score')` (`r sd(data_men_overall_southwest$'14_2_score')`) | `r mean(data_men_overall_southwest$'14_3_score')` (`r sd(data_men_overall_southwest$'14_3_score')`) | `r mean(data_men_overall_southwest$'14_4_score')` (`r sd(data_men_overall_southwest$'14_4_score')`) | NA |
 
-## Asia
+## Women
 
-| Workout    | 14.1 | 14.2 | 14.3 | 14.4 | 14.5 |
+| Region    | 14.1 | 14.2 | 14.3 | 14.4 | 14.5 |
 |:-----------|:-----|:-----|:-----|:-----|:-----|
-| Men | `r mean(data_men_overall_asia$'14_1_score')` (`r sd(data_men_overall_asia$'14_1_score')`) | `r mean(data_men_overall_asia$'14_2_score')` (`r sd(data_men_overall_asia$'14_2_score')`) | `r mean(data_men_overall_asia$'14_3_score')` (`r sd(data_men_overall_asia$'14_3_score')`) | `r mean(data_men_overall_asia$'14_4_score')` (`r sd(data_men_overall_asia$'14_4_score')`) | NA |
-| Women | `r mean(data_women_overall_asia$'14_1_score')` (`r sd(data_women_overall_asia$'14_1_score')`) | `r mean(data_women_overall_asia$'14_2_score')` (`r sd(data_women_overall_asia$'14_2_score')`) | `r mean(data_women_overall_asia$'14_3_score')` (`r sd(data_women_overall_asia$'14_3_score')`) | `r mean(data_women_overall_asia$'14_4_score')` (`r sd(data_women_overall_asia$'14_4_score')`) | NA |
-
-## Australia
-
-| Workout    | 14.1 | 14.2 | 14.3 | 14.4 | 14.5 |
-|:-----------|:-----|:-----|:-----|:-----|:-----|
-| Men | `r mean(data_men_overall_australia$'14_1_score')` (`r sd(data_men_overall_australia$'14_1_score')`) | `r mean(data_men_overall_australia$'14_2_score')` (`r sd(data_men_overall_australia$'14_2_score')`) | `r mean(data_men_overall_australia$'14_3_score')` (`r sd(data_men_overall_australia$'14_3_score')`) | `r mean(data_men_overall_australia$'14_4_score')` (`r sd(data_men_overall_australia$'14_4_score')`) | NA |
-| Women | `r mean(data_women_overall_australia$'14_1_score')` (`r sd(data_women_overall_australia$'14_1_score')`) | `r mean(data_women_overall_australia$'14_2_score')` (`r sd(data_women_overall_australia$'14_2_score')`) | `r mean(data_women_overall_australia$'14_3_score')` (`r sd(data_women_overall_australia$'14_3_score')`) | `r mean(data_women_overall_australia$'14_4_score')` (`r sd(data_women_overall_australia$'14_4_score')`) | NA |
-
-## Canada East
-
-| Workout    | 14.1 | 14.2 | 14.3 | 14.4 | 14.5 |
-|:-----------|:-----|:-----|:-----|:-----|:-----|
-| Men | `r mean(data_men_overall_canadaeast$'14_1_score')` (`r sd(data_men_overall_canadaeast$'14_1_score')`) | `r mean(data_men_overall_canadaeast$'14_2_score')` (`r sd(data_men_overall_canadaeast$'14_2_score')`) | `r mean(data_men_overall_canadaeast$'14_3_score')` (`r sd(data_men_overall_canadaeast$'14_3_score')`) | `r mean(data_men_overall_canadaeast$'14_4_score')` (`r sd(data_men_overall_canadaeast$'14_4_score')`) | NA |
-| Women | `r mean(data_women_overall_canadaeast$'14_1_score')` (`r sd(data_women_overall_canadaeast$'14_1_score')`) | `r mean(data_women_overall_canadaeast$'14_2_score')` (`r sd(data_women_overall_canadaeast$'14_2_score')`) | `r mean(data_women_overall_canadaeast$'14_3_score')` (`r sd(data_women_overall_canadaeast$'14_3_score')`) | `r mean(data_women_overall_canadaeast$'14_4_score')` (`r sd(data_women_overall_canadaeast$'14_4_score')`) | NA |
-
-
-## Canada West
-
-| Workout    | 14.1 | 14.2 | 14.3 | 14.4 | 14.5 |
-|:-----------|:-----|:-----|:-----|:-----|:-----|
-| Men | `r mean(data_men_overall_canadawest$'14_1_score')` (`r sd(data_men_overall_canadawest$'14_1_score')`) | `r mean(data_men_overall_canadawest$'14_2_score')` (`r sd(data_men_overall_canadawest$'14_2_score')`) | `r mean(data_men_overall_canadawest$'14_3_score')` (`r sd(data_men_overall_canadawest$'14_3_score')`) | `r mean(data_men_overall_canadawest$'14_4_score')` (`r sd(data_men_overall_canadawest$'14_4_score')`) | NA |
-| Women | `r mean(data_women_overall_canadawest$'14_1_score')` (`r sd(data_women_overall_canadawest$'14_1_score')`) | `r mean(data_women_overall_canadawest$'14_2_score')` (`r sd(data_women_overall_canadawest$'14_2_score')`) | `r mean(data_women_overall_canadawest$'14_3_score')` (`r sd(data_women_overall_canadawest$'14_3_score')`) | `r mean(data_women_overall_canadawest$'14_4_score')` (`r sd(data_women_overall_canadawest$'14_4_score')`) | NA |
+| Africa | `r mean(data_women_overall_africa$'14_1_score')` (`r sd(data_women_overall_africa$'14_1_score')`) | `r mean(data_women_overall_africa$'14_2_score')` (`r sd(data_women_overall_africa$'14_2_score')`) | `r mean(data_women_overall_africa$'14_3_score')` (`r sd(data_women_overall_africa$'14_3_score')`) | `r mean(data_women_overall_africa$'14_4_score')` (`r sd(data_women_overall_africa$'14_4_score')`) | NA |
+| Asia | `r mean(data_women_overall_asia$'14_1_score')` (`r sd(data_women_overall_asia$'14_1_score')`) | `r mean(data_women_overall_asia$'14_2_score')` (`r sd(data_women_overall_asia$'14_2_score')`) | `r mean(data_women_overall_asia$'14_3_score')` (`r sd(data_women_overall_asia$'14_3_score')`) | `r mean(data_women_overall_asia$'14_4_score')` (`r sd(data_women_overall_asia$'14_4_score')`) | NA |
+| Australia | `r mean(data_women_overall_australia$'14_1_score')` (`r sd(data_women_overall_australia$'14_1_score')`) | `r mean(data_women_overall_australia$'14_2_score')` (`r sd(data_women_overall_australia$'14_2_score')`) | `r mean(data_women_overall_australia$'14_3_score')` (`r sd(data_women_overall_australia$'14_3_score')`) | `r mean(data_women_overall_australia$'14_4_score')` (`r sd(data_women_overall_australia$'14_4_score')`) | NA |
+| Canada East | `r mean(data_women_overall_canadaeast$'14_1_score')` (`r sd(data_women_overall_canadaeast$'14_1_score')`) | `r mean(data_women_overall_canadaeast$'14_2_score')` (`r sd(data_women_overall_canadaeast$'14_2_score')`) | `r mean(data_women_overall_canadaeast$'14_3_score')` (`r sd(data_women_overall_canadaeast$'14_3_score')`) | `r mean(data_women_overall_canadaeast$'14_4_score')` (`r sd(data_women_overall_canadaeast$'14_4_score')`) | NA |
+| Canada West | `r mean(data_women_overall_canadawest$'14_1_score')` (`r sd(data_women_overall_canadawest$'14_1_score')`) | `r mean(data_women_overall_canadawest$'14_2_score')` (`r sd(data_women_overall_canadawest$'14_2_score')`) | `r mean(data_women_overall_canadawest$'14_3_score')` (`r sd(data_women_overall_canadawest$'14_3_score')`) | `r mean(data_women_overall_canadawest$'14_4_score')` (`r sd(data_women_overall_canadawest$'14_4_score')`) | NA |
+| Central East | `r mean(data_women_overall_centraleast$'14_1_score')` (`r sd(data_women_overall_centraleast$'14_1_score')`) | `r mean(data_women_overall_centraleast$'14_2_score')` (`r sd(data_women_overall_centraleast$'14_2_score')`) | `r mean(data_women_overall_centraleast$'14_3_score')` (`r sd(data_women_overall_centraleast$'14_3_score')`) | `r mean(data_women_overall_centraleast$'14_4_score')` (`r sd(data_women_overall_centraleast$'14_4_score')`) | NA |
+| Europe | `r mean(data_women_overall_europe$'14_1_score')` (`r sd(data_women_overall_europe$'14_1_score')`) | `r mean(data_women_overall_europe$'14_2_score')` (`r sd(data_women_overall_europe$'14_2_score')`) | `r mean(data_women_overall_europe$'14_3_score')` (`r sd(data_women_overall_europe$'14_3_score')`) | `r mean(data_women_overall_europe$'14_4_score')` (`r sd(data_women_overall_europe$'14_4_score')`) | NA |
+| Latin America | `r mean(data_women_overall_latinamerica$'14_1_score')` (`r sd(data_women_overall_latinamerica$'14_1_score')`) | `r mean(data_women_overall_latinamerica$'14_2_score')` (`r sd(data_women_overall_latinamerica$'14_2_score')`) | `r mean(data_women_overall_latinamerica$'14_3_score')` (`r sd(data_women_overall_latinamerica$'14_3_score')`) | `r mean(data_women_overall_latinamerica$'14_4_score')` (`r sd(data_women_overall_latinamerica$'14_4_score')`) | NA |
+| Mid Atlantic | `r mean(data_women_overall_midatlantic$'14_1_score')` (`r sd(data_women_overall_midatlantic$'14_1_score')`) | `r mean(data_women_overall_midatlantic$'14_2_score')` (`r sd(data_women_overall_midatlantic$'14_2_score')`) | `r mean(data_women_overall_midatlantic$'14_3_score')` (`r sd(data_women_overall_midatlantic$'14_3_score')`) | `r mean(data_women_overall_midatlantic$'14_4_score')` (`r sd(data_women_overall_midatlantic$'14_4_score')`) | NA |
+| North Central | `r mean(data_women_overall_northcentral$'14_1_score')` (`r sd(data_women_overall_northcentral$'14_1_score')`) | `r mean(data_women_overall_northcentral$'14_2_score')` (`r sd(data_women_overall_northcentral$'14_2_score')`) | `r mean(data_women_overall_northcentral$'14_3_score')` (`r sd(data_women_overall_northcentral$'14_3_score')`) | `r mean(data_women_overall_northcentral$'14_4_score')` (`r sd(data_women_overall_northcentral$'14_4_score')`) | NA |
+| North East | `r mean(data_women_overall_northeast$'14_1_score')` (`r sd(data_women_overall_northeast$'14_1_score')`) | `r mean(data_women_overall_northeast$'14_2_score')` (`r sd(data_women_overall_northeast$'14_2_score')`) | `r mean(data_women_overall_northeast$'14_3_score')` (`r sd(data_women_overall_northeast$'14_3_score')`) | `r mean(data_women_overall_northeast$'14_4_score')` (`r sd(data_women_overall_northeast$'14_4_score')`) | NA |
+| Northern California | `r mean(data_women_overall_northerncalifornia$'14_1_score')` (`r sd(data_women_overall_northerncalifornia$'14_1_score')`) | `r mean(data_women_overall_northerncalifornia$'14_2_score')` (`r sd(data_women_overall_northerncalifornia$'14_2_score')`) | `r mean(data_women_overall_northerncalifornia$'14_3_score')` (`r sd(data_women_overall_northerncalifornia$'14_3_score')`) | `r mean(data_women_overall_northerncalifornia$'14_4_score')` (`r sd(data_women_overall_northerncalifornia$'14_4_score')`) | NA |
+| North West | `r mean(data_women_overall_northwest$'14_1_score')` (`r sd(data_women_overall_northwest$'14_1_score')`) | `r mean(data_women_overall_northwest$'14_2_score')` (`r sd(data_women_overall_northwest$'14_2_score')`) | `r mean(data_women_overall_northwest$'14_3_score')` (`r sd(data_women_overall_northwest$'14_3_score')`) | `r mean(data_women_overall_northwest$'14_4_score')` (`r sd(data_women_overall_northwest$'14_4_score')`) | NA |
+| South Central | `r mean(data_women_overall_southcentral$'14_1_score')` (`r sd(data_women_overall_southcentral$'14_1_score')`) | `r mean(data_women_overall_southcentral$'14_2_score')` (`r sd(data_women_overall_southcentral$'14_2_score')`) | `r mean(data_women_overall_southcentral$'14_3_score')` (`r sd(data_women_overall_southcentral$'14_3_score')`) | `r mean(data_women_overall_southcentral$'14_4_score')` (`r sd(data_women_overall_southcentral$'14_4_score')`) | NA |
+| South East | `r mean(data_women_overall_southeast$'14_1_score')` (`r sd(data_women_overall_southeast$'14_1_score')`) | `r mean(data_women_overall_southeast$'14_2_score')` (`r sd(data_women_overall_southeast$'14_2_score')`) | `r mean(data_women_overall_southeast$'14_3_score')` (`r sd(data_women_overall_southeast$'14_3_score')`) | `r mean(data_women_overall_southeast$'14_4_score')` (`r sd(data_women_overall_southeast$'14_4_score')`) | NA |
+| Southern California | `r mean(data_women_overall_southerncalifornia$'14_1_score')` (`r sd(data_women_overall_southerncalifornia$'14_1_score')`) | `r mean(data_women_overall_southerncalifornia$'14_2_score')` (`r sd(data_women_overall_southerncalifornia$'14_2_score')`) | `r mean(data_women_overall_southerncalifornia$'14_3_score')` (`r sd(data_women_overall_southerncalifornia$'14_3_score')`) | `r mean(data_women_overall_southerncalifornia$'14_4_score')` (`r sd(data_women_overall_southerncalifornia$'14_4_score')`) | NA |
+| South West | `r mean(data_women_overall_southwest$'14_1_score')` (`r sd(data_women_overall_southwest$'14_1_score')`) | `r mean(data_women_overall_southwest$'14_2_score')` (`r sd(data_women_overall_southwest$'14_2_score')`) | `r mean(data_women_overall_southwest$'14_3_score')` (`r sd(data_women_overall_southwest$'14_3_score')`) | `r mean(data_women_overall_southwest$'14_4_score')` (`r sd(data_women_overall_southwest$'14_4_score')`) | NA |
 
 
-## Central East
-
-| Workout    | 14.1 | 14.2 | 14.3 | 14.4 | 14.5 |
-|:-----------|:-----|:-----|:-----|:-----|:-----|
-| Men | `r mean(data_men_overall_centraleast$'14_1_score')` (`r sd(data_men_overall_centraleast$'14_1_score')`) | `r mean(data_men_overall_centraleast$'14_2_score')` (`r sd(data_men_overall_centraleast$'14_2_score')`) | `r mean(data_men_overall_centraleast$'14_3_score')` (`r sd(data_men_overall_centraleast$'14_3_score')`) | `r mean(data_men_overall_centraleast$'14_4_score')` (`r sd(data_men_overall_centraleast$'14_4_score')`) | NA |
-| Women | `r mean(data_women_overall_centraleast$'14_1_score')` (`r sd(data_women_overall_centraleast$'14_1_score')`) | `r mean(data_women_overall_centraleast$'14_2_score')` (`r sd(data_women_overall_centraleast$'14_2_score')`) | `r mean(data_women_overall_centraleast$'14_3_score')` (`r sd(data_women_overall_centraleast$'14_3_score')`) | `r mean(data_women_overall_centraleast$'14_4_score')` (`r sd(data_women_overall_centraleast$'14_4_score')`) | NA |
-
-
-## Europe
-
-| Workout    | 14.1 | 14.2 | 14.3 | 14.4 | 14.5 |
-|:-----------|:-----|:-----|:-----|:-----|:-----|
-| Men | `r mean(data_men_overall_europe$'14_1_score')` (`r sd(data_men_overall_europe$'14_1_score')`) | `r mean(data_men_overall_europe$'14_2_score')` (`r sd(data_men_overall_europe$'14_2_score')`) | `r mean(data_men_overall_europe$'14_3_score')` (`r sd(data_men_overall_europe$'14_3_score')`) | `r mean(data_men_overall_europe$'14_4_score')` (`r sd(data_men_overall_europe$'14_4_score')`) | NA |
-| Women | `r mean(data_women_overall_europe$'14_1_score')` (`r sd(data_women_overall_europe$'14_1_score')`) | `r mean(data_women_overall_europe$'14_2_score')` (`r sd(data_women_overall_europe$'14_2_score')`) | `r mean(data_women_overall_europe$'14_3_score')` (`r sd(data_women_overall_europe$'14_3_score')`) | `r mean(data_women_overall_europe$'14_4_score')` (`r sd(data_women_overall_europe$'14_4_score')`) | NA |
-
-
-## Latin America
-
-| Workout    | 14.1 | 14.2 | 14.3 | 14.4 | 14.5 |
-|:-----------|:-----|:-----|:-----|:-----|:-----|
-| Men | `r mean(data_men_overall_latinamerica$'14_1_score')` (`r sd(data_men_overall_latinamerica$'14_1_score')`) | `r mean(data_men_overall_latinamerica$'14_2_score')` (`r sd(data_men_overall_latinamerica$'14_2_score')`) | `r mean(data_men_overall_latinamerica$'14_3_score')` (`r sd(data_men_overall_latinamerica$'14_3_score')`) | `r mean(data_men_overall_latinamerica$'14_4_score')` (`r sd(data_men_overall_latinamerica$'14_4_score')`) | NA |
-| Women | `r mean(data_women_overall_latinamerica$'14_1_score')` (`r sd(data_women_overall_latinamerica$'14_1_score')`) | `r mean(data_women_overall_latinamerica$'14_2_score')` (`r sd(data_women_overall_latinamerica$'14_2_score')`) | `r mean(data_women_overall_latinamerica$'14_3_score')` (`r sd(data_women_overall_latinamerica$'14_3_score')`) | `r mean(data_women_overall_latinamerica$'14_4_score')` (`r sd(data_women_overall_latinamerica$'14_4_score')`) | NA |
-
-
-## Mid Atlantic
-
-| Workout    | 14.1 | 14.2 | 14.3 | 14.4 | 14.5 |
-|:-----------|:-----|:-----|:-----|:-----|:-----|
-| Men | `r mean(data_men_overall_midatlantic$'14_1_score')` (`r sd(data_men_overall_midatlantic$'14_1_score')`) | `r mean(data_men_overall_midatlantic$'14_2_score')` (`r sd(data_men_overall_midatlantic$'14_2_score')`) | `r mean(data_men_overall_midatlantic$'14_3_score')` (`r sd(data_men_overall_midatlantic$'14_3_score')`) | `r mean(data_men_overall_midatlantic$'14_4_score')` (`r sd(data_men_overall_midatlantic$'14_4_score')`) | NA |
-| Women | `r mean(data_women_overall_midatlantic$'14_1_score')` (`r sd(data_women_overall_midatlantic$'14_1_score')`) | `r mean(data_women_overall_midatlantic$'14_2_score')` (`r sd(data_women_overall_midatlantic$'14_2_score')`) | `r mean(data_women_overall_midatlantic$'14_3_score')` (`r sd(data_women_overall_midatlantic$'14_3_score')`) | `r mean(data_women_overall_midatlantic$'14_4_score')` (`r sd(data_women_overall_midatlantic$'14_4_score')`) | NA |
-
-
-## North Central
-
-| Workout    | 14.1 | 14.2 | 14.3 | 14.4 | 14.5 |
-|:-----------|:-----|:-----|:-----|:-----|:-----|
-| Men | `r mean(data_men_overall_northcentral$'14_1_score')` (`r sd(data_men_overall_northcentral$'14_1_score')`) | `r mean(data_men_overall_northcentral$'14_2_score')` (`r sd(data_men_overall_northcentral$'14_2_score')`) | `r mean(data_men_overall_northcentral$'14_3_score')` (`r sd(data_men_overall_northcentral$'14_3_score')`) | `r mean(data_men_overall_northcentral$'14_4_score')` (`r sd(data_men_overall_northcentral$'14_4_score')`) | NA |
-| Women | `r mean(data_women_overall_northcentral$'14_1_score')` (`r sd(data_women_overall_northcentral$'14_1_score')`) | `r mean(data_women_overall_northcentral$'14_2_score')` (`r sd(data_women_overall_northcentral$'14_2_score')`) | `r mean(data_women_overall_northcentral$'14_3_score')` (`r sd(data_women_overall_northcentral$'14_3_score')`) | `r mean(data_women_overall_northcentral$'14_4_score')` (`r sd(data_women_overall_northcentral$'14_4_score')`) | NA |
-
-
-## North East
-
-| Workout    | 14.1 | 14.2 | 14.3 | 14.4 | 14.5 |
-|:-----------|:-----|:-----|:-----|:-----|:-----|
-| Men | `r mean(data_men_overall_northeast$'14_1_score')` (`r sd(data_men_overall_northeast$'14_1_score')`) | `r mean(data_men_overall_northeast$'14_2_score')` (`r sd(data_men_overall_northeast$'14_2_score')`) | `r mean(data_men_overall_northeast$'14_3_score')` (`r sd(data_men_overall_northeast$'14_3_score')`) | `r mean(data_men_overall_northeast$'14_4_score')` (`r sd(data_men_overall_northeast$'14_4_score')`) | NA |
-| Women | `r mean(data_women_overall_northeast$'14_1_score')` (`r sd(data_women_overall_northeast$'14_1_score')`) | `r mean(data_women_overall_northeast$'14_2_score')` (`r sd(data_women_overall_northeast$'14_2_score')`) | `r mean(data_women_overall_northeast$'14_3_score')` (`r sd(data_women_overall_northeast$'14_3_score')`) | `r mean(data_women_overall_northeast$'14_4_score')` (`r sd(data_women_overall_northeast$'14_4_score')`) | NA |
-
-
-## Northern California
-
-| Workout    | 14.1 | 14.2 | 14.3 | 14.4 | 14.5 |
-|:-----------|:-----|:-----|:-----|:-----|:-----|
-| Men | `r mean(data_men_overall_northerncalifornia$'14_1_score')` (`r sd(data_men_overall_northerncalifornia$'14_1_score')`) | `r mean(data_men_overall_northerncalifornia$'14_2_score')` (`r sd(data_men_overall_northerncalifornia$'14_2_score')`) | `r mean(data_men_overall_northerncalifornia$'14_3_score')` (`r sd(data_men_overall_northerncalifornia$'14_3_score')`) | `r mean(data_men_overall_northerncalifornia$'14_4_score')` (`r sd(data_men_overall_northerncalifornia$'14_4_score')`) | NA |
-| Women | `r mean(data_women_overall_northerncalifornia$'14_1_score')` (`r sd(data_women_overall_northerncalifornia$'14_1_score')`) | `r mean(data_women_overall_northerncalifornia$'14_2_score')` (`r sd(data_women_overall_northerncalifornia$'14_2_score')`) | `r mean(data_women_overall_northerncalifornia$'14_3_score')` (`r sd(data_women_overall_northerncalifornia$'14_3_score')`) | `r mean(data_women_overall_northerncalifornia$'14_4_score')` (`r sd(data_women_overall_northerncalifornia$'14_4_score')`) | NA |
-
-
-## North West
-
-| Workout    | 14.1 | 14.2 | 14.3 | 14.4 | 14.5 |
-|:-----------|:-----|:-----|:-----|:-----|:-----|
-| Men | `r mean(data_men_overall_northwest$'14_1_score')` (`r sd(data_men_overall_northwest$'14_1_score')`) | `r mean(data_men_overall_northwest$'14_2_score')` (`r sd(data_men_overall_northwest$'14_2_score')`) | `r mean(data_men_overall_northwest$'14_3_score')` (`r sd(data_men_overall_northwest$'14_3_score')`) | `r mean(data_men_overall_northwest$'14_4_score')` (`r sd(data_men_overall_northwest$'14_4_score')`) | NA |
-| Women | `r mean(data_women_overall_northwest$'14_1_score')` (`r sd(data_women_overall_northwest$'14_1_score')`) | `r mean(data_women_overall_northwest$'14_2_score')` (`r sd(data_women_overall_northwest$'14_2_score')`) | `r mean(data_women_overall_northwest$'14_3_score')` (`r sd(data_women_overall_northwest$'14_3_score')`) | `r mean(data_women_overall_northwest$'14_4_score')` (`r sd(data_women_overall_northwest$'14_4_score')`) | NA |
-
-
-## South Central
-
-| Workout    | 14.1 | 14.2 | 14.3 | 14.4 | 14.5 |
-|:-----------|:-----|:-----|:-----|:-----|:-----|
-| Men | `r mean(data_men_overall_southcentral$'14_1_score')` (`r sd(data_men_overall_southcentral$'14_1_score')`) | `r mean(data_men_overall_southcentral$'14_2_score')` (`r sd(data_men_overall_southcentral$'14_2_score')`) | `r mean(data_men_overall_southcentral$'14_3_score')` (`r sd(data_men_overall_southcentral$'14_3_score')`) | `r mean(data_men_overall_southcentral$'14_4_score')` (`r sd(data_men_overall_southcentral$'14_4_score')`) | NA |
-| Women | `r mean(data_women_overall_southcentral$'14_1_score')` (`r sd(data_women_overall_southcentral$'14_1_score')`) | `r mean(data_women_overall_southcentral$'14_2_score')` (`r sd(data_women_overall_southcentral$'14_2_score')`) | `r mean(data_women_overall_southcentral$'14_3_score')` (`r sd(data_women_overall_southcentral$'14_3_score')`) | `r mean(data_women_overall_southcentral$'14_4_score')` (`r sd(data_women_overall_southcentral$'14_4_score')`) | NA |
-
-
-## South East
-
-| Workout    | 14.1 | 14.2 | 14.3 | 14.4 | 14.5 |
-|:-----------|:-----|:-----|:-----|:-----|:-----|
-| Men | `r mean(data_men_overall_southeast$'14_1_score')` (`r sd(data_men_overall_southeast$'14_1_score')`) | `r mean(data_men_overall_southeast$'14_2_score')` (`r sd(data_men_overall_southeast$'14_2_score')`) | `r mean(data_men_overall_southeast$'14_3_score')` (`r sd(data_men_overall_southeast$'14_3_score')`) | `r mean(data_men_overall_southeast$'14_4_score')` (`r sd(data_men_overall_southeast$'14_4_score')`) | NA |
-| Women | `r mean(data_women_overall_southeast$'14_1_score')` (`r sd(data_women_overall_southeast$'14_1_score')`) | `r mean(data_women_overall_southeast$'14_2_score')` (`r sd(data_women_overall_southeast$'14_2_score')`) | `r mean(data_women_overall_southeast$'14_3_score')` (`r sd(data_women_overall_southeast$'14_3_score')`) | `r mean(data_women_overall_southeast$'14_4_score')` (`r sd(data_women_overall_southeast$'14_4_score')`) | NA |
-
-
-## Southern California
-
-| Workout    | 14.1 | 14.2 | 14.3 | 14.4 | 14.5 |
-|:-----------|:-----|:-----|:-----|:-----|:-----|
-| Men | `r mean(data_men_overall_southerncalifornia$'14_1_score')` (`r sd(data_men_overall_southerncalifornia$'14_1_score')`) | `r mean(data_men_overall_southerncalifornia$'14_2_score')` (`r sd(data_men_overall_southerncalifornia$'14_2_score')`) | `r mean(data_men_overall_southerncalifornia$'14_3_score')` (`r sd(data_men_overall_southerncalifornia$'14_3_score')`) | `r mean(data_men_overall_southerncalifornia$'14_4_score')` (`r sd(data_men_overall_southerncalifornia$'14_4_score')`) | NA |
-| Women | `r mean(data_women_overall_southerncalifornia$'14_1_score')` (`r sd(data_women_overall_southerncalifornia$'14_1_score')`) | `r mean(data_women_overall_southerncalifornia$'14_2_score')` (`r sd(data_women_overall_southerncalifornia$'14_2_score')`) | `r mean(data_women_overall_southerncalifornia$'14_3_score')` (`r sd(data_women_overall_southerncalifornia$'14_3_score')`) | `r mean(data_women_overall_southerncalifornia$'14_4_score')` (`r sd(data_women_overall_southerncalifornia$'14_4_score')`) | NA |
-
-
-## South West
-
-| Workout    | 14.1 | 14.2 | 14.3 | 14.4 | 14.5 |
-|:-----------|:-----|:-----|:-----|:-----|:-----|
-| Men | `r mean(data_men_overall_southwest$'14_1_score')` (`r sd(data_men_overall_southwest$'14_1_score')`) | `r mean(data_men_overall_southwest$'14_2_score')` (`r sd(data_men_overall_southwest$'14_2_score')`) | `r mean(data_men_overall_southwest$'14_3_score')` (`r sd(data_men_overall_southwest$'14_3_score')`) | `r mean(data_men_overall_southwest$'14_4_score')` (`r sd(data_men_overall_southwest$'14_4_score')`) | NA |
-| Women | `r mean(data_women_overall_southwest$'14_1_score')` (`r sd(data_women_overall_southwest$'14_1_score')`) | `r mean(data_women_overall_southwest$'14_2_score')` (`r sd(data_women_overall_southwest$'14_2_score')`) | `r mean(data_women_overall_southwest$'14_3_score')` (`r sd(data_women_overall_southwest$'14_3_score')`) | `r mean(data_women_overall_southwest$'14_4_score')` (`r sd(data_women_overall_southwest$'14_4_score')`) | NA |
 
 
 # Graphs
