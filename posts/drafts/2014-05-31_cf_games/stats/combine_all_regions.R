@@ -137,4 +137,42 @@ temp <- list.files(path="assets/", full.names=TRUE)
 myfiles = lapply(temp, read.delim,sep = ",")
 df <- do.call("rbind",myfiles)
 
-write.table(df, "stats/open_results.csv", row.names=F, quote=F, sep=",")
+# Convert wide table to long format
+library(reshape2)
+df.long = melt(df, 
+			id = c("Athlete","overall_rank","overall_score", "gender", "region"), # keep these columns the same
+            measure = c("X14_1_score","X14_2_score", "X14_3_score", "X14_4_score", "X14_5_score"), # Put these columns into a new column
+            variable.name="wod_score") # Name of new column with the labels
+
+summary(df.long)
+
+df.long2 = melt(df, 
+			id = c("Athlete","overall_rank","overall_score", "gender", "region"), # keep these columns the same
+            measure = c("X14_1_rank","X14_2_rank", "X14_3_rank", "X14_4_rank", "X14_5_rank"), # Put these columns into a new column
+            variable.name="wod_finish") # Name of new column with the labels
+
+summary(df.long)
+
+df_final <- cbind(df.long, df.long2)
+# Remove columns
+df_final <- df_final[,-c(8:13)]
+
+# rename column
+names(df_final)[names(df_final)=="Athlete"] <- "athlete"
+names(df_final)[names(df_final)=="wod_score"] <- "wod"
+names(df_final)[names(df_final)=="value"] <- "score"
+names(df_final)[names(df_final)=="value.1"] <- "rank"
+
+# remove unwanted characters from column		
+df_final$wod <- gsub("X", "", paste(df_final$wod))
+df_final$wod <- gsub("_score", "", paste(df_final$wod))
+
+# sort (reorder) columns
+df_final <- df_final[,c(1,4:8,3:2)]
+
+# sort rows of dataframe
+df_final <- df_final[with(df_final, order(gender, region, wod, score)), ]
+
+
+
+write.table(df_final, "stats/open_results.csv", row.names=F, quote=F, sep=",")
