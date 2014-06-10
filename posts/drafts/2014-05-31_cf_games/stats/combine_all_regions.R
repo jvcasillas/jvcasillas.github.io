@@ -134,7 +134,7 @@ write.table(data_women_overall_southwest, "assets/data_women_overall_southwest.c
 
 # Combine files vertically into large data frame
 temp <- list.files(path="assets/", full.names=TRUE)
-myfiles = lapply(temp, read.delim,sep = ",")
+myfiles <- lapply(temp, read.delim,sep = ",")
 df <- do.call("rbind",myfiles)
 
 # Convert wide table to long format

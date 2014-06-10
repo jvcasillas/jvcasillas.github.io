@@ -38,7 +38,7 @@ knitr::kable(head(data_women_overall, 60), row.names=FALSE)
 # Results - by region
 
 ```{r, external-code-x, cache=FALSE, results='hide',echo=FALSE, warning=FALSE}
-source('stats/combine_all_regions.R')
+source('./stats/combine_all_regions.R')
 ```
 
 ## Men
