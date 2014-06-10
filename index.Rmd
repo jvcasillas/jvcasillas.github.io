@@ -10,7 +10,7 @@ mode: selfcontained
 </audio>
 
 
-<div>
+<div align="center">
 	<a href="#" onClick="document.getElementById('welcome').play(); return false;">
 		<img width="80%" src="{{ page.url.framework }}/assets/images/tracks100a.png" alt="welcome image">
 	</a>
