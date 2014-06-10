@@ -12,10 +12,11 @@ mode: selfcontained
 
 <div>
 	<a href="#" onClick="document.getElementById('welcome').play(); return false;">
-		<img width="100%" src="{{ page.url.framework }}/assets/images/tracks100a.png" alt="welcome image">
+		<img width="90%" src="{{ page.url.framework }}/assets/images/tracks100a.png" alt="welcome image">
 	</a>
 </div>
 
+<!-- <img width="100%" class="img-thumbnail" src="{{ page.url.framework }}/assets/images/tracks100a.png" alt="welcome image"> -->
 
 
 
