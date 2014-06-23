@@ -5,13 +5,10 @@ date: 2014-06-23
 framework: io2012
 tags: slidify, test
 highlighter: highlight.js
-hitheme: solarized_light
+hitheme: monokai
 ---
 
-<link href="{{page.url.widgets}}/nvd3/src/nv.d3.css" rel="stylesheet" type="text/css">
-<script src="{{page.url.widgets}}/nvd3/lib/d3.v2.js"></script>
-<script src="{{page.url.widgets}}/nvd3/lib/fisheye.js"></script>
-<script src="{{page.url.widgets}}/nvd3/nv.d3.js"></script>
+
 
 ## Slide 1
 
