@@ -864,6 +864,12 @@ cf games
 <div class="row row-offcanvas row-offcanvas-right">
 <div class="contents col-xs-12 col-md-10">
 <h1>Results - overall</h1>
+<div class="row">
+<button class="message R toggle btn btn-xs btn-info">
+<span class="glyphicon glyphicon-chevron-down"></span> R message
+</button><pre style=""><code class="message r">## Loading required package: methods
+</code></pre>
+</div>
 <h2>Overall men</h2>
 <div class="row">
 <button class="source R toggle btn btn-xs btn-primary">
@@ -3184,7 +3190,17 @@ Languages
 <li >
 <a href="#" type="all-source" class="toggle-global">All</a>
 </li></ul></li>
-
+<li class="dropup">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown">Output <b class="caret"></b></a>
+<ul class="dropdown-menu"><li class="dropdown-header">
+Type
+</li>
+<li >
+<a href="#" class="toggle-global message" type="message">message</a>
+</li>
+<li >
+<a href="#" type="all-output" class="toggle-global">All</a>
+</li></ul></li>
 <li class="active">
 <a href="#" type="figure" class="toggle-global">Figures</a>
 </li></ul>
