@@ -3,6 +3,7 @@ title: Checking Slides within Blogify
 author: Joseph V. Casillas
 date: 2014-06-23
 framework: io2012
+mode: draft
 tags: slidify, test
 highlighter: highlight.js
 hitheme: monokai
