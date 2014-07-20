@@ -42,6 +42,10 @@ url: {lib: ../libraries}
 
             <h4>Proceedings</h4>
                 <p>
+            Simonet, M., Casillas, J. V., &amp; Diaz, Y. The effects of stress/accent on VOT depend on language (English, Spanish), consonant (/d/, /t/) and linguistic experience (monolinguals, bilinguals). In <i>Speech Prosody 7 - Proceedings of the 7th international conference on Speech Prosody: Social and Linguistic Speech Prosody</i>, eds. N. Campbell, D. Gibbon, &amp; D. Hirst, 202-206. Trinity College, Dublin. <a alt="SP7" href="http://www.speechprosody2014.org" target='_new'><span class="showtooltip" title="SP7 proceedings">speechprosody2014.org</span></a>, ISSN: 2333-2042.
+                </p>
+
+                <p>
 			Casillas, J. V. 2013. La fricativización del africado /ʧ/: actitudes lingüísticas cerca de la frontera. In <i>Selected Proceedings of the 6th Workshop on Spanish Sociolinguistics</i>, ed. Ana M. Carvalho and Sara Beaudrie, 177-188. Somerville, MA: Cascadilla Proceedings Project. <a alt="WSS6" href="http://www.lingref.com/cpp/wss/6/abstract2867.html" target='_new'><span class="showtooltip" title="WSS6 abstract">www.lingref.com</span></a>, document #2867.
                 </p>
 
@@ -55,13 +59,13 @@ url: {lib: ../libraries}
                 </p>
 
                 <p>
-			Simonet, M., Casillas, J. V., &amp; Diaz, Y. The effects of stress/accent on VOT depend on language (English, Spanish), consonant (/d/, /t/) and linguistic experience (monolinguals, bilinguals).
+            Casillas, J. V. El foco y el orden de palabras en español
                 </p>
 
             <h4>In preparation</h4>
 
                 <p>
-			Casillas, J. V. El foco y el orden de palabras en español
+			Casillas, J. V. Community Approaches to Translating Specialized Terminology in Linguistics: lingreference.org.
                 </p>
 
         </div>
@@ -96,6 +100,10 @@ url: {lib: ../libraries}
                 </p>
 
             <h4>Poster Presentations</h4>
+                <p>
+            Simonet, M., Casillas, J. V., &amp; Diaz, Y. The effects of stress/accent on VOT depend on language (English, Spanish), consonant (/d/, /t/) and linguistic experience (monolinguals, bilinguals). In <i>Speech Prosody 7 - Proceedings of the 7th international conference on Speech Prosody: Social and Linguistic Speech Prosody</i>, eds. N. Campbell, D. Gibbon, &amp; D. Hirst, 202-206. Trinity College, Dublin. <a alt="SP7" href="http://www.speechprosody2014.org" target='_new'><span class="showtooltip" title="SP7 proceedings">speechprosody2014.org</span></a>, ISSN: 2333-2042.
+                </p>
+
                 <p>
 			Casillas, J. V. &amp; Simonet, M. (2013). English-dominant early Spanish/English bilinguals perception of English tense-lax vowel contrasts. <i>PPLC 13: Phonetics, phonology and languages in contact: Contact varieties, multilingualism, and second language learning</i>. Paris, Délégation Générale Wallonie-Bruxelles (August, 2013).
                 </p>
