@@ -101,7 +101,7 @@ url: {lib: ../libraries}
 
             <h4>Poster Presentations</h4>
                 <p>
-            Simonet, M., Casillas, J. V., &amp; Diaz, Y. (2014). The effects of stress/accent on VOT depend on language (English, Spanish), consonant (/d/, /t/) and linguistic experience (monolinguals, bilinguals). In <i>Speech Prosody 7 - Proceedings of the 7th international conference on Speech Prosody: Social and Linguistic Speech Prosody</i>, eds. N. Campbell, D. Gibbon, &amp; D. Hirst, 202-206. Trinity College, Dublin. <a alt="SP7" href="http://www.speechprosody2014.org" target='_new'><span class="showtooltip" title="SP7 proceedings">speechprosody2014.org</span></a>, ISSN: 2333-2042.
+            Simonet, M., Casillas, J. V., &amp; Diaz, Y. (2014). The effects of stress/accent on VOT depend on language (English, Spanish), consonant (/d/, /t/) and linguistic experience (monolinguals, bilinguals). <i>7th international conference on Speech Prosody: Social and Linguistic Speech Prosody</i>Trinity College, Dublin (May, 2014).
                 </p>
 
                 <p>
