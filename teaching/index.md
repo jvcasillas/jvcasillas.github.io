@@ -22,6 +22,8 @@ Here you can find a list of some of the classes I have taught or am currently te
 	- [High Beginner Spanish in Context (Level 1.5)][1.5]
 	- [Spanish pronunciation workshop for beginners][clinica]
 
+</br>
+
 [102]: span_102/index.html
 [251]: span_251/index.html
 [340]: span_340/index.html
