@@ -45,6 +45,9 @@ knitr::kable(head(data_women_overall, 60), row.names=FALSE)
 # Results - by region
 
 
+```
+## Error: no lines available in input
+```
 
 ## Men
 
