@@ -7,7 +7,7 @@ disqus: True
 
 **Clínica de pronunciación**  
 
-This 5-week workshop introduces students to specific problems related to learning Spanish pronunciation. Each week a new problem is explained and specific exercices are practiced in order to obtain more native-like pronunciation. These materials were adaptated from a previous verion of the workshop taught by Dr. Armin Schwegler. 
+This 5-week workshop introduces students to specific problems related to learning Spanish pronunciation. Each week a new problem is explained and specific exercises are practiced in order to obtain more native-like pronunciation. These materials were adapted from a previous version of the workshop taught by [Dr. Armin Schwegler][armin]. 
 
 - [Week 1][Week 1]
 - [Week 2][Week 2]
@@ -20,3 +20,4 @@ This 5-week workshop introduces students to specific problems related to learnin
 [Week 3]: https://dl.dropboxusercontent.com/u/7256527/clinica_ppt/3_midd_clinica_2014.pptx
 [Week 4]: https://dl.dropboxusercontent.com/u/7256527/clinica_ppt/4_midd_clinica_2014.pptx
 [Week 5]: https://dl.dropboxusercontent.com/u/7256527/clinica_ppt/5_midd_clinica_2014.pptx
+[armin]: http://www.faculty.uci.edu/profile.cfm?faculty_id=2476
