@@ -1,0 +1,42 @@
+p {
+	font-size: 35px;
+	color: #222;
+}
+
+ul {
+	font-size: 35px;
+	color: #222;
+}
+
+h2 {
+	color: #AA0000;
+}
+
+table {
+	font-size: 35px;
+}
+
+blockquote {
+	background-color: #f2f2f2;
+}
+
+strong {
+	color: #AA0000;
+}
+
+blue {
+	color: #0000CC;
+	font-weight: bold;
+}
+
+.rmdtable {
+	color: #222;
+}
+
+.big {
+	font-size: 40px;
+}
+
+.small {
+	font-size: 20px;
+}
