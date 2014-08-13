@@ -12,8 +12,6 @@ output:
 ---
 
 
-
-
 # Para sobrevivir
 
 ---
