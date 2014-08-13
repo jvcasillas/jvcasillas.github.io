@@ -31,3 +31,4 @@ Designed for students with some previous study of Spanish, experience in a Spani
 [Capítulo 7]: cap7/cap7.html
 [Capítulo 8]: cap8/cap8.html
 [Capítulo 9]: cap9/cap9.html
+[Resumen]: resumen.pdf
