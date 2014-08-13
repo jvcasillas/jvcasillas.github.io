@@ -21,14 +21,14 @@ Designed for students with some previous study of Spanish, experience in a Spani
 - [Capítulo 9][Capítulo 9] 
 - [Resumen][Resumen]
 
-[Paso preliminar]: assets/0_paso_prelim/paso_prelim.html
-[Capítulo 1]: assets/cap1/cap1.html
-[Capítulo 2]: assets/cap2/cap2.html
-[Capítulo 3]: assets/cap3/cap3.html
-[Capítulo 4]: assets/cap4/cap4.html
-[Capítulo 5]: assets/cap5/cap5.html
-[Capítulo 6]: assets/cap6/cap6.html
-[Capítulo 7]: assets/cap7/cap7.html
-[Capítulo 8]: assets/cap8/cap8.html
-[Capítulo 9]: assets/cap9/cap9.html
+[Paso preliminar]: 0_paso_prelim/paso_prelim.html
+[Capítulo 1]: cap1/cap1.html
+[Capítulo 2]: cap2/cap2.html
+[Capítulo 3]: cap3/cap3.html
+[Capítulo 4]: cap4/cap4.html
+[Capítulo 5]: cap5/cap5.html
+[Capítulo 6]: cap6/cap6.html
+[Capítulo 7]: cap7/cap7.html
+[Capítulo 8]: cap8/cap8.html
+[Capítulo 9]: cap9/cap9.html
 [Resumen]: resumen.pdf
