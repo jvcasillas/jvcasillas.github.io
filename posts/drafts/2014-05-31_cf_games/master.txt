@@ -12,10 +12,11 @@ output:
 
 # Results - overall
 
-```{r, external-code-0, cache=FALSE, results='hide',echo=FALSE}
+```{r, external-code-0, cache=FALSE, results='hide',echo=FALSE, eval=TRUE}
 library(knitr)
 source('stats/00_lb_scrape_overall.R')
 ```
+
 
 ## Overall men
 ```{r, results='asis'}
