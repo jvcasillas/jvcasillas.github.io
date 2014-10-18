@@ -22,6 +22,9 @@ Here you can find a list of some of the classes I have taught or am currently te
 	- [High Beginner Spanish in Context (Level 1.5)][1.5]
 	- [Spanish pronunciation workshop for beginners][clinica]
 
+- Workshops
+	- [Using PsychoPy2 for linguistic research][psychopy]
+
 </br>
 
 [102]: span_102/index.html
@@ -33,3 +36,4 @@ Here you can find a list of some of the classes I have taught or am currently te
 [457]: span_457/index.html
 [1.5]: span_3151/index.html
 [clinica]: span_clinica/index.html
+[psychopy]: psychopy/index.html
