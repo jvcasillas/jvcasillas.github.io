@@ -93,7 +93,7 @@ url: {lib: ../libraries}
 
             <h4>Proceedings</h4>
                 <p>
-            Simonet, M., Casillas, J. V., &amp; Diaz, Y. (2014). The effects of stress/accent on VOT depend on language (English, Spanish), consonant (/d/, /t/) and linguistic experience (monolinguals, bilinguals). In <i>Speech Prosody 7 - Proceedings of the 7th international conference on Speech Prosody: Social and Linguistic Speech Prosody</i>, eds. N. Campbell, D. Gibbon, &amp; D. Hirst, 202-206. Trinity College, Dublin. ISSN: 2333-2042.
+            Simonet, M., Casillas, J. V., &amp; Díaz, Y. (2014). The effects of stress/accent on VOT depend on language (English, Spanish), consonant (/d/, /t/) and linguistic experience (monolinguals, bilinguals). In <i>Speech Prosody 7 - Proceedings of the 7th international conference on Speech Prosody: Social and Linguistic Speech Prosody</i>, eds. N. Campbell, D. Gibbon, &amp; D. Hirst, 202-206. Trinity College, Dublin. ISSN: 2333-2042.
             <a alt="SP7" href="http://www.speechprosody2014.org" target='_new'><span class="showtooltip" title="SP7 proceedings">Link</span></a> |
             <a href="javascript:ReverseDisplay('SimonetCasillasDiazSP72014Abstract')">Abstract</a> |
             <a href="javascript:ReverseDisplay('SimonetCasillasDiazSP72014Bib')">Bib</a>
@@ -154,7 +154,7 @@ url: {lib: ../libraries}
             <h4>In preparation</h4>
 
                 <p>
-			Casillas, J. V. Community Approaches to Translating Specialized Terminology in Linguistics: lingreference.org.
+			Casillas, J. V. Community approaches to translating specialized terminology in linguistics: lingreference.org.
                 </p>
 
         </div>
@@ -190,7 +190,11 @@ url: {lib: ../libraries}
 
             <h4>Poster Presentations</h4>
                 <p>
-            Simonet, M., Casillas, J. V., &amp; Diaz, Y. (2014). The effects of stress/accent on VOT depend on language (English, Spanish), consonant (/d/, /t/) and linguistic experience (monolinguals, bilinguals). <i>7th international conference on Speech Prosody: Social and Linguistic Speech Prosody</i>. Trinity College, Dublin (May, 2014).
+            Simonet, M., Casillas, J.V., &amp; Díaz, Y. (2014). A contrastive acoustic analysis of dental and alveolar stops in Spanish and English. <i>Hispanic Linguistics Symposium</i>. Purdue University, West Lafayette, IN (November, 2014).
+                </p>
+
+                <p>
+            Simonet, M., Casillas, J. V., &amp; Díaz, Y. (2014). The effects of stress/accent on VOT depend on language (English, Spanish), consonant (/d/, /t/) and linguistic experience (monolinguals, bilinguals). <i>7th international conference on Speech Prosody: Social and Linguistic Speech Prosody</i>. Trinity College, Dublin (May, 2014).
                 </p>
 
                 <p>
