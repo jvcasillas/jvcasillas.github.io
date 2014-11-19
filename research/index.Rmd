@@ -33,18 +33,18 @@ url: {lib: ../libraries}
             <a href="javascript:ReverseDisplay('Casillas2012Abstract')">Abstract</a>
             <a href="javascript:ReverseDisplay('Casillas2012Bib')">Bib file</a>
 
-            <div id="Casillas2012Abstract" style="display:none;margin-left:2em;text-indent:2em">
+            <div id="Casillas2012Abstract" style="display:none;margin-left:2em;text-indent:0em">
             <p>La fricativización del fonema /ʧ/ supone uno de los procesos fonológicos más productivos del español mexicano, sin embargo, actualmente sigue siendo uno de los menos estudiados. Partiendo de las investigaciones de Cedergren (1973), Brown (1989) y Herrera (2006), el presente estudio analiza la fricativización del fonema /ʧ/ en el español de las mujeres del sur de Arizona. El uso de una regresión de subida y bajada de Goldvarb X determinó que la edad de las participantes, el contexto posterior a /ʧ/ y el lugar de nacimiento son factores determinantes para la realización de la variante fricativa.</p>
             </div>
 
-            <div id="Casillas2012Bib" style="display:none;margin-left:2em;text-indent:2em">
+            <div id="Casillas2012Bib" style="display:none;margin-left:2em;text-indent:0em">
             <code>
-            @article{Casillas2012,
-                Author = {Joseph Vincent Casillas},
-                Journal = {Divergencias: Revista de estudios ling{\"u}{\'\i}sticos y literarios},
-                Number = {1},
-                Title = {La fricativizaci{\'o}n del africado \textipa{/\textteshlig/} en el habla de las mujeres del sur de Arizona},
-                Volume = {10},
+            @article{Casillas2012,  
+                Author = {Joseph Vincent Casillas},  
+                Journal = {Divergencias: Revista de estudios ling{\"u}{\'\i}sticos y literarios},  
+                Number = {1},  
+                Title = {La fricativizaci{\'o}n del africado \textipa{/\textteshlig/} en el habla de las mujeres del sur de Arizona},  
+                Volume = {10},  
                 Year = {2012}}
             </code>
             </div>
