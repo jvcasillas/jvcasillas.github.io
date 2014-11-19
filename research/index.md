@@ -88,6 +88,7 @@ url: {lib: ../libraries}
                 Volume = {VIII}, </br>
                 Year = {2009}}
             </code>
+            </div>
                 </p>
 
             <h4>Proceedings</h4>
