@@ -401,3 +401,14 @@ a.pagination-item:hover {
     border-bottom-right-radius: 4px;
   }
 }
+
+
+
+/* NEW */
+
+.minip {
+  margin-top: 0;
+  margin-bottom: 1rem;
+  text-align: justify;
+  font-size: .75rem;
+}
