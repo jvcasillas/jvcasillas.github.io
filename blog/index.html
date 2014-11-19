@@ -70,6 +70,21 @@
       ga('send', 'pageview');
   
     </script>
+  
+  
+    <script type="text/javascript" language="JavaScript">
+    function HideContent(d) {
+    document.getElementById(d).style.display = "none";
+    }
+    function ShowContent(d) {
+    document.getElementById(d).style.display = "block";
+    }
+    function ReverseDisplay(d) {
+    if(document.getElementById(d).style.display == "none") { document.getElementById(d).style.display = "block"; }
+    else { document.getElementById(d).style.display = "none"; }
+    }
+    </script>
+    
   </head>  <body class='theme-base-01  '>
 
     <!-- Target for toggling the sidebar `.sidebar-checkbox` is for regular
