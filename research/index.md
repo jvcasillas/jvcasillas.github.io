@@ -30,15 +30,23 @@ url: {lib: ../libraries}
             <h4>Recent Publications</h4>
                 <p>
 			Casillas, J. V. (2012). La fricativización del africado /ʧ/ en el habla de las mujeres del sur de Arizona. <i>Divergencias: Revista de estudios lingüísticos y literarios</i>, 10 (1). <a alt="Divergencias" href="http://divergencias.arizona.edu/sites/divergenciasweb.arizona.edu/files/articles/FricativizacionDivergencias.pdf" target='_new'><span class="showtooltip" title="Read paper">Link</span></a>
-            <a href="javascript:ReverseDisplay('uniquename1')">Abstract</a>
-            <a href="javascript:ReverseDisplay('uniquename2')">Bib file</a>
+            <a href="javascript:ReverseDisplay('Casillas2012Abstract')">Abstract</a>
+            <a href="javascript:ReverseDisplay('Casillas2012Bib')">Bib file</a>
 
-            <div id="uniquename1" style="display:none;">
-            <p>Content goes here.</p>
+            <div id="Casillas2012Abstract" style="display:none;">
+            <p>La fricativización del fonema /ʧ/ supone uno de los procesos fonológicos más productivos del español mexicano, sin embargo, actualmente sigue siendo uno de los menos estudiados. Partiendo de las investigaciones de Cedergren (1973), Brown (1989) y Herrera (2006), el presente estudio analiza la fricativización del fonema /ʧ/ en el español de las mujeres del sur de Arizona. El uso de una regresión de subida y bajada de Goldvarb X determinó que la edad de las participantes, el contexto posterior a /ʧ/ y el lugar de nacimiento son factores determinantes para la realización de la variante fricativa.</p>
             </div>
 
             <div id="uniquename2" style="display:none;">
-            <p>Content goes here.</p>
+            <code>
+            @article{Casillas2012,
+                Author = {Joseph Vincent Casillas},
+                Journal = {Divergencias: Revista de estudios ling{\"u}{\'\i}sticos y literarios},
+                Number = {1},
+                Title = {La fricativizaci{\'o}n del africado \textipa{/\textteshlig/} en el habla de las mujeres del sur de Arizona},
+                Volume = {10},
+                Year = {2012}}
+            </code>
             </div>
                 </p>
 
