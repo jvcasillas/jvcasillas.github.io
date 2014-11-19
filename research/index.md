@@ -29,7 +29,8 @@ url: {lib: ../libraries}
         <div class="tab-pane" id="publications" style="margin-left:2em;text-indent:-2em">
             <h4>Recent Publications</h4>
                 <p>
-			Casillas, J. V. (2012). La fricativización del africado /ʧ/ en el habla de las mujeres del sur de Arizona. <i>Divergencias: Revista de estudios lingüísticos y literarios</i>, 10 (1). [<a alt="Divergencias" href="http://divergencias.arizona.edu/sites/divergenciasweb.arizona.edu/files/articles/FricativizacionDivergencias.pdf" target='_new'><span class="showtooltip" title="Read paper">Link</span></a> |
+			Casillas, J. V. (2012). La fricativización del africado /ʧ/ en el habla de las mujeres del sur de Arizona. <i>Divergencias: Revista de estudios lingüísticos y literarios</i>, 10 (1). </br>
+            [<a alt="Divergencias" href="http://divergencias.arizona.edu/sites/divergenciasweb.arizona.edu/files/articles/FricativizacionDivergencias.pdf" target='_new'><span class="showtooltip" title="Read paper">Link</span></a> |
             <a href="javascript:ReverseDisplay('Casillas2012Abstract')">Abstract</a> |
             <a href="javascript:ReverseDisplay('Casillas2012Bib')">Bib</a>]
 
