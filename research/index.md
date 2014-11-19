@@ -37,15 +37,15 @@ url: {lib: ../libraries}
             <p>La fricativización del fonema /ʧ/ supone uno de los procesos fonológicos más productivos del español mexicano, sin embargo, actualmente sigue siendo uno de los menos estudiados. Partiendo de las investigaciones de Cedergren (1973), Brown (1989) y Herrera (2006), el presente estudio analiza la fricativización del fonema /ʧ/ en el español de las mujeres del sur de Arizona. El uso de una regresión de subida y bajada de Goldvarb X determinó que la edad de las participantes, el contexto posterior a /ʧ/ y el lugar de nacimiento son factores determinantes para la realización de la variante fricativa.</p>
             </div>
 
-            <div id="Casillas2012Bib" style="display:none;margin-left:2em;text-indent:0em">
+            <div id="Casillas2012Bib" style="display:none;margin-left:2em;text-indent:-2em">
             <code>
             @article{Casillas2012, </br> 
-                Author = {Joseph Vincent Casillas},  </br> 
-                Journal = {Divergencias: Revista de estudios ling{\"u}{\'\i}sticos y literarios},  </br> 
-                Number = {1},  </br> 
-                Title = {La fricativizaci{\'o}n del africado \textipa{/\textteshlig/} en el habla de las mujeres del sur de Arizona},  </br> 
-                Volume = {10},  </br> 
-                Year = {2012}}
+            Author = {Joseph Vincent Casillas},  </br> 
+            Journal = {Divergencias: Revista de estudios ling{\"u}{\'\i}sticos y literarios},  </br> 
+            Number = {1},  </br> 
+            Title = {La fricativizaci{\'o}n del africado \textipa{/\textteshlig/} en el habla de las mujeres del sur de Arizona},  </br> 
+            Volume = {10},  </br> 
+            Year = {2012}}
             </code>
             </div>
                 </p>
