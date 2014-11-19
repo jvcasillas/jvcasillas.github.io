@@ -29,9 +29,9 @@ url: {lib: ../libraries}
         <div class="tab-pane" id="publications" style="margin-left:2em;text-indent:-2em">
             <h4>Recent Publications</h4>
                 <p>
-			Casillas, J. V. (2012). La fricativización del africado /ʧ/ en el habla de las mujeres del sur de Arizona. <i>Divergencias: Revista de estudios lingüísticos y literarios</i>, 10 (1). <a alt="Divergencias" href="http://divergencias.arizona.edu/sites/divergenciasweb.arizona.edu/files/articles/FricativizacionDivergencias.pdf" target='_new'><span class="showtooltip" title="Read paper">[Link</span></a> |
+			Casillas, J. V. (2012). La fricativización del africado /ʧ/ en el habla de las mujeres del sur de Arizona. <i>Divergencias: Revista de estudios lingüísticos y literarios</i>, 10 (1). [<a alt="Divergencias" href="http://divergencias.arizona.edu/sites/divergenciasweb.arizona.edu/files/articles/FricativizacionDivergencias.pdf" target='_new'><span class="showtooltip" title="Read paper">Link</span></a> |
             <a href="javascript:ReverseDisplay('Casillas2012Abstract')">Abstract</a> |
-            <a href="javascript:ReverseDisplay('Casillas2012Bib')">Bib]</a>
+            <a href="javascript:ReverseDisplay('Casillas2012Bib')">Bib</a>]
 
             <div id="Casillas2012Abstract" style="display:none;margin-left:2em;text-indent:0em">
             <p>La fricativización del fonema /ʧ/ supone uno de los procesos fonológicos más productivos del español mexicano, sin embargo, actualmente sigue siendo uno de los menos estudiados. Partiendo de las investigaciones de Cedergren (1973), Brown (1989) y Herrera (2006), el presente estudio analiza la fricativización del fonema /ʧ/ en el español de las mujeres del sur de Arizona. El uso de una regresión de subida y bajada de Goldvarb X determinó que la edad de las participantes, el contexto posterior a /ʧ/ y el lugar de nacimiento son factores determinantes para la realización de la variante fricativa.</p>
@@ -52,7 +52,7 @@ url: {lib: ../libraries}
 
                 <p>
 			Casillas, J. V. (2010). La vibrante múltiple intervocálica: los ejercicios de canto como ayuda a su pronunciación en español. <i>La Gaceta Hispánica de Madrid</i>, VIII.
-            <a href="javascript:ReverseDisplay('Casillas2010Bib')">[Bib]</a>
+            [<a href="javascript:ReverseDisplay('Casillas2010Bib')">Bib</a>]
 
             <div id="Casillas2010Bib" style="display:none;margin-left:2em;text-indent:-2em">
             <code>
