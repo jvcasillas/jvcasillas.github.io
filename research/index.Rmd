@@ -24,7 +24,7 @@ url: {lib: ../libraries}
 
     <div class="tab-content">
         <div class="tab-pane active" id="current-research">
-            <p>I am an active member of the <a alt="AAPL" href="http://aaplab1.github.io" target='_new'><span class="showtooltip" title="AAPL webpage">Arizona Applied Phonetics Laboratory</span></a> at the University of Arizona. My main interests are in phonetics, phonology. My current projects are centered on second language speech learning. Specifically, I investigate native phonetic experience and its influence on L2 speech production, perception and lexical processing. I am also interested in how dialectal variation affects linguistic attitudes.</p>
+            <p>I am an active member of the <a alt="AAPL" href="http://aaplab1.github.io" target='_new'><span class="showtooltip" title="AAPL webpage">Arizona Applied Phonetics Laboratory</span></a> at the University of Arizona. My main interests are in phonetics/phonology. My current projects deal with acquisition of L2 phonology in late learners. Specifically, I am interested in category formation and the production/perception relationship. I am also interested in how dialectal variation affects linguistic attitudes.</p>
         </div>
         <div class="tab-pane" id="publications" style="margin-left:2em;text-indent:-2em">
             <h4>Recent Publications</h4>
