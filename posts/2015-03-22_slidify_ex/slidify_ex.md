@@ -11,7 +11,7 @@ hitheme: solarized_light
 
 ## Testing
 
-- this is a test
-- To see if this works
+- This is a test
+- Poirot can be used to make slide decks from within blog posts
 
 
