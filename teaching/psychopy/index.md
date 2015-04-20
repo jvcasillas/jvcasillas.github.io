@@ -12,4 +12,4 @@ __Using PsychoPy2 for linguistic research__
 - [Demo files](psychopy_demos.zip)
 
 
-[Workshop slides]: http://www.jvcasillas.com/psychopy_ws/psychopy2_ws.html
+[Workshop slides]: http://www.jvcasillas.com/psychopy_ws/index.html
