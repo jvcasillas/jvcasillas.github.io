@@ -1,6 +1,16 @@
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
 
+<!--   
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:url" content="http://jvcasill.github.io">
+  <meta name="twitter:title" content="Basic plotting in R">
+  <meta name="twitter:description" content="">
+  <meta name="twitter:image" content="http://jvcasill.github.io/images/jvcasill.jpg">
+  <meta name="twitter:site" content="@jvcasill">
+  <meta name="twitter:creator" content="@jvcasill">
+   -->
+  
   <head>
     <link href="http://gmpg.org/xfn/11" rel="profile">
     <meta http-equiv="content-type" content="text/html; charset=utf-8">
@@ -9,34 +19,33 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
   
     <title>
-      
-      Joseph V. Casillas
-  </title>
+        Joseph V. Casillas
+      </title>
   
     <!-- CSS -->
-    <link rel="stylesheet" href="../libraries/frameworks/lanyon/public/css/poole.css">
-    <link rel="stylesheet" href="../libraries/frameworks/lanyon/public/css/syntax.css">
-    <link rel="stylesheet" href="../libraries/frameworks/lanyon/public/css/lanyon.css">
-    <link rel="stylesheet" href="../libraries/highlighters/highlight.js/css/tomorrow.css">
+    <link rel="stylesheet" href="../../libraries/frameworks/lanyon/public/css/poole.css">
+    <link rel="stylesheet" href="../../libraries/frameworks/lanyon/public/css/syntax.css">
+    <link rel="stylesheet" href="../../libraries/frameworks/lanyon/public/css/lanyon.css">
+    <link rel="stylesheet" href="../../libraries/highlighters/highlight.js/css/sunburst.css">
     <link rel="stylesheet" href="//fonts.googleapis.com/css?family=PT+Serif:400,400italic,700|PT+Sans:400">
     <!-- <link rel='stylesheet' href='//fonts.googleapis.com/css?family=Gentium+Book+Basic|Lato:400' type='text/css'> -->
     <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
-    <link rel="stylesheet" href="../libraries/frameworks/lanyon/public/css/buttons.css">
+    <link rel="stylesheet" href="../../libraries/frameworks/lanyon/public/css/buttons.css">
   
   
     <!-- Icons -->
-    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="../libraries/frameworks/lanyon/public/praat.png">
-    <link rel="shortcut icon" href="../libraries/frameworks/lanyon/public/favicon_ipa.ico">
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="../../libraries/frameworks/lanyon/public/praat.png">
+    <link rel="shortcut icon" href="../../libraries/frameworks/lanyon/public/favicon_ipa.ico">
   
     <!-- RSS -->
     <link rel="alternate" type="application/rss+xml" title="RSS" href="/atom.xml">
   
     <!-- Jquery -->
-    <script type="text/javascript" src="../libraries/frameworks/lanyon/public/js/jquery-1.7.2.min.js"></script>
+    <script type="text/javascript" src="../../libraries/frameworks/lanyon/public/js/jquery-1.7.2.min.js"></script>
   
     <!-- Javascript -->
-    <script type="text/javascript" src="../libraries/frameworks/lanyon/public/js/bootstrap.min.js"></script>
-    <script type="text/javascript" src="../libraries/frameworks/lanyon/public/js/bootstrap-dropdown.js"></script>
+    <script type="text/javascript" src="../../libraries/frameworks/lanyon/public/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="../../libraries/frameworks/lanyon/public/js/bootstrap-dropdown.js"></script>
     
     <!-- Source: http://developerdrive.developerdrive.netdna-cdn.com/wp-content/uploads/2013/07/scroll-to-top.html 
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
@@ -85,7 +94,10 @@
     }
     </script>
     
-  </head>  <body class='theme-base-01  '>
+  </head>  
+  
+
+  <body class='theme-base-01 '>
 
     <!-- Target for toggling the sidebar `.sidebar-checkbox` is for regular
          styles, `#sidebar-checkbox` for behavior. -->
@@ -99,12 +111,12 @@
         University of Arizona</p>
     
     
-        <a href="mailto:jvcasill@email.arizona.edu"><span class="mail me" title="email"><img src="../libraries/frameworks/lanyon/assets/images/icons/mail_white.png" alt="info image" height="30" width="26" style="float:left;"></span></a>
-        <a alt="youtube" href="http://www.youtube.com/jvcasill" target='_new'><span class="showtooltip" title="youtube channel"><img src="../libraries/frameworks/lanyon/assets/images/icons/youtube_white2.png" alt="info image" height="30" width="30" style="float:left;"></span></a>
-        <a alt="twitter" href="http://twitter.com/jvcasill/" target='_new'><span class="showtooltip" title="my twitter feed"><img src="../libraries/frameworks/lanyon/assets/images/icons/twitter_white.png" alt="bird image" height="30" width="30" style="float:left;"></span></a>
-        <a alt="facebook" href="http://facebook.com/jvcasill/" target='_new'><span class="showtooltip" title="more info"><img src="../libraries/frameworks/lanyon/assets/images/icons/fb_white.png" alt="info image" height="30" width="30" style="float:left;"></span></a>
-        <a alt="github" href="http://github.com/jvcasill/" target='_new'><span class="showtooltip" title="my code"><img src="../libraries/frameworks/lanyon/assets/images/icons/github_white2.png" alt="github image" height="30" width="30" style="float:left;"></span></a>
-        <a alt="researchgate" href="https://www.researchgate.net/profile/Joseph_Casillas" target='_new'><span class="showtooltip" title="researchgate"><img src="../libraries/frameworks/lanyon/assets/images/icons/rg_white.png" alt="rss image" height="30" width="30" style="float:left;"></span></a></br>
+        <a href="mailto:jvcasill@email.arizona.edu"><span class="mail me" title="email"><img src="../../libraries/frameworks/lanyon/assets/images/icons/mail_white.png" alt="info image" height="30" width="26" style="float:left;"></span></a>
+        <a alt="youtube" href="http://www.youtube.com/jvcasill" target='_new'><span class="showtooltip" title="youtube channel"><img src="../../libraries/frameworks/lanyon/assets/images/icons/youtube_white2.png" alt="info image" height="30" width="30" style="float:left;"></span></a>
+        <a alt="twitter" href="http://twitter.com/jvcasill/" target='_new'><span class="showtooltip" title="my twitter feed"><img src="../../libraries/frameworks/lanyon/assets/images/icons/twitter_white.png" alt="bird image" height="30" width="30" style="float:left;"></span></a>
+        <a alt="facebook" href="http://facebook.com/jvcasill/" target='_new'><span class="showtooltip" title="more info"><img src="../../libraries/frameworks/lanyon/assets/images/icons/fb_white.png" alt="info image" height="30" width="30" style="float:left;"></span></a>
+        <a alt="github" href="http://github.com/jvcasill/" target='_new'><span class="showtooltip" title="my code"><img src="../../libraries/frameworks/lanyon/assets/images/icons/github_white2.png" alt="github image" height="30" width="30" style="float:left;"></span></a>
+        <a alt="researchgate" href="https://www.researchgate.net/profile/Joseph_Casillas" target='_new'><span class="showtooltip" title="researchgate"><img src="../../libraries/frameworks/lanyon/assets/images/icons/rg_white.png" alt="rss image" height="30" width="30" style="float:left;"></span></a></br>
       </div>
     
       <nav class="sidebar-nav">
@@ -150,74 +162,49 @@
           <h2 class="masthead-title">
             <a href="/" title="Home">Joseph V. Casillas</a>
             <small></small>
+<!--             <div style='float:right;'>
+            <a href="/blog">
+              <i class='fa fa-archive'> </i>
+            </a>
+            <a href="http://twitter.com/jvcasill">
+              <i class='fa fa-twitter'> </i>
+            </a>
+            <a href="http://github.com/jvcasill">
+              <i class='fa fa-github'> </i>
+            </a>
+            </div> -->
           </h2>
         </div>
       </div>
 
-      
-<div class="container content">
-  <h2 class="extra">Blog Posts</br></h2>
-  <div class="posts">
-    
-    <ul class="post">
-      <li><span><p class="posts">2013-05-09 &raquo; <a href="../posts/2013-05-09_colored_spec/colored_spec.html"> Colored spectrograms in R</a></p></span>
-      </li>   
-      <!--  -->
-    </ul>
-    
-    <ul class="post">
-      <li><span><p class="posts">2013-05-11 &raquo; <a href="../posts/2013-05-11_tikz_install/install_tikz_tut.html"> TikzDevice tutorial I: install tikzDevice in R</a></p></span>
-      </li>   
-      <!--  -->
-    </ul>
-    
-    <ul class="post">
-      <li><span><p class="posts">2013-05-17 &raquo; <a href="../posts/2013-05-17_tikz_project/tikz_proj.html"> TikzDevice tutorial II: structuring a project</a></p></span>
-      </li>   
-      <!--  -->
-    </ul>
-    
-    <ul class="post">
-      <li><span><p class="posts">2014-01-07 &raquo; <a href="../posts/2014-01-07_md_to_html5/md_html5_r.html"> Converting markdown files to HTML5 in RStudio</a></p></span>
-      </li>   
-      <!--  -->
-    </ul>
-    
-    <ul class="post">
-      <li><span><p class="posts">2014-05-27 &raquo; <a href="../posts/2014-05-26_knitr_bootstrap/2014-05-26-knitr_bootstrap.html"> Knitr bootstrap</a></p></span>
-      </li>   
-      <!--  -->
-    </ul>
-    
-    <ul class="post">
-      <li><span><p class="posts">2014-05-27 &raquo; <a href="../posts/2014-05-28_tikz_ipa_plot/tikz_ipa_plot.html"> TikzDevice tutorial III: standalone plots</a></p></span>
-      </li>   
-      <!--  -->
-    </ul>
-    
-    <ul class="post">
-      <li><span><p class="posts">2014-10-12 &raquo; <a href="../posts/2014-10-12_sas_r/sas_r.html"> Translation into R of core application in SAS</a></p></span>
-      </li>   
-      <!--  -->
-    </ul>
-    
-    <ul class="post">
-      <li><span><p class="posts">2015-03-22 &raquo; <a href="../posts/2015-03-22_slidify_ex/slidify_ex.html"> Checking Slides within Blogify</a></p></span>
-      </li>   
-      <!--  -->
-    </ul>
-    
-    <ul class="post">
-      <li><span><p class="posts">2015-04-20 &raquo; <a href="../posts/2015-04-20_plotting_in_r/plottingR.html"> Basic plotting in R</a></p></span>
-      </li>   
-      <!--  -->
-    </ul>
-    
-  </div>
-</div>
+      <div class="container content">
+        <div class="post">
+          <h1 class="post-title">Basic plotting in R</h1>
+          <span class="post-date">2015-04-20</span>
+          
+<p><meta http-equiv="refresh" content="0;url= http://www.jvcasillas.com/base_lattice_ggplot/"/></p>
 
+        </div>
+        </br>
+        </br>
+        <div id="disqus_thread"></div>
+        <script type="text/javascript">
+          /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+          var disqus_shortname = 'jvcasillas'; // required: replace example with your forum shortname
+        
+          /* * * DON'T EDIT BELOW THIS LINE * * */
+          (function() {
+               var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+               dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+               (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+           })();
+        </script>
+        <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+        <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>        
+      </div>
+      <!-- <a href="#" class="back-to-top">Back to Top</a> -->
     </div>
-
+  
   <script type="text/javascript">
     var _gauges = _gauges || [];
     (function() {
@@ -234,7 +221,7 @@
   <!-- Load Javascripts for Widgets -->
   
   <!-- LOAD HIGHLIGHTER JS FILES -->
-  <script src="../libraries/highlighters/highlight.js/highlight.pack.js"></script>
+  <script src="../../libraries/highlighters/highlight.js/highlight.pack.js"></script>
   <script>hljs.initHighlightingOnLoad();</script>
   <!-- DONE LOADING HIGHLIGHTER JS FILES -->
    

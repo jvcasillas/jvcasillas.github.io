@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 title: "Translation into R of core application in SAS"
 date: "2014-10-12"
 config: "../config.yml"
