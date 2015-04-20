@@ -4,7 +4,7 @@ title: "Basic plotting in R"
 date: "2015-04-20"
 config: "../config.yml"
 card: True
-disqus: True
+disqus: False
 analytics : True
 ---
 
