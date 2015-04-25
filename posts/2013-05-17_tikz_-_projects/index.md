@@ -28,8 +28,9 @@ Next we need to prepare where we are going to keep the plots produced by tikzDev
 
 Check out [part III][part III] to learn how to create standalone plots that can include IPA sybols.
 
-[part I]: /posts/2013-05-11_tikz_install/install_tikz_tut.html
-[part III]: /posts/2014-05-28_tikz_ipa_plot/tikz_ipa_plot.html
+
+[part I]: /posts/2013-05-11_tikz_-_installation/index.html
+[part III]: /posts/2014-05-28_tikz_-_standalone_plots/index.html
 [R]: http://www.r-project.org
 [knitr]: http://yihui.name/knitr/
 [tm2]: https://github.com/textmate/textmate
