@@ -96,6 +96,7 @@ This is the plot that is produced when the resulting .tex file is compiled:
 And that's it. We have produced a beautiful plot that uses the same font as our document and includes IPA symbols. You can download all the files [here][here] and try it yourself.
 
 
+
 [part I]: /posts/2013-05-11_tikz_install/install_tikz_tut.html
 [part II]: /posts/2013-05-17_tikz_project/tikz_proj.html
 [here]: assets/master.zip

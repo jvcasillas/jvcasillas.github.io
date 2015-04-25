@@ -1,0 +1,37 @@
+---
+published: true
+title: "Slidify tutorial"
+date: "2015-04-20"
+config: "../config.yml"
+card: True
+disqus: False
+analytics : True
+---
+
+
+<meta http-equiv="refresh" content="0;url= http://www.jvcasillas.com/slidify_tutorial/"/>
+
+
+<!--  add lines here -->
+<!-- title       : Checking Slides within Blogify -->
+<!-- author      : Joseph Casillas -->
+<!-- job         : PhD Candidate  -->
+<!-- date        : 2015-03-22 -->
+<!-- framework   : io2012 -->
+<!-- tags        : [tag1, tag2] -->
+<!-- widgets     : [mathjax, quiz, bootstrap] -->
+<!-- highlighter : highlight.js -->
+<!-- hitheme     : solarized_light -->
+<!-- logo        : ua.png -->
+<!-- biglogo     : ua.png -->
+<!--  -->
+
+<!-- ## Testing -->
+
+<!-- - This is a test -->
+<!-- - Poirot can be used to make slide decks from within blog posts -->
+<!-- - Eventually I will turn this into a slidify tutorial -->
+
+<!-- ```{r} -->
+<!-- 2 + 2 -->
+<!-- ``` -->
