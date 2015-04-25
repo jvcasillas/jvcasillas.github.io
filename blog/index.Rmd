@@ -24,4 +24,3 @@ writeLines(links[rev(seq(length))])
 ```
 
 
-
