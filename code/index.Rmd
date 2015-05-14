@@ -10,7 +10,7 @@ url: {lib: ../libraries}
 
 ### lingStuff
 
-This repository is a collection of R functions that I find useful for linguistic research. More information [here](www.jvcasillas.com/lingstuff/).
+This repository is a collection of R functions that I find useful for linguistic research. More information [here](http://www.jvcasillas.com/lingstuff/).
 
 ### lingreference.org
 
