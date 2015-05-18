@@ -37,11 +37,24 @@
 /* Prevent scroll on narrow devices */
 html,
 body {
-  overflow-x: hidden;
+  /*overflow-x: hidden;*/
+  padding: 0;
+  font-family: "Maven Pro", "Helvetica Neue", Helvetica, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #555;
+  text-align: justify;
 }
 
+
+
+
+
 html {
-  font-family: "PT Serif", Georgia, "Times New Roman", serif;
+  font-family: "Maven Pro", Helvetica, Arial, sans-serif;
+  font-size: 1.15rem; /* 15px */
+  /*font-family: "PT Serif", Georgia, "Times New Roman", serif;*/
 }
 
 h1, h2, h3, h4, h5, h6 {

@@ -1,6 +1,6 @@
 framework: lanyon
 mode: selfcontained
-hitheme: sunburst
+hitheme: monokai
 url: {lib: ../../libraries}
 onefile: False
 
