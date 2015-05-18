@@ -24,7 +24,7 @@ sidebar:
 projects:
   - {title: "lingStuff", 
      url: "http://www.jvcasillas.com/lingStuff/index.html",
-     thumbnail: 'lingStuff.png'
+     thumbnail: 'lingstuff.png'
     }
   - {title: "R-Snippets", 
      url: "http://www.jvcasillas.com/code/projects/R-snippets",
