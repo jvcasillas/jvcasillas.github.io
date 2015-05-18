@@ -186,30 +186,7 @@
 
 <p>In light of all of this, I think that something handy to learn and evaluate early on is how data analysis pipelines typically flow: from obtaining data to obtaining new insight from the data. This is the data analysis pipeline, which usually looks something like this:</p>
 
-<pre><code class="r">library(tidyr); library(dplyr); library(DiagrammeR)
-
-diagram1 &lt;- &quot;
-graph LR
-A[1. Collect data]--&gt;B(2. tidy data) 
-B--&gt;C{3. transform data}
-C--&gt;D(4a. visualize data)
-D--&gt;C
-C--&gt;E(4b. analyze data)
-E--&gt;C
-D--&gt;F[New insight]
-E--&gt;F
-
-style A fill:#DCEBE3
-style B fill:#77DFC9
-style C fill:#DEDBBA
-style D fill:#F8F0CC
-style E fill:#F8F0CC
-style F fill:#DCEBE3
-&quot;
-mermaid(diagram1, height = 200) 
-</code></pre>
-
-<p><img src="./assets/pipeline1.pdf" alt="pipeline1"></p>
+<p><img src="assets/pipeline1.pdf" alt="pipeline1"></p>
 
 <p>In essence, the process is simple. After collecting your data, you need to <em>tidy</em> it (step 2) so that it can be loaded and analyzed by your statistical software. After tidying your data, you usually have to transform it (step 3) in some way (also called data preprocessing). This can be occur via the creation of new variables, combining variables, sub-setting variables, etc. Once you have transformed your data, it&#39;s time to visualize it (step 4a) via graphs/plots, and, finally, analyze it. The visualization and analysis steps are often iterative: you might notice something in a graph that leads you to a new analysis, or some kind of insight that requires more data transformation and a new analysis, and so on and so forth until you have obtained new insight and are able to answer your research question(s).</p>
 
@@ -219,43 +196,7 @@ mermaid(diagram1, height = 200)
 
 <p>In what follows, I take you through three packages that have been created in order to facilitate the data analysis pipeline in R. Each package was created by Hadley Wickham with steps 2, 3, and 4a of the pipeline in mind. This we can associate each package with the corresponding step of the pipeline:</p>
 
-<pre><code class="r">type_1_nodes &lt;-
-  create_nodes(nodes = c(&quot;a&quot;, &quot;b&quot;, &quot;c&quot;, &quot;d&quot;, &quot;e&quot;, &quot;f&quot;),
-               label = c(&quot;1. Collect data&quot;, &quot;2. tidy data&quot;, &quot;3. transform data&quot;, &quot;4a. visualize data&quot;, &quot;4b. analyze data&quot;, &quot;New insight&quot;),
-               style = &quot;filled&quot;,
-               color = &quot;darkgrey&quot;,
-               shape = c(&quot;circle&quot;, &quot;circle&quot;,
-                         &quot;circle&quot;, &quot;triangle&quot;, &quot;triangle&quot;))
-
-type_2_nodes &lt;-
-  create_nodes(nodes = c(&quot;g&quot;, &quot;h&quot;, &quot;i&quot;),
-               label = c(&quot;tidyr&quot;, &quot;dplyr&quot;, &quot;ggplot2/ggvis&quot;),
-               style = &quot;filled&quot;,
-               color = &quot;lightblue&quot;,
-               peripheries = c(2, 2, 2))
-
-all_nodes &lt;- combine_nodes(type_1_nodes, type_2_nodes)
-
-type_1_edges &lt;-
-  create_edges(edge_from = c(&quot;a&quot;, &quot;b&quot;, &quot;c&quot;, &quot;c&quot;, &quot;d&quot;, &quot;e&quot;),
-               edge_to = c(&quot;b&quot;, &quot;c&quot;, &quot;d&quot;, &quot;e&quot;, &quot;f&quot;, &quot;f&quot;))
-
-type_2_edges &lt;-
-  create_edges(edge_from = c(&quot;b&quot;, &quot;c&quot;, &quot;d&quot;),
-               edge_to = c(&quot;g&quot;, &quot;h&quot;, &quot;i&quot;),
-               arrowhead = &quot;dot&quot;,
-               color = &quot;red&quot;)
-
-all_edges &lt;- combine_edges(type_1_edges, type_2_edges)
-
-create_graph(nodes_df = all_nodes,
-             edges_df = all_edges,
-             node_attrs = &quot;fontname = Helvetica&quot;,
-             edge_attrs = c(&quot;color = gray&quot;, &quot;penwidth = 4&quot;)) %&gt;% 
-             render_graph
-</code></pre>
-
-<p><img src="./assets/pipeline2.pdf" alt="pipeline2"></p>
+<p><img src="assets/pipeline2.pdf" alt="pipeline2"></p>
 
 <ul>
 <li>tidyr</li>

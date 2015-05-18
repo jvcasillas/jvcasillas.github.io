@@ -14,7 +14,7 @@ So you thought up a clever experiment, got IRB approval, recruited participants 
 
 In light of all of this, I think that something handy to learn and evaluate early on is how data analysis pipelines typically flow: from obtaining data to obtaining new insight from the data. This is the data analysis pipeline, which usually looks something like this:
 
-```{r, eval=FALSE}
+```{r, eval=FALSE, echo=FALSE}
 library(tidyr); library(dplyr); library(DiagrammeR)
 
 diagram1 <- "
@@ -38,7 +38,7 @@ style F fill:#DCEBE3
 mermaid(diagram1, height = 200) 
 ```
 
-![pipeline1](./assets/pipeline1.pdf)
+![pipeline1](assets/pipeline1.pdf)
 
 In essence, the process is simple. After collecting your data, you need to *tidy* it (step 2) so that it can be loaded and analyzed by your statistical software. After tidying your data, you usually have to transform it (step 3) in some way (also called data preprocessing). This can be occur via the creation of new variables, combining variables, sub-setting variables, etc. Once you have transformed your data, it's time to visualize it (step 4a) via graphs/plots, and, finally, analyze it. The visualization and analysis steps are often iterative: you might notice something in a graph that leads you to a new analysis, or some kind of insight that requires more data transformation and a new analysis, and so on and so forth until you have obtained new insight and are able to answer your research question(s).
 
@@ -49,7 +49,7 @@ In order to facilitate the data analysis pipeline, it is crucial to have `tidy d
 In what follows, I take you through three packages that have been created in order to facilitate the data analysis pipeline in R. Each package was created by Hadley Wickham with steps 2, 3, and 4a of the pipeline in mind. This we can associate each package with the corresponding step of the pipeline:
 
 
-```{r, eval=FALSE}
+```{r, eval=FALSE, echo=FALSE}
 type_1_nodes <-
   create_nodes(nodes = c("a", "b", "c", "d", "e", "f"),
                label = c("1. Collect data", "2. tidy data", "3. transform data", "4a. visualize data", "4b. analyze data", "New insight"),
@@ -86,7 +86,7 @@ create_graph(nodes_df = all_nodes,
              render_graph
 ```
 
-![pipeline2](./assets/pipeline2.pdf)
+![pipeline2](assets/pipeline2.pdf)
 
 - tidyr
 - dplyr
