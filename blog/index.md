@@ -6,6 +6,8 @@ mode: selfcontained
 url: {lib: ../libraries}
 ---
 
+
+- 2015-05-18 &raquo; [Data Pipelines](../posts/2015-05-18_data_pipelines/index.html)
 - 2015-04-20 &raquo; [Plotting In R](../posts/2015-04-20_plotting_in_r/index.html)
 - 2015-04-13 &raquo; [Html Widgets](../posts/2015-04-13_html_widgets/index.html)
 - 2015-03-22 &raquo; [Slidify Tutorial](../posts/2015-03-22_slidify_tutorial/index.html)

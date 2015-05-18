@@ -6,6 +6,7 @@ mode: selfcontained
 url: {lib: ../libraries}
 ---
 
+
 ```{r echo = F, results = 'asis'}
 posts = dir('../posts', full = TRUE)
 linkName <- gsub("_", " ", posts)
