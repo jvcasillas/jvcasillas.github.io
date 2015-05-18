@@ -40,9 +40,9 @@ body {
   /*overflow-x: hidden;*/
   padding: 0;
   font-family: "Maven Pro", "Helvetica Neue", Helvetica, sans-serif;
-  font-size: 16px;
+  font-size: 17px;
   font-weight: 400;
-  line-height: 1.5;
+  line-height: 1.45;
   color: #555;
   text-align: justify;
 }

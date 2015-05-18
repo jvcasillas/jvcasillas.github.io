@@ -21,6 +21,26 @@ sidebar:
   - {item: blog, href: '/blog', icon: 'archive'}
 
 
+projects:
+  - {title: "lingStuff", 
+     url: "http://www.jvcasillas.com/lingStuff/index.html",
+     thumbnail: 'lingStuff.png'
+    }
+  - {title: "R-Snippets", 
+     url: "http://www.jvcasillas.com/code/projects/R-snippets",
+     thumbnail: 'lm.png'
+    }
+  - {title: "lingreference.org", 
+     url: "http://www.lingreference.org",
+     thumbnail: 'lingref.png'
+    }
+  - {title: "LaTeX-IPA", 
+     url: "http://www.jvcasillas.com/code/projects/latex-ipa",
+     thumbnail: 'vowel_space.png'
+    }
+
+
+
 
 # Settings for analytics
 analytics :

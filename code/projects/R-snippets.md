@@ -13,9 +13,7 @@ disqus: True
 
 <p></p>
 
-This package includes a selection of R snippets for Sublimetext that I find useful when using R through SublimeREPL.  
-
-Just type the trigger and hit the tab key. For example, typing <code>lm</code> brings up the following window:  
+This repository is a collection of snippets that I use in [SublimeText] [SublimeText] for doing statistical analysis in [R][R]. The goal is straightforward: document the code that I use most often while doing linguistic research and make it readily available (and understandable) to other linguists. If you are interested in helping see the github [repository](https://github.com/jvcasill/R-snippets). To install R-snippets see the [package control][package control R-snippets] page. To use a snippet, type the trigger and hit the tab key. For example, typing <code>lm</code> brings up the following window:  
 
 <div  class="thumbnail">
 	<img width="100%" src="assets/lm.png" alt="lm image">
@@ -52,3 +50,12 @@ Extras:
 - "save": save plots, dfs, tables, etc.
 - "tikz": template for creating R plots in LaTeX
 
+
+
+
+
+<!-- links -->
+
+[SublimeText]: http://www.sublimetext.com
+[R]: http://www.r-project.org
+[package control R-snippets]: https://sublime.wbond.net/packages/R-snippets
