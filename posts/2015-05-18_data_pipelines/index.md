@@ -16,7 +16,7 @@ In light of all of this, I think that something handy to learn and evaluate earl
 
 
 
-<img width="100%" src="./assets/pipeline1.pdf">
+<img width="100%" src="./assets/pipeline1.PDF">
 
 In essence, the process is simple. After collecting your data, you need to *tidy* it (step 2) so that it can be loaded and analyzed by your statistical software. After tidying your data, you usually have to transform it (step 3) in some way (also called data preprocessing). This can be occur via the creation of new variables, combining variables, sub-setting variables, etc. Once you have transformed your data, it's time to visualize it (step 4a) via graphs/plots, and, finally, analyze it. The visualization and analysis steps are often iterative: you might notice something in a graph that leads you to a new analysis, or some kind of insight that requires more data transformation and a new analysis, and so on and so forth until you have obtained new insight and are able to answer your research question(s).
 
@@ -29,7 +29,7 @@ In what follows, I take you through three packages that have been created in ord
 
 
 
-<img width="100%" src="./assets/pipeline2.pdf">
+<img width="100%" src="./assets/pipeline2.PDF">
 
 - tidyr
 - dplyr
