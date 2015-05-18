@@ -4,7 +4,7 @@ title: "Data pipelines in R"
 date: "2015-05-18"
 config: "../config.yml"
 card: True
-disqus: FALSE
+disqus: TRUE
 analytics : True
 ---
 
