@@ -24,7 +24,7 @@ So, at the heart of data analysis is `tidy data`. Most new researchers don't kno
 
 In order to facilitate the data analysis pipeline, it is crucial to have `tidy data`. What this means is that **every column in your data frame represents a variable and every row represents an observation**. This is also referred to as *long format* (as opposed to long format). Most statistical software requires your data to be in long format, with few exceptions (i.e. repeated measures ANOVA in SPSS). 
 
-In what follows, I take you through three packages that have been created in order to facilitate the data analysis pipeline in R. Each package was created by Hadley Wickham with steps 2, 3, and 4a of the pipeline in mind. This we can associate each package with the corresponding step of the pipeline:
+In what follows, I take you through three packages that have been created in order to facilitate the data analysis pipeline in R. Each package was created by Hadley Wickham with steps 2, 3, and 4a of the pipeline in mind. Thus we can associate each package with the corresponding step of the pipeline:
 
 
 
