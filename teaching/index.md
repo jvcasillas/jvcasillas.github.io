@@ -7,7 +7,7 @@ url: {lib: ../libraries}
 ---
 
 
-Here you can find a list of some of the classes I have taught or am currently teaching at the University of Arizona and Middlebury College, as well information about some invited talks and specialized workshops I have done. Click on the links for more information about each one.
+Here you can find a list of some of the classes I have taught or am currently teaching at the University of Arizona and Middlebury College, as well as information about some invited talks and specialized workshops I have done. Click on the links for more information about each one.
 
 - University of Arizona
 	- [Elementary Spanish (Spanish 102)][102]  
