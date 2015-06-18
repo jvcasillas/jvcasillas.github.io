@@ -7,6 +7,7 @@ url: {lib: ../libraries}
 ---
 
 
+- 2015-06-16 &raquo; [Google Sheets In R](../posts/2015-06-16_google_sheets_in_r/index.html)
 - 2015-05-18 &raquo; [Data Pipelines](../posts/2015-05-18_data_pipelines/index.html)
 - 2015-04-20 &raquo; [Plotting In R](../posts/2015-04-20_plotting_in_r/index.html)
 - 2015-04-13 &raquo; [Html Widgets](../posts/2015-04-13_html_widgets/index.html)
@@ -17,6 +18,7 @@ url: {lib: ../libraries}
 - 2013-05-17 &raquo; [Tikz - Projects](../posts/2013-05-17_tikz_-_projects/index.html)
 - 2013-05-11 &raquo; [Tikz - Installation](../posts/2013-05-11_tikz_-_installation/index.html)
 - 2013-05-09 &raquo; [Colored Spectrograms In R](../posts/2013-05-09_colored_spectrograms_in_r/index.html)
+
 
 
 

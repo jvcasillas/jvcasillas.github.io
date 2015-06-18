@@ -7,7 +7,7 @@ url: {lib: ../libraries}
 ---
 
 
-```{r echo = F, results = 'asis'}
+```{r echo = F, results = 'asis', cache=FALSE}
 posts = dir('../posts', full = TRUE)
 linkName <- gsub("_", " ", posts)
 linkName <- gsub("(^|[[:space:]])([[:alpha:]])", "\\1\\U\\2", linkName, perl=TRUE)
@@ -23,6 +23,7 @@ links = paste0("- ", date,
 length <- length(posts) - 3
 writeLines(links[rev(seq(length))])
 ```
+
 
 
 
