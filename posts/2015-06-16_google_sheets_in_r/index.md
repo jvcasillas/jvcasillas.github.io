@@ -4,7 +4,7 @@ title: "How to scrape data from Google Sheets in R"
 date: "2015-06-16"
 config: "../config.yml"
 card: True
-disqus: False
+disqus: TRUE
 analytics : True
 ---
 
