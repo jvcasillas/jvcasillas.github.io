@@ -48,7 +48,7 @@ print(bib[key = "SimonetCasillasDiazSP72014article"], .opts = list(check.entries
 ```
 
             <!-- START METADATA -->
-            <div style="text-indent:.25em" align="left">
+            <div style="text-indent:.25em;margin-top:-1em" align="left">
             ( <a alt="SpeechProsody" href="https://www.researchgate.net/publication/272090285_The_effects_of_stressaccent_on_VOT_depend_on_language_%28English_Spanish%29_consonant_%28d_t%29_and_linguistic_experience_%28monolinguals_bilinguals%29" target='_new'><span class="showtooltip" title="Read paper">Link</span></a> |
             <a href="javascript:ReverseDisplay('SimonetCasillasDiazSP72014')">Abstract</a> |
             <a href="javascript:ReverseDisplay('SimonetCasillasDiazSP72014bib')">Bib </a> )
@@ -59,7 +59,7 @@ print(bib[key = "SimonetCasillasDiazSP72014article"], .opts = list(check.entries
 
                 <div id="SimonetCasillasDiazSP72014bib" style="display:none" class="minip">
 
-<pre><code>
+<pre><code style="margin-top:-1em">
 ```{r, echo=FALSE}
 toBiblatex(bib[key = "SimonetCasillasDiazSP72014article"], .opts = list(style = "html"))
 ```
@@ -77,7 +77,7 @@ toBiblatex(bib[key = "SimonetCasillasDiazSP72014article"], .opts = list(style = 
 print(bib[key = "CasillasWSS62013article"], .opts = list(check.entries = FALSE, style = "html", bib.style = "authoryear"))
 ```
             <!-- START METADATA -->
-            <div style="text-indent:.25em" align="left">
+            <div style="text-indent:.25em;margin-top:-1em" align="left">
             ( <a alt="WSS6" href="http://www.lingref.com/cpp/wss/6/abstract2867.html" target='_new'><span class="showtooltip" title="WSS6 abstract">Link</span></a> |
             <a href="javascript:ReverseDisplay('CasillasWSS62013Abstract')">Abstract</a> |
             <a href="javascript:ReverseDisplay('CasillasWSS62013Bib')">Bib </a> )
@@ -88,13 +88,13 @@ print(bib[key = "CasillasWSS62013article"], .opts = list(check.entries = FALSE, 
 
                 <div id="CasillasWSS62013Bib" style="display:none" class="minip">
 
-<pre><code>
+<pre><code style="margin-top:-1em">
 ```{r, echo=FALSE, eval=TRUE}
 toBiblatex(bib[key = "CasillasWSS62013article"])
 ```
 </code></pre>
                 </div>
-            </div> 
+            </div>
             </br>
             <!-- END METADATA -->
 
@@ -105,7 +105,7 @@ print(bib[key = "Casillas2012divergencias"], .opts = list(check.entries = FALSE,
 ```
 
             <!-- START METADATA -->
-            <div style="text-indent:.25em" align="left">
+            <div style="text-indent:.25em;margin-top:-1em" align="left">
             ( <a alt="Divergencias" href="http://divergencias.arizona.edu/sites/divergencias.arizona.edu/files/articles/FricativizacionDivergencias.pdf" target='_new'><span class="showtooltip" title="Read paper">Link</span></a> |
             <a href="javascript:ReverseDisplay('Casillas2012Abstract')">Abstract</a> |
             <a href="javascript:ReverseDisplay('Casillas2012Bib')">Bib </a> )
@@ -116,14 +116,14 @@ print(bib[key = "Casillas2012divergencias"], .opts = list(check.entries = FALSE,
 
                 <div id="Casillas2012Bib" style="display:none" class="minip">
 
-<pre><code>
+<pre><code style="margin-top:-1em">
 ```{r, echo=FALSE, eval=TRUE}
 toBiblatex(bib[key = "Casillas2012divergencias"])
 ```
 </code></pre>
                 </div>
             </div>
-            </br> 
+            </br>
             <!-- END METADATA -->
 
 
@@ -134,12 +134,12 @@ print(bib[key = "Casillas2010gaceta"], .opts = list(check.entries = FALSE, style
 ```
 
             <!-- START METADATA -->
-            <div style="text-indent:.25em" align="left">
+            <div style="text-indent:.25em;margin-top:-1em" align="left">
             ( <a href="javascript:ReverseDisplay('Casillas2010Bib')">Bib</a> )
 
                 <div id="Casillas2010Bib" style="display:none" class="minip">
 
-<pre><code>
+<pre><code style="margin-top:-1em">
 ```{r, echo=FALSE, eval=TRUE}
 toBiblatex(bib[key = "Casillas2010gaceta"])
 ```
@@ -156,7 +156,7 @@ print(bib[key = "Casillas2009gaceta"], .opts = list(check.entries = FALSE, style
 ```
 
             <!-- START METADATA -->
-            <div style="text-indent:.25em" align="left">
+            <div style="text-indent:.25em;margin-top:-1em" align="left">
             ( <a href="javascript:ReverseDisplay('Casillas2009Abstract')">Abstract</a> |
             <a href="javascript:ReverseDisplay('Casillas2009Bib')">Bib </a> )
 
@@ -166,7 +166,7 @@ print(bib[key = "Casillas2009gaceta"], .opts = list(check.entries = FALSE, style
 
                 <div id="Casillas2009Bib" style="display:none" class="minip">
 
-<pre><code>
+<pre><code style="margin-top:-1em">
 ```{r, echo=FALSE, eval=TRUE}
 toBiblatex(bib[key = "Casillas2009gaceta"])
 ```

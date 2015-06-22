@@ -45,7 +45,7 @@ Proceedings of the 7th international conference on Speech Prosody: Social and Li
 Trinity College, Dublin. speechprosody2014.org, ISSN: 2333-2042, pp. 202-206.</cite></p>
 
             <!-- START METADATA -->
-            <div style="text-indent:.25em" align="left">
+            <div style="text-indent:.25em;margin-top:-1em" align="left">
             ( <a alt="SpeechProsody" href="https://www.researchgate.net/publication/272090285_The_effects_of_stressaccent_on_VOT_depend_on_language_%28English_Spanish%29_consonant_%28d_t%29_and_linguistic_experience_%28monolinguals_bilinguals%29" target='_new'><span class="showtooltip" title="Read paper">Link</span></a> |
             <a href="javascript:ReverseDisplay('SimonetCasillasDiazSP72014')">Abstract</a> |
             <a href="javascript:ReverseDisplay('SimonetCasillasDiazSP72014bib')">Bib </a> )
@@ -56,7 +56,7 @@ Trinity College, Dublin. speechprosody2014.org, ISSN: 2333-2042, pp. 202-206.</c
 
                 <div id="SimonetCasillasDiazSP72014bib" style="display:none" class="minip">
 
-<pre><code>
+<pre><code style="margin-top:-1em">
 
 ```
 ## @InProceedings{SimonetCasillasDiazSP72014article,
@@ -88,7 +88,7 @@ In:
 Ed. by A. M. Carvalho and S. Beaudrie.
 Somerville, MA: Cascadilla Proceedings Project. www.lingref.com, document \#2867, pp. 177-188.</cite></p>
             <!-- START METADATA -->
-            <div style="text-indent:.25em" align="left">
+            <div style="text-indent:.25em;margin-top:-1em" align="left">
             ( <a alt="WSS6" href="http://www.lingref.com/cpp/wss/6/abstract2867.html" target='_new'><span class="showtooltip" title="WSS6 abstract">Link</span></a> |
             <a href="javascript:ReverseDisplay('CasillasWSS62013Abstract')">Abstract</a> |
             <a href="javascript:ReverseDisplay('CasillasWSS62013Bib')">Bib </a> )
@@ -99,7 +99,7 @@ Somerville, MA: Cascadilla Proceedings Project. www.lingref.com, document \#2867
 
                 <div id="CasillasWSS62013Bib" style="display:none" class="minip">
 
-<pre><code>
+<pre><code style="margin-top:-1em">
 
 ```
 ## @InProceedings{CasillasWSS62013article,
@@ -114,7 +114,7 @@ Somerville, MA: Cascadilla Proceedings Project. www.lingref.com, document \#2867
 ```
 </code></pre>
                 </div>
-            </div> 
+            </div>
             </br>
             <!-- END METADATA -->
 
@@ -126,7 +126,7 @@ Somerville, MA: Cascadilla Proceedings Project. www.lingref.com, document \#2867
 In: <EM>Divergencias: Revista de estudios lingüísticos y literarios</EM> 10.1, pp. 56-70.</cite></p>
 
             <!-- START METADATA -->
-            <div style="text-indent:.25em" align="left">
+            <div style="text-indent:.25em;margin-top:-1em" align="left">
             ( <a alt="Divergencias" href="http://divergencias.arizona.edu/sites/divergencias.arizona.edu/files/articles/FricativizacionDivergencias.pdf" target='_new'><span class="showtooltip" title="Read paper">Link</span></a> |
             <a href="javascript:ReverseDisplay('Casillas2012Abstract')">Abstract</a> |
             <a href="javascript:ReverseDisplay('Casillas2012Bib')">Bib </a> )
@@ -137,7 +137,7 @@ In: <EM>Divergencias: Revista de estudios lingüísticos y literarios</EM> 10.1,
 
                 <div id="Casillas2012Bib" style="display:none" class="minip">
 
-<pre><code>
+<pre><code style="margin-top:-1em">
 
 ```
 ## @Article{Casillas2012divergencias,
@@ -153,7 +153,7 @@ In: <EM>Divergencias: Revista de estudios lingüísticos y literarios</EM> 10.1,
 </code></pre>
                 </div>
             </div>
-            </br> 
+            </br>
             <!-- END METADATA -->
 
 
@@ -166,12 +166,12 @@ In: <EM>La Gaceta Hispánica de Madrid</EM> VIII.
 ISSN: 1886-1741.</cite></p>
 
             <!-- START METADATA -->
-            <div style="text-indent:.25em" align="left">
+            <div style="text-indent:.25em;margin-top:-1em" align="left">
             ( <a href="javascript:ReverseDisplay('Casillas2010Bib')">Bib</a> )
 
                 <div id="Casillas2010Bib" style="display:none" class="minip">
 
-<pre><code>
+<pre><code style="margin-top:-1em">
 
 ```
 ## @Article{Casillas2010gaceta,
@@ -198,7 +198,7 @@ In: <EM>La Gaceta Hispánica de Madrid</EM> VIII.
 ISSN: 1886-1741.</cite></p>
 
             <!-- START METADATA -->
-            <div style="text-indent:.25em" align="left">
+            <div style="text-indent:.25em;margin-top:-1em" align="left">
             ( <a href="javascript:ReverseDisplay('Casillas2009Abstract')">Abstract</a> |
             <a href="javascript:ReverseDisplay('Casillas2009Bib')">Bib </a> )
 
@@ -208,7 +208,7 @@ ISSN: 1886-1741.</cite></p>
 
                 <div id="Casillas2009Bib" style="display:none" class="minip">
 
-<pre><code>
+<pre><code style="margin-top:-1em">
 
 ```
 ## @Article{Casillas2009gaceta,

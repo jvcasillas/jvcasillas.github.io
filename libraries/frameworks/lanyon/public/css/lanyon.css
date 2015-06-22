@@ -1539,5 +1539,9 @@ a.thumbnail.active {
 cite {
   font-weight: normal !important;
   font-style: normal !important;
+  padding: 0 !important;
+  border-bottom: 0 !important;
+  margin: 0 !important;
 }
+
 
