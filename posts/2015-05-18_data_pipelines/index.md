@@ -50,7 +50,7 @@ order to facilitate the data analysis pipeline in R. Each package was created by
 
 <img width="100%" src="./assets/pipeline2.png">
 
-- tidyr
+- [tidyr](http://www.jvcasillas.com/tidyr_tutorial/)
 - dplyr
 - [basic plotting in r](http://www.jvcasillas.com/base_lattice_ggplot/) / ggvis
 
