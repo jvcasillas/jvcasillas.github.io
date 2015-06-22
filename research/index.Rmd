@@ -5,11 +5,23 @@ mode: selfcontained
 url: {lib: ../libraries}
 ---
 
+
 ## Research
+
+```{r, eval=TRUE, echo=TRUE, cache=FALSE}
+library(RefManageR)
+
+fileUrl <- "https://raw.githubusercontent.com/jvcasill/mybib/master/publicationsCVclean.bib"
+download.file(fileUrl, destfile = "./data/publicationsCVclean.bib", method = "curl")
+# list.files("./data")
+
+bib <- ReadBib("./data/publicationsCVclean.bib", check = FALSE)
+```
+
 
 <p></p>
 <div class="tabbable">
-    <ul class="nav nav-tabs" id="myTab">
+    <ul class="nav nav-tabs nav-justified" id="myTab">
         <li class="active">
             <a href="#current-research" data-toggle="tab">Current research</a>
         </li>
@@ -29,7 +41,7 @@ url: {lib: ../libraries}
         <div class="tab-pane" id="publications" style="margin-left:2em;text-indent:-2em">
             <h4>Recent Publications</h4>
                 <p>
-			Casillas, J. V. (2012). La fricativización del africado /ʧ/ en el habla de las mujeres del sur de Arizona. <i>Divergencias: Revista de estudios lingüísticos y literarios</i>, 10 (1). 
+      Casillas, J. V. (2012). La fricativización del africado /ʧ/ en el habla de las mujeres del sur de Arizona. <i>Divergencias: Revista de estudios lingüísticos y literarios</i>, 10 (1). 
             <a alt="Divergencias" href="http://divergencias.arizona.edu/sites/divergencias.arizona.edu/files/articles/FricativizacionDivergencias.pdf" target='_new'><span class="showtooltip" title="Read paper">Link</span></a> |
             <a href="javascript:ReverseDisplay('Casillas2012Abstract')">Abstract</a> |
             <a href="javascript:ReverseDisplay('Casillas2012Bib')">Bib</a>
@@ -52,7 +64,7 @@ url: {lib: ../libraries}
                 </p>
 
                 <p>
-			Casillas, J. V. (2010). La vibrante múltiple intervocálica: los ejercicios de canto como ayuda a su pronunciación en español. <i>La Gaceta Hispánica de Madrid</i>, VIII.
+      Casillas, J. V. (2010). La vibrante múltiple intervocálica: los ejercicios de canto como ayuda a su pronunciación en español. <i>La Gaceta Hispánica de Madrid</i>, VIII.
             <a href="javascript:ReverseDisplay('Casillas2010Bib')">Bib</a>
 
             <div id="Casillas2010Bib" style="display:none;margin-left:2em;text-indent:-2em">
@@ -69,7 +81,7 @@ url: {lib: ../libraries}
                 </p>
 
                 <p>
-			Casillas, J. V. (2009). El uso de los refranes en el quijote. <i>La Gaceta Hispánica de Madrid</i>, VIII.
+      Casillas, J. V. (2009). El uso de los refranes en el quijote. <i>La Gaceta Hispánica de Madrid</i>, VIII.
             <a alt="Gaceta" href="http://gacetahispanica.com/?p=1175" target='_new'><span class="showtooltip" title="Read paper">Link</span></a> |
             <a href="javascript:ReverseDisplay('Casillas2009Abstract')">Summary</a> |
             <a href="javascript:ReverseDisplay('Casillas2009Bib')">Bib</a>
@@ -116,7 +128,7 @@ url: {lib: ../libraries}
                 </p>
 
                 <p>
-			Casillas, J. V. (2013). La fricativización del africado /ʧ/: actitudes lingüísticas cerca de la frontera. In <i>Selected Proceedings of the 6th Workshop on Spanish Sociolinguistics</i>, ed. Ana M. Carvalho and Sara Beaudrie, 177-188. Somerville, MA: Cascadilla Proceedings Project. Document #2867.
+      Casillas, J. V. (2013). La fricativización del africado /ʧ/: actitudes lingüísticas cerca de la frontera. In <i>Selected Proceedings of the 6th Workshop on Spanish Sociolinguistics</i>, ed. Ana M. Carvalho and Sara Beaudrie, 177-188. Somerville, MA: Cascadilla Proceedings Project. Document #2867.
             <a alt="WSS6" href="http://www.lingref.com/cpp/wss/6/abstract2867.html" target='_new'><span class="showtooltip" title="WSS6 abstract">Link</span></a> |
             <a href="javascript:ReverseDisplay('CasillasWSS62013Abstract')">Abstract</a> |
             <a href="javascript:ReverseDisplay('CasillasWSS62013Bib')">Bib</a>
@@ -140,11 +152,11 @@ url: {lib: ../libraries}
 
             <h4>Submitted</h4>
                 <p>
-			Casillas, J. V. &amp; Simonet, M. Perception and spoken-word recognition of English-specific vowel contrasts by early and late learners.
+      Casillas, J. V. &amp; Simonet, M. Perception and spoken-word recognition of English-specific vowel contrasts by early and late learners.
                 </p>
 
                 <p>
-			Casillas, J. V. Production and perception of the English /i/-/ɪ/ vowel contrast in L2 dominant early learners of English.
+      Casillas, J. V. Production and perception of the English /i/-/ɪ/ vowel contrast in L2 dominant early learners of English.
                 </p>
 
                 <p>
@@ -154,38 +166,38 @@ url: {lib: ../libraries}
             <h4>In preparation</h4>
 
                 <p>
-			Casillas, J. V. Community approaches to translating specialized terminology in linguistics: lingreference.org.
+      Casillas, J. V. Community approaches to translating specialized terminology in linguistics: lingreference.org.
                 </p>
 
         </div>
         <div class="tab-pane" id="presentations" style="margin-left:2em;text-indent:-2em">
             <h4>Presentations</h4>
-		        <p>
+            <p>
             Bessett, R. M., Casillas, J. V. &amp; Ramírez Martínez, M. (2014). Language Choice and Accommodation: Casual Encounters Along the U.S. Border. <i>7th International Workshop on Spanish Sociolinguistics</i>. University of Wisconsin-Madison. Madison, Wisconsin (April, 2014).
                </p>
 
                 <p>
-			Casillas, J. V. (2013). Perception of English /i/-/ɪ/ tense/lax vowel contrast by early learners of English. <i>Second Language Research Forum (SLRF)</i>. Brigham Young University. Provo, Utah. (October, 2013).
-		        </p>
+      Casillas, J. V. (2013). Perception of English /i/-/ɪ/ tense/lax vowel contrast by early learners of English. <i>Second Language Research Forum (SLRF)</i>. Brigham Young University. Provo, Utah. (October, 2013).
+            </p>
 
                 <p>
-			Casillas, J. V. (2013). English-dominant early Spanish-English bilinguals production and perception of English tense lax vowel contrasts. <i>Phonetics and Phonology in Iberia</i>. Universidade de Lisboa. Lisbon, Portugal. (June, 2013).
+      Casillas, J. V. (2013). English-dominant early Spanish-English bilinguals production and perception of English tense lax vowel contrasts. <i>Phonetics and Phonology in Iberia</i>. Universidade de Lisboa. Lisbon, Portugal. (June, 2013).
                 </p>
 
                 <p>
-			Casillas, J. V. (2012). La fricativización del africado /ʧ/: actitudes lingüísticas cerca de la frontera. <i>6th International Workshop on Spanish Sociolinguistics</i>. University of Arizona. Tucson, Arizona (April, 2012).
+      Casillas, J. V. (2012). La fricativización del africado /ʧ/: actitudes lingüísticas cerca de la frontera. <i>6th International Workshop on Spanish Sociolinguistics</i>. University of Arizona. Tucson, Arizona (April, 2012).
                 </p>
 
                 <p>
-			Casillas, J. V. (2012). Los piojos, las pulgas y el canto... ¡oh my! una segunda mirada a la teoría de dunbar, el cotilleo y el papel de la música en la evolución del lenguage. <i>22nd Annual Symposium on Hispanic and Luso-Brazilian Literature, Language and Culture</i>. University of Arizona. Tucson, Arizona (February, 2012).
+      Casillas, J. V. (2012). Los piojos, las pulgas y el canto... ¡oh my! una segunda mirada a la teoría de dunbar, el cotilleo y el papel de la música en la evolución del lenguage. <i>22nd Annual Symposium on Hispanic and Luso-Brazilian Literature, Language and Culture</i>. University of Arizona. Tucson, Arizona (February, 2012).
                 </p>
 
                 <p>
-			Casillas, J. V. (2011). Going mental with vocabulary: the use of iDevice applications in the classroom. Spanish Heritage Language Program Share Day. University of Arizona. Tucson, Arizona (March, 2011).
+      Casillas, J. V. (2011). Going mental with vocabulary: the use of iDevice applications in the classroom. Spanish Heritage Language Program Share Day. University of Arizona. Tucson, Arizona (March, 2011).
                 </p>
 
                 <p>
-			Casillas, J. V. (2011). La fricativización del africado /ʧ/ en el habla de las mujeres del sur de arizona. <i>21st Annual Symposium on Hispanic and Luso-Brazilian Literature</i>. University of Arizona. Tucson, Arizona (March, 2011).
+      Casillas, J. V. (2011). La fricativización del africado /ʧ/ en el habla de las mujeres del sur de arizona. <i>21st Annual Symposium on Hispanic and Luso-Brazilian Literature</i>. University of Arizona. Tucson, Arizona (March, 2011).
                 </p>
 
             <h4>Poster Presentations</h4>
@@ -198,7 +210,7 @@ url: {lib: ../libraries}
                 </p>
 
                 <p>
-			Casillas, J. V. &amp; Simonet, M. (2013). English-dominant early Spanish/English bilinguals perception of English tense-lax vowel contrasts. <i>PPLC 13: Phonetics, phonology and languages in contact: Contact varieties, multilingualism, and second language learning</i>. Paris, Délégation Générale Wallonie-Bruxelles (August, 2013).
+      Casillas, J. V. &amp; Simonet, M. (2013). English-dominant early Spanish/English bilinguals perception of English tense-lax vowel contrasts. <i>PPLC 13: Phonetics, phonology and languages in contact: Contact varieties, multilingualism, and second language learning</i>. Paris, Délégation Générale Wallonie-Bruxelles (August, 2013).
                 </p>
         </div>
     </div>
