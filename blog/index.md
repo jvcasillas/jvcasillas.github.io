@@ -7,7 +7,7 @@ url: {lib: ../libraries}
 ---
 
 
-- 2015-06-22 &raquo; [2015 Tidyr Tutorial](../posts/2015-06-22-2015_tidyr_tutorial/index.html)
+- 2015-06-22 &raquo; [Tidyr Tutorial](../posts/2015-06-22_tidyr_tutorial/index.html)
 - 2015-06-16 &raquo; [Google Sheets In R](../posts/2015-06-16_google_sheets_in_r/index.html)
 - 2015-05-18 &raquo; [Data Pipelines](../posts/2015-05-18_data_pipelines/index.html)
 - 2015-04-20 &raquo; [Plotting In R](../posts/2015-04-20_plotting_in_r/index.html)
