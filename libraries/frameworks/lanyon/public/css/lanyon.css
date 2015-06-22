@@ -1533,3 +1533,11 @@ a.thumbnail.active {
 .bs-docs-social {
   margin: 0 0px;
 }
+
+
+/*custom 'cite'*/
+cite {
+  font-weight: normal !important;
+  font-style: normal !important;
+}
+

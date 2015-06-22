@@ -44,11 +44,11 @@ bib <- ReadBib("./data/publicationsCVclean.bib", check = FALSE)
             <!-- <div class="minip"> -->
 
 ```{r, results='asis', echo=FALSE, eval=TRUE}
-print(bib[1], .opts = list(check.entries = FALSE, style = "html", bib.style = "authoryear"))
+print(bib[key = "SimonetCasillasDiazSP72014article"], .opts = list(check.entries = FALSE, style = "html", bib.style = "authoryear"))
 ```
 
             <!-- START METADATA -->
-            <!-- <div style="text-indent:.25em"> -->
+            <div style="text-indent:.25em" align="left">
             ( <a alt="SpeechProsody" href="https://www.researchgate.net/publication/272090285_The_effects_of_stressaccent_on_VOT_depend_on_language_%28English_Spanish%29_consonant_%28d_t%29_and_linguistic_experience_%28monolinguals_bilinguals%29" target='_new'><span class="showtooltip" title="Read paper">Link</span></a> |
             <a href="javascript:ReverseDisplay('SimonetCasillasDiazSP72014')">Abstract</a> |
             <a href="javascript:ReverseDisplay('SimonetCasillasDiazSP72014bib')">Bib </a> )
@@ -57,24 +57,27 @@ print(bib[1], .opts = list(check.entries = FALSE, style = "html", bib.style = "a
                 <p class="minip">This study examines Voice Onset Times of coronal stops in utterance-initial position in two languages. Crucially, the effects of lexical stress (stressed, unstressed syllable) on VOT are analyzed. The study investigates aspirated stops (English /t/), short-lag voiceless stops (English /d/, Spanish /t/) and pre-voiced stops (Spanish /d/). Three groups of speakers provide data: English monolinguals, Spanish monolinguals, and proficient Spanish-English bilinguals. The study finds that lexical stress lengthens aspiration (English /t/) and prevoicing (Spanish /d/) but it does not alter significantly short-lag stops (Spanish /t/, English /d/). Monolinguals and bilinguals differ slightly in their phonetic behavior. Implications for gestural coordination as well as for feature theory are discussed.</p>
                 </div>
 
-                <div id="SimonetCasillasDiazSP72014bib" style="display:none;margin-left:2em;text-indent:-2em">
+                <div id="SimonetCasillasDiazSP72014bib" style="display:none" class="minip">
 
-```{r}
-toBiblatex(bib[1])
+<pre><code>
+```{r, echo=FALSE}
+toBiblatex(bib[key = "SimonetCasillasDiazSP72014article"], .opts = list(style = "html"))
 ```
+</code></pre>
 
                 </div>
-            <!-- </div>  -->
+            </div> 
+            </br>
             <!-- END METADATA -->
 
 
 
 
 ```{r, results='asis', echo=FALSE, eval=TRUE}
-print(bib[2], .opts = list(check.entries = FALSE, style = "html", bib.style = "authoryear"))
+print(bib[key = "CasillasWSS62013article"], .opts = list(check.entries = FALSE, style = "html", bib.style = "authoryear"))
 ```
             <!-- START METADATA -->
-            <!-- <div style="text-indent:.25em"> -->
+            <div style="text-indent:.25em" align="left">
             ( <a alt="WSS6" href="http://www.lingref.com/cpp/wss/6/abstract2867.html" target='_new'><span class="showtooltip" title="WSS6 abstract">Link</span></a> |
             <a href="javascript:ReverseDisplay('CasillasWSS62013Abstract')">Abstract</a> |
             <a href="javascript:ReverseDisplay('CasillasWSS62013Bib')">Bib </a> )
@@ -83,23 +86,26 @@ print(bib[2], .opts = list(check.entries = FALSE, style = "html", bib.style = "a
                 <p class="minip">La presente investigación examina las actitudes lingüísticas que tienen los hablantes de español de la comunidad de habla de Tucson, Arizona hacia el dialecto sonorense. Concretamente, se investiga el efecto que tiene la realización del africado prepalatal sordo y su variante fricativa no estándar sobre las percepciones de credibilidad de 4 candidatos a un puesto de trabajo hipotético. Un cuestionario basado en los índices de credibilidad utilizados por McCroskey (1999) se distribuyó a 111 participantes para medir sus actitudes hacia los 4 candidatos. El experimento consistió en una variación de la técnica matched-guise para asignar a los participantes a uno de dos grupos, el primero escuchó la variante estándar y el segundo la variante fricativa. Se demuestra que la variante fricativa recibe valoraciones de credibilidad más bajas que la variante estándar.</p>
                 </div>
 
-                <div id="CasillasWSS62013Bib" style="display:none;margin-left:2em;text-indent:-2em">
+                <div id="CasillasWSS62013Bib" style="display:none" class="minip">
 
+<pre><code>
 ```{r, echo=FALSE, eval=TRUE}
-toBiblatex(bib[3])
+toBiblatex(bib[key = "CasillasWSS62013article"])
 ```
+</code></pre>
                 </div>
-            <!-- </div>  -->
+            </div> 
+            </br>
             <!-- END METADATA -->
 
 
 
 ```{r, results='asis', echo=FALSE, eval=TRUE}
-print(bib[3], .opts = list(check.entries = FALSE, style = "html", bib.style = "authoryear"))
+print(bib[key = "Casillas2012divergencias"], .opts = list(check.entries = FALSE, style = "html", bib.style = "authoryear"))
 ```
 
             <!-- START METADATA -->
-            <!-- <div style="text-indent:.25em"> -->
+            <div style="text-indent:.25em" align="left">
             ( <a alt="Divergencias" href="http://divergencias.arizona.edu/sites/divergencias.arizona.edu/files/articles/FricativizacionDivergencias.pdf" target='_new'><span class="showtooltip" title="Read paper">Link</span></a> |
             <a href="javascript:ReverseDisplay('Casillas2012Abstract')">Abstract</a> |
             <a href="javascript:ReverseDisplay('Casillas2012Bib')">Bib </a> )
@@ -108,43 +114,49 @@ print(bib[3], .opts = list(check.entries = FALSE, style = "html", bib.style = "a
                 <p class="minip">La fricativización del fonema /ʧ/ supone uno de los procesos fonológicos más productivos del español mexicano, sin embargo, actualmente sigue siendo uno de los menos estudiados. Partiendo de las investigaciones de Cedergren (1973), Brown (1989) y Herrera (2006), el presente estudio analiza la fricativización del fonema /ʧ/ en el español de las mujeres del sur de Arizona. El uso de una regresión de subida y bajada de Goldvarb X determinó que la edad de las participantes, el contexto posterior a /ʧ/ y el lugar de nacimiento son factores determinantes para la realización de la variante fricativa.</p>
                 </div>
 
-                <div id="Casillas2012Bib" style="display:none;margin-left:2em;text-indent:-2em">
+                <div id="Casillas2012Bib" style="display:none" class="minip">
 
+<pre><code>
 ```{r, echo=FALSE, eval=TRUE}
-toBiblatex(bib[3])
+toBiblatex(bib[key = "Casillas2012divergencias"])
 ```
+</code></pre>
                 </div>
-            <!-- </div>  -->
+            </div>
+            </br> 
             <!-- END METADATA -->
 
 
 
 
 ```{r, results='asis', echo=FALSE, eval=TRUE}
-print(bib[4], .opts = list(check.entries = FALSE, style = "html", bib.style = "authoryear"))
+print(bib[key = "Casillas2010gaceta"], .opts = list(check.entries = FALSE, style = "html", bib.style = "authoryear"))
 ```
 
             <!-- START METADATA -->
-            <!-- <div style="text-indent:.25em"> -->
+            <div style="text-indent:.25em" align="left">
             ( <a href="javascript:ReverseDisplay('Casillas2010Bib')">Bib</a> )
 
-                <div id="Casillas2010Bib" style="display:none;margin-left:2em;text-indent:-2em">
+                <div id="Casillas2010Bib" style="display:none" class="minip">
 
+<pre><code>
 ```{r, echo=FALSE, eval=TRUE}
-toBiblatex(bib[4])
+toBiblatex(bib[key = "Casillas2010gaceta"])
 ```
+</code></pre>
                 </div>
-            <!-- </div>  -->
+            </div>
+            </br>
             <!-- END METADATA -->
 
 
 
 ```{r, results='asis', echo=FALSE, eval=TRUE}
-print(bib[5], .opts = list(check.entries = FALSE, style = "html", bib.style = "authoryear"))
+print(bib[key = "Casillas2009gaceta"], .opts = list(check.entries = FALSE, style = "html", bib.style = "authoryear"))
 ```
 
             <!-- START METADATA -->
-            <!-- <div style="text-indent:.25em"> -->
+            <div style="text-indent:.25em" align="left">
             ( <a href="javascript:ReverseDisplay('Casillas2009Abstract')">Abstract</a> |
             <a href="javascript:ReverseDisplay('Casillas2009Bib')">Bib </a> )
 
@@ -152,13 +164,15 @@ print(bib[5], .opts = list(check.entries = FALSE, style = "html", bib.style = "a
                 <p class="minip">El refrán es una de las partes fundamentales de la lengua castellana que vemos plasmada en toda la cultura española, tanto en el habla cotidiana como en la literatura. El refrán ha tenido y sigue teniendo suma importancia a la hora de conocer y entender la cultura hispana, ya sea oral o en textos escritos. Es algo que los estudiantes de español como segunda lengua pueden comprobar puesto que supone un reto en su aprendizaje. Como es bien sabido, El Quijote, novela estudiada exhaustivamente desde que fue publicada por primera vez, es una fuente paremiológica imprescindible para quien quiera aprender, investigar o simplemente gozar del refranero cervantino. En palabras de Tarnovska: “No hay otra obra literaria que sea ni pueda ser considerada refranero popular de la misma importancia que El Quijote” (287). Además de ser una de las obras de literatura más esenciales de todos los tiempos, también es un recurso, una vía por medio de la cual el lector puede acercarse a la cultura española.</p>
                 </div>
 
-                <div id="Casillas2009Bib" style="display:none;margin-left:2em;text-indent:-2em">
+                <div id="Casillas2009Bib" style="display:none" class="minip">
 
+<pre><code>
 ```{r, echo=FALSE, eval=TRUE}
-toBiblatex(bib[5])
+toBiblatex(bib[key = "Casillas2009gaceta"])
 ```
+</code></pre>
                 </div>
-            <!-- </div>  -->
+            </div>
             <!-- END METADATA -->
 
 
@@ -166,16 +180,16 @@ toBiblatex(bib[5])
             <h4>Submitted</h4>
 
 ```{r, results='asis', echo=FALSE, eval=TRUE}
-print(bib[6], .opts = list(check.entries = FALSE, style = "html", bib.style = "authoryear"))
-print(bib[7], .opts = list(check.entries = FALSE, style = "html", bib.style = "authoryear"))
-print(bib[8], .opts = list(check.entries = FALSE, style = "html", bib.style = "authoryear"))
+print(bib[key = "CasillasSimonetDiazICPhS2015article"], .opts = list(check.entries = FALSE, style = "html", bib.style = "authoryear"))
+print(bib[key = "CasillasSimonetSLR2015"], .opts = list(check.entries = FALSE, style = "html", bib.style = "authoryear"))
+print(bib[key = "CasillasPHON2015"], .opts = list(check.entries = FALSE, style = "html", bib.style = "authoryear"))
 ```
 
 
             <h4>In preparation</h4>
 
 ```{r, results='asis', echo=FALSE, eval=TRUE}
-print(bib[9], .opts = list(check.entries = FALSE, style = "html", bib.style = "authoryear"))
+print(bib[key = "CasillasDICT2015"], .opts = list(check.entries = FALSE, style = "html", bib.style = "authoryear"))
 ```
 
             <!-- </div> -->
@@ -184,30 +198,26 @@ print(bib[9], .opts = list(check.entries = FALSE, style = "html", bib.style = "a
         <!-- THIRD TAB BEGIN-->
         <div id="presentations" class="tab-pane fade" style="margin-left:2em;text-indent:-2em">
             <h4>Presentations</h4>
-            <!-- <div class="minip"> -->
 
 ```{r, results='asis', echo=FALSE, eval=TRUE}
-print(bib[10], .opts = list(check.entries = FALSE, style = "html", bib.style = "authortitle"))
-print(bib[11], .opts = list(check.entries = FALSE, style = "html", bib.style = "authortitle"))
-print(bib[12], .opts = list(check.entries = FALSE, style = "html", bib.style = "authortitle"))
-print(bib[13], .opts = list(check.entries = FALSE, style = "html", bib.style = "authortitle"))
-print(bib[14], .opts = list(check.entries = FALSE, style = "html", bib.style = "authortitle"))
-print(bib[15], .opts = list(check.entries = FALSE, style = "html", bib.style = "authortitle"))
-print(bib[16], .opts = list(check.entries = FALSE, style = "html", bib.style = "authortitle"))
+print(bib[key = "BessettCasillasMartinezWSS72014conf"], .opts = list(check.entries = FALSE, style = "html", bib.style = "authortitle"))
+print(bib[key = "CasillasSLRF2013"], .opts = list(check.entries = FALSE, style = "html", bib.style = "authortitle"))
+print(bib[key = "CasillasPAPI2013"], .opts = list(check.entries = FALSE, style = "html", bib.style = "authortitle"))
+print(bib[key = "CasillasWSS6CONF2013conf"], .opts = list(check.entries = FALSE, style = "html", bib.style = "authortitle"))
+print(bib[key = "CasillasSYMP2012conf"], .opts = list(check.entries = FALSE, style = "html", bib.style = "authortitle"))
+print(bib[key = "CasillasCONF2011symp"], .opts = list(check.entries = FALSE, style = "html", bib.style = "authortitle"))
+print(bib[key = "CasillasCONF2011share"], .opts = list(check.entries = FALSE, style = "html", bib.style = "authortitle"))
 ```
 
-            <!-- </div> -->
 
             <h4>Poster presentations</h4>
-            <!-- <div class="minip"> -->
 
 ```{r, results='asis', echo=FALSE, eval=TRUE}
-print(bib[17], .opts = list(check.entries = FALSE, style = "html", bib.style = "authortitle"))
-print(bib[18], .opts = list(check.entries = FALSE, style = "html", bib.style = "authortitle"))
-print(bib[19], .opts = list(check.entries = FALSE, style = "html", bib.style = "authortitle"))
+print(bib[key = "SimonetCasillasDiazHLS2014poster"], .opts = list(check.entries = FALSE, style = "html", bib.style = "authortitle"))
+print(bib[key = "SimonetCasillasDiazSP72014poster"], .opts = list(check.entries = FALSE, style = "html", bib.style = "authortitle"))
+print(bib[key = "CasillasPPLC2013"], .opts = list(check.entries = FALSE, style = "html", bib.style = "authortitle"))
 ```
 
-            <!-- </div> -->
         </div> <!-- END THIRD TAB -->
     </div> <!-- END TAB CONTENT -->
 </div>
