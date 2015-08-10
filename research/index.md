@@ -30,10 +30,61 @@ url: {lib: ../libraries}
         <div class="tab-pane active" id="current-research">
             <p>I am an active member of the <a alt="AAPL" href="http://aaplab1.github.io" target='_new'><span class="showtooltip" title="AAPL webpage">Arizona Applied Phonetics Laboratory</span></a> at the University of Arizona. My main interests are in phonetics/phonology. My current projects deal with acquisition of L2 phonology in late learners. Specifically, I am interested in category formation and the production/perception relationship. I am also interested in how dialectal variation affects linguistic attitudes.</p>
         </div>
+
+
         <!-- START TAB 2 -->
         <div class="tab-pane fade" id="publications" style="margin-left:2em;text-indent:-2em">
             <h4>Recent Publications</h4>
             <!-- <div class="minip"> -->
+
+
+
+
+
+
+<p><cite>Casillas, J. V., Y. Díaz and M. Simonet
+(2015).
+&ldquo;Acoustics of Spanish and English coronal stops&rdquo;.
+In: 
+<EM>ICPhS 18</EM>.
+Ed. by T. S. C. for
+ICPhS 2015.
+Proceedings of the 18th International Congresses of Phonetic Sciences.
+University of Glasgow: Glasgow. http://www.icphs2015.info, ISSN: 241-0669, pp. 1-5.</cite></p>
+
+            <!-- START METADATA -->
+            <div style="text-indent:.25em;margin-top:-1em" align="left">
+            ( <a alt="ICPhS2015" href="https://www.researchgate.net/publication/280840068_ACOUSTICS_OF_SPANISH_AND_ENGLISH_CORONAL_STOPS" target='_new'><span class="showtooltip" title="Read paper">Link</span></a> |
+            <a href="javascript:ReverseDisplay('CasillasDiazSimonetICPhS2015article')">Abstract</a> |
+            <a href="javascript:ReverseDisplay('CasillasDiazSimonetICPhS2015bib')">Bib </a> )
+
+                <div id="CasillasDiazSimonetICPhS2015article" style="display:none;margin-left:2em;text-indent:0em">
+                <p class="minip">This study explores the acoustic correlates that distinguish coronal stops (/t/, /d/) between English and Spanish. English and Spanish coronal stops are hypothesized to differ in terms of voice-onset time and place of articulation. We are particularly concerned with capturing the place of articulation difference with acoustic data, as the voice-onset time difference is well known. Specifically, we focus on English /d/ and Spanish /t/, which are phonetically-voiceless stops with a short-lag voice-onset time. Spanish /t/ has been described as being articulated at dental place, whereas English /d/ is articulated at alveolar place. Mixed-effects models explored various spectral measurements of the consonant burst and found that standard deviation, relative burst intensity, and center of gravity differed as a function of place of articulation (or language).</p>
+                </div>
+
+                <div id="CasillasDiazSimonetICPhS2015bib" style="display:none" class="minip">
+
+<pre><code style="margin-top:-1em">
+
+```
+## @InProceedings{CasillasDiazSimonetICPhS2015article,
+##   author = {Joseph Vincent Casillas and Yamile D{\a'\i}az and Miquel Simonet},
+##   editor = {The Scottish Consortium {for ICPhS 2015}},
+##   organization = {Proceedings of the 18th International Congresses of Phonetic Sciences},
+##   publisher = {University of Glasgow: Glasgow. http://www.icphs2015.info, ISSN: 241-0669},
+##   title = {Acoustics of Spanish and English coronal stops},
+##   pages = {1-5},
+##   year = {2015},
+## }
+```
+</code></pre>
+
+                </div>
+            </div> 
+            </br>
+            <!-- END METADATA -->
+
+
 
 <p><cite>Simonet, M., J. V. Casillas and Y. Díaz
 (2014).
@@ -229,9 +280,6 @@ ISSN: 1886-1741.</cite></p>
 
             <h4>Submitted</h4>
 
-<p><cite>Casillas, J. V, M. Simonet and Y. Díaz
-<EM>(To appear). Acoustics of Spanish and English coronal stops</EM>.
-Proceedings of the 18th ICPhS. Glasgow, Scotland.</cite></p>
 <p><cite>Casillas, J. V. and M. Simonet
 <EM>(Under review). Production and perception of the English /æ/-/ɑ/ contrast in switched-dominance speakers</EM>.</cite></p>
 <p><cite>Casillas, J. V.
@@ -275,12 +323,15 @@ Spanish Heritage Language Program Share Day, Mar. 2011.</cite></p>
 
             <h4>Poster presentations</h4>
 
+<p><cite>Casillas, J. V., Y. Díaz and M. Simonet.
+<EM>Acoustics of Spanish and English coronal stops</EM>.
+Proceedings of the 18th International Congresses of Phonetic Sciences. University of Glasgow, Glasgow, Scotland, Aug. 2015.</cite></p>
 <p><cite>Simonet, M., J. V. Casillas and Y. Díaz.
 <EM>A contrastive acoustic analysis of dental and alveolar stops in Spanish and English</EM>.
 Hispanic Linguistics Symposium. Purdue University, West Lafayette, IN., Nov. 2014.</cite></p>
 <p><cite>Simonet, M., J. V. Casillas and Y. Díaz.
 <EM>The effects of stress/accent on VOT depend on language (English, Spanish), consonant (/d/, /t/) and linguistic experience (monolinguals, bilinguals)</EM>.
-Speech Prosody 7: Social and Linguistic Speech Prosody. Trinity College, Dublin., May. 2014.</cite></p>
+Speech Prosody 7: Social and Linguistic Speech Prosody. Trinity College, Dublin, Ireland, May. 2014.</cite></p>
 <p><cite>Casillas, J. V. and M. Simonet.
 <EM>English-dominant early Spanish/English bilinguals perception of English tense-lax vowel contrasts</EM>.
 PPLC 13: Phonetics, phonology and languages in contact: Contact varieties, multilingualism, and second language learning. Paris, Délégation Générale Wallonie-Bruxelles, Aug. 2013.</cite></p>
