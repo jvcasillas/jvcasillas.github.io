@@ -21,6 +21,9 @@ Designed for students with some previous study of Spanish, experience in a Spani
 - [Capítulo 9][Capítulo 9] 
 - [Resumen][Resumen]
 
+[Click here](http://www.jvcasillas.com/midd_comunicacion_1_5_2015/) for access 
+to the Summer 2015 class webpage.
+
 [Paso preliminar]: 0_paso_prelim/paso_prelim.html
 [Capítulo 1]: cap1/cap1.html
 [Capítulo 2]: cap2/cap2.html
