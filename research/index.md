@@ -5,6 +5,14 @@ mode: selfcontained
 url: {lib: ../libraries}
 ---
 
+<style>
+.tempTimes {
+    font-family: arial;
+    font-size: 0.9em;
+    color: #505050;
+}
+</style>
+
 
 ## Research
 
@@ -32,11 +40,13 @@ url: {lib: ../libraries}
         </div>
 
 
+
         <!-- START TAB 2 -->
         <div class="tab-pane fade" id="publications" style="margin-left:2em;text-indent:-2em">
             <h4>Recent Publications</h4>
             <!-- <div class="minip"> -->
 
+<span class="tempTimes">
 
 
 
@@ -291,33 +301,47 @@ ISSN: 1886-1741.</cite></p>
 <p><cite>Casillas, J. V.
 <EM>Community approaches to translating specialized terminology in linguistics: lingreference.org</EM>.</cite></p>
 
+            </span>
             <!-- </div> -->
         </div> <!-- END TAB 2 -->
+
+
+
+
+
+
+
+
 
         <!-- THIRD TAB BEGIN-->
         <div id="presentations" class="tab-pane fade" style="margin-left:2em;text-indent:-2em">
             <h4>Presentations</h4>
 
+<span class="tempTimes">
+
+<p><cite>Casillas, J. V., Y. Díaz and M. Simonet.
+<em>Acoustics of coronal stops in Spanish-English bilingual speech</em>.
+University of Illinois at Urbana-Champaign, Urbana, IL, Sep. 2015.</cite></p>
 <p><cite>Bessett, R. M., J. V. Casillas and M. Ramírez Martínez.
-<EM>Language Choice and Accommodation: Casual Encounters Along the U.S. Border</EM>.
+<em>Language Choice and Accommodation: Casual Encounters Along the U.S. Border</em>.
 University of Wisconsin-Madison, Madison, WI, Apr. 2014.</cite></p>
 <p><cite>Casillas, J. V.
-<EM>Perception of English /i/-/ɪ/ tense/lax vowel contrast by early learners of English</EM>.
+<em>Perception of English /i/-/ɪ/ tense/lax vowel contrast by early learners of English</em>.
 Brigham Young University. Provo, Utah., Oct. 2013.</cite></p>
 <p><cite>Casillas, J. V.
-<EM>English-dominant early Spanish-English bilinguals production and perception of English tense lax vowel contrasts</EM>.
+<em>English-dominant early Spanish-English bilinguals production and perception of English tense lax vowel contrasts</em>.
 Universidade de Lisboa, Lisbon. Portugal, Jun. 2013.</cite></p>
 <p><cite>Casillas, J. V.
-<EM>La fricativización del africado /ʧ/: actitudes lingüísticas cerca de la frontera</EM>.
+<em>La fricativización del africado /ʧ/: actitudes lingüísticas cerca de la frontera</em>.
 6th Workshop on Spanish Sociolinguistics, Apr. 2013.</cite></p>
 <p><cite>Casillas, J. V.
-<EM>Los piojos, las pulgas y el canto... ¡oh my! Una segunda mirada a la teoría de Dunbar, el cotilleo y el papel de la música en la evolución del lenguage</EM>.
+<em>Los piojos, las pulgas y el canto... ¡oh my! Una segunda mirada a la teoría de Dunbar, el cotilleo y el papel de la música en la evolución del lenguage</em>.
 22nd Annual Symposium on Hispanic and Luso-Brazilian Literature, Language and Culture, Feb. 2012.</cite></p>
 <p><cite>Casillas, J. V.
-<EM>La fricativización del africado /ʧ/ en el habla de las mujeres del sur de Arizona</EM>.
+<em>La fricativización del africado /ʧ/ en el habla de las mujeres del sur de Arizona</em>.
 21st Annual Symposium on Hispanic and Luso-Brazilian Literature, Mar. 2011.</cite></p>
 <p><cite>Casillas, J. V.
-<EM>Going mental with vocabulary: the use of iDevice applications in the classroom</EM>.
+<em>Going mental with vocabulary: the use of iDevice applications in the classroom</em>.
 Spanish Heritage Language Program Share Day, Mar. 2011.</cite></p>
 
 
@@ -336,6 +360,7 @@ Speech Prosody 7: Social and Linguistic Speech Prosody. Trinity College, Dublin,
 <EM>English-dominant early Spanish/English bilinguals perception of English tense-lax vowel contrasts</EM>.
 PPLC 13: Phonetics, phonology and languages in contact: Contact varieties, multilingualism, and second language learning. Paris, Délégation Générale Wallonie-Bruxelles, Aug. 2013.</cite></p>
 
+        </span>
         </div> <!-- END THIRD TAB -->
     </div> <!-- END TAB CONTENT -->
 </div>

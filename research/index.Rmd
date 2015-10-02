@@ -5,6 +5,14 @@ mode: selfcontained
 url: {lib: ../libraries}
 ---
 
+<style>
+.tempTimes {
+    font-family: arial;
+    font-size: 0.9em;
+    color: #505050;
+}
+</style>
+
 
 ## Research
 
@@ -40,11 +48,13 @@ bib <- ReadBib("./data/publicationsCVclean.bib", check = FALSE)
         </div>
 
 
+
         <!-- START TAB 2 -->
         <div class="tab-pane fade" id="publications" style="margin-left:2em;text-indent:-2em">
             <h4>Recent Publications</h4>
             <!-- <div class="minip"> -->
 
+<span class="tempTimes">
 
 
 
@@ -227,14 +237,26 @@ print(bib[key = "CasillasPHON2015"], .opts = list(check.entries = FALSE, style =
 print(bib[key = "CasillasDICT2015"], .opts = list(check.entries = FALSE, style = "html", bib.style = "authoryear"))
 ```
 
+            </span>
             <!-- </div> -->
         </div> <!-- END TAB 2 -->
+
+
+
+
+
+
+
+
 
         <!-- THIRD TAB BEGIN-->
         <div id="presentations" class="tab-pane fade" style="margin-left:2em;text-indent:-2em">
             <h4>Presentations</h4>
 
+<span class="tempTimes">
+
 ```{r, results='asis', echo=FALSE, eval=TRUE}
+print(bib[key = "CasillasDiazSimonetHLS2015"], .opts = list(check.entries = FALSE, style = "html", bib.style = "authortitle"))
 print(bib[key = "BessettCasillasMartinezWSS72014conf"], .opts = list(check.entries = FALSE, style = "html", bib.style = "authortitle"))
 print(bib[key = "CasillasSLRF2013"], .opts = list(check.entries = FALSE, style = "html", bib.style = "authortitle"))
 print(bib[key = "CasillasPAPI2013"], .opts = list(check.entries = FALSE, style = "html", bib.style = "authortitle"))
@@ -254,6 +276,7 @@ print(bib[key = "SimonetCasillasDiazSP72014poster"], .opts = list(check.entries 
 print(bib[key = "CasillasPPLC2013"], .opts = list(check.entries = FALSE, style = "html", bib.style = "authortitle"))
 ```
 
+        </span>
         </div> <!-- END THIRD TAB -->
     </div> <!-- END TAB CONTENT -->
 </div>
