@@ -37,6 +37,7 @@ Afterwards, update the following:
 
 
 
+
 <p></p>
 <div class="tabbable">
     <ul class="nav nav-tabs nav-justified" id="myTab">
@@ -459,28 +460,28 @@ ISSN: 1886-1741.</cite></p>
 
 <p><cite>Casillas, J. V., Y. Díaz and M. Simonet.
 <em>Acoustics of coronal stops in Spanish-English bilingual speech</em>.
-University of Illinois at Urbana-Champaign, Urbana, IL, Sep. 2015.</cite></p>
+Hispanic Linguistics Symposium. University of Illinois at Urbana-Champaign, Urbana, IL, Sep. 2015.</cite></p>
 <p><cite>Bessett, R. M., J. V. Casillas and M. Ramírez Martínez.
 <em>Language Choice and Accommodation: Casual Encounters Along the U.S. Border</em>.
-University of Wisconsin-Madison, Madison, WI, Apr. 2014.</cite></p>
+7th Workshop on Spanish Sociolinguistics. University of Wisconsin-Madison, Madison, WI, Apr. 2014.</cite></p>
 <p><cite>Casillas, J. V.
 <em>Perception of English /i/-/ɪ/ tense/lax vowel contrast by early learners of English</em>.
-Brigham Young University. Provo, Utah., Oct. 2013.</cite></p>
+Second Language Research Forum (SRLF). Brigham Young University. Provo, Utah, Oct. 2013.</cite></p>
 <p><cite>Casillas, J. V.
 <em>English-dominant early Spanish-English bilinguals production and perception of English tense lax vowel contrasts</em>.
-Universidade de Lisboa, Lisbon. Portugal, Jun. 2013.</cite></p>
+Phonetics and Phonology in Iberia. Universidade de Lisboa, Lisbon. Portugal, Jun. 2013.</cite></p>
 <p><cite>Casillas, J. V.
 <em>La fricativización del africado /ʧ/: actitudes lingüísticas cerca de la frontera</em>.
-6th Workshop on Spanish Sociolinguistics, Apr. 2013.</cite></p>
+6th Workshop on Spanish Sociolinguistics. University of Arizona, Tucson, AZ, Apr. 2013.</cite></p>
 <p><cite>Casillas, J. V.
 <em>Los piojos, las pulgas y el canto... ¡oh my! Una segunda mirada a la teoría de Dunbar, el cotilleo y el papel de la música en la evolución del lenguage</em>.
-22nd Annual Symposium on Hispanic and Luso-Brazilian Literature, Language and Culture, Feb. 2012.</cite></p>
+22nd Annual Symposium on Hispanic and Luso-Brazilian Literature, Language and Culture. University of Arizona, Tucson, AZ, Feb. 2012.</cite></p>
 <p><cite>Casillas, J. V.
 <em>La fricativización del africado /ʧ/ en el habla de las mujeres del sur de Arizona</em>.
-21st Annual Symposium on Hispanic and Luso-Brazilian Literature, Mar. 2011.</cite></p>
+21st Annual Symposium on Hispanic and Luso-Brazilian Literature. University of Arizona, Tucson, AZ, Mar. 2011.</cite></p>
 <p><cite>Casillas, J. V.
 <em>Going mental with vocabulary: the use of iDevice applications in the classroom</em>.
-Spanish Heritage Language Program Share Day, Mar. 2011.</cite></p>
+Spanish Heritage Language Program Share Day. University of Arizona, Tucson, AZ, Mar. 2011.</cite></p>
 
 
             <h4>Poster presentations</h4>
