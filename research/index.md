@@ -175,7 +175,7 @@ In:
 <em>ICPhS 18</em>.
 Ed. by T. S. C. for
 ICPhS 2015.
-Proceedings of the 18th International Congresses of Phonetic Sciences.
+Proceedings of the 18th International Congress of Phonetic Sciences.
 University of Glasgow: Glasgow. http://www.icphs2015.info, ISSN: 241-0669, pp. 1-5.</cite></p>
 
             <!-- START METADATA -->
@@ -488,7 +488,7 @@ Spanish Heritage Language Program Share Day. University of Arizona, Tucson, AZ, 
 
 <p><cite>Casillas, J. V., Y. Díaz and M. Simonet.
 <em>Acoustics of Spanish and English coronal stops</em>.
-Proceedings of the 18th International Congresses of Phonetic Sciences. University of Glasgow, Glasgow, Scotland, Aug. 2015.</cite></p>
+Proceedings of the 18th International Congress of Phonetic Sciences. University of Glasgow, Glasgow, Scotland, Aug. 2015.</cite></p>
 <p><cite>Simonet, M., J. V. Casillas and Y. Díaz.
 <em>A contrastive acoustic analysis of dental and alveolar stops in Spanish and English</em>.
 Hispanic Linguistics Symposium. Purdue University, West Lafayette, IN., Nov. 2014.</cite></p>
