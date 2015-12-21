@@ -102,7 +102,7 @@ print(bib[key = "CasillasPhonetica2015"], .opts = list(check.entries = FALSE, st
 
             <!-- START METADATA -->
             <div style="text-indent:.25em;margin-top:-1em" align="left">
-            ( <a alt="SDPHON2015" href="" target='_new'><span class="showtooltip" title="Read paper">Link</span></a> |
+            ( <a alt="SDPHON2015" href="http://www.karger.com.ezproxy2.library.arizona.edu/Article/Abstract/431101" target='_new'><span class="showtooltip" title="Read paper">Link</span></a> |
             <a href="javascript:ReverseDisplay('CasillasPhonetica2015')">Abstract</a> |
             <a href="javascript:ReverseDisplay('CasillasPhonetica2015bib')">Bib </a> )
 
@@ -113,7 +113,7 @@ print(bib[key = "CasillasPhonetica2015"], .opts = list(check.entries = FALSE, st
                 <div id="CasillasPhonetica2015bib" style="display:none" class="minip">
 
 <pre><code style="margin-top:-1em">
-```{r, echo=FALSE}
+```{r, echo=FALSE, eval=TRUE}
 toBiblatex(bib[key = "CasillasPhonetica2015"], .opts = list(style = "html"))
 ```
 </code></pre>

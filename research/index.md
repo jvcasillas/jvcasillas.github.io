@@ -89,12 +89,13 @@ Afterwards, update the following:
 
 
 <p><cite>Casillas, J. V.
+(2015).
 &ldquo;Production and perception of the /i/-/ɪ/ vowel contrast: The case of L2-dominant early learners of English&rdquo;.
-In: <em>Phonetica</em>.</cite></p>
+In: <em>Phonetica</em> 72, pp. 182-205.</cite></p>
 
             <!-- START METADATA -->
             <div style="text-indent:.25em;margin-top:-1em" align="left">
-            ( <a alt="SDPHON2015" href="" target='_new'><span class="showtooltip" title="Read paper">Link</span></a> |
+            ( <a alt="SDPHON2015" href="http://www.karger.com.ezproxy2.library.arizona.edu/Article/Abstract/431101" target='_new'><span class="showtooltip" title="Read paper">Link</span></a> |
             <a href="javascript:ReverseDisplay('CasillasPhonetica2015')">Abstract</a> |
             <a href="javascript:ReverseDisplay('CasillasPhonetica2015bib')">Bib </a> )
 
@@ -111,7 +112,9 @@ In: <em>Phonetica</em>.</cite></p>
 ##   author = {Joseph Vincent Casillas},
 ##   title = {Production and perception of the /i/-/ɪ/ vowel contrast: The case of L2-dominant early learners of English},
 ##   journal = {Phonetica},
-##   year = {in press},
+##   volume = {72},
+##   pages = {182-205},
+##   year = {2015},
 ## }
 ```
 </code></pre>
