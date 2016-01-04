@@ -95,7 +95,7 @@ In: <em>Phonetica</em> 72, pp. 182-205.</cite></p>
 
             <!-- START METADATA -->
             <div style="text-indent:.25em;margin-top:-1em" align="left">
-            ( <a alt="SDPHON2015" href="http://www.karger.com.ezproxy2.library.arizona.edu/Article/Abstract/431101" target='_new'><span class="showtooltip" title="Read paper">Link</span></a> |
+            ( <a alt="SDPHON2015" href="http://www.karger.com/Article/Abstract/431101" target='_new'><span class="showtooltip" title="Read paper">Link</span></a> |
             <a href="javascript:ReverseDisplay('CasillasPhonetica2015')">Abstract</a> |
             <a href="javascript:ReverseDisplay('CasillasPhonetica2015bib')">Bib </a> )
 
