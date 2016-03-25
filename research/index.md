@@ -333,10 +333,10 @@ Somerville, MA: Cascadilla Proceedings Project. www.lingref.com, document #2867,
 
 
 
-
-```
-## Error in if (grepl("[.?!]$", tl, useBytes = TRUE)) {: argument is of length zero
-```
+<p><cite>Casillas, J. V.
+(2012).
+&ldquo;La fricativización del africado /ʧ/ en el habla de las mujeres del sur de Arizona&rdquo;.
+In: <em>Divergencias: Revista de estudios lingüísticos y literarios</em> 10.1, pp. 56-70.</cite></p>
 
             <!-- START METADATA -->
             <div style="text-indent:.25em;margin-top:-1em" align="left">
@@ -372,10 +372,11 @@ Somerville, MA: Cascadilla Proceedings Project. www.lingref.com, document #2867,
 
 
 
-
-```
-## Error in if (grepl("[.?!]$", tl, useBytes = TRUE)) {: argument is of length zero
-```
+<p><cite>Casillas, J. V.
+(2010).
+&ldquo;La vibrante múltiple intervocálica: los ejercicios de canto como ayuda a su pronunciación en español&rdquo;.
+In: <em>La Gaceta Hispánica de Madrid</em> VIII.
+ISSN: 1886-1741.</cite></p>
 
             <!-- START METADATA -->
             <div style="text-indent:.25em;margin-top:-1em" align="left">
@@ -403,10 +404,11 @@ Somerville, MA: Cascadilla Proceedings Project. www.lingref.com, document #2867,
 
 
 
-
-```
-## Error in if (grepl("[.?!]$", tl, useBytes = TRUE)) {: argument is of length zero
-```
+<p><cite>Casillas, J. V.
+(2009).
+&ldquo;El uso de los refranes en El Quijote&rdquo;.
+In: <em>La Gaceta Hispánica de Madrid</em> VIII.
+ISSN: 1886-1741.</cite></p>
 
             <!-- START METADATA -->
             <div style="text-indent:.25em;margin-top:-1em" align="left">
