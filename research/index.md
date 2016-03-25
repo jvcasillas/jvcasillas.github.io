@@ -88,10 +88,71 @@ Afterwards, update the following:
 
 
 
+
+
+
+
+
+
+
+
+
+
+<p><cite>Casillas, J. V. and M. Simonet
+(2016).
+&ldquo;Production and perception of the English /æ/-/ɑ/ contrast in switched-dominance speakers&rdquo;.
+In: <em>Second Language Research</em> 32.2, pp. 171-195.</cite></p>
+
+            <!-- START METADATA -->
+            <div style="text-indent:.25em;margin-top:-1em" align="left">
+            ( <a alt="SDSLR2015" href="http://slr.sagepub.com/content/32/2/171.abstract" target='_new'><span class="showtooltip" title="Read paper">Link</span></a> |
+            <a href="javascript:ReverseDisplay('CasillasSimonetSLR2016')">Abstract</a> |
+            <a href="javascript:ReverseDisplay('CasillasSimonetSLR2016bib')">Bib </a> )
+
+                <div id="CasillasSimonetSLR2016" style="display:none;margin-left:2em;text-indent:0em">
+                <p class="minip">This study investigates how fluent second-language (L2) learners of English produce and perceive the /æ/–/ɑ/ vowel contrast of Southwestern American English. Two learner groups are examined: (1) early, proficient English speakers who were raised by Spanish-speaking families but who became dominant in English during childhood and, as adults, lack communicative abilities in Spanish, and (2) Spanish-speaking late learners of English who continue to be dominant in Spanish. The participants provided data in three tasks: one production and two perceptual. The study finds that both learner groups differ from native controls in their production and perception of the /æ/–/ɑ/ contrast. The findings shed light on our understanding of the relative effects of age (at onset of language exposure) and language dominance (at time of testing) by showing that sequential bilingualism impacts phonetic behavior even when speakers have become dominant in the target language.</p>
+                </div>
+
+                <div id="CasillasSimonetSLR2016bib" style="display:none" class="minip">
+
+<pre><code style="margin-top:-1em">
+
+```
+## @Article{CasillasSimonetSLR2016,
+##   author = {Joseph V Casillas and Miquel Simonet},
+##   title = {Production and perception of the English /æ/-/ɑ/ contrast in switched-dominance speakers},
+##   year = {2016},
+##   volume = {32},
+##   number = {2},
+##   pages = {171-195},
+##   journal = {Second Language Research},
+## }
+```
+</code></pre>
+
+                </div>
+            </div> 
+            </br>
+            <!-- END METADATA -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 <p><cite>Casillas, J. V.
 (2015).
 &ldquo;Production and perception of the /i/-/ɪ/ vowel contrast: The case of L2-dominant early learners of English&rdquo;.
-In: <em>Phonetica</em> 72, pp. 182-205.</cite></p>
+In: <em>Phonetica</em> 72.2-3, pp. 182-205.</cite></p>
 
             <!-- START METADATA -->
             <div style="text-indent:.25em;margin-top:-1em" align="left">
@@ -113,6 +174,7 @@ In: <em>Phonetica</em> 72, pp. 182-205.</cite></p>
 ##   title = {Production and perception of the /i/-/ɪ/ vowel contrast: The case of L2-dominant early learners of English},
 ##   journal = {Phonetica},
 ##   volume = {72},
+##   number = {2-3},
 ##   pages = {182-205},
 ##   year = {2015},
 ## }
@@ -133,39 +195,9 @@ In: <em>Phonetica</em> 72, pp. 182-205.</cite></p>
 
 
 
-<p><cite>Casillas, J. V. and M. Simonet
-(2015).
-&ldquo;Production and perception of the English /æ/-/ɑ/ contrast in switched-dominance speakers&rdquo;.
-In: <em>Second Language Research</em>.</cite></p>
 
-            <!-- START METADATA -->
-            <div style="text-indent:.25em;margin-top:-1em" align="left">
-            ( <a alt="SDSLR2015" href="http://slr.sagepub.com/content/early/2015/10/09/0267658315608912.abstract" target='_new'><span class="showtooltip" title="Read paper">Link</span></a> |
-            <a href="javascript:ReverseDisplay('CasillasSimonetSLR2015')">Abstract</a> |
-            <a href="javascript:ReverseDisplay('CasillasSimonetSLR2015bib')">Bib </a> )
 
-                <div id="CasillasSimonetSLR2015" style="display:none;margin-left:2em;text-indent:0em">
-                <p class="minip">This study investigates how fluent second-language (L2) learners of English produce and perceive the /æ/–/ɑ/ vowel contrast of Southwestern American English. Two learner groups are examined: (1) early, proficient English speakers who were raised by Spanish-speaking families but who became dominant in English during childhood and, as adults, lack communicative abilities in Spanish, and (2) Spanish-speaking late learners of English who continue to be dominant in Spanish. The participants provided data in three tasks: one production and two perceptual. The study finds that both learner groups differ from native controls in their production and perception of the /æ/–/ɑ/ contrast. The findings shed light on our understanding of the relative effects of age (at onset of language exposure) and language dominance (at time of testing) by showing that sequential bilingualism impacts phonetic behavior even when speakers have become dominant in the target language.</p>
-                </div>
 
-                <div id="CasillasSimonetSLR2015bib" style="display:none" class="minip">
-
-<pre><code style="margin-top:-1em">
-
-```
-## @Article{CasillasSimonetSLR2015,
-##   author = {Joseph V Casillas and Miquel Simonet},
-##   title = {Production and perception of the English /æ/-/ɑ/ contrast in switched-dominance speakers},
-##   year = {2015},
-##   journal = {Second Language Research},
-## }
-```
-</code></pre>
-
-                </div>
-            </div> 
-            </br>
-            <!-- END METADATA -->
 
 
 
@@ -199,7 +231,7 @@ University of Glasgow: Glasgow. http://www.icphs2015.info, ISSN: 241-0669, pp. 1
 ## @InProceedings{CasillasDiazSimonetICPhS2015article,
 ##   author = {Joseph Vincent Casillas and Yamile D{\a'\i}az and Miquel Simonet},
 ##   editor = {The Scottish Consortium {for ICPhS 2015}},
-##   organization = {Proceedings of the 18th International Congresses of Phonetic Sciences},
+##   organization = {Proceedings of the 18th International Congress of Phonetic Sciences},
 ##   publisher = {University of Glasgow: Glasgow. http://www.icphs2015.info, ISSN: 241-0669},
 ##   title = {Acoustics of Spanish and English coronal stops},
 ##   booktitle = {ICPhS 18},
@@ -286,7 +318,7 @@ Somerville, MA: Cascadilla Proceedings Project. www.lingref.com, document #2867,
 ## @InProceedings{CasillasWSS62013article,
 ##   author = {Joseph Vincent Casillas},
 ##   editor = {Ana M. Carvalho and Sara Beaudrie},
-##   publisher = {Somerville, MA: Cascadilla Proceedings Project. www.lingref.com, document \#2867},
+##   publisher = {Somerville, MA: Cascadilla Proceedings Project. www.lingref.com, document #2867},
 ##   title = {La fricativización del africado /ʧ/: actitudes lingüísticas cerca de la frontera},
 ##   booktitle = {Selected Proceedings of the 6th Workshop on Spanish Sociolinguistics},
 ##   pages = {177-188},
@@ -301,10 +333,10 @@ Somerville, MA: Cascadilla Proceedings Project. www.lingref.com, document #2867,
 
 
 
-<p><cite>Casillas, J. V.
-(2012).
-&ldquo;La fricativización del africado /ʧ/ en el habla de las mujeres del sur de Arizona&rdquo;.
-In: <em>Divergencias: Revista de estudios lingüísticos y literarios</em> 10.1, pp. 56-70.</cite></p>
+
+```
+## Error in if (grepl("[.?!]$", tl, useBytes = TRUE)) {: argument is of length zero
+```
 
             <!-- START METADATA -->
             <div style="text-indent:.25em;margin-top:-1em" align="left">
@@ -340,11 +372,10 @@ In: <em>Divergencias: Revista de estudios lingüísticos y literarios</em> 10.1,
 
 
 
-<p><cite>Casillas, J. V.
-(2010).
-&ldquo;La vibrante múltiple intervocálica: los ejercicios de canto como ayuda a su pronunciación en español&rdquo;.
-In: <em>La Gaceta Hispánica de Madrid</em> VIII.
-ISSN: 1886-1741.</cite></p>
+
+```
+## Error in if (grepl("[.?!]$", tl, useBytes = TRUE)) {: argument is of length zero
+```
 
             <!-- START METADATA -->
             <div style="text-indent:.25em;margin-top:-1em" align="left">
@@ -372,11 +403,10 @@ ISSN: 1886-1741.</cite></p>
 
 
 
-<p><cite>Casillas, J. V.
-(2009).
-&ldquo;El uso de los refranes en El Quijote&rdquo;.
-In: <em>La Gaceta Hispánica de Madrid</em> VIII.
-ISSN: 1886-1741.</cite></p>
+
+```
+## Error in if (grepl("[.?!]$", tl, useBytes = TRUE)) {: argument is of length zero
+```
 
             <!-- START METADATA -->
             <div style="text-indent:.25em;margin-top:-1em" align="left">
