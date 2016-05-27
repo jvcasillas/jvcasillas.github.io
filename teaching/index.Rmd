@@ -12,6 +12,7 @@ Here you can find a list of some of the classes I have taught or am currently te
 #### Undergraduate
 
 - University of Arizona
+    - [Beginning Spanish (Spanish 101)][101]  
     - [Elementary Spanish (Spanish 102)][102]  
     - [Intermediate Spanish (Spanish 251)][251]  
     - [Introduction to Spanish Phonetics and Phonology (Spanish 340)][340]  
@@ -30,6 +31,7 @@ Here you can find a list of some of the classes I have taught or am currently te
 
 </br>
 
+[101]: span_101/index.html
 [102]: span_102/index.html
 [251]: span_251/index.html
 [340]: span_340/index.html
