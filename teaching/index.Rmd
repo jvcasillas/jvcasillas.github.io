@@ -7,7 +7,9 @@ url: {lib: ../libraries}
 ---
 
 
-Here you can find a list of some of the classes I have taught or am currently teaching at the University of Arizona and Middlebury College, as well as information about some invited talks and specialized workshops I have done. Click on the links for more information about each one.
+Here you can find a list of some of the classes I have taught or am currently teaching, as well as information about some invited talks and specialized workshops I have done. Click on the links for more information about each one.
+
+#### Undergraduate
 
 - University of Arizona
     - [Elementary Spanish (Spanish 102)][102]  
@@ -20,6 +22,9 @@ Here you can find a list of some of the classes I have taught or am currently te
 - Middlebury College
     - [High Beginner Spanish in Context (Level 1.5)][1.5]
     - [Spanish pronunciation workshop for beginners][clinica]
+
+#### Graduate
+
 - Workshops
     - [Using PsychoPy2 for linguistic research][psychopy]
 
