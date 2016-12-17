@@ -1,0 +1,37 @@
+---
+title: "Projects"
+---
+
+
+<a href="http://www.jvcasillas.com/lingStuff/index.html">
+<p>lingStuff</p>
+<img id='rcorners' width=100% style="border:1px solid black;" src='./code/thumbnails/lingstuff.png'></img>
+</a>
+
+</br>
+
+<a href="./code/projects/R-snippets.html">
+<p>R-Snippets</p>
+<img id='rcorners' width=100% style="border:1px solid black;" src='./code/thumbnails/lm.png'></img>
+</a>
+
+</br>
+
+<a href="./code/projects/lingreference.html">
+<p>lingreference.org</p>
+<img id='rcorners' width=100% style="border:1px solid black;" src='./code/thumbnails/lingref.png'></img>
+</a>
+
+</br>
+
+<a href="./code/projects/latex-ipa.html">
+<p>LaTeX-IPA</p>
+<img id='rcorners' width=100% style="border:1px solid black;" src='./code/thumbnails/vowel_space.png'></img>
+</a>
+
+
+
+
+
+
+

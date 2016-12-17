@@ -1,7 +1,14 @@
 ---
 title: "LaTeX-IPA"
-config: "../config.yml"
-disqus: True
+output:
+  html_document:
+    theme: readable
+    highlight: textmate
+    include:
+      before_body: ../../site_libs/includes/before_body.html
+      in_header: ../../site_libs/includes/in_header.html
+      after_body: ../../site_libs/includes/after_body.html
+    css: ../../site_libs/assets/css/style.css
 ---
 
 
@@ -13,15 +20,13 @@ I made this repository to simplify the process of using IPA in LaTeX. It is mere
 Consonants are labeled in the following way:  
 
 - voicing -> point of articulation -> mode of articulation  
-
-    Ex. voiceless-bilabial-aprox.sublime-snippet = [β]
+Ex. voiceless-bilabial-aprox.sublime-snippet = [&beta;]
 
 
 Vowels are labeled in the following way:  
 
 - vowel -> tense/lax -> height -> frontedness -> rounding  
-
-    Ex. vowel-tense-high-front-unrounded.sublime-snippet = [i]
+Ex. vowel-tense-high-front-unrounded.sublime-snippet = [i]
 
 
 ### Tab triggers

@@ -1,9 +1,19 @@
 ---
-title: "Spanish pronunciation workshop for beginners"
-config: "../config.yml"
-disqus: True
+title: ""
+output:
+  html_document:
+    theme: spacelab
+    highlight: textmate
+    include:
+      before_body: ../../site_libs/includes/before_body.html
+      in_header: ../../site_libs/includes/in_header.html
+      after_body: ../../site_libs/includes/after_body.html
+    css: ../../site_libs/assets/css/style.css
 ---
 
+</br></br></br>
+
+## Spanish pronunciation workshop for beginners
 
 **Clínica de pronunciación**  
 

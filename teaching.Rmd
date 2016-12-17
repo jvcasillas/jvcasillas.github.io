@@ -1,0 +1,64 @@
+---
+title: "Teaching"
+---
+
+
+Here are some of the classes I have taught or am currently teaching, as well as 
+information about some invited talks and specialized workshops I have done. Feel 
+free to contact me if you would like information about any of them. 
+
+#### Undergraduate
+
+- Beginning Spanish
+- Elementary Spanish
+- Intermediate Spanish
+- Introduction to the study of language
+- Introduction to Spanish Phonetics and Phonology
+- Introduction to Spanish Phonetics and Phonology for the Heritage Speaker
+- Culture and composition for Heritage Speakers
+- Introduction to Hispanic Linguistics
+- History of the Spanish Language
+- Applied Linguistics
+- High Beginner Spanish in Context (Middlebury College)
+
+
+#### Graduate
+
+- Spanish phonetics/phonology
+- The phonetics/phonology of bilingualism
+- Research methods
+
+
+#### Workshops
+
+- [Spanish pronunciation workshop for beginners][clinica]
+- [Using PsychoPy2 for linguistic research][psychopy]
+- Introduction to Praat
+- Introduction to R
+- LaTeX for linguists
+
+
+#### Mentoring of doctoral students
+
+- Eileen Blum (Member of QP committee, Linguistics)
+- Cristina Lozano (Member of QP committee, Spanish)
+
+<!-- 
+[101]: span_101/index.html
+[102]: span_102/index.html
+[251]: span_251/index.html
+[340]: span_340/index.html
+[343]: span_343/index.html
+[452]: span_452/index.html
+[455]: span_455/index.html
+[457]: span_457/index.html
+[1.5]: span_3151/index.html 
+-->
+
+[clinica]: http://www.jvcasillas.com/teaching/span_clinica/index.html
+[psychopy]: http://www.jvcasillas.com/teaching/psychopy/index.html
+
+
+
+
+

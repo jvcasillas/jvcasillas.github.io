@@ -1,32 +1,23 @@
 ---
-framework: lanyon
-onefile: False
-mode: selfcontained
+title: "Joseph V. Casillas, PhD"
 ---
 
-<audio id="welcome">
-    <source src="{{ page.url.framework }}/assets/sounds/welcome_robot.wav" type="audio/mpeg">
-    <source src="{{ page.url.framework }}/assets/sounds/welcome_robot.ogg" type="audio/ogg">
-</audio>
+<style>
+h1 {
+  opacity: 0.0;
+}
+</style>
 
+<audio id="sound1" src="./site_libs/assets/wav/welcome_robot.wav" preload="auto"></audio>
+
+</br>
 
 <div align="center">
-	<a href="#" onClick="document.getElementById('welcome').play(); return false;">
-		<img width="80%" src="{{ page.url.framework }}/assets/images/tracks100a.png" alt="welcome image">
-	</a>
+<a href="#" onclick="document.getElementById('sound1').play();">
+ <img width="50%" src="./site_libs/assets/img/brain2.png" alt="welcome image">
+</a>
 </div>
 
-<!-- <img width="100%" class="img-thumbnail" src="{{ page.url.framework }}/assets/images/tracks100a.png" alt="welcome image"> -->
 
 
 
-
-<style>
-  .lead {
-    margin-bottom: 20px;
-    font-size: 1.1rem;
-    font-weight: 200;
-    line-height: 1.4;
-    text-align: justify;
-  }
-</style>

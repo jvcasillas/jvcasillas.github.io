@@ -1,6 +1,0 @@
-framework: lanyon
-mode: selfcontained
-hitheme: monokai
-url: {lib: ../../libraries}
-onefile: False
-

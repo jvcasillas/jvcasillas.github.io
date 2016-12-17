@@ -1,0 +1,126 @@
+---
+title: "Research"
+---
+
+
+<!-- 
+Updating the bib:
+    - must update by hand the file publicationsCVclean.bib in mybib repo
+    - once updated, below code downloads current version and loads into R
+    - must reference relevant article in relevant pane (publications or presentations)
+Afterwards, update the following:
+    - Your CV
+    - Research Gate
+    - Academia EDU
+    - Google scholar
+-->
+
+
+```{r, eval=TRUE, echo=FALSE, cache=FALSE}
+library(RefManageR)
+
+fileUrl <- "https://raw.githubusercontent.com/jvcasill/mybib/master/publicationsCVclean.bib"
+download.file(fileUrl, destfile = "./site_libs/assets/bib/publicationsCVclean.bib", method = "curl")
+# list.files("./data")
+
+bib <- ReadBib("./site_libs/assets/bib/publicationsCVclean.bib", check = FALSE)
+```
+
+
+
+<p></p>
+<div class="tabbable">
+<ul class="nav nav-tabs nav-justified" id="myTab">
+<li class="active">
+  <a href="#overview" data-toggle="tab">Overview</a>
+</li>
+<li class="">
+  <a href="#projects" data-toggle="tab">Projects</a>
+</li>
+<li class="">
+  <a href="#publications" data-toggle="tab">Publications</a>
+</li>
+<li class="">
+  <a href="#presentations" data-toggle="tab">Presentations</a>
+</li>
+</ul>
+
+ <div class="tab-content">
+
+```{r, child='./research/overview.Rmd'}
+```
+
+```{r, child='./research/projects.Rmd'}
+```
+
+```{r, child='./research/publications.Rmd'}
+```
+
+```{r, child='./research/presentations.Rmd'}
+```
+
+ </div> <!-- END TAB CONTENT -->
+</div> <!-- END tabbable -->
+
+
+<div align="center">
+</br></br></br>
+<a href="https://scholar.google.com/citations?user=6sd7cVAAAAAJ&hl=en"><i class="ai ai-google-scholar ai-2x"></i></a>
+<img width="25" src="./site_libs/assets/img/fill.png">
+<a href="https://www.researchgate.net/profile/Joseph_Casillas"><i class="ai ai-researchgate ai-2x"></i></a>
+<img width="25" src="./site_libs/assets/img/fill.png">
+<a href="https://rutgers.academia.edu/JosephCasillas"><i class="ai ai-academia ai-2x"></i></a>
+</div>
+
+
+
+
+
+<!-- CSS for times font -->
+<style>
+.tempTimes {
+    font-family: arial;
+    font-size: 0.9em;
+    color: #505050;
+}
+
+.minip {
+  margin-top: 0;
+  margin-bottom: 1rem;
+  text-align: justify;
+  font-size: .75rem;
+}
+</style>
+
+
+
+
+
+<!-- link to add academic icons -->
+<link rel="stylesheet" href="./site_libs/academicons-1.7.0/css/academicons.css"/>
+
+<!-- javascript for tabs -->
+<script type="text/javascript" language="JavaScript">
+  function HideContent(d) {
+  document.getElementById(d).style.display = "none";
+  }
+  function ShowContent(d) {
+  document.getElementById(d).style.display = "block";
+  }
+  function ReverseDisplay(d) {
+  if(document.getElementById(d).style.display == "none") { document.getElementById(d).style.display = "block"; }
+  else { document.getElementById(d).style.display = "none"; }
+  }
+</script>
+
+<!-- javascript for link drowdowns -->
+<script type="text/javascript">  
+        $(document).ready(function () {  
+            $('.dropdown-toggle').dropdown();  
+        });  
+</script>
+
+
+
+
+

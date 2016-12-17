@@ -1,0 +1,48 @@
+---
+title: "Bio"
+---
+
+<div class="row">
+ <div class="col-md-7">
+  <h4>Joseph V. Casillas, PhD</h4>
+  <h5bio align="right">Assistant Professor</br>
+  Department of Spanish and Portuguese</br>
+  Rutgers University</h5bio>
+
+  <pbio align="justify">
+  I am an Assistant Professor of Spanish Linguistics in the Spanish and Portuguese Department at Rutgers University, New Brunswick. My main interests are in phonetics, laboratory phonology, and second language acquisition. A principle aim of my research is to better understand the relationship between language use and sound representation in the mind, as well as the structure of sound systems in human languages. Most of my research is conducted on bilinguals of varying proficiency and linguistic experience. Some of my recent projects have focused on native phonetic experience and its influence on L2 speech production, perception and lexical processing. Though my main passions are centered around coding, statistical analysis, data visualization, and reproducible research, I also enjoy playing music, Casio watches and anything related to el andalú.
+  </pbio>
+ </div>
+
+ <div class="col-md-5">
+  </br></br></br>
+  <div class="thumbnail">
+  <img src="./site_libs/assets/img/pups.jpg">
+  </div>
+ </div>
+</div>
+
+
+
+<style>
+h5bio {
+	color: #5f6a72;
+	text-align: right;
+}
+
+pbio {
+	font-size: 13px !important;
+	color: black;
+}
+</style>
+
+
+<!-- 
+<p align="justify">
+After studying Psychology, I moved to Cádiz, Spain, where I taught English as a second language at a variety of different levels for around six years. I completed my M.A. in Spanish Philology with a concentration in linguistics at Middlebury College where I have been a student in both the Spanish and French Schools, as well as a bilingual assistant in the Spanish School, and more recently as faculty in the undergraduate Spanish program. I am currently a doctoral candidate at the University of Arizona where I teach undergraduate Spanish and Linguistics. My main interests are in phonetics/phonology, second language acquisition, and linguistic attitudes. My recent research has focused on native phonetic experience and its influence on L2 speech production, perception and lexical processing. I enjoy playing music, new technology, Casio watches and anything that has to do with el andalú.
+</p> 
+-->
+
+
+
+

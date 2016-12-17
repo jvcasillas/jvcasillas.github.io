@@ -1,7 +1,14 @@
 ---
 title: "R-snippets"
-config: "../config.yml"
-disqus: True
+output:
+  html_document:
+    theme: readable
+    highlight: tango
+    include:
+      before_body: ../../site_libs/includes/before_body.html
+      in_header: ../../site_libs/includes/in_header.html
+      after_body: ../../site_libs/includes/after_body.html
+    css: ../../site_libs/assets/css/style.css
 ---
 
 
@@ -16,22 +23,24 @@ disqus: True
 This repository is a collection of snippets that I use in [SublimeText] [SublimeText] for doing statistical analysis in [R][R]. The goal is straightforward: document the code that I use most often while doing linguistic research and make it readily available (and understandable) to other linguists. If you are interested in helping see the github [repository](https://github.com/jvcasill/R-snippets). To install R-snippets see the [package control][package control R-snippets] page. To use a snippet, type the trigger and hit the tab key. For example, typing <code>lm</code> brings up the following window:  
 
 <div  class="thumbnail">
-	<img width="100%" src="assets/lm.png" alt="lm image">
+<img width="100%" src="assets/lm.png" alt="lm image">
 </div>
 </br>
 
 Selecting ```Random slope and random intercept model``` expands to...
 
-	# load lme4 for mixed models
-	library(lme4)
+```{r, eval=FALSE}
+# load lme4 for mixed models
+library(lme4)
 
-	# random intercept and random slope model
-	modelName = lmer(DV ~ fixedFactor1 +* fixedFactor2 + (1 + randomSlope|randomInt), data=df)
-	modelName
+# random intercept and random slope model
+modelName = lmer(DV ~ fixedFactor1 +* fixedFactor2 + (1 + randomSlope|randomInt), data=df)
+modelName
 
-	hist(residuals(modelName))
-	qqnorm(residuals(modelName))
-	qqline(residuals(modelName))
+hist(residuals(modelName))
+qqnorm(residuals(modelName))
+qqline(residuals(modelName))
+```
 
 Main triggers:  
 

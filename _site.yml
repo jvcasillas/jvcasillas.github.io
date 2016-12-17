@@ -1,0 +1,51 @@
+name: "www.jvcasillas.com"
+output_dir: "."
+navbar:
+  title: ""
+  left:
+    - icon: glyphicon-menu-hamburger
+      menu:
+        - text: "Joseph V. Casillas, PhD"
+        - text: "Assistant Professor"
+        - text: "Rutgers University"
+        - text: "--------------"
+        - text: "home"
+          icon: fa-home
+          href: index.html
+        - text: "bio"
+          icon: fa-puzzle-piece
+          href: bio.html
+        - text: "research"
+          icon: fa-search
+          href: research.html
+        - text: "code"
+          icon: fa-code
+          href: code.html
+        - text: "teaching"
+          icon: glyphicon-apple
+          href: teaching.html
+        - text: "cv"
+          icon: fa-file-text-o
+          href: cv.html
+        - text: "blog"
+          icon: fa-pencil
+          href: blog.html
+  right: 
+    - icon: glyphicon-envelope
+      href: mailto:joseph.casillas@rutgers.edu
+    - icon: fa-youtube
+      href: http://www.youtube.com/jvcasill
+    - icon: fa-twitter
+      href: http://twitter.com/jvcasill/
+    - icon: fa-github
+      href: http://github.com/jvcasill/
+
+output:
+  html_document:
+    theme: readable
+    highlight: textmate
+    css: site_libs/assets/css/style.css
+    include:
+      in_header: site_libs/includes/favicon.html
+      after_body: site_libs/includes/gAnalytics.html
+

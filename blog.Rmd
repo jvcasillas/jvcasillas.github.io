@@ -1,0 +1,20 @@
+---
+title: "Blog"
+---
+
+```{r echo = F, results = 'asis', cache=FALSE}
+posts = dir('./blog', full = TRUE)
+linkName <- gsub("_", " ", posts)
+linkName <- gsub("(^|[[:space:]])([[:alpha:]])", "\\1\\U\\2", linkName, perl = TRUE)
+library(stringr)
+substr(linkName, 18, 18) <- "&"
+linkName <- gsub("&", " &raquo; ", linkName)
+date <- substr(linkName, 8, 26)
+postName <- substr(linkName, 27, 70)
+
+links = paste0("- ", date, "[", basename(postName), "]", "(", posts, "/index.html)")
+length <- length(posts) - 4
+writeLines(links[rev(seq(length))])
+```
+
+

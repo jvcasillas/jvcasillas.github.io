@@ -10,3 +10,12 @@ Personal/academic website
 [poole/lanyon]: https://github.com/poole/lanyon
 [poirot]: https://github.com/ramnathv/poirot
 [Rmarkdown]: https://github.com/rstudio/rmarkdown
+
+
+- Research
+	- include descriptions of projects
+	- include relevant links to articles, slides
+- Bio
+	- add photo
+- Main
+	- new images?

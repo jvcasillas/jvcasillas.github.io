@@ -1,5 +1,0 @@
-framework: lanyon
-mode: selfcontained
-hitheme: googlecode
-url: {lib: ../../libraries}
-onefile: False
