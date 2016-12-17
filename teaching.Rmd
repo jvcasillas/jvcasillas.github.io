@@ -38,22 +38,6 @@ free to contact me if you would like information about any of them.
 - LaTeX for linguists
 
 
-#### Mentoring of doctoral students
-
-- Eileen Blum (Member of QP committee, Linguistics)
-- Cristina Lozano (Member of QP committee, Spanish)
-
-<!-- 
-[101]: span_101/index.html
-[102]: span_102/index.html
-[251]: span_251/index.html
-[340]: span_340/index.html
-[343]: span_343/index.html
-[452]: span_452/index.html
-[455]: span_455/index.html
-[457]: span_457/index.html
-[1.5]: span_3151/index.html 
--->
 
 [clinica]: http://www.jvcasillas.com/teaching/span_clinica/index.html
 [psychopy]: http://www.jvcasillas.com/teaching/psychopy/index.html
