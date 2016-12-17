@@ -10,11 +10,9 @@ h1 {
 
 <audio id="sound1" src="./site_libs/assets/wav/welcome_robot.wav" preload="auto"></audio>
 
-</br>
-
 <div align="center">
 <a href="#" onclick="document.getElementById('sound1').play();">
- <img width="50%" src="./site_libs/assets/img/brain2.png" alt="welcome image">
+ <img width="60%" src="./site_libs/assets/img/brain2.png" alt="welcome image">
 </a>
 </div>
 
