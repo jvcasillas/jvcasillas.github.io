@@ -15,7 +15,7 @@ title: "Bio"
  </div>
 
  <div class="col-md-5">
-  </br></br></br>
+  </br>
   <div class="thumbnail">
   <img src="./site_libs/assets/img/pups.jpg">
   </div>
