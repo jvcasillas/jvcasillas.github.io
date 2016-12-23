@@ -38,8 +38,11 @@ modes. (with Miquel Simonet)
 
 <div id="coronalStops" style="display:none;margin-left:3em;text-indent:0em">
 <p class="minip">
-Production of coronal stops in Spanish-English bilinguals: Acoustic evidence 
-for language-specific places of articulation. (with Miquel Simonet and Yamile Díaz)
+This project has explored the acoustic characteristics of coronal stops in 
+Spanish and English ([link](https://www.researchgate.net/publication/280840068_ACOUSTICS_OF_SPANISH_AND_ENGLISH_CORONAL_STOPS)), the effects of stress on VOT in the 
+Spanish/English monolinguals and bilinguals ([link](https://www.researchgate.net/publication/272090285_The_effects_of_stressaccent_on_VOT_depend_on_language_%28English_Spanish%29_consonant_%28d_t%29_and_linguistic_experience_%28monolinguals_bilinguals%29)), as well as acoustic evidence for 
+language-specific places of articulation (in preparation). (with Miquel Simonet 
+and Yamile Díaz)
 </p>
 </div>
 
