@@ -6,7 +6,11 @@
 
 <span class="tempTimes">
 
-```{r, results='asis', echo=FALSE, eval=TRUE}
+
+
+
+```{r, results='asis', echo=FALSE, eval=TRUE, cache=FALSE}
+print(bib[key = "CasillasHLS2016"], .opts = list(check.entries = FALSE, style = "html", bib.style = "authortitle"))
 print(bib[key = "SimonetCasillasOsborneSOUNDWORD2016"], .opts = list(check.entries = FALSE, style = "html", bib.style = "authortitle"))
 print(bib[key = "CasillasDiazSimonetHLS2015"], .opts = list(check.entries = FALSE, style = "html", bib.style = "authortitle"))
 print(bib[key = "BessettCasillasMartinezWSS72014conf"], .opts = list(check.entries = FALSE, style = "html", bib.style = "authortitle"))

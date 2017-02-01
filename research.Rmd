@@ -3,6 +3,7 @@ title: "Research"
 ---
 
 
+
 <!-- 
 Updating the bib:
     - must update by hand the file publicationsCVclean.bib in mybib repo
@@ -16,12 +17,14 @@ Afterwards, update the following:
 -->
 
 
+
 ```{r, eval=TRUE, echo=FALSE, cache=FALSE}
 library(RefManageR)
 
 fileUrl <- "https://raw.githubusercontent.com/jvcasill/mybib/master/publicationsCVclean.bib"
 download.file(fileUrl, destfile = "./site_libs/assets/bib/publicationsCVclean.bib", method = "curl")
 # list.files("./data")
+
 
 bib <- ReadBib("./site_libs/assets/bib/publicationsCVclean.bib", check = FALSE)
 ```
