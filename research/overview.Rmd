@@ -34,9 +34,6 @@ after limited exposure to adaptors ([JASA](http://scitation.aip.org/content/asa/
 - Language-specific perceptual normalization in adult second language 
 acquisition (Forthcoming)
 
-<div align='center'>
-<a class="twitter-timeline" data-width="300" data-height="300" data-theme="light" data-link-color="#a00" href="https://twitter.com/jvcasill"></a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
-</div>
 
 </div>
 
