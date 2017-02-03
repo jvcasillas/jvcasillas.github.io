@@ -2,11 +2,13 @@
 title: "Blog"
 ---
 
-
-</br>
+I use this space to post tutorials and ocassionaly blog about anything related 
+to data analysis. I also use twitter to curate information about linguistics, R, 
+reproducible research, data analysis/visualization, and related links.
 
 <div class="row">
- <div class="col-md-7">
+ <div class="col-md-6">
+
 
 ```{r echo = F, results = 'asis', cache=FALSE}
 posts = dir('./blog', full = TRUE)
@@ -26,10 +28,8 @@ writeLines(links[rev(seq(length))])
  </div>
 
 
- <div class="col-md-5">
+ <div class="col-md-6">
 
-<div align='center'>
-<a class="twitter-timeline" data-width="300" data-height="300" data-theme="light" data-link-color="#a00" href="https://twitter.com/jvcasill"></a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
-</div>
+<a class="twitter-timeline" data-width="350" data-height="300" data-theme="light" data-link-color="#a00" href="https://twitter.com/jvcasill"></a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 </div>
