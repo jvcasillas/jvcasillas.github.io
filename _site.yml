@@ -1,23 +1,32 @@
 name: "www.jvcasillas.com"
 output_dir: "."
 navbar:
-  title: "Joseph V. Casillas, PhD"
+  title: ""
   left: 
-    - text: "about"
-      icon: fa-puzzle-piece
-      href: about.html
-    - text: "research"
-      icon: fa-search
-      href: research.html
-    - text: "code"
-      icon: fa-code
-      href: code.html
-    - text: "teaching"
-      icon: glyphicon-apple
-      href: teaching.html
-    - text: "blog"
-      icon: fa-pencil
-      href: blog.html
+    - icon: glyphicon-menu-hamburger
+      menu:
+        - text: "Joseph V. Casillas, PhD"
+        - text: "Assistant Professor"
+        - text: "Rutgers University"
+        - text: "--------------"
+        - text: "home"
+          icon: fa-home
+          href: index.html
+        - text: "about"
+          icon: fa-puzzle-piece
+          href: about.html
+        - text: "research"
+          icon: fa-search
+          href: research.html
+        - text: "code"
+          icon: fa-code
+          href: code.html
+        - text: "teaching"
+          icon: glyphicon-apple
+          href: teaching.html
+        - text: "blog"
+          icon: fa-pencil
+          href: blog.html
   right: 
     - icon: glyphicon-envelope
       href: mailto:joseph.casillas@rutgers.edu
