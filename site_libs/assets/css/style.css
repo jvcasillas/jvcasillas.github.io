@@ -72,6 +72,12 @@ h5bio {
   text-align: right;
 }
 
+/* unordered list justify left */
+ul {
+  text-align: left;
+}
+
+
 
 /*
 Add rounded corners for project images

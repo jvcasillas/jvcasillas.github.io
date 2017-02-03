@@ -21,21 +21,24 @@ h1 {
 
  <div class="col-md-5">
 
-## News
- 
+
 ### Recent/Upcoming talks
  
-- HLS
-- SSHL
-- LSRL
+- HLS (Oct 2016)
+- SSHL (Feb 2017)
+- LSRL (April 2017)
  
-### Recent publications
+### Recent/Upcoming publications
  
-- JASA
-- L2 something
+- Lexically driven selective adaptation by ambiguous auditory stimuli occurs 
+after limited exposure to adaptors ([JASA](http://scitation.aip.org/content/asa/journal/jasa/139/5/10.1121/1.4951704))
+- Language-specific perceptual normalization in adult second language 
+acquisition (Forthcoming)
 
-### <a class="twitter-timeline" href="https://twitter.com/jvcasill">Tweets by jvcasill</a>
- <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+<div align='center'>
+<a class="twitter-timeline" data-width="300" data-height="200" data-theme="light" data-link-color="#a00" href="https://twitter.com/jvcasill">Tweets by jvcasill</a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+</div>
+
  </div>
 </div>
 
