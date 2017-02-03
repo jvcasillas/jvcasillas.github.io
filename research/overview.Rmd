@@ -19,6 +19,24 @@ more about my research projects. You can visit my academic profiles on
 researchgate, academia.edu, and google scholar by clicking on the icons below.
 </p>
 
+#### News
+
+##### Recent/Upcoming talks
+ 
+- HLS (Oct 2016)
+- SSHL (Feb 2017)
+- LSRL (April 2017)
+ 
+##### Recent/Upcoming publications
+ 
+- Lexically driven selective adaptation by ambiguous auditory stimuli occurs 
+after limited exposure to adaptors ([JASA](http://scitation.aip.org/content/asa/journal/jasa/139/5/10.1121/1.4951704))
+- Language-specific perceptual normalization in adult second language 
+acquisition (Forthcoming)
+
+<div align='center'>
+<a class="twitter-timeline" data-width="300" data-height="300" data-theme="light" data-link-color="#a00" href="https://twitter.com/jvcasill"></a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+</div>
 
 </div>
 
