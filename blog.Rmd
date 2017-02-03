@@ -25,11 +25,15 @@ length <- length(posts) - 4
 writeLines(links[rev(seq(length))])
 ```
 
+</br></br>
+
  </div>
 
 
  <div class="col-md-6">
 
 <a class="twitter-timeline" data-width="350" data-height="300" data-theme="light" data-link-color="#a00" href="https://twitter.com/jvcasill"></a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+</br></br>
 
 </div>
