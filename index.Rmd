@@ -10,13 +10,34 @@ h1 {
 
 <audio id="sound1" src="./site_libs/assets/wav/welcome_robot.wav" preload="auto"></audio>
 
-<div align="center">
-<a href="#" onclick="document.getElementById('sound1').play();">
+<div class="row">
+ <div class="col-md-7">
+ <div align='center'>
+ <a href="#" onclick="document.getElementById('sound1').play();">
  <img width="60%" src="./site_libs/assets/img/brain2.png" alt="welcome image">
-</a>
-</div>
+ </a>
+ </div>
+ </div>
 
-<a class="twitter-timeline" href="https://twitter.com/jvcasill">Tweets by jvcasill</a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+ <div class="col-md-5">
+
+## News
+ 
+### Recent/Upcoming talks
+ 
+- HLS
+- SSHL
+- LSRL
+ 
+### Recent publications
+ 
+- JASA
+- L2 something
+
+### <a class="twitter-timeline" href="https://twitter.com/jvcasill">Tweets by jvcasill</a>
+ <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+ </div>
+</div>
 
 
 
