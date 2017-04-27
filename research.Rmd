@@ -21,7 +21,7 @@ Afterwards, update the following:
 ```{r, eval=TRUE, echo=FALSE, cache=FALSE}
 library(RefManageR)
 
-fileUrl <- "https://raw.githubusercontent.com/jvcasill/mybib/master/publicationsCVclean.bib"
+fileUrl <- "https://raw.githubusercontent.com/jvcasillas/mybib/master/publicationsCVclean.bib"
 download.file(fileUrl, destfile = "./site_libs/assets/bib/publicationsCVclean.bib", method = "curl")
 # list.files("./data")
 
