@@ -12,7 +12,7 @@
 
 
 # Set WD to folder with blog posts
-setwd("~/web/jvcasill.github.io/blog")
+setwd("~/web/jvcasillas.github.io/blog")
 
 # Get list of entry folders
 temp <- list.files(path = ".", full.names = TRUE, pattern = "")

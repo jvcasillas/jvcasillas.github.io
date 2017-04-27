@@ -14,13 +14,13 @@ output:
 
 <p></p>
 
-<iframe src="http://ghbtns.com/github-btn.html?user=jvcasill&repo=R-snippets&type=watch&count=true&size=large" height="30" width="170" frameborder="0" scrolling="0" style="width:130px; height: 30px;" allowTransparency="true"></iframe>
-<iframe src="http://ghbtns.com/github-btn.html?user=jvcasill&repo=R-snippets&type=fork&count=true&size=large" height="30" width="170" frameborder="0" scrolling="0" style="width:130px; height: 30px;" allowTransparency="true"></iframe>
-<iframe src="http://ghbtns.com/github-btn.html?user=jvcasill&type=follow&count=true&size=large" height="30" width="240" frameborder="0" scrolling="0" style="width:240px; height: 30px;" allowTransparency="true"></iframe>
+<iframe src="http://ghbtns.com/github-btn.html?user=jvcasillas&repo=R-snippets&type=watch&count=true&size=large" height="30" width="170" frameborder="0" scrolling="0" style="width:130px; height: 30px;" allowTransparency="true"></iframe>
+<iframe src="http://ghbtns.com/github-btn.html?user=jvcasillas&repo=R-snippets&type=fork&count=true&size=large" height="30" width="170" frameborder="0" scrolling="0" style="width:130px; height: 30px;" allowTransparency="true"></iframe>
+<iframe src="http://ghbtns.com/github-btn.html?user=jvcasillas&type=follow&count=true&size=large" height="30" width="240" frameborder="0" scrolling="0" style="width:240px; height: 30px;" allowTransparency="true"></iframe>
 
 <p></p>
 
-This repository is a collection of snippets that I use in [SublimeText] [SublimeText] for doing statistical analysis in [R][R]. The goal is straightforward: document the code that I use most often while doing linguistic research and make it readily available (and understandable) to other linguists. If you are interested in helping see the github [repository](https://github.com/jvcasill/R-snippets). To install R-snippets see the [package control][package control R-snippets] page. To use a snippet, type the trigger and hit the tab key. For example, typing <code>lm</code> brings up the following window:  
+This repository is a collection of snippets that I use in [SublimeText] [SublimeText] for doing statistical analysis in [R][R]. The goal is straightforward: document the code that I use most often while doing linguistic research and make it readily available (and understandable) to other linguists. If you are interested in helping see the github [repository](https://github.com/jvcasillas/R-snippets). To install R-snippets see the [package control][package control R-snippets] page. To use a snippet, type the trigger and hit the tab key. For example, typing <code>lm</code> brings up the following window:  
 
 <div  class="thumbnail">
 <img width="100%" src="assets/lm.png" alt="lm image">

@@ -12,7 +12,7 @@
 
 
 # Set WD to folder with blog posts
-setwd("~/web/jvcasill.github.io/code/projects")
+setwd("~/web/jvcasillas.github.io/code/projects")
 
 # Get list of all .Rmd files in projects directory
 my_rmds <- list.files(path = ".", full.names = TRUE, pattern = ".Rmd")
