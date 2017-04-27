@@ -11,7 +11,6 @@ output:
     css: ../../site_libs/assets/css/style.css
 ---
 
-
 <p></p>
 
 <iframe src="http://ghbtns.com/github-btn.html?user=jvcasillas&repo=R-snippets&type=watch&count=true&size=large" height="30" width="170" frameborder="0" scrolling="0" style="width:130px; height: 30px;" allowTransparency="true"></iframe>
