@@ -3,31 +3,24 @@ output_dir: "."
 navbar:
   title: ""
   left: 
-    - icon: glyphicon-menu-hamburger
-      menu:
-        - text: "Joseph V. Casillas, PhD"
-        - text: "Assistant Professor"
-        - text: "Rutgers University"
-        - text: "--------------"
-        - text: "home"
-          icon: fa-home
-          href: index.html
-        - text: "about"
-          icon: fa-puzzle-piece
-          href: about.html
-        - text: "research"
-          icon: fa-search
-          href: research.html
-        - text: "code"
-          icon: fa-code
-          href: code.html
-        - text: "teaching"
-          icon: glyphicon-apple
-          href: teaching.html
-        - text: "blog"
-          icon: fa-pencil
-          href: blog.html
-  right: 
+    - text: "home"
+      icon: fa-home
+      href: index.html
+    - text: "about"
+      icon: fa-puzzle-piece
+      href: about.html
+    - text: "research"
+      icon: fa-search
+      href: research.html
+    - text: "code"
+      icon: fa-code
+      href: code.html
+    - text: "teaching"
+      icon: glyphicon-apple
+      href: teaching.html
+  right:
+    - icon: fa-pencil
+      href: blog.html
     - icon: glyphicon-envelope
       href: mailto:joseph.casillas@rutgers.edu
     - icon: fa-youtube
@@ -36,11 +29,12 @@ navbar:
       href: http://twitter.com/jvcasill/
     - icon: fa-github
       href: http://github.com/jvcasillas/
-
 output:
   html_document:
     theme: readable
     highlight: textmate
+    toc_float:
+      collapsed: false
     css: site_libs/assets/css/style.css
     include:
       in_header: site_libs/includes/favicon.html
