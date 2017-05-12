@@ -32,7 +32,7 @@ print(bib[key = "LlmopartCasillasJASAEL2016"], .opts = list(check.entries = FALS
 
 <div id="LlmopartCasillasJASAEL2016Bib" style="display:none" class="minip">
 
-```{r, echo=FALSE}
+```{r, echo=FALSE, comment=''}
 toBiblatex(bib[key = "LlmopartCasillasJASAEL2016"], .opts = list(style = "html"))
 ```
 
@@ -70,7 +70,7 @@ print(bib[key = "CasillasSimonetSLR2016"], .opts = list(check.entries = FALSE, s
 
 <div id="CasillasSimonetSLR2016bib" style="display:none" class="minip">
 
-```{r, echo=FALSE}
+```{r, echo=FALSE, comment=''}
 toBiblatex(bib[key = "CasillasSimonetSLR2016"], .opts = list(style = "html"))
 ```
 
@@ -108,7 +108,7 @@ print(bib[key = "CasillasPhonetica2015"], .opts = list(check.entries = FALSE, st
 
 <div id="CasillasPhonetica2015bib" style="display:none" class="minip">
 
-```{r, echo=FALSE, eval=TRUE}
+```{r, echo=FALSE, eval=TRUE, comment=''}
 toBiblatex(bib[key = "CasillasPhonetica2015"], .opts = list(style = "html"))
 ```
 
@@ -149,7 +149,7 @@ print(bib[key = "CasillasDiazSimonetICPhS2015article"], .opts = list(check.entri
 
 <div id="CasillasDiazSimonetICPhS2015bib" style="display:none" class="minip">
 
-```{r, echo=FALSE}
+```{r, echo=FALSE, comment=''}
 toBiblatex(bib[key = "CasillasDiazSimonetICPhS2015article"], .opts = list(style = "html"))
 ```
 
@@ -175,7 +175,7 @@ print(bib[key = "SimonetCasillasDiazSP72014article"], .opts = list(check.entries
 
 <div id="SimonetCasillasDiazSP72014bib" style="display:none" class="minip">
 
-```{r, echo=FALSE}
+```{r, echo=FALSE, comment=''}
 toBiblatex(bib[key = "SimonetCasillasDiazSP72014article"], .opts = list(style = "html"))
 ```
 
@@ -204,7 +204,7 @@ print(bib[key = "CasillasBessettDFTable2013"], .opts = list(check.entries = FALS
 
 <div id="CasillasBessettDFTable2013Bib" style="display:none" class="minip">
 
-```{r, echo=FALSE, eval=TRUE}
+```{r, echo=FALSE, eval=TRUE, comment=''}
 toBiblatex(bib[key = "CasillasBessettDFTable2013"])
 ```
 </div>
@@ -236,7 +236,7 @@ print(bib[key = "CasillasWSS62013article"], .opts = list(check.entries = FALSE, 
 
 <div id="CasillasWSS62013Bib" style="display:none" class="minip">
 
-```{r, echo=FALSE, eval=TRUE}
+```{r, echo=FALSE, eval=TRUE, comment=''}
 toBiblatex(bib[key = "CasillasWSS62013article"])
 ```
 </div>
@@ -261,7 +261,7 @@ print(bib[key = "Casillas2012divergencias"], .opts = list(check.entries = FALSE,
 
 <div id="Casillas2012Bib" style="display:none" class="minip">
 
-```{r, echo=FALSE, eval=TRUE}
+```{r, echo=FALSE, eval=TRUE, comment=''}
 toBiblatex(bib[key = "Casillas2012divergencias"])
 ```
 </div>
@@ -281,7 +281,7 @@ print(bib[key = "Casillas2010gaceta"], .opts = list(check.entries = FALSE, style
 
 <div id="Casillas2010Bib" style="display:none" class="minip">
 
-```{r, echo=FALSE, eval=TRUE}
+```{r, echo=FALSE, eval=TRUE, comment=''}
 toBiblatex(bib[key = "Casillas2010gaceta"])
 ```
 </div>
@@ -305,7 +305,7 @@ print(bib[key = "Casillas2009gaceta"], .opts = list(check.entries = FALSE, style
 
 <div id="Casillas2009Bib" style="display:none" class="minip">
 
-```{r, echo=FALSE, eval=TRUE}
+```{r, echo=FALSE, eval=TRUE, comment=''}
 toBiblatex(bib[key = "Casillas2009gaceta"])
 ```
 </div>

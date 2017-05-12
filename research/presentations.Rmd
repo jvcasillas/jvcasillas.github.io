@@ -25,6 +25,12 @@ print(bib[key = "CasillasCONF2011symp"], .opts = list(check.entries = FALSE, sty
 print(bib[key = "CasillasCONF2011share"], .opts = list(check.entries = FALSE, style = "html", bib.style = "authortitle"))
 ```
 
+<h4>Unrefereed Presentations</h4>
+
+```{r, results='asis', echo=FALSE, eval=TRUE}
+print(bib[key = "SagarraCasillasLozanoEriksson2017poster"], .opts = list(check.entries = FALSE, style = "html", bib.style = "authortitle"))
+print(bib[key = "SagarraCasillasLozanoRodriguez2017poster"], .opts = list(check.entries = FALSE, style = "html", bib.style = "authortitle"))
+```
 
 <h4>Poster presentations</h4>
 
