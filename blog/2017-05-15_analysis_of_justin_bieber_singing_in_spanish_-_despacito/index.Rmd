@@ -20,14 +20,14 @@ output:
 <img height="10px" width="0px" src="../../site_libs/assets/img/fill.png">
 </div>
 
-In his new song "despacito", Justin Bieber sings in Spanish. Some articles 
-online criticize his pronunciation. I analyzed his realization of "p" and 
-"t" in Praat and find that, while is pronunciation is not perfect, it is pretty 
-good. I don't believe he commits the "errors" suggested in the article.
+In the remixed version of the song "despacito", Justin Bieber sings in Spanish. 
+Some articles online criticize his pronunciation. I analyzed his realization of 
+"p" and "t" in Praat and find that, while is pronunciation is not perfect, it is 
+pretty good. I don't believe he commits the "errors" suggested in the article.
 
 ### Overview
 
-I recently heard the song ```despacito``` by teen hero Justin Bieber (my wife 
+I recently heard the song ```despacito``` featuring teen hero Justin Bieber (my wife 
 mentioned to me that he sings in Spanish and my curiosity got the best of me). 
 I distinctly remember being rather impressed by how well he sang in Spanish, so I was 
 surprised when I saw [this](http://remezcla.com/music/j-balvin-nicky-jam-despacito-remix/)
