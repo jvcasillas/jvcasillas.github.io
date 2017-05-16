@@ -1,0 +1,62 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 250.17034013605442 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "sounding" 
+        xmin = 0 
+        xmax = 250.17034013605442 
+        intervals: size = 12 
+        intervals [1]:
+            xmin = 0 
+            xmax = 82.89562543580125 
+            text = "xxx" 
+        intervals [2]:
+            xmin = 82.89562543580125 
+            xmax = 86.58183673469388 
+            text = "despacito" 
+        intervals [3]:
+            xmin = 86.58183673469388 
+            xmax = 94.62601115665598 
+            text = "verse" 
+        intervals [4]:
+            xmin = 94.62601115665598 
+            xmax = 97.04046897577778 
+            text = "despacito" 
+        intervals [5]:
+            xmin = 97.04046897577778 
+            xmax = 106.14252237762946 
+            text = "verse" 
+        intervals [6]:
+            xmin = 106.14252237762946 
+            xmax = 170.94523355355767 
+            text = "xxx" 
+        intervals [7]:
+            xmin = 170.94523355355767 
+            xmax = 173.45243220210753 
+            text = "despacito" 
+        intervals [8]:
+            xmin = 173.45243220210753 
+            xmax = 182.31986524335431 
+            text = "verse" 
+        intervals [9]:
+            xmin = 182.31986524335431 
+            xmax = 184.6015873015873 
+            text = "despacito" 
+        intervals [10]:
+            xmin = 184.6015873015873 
+            xmax = 194.19030829382186 
+            text = "verse" 
+        intervals [11]:
+            xmin = 194.19030829382186 
+            xmax = 246.96305534913552 
+            text = "xxx" 
+        intervals [12]:
+            xmin = 246.96305534913552 
+            xmax = 250.17034013605442 
+            text = "despacito" 
