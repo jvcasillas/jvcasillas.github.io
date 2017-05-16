@@ -22,7 +22,7 @@ output:
 
 In the remixed version of the song "despacito", Justin Bieber sings in Spanish. 
 Some articles online criticize his pronunciation. I analyzed his realization of 
-"p" and "t" in Praat and find that, while is pronunciation is not perfect, it is 
+"p" and "t" in Praat and find that, while his pronunciation is not perfect, it is 
 pretty good. I don't believe he commits the "errors" suggested in the article.
 
 ### Overview
@@ -109,7 +109,7 @@ Now a characteristic of English voiceless stops ("p", "t", "k") is that in word 
 they are produced with aspiration and have long-lag VOT, usually around 60 ms. We refer to them 
 with IPA with: [p^h^, t^h^, k^h^]. Voiceless stops are different in Spanish, as they are not aspirated 
 and have short-lag VOT, usually from 0 to 25 ms. The "ito" of "despacito" is word internal, thus, 
-in theory, it should not be aspirated because it is normally realized as a flap, though in emphatic 
+in theory, for an English speaker it should not be aspirated because it is normally realized as a flap, though in emphatic 
 speech it could be realized as [t^h^]. Hopefully I have already convinced you that Biebs is not 
 flapping. So our next question is: what kind of VOT do his stops have? If they are short-lag, we can 
 conclude that they are more Spanish-like. If, on the other hand, they are aspirated, then they 
