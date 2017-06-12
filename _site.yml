@@ -35,7 +35,7 @@ output:
     highlight: textmate
     toc_float:
       collapsed: false
-    css: site_libs/assets/css/style.css
+    css: [site_libs/assets/css/style.css, site_libs/assets/css/st3.css, site_libs/assets/css/smooth-scrollbar.css]
     include:
       in_header: site_libs/includes/favicon.html
       after_body: site_libs/includes/gAnalytics.html

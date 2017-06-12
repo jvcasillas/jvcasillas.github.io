@@ -2,38 +2,68 @@
 title: "Blog"
 ---
 
-I use this space to post tutorials and ocassionaly blog about anything related 
-to data analysis. I also use twitter to curate information about linguistics, R, 
-reproducible research, data analysis/visualization, and related links.
+<div class="site-wrapper">
 
-<div class="row">
- <div class="col-md-6">
+I use this space to post tutorials and ocassionaly blog 
+about anything related to data analysis. I also use twitter 
+to curate information about linguistics, R, reproducible 
+research, data analysis/visualization, and related links.
 
 
-```{r echo = F, results = 'asis', cache=FALSE}
-posts = dir('./blog', full = TRUE)
+<ul class="posts">
+
+```{r echo = F, results = 'asis', cache=FALSE, eval=TRUE}
+link_open <- "<li itemscope itemtype=\"//schema.org/BlogPosting\">
+  <a href=\""
+link_close <- "\" itemprop=\"url\">"
+date_wrap <- "<div class=\"p-wrap\"><time datetime=\"\" itemprop=\"datePublished\">&lt;<span class=\"p-attr\">p</span> <span class=\"class-attr\">class</span>=<span class=\"date-attr\">\"date\"</span>><span class=\"baffle\">"
+title_wrap <- "</span>&lt;/<span class=\"p-attr\">p</span>> </time><p itemprop=\"name headline\">&lt;<span class=\"title-attr\">title</span>><span class=\"baffle\">"
+post_close <- "</span>&lt;/<span class=\"title-attr\">title</span>></p> </div> </a> </li>"
+
+
+
+posts <- dir('./blog', full = TRUE)
 linkName <- gsub("_", " ", posts)
 linkName <- gsub("(^|[[:space:]])([[:alpha:]])", "\\1\\U\\2", linkName, perl = TRUE)
 library(stringr)
-substr(linkName, 18, 18) <- "&"
-linkName <- gsub("&", " &raquo; ", linkName)
-date <- substr(linkName, 8, 26)
-postName <- substr(linkName, 27, 70)
-
-links = paste0("- ", date, "[", basename(postName), "]", "(", posts, "/index.html)")
+date <- substr(linkName, 8, 17)
+postName <- substr(linkName, 19, 80)
+link <- paste0(link_open, 
+               posts, 
+               "/index.html", 
+               link_close, 
+               date_wrap, 
+               date, 
+               title_wrap, 
+               postName, 
+               post_close)
 length <- length(posts) - 4
-writeLines(links[rev(seq(length))])
+writeLines(link[rev(seq(length))])
 ```
 
-</br></br>
+</ul>
 
- </div>
+</br></br></br></br>
+</br></br></br></br>
 
-
- <div class="col-md-6">
 
 <a class="twitter-timeline" data-width="350" data-height="300" data-theme="light" data-link-color="#a00" href="https://twitter.com/jvcasill"></a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-</br></br>
+
+</br></br></br></br>
+</br></br></br></br>
 
 </div>
+
+
+
+
+<style>
+body {
+  background-color: #272822;
+  color: #fff;
+}
+
+</style>
+
+
