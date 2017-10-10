@@ -1,0 +1,104 @@
+
+
+<!-- START TAB 2 -->
+<div class="tab-pane fade" id="projects">
+
+### Current Projects
+
+- <h5bio>Longitudinal development of fine-phonetic detail in late learners</h5bio> 
+<a href="javascript:ReverseDisplay('longitudinalDevelopment')">(Info)</a>
+
+<div id="longitudinalDevelopment" style="display:none;margin-left:3em;text-indent:0em">
+<p class="minip">
+This ongoing project explores L2 category formation and the relationship between 
+speech production and speech perception during the early stages of L2 acquisition. 
+The data were/are collected in a stateside immersion program over the course of a 
+summer. The participants complete a variety of tasks aimed at analyzing their 
+acquisition of various L2 segments, such as: stops, trills, laterals and vowels. 
+</p>
+</div>
+
+
+
+- <h5bio>Language-specific perceptual normalization in adult second language acquisition</h5bio>
+<a href="javascript:ReverseDisplay('languageSets')">(Info)</a>
+
+<div id="languageSets" style="display:none;margin-left:3em;text-indent:0em">
+<p class="minip">
+This project explores a long history of 'language set' experiments with the goal 
+of furthering our understanding of how bilinguals deal with the lack of invariance 
+in the speech signal, both between and within languages. The project has 
+implications for category formation and the development of bilingual language 
+modes. (with Miquel Simonet)
+</p>
+</div>
+
+
+
+- <h5bio>Production/perception of English/Spanish coronal stops</h5bio>
+<a href="javascript:ReverseDisplay('coronalStops')">(Info)</a>
+
+<div id="coronalStops" style="display:none;margin-left:3em;text-indent:0em">
+<p class="minip">
+This project has explored the acoustic characteristics of coronal stops in 
+Spanish and English ([link](https://www.researchgate.net/publication/280840068_ACOUSTICS_OF_SPANISH_AND_ENGLISH_CORONAL_STOPS)), the effects of stress on VOT in the 
+Spanish/English monolinguals and bilinguals ([link](https://www.researchgate.net/publication/272090285_The_effects_of_stressaccent_on_VOT_depend_on_language_%28English_Spanish%29_consonant_%28d_t%29_and_linguistic_experience_%28monolinguals_bilinguals%29)), as well as acoustic evidence for 
+language-specific places of articulation (in preparation). (with Miquel Simonet 
+and Yamile Díaz)
+</p>
+</div>
+
+
+
+- <h5bio>Semantic predictability and speech rate effects in second language speech 
+categorization</h5bio>
+<a href="javascript:ReverseDisplay('semanticPredictability')">(Info)</a>
+
+<div id="semanticPredictability" style="display:none;margin-left:3em;text-indent:0em">
+<p class="minip">
+More info coming soon. (with Miquel Simonet and Imanol Suárez Palma)
+</p>
+</div>
+
+
+
+- <h5bio>Morphosyntactic predictability</h5bio>
+<a href="javascript:ReverseDisplay('morphosyntacticPredictability')">(Info)</a>
+
+<div id="morphosyntacticPredictability" style="display:none;margin-left:3em;text-indent:0em">
+<p class="minip">
+More info coming soon. 
+</p>
+</div>
+
+
+
+
+
+
+
+
+### Previous Projects 
+
+- <h5bio>Production/perception of switch dominance speakers of English</h5bio>
+<a href="javascript:ReverseDisplay('switchDominance')">(Info)</a>
+
+<div id="switchDominance" style="display:none;margin-left:3em;text-indent:0em">
+<p class="minip">
+You can read about this project in my 2015 article published in [Phonetica](http://www.karger.com/Article/Abstract/431101), or in a 
+co-authored 2016 article that appeared in [Second Language Research](http://slr.sagepub.com/content/32/2/171.abstract). 
+</p>
+</div>
+
+- <h5bio>Selective adaptation</h5bio>
+<a href="javascript:ReverseDisplay('selectiveAdaptation')">(Info)</a>
+
+<div id="selectiveAdaptation" style="display:none;margin-left:3em;text-indent:0em">
+<p class="minip">
+This project was co-authored with Miquel Llompart García. You can read the 
+final publication in [JASA](http://scitation.aip.org/content/asa/journal/jasa/139/5/10.1121/1.4951704). 
+</p>
+</div>
+
+</div>
+
