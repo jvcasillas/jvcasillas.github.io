@@ -11,3 +11,4 @@ To add/fix:
 - blog post images
 - psychopy ws external link
 - clinica de pronunciacion external link
+- custom 404
