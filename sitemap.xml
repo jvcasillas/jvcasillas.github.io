@@ -5,8 +5,8 @@
     
     <url>
     
-      <loc>http://jvcasillas.github.io/talk/future-talk/</loc>
-      <lastmod>2017-11-15T00:00:00+00:00</lastmod>
+      <loc>http://jvcasillas.github.io/code/projects/</loc>
+      <lastmod>2016-04-20T00:00:00+00:00</lastmod>
     </url>
     
   
@@ -14,8 +14,8 @@
     
     <url>
     
-      <loc>http://jvcasillas.github.io/talk/next-talk/</loc>
-      <lastmod>2017-10-27T00:00:00+00:00</lastmod>
+      <loc>http://jvcasillas.github.io/teaching/teaching/</loc>
+      <lastmod>2016-04-20T00:00:00+00:00</lastmod>
     </url>
     
   
@@ -41,7 +41,25 @@
     
     <url>
     
+      <loc>http://jvcasillas.github.io/code/</loc>
+      <lastmod>2017-01-01T00:00:00-05:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>http://jvcasillas.github.io/post/</loc>
+      <lastmod>2017-01-01T00:00:00-05:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://jvcasillas.github.io/teaching/</loc>
       <lastmod>2017-01-01T00:00:00-05:00</lastmod>
     </url>
     
@@ -463,7 +481,7 @@
     
     <url>
     
-      <loc>http://jvcasillas.github.io/tags/linguistics/</loc>
+      <loc>http://jvcasillas.github.io/categories/linguistics/</loc>
       <lastmod>2017-05-15T21:13:14-05:00</lastmod>
       <priority>0</priority>
     </url>
@@ -473,7 +491,17 @@
     
     <url>
     
-      <loc>http://jvcasillas.github.io/categories/linguistics/</loc>
+      <loc>http://jvcasillas.github.io/tags/linguistics/</loc>
+      <lastmod>2016-04-27T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://jvcasillas.github.io/tags/linguistics/</loc>
       <lastmod>2017-05-15T21:13:14-05:00</lastmod>
       <priority>0</priority>
     </url>
@@ -553,8 +581,8 @@
     
     <url>
     
-      <loc>http://jvcasillas.github.io/tags/r/</loc>
-      <lastmod>2016-04-27T00:00:00+00:00</lastmod>
+      <loc>http://jvcasillas.github.io/categories/r/</loc>
+      <lastmod>2015-06-22T21:13:14-05:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -563,7 +591,17 @@
     
     <url>
     
-      <loc>http://jvcasillas.github.io/categories/r/</loc>
+      <loc>http://jvcasillas.github.io/tags/r/</loc>
+      <lastmod>2015-06-22T21:13:14-05:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://jvcasillas.github.io/tags/r/</loc>
       <lastmod>2015-06-22T21:13:14-05:00</lastmod>
       <priority>0</priority>
     </url>
@@ -583,7 +621,9 @@
     
     <url>
     
-      <loc>http://jvcasillas.github.io/research/</loc>
+      <loc>http://jvcasillas.github.io/tags/rstudio/</loc>
+      <lastmod>2014-01-07T21:13:14-05:00</lastmod>
+      <priority>0</priority>
     </url>
     
   
@@ -591,9 +631,7 @@
     
     <url>
     
-      <loc>http://jvcasillas.github.io/tags/rstudio/</loc>
-      <lastmod>2014-01-07T21:13:14-05:00</lastmod>
-      <priority>0</priority>
+      <loc>http://jvcasillas.github.io/research/</loc>
     </url>
     
   
