@@ -1,0 +1,58 @@
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+/* My Additions                  */
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+/* times font */
+.tempTimes {
+    font-family: arial;
+    font-size: 0.9em;
+    color: #505050;
+}
+
+/* not sure what this does */
+.minip {
+  margin-top: 0;
+  margin-bottom: 1rem;
+  text-align: justify;
+  font-size: .75rem;
+}
+
+/* rounded corners for images */
+#rcorners {
+    border-radius: 5px;
+    border: 2px #DCDCDC;
+    padding: 0px; 
+}
+
+/* ru red */
+RUred {
+  color: #cc0033;
+}
+
+/* ru grey */
+RUgrey {
+  color: #5f6a72;
+}
+
+/* Make bold syntax compile to red*/
+strong {
+  color: #cc0033 !important;
+  font-weight: normal !important;
+}
+
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+/* Adjustments to 'academic' css */
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+/* remove border from img tag */
+.article-style img,
+.article-style video {
+  box-shadow: 0px 0px 0px #edefed, -0px -0px 0px #edefed, 0px -0px 0px #edefed, -0px 0px 0px #edefed;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-left: 0;
+  padding-right: 0;
+}
