@@ -1,0 +1,10 @@
+---
+title: "Basic plotting in R"
+date: 2015-04-20T21:13:14-05:00
+categories: ["R"]
+tags: ["R", "data viz", "base", "lattice", "ggplot2"]
+summary: "Step-by-step examples for using the three main plotting systems in R."
+---
+
+
+<meta http-equiv="refresh" content="0;url= http://www.jvcasillas.com/base_lattice_ggplot/"/>

@@ -1,0 +1,20 @@
+---
+title: "Knitr bootstrap"
+date: 2014-05-26T21:13:14-05:00
+categories: ["R"]
+tags: ["R", "knitr", "bootstrap", "R markdown"]
+summary: "Quick and dirty test for knitr boostrap framework."
+---
+
+
+
+<p>Knitr bootstrap makes generating standalone reports extremely easy and the output looks really neat. Check out the example <a href="/blog/assets/knitr_bootstrap/knitr_bootstrap.html">here</a>. To recreate this you need to download the preview release of <a href="http://rmarkdown.rstudio.com/index.html">R Studio</a>, and set up the front matter as follows:</p>
+<pre><code>---
+output:
+  knitrBootstrap::bootstrap_document:
+    title: &quot;&quot;
+    theme: default
+    highlight: sunburst
+    theme.chooser: TRUE
+    highlight.chooser: TRUE
+---</code></pre>

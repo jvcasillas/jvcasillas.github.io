@@ -1,0 +1,32 @@
+---
+title: "TikzDevice tutorial I: install tikzDevice in R"
+date: 2013-05-11T21:13:14-05:00
+categories: ["R"]
+tags: ["R", "tikz", "data viz"]
+---
+
+
+
+<div id="overview" class="section level4">
+<h4>Overview</h4>
+<p>This is a short tutorial for getting <strong>tikzDevice</strong> running on <strong>R</strong> version 3.0. If you write in <strong>LaTeX</strong> and use <strong>R</strong> for statistics, this is a good way to get your plots/graphs/etc. into your .tex document. The advantages are:</p>
+<ol style="list-style-type: decimal">
+<li>much higher quality and</li>
+<li>you can use IPA symbols</li>
+</ol>
+</div>
+<div id="download-tiksdevice" class="section level4">
+<h4>Download tiksDevice</h4>
+<p><strong>TiksDevice</strong> is no longer officially supported by CRAN because the author was having trouble keeping it updated in a timely manner (Check out <a href="http://cran.r-project.org/web/packages/tikzDevice/index.html">this</a> webpage if you want to read a little more about the situation). Nonetheless, the <strong>tikzdevice</strong> package is very usable and still available for download. You can download the tar.gz file directly by clicking <a href="http://cran.r-project.org/src/contrib/Archive/tikzDevice/tikzDevice_0.6.2.tar.gz">here</a>.</p>
+</div>
+<div id="install-tiksdevice" class="section level4">
+<h4>Install tiksDevice</h4>
+<p>Installing a package that is no longer supported is by no means difficult, but not as simple as <code>install.package('tikzDevice')</code> (try it if you want to see why). Use the following code install the tar file (make sure to specify your file path to wherever you downloaded the file). This is what it looked like for me.</p>
+<pre class="r"><code>install.packages(&quot;/Users/USERNAME/Downloads/tikzDevice_0.6.2.tar&quot;, repos = NULL, type=&quot;source&quot;)</code></pre>
+</div>
+<div id="install-dependencies" class="section level4">
+<h4>Install dependencies</h4>
+<p>In order for <strong>tikzDevice</strong> to work, you must also install the <strong>filehash</strong> package. This is much easier.</p>
+<pre class="r"><code>install.packages(&#39;filehash&#39;)</code></pre>
+<p>That’s it. Check out <a href="/blog/2013-05-17_tikz_-_projects/index.html">this</a> tutorial to see how to set up a project.</p>
+</div>

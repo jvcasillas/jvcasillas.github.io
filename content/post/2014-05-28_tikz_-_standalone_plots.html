@@ -1,0 +1,77 @@
+---
+title: "TikzDevice tutorial III: standalone plots"
+date: 2014-05-28T21:13:14-05:00
+categories: ["R"]
+tags: ["R", "tikz", "data viz"]
+---
+
+
+
+<p>In this post I’m going to show you how to use <code>TikzDevice</code> to create high quality plots that use the same font as your <code>LaTeX</code> document. I’m assuming that you have already installed <code>tikz</code>. If not, see <a href="/blog/2013-05-11_tikz_-_installation/index.html">part I</a> in this series. Moreover, this tutorial assumes that you have set up your project in the same way outlined in <a href="/blog/2013-05-17_tikz_-_projects/index.html">part II</a>. An added benefit to this approach is that it allows you to insert IPA symbols into the plot via the <code>tipa</code> package.</p>
+<div id="the-latex-file" class="section level4">
+<h4>The LaTeX file</h4>
+<p>Ok. You should start with a <code>LaTeX</code> file that looks like this:</p>
+<pre><code>\documentclass{article}
+\usepackage{tikz}
+\usepackage{tipa}
+
+\begin{document}
+
+&lt;&lt;&gt;&gt;=
+require(tikzDevice)
+tikz(&#39;plot.tex&#39;, standAlone=TRUE)
+library(stats)
+plot(cars)
+lines(lowess(cars))
+dev.off()
+@
+
+\end{document}</code></pre>
+<p>If you have experience working with <code>LaTeX</code>, the preamble should be pretty straightforward (If you need a quick primer on <code>LaTeX</code>, see this tutorial). The important part so far is that you have to include <code>\usepackage{tikz}</code> and <code>\usepackage{tipa}</code> <em>before</em> <code>\begin{document}</code>.</p>
+</div>
+<div id="the-r-code" class="section level4">
+<h4>The R code</h4>
+<p>In <code>knitr</code>, R code goes between <code>&lt;&lt;&gt;&gt;=</code> and ends with <code>@</code>. So all of this is R code:</p>
+<pre class="r"><code>require(tikzDevice)
+tikz(&#39;plots/cars-plot.tex&#39;, standAlone=TRUE)
+library(stats)
+plot(cars)
+lines(lowess(cars))
+dev.off()</code></pre>
+<p>The command <code>require(tikzDevice)</code> loads tikz into the R workspace. Then, <code>tikz('plots/cars-plot.tex', standAlone=TRUE)</code> calls the tikz device and creates the file <code>cars-plot.tex</code> in the folder <code>plots</code>. It is important to set <code>standAlone</code> to <code>TRUE</code> if you want to have a separate .tex file (this is what allows us to keep the fonts the same as the rest of the document). From this point on until the call <code>dev.off()</code>, we enter what we want to appear in our .tex file. In this case I have plotted the typical <code>cars</code> data from the library <code>stats</code>. Here is the PDF output produced when <code>cars-plot.tex</code> is compiled. Notice the font is different from what you typical get in R.</p>
+<p><img width="100%" src="img/plot.pdf"></p>
+<p>Now let’s try something a little more involved and add some IPA. I will use a fake dataset and load it into R.</p>
+<pre class="r"><code>my_data &lt;- read.delim(&quot;assets/my_data.txt&quot;)</code></pre>
+<p>We will use ggplot2 for this graph.</p>
+<pre class="r"><code>library(ggplot2)</code></pre>
+<p>Now we will call tikz device.</p>
+<pre class="r"><code>require(tikzDevice)
+options(tikzLatexPackages = c(getOption(&quot;tikzLatexPackages&quot;), &quot;\\usepackage{tipa}&quot;))
+tikz(&#39;plots/ipa_plot.tex&#39;, standAlone=TRUE, width=10, height=6)
+my_data$group &lt;- factor(my_data$group, levels = c(&quot;EL&quot;, &quot;NE&quot;, &quot;LL&quot;))
+df&lt;-with(my_data, aggregate(fpro, list(group=group, fstim=fstim), mean))
+df$se&lt;-with(my_data, aggregate(fpro, list(group=group, fstim=fstim), function(x) sd(x)/sqrt(10)))[,3]
+gp &lt;- ggplot(df, aes(x=fstim, y=x, colour=group, ymin=x-se, ymax=x+se))
+gp + geom_line(aes(linetype=group), size = .5) + 
+    geom_point(aes(shape=group)) + 
+    geom_ribbon(alpha = 0.15, linetype=0) + 
+    ylim(0, 1) + 
+    scale_x_continuous(breaks=seq(0, 10, by=1)) +
+    labs(list(title = &quot;[\\textesh ip/\\textesh\\textsci p]&quot;, 
+            x = &quot;Stimuli&quot;, y = &quot;\\% [\\textesh\\textsci p]&quot;)) +
+    theme_bw() +
+    theme(legend.background = element_rect(colour = &#39;grey50&#39;, 
+        fill = &#39;grey97&#39;, size = .75, linetype=&#39;solid&#39;)) +
+    scale_linetype_discrete(&quot;Group&quot;) +
+    scale_shape_discrete(&quot;Group&quot;) +
+    scale_colour_discrete(&quot;Group&quot;)
+dev.off()</code></pre>
+<p>Notice that after the <code>require(tikzDevice)</code> call, we included</p>
+<pre class="r"><code>options(tikzLatexPackages = c(getOption(&quot;tikzLatexPackages&quot;), &quot;\\usepackage{tipa}&quot;)) </code></pre>
+<p>The key component here is <code>\\usepackage{tipa}</code>. This means that tipa will be included in the .tex produced from the code, which, in turn, means that we can include IPA sybold in the plot before it is produced. The <code>tikz('plots/ipa_plot.tex', standAlone=TRUE, width=5, height=5)</code> call creates <code>ipa_plot.tex</code> in the folder <code>plots</code>. The rest of the code (up to <code>dev.off()</code>) is the actual plot. Notice that we have included ipa in the following command:</p>
+<pre class="r"><code>labs(list(title = &quot;[\\textesh ip/\\textesh\\textsci p]&quot;, 
+          x = &quot;Stimuli&quot;, y = &quot;\\% [\\textesh\\textsci p]&quot;))</code></pre>
+<p>This is the plot that is produced when the resulting .tex file is compiled:</p>
+<p><img width="100%" src="img/ipa_plot.pdf"></p>
+<p>And that’s it. We have produced a beautiful plot that uses the same font as our document and includes IPA symbols. You can download all the files <a href="files/master.zip">here</a> and try it yourself.</p>
+</div>

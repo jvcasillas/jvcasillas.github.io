@@ -1,0 +1,331 @@
+---
+title: "Justin Bieber sings in Spanish: How'd he do?"
+date: 2017-05-15T21:13:14-05:00
+categories: ["Linguistics"]
+tags: ["Linguistics", "Bieber", "Spanish", "Phonetics", "VOT"]
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(collapse = TRUE)
+```
+
+
+### TL; DR
+
+<div style="float:right">
+<img width="40px" src="../../img/fill.png">
+![bieber](http://media2.giphy.com/media/vVj7DgouGmmqI/giphy.gif) 
+<img height="10px" width="0px" src="../../img/fill.png">
+</div>
+
+In the remixed version of the song "despacito", Justin Bieber sings in Spanish. 
+Some articles online criticize his pronunciation. I analyzed his realization of 
+"p" and "t" in Praat and find that, while his pronunciation is not perfect, it is 
+pretty good. I don't believe he commits the "errors" suggested in the article.
+
+### Overview
+
+I recently heard the song ```despacito``` featuring teen hero Justin Bieber (my wife 
+mentioned to me that he sings in Spanish and my curiosity got the best of me). 
+I distinctly remember being rather impressed by how well he sang in Spanish, so I was 
+surprised when I saw [this](http://remezcla.com/music/j-balvin-nicky-jam-despacito-remix/)
+article pop up in my facebook feed. Basically, J Balvin and Nicky Jam (I have 
+no idea who these guys are) make fun of J Biebs accent. Specifically, they 
+harp on his pronunciation of the title of the song, suggesting the /t/ in the 
+diminutive form of "despacio" (slow) is realized as [ɹ]. In fact, they sing it 
+a few times [des.pa.si.ɹo] (des-pa-see-row, if you aren't familiar with IPA) and, 
+in jest, claim at one point that he sings 'dorito' [ðo.ɹi.ɾo]. You can watch this 
+specific part here:
+
+<div align="center">
+ <div class="video-container">
+  <iframe src="https://www.youtube.com/embed/jtCScBRaX9k?ecver=1" frameborder="0" allowfullscreen></iframe>
+ </div>
+</div>
+</br>
+
+Now, this type of non-native pronunciation actually makes a lot of sense, at least 
+I think the 'dorito' comment does. In American and Canadian English an intervocalic 
+"t" (and "d") is usually pronounced as a flap, which in essence corresponds with 
+Spanish "r" in the same position (note: it has to be in the same position, otherwise 
+it would pronounced as a trill). This leads to all kinds of difficulties for learners 
+of Spanish because they have to avoid a phonological process of their native language. 
+For example, a common mispronunciation of the Spanish word "todo" (all) is [to.ɾo], 
+which actually means "toro" (bull). That is, English speakers (mis)pronounce the 
+intervocalic /d/ as a flap, which is most perceptually similar to Spanish "r". On the 
+other hand, when they try to pronounce "toro", the "r" is realized as the English rhotic 
+[ɹ].
+
+Thus, if Bieber were pronouncing /ito/ as most native English speakers do, as a flap, 
+it would be perceived as a Spanish "r" (the flap, not the trill). However, there is no 
+real explanation for why he would pronounce it with an English rhotic ([ɹ]) as J Balvin 
+and Nicky Jam claim. I personally did not hear this pronunciation, so I assume they were 
+just teasing the teenage heart throb. Nonetheless, I noticed a lot of comments in the 
+article were also making fun of his pronunciation, so I decided I would take a look in 
+praat to determine if I am going crazy or if the internet is just full of haters. Here 
+is an example of what we will look at:
+
+</br>
+<div align="center">
+<audio controls>
+   <source src="./wavs/segmented/despacito.wav" type="audio/mpeg">
+ Your browser does not support the audio element.
+</audio>
+</div> 
+</br>
+
+
+### The analysis
+
+I downloaded the music video from youtube and converted the .mp4 file to .m4a, and then 
+to .wav. In praat I converted the .wav from stereo to mono. Justin sings the chorus as well 
+as some of the verses. I'm just going to look at the chorus because the verses are accompanied 
+by Daddy Yankee and/or Luis Fonsi. Luckily, pretty much every time he says "despacito" in the 
+chorus there is silence, so we can use that for our analysis. I am going to focus on how he 
+pronounces the stop /t/ (though I did get formant frequency measurements for all the vowels... 
+maybe for another post). This only leaves us with about 5 useful tokens, but there are also a 
+good amount of /p/'s that we can compare them with. Here is arguably the best token:
+
+<div align="center">
+  <img src="./figs/despacito.png">
+</div>
+
+It's clear---at least to me---that Justin is not producing an English rhotic where he should 
+be producing [t]. In other words, he is *not* saying des-pa-see-row. How do I know? Well, 
+if we zoom in on the final /ito/, we notice two things: 1) there is clearly a closure and 
+2) there is a burst. These are characteristics of a stop consonant. Now, you might be thinking 
+"Yeah, but a flap looks pretty similar in a spectrogram" and you wouldn't be wrong, but the 
+clear difference here is that after the release there is a short gap before the voicing of the 
+final /o/. This short gap is called voice-onset time (VOT). Stops have VOT; flaps do not. Here 
+is a close up:
+
+<div align="center">
+  <img src="./figs/ito.png">
+</div>
+
+Now a characteristic of English voiceless stops ("p", "t", "k") is that in word initial position 
+they are produced with aspiration and have long-lag VOT, usually around 60 ms. We refer to them 
+with IPA with: [p^h^, t^h^, k^h^]. Voiceless stops are different in Spanish, as they are not aspirated 
+and have short-lag VOT, usually from 0 to 25 ms. The "ito" of "despacito" is word internal, thus, 
+in theory, for an English speaker it should not be aspirated because it is normally realized as a flap, though in emphatic 
+speech it could be realized as [t^h^]. Hopefully I have already convinced you that Biebs is not 
+flapping. So our next question is: what kind of VOT do his stops have? If they are short-lag, we can 
+conclude that they are more Spanish-like. If, on the other hand, they are aspirated, then they 
+would be more English-like. So let's take a look! 
+
+I measured VOT of every p and t every time Justin sings "despacito". First, let's load some packages 
+we will need.  
+
+```{r, message=FALSE, warning=FALSE}
+library(lingStuff); library(tidyverse)
+```
+
+Now we can load the data and check the structure.  
+
+```{r, message=FALSE, eval=FALSE}
+# Load data
+bieber_vot <- read_csv("./data/despacito.csv")
+```
+
+```{r, message=FALSE, eval=TRUE, echo=FALSE}
+bieber_vot <- structure(list(prefix = c("despacito", "despacito1", "despacito2", 
+"despacito3", "despacito4"), f1e = c(1116.47, 722.46, 758.22, 
+872.06, 595.97), f2e = c(2282.28, 1831.96, 1985.16, 2158.12, 
+1944.46), f1_20e = c(701.29, 637.47, 813.67, 978.62, 562.87), 
+    f1_35e = c(829.14, 817.49, 737.93, 847.09, 637.86), f1_50e = c(1592.18, 
+    617.65, 863.58, 818.4, 443.63), f1_65e = c(1079.49, 455.98, 
+    1017.06, 417.96, 647.9), f1_80e = c(1380.27, 1083.72, 358.88, 
+    1298.21, 687.61), f2_20e = c(2186.32, 1842.03, 1711.68, 2743.24, 
+    1195.44), f2_35e = c(1638.2, 1557.31, 1877.08, 1656.69, 1637.56
+    ), f2_50e = c(2754.67, 1662.84, 1645.04, 1771.74, 2231.55
+    ), f2_65e = c(2174.61, 2280.42, 2389.95, 2264.38, 2214.23
+    ), f2_80e = c(2657.58, 1817.21, 2302.05, 2354.56, 2443.52
+    ), tle = c(3258.26, 1981.38, 1870.37, 2732.77, 1511.08), 
+    f1a = c(805.56, 772.36, 637.79, 867.39, 809.43), f2a = c(1936.05, 
+    1801.39, 2004.36, 1991.47, 2247.84), f1_20a = c(741.74, 804.04, 
+    864.71, 835.49, 1494.24), f1_35a = c(977.48, 936.97, 749.94, 
+    932.41, 434.49), f1_50a = c(783.02, 448.75, 1057.63, 443.62, 
+    595.85), f1_65a = c(922.43, 736.54, 82.36, 1060, 727.84), 
+    f1_80a = c(603.12, 935.51, 434.33, 1065.44, 794.74), f2_20a = c(1592.83, 
+    1618.85, 1648.62, 1646.66, 2810.28), f2_35a = c(2055.09, 
+    2137.56, 1555.18, 2647.1, 2292.73), f2_50a = c(2333.37, 2313.06, 
+    2590.78, 2194.15, 1910.75), f2_65a = c(1877.61, 1371.67, 
+    2230.34, 1801.26, 2004.48), f2_80a = c(1821.34, 1565.79, 
+    1996.88, 1668.17, 2220.94), tla = c(1659.23, 2316.65, 2690.43, 
+    2535.67, 1982.48), f1i = c(817.97, 715.2, 708.75, 1021.53, 
+    711.53), f2i = c(1833.92, 1902.06, 1972.31, 2174.93, 2106.13
+    ), f1_20i = c(1030.46, 530.9, 257.54, 589.32, 436.14), f1_35i = c(582.54, 
+    794.01, 737.05, 924.4, 738.17), f1_50i = c(800, 1083.35, 
+    503.49, 1305.58, 716.36), f1_65i = c(605.11, 654.62, 1178.19, 
+    908.59, 709.66), f1_80i = c(1071.73, 513.13, 867.49, 1379.76, 
+    957.34), f2_20i = c(2172.34, 2391.14, 2252.09, 2348.58, 1733.69
+    ), f2_35i = c(1348.1, 1789.47, 2465.44, 1803.39, 2426.08), 
+    f2_50i = c(1734.3, 1816, 1983.98, 2354.66, 1929.4), f2_65i = c(1792.62, 
+    1602.96, 1778.86, 1717.04, 2215.31), f2_80i = c(2122.22, 
+    1910.72, 1381.2, 2650.97, 2226.19), tli = c(2156.02, 1764.71, 
+    2269.8, 3107.3, 1786.46), cdP = c(2210.02, 1654.87, 1222.78, 
+    1577.08, 2421.96), cdT = c(2210.02, 1654.87, 1222.78, 1577.08, 
+    2421.96), votP = c(23.26, 19.21, 19.01, 19.37, 15.58), votT = c(20.79, 
+    15.12, 20.52, 24.03, 35.02), labID = c("'labID$'", "'labID$'", 
+    "'labID$'", "'labID$'", "'labID$'")), .Names = c("prefix", 
+"f1e", "f2e", "f1_20e", "f1_35e", "f1_50e", "f1_65e", "f1_80e", 
+"f2_20e", "f2_35e", "f2_50e", "f2_65e", "f2_80e", "tle", "f1a", 
+"f2a", "f1_20a", "f1_35a", "f1_50a", "f1_65a", "f1_80a", "f2_20a", 
+"f2_35a", "f2_50a", "f2_65a", "f2_80a", "tla", "f1i", "f2i", 
+"f1_20i", "f1_35i", "f1_50i", "f1_65i", "f1_80i", "f2_20i", "f2_35i", 
+"f2_50i", "f2_65i", "f2_80i", "tli", "cdP", "cdT", "votP", "votT", 
+"labID"), class = c("tbl_df", "tbl", "data.frame"), row.names = c(NA, 
+-5L), spec = structure(list(cols = structure(list(prefix = structure(list(), class = c("collector_character", 
+"collector")), f1e = structure(list(), class = c("collector_double", 
+"collector")), f2e = structure(list(), class = c("collector_double", 
+"collector")), f1_20e = structure(list(), class = c("collector_double", 
+"collector")), f1_35e = structure(list(), class = c("collector_double", 
+"collector")), f1_50e = structure(list(), class = c("collector_double", 
+"collector")), f1_65e = structure(list(), class = c("collector_double", 
+"collector")), f1_80e = structure(list(), class = c("collector_double", 
+"collector")), f2_20e = structure(list(), class = c("collector_double", 
+"collector")), f2_35e = structure(list(), class = c("collector_double", 
+"collector")), f2_50e = structure(list(), class = c("collector_double", 
+"collector")), f2_65e = structure(list(), class = c("collector_double", 
+"collector")), f2_80e = structure(list(), class = c("collector_double", 
+"collector")), tle = structure(list(), class = c("collector_double", 
+"collector")), f1a = structure(list(), class = c("collector_double", 
+"collector")), f2a = structure(list(), class = c("collector_double", 
+"collector")), f1_20a = structure(list(), class = c("collector_double", 
+"collector")), f1_35a = structure(list(), class = c("collector_double", 
+"collector")), f1_50a = structure(list(), class = c("collector_double", 
+"collector")), f1_65a = structure(list(), class = c("collector_double", 
+"collector")), f1_80a = structure(list(), class = c("collector_double", 
+"collector")), f2_20a = structure(list(), class = c("collector_double", 
+"collector")), f2_35a = structure(list(), class = c("collector_double", 
+"collector")), f2_50a = structure(list(), class = c("collector_double", 
+"collector")), f2_65a = structure(list(), class = c("collector_double", 
+"collector")), f2_80a = structure(list(), class = c("collector_double", 
+"collector")), tla = structure(list(), class = c("collector_double", 
+"collector")), f1i = structure(list(), class = c("collector_double", 
+"collector")), f2i = structure(list(), class = c("collector_double", 
+"collector")), f1_20i = structure(list(), class = c("collector_double", 
+"collector")), f1_35i = structure(list(), class = c("collector_double", 
+"collector")), f1_50i = structure(list(), class = c("collector_double", 
+"collector")), f1_65i = structure(list(), class = c("collector_double", 
+"collector")), f1_80i = structure(list(), class = c("collector_double", 
+"collector")), f2_20i = structure(list(), class = c("collector_double", 
+"collector")), f2_35i = structure(list(), class = c("collector_double", 
+"collector")), f2_50i = structure(list(), class = c("collector_double", 
+"collector")), f2_65i = structure(list(), class = c("collector_double", 
+"collector")), f2_80i = structure(list(), class = c("collector_double", 
+"collector")), tli = structure(list(), class = c("collector_double", 
+"collector")), cdP = structure(list(), class = c("collector_double", 
+"collector")), cdT = structure(list(), class = c("collector_double", 
+"collector")), votP = structure(list(), class = c("collector_double", 
+"collector")), votT = structure(list(), class = c("collector_double", 
+"collector")), labID = structure(list(), class = c("collector_character", 
+"collector"))), .Names = c("prefix", "f1e", "f2e", "f1_20e", 
+"f1_35e", "f1_50e", "f1_65e", "f1_80e", "f2_20e", "f2_35e", "f2_50e", 
+"f2_65e", "f2_80e", "tle", "f1a", "f2a", "f1_20a", "f1_35a", 
+"f1_50a", "f1_65a", "f1_80a", "f2_20a", "f2_35a", "f2_50a", "f2_65a", 
+"f2_80a", "tla", "f1i", "f2i", "f1_20i", "f1_35i", "f1_50i", 
+"f1_65i", "f1_80i", "f2_20i", "f2_35i", "f2_50i", "f2_65i", "f2_80i", 
+"tli", "cdP", "cdT", "votP", "votT", "labID")), default = structure(list(), class = c("collector_guess", 
+"collector"))), .Names = c("cols", "default"), class = "col_spec"))
+```
+
+```{r, message=FALSE, eval=TRUE}
+# Check structure of dataframe
+bieber_vot %>%
+  select(., prefix, votP, votT) %>%
+  gather(., key = phon, value = vot, -prefix) %>%
+  str(.)
+```
+
+Looks good. Let's plot the VOT of the p's and t's and see how they look. I've 
+set the x-limit to range from 0 to 60. 
+
+```{r, fig.retina=2, fig.height=4, fig.width=8, fig.align='center', eval=FALSE}
+# Plot vot as a function of phon
+bieber_vot %>%
+  select(., prefix, votP, votT) %>%
+  gather(., key = phon, value = vot, -prefix) %>%
+  ggplot(., aes(x = phon, y = vot, color = phon)) + 
+    stat_summary(fun.data = 'mean_cl_boot', geom = 'pointrange', size = 1.1) +
+    stat_summary(fun.y = 'mean', geom = 'point', color = 'darkred', size = 2.75) +
+    ylim(0, 60) + ylab("VOT (ms)") + xlab("") + 
+    scale_x_discrete(labels = c('/p/', '/t/')) + 
+    coord_flip() + 
+    scale_color_brewer(name = '', guide = F) + 
+    theme_dark(base_size = 22, base_family = "Times")
+```
+
+<img width="100%" src="./figure-html/unnamed-chunk-5-1.png">
+
+
+```{r, echo=FALSE, eval=TRUE}
+bieber_means <- bieber_vot %>%
+  select(., prefix, votP, votT) %>%
+  gather(., key = phon, value = vot, -prefix) %>%
+  group_by(phon) %>%
+  summarise(., mean = mean(vot), sd = sd(vot))
+```
+
+
+Recall that an English-like VOT would be around 60 ms (but could range from around 
+40 to over 100!). We can see that the p's have a VOT of approximately 20 ms 
+(`r round(bieber_means[1, 2], 2)` ms +/- `r round(bieber_means[1, 3], 2)` sd, to be 
+exact), and the t's have a VOT of around 25 ms (`r round(bieber_means[2, 2], 2)` ms 
++/- `r round(bieber_means[2, 3], 2)` sd). Both are certainly within range of native 
+Spanish pronunciations.
+
+
+<grey>Interim conclusion</grey>: <blue>the internet is full of haters</blue>.
+
+</br>
+
+### Not so fast...
+
+There is one last thing to keep in mind before we give JBiebs a pass on his Spanish and 
+it's an important one. Spanish /t/ and English /t/ are articulated at different places in 
+the mouth. Specifically, Spanish /t/ is dental and English /t/ is alveolar. What this means 
+is that when an English speaker pronounces a word with a "t" in Spanish, like 'despacito', 
+she also needs to change the place of articulation, i.e. the tongue needs to make contact 
+with the back of the top teeth, and not the hard ridge right above them. When we looked at 
+VOT in the present analysis we didn't take this difference into account. My personal opinion is 
+that el señorito does a pretty good job, but if you listen closely to the very last 'despacito' 
+in the song, it does sound rather alveolar, i.e. gringo-y.  
+
+<grey>Conclusion</grey>: <blue>the internet is full of haters</blue>.
+
+
+
+
+<style type="text/css">
+
+blue {
+    color: #0000CC;
+    font-weight: normal;
+    font-size: 20px;
+}
+
+grey {
+    color: #515151;
+    font-size: 22px;
+    font-weight: normal;
+}
+
+.video-container {
+    position: relative;
+    padding-bottom: 50%;
+    padding-top: 35px;
+    height: 0;
+    overflow: hidden;
+    width: 70%;
+}
+
+.video-container iframe {
+    position: center;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+</style>
