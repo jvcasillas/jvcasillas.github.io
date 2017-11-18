@@ -1,0 +1,20 @@
+---
+title: "Colored spectrograms in R"
+date: 2013-05-09T21:13:14-05:00
+categories: ["R"]
+tags: ["R", "Praat"]
+---
+
+
+
+<p>This is how I made the colored spectrogram from the homepage (it’s me saying ‘welcome’). You need to load the package phonTools into R.</p>
+<pre class="r"><code>library(phonTools)</code></pre>
+<p>Now you have to load the sound you want to make a spectrogram of (it has to be in your working directory). I recorded mine in Praat.</p>
+<pre class="r"><code>sound &lt;- loadsound(&#39;welcome.wav&#39;)</code></pre>
+<p>Now we’re ready to make a spectrogram.</p>
+<pre class="r"><code>spectrogram(sound, fs = 44100, colors = TRUE, maintitle = &quot;Welcome&quot;, maxfreq = 5500)</code></pre>
+<p><img width="100%" src="./img/spectrogram.png"></p>
+<p>We can also see the oscillogram by using</p>
+<pre class="r"><code>plot(sound)</code></pre>
+<p><img width="100%" src="./img/waveform.png"></p>
+<p>That’s it.</p>

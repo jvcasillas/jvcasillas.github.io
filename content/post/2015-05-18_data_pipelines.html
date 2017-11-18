@@ -1,0 +1,27 @@
+---
+title: "Data pipelines in R"
+date: 2015-05-18T21:13:14-05:00
+categories: ["R"]
+tags: ["R", "workflow"]
+
+---
+
+
+
+<div id="overview" class="section level2">
+<h2>Overview</h2>
+<p>So you thought up a clever experiment, got IRB approval, recruited participants and collected data… now what? New researchers are often confronted with an unfortunate surprise when it comes time to perform some kind of analysis on their data: they don’t know how, or even where to start. This can be a problem for something trivial, like obtaining simple descriptive statistics, or something much more complex, like fitting models, creating plots and making predictions. When we conduct experiments we don’t usually begin by thinking about how we will analyze our data, and in many academic programs this is not explicitly taught to new students. For most people, especially beginners, the data analysis issue arises later on in the process, usually after the data have already been collected (although I think this ultimately changes with experience).</p>
+<p>In light of all of this, I think that something handy to learn and evaluate early on is how data analysis typically flows: from obtaining data to obtaining new insight from the data. This is the data analysis pipeline, which usually looks something like this:</p>
+<p><img width="100%" src="./img/pipeline1.png"></p>
+<p>In essence, the process is simple. After collecting your data, you need to <em>tidy</em> it (step 2) so that it can be loaded and analyzed by your statistical software. After tidying your data, you usually have to transform it (step 3) in some way (also called data preprocessing). This can be occur via the creation of new variables, combining variables, sub-setting variables, etc. Once you have transformed your data, it’s time to visualize it (step 4a) via graphs/plots, and, finally, analyze it. The visualization and analysis steps are often iterative: you might notice something in a graph that leads you to a new analysis, or some kind of insight that requires more data transformation and a new analysis, and so on and so forth until you have obtained new insight and are able to answer your research question(s).</p>
+<p>So, at the heart of data analysis is <code>tidy data</code>. Most new researchers don’t know what it means to tidy and transform their data, nor that it is probably the most important part of any data analysis. Basically, if your data are not formatted in a way in which they can be easily analyzed (via excel, SPSS, R, etc.), then you can’t do anything with them.</p>
+<p>In order to facilitate the data analysis pipeline, it is crucial to have <code>tidy  data</code>. What this means is that <strong>every column in your data frame represents a variable and every row represents an observation</strong>. This is also referred to as <em>long format</em> (as opposed to wide format). Most statistical software requires your data to be in long format, with few exceptions (i.e. repeated measures ANOVA in SPSS).</p>
+<p>In what follows, I take you through three packages that have been created in order to facilitate the data analysis pipeline in R. Each package was created by Hadley Wickham with steps 2, 3, and 4a of the pipeline in mind. Thus we can associate each package with the corresponding step:</p>
+<p><img width="100%" src="./img/pipeline2.png"></p>
+<ul>
+<li><a href="http://www.jvcasillas.com/tidyr_tutorial/">tidyr</a></li>
+<li>dplyr</li>
+<li><a href="http://www.jvcasillas.com/base_lattice_ggplot/">basic plotting in r</a> / ggvis</li>
+</ul>
+<p>(coming soon)</p>
+</div>
