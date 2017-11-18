@@ -1,4 +1,4 @@
-baseurl = "." # http://jvcasillas.github.io/ or "." for testing
+baseurl = "http://jvcasillas.github.io/" # http://jvcasillas.github.io/ or "." for testing
 title = "Joseph V. Casillas"
 copyright = "&copy; 2017 Joseph V. Casillas"
 theme = "hugo-academic"
