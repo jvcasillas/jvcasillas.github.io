@@ -11,6 +11,9 @@
 
 
 ```{r, results='asis', echo=FALSE, eval=TRUE, cache=FALSE}
+print(bib[key = "casillasHLSa2017morph"], .opts = list(check.entries = FALSE, style = "html", bib.style = "authortitle"))
+print(bib[key = "casillasHLSb2017morph"], .opts = list(check.entries = FALSE, style = "html", bib.style = "authortitle"))
+print(bib[key = "casillasSLRF2017morph"], .opts = list(check.entries = FALSE, style = "html", bib.style = "authortitle"))
 print(bib[key = "casillasLSRL2017morph"], .opts = list(check.entries = FALSE, style = "html", bib.style = "authortitle"))
 print(bib[key = "casillasLSRL2017prodperc"], .opts = list(check.entries = FALSE, style = "html", bib.style = "authortitle"))
 print(bib[key = "casillasSSHL2017"], .opts = list(check.entries = FALSE, style = "html", bib.style = "authortitle"))
@@ -29,6 +32,7 @@ print(bib[key = "CasillasCONF2011share"], .opts = list(check.entries = FALSE, st
 ### Unrefereed Presentations
 
 ```{r, results='asis', echo=FALSE, eval=TRUE}
+print(bib[key = "CasillasMidd2017"], .opts = list(check.entries = FALSE, style = "html", bib.style = "authortitle"))
 print(bib[key = "SagarraCasillasLozanoEriksson2017poster"], .opts = list(check.entries = FALSE, style = "html", bib.style = "authortitle"))
 print(bib[key = "SagarraCasillasLozanoRodriguez2017poster"], .opts = list(check.entries = FALSE, style = "html", bib.style = "authortitle"))
 ```

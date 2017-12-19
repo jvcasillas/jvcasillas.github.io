@@ -324,13 +324,16 @@ toBiblatex(bib[key = "Casillas2009gaceta"])
 ### Submitted
 
 ```{r, results='asis', echo=FALSE, eval=TRUE}
-print(bib[key = "BessettCasillasRamirezSIC2017"], .opts = list(check.entries = FALSE, style = "html", bib.style = "authoryear"))
+print(bib[key = "SagarraCasillasStress"], .opts = list(check.entries = FALSE, style = "html", bib.style = "authoryear"))
 ```
 
 
 ### In preparation
 
 ```{r, results='asis', echo=FALSE, eval=TRUE}
+print(bib[key = "CasillasSimonetPercNorm"], .opts = list(check.entries = FALSE, style = "html", bib.style = "authoryear"))
+print(bib[key = "CasillasProdPercStops"], .opts = list(check.entries = FALSE, style = "html", bib.style = "authoryear"))
+print(bib[key = "CasillasStress"], .opts = list(check.entries = FALSE, style = "html", bib.style = "authoryear"))
 print(bib[key = "CasillasDICT2015"], .opts = list(check.entries = FALSE, style = "html", bib.style = "authoryear"))
 ```
 
