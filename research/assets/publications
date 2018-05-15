@@ -14,6 +14,106 @@
 
 
 
+
+
+
+```{r, results='asis', echo=FALSE, eval=TRUE}
+print(
+  bib[key = "SagarraCasillas_JSLS2018"], 
+  .opts = list(check.entries = FALSE, style = "html", bib.style = "authoryear"))
+```
+
+<!-- START METADATA -->
+<div style="text-indent:.25em;margin-top:-1em" align="left">
+( <a alt="JSLS2018" href="https://benjamins.com/catalog/jsls.17026.sag" target='_new'><span class="showtooltip" title="Read paper">Link</span></a> |
+<a href="javascript:ReverseDisplay('SagarraCasillas_JSLS2018Abstract')">Abstract</a> |
+<a href="javascript:ReverseDisplay('SagarraCasillas_JSLS2018Bib')">Bib </a> )
+
+<div id="SagarraCasillas_JSLS2018Abstract" style="display:none;margin-left:2em;text-indent:0em">
+<p class="minip">We use visual-world eye-tracking and gating methods to 
+investigate whether Spanish monolinguals and English late learners of Spanish 
+use prosodic cues (lexical stress) to anticipate morphological information 
+(suffixes) during spoken word recognition, and if they do, whether L2 
+proficiency and working memory (WM) mediate their anticipatory abilities. Our 
+findings show that the monolinguals used prosodic information to predict word 
+endings in both tasks, regardless of first-syllable stress (stressed, 
+unstressed) and structure (CV, CVC). In contrast, the beginning learners did 
+not use prosodic information to anticipate word suffixes in any task or 
+condition. Importantly, the advanced learners mirrored the monolinguals, except 
+in words with first-syllable CV structure, but were slower than the 
+monolinguals. Finally, WM was not associated with anticipatory eye movements, 
+though results were inconclusive for offline processing. Taken together, the 
+present study shows that suprasegmental information facilitates morphological 
+anticipation during spoken word recognition, and that adult learners can gain 
+anticipatory processing patterns qualitatively, but not quantitatively, similar 
+to monolinguals.</p>
+</div>
+
+<div id="SagarraCasillas_JSLS2018Bib" style="display:none" class="minip">
+
+```{r, echo=FALSE, comment='', eval=TRUE}
+toBiblatex(
+  bib[key = "SagarraCasillas_JSLS2018"], 
+  .opts = list(style = "html"))
+```
+
+</div>
+</div> 
+<!-- END METADATA -->
+
+
+
+
+
+
+
+```{r, results='asis', echo=FALSE, eval=TRUE}
+print(
+  bib[key = "BessettCasillasRamirezSpIC2017"], 
+  .opts = list(check.entries = FALSE, style = "html", bib.style = "authoryear"))
+```
+
+<!-- START METADATA -->
+<div style="text-indent:.25em;margin-top:-1em" align="left">
+( <a alt="SinC2017" href="https://benjamins.com/catalog/sic.14.1.04bes" target='_new'><span class="showtooltip" title="Read paper">Link</span></a> |
+<a href="javascript:ReverseDisplay('BessettCasillasRamirezSpIC2017Abstract')">Abstract</a> |
+<a href="javascript:ReverseDisplay('BessettCasillasRamirezSpIC2017Bib')">Bib </a> )
+
+<div id="BessettCasillasRamirezSpIC2017Abstract" style="display:none;margin-left:2em;text-indent:0em">
+<p class="minip">The present study investigates language choice in two 
+bilingual speech communities in the United States: Nogales, AZ and San Ysidro, 
+CA. Ethnically distinct fieldworkers approached members of these two 
+communities under the guise of being lost tourists in order to engage in casual 
+speech encounters. It was found that language choice varied between the two 
+communities, with participants of the San Ysidro community more likely to 
+engage in codeswitching. Ethnicity was also found to be a significant predictor 
+of language choice, with more codeswitching taking place with the fieldworker 
+of a Hispanic phenotype. Potential explanations and factors for future research 
+are discussed.</p>
+</div>
+
+<div id="BessettCasillasRamirezSpIC2017Bib" style="display:none" class="minip">
+
+```{r, echo=FALSE, comment='', eval=TRUE}
+toBiblatex(
+  bib[key = "BessettCasillasRamirezSpIC2017"], 
+  .opts = list(style = "html"))
+```
+
+</div>
+</div> 
+<!-- END METADATA -->
+
+
+
+
+
+
+
+
+
+
+
 ```{r, results='asis', echo=FALSE, eval=TRUE}
 print(
   bib[key = "LlmopartCasillasJASAEL2016"], 

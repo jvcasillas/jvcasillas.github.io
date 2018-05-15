@@ -5,7 +5,7 @@
     
     <url>
     
-      <loc>/code/projects/</loc>
+      <loc>https://jvcasillas.github.io/code/projects/</loc>
       <lastmod>2016-04-20T00:00:00+00:00</lastmod>
     </url>
     
@@ -14,7 +14,7 @@
     
     <url>
     
-      <loc>/teaching/teaching/</loc>
+      <loc>https://jvcasillas.github.io/teaching/teaching/</loc>
       <lastmod>2016-04-20T00:00:00+00:00</lastmod>
     </url>
     
@@ -23,7 +23,7 @@
     
     <url>
     
-      <loc>/talk/future-talk/</loc>
+      <loc>https://jvcasillas.github.io/talk/future-talk/</loc>
       <lastmod>2017-11-15T00:00:00+00:00</lastmod>
     </url>
     
@@ -32,7 +32,7 @@
     
     <url>
     
-      <loc>/talk/next-talk/</loc>
+      <loc>https://jvcasillas.github.io/talk/next-talk/</loc>
       <lastmod>2017-10-27T00:00:00+00:00</lastmod>
     </url>
     
@@ -41,7 +41,7 @@
     
     <url>
     
-      <loc>/post/2017-05-15_analysis_of_justin_bieber_singing_in_spanish_-_despacito/</loc>
+      <loc>https://jvcasillas.github.io/post/2017-05-15_analysis_of_justin_bieber_singing_in_spanish_-_despacito/</loc>
       <lastmod>2017-05-15T21:13:14-05:00</lastmod>
     </url>
     
@@ -50,7 +50,7 @@
     
     <url>
     
-      <loc>/talk/previous-talk/</loc>
+      <loc>https://jvcasillas.github.io/talk/previous-talk/</loc>
       <lastmod>2017-04-13T00:00:00+00:00</lastmod>
     </url>
     
@@ -59,7 +59,7 @@
     
     <url>
     
-      <loc>/code/</loc>
+      <loc>https://jvcasillas.github.io/code/</loc>
       <lastmod>2017-01-01T00:00:00-05:00</lastmod>
     </url>
     
@@ -68,7 +68,7 @@
     
     <url>
     
-      <loc>/post/</loc>
+      <loc>https://jvcasillas.github.io/post/</loc>
       <lastmod>2017-01-01T00:00:00-05:00</lastmod>
     </url>
     
@@ -77,7 +77,7 @@
     
     <url>
     
-      <loc>/teaching/</loc>
+      <loc>https://jvcasillas.github.io/teaching/</loc>
       <lastmod>2017-01-01T00:00:00-05:00</lastmod>
     </url>
     
@@ -86,7 +86,7 @@
     
     <url>
     
-      <loc>/tags/academic/</loc>
+      <loc>https://jvcasillas.github.io/tags/academic/</loc>
       <lastmod>2017-01-01T00:00:00+00:00</lastmod>
     </url>
     
@@ -95,7 +95,7 @@
     
     <url>
     
-      <loc>/publication/</loc>
+      <loc>https://jvcasillas.github.io/publication/</loc>
       <lastmod>2017-01-01T00:00:00+00:00</lastmod>
     </url>
     
@@ -104,7 +104,7 @@
     
     <url>
     
-      <loc>/talk/</loc>
+      <loc>https://jvcasillas.github.io/talk/</loc>
       <lastmod>2017-01-01T00:00:00+00:00</lastmod>
     </url>
     
@@ -113,7 +113,7 @@
     
     <url>
     
-      <loc>/publication/llompart_casillas_jasa_2016/</loc>
+      <loc>https://jvcasillas.github.io/publication/llompart_casillas_jasa_2016/</loc>
       <lastmod>2016-05-01T00:00:00+00:00</lastmod>
     </url>
     
@@ -122,7 +122,7 @@
     
     <url>
     
-      <loc>/project/shiny_bivariate_regression/</loc>
+      <loc>https://jvcasillas.github.io/project/shiny_bivariate_regression/</loc>
       <lastmod>2016-04-27T00:00:00+00:00</lastmod>
     </url>
     
@@ -131,7 +131,7 @@
     
     <url>
     
-      <loc>/project/shiny_clt/</loc>
+      <loc>https://jvcasillas.github.io/project/shiny_clt/</loc>
       <lastmod>2016-04-27T00:00:00+00:00</lastmod>
     </url>
     
@@ -140,7 +140,7 @@
     
     <url>
     
-      <loc>/project/shiny_crossover/</loc>
+      <loc>https://jvcasillas.github.io/project/shiny_crossover/</loc>
       <lastmod>2016-04-27T00:00:00+00:00</lastmod>
     </url>
     
@@ -149,7 +149,7 @@
     
     <url>
     
-      <loc>/project/shiny_glm/</loc>
+      <loc>https://jvcasillas.github.io/project/shiny_glm/</loc>
       <lastmod>2016-04-27T00:00:00+00:00</lastmod>
     </url>
     
@@ -158,7 +158,7 @@
     
     <url>
     
-      <loc>/project/latex_ipa/</loc>
+      <loc>https://jvcasillas.github.io/project/latex_ipa/</loc>
       <lastmod>2016-04-27T00:00:00+00:00</lastmod>
     </url>
     
@@ -167,7 +167,7 @@
     
     <url>
     
-      <loc>/project/shiny_power/</loc>
+      <loc>https://jvcasillas.github.io/project/shiny_power/</loc>
       <lastmod>2016-04-27T00:00:00+00:00</lastmod>
     </url>
     
@@ -176,7 +176,7 @@
     
     <url>
     
-      <loc>/project/r_for_linguists/</loc>
+      <loc>https://jvcasillas.github.io/project/r_for_linguists/</loc>
       <lastmod>2016-04-27T00:00:00+00:00</lastmod>
     </url>
     
@@ -185,7 +185,7 @@
     
     <url>
     
-      <loc>/project/r_snippets/</loc>
+      <loc>https://jvcasillas.github.io/project/r_snippets/</loc>
       <lastmod>2016-04-27T00:00:00+00:00</lastmod>
     </url>
     
@@ -194,7 +194,7 @@
     
     <url>
     
-      <loc>/project/shiny_distinctivefeatures/</loc>
+      <loc>https://jvcasillas.github.io/project/shiny_distinctivefeatures/</loc>
       <lastmod>2016-04-27T00:00:00+00:00</lastmod>
     </url>
     
@@ -203,7 +203,7 @@
     
     <url>
     
-      <loc>/project/lingstuff/</loc>
+      <loc>https://jvcasillas.github.io/project/lingstuff/</loc>
       <lastmod>2016-04-27T00:00:00+00:00</lastmod>
     </url>
     
@@ -212,7 +212,7 @@
     
     <url>
     
-      <loc>/project/lingreference/</loc>
+      <loc>https://jvcasillas.github.io/project/lingreference/</loc>
       <lastmod>2016-04-27T00:00:00+00:00</lastmod>
     </url>
     
@@ -221,7 +221,7 @@
     
     <url>
     
-      <loc>/publication/casillas_simonet_slr_2016/</loc>
+      <loc>https://jvcasillas.github.io/publication/casillas_simonet_slr_2016/</loc>
       <lastmod>2015-10-01T00:00:00+00:00</lastmod>
     </url>
     
@@ -230,7 +230,7 @@
     
     <url>
     
-      <loc>/post/2015-06-22_tidyr_tutorial/</loc>
+      <loc>https://jvcasillas.github.io/post/2015-06-22_tidyr_tutorial/</loc>
       <lastmod>2015-06-22T21:13:14-05:00</lastmod>
     </url>
     
@@ -239,7 +239,7 @@
     
     <url>
     
-      <loc>/post/2015-06-16_google_sheets_in_r/</loc>
+      <loc>https://jvcasillas.github.io/post/2015-06-16_google_sheets_in_r/</loc>
       <lastmod>2015-06-16T21:13:14-05:00</lastmod>
     </url>
     
@@ -248,7 +248,7 @@
     
     <url>
     
-      <loc>/post/2015-05-18_data_pipelines/</loc>
+      <loc>https://jvcasillas.github.io/post/2015-05-18_data_pipelines/</loc>
       <lastmod>2015-05-18T21:13:14-05:00</lastmod>
     </url>
     
@@ -257,7 +257,7 @@
     
     <url>
     
-      <loc>/publication/casillas_phonetica_2015/</loc>
+      <loc>https://jvcasillas.github.io/publication/casillas_phonetica_2015/</loc>
       <lastmod>2015-05-01T00:00:00+00:00</lastmod>
     </url>
     
@@ -266,7 +266,7 @@
     
     <url>
     
-      <loc>/post/2015-04-20_plotting_in_r/</loc>
+      <loc>https://jvcasillas.github.io/post/2015-04-20_plotting_in_r/</loc>
       <lastmod>2015-04-20T21:13:14-05:00</lastmod>
     </url>
     
@@ -275,7 +275,7 @@
     
     <url>
     
-      <loc>/post/2015-04-13_html_widgets/</loc>
+      <loc>https://jvcasillas.github.io/post/2015-04-13_html_widgets/</loc>
       <lastmod>2015-04-13T21:13:14-05:00</lastmod>
     </url>
     
@@ -284,7 +284,7 @@
     
     <url>
     
-      <loc>/post/2015-03-22_slidify_tutorial/</loc>
+      <loc>https://jvcasillas.github.io/post/2015-03-22_slidify_tutorial/</loc>
       <lastmod>2015-03-22T21:13:14-05:00</lastmod>
     </url>
     
@@ -293,7 +293,7 @@
     
     <url>
     
-      <loc>/post/2014-05-28_tikz_-_standalone_plots/</loc>
+      <loc>https://jvcasillas.github.io/post/2014-05-28_tikz_-_standalone_plots/</loc>
       <lastmod>2014-05-28T21:13:14-05:00</lastmod>
     </url>
     
@@ -302,7 +302,7 @@
     
     <url>
     
-      <loc>/post/2014-05-26_knitr_bootstrap/</loc>
+      <loc>https://jvcasillas.github.io/post/2014-05-26_knitr_bootstrap/</loc>
       <lastmod>2014-05-26T21:13:14-05:00</lastmod>
     </url>
     
@@ -311,7 +311,7 @@
     
     <url>
     
-      <loc>/post/2014-01-07_converting_rmarkdown_files_to_html5/</loc>
+      <loc>https://jvcasillas.github.io/post/2014-01-07_converting_rmarkdown_files_to_html5/</loc>
       <lastmod>2014-01-07T21:13:14-05:00</lastmod>
     </url>
     
@@ -320,7 +320,7 @@
     
     <url>
     
-      <loc>/post/2013-05-17_tikz_-_projects/</loc>
+      <loc>https://jvcasillas.github.io/post/2013-05-17_tikz_-_projects/</loc>
       <lastmod>2013-05-17T21:13:14-05:00</lastmod>
     </url>
     
@@ -329,7 +329,7 @@
     
     <url>
     
-      <loc>/post/2013-05-11_tikz_-_installation/</loc>
+      <loc>https://jvcasillas.github.io/post/2013-05-11_tikz_-_installation/</loc>
       <lastmod>2013-05-11T21:13:14-05:00</lastmod>
     </url>
     
@@ -338,7 +338,7 @@
     
     <url>
     
-      <loc>/post/2013-05-09_colored_spectrograms_in_r/</loc>
+      <loc>https://jvcasillas.github.io/post/2013-05-09_colored_spectrograms_in_r/</loc>
       <lastmod>2013-05-09T21:13:14-05:00</lastmod>
     </url>
     
@@ -347,7 +347,7 @@
     
     <url>
     
-      <loc>/publication_types/2/</loc>
+      <loc>https://jvcasillas.github.io/publication_types/2/</loc>
       <lastmod>2016-05-01T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
@@ -357,7 +357,7 @@
     
     <url>
     
-      <loc>/tags/base/</loc>
+      <loc>https://jvcasillas.github.io/tags/base/</loc>
       <lastmod>2015-04-20T21:13:14-05:00</lastmod>
       <priority>0</priority>
     </url>
@@ -367,7 +367,7 @@
     
     <url>
     
-      <loc>/tags/bieber/</loc>
+      <loc>https://jvcasillas.github.io/tags/bieber/</loc>
       <lastmod>2017-05-15T21:13:14-05:00</lastmod>
       <priority>0</priority>
     </url>
@@ -377,7 +377,7 @@
     
     <url>
     
-      <loc>/tags/bootstrap/</loc>
+      <loc>https://jvcasillas.github.io/tags/bootstrap/</loc>
       <lastmod>2014-05-26T21:13:14-05:00</lastmod>
       <priority>0</priority>
     </url>
@@ -387,7 +387,7 @@
     
     <url>
     
-      <loc>/categories/</loc>
+      <loc>https://jvcasillas.github.io/categories/</loc>
       <priority>0</priority>
     </url>
     
@@ -396,7 +396,7 @@
     
     <url>
     
-      <loc>/tags/data-cleaning/</loc>
+      <loc>https://jvcasillas.github.io/tags/data-cleaning/</loc>
       <lastmod>2015-06-22T21:13:14-05:00</lastmod>
       <priority>0</priority>
     </url>
@@ -406,7 +406,7 @@
     
     <url>
     
-      <loc>/tags/data-viz/</loc>
+      <loc>https://jvcasillas.github.io/tags/data-viz/</loc>
       <lastmod>2015-04-20T21:13:14-05:00</lastmod>
       <priority>0</priority>
     </url>
@@ -416,7 +416,7 @@
     
     <url>
     
-      <loc>/tags/dictionary/</loc>
+      <loc>https://jvcasillas.github.io/tags/dictionary/</loc>
       <lastmod>2016-04-27T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
@@ -426,7 +426,7 @@
     
     <url>
     
-      <loc>/tags/ggplot2/</loc>
+      <loc>https://jvcasillas.github.io/tags/ggplot2/</loc>
       <lastmod>2015-04-20T21:13:14-05:00</lastmod>
       <priority>0</priority>
     </url>
@@ -436,7 +436,7 @@
     
     <url>
     
-      <loc>/tags/google-sheets/</loc>
+      <loc>https://jvcasillas.github.io/tags/google-sheets/</loc>
       <lastmod>2015-06-16T21:13:14-05:00</lastmod>
       <priority>0</priority>
     </url>
@@ -446,7 +446,7 @@
     
     <url>
     
-      <loc>/tags/html/</loc>
+      <loc>https://jvcasillas.github.io/tags/html/</loc>
       <lastmod>2014-01-07T21:13:14-05:00</lastmod>
       <priority>0</priority>
     </url>
@@ -456,7 +456,7 @@
     
     <url>
     
-      <loc>/tags/html-widgets/</loc>
+      <loc>https://jvcasillas.github.io/tags/html-widgets/</loc>
       <lastmod>2015-04-13T21:13:14-05:00</lastmod>
       <priority>0</priority>
     </url>
@@ -466,7 +466,7 @@
     
     <url>
     
-      <loc>/tags/ipa/</loc>
+      <loc>https://jvcasillas.github.io/tags/ipa/</loc>
       <lastmod>2016-04-27T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
@@ -476,7 +476,7 @@
     
     <url>
     
-      <loc>/</loc>
+      <loc>https://jvcasillas.github.io/</loc>
       <lastmod>2016-04-20T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
@@ -486,7 +486,7 @@
     
     <url>
     
-      <loc>/tags/knitr/</loc>
+      <loc>https://jvcasillas.github.io/tags/knitr/</loc>
       <lastmod>2014-05-26T21:13:14-05:00</lastmod>
       <priority>0</priority>
     </url>
@@ -496,7 +496,7 @@
     
     <url>
     
-      <loc>/tags/latex/</loc>
+      <loc>https://jvcasillas.github.io/tags/latex/</loc>
       <lastmod>2016-04-27T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
@@ -506,7 +506,7 @@
     
     <url>
     
-      <loc>/tags/lattice/</loc>
+      <loc>https://jvcasillas.github.io/tags/lattice/</loc>
       <lastmod>2015-04-20T21:13:14-05:00</lastmod>
       <priority>0</priority>
     </url>
@@ -516,7 +516,7 @@
     
     <url>
     
-      <loc>/tags/lingreference/</loc>
+      <loc>https://jvcasillas.github.io/tags/lingreference/</loc>
       <lastmod>2016-04-27T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
@@ -526,17 +526,7 @@
     
     <url>
     
-      <loc>/tags/linguistics/</loc>
-      <lastmod>2017-05-15T21:13:14-05:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/tags/linguistics/</loc>
+      <loc>https://jvcasillas.github.io/tags/linguistics/</loc>
       <lastmod>2016-04-27T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
@@ -546,7 +536,7 @@
     
     <url>
     
-      <loc>/categories/linguistics/</loc>
+      <loc>https://jvcasillas.github.io/tags/linguistics/</loc>
       <lastmod>2017-05-15T21:13:14-05:00</lastmod>
       <priority>0</priority>
     </url>
@@ -556,7 +546,7 @@
     
     <url>
     
-      <loc>/tags/phonetics/</loc>
+      <loc>https://jvcasillas.github.io/categories/linguistics/</loc>
       <lastmod>2017-05-15T21:13:14-05:00</lastmod>
       <priority>0</priority>
     </url>
@@ -566,7 +556,17 @@
     
     <url>
     
-      <loc>/tags/praat/</loc>
+      <loc>https://jvcasillas.github.io/tags/phonetics/</loc>
+      <lastmod>2017-05-15T21:13:14-05:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>https://jvcasillas.github.io/tags/praat/</loc>
       <lastmod>2013-05-09T21:13:14-05:00</lastmod>
       <priority>0</priority>
     </url>
@@ -576,7 +576,7 @@
     
     <url>
     
-      <loc>/tags/presentation-software/</loc>
+      <loc>https://jvcasillas.github.io/tags/presentation-software/</loc>
       <lastmod>2015-03-22T21:13:14-05:00</lastmod>
       <priority>0</priority>
     </url>
@@ -586,7 +586,7 @@
     
     <url>
     
-      <loc>/tags/programming/</loc>
+      <loc>https://jvcasillas.github.io/tags/programming/</loc>
       <lastmod>2016-04-27T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
@@ -596,7 +596,7 @@
     
     <url>
     
-      <loc>/tags/project/</loc>
+      <loc>https://jvcasillas.github.io/tags/project/</loc>
       <lastmod>2013-05-17T21:13:14-05:00</lastmod>
       <priority>0</priority>
     </url>
@@ -606,7 +606,7 @@
     
     <url>
     
-      <loc>/project/</loc>
+      <loc>https://jvcasillas.github.io/project/</loc>
       <lastmod>2016-04-27T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
@@ -616,7 +616,7 @@
     
     <url>
     
-      <loc>/publication_types/</loc>
+      <loc>https://jvcasillas.github.io/publication_types/</loc>
       <lastmod>2016-05-01T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
@@ -626,7 +626,7 @@
     
     <url>
     
-      <loc>/tags/r/</loc>
+      <loc>https://jvcasillas.github.io/tags/r/</loc>
       <lastmod>2015-06-22T21:13:14-05:00</lastmod>
       <priority>0</priority>
     </url>
@@ -636,7 +636,7 @@
     
     <url>
     
-      <loc>/tags/r/</loc>
+      <loc>https://jvcasillas.github.io/tags/r/</loc>
       <lastmod>2015-06-22T21:13:14-05:00</lastmod>
       <priority>0</priority>
     </url>
@@ -646,7 +646,7 @@
     
     <url>
     
-      <loc>/categories/r/</loc>
+      <loc>https://jvcasillas.github.io/categories/r/</loc>
       <lastmod>2015-06-22T21:13:14-05:00</lastmod>
       <priority>0</priority>
     </url>
@@ -656,7 +656,7 @@
     
     <url>
     
-      <loc>/tags/r-markdown/</loc>
+      <loc>https://jvcasillas.github.io/tags/r-markdown/</loc>
       <lastmod>2015-04-13T21:13:14-05:00</lastmod>
       <priority>0</priority>
     </url>
@@ -666,7 +666,7 @@
     
     <url>
     
-      <loc>/tags/rstudio/</loc>
+      <loc>https://jvcasillas.github.io/tags/rstudio/</loc>
       <lastmod>2014-01-07T21:13:14-05:00</lastmod>
       <priority>0</priority>
     </url>
@@ -676,7 +676,7 @@
     
     <url>
     
-      <loc>/research/</loc>
+      <loc>https://jvcasillas.github.io/research/</loc>
     </url>
     
   
@@ -684,7 +684,7 @@
     
     <url>
     
-      <loc>/tags/slidify/</loc>
+      <loc>https://jvcasillas.github.io/tags/slidify/</loc>
       <lastmod>2015-03-22T21:13:14-05:00</lastmod>
       <priority>0</priority>
     </url>
@@ -694,7 +694,7 @@
     
     <url>
     
-      <loc>/tags/snippets/</loc>
+      <loc>https://jvcasillas.github.io/tags/snippets/</loc>
       <lastmod>2016-04-27T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
@@ -704,7 +704,7 @@
     
     <url>
     
-      <loc>/tags/spanish/</loc>
+      <loc>https://jvcasillas.github.io/tags/spanish/</loc>
       <lastmod>2017-05-15T21:13:14-05:00</lastmod>
       <priority>0</priority>
     </url>
@@ -714,7 +714,7 @@
     
     <url>
     
-      <loc>/tags/statistics/</loc>
+      <loc>https://jvcasillas.github.io/tags/statistics/</loc>
       <lastmod>2016-04-27T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
@@ -724,7 +724,7 @@
     
     <url>
     
-      <loc>/tags/sublimetext/</loc>
+      <loc>https://jvcasillas.github.io/tags/sublimetext/</loc>
       <lastmod>2016-04-27T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
@@ -734,7 +734,7 @@
     
     <url>
     
-      <loc>/tags/</loc>
+      <loc>https://jvcasillas.github.io/tags/</loc>
       <lastmod>2017-01-01T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
@@ -744,7 +744,7 @@
     
     <url>
     
-      <loc>/tags/teaching/</loc>
+      <loc>https://jvcasillas.github.io/tags/teaching/</loc>
       <lastmod>2016-04-27T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
@@ -754,7 +754,7 @@
     
     <url>
     
-      <loc>/tags/tidy-data/</loc>
+      <loc>https://jvcasillas.github.io/tags/tidy-data/</loc>
       <lastmod>2015-06-22T21:13:14-05:00</lastmod>
       <priority>0</priority>
     </url>
@@ -764,7 +764,7 @@
     
     <url>
     
-      <loc>/tags/tidyr/</loc>
+      <loc>https://jvcasillas.github.io/tags/tidyr/</loc>
       <lastmod>2015-06-22T21:13:14-05:00</lastmod>
       <priority>0</priority>
     </url>
@@ -774,7 +774,7 @@
     
     <url>
     
-      <loc>/tags/tidyverse/</loc>
+      <loc>https://jvcasillas.github.io/tags/tidyverse/</loc>
       <lastmod>2015-06-22T21:13:14-05:00</lastmod>
       <priority>0</priority>
     </url>
@@ -784,7 +784,7 @@
     
     <url>
     
-      <loc>/tags/tikz/</loc>
+      <loc>https://jvcasillas.github.io/tags/tikz/</loc>
       <lastmod>2014-05-28T21:13:14-05:00</lastmod>
       <priority>0</priority>
     </url>
@@ -794,7 +794,7 @@
     
     <url>
     
-      <loc>/tags/vot/</loc>
+      <loc>https://jvcasillas.github.io/tags/vot/</loc>
       <lastmod>2017-05-15T21:13:14-05:00</lastmod>
       <priority>0</priority>
     </url>
@@ -804,7 +804,7 @@
     
     <url>
     
-      <loc>/tags/webscraping/</loc>
+      <loc>https://jvcasillas.github.io/tags/webscraping/</loc>
       <lastmod>2015-06-16T21:13:14-05:00</lastmod>
       <priority>0</priority>
     </url>
@@ -814,7 +814,7 @@
     
     <url>
     
-      <loc>/tags/workflow/</loc>
+      <loc>https://jvcasillas.github.io/tags/workflow/</loc>
       <lastmod>2016-04-27T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
