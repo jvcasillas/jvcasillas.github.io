@@ -544,7 +544,7 @@ toBiblatex(bib[key = "Casillas2009gaceta"])
 
 ```{r, results='asis', echo=FALSE, eval=TRUE}
 print(
-  bib[key = "SagarraCasillasStress"], 
+  bib[key = "CasillasSimonetPercNorm"], 
   .opts = list(check.entries = FALSE, style = "html", bib.style = "authoryear"))
 ```
 
@@ -552,9 +552,6 @@ print(
 ### In preparation
 
 ```{r, results='asis', echo=FALSE, eval=TRUE}
-print(
-  bib[key = "CasillasSimonetPercNorm"], 
-  .opts = list(check.entries = FALSE, style = "html", bib.style = "authoryear"))
 print(
   bib[key = "CasillasProdPercStops"], 
   .opts = list(check.entries = FALSE, style = "html", bib.style = "authoryear"))

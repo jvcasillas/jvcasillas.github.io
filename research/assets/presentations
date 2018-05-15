@@ -12,6 +12,12 @@
 
 ```{r, results='asis', echo=FALSE, eval=TRUE, cache=FALSE}
 print(
+  bib[key = "lozano_sagarra_casillasISBPAC2018morph"], 
+  .opts = list(check.entries = FALSE, style = "html", bib.style = "authortitle"))
+print(
+  bib[key = "lozano_sagarra_casillasISB2017morph"], 
+  .opts = list(check.entries = FALSE, style = "html", bib.style = "authortitle"))
+print(
   bib[key = "casillasHLSa2017morph"], 
   .opts = list(check.entries = FALSE, style = "html", bib.style = "authortitle"))
 print(
@@ -78,6 +84,15 @@ print(
 ### Poster presentations
 
 ```{r, results='asis', echo=FALSE, eval=TRUE}
+print(
+  bib[key = "lozano_sagarra_casillas_IICPEB2018"], 
+  .opts = list(check.entries = FALSE, style = "html", bib.style = "authortitle"))
+print(
+  bib[key = "sagarra_casillas_SBL2P2018"], 
+  .opts = list(check.entries = FALSE, style = "html", bib.style = "authortitle"))
+print(
+  bib[key = "lozano_sagarra_casillas_BAP2018"], 
+  .opts = list(check.entries = FALSE, style = "html", bib.style = "authortitle"))
 print(
   bib[key = "RamirezCasillasWSS82016poster"], 
   .opts = list(check.entries = FALSE, style = "html", bib.style = "authortitle"))
