@@ -23,6 +23,15 @@
     
     <url>
     
+      <loc>/post/2018-09-16_setting_up_a_whisper_room_sound_booth/</loc>
+      <lastmod>2018-09-16T21:13:14-05:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>/talk/future-talk/</loc>
       <lastmod>2017-11-15T00:00:00+00:00</lastmod>
     </url>
@@ -426,6 +435,16 @@
     
     <url>
     
+      <loc>/tags/equipment/</loc>
+      <lastmod>2018-09-16T21:13:14-05:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>/tags/ggplot2/</loc>
       <lastmod>2015-04-20T21:13:14-05:00</lastmod>
       <priority>0</priority>
@@ -527,16 +546,6 @@
     <url>
     
       <loc>/tags/linguistics/</loc>
-      <lastmod>2017-05-15T21:13:14-05:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/tags/linguistics/</loc>
       <lastmod>2016-04-27T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
@@ -546,8 +555,18 @@
     
     <url>
     
+      <loc>/tags/linguistics/</loc>
+      <lastmod>2018-09-16T21:13:14-05:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>/categories/linguistics/</loc>
-      <lastmod>2017-05-15T21:13:14-05:00</lastmod>
+      <lastmod>2018-09-16T21:13:14-05:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -557,7 +576,7 @@
     <url>
     
       <loc>/tags/phonetics/</loc>
-      <lastmod>2017-05-15T21:13:14-05:00</lastmod>
+      <lastmod>2018-09-16T21:13:14-05:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -704,6 +723,16 @@
     
     <url>
     
+      <loc>/tags/sound-booth/</loc>
+      <lastmod>2018-09-16T21:13:14-05:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>/tags/spanish/</loc>
       <lastmod>2017-05-15T21:13:14-05:00</lastmod>
       <priority>0</priority>
@@ -806,6 +835,16 @@
     
       <loc>/tags/webscraping/</loc>
       <lastmod>2015-06-16T21:13:14-05:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/tags/whisper-room/</loc>
+      <lastmod>2018-09-16T21:13:14-05:00</lastmod>
       <priority>0</priority>
     </url>
     
