@@ -12,6 +12,12 @@
 
 ```{r, results='asis', echo=FALSE, eval=TRUE, cache=FALSE}
 print(
+  bib[key = "colina_diaz_casillas_HLS2018_glide"], 
+  .opts = list(check.entries = FALSE, style = "html", bib.style = "authortitle"))
+print(
+  bib[key = "lozano_sagarra_casillasHLS2018morph"], 
+  .opts = list(check.entries = FALSE, style = "html", bib.style = "authortitle"))
+print(
   bib[key = "lozano_sagarra_casillasISBPAC2018morph"], 
   .opts = list(check.entries = FALSE, style = "html", bib.style = "authortitle"))
 print(
