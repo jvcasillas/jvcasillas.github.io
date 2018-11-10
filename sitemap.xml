@@ -32,6 +32,24 @@
     
     <url>
     
+      <loc>https://jvcasillas.github.io/publication/casillas_simonet_jphon_2018/</loc>
+      <lastmod>2018-07-20T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>https://jvcasillas.github.io/publication/sagarra_casillas_jsl_2018/</loc>
+      <lastmod>2018-07-20T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>https://jvcasillas.github.io/talk/future-talk/</loc>
       <lastmod>2017-11-15T00:00:00+00:00</lastmod>
     </url>
@@ -357,7 +375,7 @@
     <url>
     
       <loc>https://jvcasillas.github.io/publication_types/2/</loc>
-      <lastmod>2016-05-01T00:00:00+00:00</lastmod>
+      <lastmod>2018-07-20T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -545,6 +563,16 @@
     
     <url>
     
+      <loc>https://jvcasillas.github.io/categories/linguistics/</loc>
+      <lastmod>2018-09-16T21:13:14-05:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>https://jvcasillas.github.io/tags/linguistics/</loc>
       <lastmod>2018-09-16T21:13:14-05:00</lastmod>
       <priority>0</priority>
@@ -557,16 +585,6 @@
     
       <loc>https://jvcasillas.github.io/tags/linguistics/</loc>
       <lastmod>2016-04-27T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>https://jvcasillas.github.io/categories/linguistics/</loc>
-      <lastmod>2018-09-16T21:13:14-05:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -636,27 +654,7 @@
     <url>
     
       <loc>https://jvcasillas.github.io/publication_types/</loc>
-      <lastmod>2016-05-01T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>https://jvcasillas.github.io/tags/r/</loc>
-      <lastmod>2015-06-22T21:13:14-05:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>https://jvcasillas.github.io/tags/r/</loc>
-      <lastmod>2015-06-22T21:13:14-05:00</lastmod>
+      <lastmod>2018-07-20T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -666,6 +664,26 @@
     <url>
     
       <loc>https://jvcasillas.github.io/categories/r/</loc>
+      <lastmod>2015-06-22T21:13:14-05:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>https://jvcasillas.github.io/tags/r/</loc>
+      <lastmod>2015-06-22T21:13:14-05:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>https://jvcasillas.github.io/tags/r/</loc>
       <lastmod>2015-06-22T21:13:14-05:00</lastmod>
       <priority>0</priority>
     </url>
