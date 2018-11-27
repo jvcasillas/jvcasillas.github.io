@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>data cleaning on Joseph V. Casillas</title>
+    <link>/tags/data-cleaning/</link>
+    <description>Recent content in data cleaning on Joseph V. Casillas</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Joseph V. Casillas&lt;/br&gt;&amp;copy; 2018&lt;/br&gt;</copyright>
+    <lastBuildDate>Mon, 22 Jun 2015 21:13:14 -0500</lastBuildDate>
+    
+	<atom:link href="/tags/data-cleaning/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>tidyr tutorial</title>
+      <link>/post/2015-06-22_tidyr_tutorial/</link>
+      <pubDate>Mon, 22 Jun 2015 21:13:14 -0500</pubDate>
+      
+      <guid>/post/2015-06-22_tidyr_tutorial/</guid>
+      <description> </description>
+    </item>
+    
+  </channel>
+</rss>

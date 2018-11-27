@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>sublimetext on Joseph V. Casillas</title>
+    <link>/tags/sublimetext/</link>
+    <description>Recent content in sublimetext on Joseph V. Casillas</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Joseph V. Casillas&lt;/br&gt;&amp;copy; 2018&lt;/br&gt;</copyright>
+    <lastBuildDate>Wed, 27 Apr 2016 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/sublimetext/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>LaTeX IPA</title>
+      <link>/project/latex_ipa/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>/project/latex_ipa/</guid>
+      <description>I made this repository to simplify the process of using IPA in $\LaTeX$. It is merely a collection of snippets for the package TIPA. To install LaTeX-IPA see the package control page.
+File naming Consonants are labeled in the following way:
+ voicing -&amp;gt; point of articulation -&amp;gt; mode of articulation
+Ex. voiceless-bilabial-aprox.sublime-snippet = [&amp;beta;]  Vowels are labeled in the following way:
+ vowel -&amp;gt; tense/lax -&amp;gt; height -&amp;gt; frontedness -&amp;gt; rounding</description>
+    </item>
+    
+    <item>
+      <title>R-Snippets</title>
+      <link>/project/r_snippets/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>/project/r_snippets/</guid>
+      <description>This repository is a collection of snippets that I use in SublimeText for doing statistical analysis in R. The goal is straightforward: document the code that I use most often while doing linguistic research and make it readily available (and understandable) to other linguists. If you are interested in helping see the github repository. To install R-snippets see the package control page. To use a snippet, type the trigger and hit the tab key.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>teaching on Joseph V. Casillas</title>
+    <link>/tags/teaching/</link>
+    <description>Recent content in teaching on Joseph V. Casillas</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Joseph V. Casillas&lt;/br&gt;&amp;copy; 2018&lt;/br&gt;</copyright>
+    <lastBuildDate>Wed, 27 Apr 2016 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/teaching/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Bivariate linear regression</title>
+      <link>/project/shiny_bivariate_regression/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>/project/shiny_bivariate_regression/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Central limit theorem</title>
+      <link>/project/shiny_clt/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>/project/shiny_clt/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Crossover</title>
+      <link>/project/shiny_crossover/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>/project/shiny_crossover/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Generalized linear model</title>
+      <link>/project/shiny_glm/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>/project/shiny_glm/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Power/Sample size calculator</title>
+      <link>/project/shiny_power/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>/project/shiny_power/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>R for linguists</title>
+      <link>/project/r_for_linguists/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>/project/r_for_linguists/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Spanish allophones and distinctive features</title>
+      <link>/project/shiny_distinctivefeatures/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>/project/shiny_distinctivefeatures/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

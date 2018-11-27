@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>snippets on Joseph V. Casillas</title>
+    <link>/tags/snippets/</link>
+    <description>Recent content in snippets on Joseph V. Casillas</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Joseph V. Casillas&lt;/br&gt;&amp;copy; 2018&lt;/br&gt;</copyright>
+    <lastBuildDate>Wed, 27 Apr 2016 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/snippets/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>R-Snippets</title>
+      <link>/project/r_snippets/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>/project/r_snippets/</guid>
+      <description>This repository is a collection of snippets that I use in SublimeText for doing statistical analysis in R. The goal is straightforward: document the code that I use most often while doing linguistic research and make it readily available (and understandable) to other linguists. If you are interested in helping see the github repository. To install R-snippets see the package control page. To use a snippet, type the trigger and hit the tab key.</description>
+    </item>
+    
+  </channel>
+</rss>

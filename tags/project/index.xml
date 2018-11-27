@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>project on Joseph V. Casillas</title>
+    <link>/tags/project/</link>
+    <description>Recent content in project on Joseph V. Casillas</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Joseph V. Casillas&lt;/br&gt;&amp;copy; 2018&lt;/br&gt;</copyright>
+    <lastBuildDate>Fri, 17 May 2013 21:13:14 -0500</lastBuildDate>
+    
+	<atom:link href="/tags/project/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>TikzDevice tutorial II: structuring a project</title>
+      <link>/post/2013-05-17_tikz_-_projects/</link>
+      <pubDate>Fri, 17 May 2013 21:13:14 -0500</pubDate>
+      
+      <guid>/post/2013-05-17_tikz_-_projects/</guid>
+      <description>Overview This mini tutorial is part II about incorporating tikzDevice into your workflow. It explains the file structure necessary to successfully include tikzDevice plots into your LaTeX document. You must first have tikzDevice installed. If you don’t, see part I for more information.
+ The structure A simple yet effective way to do reproducible research is to use R (for statistical analysis) directly in a LaTeX environment. There are two ways to accomplish this: (1) Sweave and (2) knitr.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>knitr on Joseph V. Casillas</title>
+    <link>/tags/knitr/</link>
+    <description>Recent content in knitr on Joseph V. Casillas</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Joseph V. Casillas&lt;/br&gt;&amp;copy; 2018&lt;/br&gt;</copyright>
+    <lastBuildDate>Mon, 26 May 2014 21:13:14 -0500</lastBuildDate>
+    
+	<atom:link href="/tags/knitr/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Knitr bootstrap</title>
+      <link>/post/2014-05-26_knitr_bootstrap/</link>
+      <pubDate>Mon, 26 May 2014 21:13:14 -0500</pubDate>
+      
+      <guid>/post/2014-05-26_knitr_bootstrap/</guid>
+      <description> Knitr bootstrap makes generating standalone reports extremely easy and the output looks really neat. Check out the example here. To recreate this you need to download the preview release of R Studio, and set up the front matter as follows:
+--- output: knitrBootstrap::bootstrap_document: title: &amp;quot;&amp;quot; theme: default highlight: sunburst theme.chooser: TRUE highlight.chooser: TRUE --- </description>
+    </item>
+    
+  </channel>
+</rss>

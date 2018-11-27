@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>r on Joseph V. Casillas</title>
+    <link>/tags/r/</link>
+    <description>Recent content in r on Joseph V. Casillas</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Joseph V. Casillas&lt;/br&gt;&amp;copy; 2018&lt;/br&gt;</copyright>
+    <lastBuildDate>Mon, 22 Jun 2015 21:13:14 -0500</lastBuildDate>
+    
+	<atom:link href="/tags/r/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>tidyr tutorial</title>
+      <link>/post/2015-06-22_tidyr_tutorial/</link>
+      <pubDate>Mon, 22 Jun 2015 21:13:14 -0500</pubDate>
+      
+      <guid>/post/2015-06-22_tidyr_tutorial/</guid>
+      <description> </description>
+    </item>
+    
+    <item>
+      <title>How to scrape data from Google Sheets in R</title>
+      <link>/post/2015-06-16_google_sheets_in_r/</link>
+      <pubDate>Tue, 16 Jun 2015 21:13:14 -0500</pubDate>
+      
+      <guid>/post/2015-06-16_google_sheets_in_r/</guid>
+      <description>Google Forms offers a convenient way to collect data online. It is particularly useful because you can embed the form in a webpage, link the results with a spreadsheet and publish the results online. This post shows how to scrape the data from the spreadsheet (google form) in r using the package RCurl. You should be able to follow along by copying and pasting the code into an R session.</description>
+    </item>
+    
+    <item>
+      <title>Data pipelines in R</title>
+      <link>/post/2015-05-18_data_pipelines/</link>
+      <pubDate>Mon, 18 May 2015 21:13:14 -0500</pubDate>
+      
+      <guid>/post/2015-05-18_data_pipelines/</guid>
+      <description>Overview So you thought up a clever experiment, got IRB approval, recruited participants and collected data… now what? New researchers are often confronted with an unfortunate surprise when it comes time to perform some kind of analysis on their data: they don’t know how, or even where to start. This can be a problem for something trivial, like obtaining simple descriptive statistics, or something much more complex, like fitting models, creating plots and making predictions.</description>
+    </item>
+    
+    <item>
+      <title>Basic plotting in R</title>
+      <link>/post/2015-04-20_plotting_in_r/</link>
+      <pubDate>Mon, 20 Apr 2015 21:13:14 -0500</pubDate>
+      
+      <guid>/post/2015-04-20_plotting_in_r/</guid>
+      <description> </description>
+    </item>
+    
+    <item>
+      <title>HTML widgets in Rmarkdown</title>
+      <link>/post/2015-04-13_html_widgets/</link>
+      <pubDate>Mon, 13 Apr 2015 21:13:14 -0500</pubDate>
+      
+      <guid>/post/2015-04-13_html_widgets/</guid>
+      <description> </description>
+    </item>
+    
+    <item>
+      <title>Slidify tutorial</title>
+      <link>/post/2015-03-22_slidify_tutorial/</link>
+      <pubDate>Sun, 22 Mar 2015 21:13:14 -0500</pubDate>
+      
+      <guid>/post/2015-03-22_slidify_tutorial/</guid>
+      <description> </description>
+    </item>
+    
+    <item>
+      <title>TikzDevice tutorial III: standalone plots</title>
+      <link>/post/2014-05-28_tikz_-_standalone_plots/</link>
+      <pubDate>Wed, 28 May 2014 21:13:14 -0500</pubDate>
+      
+      <guid>/post/2014-05-28_tikz_-_standalone_plots/</guid>
+      <description>In this post I’m going to show you how to use TikzDevice to create high quality plots that use the same font as your LaTeX document. I’m assuming that you have already installed tikz. If not, see part I in this series. Moreover, this tutorial assumes that you have set up your project in the same way outlined in part II. An added benefit to this approach is that it allows you to insert IPA symbols into the plot via the tipa package.</description>
+    </item>
+    
+    <item>
+      <title>Knitr bootstrap</title>
+      <link>/post/2014-05-26_knitr_bootstrap/</link>
+      <pubDate>Mon, 26 May 2014 21:13:14 -0500</pubDate>
+      
+      <guid>/post/2014-05-26_knitr_bootstrap/</guid>
+      <description> Knitr bootstrap makes generating standalone reports extremely easy and the output looks really neat. Check out the example here. To recreate this you need to download the preview release of R Studio, and set up the front matter as follows:
+--- output: knitrBootstrap::bootstrap_document: title: &amp;quot;&amp;quot; theme: default highlight: sunburst theme.chooser: TRUE highlight.chooser: TRUE --- </description>
+    </item>
+    
+    <item>
+      <title>Converting markdown files to HTML5 in RStudio</title>
+      <link>/post/2014-01-07_converting_rmarkdown_files_to_html5/</link>
+      <pubDate>Tue, 07 Jan 2014 21:13:14 -0500</pubDate>
+      
+      <guid>/post/2014-01-07_converting_rmarkdown_files_to_html5/</guid>
+      <description>HTML5 slides I recently learned how to create HTML5 slides using .Rmd files and pandoc. Click here to check out an example. I will be posting a tutorial on how to do this in the near future (I hope).
+Update Here is a much cooler example I found on mages’ blog
+Update 2 This process has been streamlined in the newest update to RStudio (check it out here). The results are quite impressive (Ex.</description>
+    </item>
+    
+    <item>
+      <title>TikzDevice tutorial II: structuring a project</title>
+      <link>/post/2013-05-17_tikz_-_projects/</link>
+      <pubDate>Fri, 17 May 2013 21:13:14 -0500</pubDate>
+      
+      <guid>/post/2013-05-17_tikz_-_projects/</guid>
+      <description>Overview This mini tutorial is part II about incorporating tikzDevice into your workflow. It explains the file structure necessary to successfully include tikzDevice plots into your LaTeX document. You must first have tikzDevice installed. If you don’t, see part I for more information.
+ The structure A simple yet effective way to do reproducible research is to use R (for statistical analysis) directly in a LaTeX environment. There are two ways to accomplish this: (1) Sweave and (2) knitr.</description>
+    </item>
+    
+    <item>
+      <title>TikzDevice tutorial I: install tikzDevice in R</title>
+      <link>/post/2013-05-11_tikz_-_installation/</link>
+      <pubDate>Sat, 11 May 2013 21:13:14 -0500</pubDate>
+      
+      <guid>/post/2013-05-11_tikz_-_installation/</guid>
+      <description>Overview This is a short tutorial for getting tikzDevice running on R version 3.0. If you write in LaTeX and use R for statistics, this is a good way to get your plots/graphs/etc. into your .tex document. The advantages are:
+much higher quality and you can use IPA symbols   Download tiksDevice TiksDevice is no longer officially supported by CRAN because the author was having trouble keeping it updated in a timely manner (Check out this webpage if you want to read a little more about the situation).</description>
+    </item>
+    
+    <item>
+      <title>Colored spectrograms in R</title>
+      <link>/post/2013-05-09_colored_spectrograms_in_r/</link>
+      <pubDate>Thu, 09 May 2013 21:13:14 -0500</pubDate>
+      
+      <guid>/post/2013-05-09_colored_spectrograms_in_r/</guid>
+      <description>This is how I made the colored spectrogram from the homepage (it’s me saying ‘welcome’). You need to load the package phonTools into R.
+library(phonTools) Now you have to load the sound you want to make a spectrogram of (it has to be in your working directory). I recorded mine in Praat.
+sound &amp;lt;- loadsound(&amp;#39;welcome.wav&amp;#39;) Now we’re ready to make a spectrogram.
+spectrogram(sound, fs = 44100, colors = TRUE, maintitle = &amp;quot;Welcome&amp;quot;, maxfreq = 5500) We can also see the oscillogram by using</description>
+    </item>
+    
+  </channel>
+</rss>

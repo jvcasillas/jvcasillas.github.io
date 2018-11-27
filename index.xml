@@ -1,0 +1,546 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Joseph V. Casillas on Joseph V. Casillas</title>
+    <link>/</link>
+    <description>Recent content in Joseph V. Casillas on Joseph V. Casillas</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Joseph V. Casillas&lt;/br&gt;&amp;copy; 2018&lt;/br&gt;</copyright>
+    <lastBuildDate>Wed, 20 Apr 2016 00:00:00 +0000</lastBuildDate>
+    <atom:link href="/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>**Code**</title>
+      <link>/code/projects/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>/code/projects/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>**Teaching**</title>
+      <link>/teaching/teaching/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>/teaching/teaching/</guid>
+      <description>
+
+&lt;!--
+&lt;a href=&#34;https://jvcasillas.youcanbook.me/?noframe=true&amp;skipHeaderFooter=true&#34; data-ycbm-modal=&#34;true&#34;&gt;here&lt;/a&gt;
+--&gt;
+
+&lt;h3 id=&#34;undergraduate&#34;&gt;Undergraduate&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Beginning Spanish&lt;/li&gt;
+&lt;li&gt;Elementary Spanish&lt;/li&gt;
+&lt;li&gt;Intermediate Spanish&lt;/li&gt;
+&lt;li&gt;Introduction to the study of language&lt;/li&gt;
+&lt;li&gt;Introduction to Spanish Phonetics and Phonology&lt;/li&gt;
+&lt;li&gt;Introduction to Spanish Phonetics and Phonology for the Heritage Speaker&lt;/li&gt;
+&lt;li&gt;Culture and composition for Heritage Speakers&lt;/li&gt;
+&lt;li&gt;Introduction to Hispanic Linguistics&lt;/li&gt;
+&lt;li&gt;Current Issues in Second Language Acquisition&lt;/li&gt;
+&lt;li&gt;History of the Spanish Language&lt;/li&gt;
+&lt;li&gt;Applied Linguistics&lt;/li&gt;
+&lt;li&gt;High Beginner Spanish in Context (Middlebury College)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;graduate&#34;&gt;Graduate&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Spanish phonetics/phonology&lt;/li&gt;
+&lt;li&gt;The phonetics/phonology of bilingualism&lt;/li&gt;
+&lt;li&gt;Data science for linguists&lt;/li&gt;
+&lt;li&gt;Research methods: Open science and reproducible research in Linguistics&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;workshops&#34;&gt;Workshops&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Spanish pronunciation workshop for beginners&lt;/li&gt;
+&lt;li&gt;Using PsychoPy2 for linguistic research&lt;/li&gt;
+&lt;li&gt;Introduction to Praat&lt;/li&gt;
+&lt;li&gt;Introduction to R&lt;/li&gt;
+&lt;li&gt;LaTeX for linguists&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Syllabic Affiliation of Prevocalic Glides in Sonoran Spanish: Dialectal variation in syllabic affiliation</title>
+      <link>/talk/future-talk/</link>
+      <pubDate>Sat, 27 Oct 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/talk/future-talk/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The use of lexical stress and vowel duration for morphological anticipation in L2 learners of Spanish</title>
+      <link>/talk/next-talk/</link>
+      <pubDate>Fri, 26 Oct 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/talk/next-talk/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Setting up a whisper room sound booth</title>
+      <link>/post/2018-09-16_setting_up_a_whisper_room_sound_booth/</link>
+      <pubDate>Sun, 16 Sep 2018 21:13:14 -0500</pubDate>
+      
+      <guid>/post/2018-09-16_setting_up_a_whisper_room_sound_booth/</guid>
+      <description>
+
+
+&lt;div id=&#34;packaging&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Packaging&lt;/h2&gt;
+&lt;div id=&#34;soundbooth_packaging&#34; class=&#34;carousel slide&#34; data-ride=&#34;carousel&#34; data-interval=&#34;false&#34;&gt;
+&lt;div class=&#34;carousel-inner&#34; role=&#34;listbox&#34;&gt;
+&lt;div class=&#34;item active&#34;&gt;
+&lt;img src=&#34;./img/01.png&#34; class=&#34;img-responsive center-block&#34;/&gt;
+&lt;/div&gt;
+&lt;div class=&#34;item&#34;&gt;
+&lt;img src=&#34;./img/02.png&#34; class=&#34;img-responsive center-block&#34;/&gt;
+&lt;/div&gt;
+&lt;div class=&#34;item&#34;&gt;
+&lt;img src=&#34;./img/03.png&#34; class=&#34;img-responsive center-block&#34;/&gt;
+&lt;/div&gt;
+&lt;div class=&#34;item&#34;&gt;
+&lt;img src=&#34;./img/04.png&#34; class=&#34;img-responsive center-block&#34;/&gt;
+&lt;/div&gt;
+&lt;div class=&#34;item&#34;&gt;
+&lt;img src=&#34;./img/05.png&#34; class=&#34;img-responsive center-block&#34;/&gt;
+&lt;/div&gt;
+&lt;div class=&#34;item&#34;&gt;
+&lt;img src=&#34;./img/06.png&#34; class=&#34;img-responsive center-block&#34;/&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;a class=&#34;left carousel-control&#34; href=&#34;#soundbooth_packaging&#34; role=&#34;button&#34; data-slide=&#34;prev&#34;&gt;
+&lt;span class=&#34;glyphicon glyphicon-chevron-left&#34; aria-hidden=&#34;true&#34;&gt;&lt;/span&gt;
+&lt;span class=&#34;sr-only&#34;&gt;Previous&lt;/span&gt;
+&lt;/a&gt;
+&lt;a class=&#34;right carousel-control&#34; href=&#34;#soundbooth_packaging&#34; role=&#34;button&#34; data-slide=&#34;next&#34;&gt;
+&lt;span class=&#34;glyphicon glyphicon-chevron-right&#34; aria-hidden=&#34;true&#34;&gt;&lt;/span&gt;
+&lt;span class=&#34;sr-only&#34;&gt;Next&lt;/span&gt;
+&lt;/a&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;assembly&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Assembly&lt;/h2&gt;
+&lt;div id=&#34;soundbooth_assembly&#34; class=&#34;carousel slide&#34; data-ride=&#34;carousel&#34; data-interval=&#34;false&#34;&gt;
+&lt;div class=&#34;carousel-inner&#34; role=&#34;listbox&#34;&gt;
+&lt;div class=&#34;item active&#34;&gt;
+&lt;img src=&#34;./img/07.png&#34; class=&#34;img-responsive center-block&#34;/&gt;
+&lt;/div&gt;
+&lt;div class=&#34;item&#34;&gt;
+&lt;img src=&#34;./img/09.png&#34; class=&#34;img-responsive center-block&#34;/&gt;
+&lt;/div&gt;
+&lt;div class=&#34;item&#34;&gt;
+&lt;img src=&#34;./img/10.png&#34; class=&#34;img-responsive center-block&#34;/&gt;
+&lt;/div&gt;
+&lt;div class=&#34;item&#34;&gt;
+&lt;img src=&#34;./img/11.png&#34; class=&#34;img-responsive center-block&#34;/&gt;
+&lt;/div&gt;
+&lt;div class=&#34;item&#34;&gt;
+&lt;img src=&#34;./img/12.png&#34; class=&#34;img-responsive center-block&#34;/&gt;
+&lt;/div&gt;
+&lt;div class=&#34;item&#34;&gt;
+&lt;img src=&#34;./img/13.png&#34; class=&#34;img-responsive center-block&#34;/&gt;
+&lt;/div&gt;
+&lt;div class=&#34;item&#34;&gt;
+&lt;img src=&#34;./img/14.png&#34; class=&#34;img-responsive center-block&#34;/&gt;
+&lt;/div&gt;
+&lt;div class=&#34;item&#34;&gt;
+&lt;img src=&#34;./img/15.png&#34; class=&#34;img-responsive center-block&#34;/&gt;
+&lt;/div&gt;
+&lt;div class=&#34;item&#34;&gt;
+&lt;img src=&#34;./img/16.png&#34; class=&#34;img-responsive center-block&#34;/&gt;
+&lt;/div&gt;
+&lt;div class=&#34;item&#34;&gt;
+&lt;img src=&#34;./img/17.png&#34; class=&#34;img-responsive center-block&#34;/&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;a class=&#34;left carousel-control&#34; href=&#34;#soundbooth_assembly&#34; role=&#34;button&#34; data-slide=&#34;prev&#34;&gt;
+&lt;span class=&#34;glyphicon glyphicon-chevron-left&#34; aria-hidden=&#34;true&#34;&gt;&lt;/span&gt;
+&lt;span class=&#34;sr-only&#34;&gt;Previous&lt;/span&gt;
+&lt;/a&gt;
+&lt;a class=&#34;right carousel-control&#34; href=&#34;#soundbooth_assembly&#34; role=&#34;button&#34; data-slide=&#34;next&#34;&gt;
+&lt;span class=&#34;glyphicon glyphicon-chevron-right&#34; aria-hidden=&#34;true&#34;&gt;&lt;/span&gt;
+&lt;span class=&#34;sr-only&#34;&gt;Next&lt;/span&gt;
+&lt;/a&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;aftermath&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Aftermath&lt;/h2&gt;
+&lt;div id=&#34;soundbooth_cleanup&#34; class=&#34;carousel slide&#34; data-ride=&#34;carousel&#34; data-interval=&#34;false&#34;&gt;
+&lt;div class=&#34;carousel-inner&#34; role=&#34;listbox&#34;&gt;
+&lt;div class=&#34;item active&#34;&gt;
+&lt;img src=&#34;./img/18.png&#34; class=&#34;img-responsive center-block&#34;/&gt;
+&lt;/div&gt;
+&lt;div class=&#34;item&#34;&gt;
+&lt;img src=&#34;./img/19.png&#34; class=&#34;img-responsive center-block&#34;/&gt;
+&lt;/div&gt;
+&lt;div class=&#34;item&#34;&gt;
+&lt;img src=&#34;./img/20.png&#34; class=&#34;img-responsive center-block&#34;/&gt;
+&lt;/div&gt;
+&lt;div class=&#34;item&#34;&gt;
+&lt;img src=&#34;./img/21.png&#34; class=&#34;img-responsive center-block&#34;/&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;a class=&#34;left carousel-control&#34; href=&#34;#soundbooth_cleanup&#34; role=&#34;button&#34; data-slide=&#34;prev&#34;&gt;
+&lt;span class=&#34;glyphicon glyphicon-chevron-left&#34; aria-hidden=&#34;true&#34;&gt;&lt;/span&gt;
+&lt;span class=&#34;sr-only&#34;&gt;Previous&lt;/span&gt;
+&lt;/a&gt;
+&lt;a class=&#34;right carousel-control&#34; href=&#34;#soundbooth_cleanup&#34; role=&#34;button&#34; data-slide=&#34;next&#34;&gt;
+&lt;span class=&#34;glyphicon glyphicon-chevron-right&#34; aria-hidden=&#34;true&#34;&gt;&lt;/span&gt;
+&lt;span class=&#34;sr-only&#34;&gt;Next&lt;/span&gt;
+&lt;/a&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;walkthrough&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Walkthrough&lt;/h2&gt;
+&lt;div id=&#34;soundbooth_walkthrough&#34; class=&#34;carousel slide&#34; data-ride=&#34;carousel&#34; data-interval=&#34;false&#34;&gt;
+&lt;div class=&#34;carousel-inner&#34; role=&#34;listbox&#34;&gt;
+&lt;div class=&#34;item active&#34;&gt;
+&lt;img src=&#34;./vids/vents.mov&#34; class=&#34;img-responsive center-block&#34;/&gt;
+&lt;/div&gt;
+&lt;div class=&#34;item&#34;&gt;
+&lt;img src=&#34;./vids/inside.mov&#34; class=&#34;img-responsive center-block&#34;/&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;a class=&#34;left carousel-control&#34; href=&#34;#soundbooth_walkthrough&#34; role=&#34;button&#34; data-slide=&#34;prev&#34;&gt;
+&lt;span class=&#34;glyphicon glyphicon-chevron-left&#34; aria-hidden=&#34;true&#34;&gt;&lt;/span&gt;
+&lt;span class=&#34;sr-only&#34;&gt;Previous&lt;/span&gt;
+&lt;/a&gt;
+&lt;a class=&#34;right carousel-control&#34; href=&#34;#soundbooth_walkthrough&#34; role=&#34;button&#34; data-slide=&#34;next&#34;&gt;
+&lt;span class=&#34;glyphicon glyphicon-chevron-right&#34; aria-hidden=&#34;true&#34;&gt;&lt;/span&gt;
+&lt;span class=&#34;sr-only&#34;&gt;Next&lt;/span&gt;
+&lt;/a&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;/br&gt;&lt;/p&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Perceptual categorization and bilingual language modes: Assessing the double phonemic boundary in early and late bilinguals</title>
+      <link>/publication/casillas_simonet_jphon_2018/</link>
+      <pubDate>Fri, 20 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/casillas_simonet_jphon_2018/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Suprasegmental information cues morphological anticipation during L1/L2 lexical access</title>
+      <link>/publication/sagarra_casillas_jsl_2018/</link>
+      <pubDate>Fri, 20 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/sagarra_casillas_jsl_2018/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Justin Bieber sings in Spanish: How&#39;d he do?</title>
+      <link>/post/2017-05-15_analysis_of_justin_bieber_singing_in_spanish_-_despacito/</link>
+      <pubDate>Mon, 15 May 2017 21:13:14 -0500</pubDate>
+      
+      <guid>/post/2017-05-15_analysis_of_justin_bieber_singing_in_spanish_-_despacito/</guid>
+      <description>
+
+
+&lt;div id=&#34;tl-dr&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;TL; DR&lt;/h3&gt;
+&lt;div style=&#34;float:right&#34;&gt;
+&lt;p&gt;&lt;img width=&#34;40px&#34; src=&#34;../../img/fill.png&#34;&gt;
+&lt;img src=&#34;http://media2.giphy.com/media/vVj7DgouGmmqI/giphy.gif&#34; alt=&#34;bieber&#34; /&gt;
+&lt;img height=&#34;10px&#34; width=&#34;0px&#34; src=&#34;../../img/fill.png&#34;&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;In the remixed version of the song “despacito”, Justin Bieber sings in Spanish.
+Some articles online criticize his pronunciation. I analyzed his realization of
+“p” and “t” in Praat and find that, while his pronunciation is not perfect, it is
+pretty good. I don’t believe he commits the “errors” suggested in the article.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;overview&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Overview&lt;/h3&gt;
+&lt;p&gt;I recently heard the song &lt;code&gt;despacito&lt;/code&gt; featuring teen hero Justin Bieber (my wife
+mentioned to me that he sings in Spanish and my curiosity got the best of me).
+I distinctly remember being rather impressed by how well he sang in Spanish, so I was
+surprised when I saw &lt;a href=&#34;http://remezcla.com/music/j-balvin-nicky-jam-despacito-remix/&#34;&gt;this&lt;/a&gt;
+article pop up in my facebook feed. Basically, J Balvin and Nicky Jam (I have
+no idea who these guys are) make fun of J Biebs accent. Specifically, they
+harp on his pronunciation of the title of the song, suggesting the /t/ in the
+diminutive form of “despacio” (slow) is realized as [ɹ]. In fact, they sing it
+a few times [des.pa.si.ɹo] (des-pa-see-row, if you aren’t familiar with IPA) and,
+in jest, claim at one point that he sings ‘dorito’ [ðo.ɹi.ɾo]. You can watch this
+specific part here:&lt;/p&gt;
+&lt;div align=&#34;center&#34;&gt;
+&lt;div class=&#34;video-container&#34;&gt;
+&lt;iframe src=&#34;https://www.youtube.com/embed/jtCScBRaX9k?ecver=1&#34; frameborder=&#34;0&#34; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;/br&gt;&lt;/p&gt;
+&lt;p&gt;Now, this type of non-native pronunciation actually makes a lot of sense, at least
+I think the ‘dorito’ comment does. In American and Canadian English an intervocalic
+“t” (and “d”) is usually pronounced as a flap, which in essence corresponds with
+Spanish “r” in the same position (note: it has to be in the same position, otherwise
+it would pronounced as a trill). This leads to all kinds of difficulties for learners
+of Spanish because they have to avoid a phonological process of their native language.
+For example, a common mispronunciation of the Spanish word “todo” (all) is [to.ɾo],
+which actually means “toro” (bull). That is, English speakers (mis)pronounce the
+intervocalic /d/ as a flap, which is most perceptually similar to Spanish “r”. On the
+other hand, when they try to pronounce “toro”, the “r” is realized as the English rhotic
+[ɹ].&lt;/p&gt;
+&lt;p&gt;Thus, if Bieber were pronouncing /ito/ as most native English speakers do, as a flap,
+it would be perceived as a Spanish “r” (the flap, not the trill). However, there is no
+real explanation for why he would pronounce it with an English rhotic ([ɹ]) as J Balvin
+and Nicky Jam claim. I personally did not hear this pronunciation, so I assume they were
+just teasing the teenage heart throb. Nonetheless, I noticed a lot of comments in the
+article were also making fun of his pronunciation, so I decided I would take a look in
+praat to determine if I am going crazy or if the internet is just full of haters. Here
+is an example of what we will look at:&lt;/p&gt;
+&lt;/br&gt;
+&lt;div align=&#34;center&#34;&gt;
+&lt;audio controls&gt;
+&lt;source src=&#34;./wavs/segmented/despacito.wav&#34; type=&#34;audio/mpeg&#34;&gt;
+Your browser does not support the audio element.
+&lt;/audio&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;/br&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;the-analysis&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;The analysis&lt;/h3&gt;
+&lt;p&gt;I downloaded the music video from youtube and converted the .mp4 file to .m4a, and then
+to .wav. In praat I converted the .wav from stereo to mono. Justin sings the chorus as well
+as some of the verses. I’m just going to look at the chorus because the verses are accompanied
+by Daddy Yankee and/or Luis Fonsi. Luckily, pretty much every time he says “despacito” in the
+chorus there is silence, so we can use that for our analysis. I am going to focus on how he
+pronounces the stop /t/ (though I did get formant frequency measurements for all the vowels…
+maybe for another post). This only leaves us with about 5 useful tokens, but there are also a
+good amount of /p/’s that we can compare them with. Here is arguably the best token:&lt;/p&gt;
+&lt;div align=&#34;center&#34;&gt;
+&lt;p&gt;&lt;img src=&#34;./figs/despacito.png&#34;&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;It’s clear—at least to me—that Justin is not producing an English rhotic where he should
+be producing [t]. In other words, he is &lt;em&gt;not&lt;/em&gt; saying des-pa-see-row. How do I know? Well,
+if we zoom in on the final /ito/, we notice two things: 1) there is clearly a closure and
+2) there is a burst. These are characteristics of a stop consonant. Now, you might be thinking
+“Yeah, but a flap looks pretty similar in a spectrogram” and you wouldn’t be wrong, but the
+clear difference here is that after the release there is a short gap before the voicing of the
+final /o/. This short gap is called voice-onset time (VOT). Stops have VOT; flaps do not. Here
+is a close up:&lt;/p&gt;
+&lt;div align=&#34;center&#34;&gt;
+&lt;p&gt;&lt;img src=&#34;./figs/ito.png&#34;&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;Now a characteristic of English voiceless stops (“p”, “t”, “k”) is that in word initial position
+they are produced with aspiration and have long-lag VOT, usually around 60 ms. We refer to them
+with IPA with: [p&lt;sup&gt;h&lt;/sup&gt;, t&lt;sup&gt;h&lt;/sup&gt;, k&lt;sup&gt;h&lt;/sup&gt;]. Voiceless stops are different in Spanish, as they are not aspirated
+and have short-lag VOT, usually from 0 to 25 ms. The “ito” of “despacito” is word internal, thus,
+in theory, for an English speaker it should not be aspirated because it is normally realized as a flap, though in emphatic
+speech it could be realized as [t&lt;sup&gt;h&lt;/sup&gt;]. Hopefully I have already convinced you that Biebs is not
+flapping. So our next question is: what kind of VOT do his stops have? If they are short-lag, we can
+conclude that they are more Spanish-like. If, on the other hand, they are aspirated, then they
+would be more English-like. So let’s take a look!&lt;/p&gt;
+&lt;p&gt;I measured VOT of every p and t every time Justin sings “despacito”. First, let’s load some packages
+we will need.&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;library(lingStuff); library(tidyverse)&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Now we can load the data and check the structure.&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;# Load data
+bieber_vot &amp;lt;- read_csv(&amp;quot;./data/despacito.csv&amp;quot;)&lt;/code&gt;&lt;/pre&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;# Check structure of dataframe
+bieber_vot %&amp;gt;%
+  select(., prefix, votP, votT) %&amp;gt;%
+  gather(., key = phon, value = vot, -prefix) %&amp;gt;%
+  str(.)
+## Classes &amp;#39;tbl_df&amp;#39;, &amp;#39;tbl&amp;#39; and &amp;#39;data.frame&amp;#39;:    10 obs. of  3 variables:
+##  $ prefix: chr  &amp;quot;despacito&amp;quot; &amp;quot;despacito1&amp;quot; &amp;quot;despacito2&amp;quot; &amp;quot;despacito3&amp;quot; ...
+##  $ phon  : chr  &amp;quot;votP&amp;quot; &amp;quot;votP&amp;quot; &amp;quot;votP&amp;quot; &amp;quot;votP&amp;quot; ...
+##  $ vot   : num  23.3 19.2 19 19.4 15.6 ...&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Looks good. Let’s plot the VOT of the p’s and t’s and see how they look. I’ve
+set the x-limit to range from 0 to 60.&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;# Plot vot as a function of phon
+bieber_vot %&amp;gt;%
+  select(., prefix, votP, votT) %&amp;gt;%
+  gather(., key = phon, value = vot, -prefix) %&amp;gt;%
+  ggplot(., aes(x = phon, y = vot, color = phon)) + 
+    stat_summary(fun.data = &amp;#39;mean_cl_boot&amp;#39;, geom = &amp;#39;pointrange&amp;#39;, size = 1.1) +
+    stat_summary(fun.y = &amp;#39;mean&amp;#39;, geom = &amp;#39;point&amp;#39;, color = &amp;#39;darkred&amp;#39;, size = 2.75) +
+    ylim(0, 60) + ylab(&amp;quot;VOT (ms)&amp;quot;) + xlab(&amp;quot;&amp;quot;) + 
+    scale_x_discrete(labels = c(&amp;#39;/p/&amp;#39;, &amp;#39;/t/&amp;#39;)) + 
+    coord_flip() + 
+    scale_color_brewer(name = &amp;#39;&amp;#39;, guide = F) + 
+    theme_dark(base_size = 22, base_family = &amp;quot;Times&amp;quot;)&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img width=&#34;100%&#34; src=&#34;./figure-html/unnamed-chunk-5-1.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Recall that an English-like VOT would be around 60 ms (but could range from around
+40 to over 100!). We can see that the p’s have a VOT of approximately 20 ms
+(19.29 ms +/- 2.72 sd, to be
+exact), and the t’s have a VOT of around 25 ms (23.1 ms
++/- 7.39 sd). Both are certainly within range of native
+Spanish pronunciations.&lt;/p&gt;
+&lt;p&gt;&lt;grey&gt;Interim conclusion&lt;/grey&gt;: &lt;blue&gt;the internet is full of haters&lt;/blue&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;/br&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;not-so-fast&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Not so fast…&lt;/h3&gt;
+&lt;p&gt;There is one last thing to keep in mind before we give JBiebs a pass on his Spanish and
+it’s an important one. Spanish /t/ and English /t/ are articulated at different places in
+the mouth. Specifically, Spanish /t/ is dental and English /t/ is alveolar. What this means
+is that when an English speaker pronounces a word with a “t” in Spanish, like ‘despacito’,
+she also needs to change the place of articulation, i.e. the tongue needs to make contact
+with the back of the top teeth, and not the hard ridge right above them. When we looked at
+VOT in the present analysis we didn’t take this difference into account. My personal opinion is
+that el señorito does a pretty good job, but if you listen closely to the very last ‘despacito’
+in the song, it does sound rather alveolar, i.e. gringo-y.&lt;/p&gt;
+&lt;p&gt;&lt;grey&gt;Conclusion&lt;/grey&gt;: &lt;blue&gt;the internet is full of haters&lt;/blue&gt;.&lt;/p&gt;
+&lt;style type=&#34;text/css&#34;&gt;
+
+blue {
+    color: #0000CC;
+    font-weight: normal;
+    font-size: 20px;
+}
+
+grey {
+    color: #515151;
+    font-size: 22px;
+    font-weight: normal;
+}
+
+.video-container {
+    position: relative;
+    padding-bottom: 50%;
+    padding-top: 35px;
+    height: 0;
+    overflow: hidden;
+    width: 70%;
+}
+
+.video-container iframe {
+    position: center;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+&lt;/style&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Technology for teaching: Using Praat to teach L2 pronunciation</title>
+      <link>/talk/previous-talk/</link>
+      <pubDate>Thu, 13 Apr 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/talk/previous-talk/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Lexically driven selective adaptation by ambiguous auditory stimuli occurs after limited exposure to adaptors</title>
+      <link>/publication/llompart_casillas_jasa_2016/</link>
+      <pubDate>Sun, 01 May 2016 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/llompart_casillas_jasa_2016/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Bivariate linear regression</title>
+      <link>/project/shiny_bivariate_regression/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>/project/shiny_bivariate_regression/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Central limit theorem</title>
+      <link>/project/shiny_clt/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>/project/shiny_clt/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Crossover</title>
+      <link>/project/shiny_crossover/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>/project/shiny_crossover/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Generalized linear model</title>
+      <link>/project/shiny_glm/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>/project/shiny_glm/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>LaTeX IPA</title>
+      <link>/project/latex_ipa/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>/project/latex_ipa/</guid>
+      <description>
+
+&lt;iframe src=&#34;http://ghbtns.com/github-btn.html?user=jvcasillas&amp;repo=LaTeX-IPA&amp;type=watch&amp;count=true&amp;size=large&#34; height=&#34;30&#34; width=&#34;170&#34; frameborder=&#34;0&#34; scrolling=&#34;0&#34; style=&#34;width:130px; height: 30px;&#34; allowTransparency=&#34;true&#34;&gt;&lt;/iframe&gt;
+&lt;iframe src=&#34;http://ghbtns.com/github-btn.html?user=jvcasillas&amp;repo=LaTeX-IPA&amp;type=fork&amp;count=true&amp;size=large&#34; height=&#34;30&#34; width=&#34;170&#34; frameborder=&#34;0&#34; scrolling=&#34;0&#34; style=&#34;width:130px; height: 30px;&#34; allowTransparency=&#34;true&#34;&gt;&lt;/iframe&gt;
+&lt;iframe src=&#34;http://ghbtns.com/github-btn.html?user=jvcasillas&amp;type=follow&amp;count=true&amp;size=large&#34; height=&#34;30&#34; width=&#34;240&#34; frameborder=&#34;0&#34; scrolling=&#34;0&#34; style=&#34;width:240px; height: 30px;&#34; allowTransparency=&#34;true&#34;&gt;&lt;/iframe&gt;
+
+&lt;p&gt;&lt;/p&gt;
+
+&lt;p&gt;I made this repository to simplify the process of using IPA in $\LaTeX$. It is merely a collection of snippets for the package &lt;a href=&#34;http://www.ctan.org/pkg/tipa&#34; target=&#34;_blank&#34;&gt;TIPA&lt;/a&gt;. To install LaTeX-IPA see the &lt;a href=&#34;https://sublime.wbond.net/packages/LaTeX-IPA&#34; target=&#34;_blank&#34;&gt;package control&lt;/a&gt; page.&lt;/p&gt;
+
+&lt;h3 id=&#34;file-naming&#34;&gt;File naming&lt;/h3&gt;
+
+&lt;p&gt;Consonants are labeled in the following way:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;voicing -&amp;gt; point of articulation -&amp;gt; mode of articulation&lt;br /&gt;
+Ex. voiceless-bilabial-aprox.sublime-snippet = [&amp;beta;]&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Vowels are labeled in the following way:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;vowel -&amp;gt; tense/lax -&amp;gt; height -&amp;gt; frontedness -&amp;gt; rounding&lt;br /&gt;
+Ex. vowel-tense-high-front-unrounded.sublime-snippet = [i]&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;tab-triggers&#34;&gt;Tab triggers&lt;/h3&gt;
+
+&lt;p&gt;There are 6 main groups:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Diacritics&lt;/strong&gt;: type &amp;ldquo;diac&amp;rdquo; + tab&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Vowels&lt;/strong&gt;: type &amp;ldquo;vowel&amp;rdquo; + tab&lt;br /&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Consonants are divided into four subcategories:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Fricatives&lt;/strong&gt; type &amp;ldquo;fric&amp;rdquo; + tab&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Affricates&lt;/strong&gt; type &amp;ldquo;affr&amp;rdquo; + tab&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Liquids&lt;/strong&gt;: type &amp;ldquo;liquid&amp;rdquo; + tab&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Nasals&lt;/strong&gt;: type &amp;ldquo;nasal&amp;rdquo; + tab&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;notes&#34;&gt;Notes&lt;/h3&gt;
+
+&lt;p&gt;As of now (10/19/2013), I have only included the symbols that I use the most in English and Spanish. I will continue adding to the repository over time. It should be noted that the consonants do not include all categories (i.e. stops). This is because they are not represented by unsual symbols in IPA.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

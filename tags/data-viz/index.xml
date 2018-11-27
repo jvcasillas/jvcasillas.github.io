@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>data viz on Joseph V. Casillas</title>
+    <link>/tags/data-viz/</link>
+    <description>Recent content in data viz on Joseph V. Casillas</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Joseph V. Casillas&lt;/br&gt;&amp;copy; 2018&lt;/br&gt;</copyright>
+    <lastBuildDate>Mon, 20 Apr 2015 21:13:14 -0500</lastBuildDate>
+    
+	<atom:link href="/tags/data-viz/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Basic plotting in R</title>
+      <link>/post/2015-04-20_plotting_in_r/</link>
+      <pubDate>Mon, 20 Apr 2015 21:13:14 -0500</pubDate>
+      
+      <guid>/post/2015-04-20_plotting_in_r/</guid>
+      <description> </description>
+    </item>
+    
+    <item>
+      <title>TikzDevice tutorial III: standalone plots</title>
+      <link>/post/2014-05-28_tikz_-_standalone_plots/</link>
+      <pubDate>Wed, 28 May 2014 21:13:14 -0500</pubDate>
+      
+      <guid>/post/2014-05-28_tikz_-_standalone_plots/</guid>
+      <description>In this post I’m going to show you how to use TikzDevice to create high quality plots that use the same font as your LaTeX document. I’m assuming that you have already installed tikz. If not, see part I in this series. Moreover, this tutorial assumes that you have set up your project in the same way outlined in part II. An added benefit to this approach is that it allows you to insert IPA symbols into the plot via the tipa package.</description>
+    </item>
+    
+    <item>
+      <title>TikzDevice tutorial II: structuring a project</title>
+      <link>/post/2013-05-17_tikz_-_projects/</link>
+      <pubDate>Fri, 17 May 2013 21:13:14 -0500</pubDate>
+      
+      <guid>/post/2013-05-17_tikz_-_projects/</guid>
+      <description>Overview This mini tutorial is part II about incorporating tikzDevice into your workflow. It explains the file structure necessary to successfully include tikzDevice plots into your LaTeX document. You must first have tikzDevice installed. If you don’t, see part I for more information.
+ The structure A simple yet effective way to do reproducible research is to use R (for statistical analysis) directly in a LaTeX environment. There are two ways to accomplish this: (1) Sweave and (2) knitr.</description>
+    </item>
+    
+    <item>
+      <title>TikzDevice tutorial I: install tikzDevice in R</title>
+      <link>/post/2013-05-11_tikz_-_installation/</link>
+      <pubDate>Sat, 11 May 2013 21:13:14 -0500</pubDate>
+      
+      <guid>/post/2013-05-11_tikz_-_installation/</guid>
+      <description>Overview This is a short tutorial for getting tikzDevice running on R version 3.0. If you write in LaTeX and use R for statistics, this is a good way to get your plots/graphs/etc. into your .tex document. The advantages are:
+much higher quality and you can use IPA symbols   Download tiksDevice TiksDevice is no longer officially supported by CRAN because the author was having trouble keeping it updated in a timely manner (Check out this webpage if you want to read a little more about the situation).</description>
+    </item>
+    
+  </channel>
+</rss>

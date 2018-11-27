@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>google sheets on Joseph V. Casillas</title>
+    <link>/tags/google-sheets/</link>
+    <description>Recent content in google sheets on Joseph V. Casillas</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Joseph V. Casillas&lt;/br&gt;&amp;copy; 2018&lt;/br&gt;</copyright>
+    <lastBuildDate>Tue, 16 Jun 2015 21:13:14 -0500</lastBuildDate>
+    
+	<atom:link href="/tags/google-sheets/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>How to scrape data from Google Sheets in R</title>
+      <link>/post/2015-06-16_google_sheets_in_r/</link>
+      <pubDate>Tue, 16 Jun 2015 21:13:14 -0500</pubDate>
+      
+      <guid>/post/2015-06-16_google_sheets_in_r/</guid>
+      <description>Google Forms offers a convenient way to collect data online. It is particularly useful because you can embed the form in a webpage, link the results with a spreadsheet and publish the results online. This post shows how to scrape the data from the spreadsheet (google form) in r using the package RCurl. You should be able to follow along by copying and pasting the code into an R session.</description>
+    </item>
+    
+  </channel>
+</rss>

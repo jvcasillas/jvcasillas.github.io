@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>html on Joseph V. Casillas</title>
+    <link>/tags/html/</link>
+    <description>Recent content in html on Joseph V. Casillas</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Joseph V. Casillas&lt;/br&gt;&amp;copy; 2018&lt;/br&gt;</copyright>
+    <lastBuildDate>Tue, 07 Jan 2014 21:13:14 -0500</lastBuildDate>
+    
+	<atom:link href="/tags/html/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Converting markdown files to HTML5 in RStudio</title>
+      <link>/post/2014-01-07_converting_rmarkdown_files_to_html5/</link>
+      <pubDate>Tue, 07 Jan 2014 21:13:14 -0500</pubDate>
+      
+      <guid>/post/2014-01-07_converting_rmarkdown_files_to_html5/</guid>
+      <description>HTML5 slides I recently learned how to create HTML5 slides using .Rmd files and pandoc. Click here to check out an example. I will be posting a tutorial on how to do this in the near future (I hope).
+Update Here is a much cooler example I found on mages’ blog
+Update 2 This process has been streamlined in the newest update to RStudio (check it out here). The results are quite impressive (Ex.</description>
+    </item>
+    
+  </channel>
+</rss>

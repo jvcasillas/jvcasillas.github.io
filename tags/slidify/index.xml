@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>slidify on Joseph V. Casillas</title>
+    <link>/tags/slidify/</link>
+    <description>Recent content in slidify on Joseph V. Casillas</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Joseph V. Casillas&lt;/br&gt;&amp;copy; 2018&lt;/br&gt;</copyright>
+    <lastBuildDate>Sun, 22 Mar 2015 21:13:14 -0500</lastBuildDate>
+    
+	<atom:link href="/tags/slidify/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Slidify tutorial</title>
+      <link>/post/2015-03-22_slidify_tutorial/</link>
+      <pubDate>Sun, 22 Mar 2015 21:13:14 -0500</pubDate>
+      
+      <guid>/post/2015-03-22_slidify_tutorial/</guid>
+      <description> </description>
+    </item>
+    
+  </channel>
+</rss>
