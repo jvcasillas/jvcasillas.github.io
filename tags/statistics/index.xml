@@ -18,7 +18,7 @@
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
       
       <guid>/project/shiny_bivariate_regression/</guid>
-      <description></description>
+      <description>A shiny web app built in R for teaching the linear model.</description>
     </item>
     
     <item>
@@ -27,7 +27,7 @@
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
       
       <guid>/project/shiny_clt/</guid>
-      <description></description>
+      <description>A shiny web app built in R for teaching the central limit theorem.</description>
     </item>
     
     <item>
@@ -36,7 +36,7 @@
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
       
       <guid>/project/shiny_crossover/</guid>
-      <description></description>
+      <description>A shiny web app built in R for calculating boundary crossover points in logistic regression.</description>
     </item>
     
     <item>
@@ -45,25 +45,7 @@
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
       
       <guid>/project/shiny_glm/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Power/Sample size calculator</title>
-      <link>/project/shiny_power/</link>
-      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      
-      <guid>/project/shiny_power/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>R for linguists</title>
-      <link>/project/r_for_linguists/</link>
-      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      
-      <guid>/project/r_for_linguists/</guid>
-      <description></description>
+      <description>A shiny web app built in R for teaching the generalized linear model.</description>
     </item>
     
     <item>
@@ -72,7 +54,25 @@
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
       
       <guid>/project/lingstuff/</guid>
-      <description></description>
+      <description>An R package with handy functions I use in my linguistic research.</description>
+    </item>
+    
+    <item>
+      <title>Power/Sample size calculator</title>
+      <link>/project/shiny_power/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>/project/shiny_power/</guid>
+      <description>A shiny web app built in R for teaching statistical power and sample sizes.</description>
+    </item>
+    
+    <item>
+      <title>R for linguists</title>
+      <link>/project/r_for_linguists/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>/project/r_for_linguists/</guid>
+      <description>A shiny web app built in R for teaching R using the tidyverse.</description>
     </item>
     
   </channel>

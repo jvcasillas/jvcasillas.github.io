@@ -1,16 +1,36 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>linguistics on Joseph V. Casillas</title>
+    <title>Linguistics on Joseph V. Casillas</title>
     <link>/tags/linguistics/</link>
-    <description>Recent content in linguistics on Joseph V. Casillas</description>
+    <description>Recent content in Linguistics on Joseph V. Casillas</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Joseph V. Casillas&lt;/br&gt;&amp;copy; 2019&lt;/br&gt;</copyright>
-    <lastBuildDate>Wed, 27 Apr 2016 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 16 Sep 2018 21:13:14 -0500</lastBuildDate>
     
 	<atom:link href="/tags/linguistics/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Setting up a whisper room sound booth</title>
+      <link>/post/2018-09-16_setting_up_a_whisper_room_sound_booth/</link>
+      <pubDate>Sun, 16 Sep 2018 21:13:14 -0500</pubDate>
+      
+      <guid>/post/2018-09-16_setting_up_a_whisper_room_sound_booth/</guid>
+      <description> Packaging         Previous   Next    Assembly             Previous   Next    Aftermath       Previous   Next    Walkthrough     Previous   Next   
+ </description>
+    </item>
+    
+    <item>
+      <title>Justin Bieber sings in Spanish: How&#39;d he do?</title>
+      <link>/post/2017-05-15_analysis_of_justin_bieber_singing_in_spanish_-_despacito/</link>
+      <pubDate>Mon, 15 May 2017 21:13:14 -0500</pubDate>
+      
+      <guid>/post/2017-05-15_analysis_of_justin_bieber_singing_in_spanish_-_despacito/</guid>
+      <description>TL; DR  In the remixed version of the song “despacito”, Justin Bieber sings in Spanish. Some articles online criticize his pronunciation. I analyzed his realization of “p” and “t” in Praat and find that, while his pronunciation is not perfect, it is pretty good. I don’t believe he commits the “errors” suggested in the article.
+ Overview I recently heard the song despacito featuring teen hero Justin Bieber (my wife mentioned to me that he sings in Spanish and my curiosity got the best of me).</description>
+    </item>
     
     <item>
       <title>Crossover</title>
@@ -18,7 +38,7 @@
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
       
       <guid>/project/shiny_crossover/</guid>
-      <description></description>
+      <description>A shiny web app built in R for calculating boundary crossover points in logistic regression.</description>
     </item>
     
     <item>
@@ -27,20 +47,7 @@
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
       
       <guid>/project/latex_ipa/</guid>
-      <description>I made this repository to simplify the process of using IPA in $\LaTeX$. It is merely a collection of snippets for the package TIPA. To install LaTeX-IPA see the package control page.
-File naming Consonants are labeled in the following way:
- voicing -&amp;gt; point of articulation -&amp;gt; mode of articulation
-Ex. voiceless-bilabial-aprox.sublime-snippet = [&amp;beta;]  Vowels are labeled in the following way:
- vowel -&amp;gt; tense/lax -&amp;gt; height -&amp;gt; frontedness -&amp;gt; rounding</description>
-    </item>
-    
-    <item>
-      <title>Spanish allophones and distinctive features</title>
-      <link>/project/shiny_distinctivefeatures/</link>
-      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      
-      <guid>/project/shiny_distinctivefeatures/</guid>
-      <description></description>
+      <description>A collection of snippets for SublimeText that simplify the process of using IPA in LaTeX.</description>
     </item>
     
     <item>
@@ -49,7 +56,16 @@ Ex. voiceless-bilabial-aprox.sublime-snippet = [&amp;beta;]  Vowels are labeled 
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
       
       <guid>/project/lingstuff/</guid>
-      <description></description>
+      <description>An R package with handy functions I use in my linguistic research.</description>
+    </item>
+    
+    <item>
+      <title>Spanish allophones and distinctive features</title>
+      <link>/project/shiny_distinctivefeatures/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>/project/shiny_distinctivefeatures/</guid>
+      <description>A shiny web app built in R for teaching the distinctive features of Spanish speech sounds.</description>
     </item>
     
   </channel>

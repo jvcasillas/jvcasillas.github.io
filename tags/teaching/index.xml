@@ -18,7 +18,7 @@
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
       
       <guid>/project/shiny_bivariate_regression/</guid>
-      <description></description>
+      <description>A shiny web app built in R for teaching the linear model.</description>
     </item>
     
     <item>
@@ -27,7 +27,7 @@
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
       
       <guid>/project/shiny_clt/</guid>
-      <description></description>
+      <description>A shiny web app built in R for teaching the central limit theorem.</description>
     </item>
     
     <item>
@@ -36,7 +36,7 @@
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
       
       <guid>/project/shiny_crossover/</guid>
-      <description></description>
+      <description>A shiny web app built in R for calculating boundary crossover points in logistic regression.</description>
     </item>
     
     <item>
@@ -45,7 +45,7 @@
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
       
       <guid>/project/shiny_glm/</guid>
-      <description></description>
+      <description>A shiny web app built in R for teaching the generalized linear model.</description>
     </item>
     
     <item>
@@ -54,7 +54,7 @@
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
       
       <guid>/project/shiny_power/</guid>
-      <description></description>
+      <description>A shiny web app built in R for teaching statistical power and sample sizes.</description>
     </item>
     
     <item>
@@ -63,7 +63,7 @@
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
       
       <guid>/project/r_for_linguists/</guid>
-      <description></description>
+      <description>A shiny web app built in R for teaching R using the tidyverse.</description>
     </item>
     
     <item>
@@ -72,7 +72,7 @@
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
       
       <guid>/project/shiny_distinctivefeatures/</guid>
-      <description></description>
+      <description>A shiny web app built in R for teaching the distinctive features of Spanish speech sounds.</description>
     </item>
     
   </channel>

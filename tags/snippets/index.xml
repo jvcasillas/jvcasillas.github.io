@@ -18,7 +18,7 @@
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
       
       <guid>/project/r_snippets/</guid>
-      <description>This repository is a collection of snippets that I use in SublimeText for doing statistical analysis in R. The goal is straightforward: document the code that I use most often while doing linguistic research and make it readily available (and understandable) to other linguists. If you are interested in helping see the github repository. To install R-snippets see the package control page. To use a snippet, type the trigger and hit the tab key.</description>
+      <description>A collection of snippets that I use in SublimeText for doing statistical analysis in R</description>
     </item>
     
   </channel>

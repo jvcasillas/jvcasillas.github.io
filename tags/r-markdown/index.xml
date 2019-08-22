@@ -18,7 +18,7 @@
       <pubDate>Mon, 13 Apr 2015 21:13:14 -0500</pubDate>
       
       <guid>/post/2015-04-13_html_widgets/</guid>
-      <description> </description>
+      <description>Walkthrough for incorporating HTML widgets into an Rmarkdown document.</description>
     </item>
     
     <item>
@@ -27,8 +27,7 @@
       <pubDate>Mon, 26 May 2014 21:13:14 -0500</pubDate>
       
       <guid>/post/2014-05-26_knitr_bootstrap/</guid>
-      <description> Knitr bootstrap makes generating standalone reports extremely easy and the output looks really neat. Check out the example here. To recreate this you need to download the preview release of R Studio, and set up the front matter as follows:
---- output: knitrBootstrap::bootstrap_document: title: &amp;quot;&amp;quot; theme: default highlight: sunburst theme.chooser: TRUE highlight.chooser: TRUE --- </description>
+      <description>Quick and dirty test for knitr boostrap framework.</description>
     </item>
     
     <item>

@@ -7,28 +7,10 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Joseph V. Casillas&lt;/br&gt;&amp;copy; 2019&lt;/br&gt;</copyright>
-    <lastBuildDate>Sun, 01 Jan 2017 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 16 Sep 2018 21:13:14 -0500</lastBuildDate>
     
 	<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>Content tagged as &#39;Academic&#39;</title>
-      <link>/tags/academic/</link>
-      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/academic/</guid>
-      <description>Here is a list of all the content that has been tagged as academic.</description>
-    </item>
-    
-    <item>
-      <title>Bieber</title>
-      <link>/tags/bieber/</link>
-      <pubDate>Mon, 15 May 2017 21:13:14 -0500</pubDate>
-      
-      <guid>/tags/bieber/</guid>
-      <description></description>
-    </item>
     
     <item>
       <title>Equipment</title>
@@ -58,47 +40,29 @@
     </item>
     
     <item>
-      <title>Praat</title>
-      <link>/tags/praat/</link>
-      <pubDate>Thu, 09 May 2013 21:13:14 -0500</pubDate>
-      
-      <guid>/tags/praat/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>R</title>
-      <link>/tags/r/</link>
-      <pubDate>Mon, 22 Jun 2015 21:13:14 -0500</pubDate>
-      
-      <guid>/tags/r/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>R markdown</title>
-      <link>/tags/r-markdown/</link>
-      <pubDate>Mon, 13 Apr 2015 21:13:14 -0500</pubDate>
-      
-      <guid>/tags/r-markdown/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>RStudio</title>
-      <link>/tags/rstudio/</link>
-      <pubDate>Tue, 07 Jan 2014 21:13:14 -0500</pubDate>
-      
-      <guid>/tags/rstudio/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Sound booth</title>
       <link>/tags/sound-booth/</link>
       <pubDate>Sun, 16 Sep 2018 21:13:14 -0500</pubDate>
       
       <guid>/tags/sound-booth/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Whisper room</title>
+      <link>/tags/whisper-room/</link>
+      <pubDate>Sun, 16 Sep 2018 21:13:14 -0500</pubDate>
+      
+      <guid>/tags/whisper-room/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Bieber</title>
+      <link>/tags/bieber/</link>
+      <pubDate>Mon, 15 May 2017 21:13:14 -0500</pubDate>
+      
+      <guid>/tags/bieber/</guid>
       <description></description>
     </item>
     
@@ -121,48 +85,12 @@
     </item>
     
     <item>
-      <title>Whisper room</title>
-      <link>/tags/whisper-room/</link>
-      <pubDate>Sun, 16 Sep 2018 21:13:14 -0500</pubDate>
+      <title>Content tagged as &#39;Academic&#39;</title>
+      <link>/tags/academic/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
       
-      <guid>/tags/whisper-room/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>base</title>
-      <link>/tags/base/</link>
-      <pubDate>Mon, 20 Apr 2015 21:13:14 -0500</pubDate>
-      
-      <guid>/tags/base/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>bootstrap</title>
-      <link>/tags/bootstrap/</link>
-      <pubDate>Mon, 26 May 2014 21:13:14 -0500</pubDate>
-      
-      <guid>/tags/bootstrap/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>data cleaning</title>
-      <link>/tags/data-cleaning/</link>
-      <pubDate>Mon, 22 Jun 2015 21:13:14 -0500</pubDate>
-      
-      <guid>/tags/data-cleaning/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>data viz</title>
-      <link>/tags/data-viz/</link>
-      <pubDate>Mon, 20 Apr 2015 21:13:14 -0500</pubDate>
-      
-      <guid>/tags/data-viz/</guid>
-      <description></description>
+      <guid>/tags/academic/</guid>
+      <description>Here is a list of all the content that has been tagged as academic.</description>
     </item>
     
     <item>
@@ -171,42 +99,6 @@
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
       
       <guid>/tags/dictionary/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>ggplot2</title>
-      <link>/tags/ggplot2/</link>
-      <pubDate>Mon, 20 Apr 2015 21:13:14 -0500</pubDate>
-      
-      <guid>/tags/ggplot2/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>google sheets</title>
-      <link>/tags/google-sheets/</link>
-      <pubDate>Tue, 16 Jun 2015 21:13:14 -0500</pubDate>
-      
-      <guid>/tags/google-sheets/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>html</title>
-      <link>/tags/html/</link>
-      <pubDate>Tue, 07 Jan 2014 21:13:14 -0500</pubDate>
-      
-      <guid>/tags/html/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>html widgets</title>
-      <link>/tags/html-widgets/</link>
-      <pubDate>Mon, 13 Apr 2015 21:13:14 -0500</pubDate>
-      
-      <guid>/tags/html-widgets/</guid>
       <description></description>
     </item>
     
@@ -220,29 +112,11 @@
     </item>
     
     <item>
-      <title>knitr</title>
-      <link>/tags/knitr/</link>
-      <pubDate>Mon, 26 May 2014 21:13:14 -0500</pubDate>
-      
-      <guid>/tags/knitr/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>latex</title>
       <link>/tags/latex/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
       
       <guid>/tags/latex/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>lattice</title>
-      <link>/tags/lattice/</link>
-      <pubDate>Mon, 20 Apr 2015 21:13:14 -0500</pubDate>
-      
-      <guid>/tags/lattice/</guid>
       <description></description>
     </item>
     
@@ -256,24 +130,6 @@
     </item>
     
     <item>
-      <title>linguistics</title>
-      <link>/tags/linguistics/</link>
-      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/linguistics/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>presentation software</title>
-      <link>/tags/presentation-software/</link>
-      <pubDate>Sun, 22 Mar 2015 21:13:14 -0500</pubDate>
-      
-      <guid>/tags/presentation-software/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>programming</title>
       <link>/tags/programming/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
@@ -283,29 +139,11 @@
     </item>
     
     <item>
-      <title>project</title>
-      <link>/tags/project/</link>
-      <pubDate>Fri, 17 May 2013 21:13:14 -0500</pubDate>
-      
-      <guid>/tags/project/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>r</title>
+      <title>R</title>
       <link>/tags/r/</link>
-      <pubDate>Mon, 22 Jun 2015 21:13:14 -0500</pubDate>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
       
       <guid>/tags/r/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>slidify</title>
-      <link>/tags/slidify/</link>
-      <pubDate>Sun, 22 Mar 2015 21:13:14 -0500</pubDate>
-      
-      <guid>/tags/slidify/</guid>
       <description></description>
     </item>
     
@@ -346,6 +184,24 @@
     </item>
     
     <item>
+      <title>workflow</title>
+      <link>/tags/workflow/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/workflow/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>data cleaning</title>
+      <link>/tags/data-cleaning/</link>
+      <pubDate>Mon, 22 Jun 2015 21:13:14 -0500</pubDate>
+      
+      <guid>/tags/data-cleaning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>tidy data</title>
       <link>/tags/tidy-data/</link>
       <pubDate>Mon, 22 Jun 2015 21:13:14 -0500</pubDate>
@@ -373,11 +229,11 @@
     </item>
     
     <item>
-      <title>tikz</title>
-      <link>/tags/tikz/</link>
-      <pubDate>Wed, 28 May 2014 21:13:14 -0500</pubDate>
+      <title>google sheets</title>
+      <link>/tags/google-sheets/</link>
+      <pubDate>Tue, 16 Jun 2015 21:13:14 -0500</pubDate>
       
-      <guid>/tags/tikz/</guid>
+      <guid>/tags/google-sheets/</guid>
       <description></description>
     </item>
     
@@ -391,11 +247,137 @@
     </item>
     
     <item>
-      <title>workflow</title>
-      <link>/tags/workflow/</link>
-      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      <title>base</title>
+      <link>/tags/base/</link>
+      <pubDate>Mon, 20 Apr 2015 21:13:14 -0500</pubDate>
       
-      <guid>/tags/workflow/</guid>
+      <guid>/tags/base/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>data viz</title>
+      <link>/tags/data-viz/</link>
+      <pubDate>Mon, 20 Apr 2015 21:13:14 -0500</pubDate>
+      
+      <guid>/tags/data-viz/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ggplot2</title>
+      <link>/tags/ggplot2/</link>
+      <pubDate>Mon, 20 Apr 2015 21:13:14 -0500</pubDate>
+      
+      <guid>/tags/ggplot2/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>lattice</title>
+      <link>/tags/lattice/</link>
+      <pubDate>Mon, 20 Apr 2015 21:13:14 -0500</pubDate>
+      
+      <guid>/tags/lattice/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>html widgets</title>
+      <link>/tags/html-widgets/</link>
+      <pubDate>Mon, 13 Apr 2015 21:13:14 -0500</pubDate>
+      
+      <guid>/tags/html-widgets/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>R markdown</title>
+      <link>/tags/r-markdown/</link>
+      <pubDate>Mon, 13 Apr 2015 21:13:14 -0500</pubDate>
+      
+      <guid>/tags/r-markdown/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>presentation software</title>
+      <link>/tags/presentation-software/</link>
+      <pubDate>Sun, 22 Mar 2015 21:13:14 -0500</pubDate>
+      
+      <guid>/tags/presentation-software/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>slidify</title>
+      <link>/tags/slidify/</link>
+      <pubDate>Sun, 22 Mar 2015 21:13:14 -0500</pubDate>
+      
+      <guid>/tags/slidify/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>tikz</title>
+      <link>/tags/tikz/</link>
+      <pubDate>Wed, 28 May 2014 21:13:14 -0500</pubDate>
+      
+      <guid>/tags/tikz/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>bootstrap</title>
+      <link>/tags/bootstrap/</link>
+      <pubDate>Mon, 26 May 2014 21:13:14 -0500</pubDate>
+      
+      <guid>/tags/bootstrap/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>knitr</title>
+      <link>/tags/knitr/</link>
+      <pubDate>Mon, 26 May 2014 21:13:14 -0500</pubDate>
+      
+      <guid>/tags/knitr/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>html</title>
+      <link>/tags/html/</link>
+      <pubDate>Tue, 07 Jan 2014 21:13:14 -0500</pubDate>
+      
+      <guid>/tags/html/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>RStudio</title>
+      <link>/tags/rstudio/</link>
+      <pubDate>Tue, 07 Jan 2014 21:13:14 -0500</pubDate>
+      
+      <guid>/tags/rstudio/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>project</title>
+      <link>/tags/project/</link>
+      <pubDate>Fri, 17 May 2013 21:13:14 -0500</pubDate>
+      
+      <guid>/tags/project/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Praat</title>
+      <link>/tags/praat/</link>
+      <pubDate>Thu, 09 May 2013 21:13:14 -0500</pubDate>
+      
+      <guid>/tags/praat/</guid>
       <description></description>
     </item>
     

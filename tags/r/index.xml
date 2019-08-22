@@ -1,16 +1,97 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>r on Joseph V. Casillas</title>
+    <title>R on Joseph V. Casillas</title>
     <link>/tags/r/</link>
-    <description>Recent content in r on Joseph V. Casillas</description>
+    <description>Recent content in R on Joseph V. Casillas</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Joseph V. Casillas&lt;/br&gt;&amp;copy; 2019&lt;/br&gt;</copyright>
-    <lastBuildDate>Mon, 22 Jun 2015 21:13:14 -0500</lastBuildDate>
+    <lastBuildDate>Wed, 27 Apr 2016 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/tags/r/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Bivariate linear regression</title>
+      <link>/project/shiny_bivariate_regression/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>/project/shiny_bivariate_regression/</guid>
+      <description>A shiny web app built in R for teaching the linear model.</description>
+    </item>
+    
+    <item>
+      <title>Central limit theorem</title>
+      <link>/project/shiny_clt/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>/project/shiny_clt/</guid>
+      <description>A shiny web app built in R for teaching the central limit theorem.</description>
+    </item>
+    
+    <item>
+      <title>Crossover</title>
+      <link>/project/shiny_crossover/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>/project/shiny_crossover/</guid>
+      <description>A shiny web app built in R for calculating boundary crossover points in logistic regression.</description>
+    </item>
+    
+    <item>
+      <title>Generalized linear model</title>
+      <link>/project/shiny_glm/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>/project/shiny_glm/</guid>
+      <description>A shiny web app built in R for teaching the generalized linear model.</description>
+    </item>
+    
+    <item>
+      <title>lingStuff</title>
+      <link>/project/lingstuff/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>/project/lingstuff/</guid>
+      <description>An R package with handy functions I use in my linguistic research.</description>
+    </item>
+    
+    <item>
+      <title>Power/Sample size calculator</title>
+      <link>/project/shiny_power/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>/project/shiny_power/</guid>
+      <description>A shiny web app built in R for teaching statistical power and sample sizes.</description>
+    </item>
+    
+    <item>
+      <title>R for linguists</title>
+      <link>/project/r_for_linguists/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>/project/r_for_linguists/</guid>
+      <description>A shiny web app built in R for teaching R using the tidyverse.</description>
+    </item>
+    
+    <item>
+      <title>R-Snippets</title>
+      <link>/project/r_snippets/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>/project/r_snippets/</guid>
+      <description>A collection of snippets that I use in SublimeText for doing statistical analysis in R</description>
+    </item>
+    
+    <item>
+      <title>Spanish allophones and distinctive features</title>
+      <link>/project/shiny_distinctivefeatures/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>/project/shiny_distinctivefeatures/</guid>
+      <description>A shiny web app built in R for teaching the distinctive features of Spanish speech sounds.</description>
+    </item>
     
     <item>
       <title>tidyr tutorial</title>
@@ -18,7 +99,7 @@
       <pubDate>Mon, 22 Jun 2015 21:13:14 -0500</pubDate>
       
       <guid>/post/2015-06-22_tidyr_tutorial/</guid>
-      <description> </description>
+      <description>Tutorial showing the functionality of the tidyr package for data munging.</description>
     </item>
     
     <item>
@@ -45,7 +126,7 @@
       <pubDate>Mon, 20 Apr 2015 21:13:14 -0500</pubDate>
       
       <guid>/post/2015-04-20_plotting_in_r/</guid>
-      <description> </description>
+      <description>Step-by-step examples for using the three main plotting systems in R.</description>
     </item>
     
     <item>
@@ -54,7 +135,7 @@
       <pubDate>Mon, 13 Apr 2015 21:13:14 -0500</pubDate>
       
       <guid>/post/2015-04-13_html_widgets/</guid>
-      <description> </description>
+      <description>Walkthrough for incorporating HTML widgets into an Rmarkdown document.</description>
     </item>
     
     <item>
@@ -63,7 +144,7 @@
       <pubDate>Sun, 22 Mar 2015 21:13:14 -0500</pubDate>
       
       <guid>/post/2015-03-22_slidify_tutorial/</guid>
-      <description> </description>
+      <description>Tutorial for creating HTML presentations using R and slidify.</description>
     </item>
     
     <item>
@@ -81,8 +162,7 @@
       <pubDate>Mon, 26 May 2014 21:13:14 -0500</pubDate>
       
       <guid>/post/2014-05-26_knitr_bootstrap/</guid>
-      <description> Knitr bootstrap makes generating standalone reports extremely easy and the output looks really neat. Check out the example here. To recreate this you need to download the preview release of R Studio, and set up the front matter as follows:
---- output: knitrBootstrap::bootstrap_document: title: &amp;quot;&amp;quot; theme: default highlight: sunburst theme.chooser: TRUE highlight.chooser: TRUE --- </description>
+      <description>Quick and dirty test for knitr boostrap framework.</description>
     </item>
     
     <item>

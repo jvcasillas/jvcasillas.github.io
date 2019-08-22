@@ -18,7 +18,7 @@
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
       
       <guid>/project/shiny_bivariate_regression/</guid>
-      <description></description>
+      <description>A shiny web app built in R for teaching the linear model.</description>
     </item>
     
     <item>
@@ -27,7 +27,7 @@
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
       
       <guid>/project/shiny_clt/</guid>
-      <description></description>
+      <description>A shiny web app built in R for teaching the central limit theorem.</description>
     </item>
     
     <item>
@@ -36,7 +36,7 @@
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
       
       <guid>/project/shiny_crossover/</guid>
-      <description></description>
+      <description>A shiny web app built in R for calculating boundary crossover points in logistic regression.</description>
     </item>
     
     <item>
@@ -45,7 +45,7 @@
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
       
       <guid>/project/shiny_glm/</guid>
-      <description></description>
+      <description>A shiny web app built in R for teaching the generalized linear model.</description>
     </item>
     
     <item>
@@ -54,56 +54,7 @@
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
       
       <guid>/project/latex_ipa/</guid>
-      <description>I made this repository to simplify the process of using IPA in $\LaTeX$. It is merely a collection of snippets for the package TIPA. To install LaTeX-IPA see the package control page.
-File naming Consonants are labeled in the following way:
- voicing -&amp;gt; point of articulation -&amp;gt; mode of articulation
-Ex. voiceless-bilabial-aprox.sublime-snippet = [&amp;beta;]  Vowels are labeled in the following way:
- vowel -&amp;gt; tense/lax -&amp;gt; height -&amp;gt; frontedness -&amp;gt; rounding</description>
-    </item>
-    
-    <item>
-      <title>Power/Sample size calculator</title>
-      <link>/project/shiny_power/</link>
-      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      
-      <guid>/project/shiny_power/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>R for linguists</title>
-      <link>/project/r_for_linguists/</link>
-      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      
-      <guid>/project/r_for_linguists/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>R-Snippets</title>
-      <link>/project/r_snippets/</link>
-      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      
-      <guid>/project/r_snippets/</guid>
-      <description>This repository is a collection of snippets that I use in SublimeText for doing statistical analysis in R. The goal is straightforward: document the code that I use most often while doing linguistic research and make it readily available (and understandable) to other linguists. If you are interested in helping see the github repository. To install R-snippets see the package control page. To use a snippet, type the trigger and hit the tab key.</description>
-    </item>
-    
-    <item>
-      <title>Spanish allophones and distinctive features</title>
-      <link>/project/shiny_distinctivefeatures/</link>
-      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      
-      <guid>/project/shiny_distinctivefeatures/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>lingStuff</title>
-      <link>/project/lingstuff/</link>
-      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      
-      <guid>/project/lingstuff/</guid>
-      <description></description>
+      <description>A collection of snippets for SublimeText that simplify the process of using IPA in LaTeX.</description>
     </item>
     
     <item>
@@ -112,9 +63,52 @@ Ex. voiceless-bilabial-aprox.sublime-snippet = [&amp;beta;]  Vowels are labeled 
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
       
       <guid>/project/lingreference/</guid>
-      <description>Follow @lingreference !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?&amp;lsquo;http&amp;rsquo;:&amp;lsquo;https&amp;rsquo;;if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+&amp;rsquo;://platform.twitter.com/widgets.js&amp;rsquo;;fjs.parentNode.insertBefore(js,fjs);}}(document, &amp;lsquo;script&amp;rsquo;, &amp;lsquo;twitter-wjs&amp;rsquo;);
-
-Under development. Created specifically for linguistic terminology, the lingreference.org database currently contains approx. 0,000 terms, phrases and abbreviations. This dictionary is in no way intended to be exhaustive, but rather is a technical resource specializing in the fields of phonetics, phonology, syntax, and sociolinguistics. The terms included were compiled over the past several years during graduate coursework, as well as taken from journal articles, and books.</description>
+      <description>An online, crowd-sourced dictionary specializing in the fields of phonetics, phonology, syntax, and sociolinguistics.</description>
+    </item>
+    
+    <item>
+      <title>lingStuff</title>
+      <link>/project/lingstuff/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>/project/lingstuff/</guid>
+      <description>An R package with handy functions I use in my linguistic research.</description>
+    </item>
+    
+    <item>
+      <title>Power/Sample size calculator</title>
+      <link>/project/shiny_power/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>/project/shiny_power/</guid>
+      <description>A shiny web app built in R for teaching statistical power and sample sizes.</description>
+    </item>
+    
+    <item>
+      <title>R for linguists</title>
+      <link>/project/r_for_linguists/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>/project/r_for_linguists/</guid>
+      <description>A shiny web app built in R for teaching R using the tidyverse.</description>
+    </item>
+    
+    <item>
+      <title>R-Snippets</title>
+      <link>/project/r_snippets/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>/project/r_snippets/</guid>
+      <description>A collection of snippets that I use in SublimeText for doing statistical analysis in R</description>
+    </item>
+    
+    <item>
+      <title>Spanish allophones and distinctive features</title>
+      <link>/project/shiny_distinctivefeatures/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>/project/shiny_distinctivefeatures/</guid>
+      <description>A shiny web app built in R for teaching the distinctive features of Spanish speech sounds.</description>
     </item>
     
   </channel>

@@ -91,6 +91,9 @@ print(
 
 ```{r, results='asis', echo=FALSE, eval=TRUE}
 print(
+  bib[key = "CasillasICPhS2019poster"], 
+  .opts = list(check.entries = FALSE, style = "html", bib.style = "authortitle"))
+print(
   bib[key = "lozano_sagarra_casillas_IICPEB2018"], 
   .opts = list(check.entries = FALSE, style = "html", bib.style = "authortitle"))
 print(
