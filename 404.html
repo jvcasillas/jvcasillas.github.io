@@ -166,26 +166,21 @@
 
 
   
-
-
-
-
-
-
-
-
-
-
 <script type="text/javascript" language="JavaScript">
-  function HideContent(d) {
+function HideContent(d) {
   document.getElementById(d).style.display = "none";
-  }
-  function ShowContent(d) {
+}
+
+function ShowContent(d) {
   document.getElementById(d).style.display = "block";
-  }
-  function ReverseDisplay(d) {
-  if(document.getElementById(d).style.display == "none") { document.getElementById(d).style.display = "block"; }
-  else { document.getElementById(d).style.display = "none"; }
+}
+
+function ReverseDisplay(d) {
+  if(document.getElementById(d).style.display == "none") { 
+    document.getElementById(d).style.display = "block";
+    } else { 
+    document.getElementById(d).style.display = "none"; 
+    }
   }
 </script>
 
@@ -297,7 +292,7 @@
         
 
         <li class="nav-item">
-          <a class="nav-link " href="/research/index.html"><span>Research</span></a>
+          <a class="nav-link " href="/research/"><span>Research</span></a>
         </li>
 
         
@@ -319,7 +314,7 @@
         
 
         <li class="nav-item">
-          <a class="nav-link " href="/code/index.html"><span>Code</span></a>
+          <a class="nav-link " href="/code/"><span>Code</span></a>
         </li>
 
         
@@ -341,7 +336,7 @@
         
 
         <li class="nav-item">
-          <a class="nav-link " href="/teaching/index.html"><span>Teaching</span></a>
+          <a class="nav-link " href="/teaching/"><span>Teaching</span></a>
         </li>
 
         

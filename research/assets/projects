@@ -6,7 +6,7 @@
 ### Current Projects
 
 - <h5bio>Longitudinal development of fine-phonetic detail in late learners</h5bio> 
-<a href="javascript:ReverseDisplay('longitudinalDevelopment')">(Info)</a>
+(<a href="javascript:ReverseDisplay('longitudinalDevelopment')">Info</a>)
 
 <div id="longitudinalDevelopment" style="display:none;margin-left:3em;text-indent:0em">
 <p class="minip">
@@ -21,7 +21,7 @@ acquisition of various L2 segments, such as: stops, trills, laterals and vowels.
 
 
 - <h5bio>Language-specific perceptual normalization in adult second language acquisition</h5bio>
-<a href="javascript:ReverseDisplay('languageSets')">(Info)</a>
+(<a href="javascript:ReverseDisplay('languageSets')">Info</a>)
 
 <div id="languageSets" style="display:none;margin-left:3em;text-indent:0em">
 <p class="minip">
@@ -36,7 +36,7 @@ modes. (with Miquel Simonet)
 
 
 - <h5bio>Production/perception of English/Spanish coronal stops</h5bio>
-<a href="javascript:ReverseDisplay('coronalStops')">(Info)</a>
+(<a href="javascript:ReverseDisplay('coronalStops')">Info</a>)
 
 <div id="coronalStops" style="display:none;margin-left:3em;text-indent:0em">
 <p class="minip">
@@ -52,7 +52,7 @@ and Yamile Díaz)
 
 - <h5bio>Semantic predictability and speech rate effects in second language speech 
 categorization</h5bio>
-<a href="javascript:ReverseDisplay('semanticPredictability')">(Info)</a>
+(<a href="javascript:ReverseDisplay('semanticPredictability')">Info</a>)
 
 <div id="semanticPredictability" style="display:none;margin-left:3em;text-indent:0em">
 <p class="minip">
@@ -63,7 +63,7 @@ More info coming soon. (with Miquel Simonet and Imanol Suárez Palma)
 
 
 - <h5bio>Morphosyntactic predictability</h5bio>
-<a href="javascript:ReverseDisplay('morphosyntacticPredictability')">(Info)</a>
+(<a href="javascript:ReverseDisplay('morphosyntacticPredictability')">Info</a>)
 
 <div id="morphosyntacticPredictability" style="display:none;margin-left:3em;text-indent:0em">
 <p class="minip">
@@ -81,7 +81,7 @@ More info coming soon.
 ### Previous Projects 
 
 - <h5bio>Production/perception of switch dominance speakers of English</h5bio>
-<a href="javascript:ReverseDisplay('switchDominance')">(Info)</a>
+(<a href="javascript:ReverseDisplay('switchDominance')">Info</a>)
 
 <div id="switchDominance" style="display:none;margin-left:3em;text-indent:0em">
 <p class="minip">
@@ -91,7 +91,7 @@ co-authored 2016 article that appeared in [Second Language Research](http://slr.
 </div>
 
 - <h5bio>Selective adaptation</h5bio>
-<a href="javascript:ReverseDisplay('selectiveAdaptation')">(Info)</a>
+(<a href="javascript:ReverseDisplay('selectiveAdaptation')">Info</a>)
 
 <div id="selectiveAdaptation" style="display:none;margin-left:3em;text-indent:0em">
 <p class="minip">
@@ -101,4 +101,3 @@ final publication in [JASA](http://scitation.aip.org/content/asa/journal/jasa/13
 </div>
 
 </div>
-
