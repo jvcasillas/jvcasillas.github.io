@@ -1,25 +1,41 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>project on Joseph V. Casillas</title>
+    <title>project | Joseph V. Casillas</title>
     <link>/tags/project/</link>
-    <description>Recent content in project on Joseph V. Casillas</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <copyright>Joseph V. Casillas&lt;/br&gt;&amp;copy; 2019&lt;/br&gt;</copyright>
-    <lastBuildDate>Fri, 17 May 2013 21:13:14 -0500</lastBuildDate>
-    
-	<atom:link href="/tags/project/index.xml" rel="self" type="application/rss+xml" />
-    
+      <atom:link href="/tags/project/index.xml" rel="self" type="application/rss+xml" />
+    <description>project</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Joseph V. Casillas © 2019 </copyright><lastBuildDate>Fri, 17 May 2013 21:13:14 -0500</lastBuildDate>
+    <image>
+      <url>/img/jvc2016.png</url>
+      <title>project</title>
+      <link>/tags/project/</link>
+    </image>
     
     <item>
       <title>TikzDevice tutorial II: structuring a project</title>
       <link>/post/2013-05-17_tikz_-_projects/</link>
       <pubDate>Fri, 17 May 2013 21:13:14 -0500</pubDate>
-      
       <guid>/post/2013-05-17_tikz_-_projects/</guid>
-      <description>Overview This mini tutorial is part II about incorporating tikzDevice into your workflow. It explains the file structure necessary to successfully include tikzDevice plots into your LaTeX document. You must first have tikzDevice installed. If you don’t, see part I for more information.
- The structure A simple yet effective way to do reproducible research is to use R (for statistical analysis) directly in a LaTeX environment. There are two ways to accomplish this: (1) Sweave and (2) knitr.</description>
+      <description>
+
+
+&lt;div id=&#34;overview&#34; class=&#34;section level4&#34;&gt;
+&lt;h4&gt;Overview&lt;/h4&gt;
+&lt;p&gt;This mini tutorial is part II about incorporating &lt;strong&gt;tikzDevice&lt;/strong&gt; into your workflow. It explains the file structure necessary to successfully include &lt;strong&gt;tikzDevice&lt;/strong&gt; plots into your &lt;strong&gt;LaTeX document&lt;/strong&gt;. You must first have &lt;strong&gt;tikzDevice&lt;/strong&gt; installed. If you don’t, see &lt;a href=&#34;/blog/2013-05-11_tikz_-_installation/index.html&#34;&gt;part I&lt;/a&gt; for more information.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;the-structure&#34; class=&#34;section level4&#34;&gt;
+&lt;h4&gt;The structure&lt;/h4&gt;
+&lt;p&gt;A simple yet effective way to do reproducible research is to use &lt;a href=&#34;http://www.r-project.org&#34;&gt;R&lt;/a&gt; (for statistical analysis) directly in a &lt;strong&gt;LaTeX&lt;/strong&gt; environment. There are two ways to accomplish this: (1) Sweave and (2) &lt;a href=&#34;http://yihui.name/knitr/&#34;&gt;knitr&lt;/a&gt;. Knitr seems to be the better choice, as it builds on some of the deficiencies of Sweave, and is what I am currently using in my workflow. In order to successfully “knit” R code into a .tex format we must use a no-web (.nw) file to create the .tex file. There are two types of no-web files: .Rnw and .Snw. I am not completely sure what the differences are between then, but I use .Rnw and that is what I will mention in this tutorial.&lt;/p&gt;
+&lt;p&gt;The first step is to create a project folder. For the purposes of this tutorial let’s call this folder “master”. Next, we will need some data and some R code that analyzes it. The most common, no-hassle way to accomplish this in R is to save your R code in a separate .R file. For this tutorial, we will call our data “my-data.txt” and our R code “example.R”. The fake data we are going to analyze is for a two-alternative forced choice identification experiment. So, our fake data is in the “my-data.txt” file and the R code that analyzes it is in the example.R file.&lt;/p&gt;
+&lt;p&gt;The next step is to create the “no web” .Rnw file. This is as simple as creating a document in your text editor of choice (I use &lt;a href=&#34;https://github.com/textmate/textmate&#34;&gt;TextMate 2&lt;/a&gt; and &lt;a href=&#34;http://www.sublimetext.com&#34;&gt;Sublime Text 3&lt;/a&gt;) and saving it with a .Rnw extension. For this tutorial we will call this file “example.Rnw”. Its purpose is to call the R code written in “example.R” (which uses the fake data in “my-data.txt”) in order to produce a .tex file (in this case “example.tex”). Still with me? Good.&lt;/p&gt;
+&lt;p&gt;Next we need to prepare where we are going to keep the plots produced by tikzDevice. I find it most convenient to have a specific folder, “plots_folder”, where I only keep the tikzDevice plots. So, create this folder inside the “master” folder. TikzDevice creates the R plots and converts them to a LaTeX format (the benefits of this are further explained in part III of this tutorial), saves them in “plots_folder” and we will then include them in the example.tex file which can be compiled into a PDF. The image below shows what this should look like when it’s all said and done.&lt;/p&gt;
+&lt;div aligh=&#34;center&#34;&gt;
+&lt;p&gt;&lt;img width=&#34;100%&#34; src=&#34;./img/tikz_workflow.png&#34;&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;Check out &lt;a href=&#34;/blog/2014-05-28_tikz_-_standalone_plots/index.html&#34;&gt;part III&lt;/a&gt; to learn how to create standalone plots that can include IPA sybols.&lt;/p&gt;
+&lt;/div&gt;
+</description>
     </item>
     
   </channel>

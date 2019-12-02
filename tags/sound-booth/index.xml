@@ -1,25 +1,153 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Sound booth on Joseph V. Casillas</title>
+    <title>Sound booth | Joseph V. Casillas</title>
     <link>/tags/sound-booth/</link>
-    <description>Recent content in Sound booth on Joseph V. Casillas</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <copyright>Joseph V. Casillas&lt;/br&gt;&amp;copy; 2019&lt;/br&gt;</copyright>
-    <lastBuildDate>Sun, 16 Sep 2018 21:13:14 -0500</lastBuildDate>
-    
-	<atom:link href="/tags/sound-booth/index.xml" rel="self" type="application/rss+xml" />
-    
+      <atom:link href="/tags/sound-booth/index.xml" rel="self" type="application/rss+xml" />
+    <description>Sound booth</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Joseph V. Casillas © 2019 </copyright><lastBuildDate>Sun, 16 Sep 2018 21:13:14 -0500</lastBuildDate>
+    <image>
+      <url>/img/jvc2016.png</url>
+      <title>Sound booth</title>
+      <link>/tags/sound-booth/</link>
+    </image>
     
     <item>
       <title>Setting up a whisper room sound booth</title>
       <link>/post/2018-09-16_setting_up_a_whisper_room_sound_booth/</link>
       <pubDate>Sun, 16 Sep 2018 21:13:14 -0500</pubDate>
-      
       <guid>/post/2018-09-16_setting_up_a_whisper_room_sound_booth/</guid>
-      <description> Packaging         Previous   Next    Assembly             Previous   Next    Aftermath       Previous   Next    Walkthrough     Previous   Next   
- </description>
+      <description>
+
+
+&lt;div id=&#34;packaging&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Packaging&lt;/h2&gt;
+&lt;div id=&#34;soundbooth_packaging&#34; class=&#34;carousel slide&#34; data-ride=&#34;carousel&#34; data-interval=&#34;false&#34;&gt;
+&lt;div class=&#34;carousel-inner&#34; role=&#34;listbox&#34;&gt;
+&lt;div class=&#34;item active&#34;&gt;
+&lt;img src=&#34;./img/01.png&#34; class=&#34;img-responsive center-block&#34;/&gt;
+&lt;/div&gt;
+&lt;div class=&#34;item&#34;&gt;
+&lt;img src=&#34;./img/02.png&#34; class=&#34;img-responsive center-block&#34;/&gt;
+&lt;/div&gt;
+&lt;div class=&#34;item&#34;&gt;
+&lt;img src=&#34;./img/03.png&#34; class=&#34;img-responsive center-block&#34;/&gt;
+&lt;/div&gt;
+&lt;div class=&#34;item&#34;&gt;
+&lt;img src=&#34;./img/04.png&#34; class=&#34;img-responsive center-block&#34;/&gt;
+&lt;/div&gt;
+&lt;div class=&#34;item&#34;&gt;
+&lt;img src=&#34;./img/05.png&#34; class=&#34;img-responsive center-block&#34;/&gt;
+&lt;/div&gt;
+&lt;div class=&#34;item&#34;&gt;
+&lt;img src=&#34;./img/06.png&#34; class=&#34;img-responsive center-block&#34;/&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;a class=&#34;left carousel-control&#34; href=&#34;#soundbooth_packaging&#34; role=&#34;button&#34; data-slide=&#34;prev&#34;&gt;
+&lt;span class=&#34;glyphicon glyphicon-chevron-left&#34; aria-hidden=&#34;true&#34;&gt;&lt;/span&gt;
+&lt;span class=&#34;sr-only&#34;&gt;Previous&lt;/span&gt;
+&lt;/a&gt;
+&lt;a class=&#34;right carousel-control&#34; href=&#34;#soundbooth_packaging&#34; role=&#34;button&#34; data-slide=&#34;next&#34;&gt;
+&lt;span class=&#34;glyphicon glyphicon-chevron-right&#34; aria-hidden=&#34;true&#34;&gt;&lt;/span&gt;
+&lt;span class=&#34;sr-only&#34;&gt;Next&lt;/span&gt;
+&lt;/a&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;assembly&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Assembly&lt;/h2&gt;
+&lt;div id=&#34;soundbooth_assembly&#34; class=&#34;carousel slide&#34; data-ride=&#34;carousel&#34; data-interval=&#34;false&#34;&gt;
+&lt;div class=&#34;carousel-inner&#34; role=&#34;listbox&#34;&gt;
+&lt;div class=&#34;item active&#34;&gt;
+&lt;img src=&#34;./img/07.png&#34; class=&#34;img-responsive center-block&#34;/&gt;
+&lt;/div&gt;
+&lt;div class=&#34;item&#34;&gt;
+&lt;img src=&#34;./img/09.png&#34; class=&#34;img-responsive center-block&#34;/&gt;
+&lt;/div&gt;
+&lt;div class=&#34;item&#34;&gt;
+&lt;img src=&#34;./img/10.png&#34; class=&#34;img-responsive center-block&#34;/&gt;
+&lt;/div&gt;
+&lt;div class=&#34;item&#34;&gt;
+&lt;img src=&#34;./img/11.png&#34; class=&#34;img-responsive center-block&#34;/&gt;
+&lt;/div&gt;
+&lt;div class=&#34;item&#34;&gt;
+&lt;img src=&#34;./img/12.png&#34; class=&#34;img-responsive center-block&#34;/&gt;
+&lt;/div&gt;
+&lt;div class=&#34;item&#34;&gt;
+&lt;img src=&#34;./img/13.png&#34; class=&#34;img-responsive center-block&#34;/&gt;
+&lt;/div&gt;
+&lt;div class=&#34;item&#34;&gt;
+&lt;img src=&#34;./img/14.png&#34; class=&#34;img-responsive center-block&#34;/&gt;
+&lt;/div&gt;
+&lt;div class=&#34;item&#34;&gt;
+&lt;img src=&#34;./img/15.png&#34; class=&#34;img-responsive center-block&#34;/&gt;
+&lt;/div&gt;
+&lt;div class=&#34;item&#34;&gt;
+&lt;img src=&#34;./img/16.png&#34; class=&#34;img-responsive center-block&#34;/&gt;
+&lt;/div&gt;
+&lt;div class=&#34;item&#34;&gt;
+&lt;img src=&#34;./img/17.png&#34; class=&#34;img-responsive center-block&#34;/&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;a class=&#34;left carousel-control&#34; href=&#34;#soundbooth_assembly&#34; role=&#34;button&#34; data-slide=&#34;prev&#34;&gt;
+&lt;span class=&#34;glyphicon glyphicon-chevron-left&#34; aria-hidden=&#34;true&#34;&gt;&lt;/span&gt;
+&lt;span class=&#34;sr-only&#34;&gt;Previous&lt;/span&gt;
+&lt;/a&gt;
+&lt;a class=&#34;right carousel-control&#34; href=&#34;#soundbooth_assembly&#34; role=&#34;button&#34; data-slide=&#34;next&#34;&gt;
+&lt;span class=&#34;glyphicon glyphicon-chevron-right&#34; aria-hidden=&#34;true&#34;&gt;&lt;/span&gt;
+&lt;span class=&#34;sr-only&#34;&gt;Next&lt;/span&gt;
+&lt;/a&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;aftermath&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Aftermath&lt;/h2&gt;
+&lt;div id=&#34;soundbooth_cleanup&#34; class=&#34;carousel slide&#34; data-ride=&#34;carousel&#34; data-interval=&#34;false&#34;&gt;
+&lt;div class=&#34;carousel-inner&#34; role=&#34;listbox&#34;&gt;
+&lt;div class=&#34;item active&#34;&gt;
+&lt;img src=&#34;./img/18.png&#34; class=&#34;img-responsive center-block&#34;/&gt;
+&lt;/div&gt;
+&lt;div class=&#34;item&#34;&gt;
+&lt;img src=&#34;./img/19.png&#34; class=&#34;img-responsive center-block&#34;/&gt;
+&lt;/div&gt;
+&lt;div class=&#34;item&#34;&gt;
+&lt;img src=&#34;./img/20.png&#34; class=&#34;img-responsive center-block&#34;/&gt;
+&lt;/div&gt;
+&lt;div class=&#34;item&#34;&gt;
+&lt;img src=&#34;./img/21.png&#34; class=&#34;img-responsive center-block&#34;/&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;a class=&#34;left carousel-control&#34; href=&#34;#soundbooth_cleanup&#34; role=&#34;button&#34; data-slide=&#34;prev&#34;&gt;
+&lt;span class=&#34;glyphicon glyphicon-chevron-left&#34; aria-hidden=&#34;true&#34;&gt;&lt;/span&gt;
+&lt;span class=&#34;sr-only&#34;&gt;Previous&lt;/span&gt;
+&lt;/a&gt;
+&lt;a class=&#34;right carousel-control&#34; href=&#34;#soundbooth_cleanup&#34; role=&#34;button&#34; data-slide=&#34;next&#34;&gt;
+&lt;span class=&#34;glyphicon glyphicon-chevron-right&#34; aria-hidden=&#34;true&#34;&gt;&lt;/span&gt;
+&lt;span class=&#34;sr-only&#34;&gt;Next&lt;/span&gt;
+&lt;/a&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;walkthrough&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Walkthrough&lt;/h2&gt;
+&lt;div id=&#34;soundbooth_walkthrough&#34; class=&#34;carousel slide&#34; data-ride=&#34;carousel&#34; data-interval=&#34;false&#34;&gt;
+&lt;div class=&#34;carousel-inner&#34; role=&#34;listbox&#34;&gt;
+&lt;div class=&#34;item active&#34;&gt;
+&lt;img src=&#34;./vids/vents.mov&#34; class=&#34;img-responsive center-block&#34;/&gt;
+&lt;/div&gt;
+&lt;div class=&#34;item&#34;&gt;
+&lt;img src=&#34;./vids/inside.mov&#34; class=&#34;img-responsive center-block&#34;/&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;a class=&#34;left carousel-control&#34; href=&#34;#soundbooth_walkthrough&#34; role=&#34;button&#34; data-slide=&#34;prev&#34;&gt;
+&lt;span class=&#34;glyphicon glyphicon-chevron-left&#34; aria-hidden=&#34;true&#34;&gt;&lt;/span&gt;
+&lt;span class=&#34;sr-only&#34;&gt;Previous&lt;/span&gt;
+&lt;/a&gt;
+&lt;a class=&#34;right carousel-control&#34; href=&#34;#soundbooth_walkthrough&#34; role=&#34;button&#34; data-slide=&#34;next&#34;&gt;
+&lt;span class=&#34;glyphicon glyphicon-chevron-right&#34; aria-hidden=&#34;true&#34;&gt;&lt;/span&gt;
+&lt;span class=&#34;sr-only&#34;&gt;Next&lt;/span&gt;
+&lt;/a&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;/br&gt;&lt;/p&gt;
+&lt;/div&gt;
+</description>
     </item>
     
   </channel>

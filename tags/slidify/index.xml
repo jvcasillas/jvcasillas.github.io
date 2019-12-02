@@ -1,24 +1,47 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>slidify on Joseph V. Casillas</title>
+    <title>slidify | Joseph V. Casillas</title>
     <link>/tags/slidify/</link>
-    <description>Recent content in slidify on Joseph V. Casillas</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <copyright>Joseph V. Casillas&lt;/br&gt;&amp;copy; 2019&lt;/br&gt;</copyright>
-    <lastBuildDate>Sun, 22 Mar 2015 21:13:14 -0500</lastBuildDate>
-    
-	<atom:link href="/tags/slidify/index.xml" rel="self" type="application/rss+xml" />
-    
+      <atom:link href="/tags/slidify/index.xml" rel="self" type="application/rss+xml" />
+    <description>slidify</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Joseph V. Casillas © 2019 </copyright><lastBuildDate>Sun, 22 Mar 2015 21:13:14 -0500</lastBuildDate>
+    <image>
+      <url>/img/jvc2016.png</url>
+      <title>slidify</title>
+      <link>/tags/slidify/</link>
+    </image>
     
     <item>
       <title>Slidify tutorial</title>
       <link>/post/2015-03-22_slidify_tutorial/</link>
       <pubDate>Sun, 22 Mar 2015 21:13:14 -0500</pubDate>
-      
       <guid>/post/2015-03-22_slidify_tutorial/</guid>
-      <description>Tutorial for creating HTML presentations using R and slidify.</description>
+      <description>
+
+
+&lt;meta http-equiv=&#34;refresh&#34; content=&#34;0; url=&#39;http://www.jvcasillas.com/slidify_tutorial/&#39;&#34;/&gt;
+&lt;!--  add lines here --&gt;
+&lt;!-- title       : Checking Slides within Blogify --&gt;
+&lt;!-- author      : Joseph Casillas --&gt;
+&lt;!-- job         : PhD Candidate  --&gt;
+&lt;!-- date        : 2015-03-22 --&gt;
+&lt;!-- framework   : io2012 --&gt;
+&lt;!-- tags        : [tag1, tag2] --&gt;
+&lt;!-- widgets     : [mathjax, quiz, bootstrap] --&gt;
+&lt;!-- highlighter : highlight.js --&gt;
+&lt;!-- hitheme     : solarized_light --&gt;
+&lt;!-- logo        : ua.png --&gt;
+&lt;!-- biglogo     : ua.png --&gt;
+&lt;!--  --&gt;
+&lt;!-- ## Testing --&gt;
+&lt;!-- - This is a test --&gt;
+&lt;!-- - Poirot can be used to make slide decks from within blog posts --&gt;
+&lt;!-- - Eventually I will turn this into a slidify tutorial --&gt;
+&lt;!-- ```{r} --&gt;
+&lt;!-- 2 + 2 --&gt;
+&lt;!-- ``` --&gt;
+</description>
     </item>
     
   </channel>

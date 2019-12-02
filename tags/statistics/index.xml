@@ -1,78 +1,71 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>statistics on Joseph V. Casillas</title>
+    <title>statistics | Joseph V. Casillas</title>
     <link>/tags/statistics/</link>
-    <description>Recent content in statistics on Joseph V. Casillas</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <copyright>Joseph V. Casillas&lt;/br&gt;&amp;copy; 2019&lt;/br&gt;</copyright>
-    <lastBuildDate>Wed, 27 Apr 2016 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="/tags/statistics/index.xml" rel="self" type="application/rss+xml" />
-    
+      <atom:link href="/tags/statistics/index.xml" rel="self" type="application/rss+xml" />
+    <description>statistics</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Joseph V. Casillas © 2019 </copyright><lastBuildDate>Wed, 27 Apr 2016 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/img/jvc2016.png</url>
+      <title>statistics</title>
+      <link>/tags/statistics/</link>
+    </image>
     
     <item>
       <title>Bivariate linear regression</title>
       <link>/project/shiny_bivariate_regression/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      
       <guid>/project/shiny_bivariate_regression/</guid>
-      <description>A shiny web app built in R for teaching the linear model.</description>
+      <description></description>
     </item>
     
     <item>
       <title>Central limit theorem</title>
       <link>/project/shiny_clt/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      
       <guid>/project/shiny_clt/</guid>
-      <description>A shiny web app built in R for teaching the central limit theorem.</description>
+      <description></description>
     </item>
     
     <item>
       <title>Crossover</title>
       <link>/project/shiny_crossover/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      
       <guid>/project/shiny_crossover/</guid>
-      <description>A shiny web app built in R for calculating boundary crossover points in logistic regression.</description>
+      <description></description>
     </item>
     
     <item>
       <title>Generalized linear model</title>
       <link>/project/shiny_glm/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      
       <guid>/project/shiny_glm/</guid>
-      <description>A shiny web app built in R for teaching the generalized linear model.</description>
+      <description></description>
     </item>
     
     <item>
       <title>lingStuff</title>
       <link>/project/lingstuff/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      
       <guid>/project/lingstuff/</guid>
-      <description>An R package with handy functions I use in my linguistic research.</description>
+      <description></description>
     </item>
     
     <item>
       <title>Power/Sample size calculator</title>
       <link>/project/shiny_power/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      
       <guid>/project/shiny_power/</guid>
-      <description>A shiny web app built in R for teaching statistical power and sample sizes.</description>
+      <description></description>
     </item>
     
     <item>
       <title>R for linguists</title>
       <link>/project/r_for_linguists/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      
       <guid>/project/r_for_linguists/</guid>
-      <description>A shiny web app built in R for teaching R using the tidyverse.</description>
+      <description></description>
     </item>
     
   </channel>

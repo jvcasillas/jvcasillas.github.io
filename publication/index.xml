@@ -1,22 +1,21 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Publications on Joseph V. Casillas</title>
+    <title>Publications | Joseph V. Casillas</title>
     <link>/publication/</link>
-    <description>Recent content in Publications on Joseph V. Casillas</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <copyright>Joseph V. Casillas&lt;/br&gt;&amp;copy; 2019&lt;/br&gt;</copyright>
-    <lastBuildDate>Sun, 01 Jan 2017 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="/publication/index.xml" rel="self" type="application/rss+xml" />
-    
+      <atom:link href="/publication/index.xml" rel="self" type="application/rss+xml" />
+    <description>Publications</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Joseph V. Casillas © 2019 </copyright><lastBuildDate>Sun, 01 Jan 2017 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/img/jvc2016.png</url>
+      <title>Publications</title>
+      <link>/publication/</link>
+    </image>
     
     <item>
       <title>Perceptual categorization and bilingual language modes: Assessing the double phonemic boundary in early and late bilinguals</title>
       <link>/publication/casillas_simonet_jphon_2018/</link>
       <pubDate>Fri, 20 Jul 2018 00:00:00 +0000</pubDate>
-      
       <guid>/publication/casillas_simonet_jphon_2018/</guid>
       <description></description>
     </item>
@@ -25,7 +24,6 @@
       <title>Suprasegmental information cues morphological anticipation during L1/L2 lexical access</title>
       <link>/publication/sagarra_casillas_jsl_2018/</link>
       <pubDate>Fri, 20 Jul 2018 00:00:00 +0000</pubDate>
-      
       <guid>/publication/sagarra_casillas_jsl_2018/</guid>
       <description></description>
     </item>
@@ -34,7 +32,6 @@
       <title>Lexically driven selective adaptation by ambiguous auditory stimuli occurs after limited exposure to adaptors</title>
       <link>/publication/llompart_casillas_jasa_2016/</link>
       <pubDate>Sun, 01 May 2016 00:00:00 +0000</pubDate>
-      
       <guid>/publication/llompart_casillas_jasa_2016/</guid>
       <description></description>
     </item>
@@ -43,7 +40,6 @@
       <title>Production and perception of the English /æ/-/ɑ/ contrast in switched-dominance speakers</title>
       <link>/publication/casillas_simonet_slr_2016/</link>
       <pubDate>Thu, 01 Oct 2015 00:00:00 +0000</pubDate>
-      
       <guid>/publication/casillas_simonet_slr_2016/</guid>
       <description></description>
     </item>
@@ -52,7 +48,6 @@
       <title>Production and perception of the /i/-/ɪ/ vowel contrast: The case of L2-dominant early learners of English</title>
       <link>/publication/casillas_phonetica_2015/</link>
       <pubDate>Fri, 01 May 2015 00:00:00 +0000</pubDate>
-      
       <guid>/publication/casillas_phonetica_2015/</guid>
       <description></description>
     </item>

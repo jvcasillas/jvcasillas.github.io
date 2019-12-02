@@ -1,44 +1,163 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>tikz on Joseph V. Casillas</title>
+    <title>tikz | Joseph V. Casillas</title>
     <link>/tags/tikz/</link>
-    <description>Recent content in tikz on Joseph V. Casillas</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <copyright>Joseph V. Casillas&lt;/br&gt;&amp;copy; 2019&lt;/br&gt;</copyright>
-    <lastBuildDate>Wed, 28 May 2014 21:13:14 -0500</lastBuildDate>
-    
-	<atom:link href="/tags/tikz/index.xml" rel="self" type="application/rss+xml" />
-    
+      <atom:link href="/tags/tikz/index.xml" rel="self" type="application/rss+xml" />
+    <description>tikz</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Joseph V. Casillas © 2019 </copyright><lastBuildDate>Wed, 28 May 2014 21:13:14 -0500</lastBuildDate>
+    <image>
+      <url>/img/jvc2016.png</url>
+      <title>tikz</title>
+      <link>/tags/tikz/</link>
+    </image>
     
     <item>
       <title>TikzDevice tutorial III: standalone plots</title>
       <link>/post/2014-05-28_tikz_-_standalone_plots/</link>
       <pubDate>Wed, 28 May 2014 21:13:14 -0500</pubDate>
-      
       <guid>/post/2014-05-28_tikz_-_standalone_plots/</guid>
-      <description>In this post I’m going to show you how to use TikzDevice to create high quality plots that use the same font as your LaTeX document. I’m assuming that you have already installed tikz. If not, see part I in this series. Moreover, this tutorial assumes that you have set up your project in the same way outlined in part II. An added benefit to this approach is that it allows you to insert IPA symbols into the plot via the tipa package.</description>
+      <description>
+
+
+&lt;p&gt;In this post I’m going to show you how to use &lt;code&gt;TikzDevice&lt;/code&gt; to create high quality plots that use the same font as your &lt;code&gt;LaTeX&lt;/code&gt; document. I’m assuming that you have already installed &lt;code&gt;tikz&lt;/code&gt;. If not, see &lt;a href=&#34;/blog/2013-05-11_tikz_-_installation/index.html&#34;&gt;part I&lt;/a&gt; in this series. Moreover, this tutorial assumes that you have set up your project in the same way outlined in &lt;a href=&#34;/blog/2013-05-17_tikz_-_projects/index.html&#34;&gt;part II&lt;/a&gt;. An added benefit to this approach is that it allows you to insert IPA symbols into the plot via the &lt;code&gt;tipa&lt;/code&gt; package.&lt;/p&gt;
+&lt;div id=&#34;the-latex-file&#34; class=&#34;section level4&#34;&gt;
+&lt;h4&gt;The LaTeX file&lt;/h4&gt;
+&lt;p&gt;Ok. You should start with a &lt;code&gt;LaTeX&lt;/code&gt; file that looks like this:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;\documentclass{article}
+\usepackage{tikz}
+\usepackage{tipa}
+
+\begin{document}
+
+&amp;lt;&amp;lt;&amp;gt;&amp;gt;=
+require(tikzDevice)
+tikz(&amp;#39;plot.tex&amp;#39;, standAlone=TRUE)
+library(stats)
+plot(cars)
+lines(lowess(cars))
+dev.off()
+@
+
+\end{document}&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;If you have experience working with &lt;code&gt;LaTeX&lt;/code&gt;, the preamble should be pretty straightforward (If you need a quick primer on &lt;code&gt;LaTeX&lt;/code&gt;, see this tutorial). The important part so far is that you have to include &lt;code&gt;\usepackage{tikz}&lt;/code&gt; and &lt;code&gt;\usepackage{tipa}&lt;/code&gt; &lt;em&gt;before&lt;/em&gt; &lt;code&gt;\begin{document}&lt;/code&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;the-r-code&#34; class=&#34;section level4&#34;&gt;
+&lt;h4&gt;The R code&lt;/h4&gt;
+&lt;p&gt;In &lt;code&gt;knitr&lt;/code&gt;, R code goes between &lt;code&gt;&amp;lt;&amp;lt;&amp;gt;&amp;gt;=&lt;/code&gt; and ends with &lt;code&gt;@&lt;/code&gt;. So all of this is R code:&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;require(tikzDevice)
+tikz(&amp;#39;plots/cars-plot.tex&amp;#39;, standAlone=TRUE)
+library(stats)
+plot(cars)
+lines(lowess(cars))
+dev.off()&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;The command &lt;code&gt;require(tikzDevice)&lt;/code&gt; loads tikz into the R workspace. Then, &lt;code&gt;tikz(&#39;plots/cars-plot.tex&#39;, standAlone=TRUE)&lt;/code&gt; calls the tikz device and creates the file &lt;code&gt;cars-plot.tex&lt;/code&gt; in the folder &lt;code&gt;plots&lt;/code&gt;. It is important to set &lt;code&gt;standAlone&lt;/code&gt; to &lt;code&gt;TRUE&lt;/code&gt; if you want to have a separate .tex file (this is what allows us to keep the fonts the same as the rest of the document). From this point on until the call &lt;code&gt;dev.off()&lt;/code&gt;, we enter what we want to appear in our .tex file. In this case I have plotted the typical &lt;code&gt;cars&lt;/code&gt; data from the library &lt;code&gt;stats&lt;/code&gt;. Here is the PDF output produced when &lt;code&gt;cars-plot.tex&lt;/code&gt; is compiled. Notice the font is different from what you typical get in R.&lt;/p&gt;
+&lt;p&gt;&lt;img width=&#34;100%&#34; src=&#34;img/plot.pdf&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Now let’s try something a little more involved and add some IPA. I will use a fake dataset and load it into R.&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;my_data &amp;lt;- read.delim(&amp;quot;assets/my_data.txt&amp;quot;)&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;We will use ggplot2 for this graph.&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;library(ggplot2)&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Now we will call tikz device.&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;require(tikzDevice)
+options(tikzLatexPackages = c(getOption(&amp;quot;tikzLatexPackages&amp;quot;), &amp;quot;\\usepackage{tipa}&amp;quot;))
+tikz(&amp;#39;plots/ipa_plot.tex&amp;#39;, standAlone=TRUE, width=10, height=6)
+my_data$group &amp;lt;- factor(my_data$group, levels = c(&amp;quot;EL&amp;quot;, &amp;quot;NE&amp;quot;, &amp;quot;LL&amp;quot;))
+df&amp;lt;-with(my_data, aggregate(fpro, list(group=group, fstim=fstim), mean))
+df$se&amp;lt;-with(my_data, aggregate(fpro, list(group=group, fstim=fstim), function(x) sd(x)/sqrt(10)))[,3]
+gp &amp;lt;- ggplot(df, aes(x=fstim, y=x, colour=group, ymin=x-se, ymax=x+se))
+gp + geom_line(aes(linetype=group), size = .5) + 
+    geom_point(aes(shape=group)) + 
+    geom_ribbon(alpha = 0.15, linetype=0) + 
+    ylim(0, 1) + 
+    scale_x_continuous(breaks=seq(0, 10, by=1)) +
+    labs(list(title = &amp;quot;[\\textesh ip/\\textesh\\textsci p]&amp;quot;, 
+            x = &amp;quot;Stimuli&amp;quot;, y = &amp;quot;\\% [\\textesh\\textsci p]&amp;quot;)) +
+    theme_bw() +
+    theme(legend.background = element_rect(colour = &amp;#39;grey50&amp;#39;, 
+        fill = &amp;#39;grey97&amp;#39;, size = .75, linetype=&amp;#39;solid&amp;#39;)) +
+    scale_linetype_discrete(&amp;quot;Group&amp;quot;) +
+    scale_shape_discrete(&amp;quot;Group&amp;quot;) +
+    scale_colour_discrete(&amp;quot;Group&amp;quot;)
+dev.off()&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Notice that after the &lt;code&gt;require(tikzDevice)&lt;/code&gt; call, we included&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;options(tikzLatexPackages = c(getOption(&amp;quot;tikzLatexPackages&amp;quot;), &amp;quot;\\usepackage{tipa}&amp;quot;)) &lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;The key component here is &lt;code&gt;\\usepackage{tipa}&lt;/code&gt;. This means that tipa will be included in the .tex produced from the code, which, in turn, means that we can include IPA sybold in the plot before it is produced. The &lt;code&gt;tikz(&#39;plots/ipa_plot.tex&#39;, standAlone=TRUE, width=5, height=5)&lt;/code&gt; call creates &lt;code&gt;ipa_plot.tex&lt;/code&gt; in the folder &lt;code&gt;plots&lt;/code&gt;. The rest of the code (up to &lt;code&gt;dev.off()&lt;/code&gt;) is the actual plot. Notice that we have included ipa in the following command:&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;labs(list(title = &amp;quot;[\\textesh ip/\\textesh\\textsci p]&amp;quot;, 
+          x = &amp;quot;Stimuli&amp;quot;, y = &amp;quot;\\% [\\textesh\\textsci p]&amp;quot;))&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;This is the plot that is produced when the resulting .tex file is compiled:&lt;/p&gt;
+&lt;p&gt;&lt;img width=&#34;100%&#34; src=&#34;img/ipa_plot.pdf&#34;&gt;&lt;/p&gt;
+&lt;p&gt;And that’s it. We have produced a beautiful plot that uses the same font as our document and includes IPA symbols. You can download all the files &lt;a href=&#34;files/master.zip&#34;&gt;here&lt;/a&gt; and try it yourself.&lt;/p&gt;
+&lt;/div&gt;
+</description>
     </item>
     
     <item>
       <title>TikzDevice tutorial II: structuring a project</title>
       <link>/post/2013-05-17_tikz_-_projects/</link>
       <pubDate>Fri, 17 May 2013 21:13:14 -0500</pubDate>
-      
       <guid>/post/2013-05-17_tikz_-_projects/</guid>
-      <description>Overview This mini tutorial is part II about incorporating tikzDevice into your workflow. It explains the file structure necessary to successfully include tikzDevice plots into your LaTeX document. You must first have tikzDevice installed. If you don’t, see part I for more information.
- The structure A simple yet effective way to do reproducible research is to use R (for statistical analysis) directly in a LaTeX environment. There are two ways to accomplish this: (1) Sweave and (2) knitr.</description>
+      <description>
+
+
+&lt;div id=&#34;overview&#34; class=&#34;section level4&#34;&gt;
+&lt;h4&gt;Overview&lt;/h4&gt;
+&lt;p&gt;This mini tutorial is part II about incorporating &lt;strong&gt;tikzDevice&lt;/strong&gt; into your workflow. It explains the file structure necessary to successfully include &lt;strong&gt;tikzDevice&lt;/strong&gt; plots into your &lt;strong&gt;LaTeX document&lt;/strong&gt;. You must first have &lt;strong&gt;tikzDevice&lt;/strong&gt; installed. If you don’t, see &lt;a href=&#34;/blog/2013-05-11_tikz_-_installation/index.html&#34;&gt;part I&lt;/a&gt; for more information.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;the-structure&#34; class=&#34;section level4&#34;&gt;
+&lt;h4&gt;The structure&lt;/h4&gt;
+&lt;p&gt;A simple yet effective way to do reproducible research is to use &lt;a href=&#34;http://www.r-project.org&#34;&gt;R&lt;/a&gt; (for statistical analysis) directly in a &lt;strong&gt;LaTeX&lt;/strong&gt; environment. There are two ways to accomplish this: (1) Sweave and (2) &lt;a href=&#34;http://yihui.name/knitr/&#34;&gt;knitr&lt;/a&gt;. Knitr seems to be the better choice, as it builds on some of the deficiencies of Sweave, and is what I am currently using in my workflow. In order to successfully “knit” R code into a .tex format we must use a no-web (.nw) file to create the .tex file. There are two types of no-web files: .Rnw and .Snw. I am not completely sure what the differences are between then, but I use .Rnw and that is what I will mention in this tutorial.&lt;/p&gt;
+&lt;p&gt;The first step is to create a project folder. For the purposes of this tutorial let’s call this folder “master”. Next, we will need some data and some R code that analyzes it. The most common, no-hassle way to accomplish this in R is to save your R code in a separate .R file. For this tutorial, we will call our data “my-data.txt” and our R code “example.R”. The fake data we are going to analyze is for a two-alternative forced choice identification experiment. So, our fake data is in the “my-data.txt” file and the R code that analyzes it is in the example.R file.&lt;/p&gt;
+&lt;p&gt;The next step is to create the “no web” .Rnw file. This is as simple as creating a document in your text editor of choice (I use &lt;a href=&#34;https://github.com/textmate/textmate&#34;&gt;TextMate 2&lt;/a&gt; and &lt;a href=&#34;http://www.sublimetext.com&#34;&gt;Sublime Text 3&lt;/a&gt;) and saving it with a .Rnw extension. For this tutorial we will call this file “example.Rnw”. Its purpose is to call the R code written in “example.R” (which uses the fake data in “my-data.txt”) in order to produce a .tex file (in this case “example.tex”). Still with me? Good.&lt;/p&gt;
+&lt;p&gt;Next we need to prepare where we are going to keep the plots produced by tikzDevice. I find it most convenient to have a specific folder, “plots_folder”, where I only keep the tikzDevice plots. So, create this folder inside the “master” folder. TikzDevice creates the R plots and converts them to a LaTeX format (the benefits of this are further explained in part III of this tutorial), saves them in “plots_folder” and we will then include them in the example.tex file which can be compiled into a PDF. The image below shows what this should look like when it’s all said and done.&lt;/p&gt;
+&lt;div aligh=&#34;center&#34;&gt;
+&lt;p&gt;&lt;img width=&#34;100%&#34; src=&#34;./img/tikz_workflow.png&#34;&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;Check out &lt;a href=&#34;/blog/2014-05-28_tikz_-_standalone_plots/index.html&#34;&gt;part III&lt;/a&gt; to learn how to create standalone plots that can include IPA sybols.&lt;/p&gt;
+&lt;/div&gt;
+</description>
     </item>
     
     <item>
       <title>TikzDevice tutorial I: install tikzDevice in R</title>
       <link>/post/2013-05-11_tikz_-_installation/</link>
       <pubDate>Sat, 11 May 2013 21:13:14 -0500</pubDate>
-      
       <guid>/post/2013-05-11_tikz_-_installation/</guid>
-      <description>Overview This is a short tutorial for getting tikzDevice running on R version 3.0. If you write in LaTeX and use R for statistics, this is a good way to get your plots/graphs/etc. into your .tex document. The advantages are:
-much higher quality and you can use IPA symbols   Download tiksDevice TiksDevice is no longer officially supported by CRAN because the author was having trouble keeping it updated in a timely manner (Check out this webpage if you want to read a little more about the situation).</description>
+      <description>
+
+
+&lt;div id=&#34;overview&#34; class=&#34;section level4&#34;&gt;
+&lt;h4&gt;Overview&lt;/h4&gt;
+&lt;p&gt;This is a short tutorial for getting &lt;strong&gt;tikzDevice&lt;/strong&gt; running on &lt;strong&gt;R&lt;/strong&gt; version 3.0. If
+you write in &lt;strong&gt;LaTeX&lt;/strong&gt; and use &lt;strong&gt;R&lt;/strong&gt; for statistics, this is a good way to get your
+plots/graphs/etc. into your .tex document. The advantages are:&lt;/p&gt;
+&lt;ol style=&#34;list-style-type: decimal&#34;&gt;
+&lt;li&gt;much higher quality and&lt;/li&gt;
+&lt;li&gt;you can use IPA symbols&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+&lt;div id=&#34;download-tiksdevice&#34; class=&#34;section level4&#34;&gt;
+&lt;h4&gt;Download tiksDevice&lt;/h4&gt;
+&lt;p&gt;&lt;strong&gt;TiksDevice&lt;/strong&gt; is no longer officially supported by CRAN because the author was having
+trouble keeping it updated in a timely manner (Check out &lt;a href=&#34;http://cran.r-project.org/web/packages/tikzDevice/index.html&#34;&gt;this&lt;/a&gt; webpage if you want
+to read a little more about the situation). Nonetheless, the &lt;strong&gt;tikzdevice&lt;/strong&gt; package is
+very usable and still available for download. You can download the tar.gz file directly
+by clicking &lt;a href=&#34;http://cran.r-project.org/src/contrib/Archive/tikzDevice/tikzDevice_0.6.2.tar.gz&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;install-tiksdevice&#34; class=&#34;section level4&#34;&gt;
+&lt;h4&gt;Install tiksDevice&lt;/h4&gt;
+&lt;p&gt;Installing a package that is no longer supported is by no means difficult, but not as
+simple as &lt;code&gt;install.package(&#39;tikzDevice&#39;)&lt;/code&gt; (try it if you want to see why). Use the
+following code install the tar file (make sure to specify your file path to wherever you
+downloaded the file). This is what it looked like for me.&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;install.packages(&amp;quot;/Users/USERNAME/Downloads/tikzDevice_0.6.2.tar&amp;quot;, repos = NULL, type=&amp;quot;source&amp;quot;)&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;div id=&#34;install-dependencies&#34; class=&#34;section level4&#34;&gt;
+&lt;h4&gt;Install dependencies&lt;/h4&gt;
+&lt;p&gt;In order for &lt;strong&gt;tikzDevice&lt;/strong&gt; to work, you must also install the &lt;strong&gt;filehash&lt;/strong&gt; package. This is much easier.&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;install.packages(&amp;#39;filehash&amp;#39;)&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;That’s it. Check out &lt;a href=&#34;/blog/2013-05-17_tikz_-_projects/index.html&#34;&gt;this&lt;/a&gt; tutorial to see how to set up a project.&lt;/p&gt;
+&lt;/div&gt;
+</description>
     </item>
     
   </channel>

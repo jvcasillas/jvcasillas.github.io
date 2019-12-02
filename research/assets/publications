@@ -3,6 +3,18 @@
 <!-- START TAB 3 -->
 <div class="tab-pane fade" id="publications" style="margin-left:2em;text-indent:-2em">
 
+### In press
+
+```{r, results='asis', echo=FALSE, eval=TRUE}
+
+print(bib[key = "CasillasProdPercStops"])
+print(bib[key = "CasillasProdStops_ll2019"])
+print(bib[key = "SagarraLozanoCasillas_blc2019"])
+
+```
+
+
+
 ### Recent Publications
 
 <!-- <div class="minip"> -->
@@ -18,9 +30,7 @@
 
 
 ```{r, results='asis', echo=FALSE, eval=TRUE}
-print(
-  bib[key = "CasillasICPhS2019article"], 
-  .opts = list(check.entries = FALSE, style = "html", bib.style = "authoryear"))
+print(bib[key = "CasillasICPhS2019article"])
 ```
 
 <!-- START METADATA -->
@@ -65,9 +75,7 @@ toBiblatex(
 
 
 ```{r, results='asis', echo=FALSE, eval=TRUE}
-print(
-  bib[key = "CasillasSimonet_jphon2018"], 
-  .opts = list(check.entries = FALSE, style = "html", bib.style = "authoryear"))
+print(bib[key = "CasillasSimonet_jphon2018"])
 ```
 
 <!-- START METADATA -->
@@ -113,9 +121,7 @@ toBiblatex(
 
 
 ```{r, results='asis', echo=FALSE, eval=TRUE}
-print(
-  bib[key = "SagarraCasillas_JSLS2018"], 
-  .opts = list(check.entries = FALSE, style = "html", bib.style = "authoryear"))
+print(bib[key = "SagarraCasillas_JSLS2018"])
 ```
 
 <!-- START METADATA -->
@@ -163,9 +169,7 @@ toBiblatex(
 
 
 ```{r, results='asis', echo=FALSE, eval=TRUE}
-print(
-  bib[key = "BessettCasillasRamirezSpIC2017"], 
-  .opts = list(check.entries = FALSE, style = "html", bib.style = "authoryear"))
+print(bib[key = "BessettCasillasRamirezSpIC2017"])
 ```
 
 <!-- START METADATA -->
@@ -210,9 +214,7 @@ toBiblatex(
 
 
 ```{r, results='asis', echo=FALSE, eval=TRUE}
-print(
-  bib[key = "LlmopartCasillasJASAEL2016"], 
-  .opts = list(check.entries = FALSE, style = "html", bib.style = "authoryear"))
+print(bib[key = "LlmopartCasillasJASAEL2016"])
 ```
 
 <!-- START METADATA -->
@@ -261,9 +263,7 @@ toBiblatex(
 
 
 ```{r, results='asis', echo=FALSE, eval=TRUE}
-print(
-  bib[key = "CasillasSimonetSLR2016"], 
-  .opts = list(check.entries = FALSE, style = "html", bib.style = "authoryear"))
+print(bib[key = "CasillasSimonetSLR2016"])
 ```
 
 <!-- START METADATA -->
@@ -315,9 +315,7 @@ toBiblatex(
 
 
 ```{r, results='asis', echo=FALSE, eval=TRUE}
-print(
-  bib[key = "CasillasPhonetica2015"], 
-  .opts = list(check.entries = FALSE, style = "html", bib.style = "authoryear"))
+print(bib[key = "CasillasPhonetica2015"])
 ```
 
 <!-- START METADATA -->
@@ -374,9 +372,7 @@ toBiblatex(
 
 
 ```{r, results='asis', echo=FALSE, eval=TRUE}
-print(
-  bib[key = "CasillasDiazSimonetICPhS2015article"], 
-  .opts = list(check.entries = FALSE, style = "html", bib.style = "authoryear"))
+print(bib[key = "CasillasDiazSimonetICPhS2015article"])
 ```
 
 <!-- START METADATA -->
@@ -415,9 +411,7 @@ toBiblatex(
 
 
 ```{r, results='asis', echo=FALSE, eval=TRUE}
-print(
-  bib[key = "SimonetCasillasDiazSP72014article"], 
-  .opts = list(check.entries = FALSE, style = "html", bib.style = "authoryear"))
+print(bib[key = "SimonetCasillasDiazSP72014article"])
 ```
 
 <!-- START METADATA -->
@@ -459,9 +453,7 @@ toBiblatex(
 
 
 ```{r, results='asis', echo=FALSE, eval=TRUE}
-print(
-  bib[key = "CasillasBessettDFTable2013"], 
-  .opts = list(check.entries = FALSE, style = "html", bib.style = "authoryear"))
+print(bib[key = "CasillasBessettDFTable2013"])
 ```
 <!-- START METADATA -->
 <div style="text-indent:.25em;margin-top:-1em" align="left">
@@ -495,9 +487,7 @@ toBiblatex(
 
 
 ```{r, results='asis', echo=FALSE, eval=TRUE}
-print(
-  bib[key = "CasillasWSS62013article"], 
-  .opts = list(check.entries = FALSE, style = "html", bib.style = "authoryear"))
+print(bib[key = "CasillasWSS62013article"])
 ```
 <!-- START METADATA -->
 <div style="text-indent:.25em;margin-top:-1em" align="left">
@@ -532,9 +522,7 @@ toBiblatex(bib[key = "CasillasWSS62013article"])
 
 
 ```{r, results='asis', echo=FALSE, eval=TRUE}
-print(
-  bib[key = "Casillas2012divergencias"], 
-  .opts = list(check.entries = FALSE, style = "html", bib.style = "authoryear"))
+print(bib[key = "Casillas2012divergencias"])
 ```
 
 <!-- START METADATA -->
@@ -567,9 +555,7 @@ toBiblatex(bib[key = "Casillas2012divergencias"])
 
 
 ```{r, results='asis', echo=FALSE, eval=TRUE}
-print(
-  bib[key = "Casillas2010gaceta"], 
-  .opts = list(check.entries = FALSE, style = "html", bib.style = "authoryear"))
+print(bib[key = "Casillas2010gaceta"])
 ```
 
 <!-- START METADATA -->
@@ -588,9 +574,7 @@ toBiblatex(bib[key = "Casillas2010gaceta"])
 
 
 ```{r, results='asis', echo=FALSE, eval=TRUE}
-print(
-  bib[key = "Casillas2009gaceta"], 
-  .opts = list(check.entries = FALSE, style = "html", bib.style = "authoryear"))
+print(bib[key = "Casillas2009gaceta"])
 ```
 
 <!-- START METADATA -->
@@ -638,38 +622,20 @@ toBiblatex(bib[key = "Casillas2009gaceta"])
 ### Submitted
 
 ```{r, results='asis', echo=FALSE, eval=TRUE}
-print(
-  bib[key = "CasillasProdPercStops"], 
-  .opts = list(check.entries = FALSE, style = "html", bib.style = "authoryear"))
 
-print(
-  bib[key = "CasillasProdStops"], 
-  .opts = list(check.entries = FALSE, style = "html", bib.style = "authoryear"))
+print(bib[key = "casillas_dpbe_l2_2019"])
 
-print(
-  bib[key = "SagarraLozanoCasillas_blc2018"], 
-  .opts = list(check.entries = FALSE, style = "html", bib.style = "authoryear"))
 ```
 
 
 ### In preparation
 
 ```{r, results='asis', echo=FALSE, eval=TRUE}
-print(
-  bib[key = "CasillasProdSemantic"], 
-  .opts = list(check.entries = FALSE, style = "html", bib.style = "authoryear"))
-print(
-  bib[key = "CasillasStress"], 
-  .opts = list(check.entries = FALSE, style = "html", bib.style = "authoryear"))
-print(
-  bib[key = "SagarraCasillasETL2"], 
-  .opts = list(check.entries = FALSE, style = "html", bib.style = "authoryear"))
-print(
-  bib[key = "SagarraCasillasETheritage"], 
-  .opts = list(check.entries = FALSE, style = "html", bib.style = "authoryear"))
-print(
-  bib[key = "CasillasDICT2015"], 
-  .opts = list(check.entries = FALSE, style = "html", bib.style = "authoryear"))
+print(bib[key = "CasillasProdSemantic"])
+print(bib[key = "CasillasStress"])
+print(bib[key = "SagarraCasillasETL2"])
+print(bib[key = "SagarraCasillasETheritage"])
+print(bib[key = "CasillasDICT2015"])
 ```
 
 </span>
