@@ -6,22 +6,25 @@
 ### Current Projects
 
 - <h5bio>Longitudinal development of fine-phonetic detail in late learners</h5bio> 
-(<a href="javascript:ReverseDisplay('longitudinalDevelopment')">Info</a>)
+(<button class="button mybutton" onclick="myFunction('longitudinalDevelopment')">Info</button>)
 
 <div id="longitudinalDevelopment" style="display:none;margin-left:3em;text-indent:0em">
 <p class="minip">
-This ongoing project explores L2 category formation and the relationship between 
-speech production and speech perception during the early stages of L2 acquisition. 
-The data were/are collected in a stateside immersion program over the course of a 
-summer. The participants complete a variety of tasks aimed at analyzing their 
-acquisition of various L2 segments, such as: stops, trills, laterals and vowels. 
+This ongoing project explores L2 category formation and the relationship 
+between speech production and speech perception during the early stages of L2 
+acquisition. 
+The data were/are collected in a stateside immersion program over the course 
+of a summer. 
+The participants complete a variety of tasks aimed at analyzing their 
+acquisition of various L2 segments, such as: stops, trills, laterals and 
+vowels.
 </p>
 </div>
 
 
 
-- <h5bio>Language-specific perceptual normalization in adult second language acquisition</h5bio>
-(<a href="javascript:ReverseDisplay('languageSets')">Info</a>)
+- <h5bio>Language-specific perceptual normalization in adult L2 acquisition</h5bio>
+(<button class="button mybutton" onclick="myFunction('languageSets')">Info</button>)
 
 <div id="languageSets" style="display:none;margin-left:3em;text-indent:0em">
 <p class="minip">
@@ -36,7 +39,7 @@ modes. (with Miquel Simonet)
 
 
 - <h5bio>Production/perception of English/Spanish coronal stops</h5bio>
-(<a href="javascript:ReverseDisplay('coronalStops')">Info</a>)
+(<button class="button mybutton" onclick="myFunction('coronalStops')">Info</button>)
 
 <div id="coronalStops" style="display:none;margin-left:3em;text-indent:0em">
 <p class="minip">
@@ -52,7 +55,7 @@ and Yamile Díaz)
 
 - <h5bio>Semantic predictability and speech rate effects in second language speech 
 categorization</h5bio>
-(<a href="javascript:ReverseDisplay('semanticPredictability')">Info</a>)
+(<button class="button mybutton" onclick="myFunction('semanticPredictability')">Info</button>)
 
 <div id="semanticPredictability" style="display:none;margin-left:3em;text-indent:0em">
 <p class="minip">
@@ -63,7 +66,7 @@ More info coming soon. (with Miquel Simonet and Imanol Suárez Palma)
 
 
 - <h5bio>Morphosyntactic predictability</h5bio>
-(<a href="javascript:ReverseDisplay('morphosyntacticPredictability')">Info</a>)
+(<button class="button mybutton" onclick="myFunction('morphosyntacticPredictability')">Info</button>)
 
 <div id="morphosyntacticPredictability" style="display:none;margin-left:3em;text-indent:0em">
 <p class="minip">
@@ -81,7 +84,7 @@ More info coming soon.
 ### Previous Projects 
 
 - <h5bio>Production/perception of switch dominance speakers of English</h5bio>
-(<a href="javascript:ReverseDisplay('switchDominance')">Info</a>)
+(<button class="button mybutton" onclick="myFunction('switchDominance')">Info</button>)
 
 <div id="switchDominance" style="display:none;margin-left:3em;text-indent:0em">
 <p class="minip">
@@ -91,7 +94,7 @@ co-authored 2016 article that appeared in [Second Language Research](http://slr.
 </div>
 
 - <h5bio>Selective adaptation</h5bio>
-(<a href="javascript:ReverseDisplay('selectiveAdaptation')">Info</a>)
+(<button class="button mybutton" onclick="myFunction('selectiveAdaptation')">Info</button>)
 
 <div id="selectiveAdaptation" style="display:none;margin-left:3em;text-indent:0em">
 <p class="minip">

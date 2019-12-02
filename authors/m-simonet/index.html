@@ -168,22 +168,15 @@
 
 
   
-<script type="text/javascript" language="JavaScript">
-function HideContent(d) {
-  document.getElementById(d).style.display = "none";
-}
-
-function ShowContent(d) {
-  document.getElementById(d).style.display = "block";
-}
-
-function ReverseDisplay(d) {
-  if(document.getElementById(d).style.display == "none") { 
-    document.getElementById(d).style.display = "block";
-    } else { 
-    document.getElementById(d).style.display = "none"; 
-    }
+<script>
+function myFunction(d) {
+  var x = document.getElementById(d);
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
   }
+}
 </script>
 
   <title>M Simonet | Joseph V. Casillas</title>

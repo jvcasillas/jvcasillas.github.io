@@ -1,0 +1,24 @@
+
+```{r, results='asis', echo=FALSE, eval=TRUE}
+print(bib[key = "CasillasBessettDFTable2013"])
+```
+<!-- START METADATA -->
+<div style="text-indent:.25em;margin-top:-1em" align="left">
+( <a alt="RASGOS" href="https://github.com/jvcasill/rasgos_distintivos" target='_new'><span class="showtooltip" title="RASGOS">Link</span></a> |
+<button class="button mybutton" onclick="myFunction('CasillasBessettDFTable2013Abstract')">Abstract</button> |
+<button class="button mybutton" onclick="myFunction('CasillasBessettDFTable2013Bib')">Bib</button> )
+
+<div id="CasillasBessettDFTable2013Abstract" style="display:none;margin-left:2em;text-indent:0em">
+<p class="minip">Table of allophones and distinctive features of Spanish (in 
+Fonología generativa contemporánea de la lengua española).</p>
+</div>
+
+<div id="CasillasBessettDFTable2013Bib" style="display:none" class="minip">
+
+```{r, echo=FALSE, eval=TRUE, comment='', eval=TRUE}
+toBiblatex(
+  bib[key = "CasillasBessettDFTable2013"])
+```
+</div>
+</div>
+<!-- END METADATA -->

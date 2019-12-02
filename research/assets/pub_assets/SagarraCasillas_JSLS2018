@@ -1,0 +1,42 @@
+
+```{r, results='asis', echo=FALSE, eval=TRUE}
+print(bib[key = "SagarraCasillas_JSLS2018"])
+```
+
+<!-- START METADATA -->
+<div style="text-indent:.25em;margin-top:-1em" align="left">
+( <a alt="JSLS2018" href="https://benjamins.com/catalog/jsls.17026.sag" target='_new'><span class="showtooltip" title="Read paper">Link</span></a> |
+<button class="button mybutton" onclick="myFunction('SagarraCasillas_JSLS2018Abstract')">Abstract</button> |
+<button class="button mybutton" onclick="myFunction('SagarraCasillas_JSLS2018Bib')">Bib</button> )
+
+<div id="SagarraCasillas_JSLS2018Abstract" style="display:none;margin-left:2em;text-indent:0em">
+<p class="minip">We use visual-world eye-tracking and gating methods to 
+investigate whether Spanish monolinguals and English late learners of Spanish 
+use prosodic cues (lexical stress) to anticipate morphological information 
+(suffixes) during spoken word recognition, and if they do, whether L2 
+proficiency and working memory (WM) mediate their anticipatory abilities. Our 
+findings show that the monolinguals used prosodic information to predict word 
+endings in both tasks, regardless of first-syllable stress (stressed, 
+unstressed) and structure (CV, CVC). In contrast, the beginning learners did 
+not use prosodic information to anticipate word suffixes in any task or 
+condition. Importantly, the advanced learners mirrored the monolinguals, except 
+in words with first-syllable CV structure, but were slower than the 
+monolinguals. Finally, WM was not associated with anticipatory eye movements, 
+though results were inconclusive for offline processing. Taken together, the 
+present study shows that suprasegmental information facilitates morphological 
+anticipation during spoken word recognition, and that adult learners can gain 
+anticipatory processing patterns qualitatively, but not quantitatively, similar 
+to monolinguals.</p>
+</div>
+
+<div id="SagarraCasillas_JSLS2018Bib" style="display:none" class="minip">
+
+```{r, echo=FALSE, comment='', eval=TRUE}
+toBiblatex(
+  bib[key = "SagarraCasillas_JSLS2018"], 
+  .opts = list(style = "html"))
+```
+
+</div>
+</div> 
+<!-- END METADATA -->

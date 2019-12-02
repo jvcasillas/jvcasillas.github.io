@@ -1,0 +1,43 @@
+```{r, results='asis', echo=FALSE, eval=TRUE}
+print(bib[key = "CasillasSimonet_jphon2018"])
+```
+
+<!-- START METADATA -->
+<div style="text-indent:.25em;margin-top:-1em" align="left">
+( <a alt="JPHON2018" href="https://www.sciencedirect.com/science/article/pii/S0095447018300111?via%3Dihub" target='_new'><span class="showtooltip" title="Read paper">Link</span></a> |
+<button class="button mybutton" onclick="myFunction('CasillasSimonet_jphon2018Abstract')">Abstract</button> |
+<button class="button mybutton" onclick="myFunction('CasillasSimonet_jphon2018Bib')">Bib</button> )
+
+<div id="CasillasSimonet_jphon2018Abstract" style="display:none;margin-left:2em;text-indent:0em">
+<p class="minip">In the present study, Spanish-English bilinguals’ perceptual 
+boundaries between voiced and voiceless stops (a /b/-/p/ continuum including 
+pre-voiced, voiceless unaspirated, and voiceless aspirated tokens) are shown 
+to be modulated by whether participants are “led to believe” they are 
+classifying Spanish or English sounds. In Experiment 1, simultaneous 
+Spanish-English bilinguals and beginner second-language learners of Spanish 
+labeled the same acoustic continuum in two experimental sessions (Spanish 
+mode, English mode), and both groups were found to display language-specific 
+perceptual boundaries (or session effects). In Experiment 2, early bilinguals 
+and late second-language learners of various levels of proficiency 
+participated in a single session in which, in random order, they labeled 
+nonwords that were designed to prime either Spanish or English language modes. 
+Early bilinguals and relatively proficient second-language learners, but not 
+less proficient learners, displayed mode-specific perceptual normalization 
+criteria even in conditions of rapid, random mode switching. Along with 
+similar ones, the experiments reported here demonstrate that bilinguals are 
+able to exploit language-specific perceptual processes (or norms) when 
+processing speech sounds, which entails some degree of separation between 
+their sound systems.</p>
+</div>
+
+<div id="CasillasSimonet_jphon2018Bib" style="display:none" class="minip">
+
+```{r, echo=FALSE, comment='', eval=TRUE}
+toBiblatex(
+  bib[key = "CasillasSimonet_jphon2018"], 
+  .opts = list(style = "html"))
+```
+
+</div>
+</div> 
+<!-- END METADATA -->

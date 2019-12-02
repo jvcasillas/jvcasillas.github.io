@@ -1,0 +1,32 @@
+```{r, results='asis', echo=FALSE, eval=TRUE}
+print(bib[key = "CasillasWSS62013article"])
+```
+<!-- START METADATA -->
+<div style="text-indent:.25em;margin-top:-1em" align="left">
+( <a alt="WSS6" href="http://www.lingref.com/cpp/wss/6/abstract2867.html" target='_new'><span class="showtooltip" title="WSS6 abstract">Link</span></a> |
+<button class="button mybutton" onclick="myFunction('CasillasWSS62013AbstractAbstract')">Abstract</button> |
+<button class="button mybutton" onclick="myFunction('CasillasWSS62013AbstractBib')">Bib</button> )
+
+<div id="CasillasWSS62013Abstract" style="display:none;margin-left:2em;text-indent:0em">
+<p class="minip">La presente investigación examina las actitudes lingüísticas 
+que tienen los hablantes de español de la comunidad de habla de Tucson, Arizona 
+hacia el dialecto sonorense. Concretamente, se investiga el efecto que tiene la 
+realización del africado prepalatal sordo y su variante fricativa no estándar 
+sobre las percepciones de credibilidad de 4 candidatos a un puesto de trabajo 
+hipotético. Un cuestionario basado en los índices de credibilidad utilizados 
+por McCroskey (1999) se distribuyó a 111 participantes para medir sus actitudes 
+hacia los 4 candidatos. El experimento consistió en una variación de la técnica 
+matched-guise para asignar a los participantes a uno de dos grupos, el primero 
+escuchó la variante estándar y el segundo la variante fricativa. Se demuestra 
+que la variante fricativa recibe valoraciones de credibilidad más bajas que la 
+variante estándar.</p>
+</div>
+
+<div id="CasillasWSS62013Bib" style="display:none" class="minip">
+
+```{r, echo=FALSE, eval=TRUE, comment='', eval=TRUE}
+toBiblatex(bib[key = "CasillasWSS62013article"])
+```
+</div>
+</div>
+<!-- END METADATA -->

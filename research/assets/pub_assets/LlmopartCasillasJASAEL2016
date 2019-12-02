@@ -1,0 +1,35 @@
+
+```{r, results='asis', echo=FALSE, eval=TRUE}
+print(bib[key = "LlmopartCasillasJASAEL2016"])
+```
+
+<!-- START METADATA -->
+<div style="text-indent:.25em;margin-top:-1em" align="left">
+( <a alt="JASAEL2016" href="http://scitation.aip.org/content/asa/journal/jasa/139/5/10.1121/1.4951704" target='_new'><span class="showtooltip" title="Read paper">Link</span></a> |
+<button class="button mybutton" onclick="myFunction('LlmopartCasillasJASAEL2016Abstract')">Abstract</button> |
+<button class="button mybutton" onclick="myFunction('LlmopartCasillasJASAEL2016Bib')">Bib</button> )
+
+<div id="LlmopartCasillasJASAEL2016Abstract" style="display:none;margin-left:2em;text-indent:0em">
+<p class="minip">Limited exposure to ambiguous auditory stimuli results in 
+perceptual recalibration. When unambiguous stimuli are used instead, selective 
+adaptation (SA) effects have been reported, even after few adaptor 
+presentations. Crucially, selective adaptation by an ambiguous sound in biasing 
+lexical contexts had previously been found only after massive adaptor repetition 
+[Samuel (2001). Psychol. Sci. 12(4), 348–351]. The present study shows that 
+extensive exposure is not necessary for lexically driven selective adaptation to 
+occur. Lexically driven selective adaptation can arise after as few as nine 
+adaptor presentations. Additionally, build-up course inspection reveals several 
+parallelisms with the time course observed for SA with unambiguous stimuli.</p>
+</div>
+
+<div id="LlmopartCasillasJASAEL2016Bib" style="display:none" class="minip">
+
+```{r, echo=FALSE, comment='', eval=TRUE}
+toBiblatex(
+  bib[key = "LlmopartCasillasJASAEL2016"], 
+  .opts = list(style = "html"))
+```
+
+</div>
+</div> 
+<!-- END METADATA -->

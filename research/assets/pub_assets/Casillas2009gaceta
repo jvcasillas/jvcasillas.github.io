@@ -1,0 +1,34 @@
+```{r, results='asis', echo=FALSE, eval=TRUE}
+print(bib[key = "Casillas2009gaceta"])
+```
+
+<!-- START METADATA -->
+<div style="text-indent:.25em;margin-top:-1em" align="left">
+( <button class="button mybutton" onclick="myFunction('Casillas2009Abstract')">Abstract</button> |
+<button class="button mybutton" onclick="myFunction('Casillas2009Bib')">Bib</button> )
+
+<div id="Casillas2009Abstract" style="display:none;margin-left:2em;text-indent:0em">
+<p class="minip">El refrán es una de las partes fundamentales de la lengua 
+castellana que vemos plasmada en toda la cultura española, tanto en el habla 
+cotidiana como en la literatura. El refrán ha tenido y sigue teniendo suma 
+importancia a la hora de conocer y entender la cultura hispana, ya sea oral o 
+en textos escritos. Es algo que los estudiantes de español como segunda lengua 
+pueden comprobar puesto que supone un reto en su aprendizaje. Como es bien 
+sabido, El Quijote, novela estudiada exhaustivamente desde que fue publicada 
+por primera vez, es una fuente paremiológica imprescindible para quien quiera 
+aprender, investigar o simplemente gozar del refranero cervantino. En palabras 
+de Tarnovska: “No hay otra obra literaria que sea ni pueda ser considerada 
+refranero popular de la misma importancia que El Quijote” (287). Además de ser 
+una de las obras de literatura más esenciales de todos los tiempos, también es 
+un recurso, una vía por medio de la cual el lector puede acercarse a la cultura 
+española.</p>
+</div>
+
+<div id="Casillas2009Bib" style="display:none" class="minip">
+
+```{r, echo=FALSE, eval=TRUE, comment=''}
+toBiblatex(bib[key = "Casillas2009gaceta"])
+```
+</div>
+</div>
+<!-- END METADATA -->

@@ -1,0 +1,17 @@
+```{r, results='asis', echo=FALSE, eval=TRUE}
+print(bib[key = "Casillas2010gaceta"])
+```
+
+<!-- START METADATA -->
+<div style="text-indent:.25em;margin-top:-1em" align="left">
+( <button class="button mybutton" onclick="myFunction('Casillas2010Bib')">Bib</button> )
+
+
+<div id="Casillas2010Bib" style="display:none" class="minip">
+
+```{r, echo=FALSE, eval=TRUE, comment=''}
+toBiblatex(bib[key = "Casillas2010gaceta"])
+```
+</div>
+</div>
+<!-- END METADATA -->

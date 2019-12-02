@@ -1,0 +1,30 @@
+
+```{r, results='asis', echo=FALSE, eval=TRUE}
+print(bib[key = "Casillas2012divergencias"])
+```
+
+<!-- START METADATA -->
+<div style="text-indent:.25em;margin-top:-1em" align="left">
+( <a alt="Divergencias" href="http://divergencias.arizona.edu/sites/divergencias.arizona.edu/files/articles/FricativizacionDivergencias.pdf" target='_new'><span class="showtooltip" title="Read paper">Link</span></a> |
+<button class="button mybutton" onclick="myFunction('Casillas2012Abstract')">Abstract</button> |
+<button class="button mybutton" onclick="myFunction('Casillas2012Bib')">Bib</button> )
+
+<div id="Casillas2012Abstract" style="display:none;margin-left:2em;text-indent:0em">
+<p class="minip">La fricativización del fonema /ʧ/ supone uno de los procesos 
+fonológicos más productivos del español mexicano, sin embargo, actualmente sigue 
+siendo uno de los menos estudiados. Partiendo de las investigaciones de 
+Cedergren (1973), Brown (1989) y Herrera (2006), el presente estudio analiza la 
+fricativización del fonema /ʧ/ en el español de las mujeres del sur de Arizona. 
+El uso de una regresión de subida y bajada de Goldvarb X determinó que la edad 
+de las participantes, el contexto posterior a /ʧ/ y el lugar de nacimiento son 
+factores determinantes para la realización de la variante fricativa.</p>
+</div>
+
+<div id="Casillas2012Bib" style="display:none" class="minip">
+
+```{r, echo=FALSE, eval=TRUE, comment=''}
+toBiblatex(bib[key = "Casillas2012divergencias"])
+```
+</div>
+</div>
+<!-- END METADATA -->

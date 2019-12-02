@@ -1,0 +1,35 @@
+
+```{r, results='asis', echo=FALSE, eval=TRUE}
+print(bib[key = "BessettCasillasRamirezSpIC2017"])
+```
+
+<!-- START METADATA -->
+<div style="text-indent:.25em;margin-top:-1em" align="left">
+( <a alt="SinC2017" href="https://benjamins.com/catalog/sic.14.1.04bes" target='_new'><span class="showtooltip" title="Read paper">Link</span></a> |
+<button class="button mybutton" onclick="myFunction('BessettCasillasRamirezSpIC2017Abstract')">Abstract</button> |
+<button class="button mybutton" onclick="myFunction('BessettCasillasRamirezSpIC2017Bib')">Bib</button> )
+
+<div id="BessettCasillasRamirezSpIC2017Abstract" style="display:none;margin-left:2em;text-indent:0em">
+<p class="minip">The present study investigates language choice in two 
+bilingual speech communities in the United States: Nogales, AZ and San Ysidro, 
+CA. Ethnically distinct fieldworkers approached members of these two 
+communities under the guise of being lost tourists in order to engage in casual 
+speech encounters. It was found that language choice varied between the two 
+communities, with participants of the San Ysidro community more likely to 
+engage in codeswitching. Ethnicity was also found to be a significant predictor 
+of language choice, with more codeswitching taking place with the fieldworker 
+of a Hispanic phenotype. Potential explanations and factors for future research 
+are discussed.</p>
+</div>
+
+<div id="BessettCasillasRamirezSpIC2017Bib" style="display:none" class="minip">
+
+```{r, echo=FALSE, comment='', eval=TRUE}
+toBiblatex(
+  bib[key = "BessettCasillasRamirezSpIC2017"], 
+  .opts = list(style = "html"))
+```
+
+</div>
+</div> 
+<!-- END METADATA -->
