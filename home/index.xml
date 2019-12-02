@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Homes on Joseph V. Casillas</title>
+    <link>/home/</link>
+    <description>Recent content in Homes on Joseph V. Casillas</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Joseph V. Casillas&lt;/br&gt;&amp;copy; 2019&lt;/br&gt;</copyright>
+    <lastBuildDate>Wed, 20 Sep 2017 00:00:00 -0400</lastBuildDate>
+    
+	<atom:link href="/home/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title></title>
+      <link>/home/about/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>/home/about/</guid>
+      <description>About I am an Assistant Professor of Hispanic Linguistics in the Spanish and Portuguese Department at Rutgers University, New Brunswick. My main interests are in phonetics, laboratory phonology, and second language acquisition. A principle aim of my research is to better understand the relationship between language use and sound representation in the mind, as well as the structure of sound systems in human languages. Most of my research is conducted on bilinguals of varying proficiency and linguistic experience.</description>
+    </item>
+    
+    <item>
+      <title>**Recent Publications**</title>
+      <link>/home/publications_selected/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 -0400</pubDate>
+      
+      <guid>/home/publications_selected/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>**Recent &amp; Upcoming Talks**</title>
+      <link>/home/talks/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>/home/talks/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>**Recent Posts**</title>
+      <link>/home/posts/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>/home/posts/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>**Contact**</title>
+      <link>/home/contact/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>/home/contact/</guid>
+      <description>You can set up an appointment to meet with me here or use one of the methods below.</description>
+    </item>
+    
+    <item>
+      <title>**Tags**</title>
+      <link>/home/tags/</link>
+      <pubDate>Wed, 20 Sep 2017 00:00:00 -0400</pubDate>
+      
+      <guid>/home/tags/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
