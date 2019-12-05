@@ -2,29 +2,29 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories | Joseph V. Casillas</title>
-    <link>/categories/</link>
-      <atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
+    <link>http://jvcasillas.github.io/categories/</link>
+      <atom:link href="http://jvcasillas.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
     <description>Categories</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Joseph V. Casillas © 2019 </copyright><lastBuildDate>Sun, 16 Sep 2018 21:13:14 -0500</lastBuildDate>
     <image>
-      <url>/img/jvc2016.png</url>
+      <url>http://jvcasillas.github.io/img/jvc2016.png</url>
       <title>Categories</title>
-      <link>/categories/</link>
+      <link>http://jvcasillas.github.io/categories/</link>
     </image>
     
     <item>
       <title>Linguistics</title>
-      <link>/categories/linguistics/</link>
+      <link>http://jvcasillas.github.io/categories/linguistics/</link>
       <pubDate>Sun, 16 Sep 2018 21:13:14 -0500</pubDate>
-      <guid>/categories/linguistics/</guid>
+      <guid>http://jvcasillas.github.io/categories/linguistics/</guid>
       <description></description>
     </item>
     
     <item>
       <title>R</title>
-      <link>/categories/r/</link>
+      <link>http://jvcasillas.github.io/categories/r/</link>
       <pubDate>Mon, 22 Jun 2015 21:13:14 -0500</pubDate>
-      <guid>/categories/r/</guid>
+      <guid>http://jvcasillas.github.io/categories/r/</guid>
       <description></description>
     </item>
     

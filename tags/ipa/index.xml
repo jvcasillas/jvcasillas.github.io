@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>ipa | Joseph V. Casillas</title>
-    <link>/tags/ipa/</link>
-      <atom:link href="/tags/ipa/index.xml" rel="self" type="application/rss+xml" />
+    <link>http://jvcasillas.github.io/tags/ipa/</link>
+      <atom:link href="http://jvcasillas.github.io/tags/ipa/index.xml" rel="self" type="application/rss+xml" />
     <description>ipa</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Joseph V. Casillas © 2019 </copyright><lastBuildDate>Wed, 27 Apr 2016 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>/img/jvc2016.png</url>
+      <url>http://jvcasillas.github.io/img/jvc2016.png</url>
       <title>ipa</title>
-      <link>/tags/ipa/</link>
+      <link>http://jvcasillas.github.io/tags/ipa/</link>
     </image>
     
     <item>
       <title>LaTeX IPA</title>
-      <link>/project/latex_ipa/</link>
+      <link>http://jvcasillas.github.io/project/latex_ipa/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>/project/latex_ipa/</guid>
+      <guid>http://jvcasillas.github.io/project/latex_ipa/</guid>
       <description>&lt;!-- raw HTML omitted --&gt;
 &lt;!-- raw HTML omitted --&gt;
 &lt;p&gt;I made this repository to simplify the process of using IPA in $\LaTeX$. It is merely a collection of snippets for the package &lt;a href=&#34;http://www.ctan.org/pkg/tipa&#34;&gt;TIPA&lt;/a&gt;. To install LaTeX-IPA see the &lt;a href=&#34;https://sublime.wbond.net/packages/LaTeX-IPA&#34;&gt;package control&lt;/a&gt; page.&lt;/p&gt;

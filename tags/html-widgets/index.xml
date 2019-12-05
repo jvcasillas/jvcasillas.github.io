@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>html widgets | Joseph V. Casillas</title>
-    <link>/tags/html-widgets/</link>
-      <atom:link href="/tags/html-widgets/index.xml" rel="self" type="application/rss+xml" />
+    <link>http://jvcasillas.github.io/tags/html-widgets/</link>
+      <atom:link href="http://jvcasillas.github.io/tags/html-widgets/index.xml" rel="self" type="application/rss+xml" />
     <description>html widgets</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Joseph V. Casillas © 2019 </copyright><lastBuildDate>Mon, 13 Apr 2015 21:13:14 -0500</lastBuildDate>
     <image>
-      <url>/img/jvc2016.png</url>
+      <url>http://jvcasillas.github.io/img/jvc2016.png</url>
       <title>html widgets</title>
-      <link>/tags/html-widgets/</link>
+      <link>http://jvcasillas.github.io/tags/html-widgets/</link>
     </image>
     
     <item>
       <title>HTML widgets in Rmarkdown</title>
-      <link>/post/2015-04-13_html_widgets/</link>
+      <link>http://jvcasillas.github.io/post/2015-04-13_html_widgets/</link>
       <pubDate>Mon, 13 Apr 2015 21:13:14 -0500</pubDate>
-      <guid>/post/2015-04-13_html_widgets/</guid>
+      <guid>http://jvcasillas.github.io/post/2015-04-13_html_widgets/</guid>
       <description>
 
 

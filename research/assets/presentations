@@ -8,121 +8,151 @@
 <span class="tempTimes">
 
 
-
+```{r, results='asis', echo=FALSE, eval=TRUE, cache=FALSE}
+print(bib[key = "casillas_dpbe_HLS2019"])
+```
 
 ```{r, results='asis', echo=FALSE, eval=TRUE, cache=FALSE}
-print(
-  bib[key = "casillas_dpbe_HLS2019"], 
-  .opts = list(check.entries = FALSE, style = "html", bib.style = "authortitle"))
-print(
-  bib[key = "casillas_morphpred_HLS2019"], 
-  .opts = list(check.entries = FALSE, style = "html", bib.style = "authortitle"))
-print(
-  bib[key = "colina_diaz_casillas_HLS2018_glide"], 
-  .opts = list(check.entries = FALSE, style = "html", bib.style = "authortitle"))
-print(
-  bib[key = "lozano_sagarra_casillasHLS2018morph"], 
-  .opts = list(check.entries = FALSE, style = "html", bib.style = "authortitle"))
-print(
-  bib[key = "lozano_sagarra_casillasISBPAC2018morph"], 
-  .opts = list(check.entries = FALSE, style = "html", bib.style = "authortitle"))
-print(
-  bib[key = "lozano_sagarra_casillasISB2017morph"], 
-  .opts = list(check.entries = FALSE, style = "html", bib.style = "authortitle"))
-print(
-  bib[key = "casillasHLSa2017morph"], 
-  .opts = list(check.entries = FALSE, style = "html", bib.style = "authortitle"))
-print(
-  bib[key = "casillasHLSb2017morph"], 
-  .opts = list(check.entries = FALSE, style = "html", bib.style = "authortitle"))
-print(
-  bib[key = "casillasSLRF2017morph"], 
-  .opts = list(check.entries = FALSE, style = "html", bib.style = "authortitle"))
-print(
-  bib[key = "casillasLSRL2017morph"], 
-  .opts = list(check.entries = FALSE, style = "html", bib.style = "authortitle"))
-print(
-  bib[key = "casillasLSRL2017prodperc"], 
-  .opts = list(check.entries = FALSE, style = "html", bib.style = "authortitle"))
-print(
-  bib[key = "casillasSSHL2017"], 
-  .opts = list(check.entries = FALSE, style = "html", bib.style = "authortitle"))
-print(
-  bib[key = "CasillasHLS2016"], 
-  .opts = list(check.entries = FALSE, style = "html", bib.style = "authortitle"))
-print(
-  bib[key = "SimonetCasillasOsborneSOUNDWORD2016"], 
-  .opts = list(check.entries = FALSE, style = "html", bib.style = "authortitle"))
-print(
-  bib[key = "CasillasDiazSimonetHLS2015"], 
-  .opts = list(check.entries = FALSE, style = "html", bib.style = "authortitle"))
-print(
-  bib[key = "BessettCasillasMartinezWSS72014conf"], 
-  .opts = list(check.entries = FALSE, style = "html", bib.style = "authortitle"))
-print(
-  bib[key = "CasillasSLRF2013"], 
-  .opts = list(check.entries = FALSE, style = "html", bib.style = "authortitle"))
-print(
-  bib[key = "CasillasPAPI2013"], 
-  .opts = list(check.entries = FALSE, style = "html", bib.style = "authortitle"))
-print(
-  bib[key = "CasillasWSS6CONF2013conf"], 
-  .opts = list(check.entries = FALSE, style = "html", bib.style = "authortitle"))
-print(
-  bib[key = "CasillasSYMP2012conf"], 
-  .opts = list(check.entries = FALSE, style = "html", bib.style = "authortitle"))
-print(
-  bib[key = "CasillasCONF2011symp"], 
-  .opts = list(check.entries = FALSE, style = "html", bib.style = "authortitle"))
-print(
-  bib[key = "CasillasCONF2011share"], 
-  .opts = list(check.entries = FALSE, style = "html", bib.style = "authortitle"))
+print(bib[key = "casillas_morphpred_HLS2019"])
 ```
+
+```{r, results='asis', echo=FALSE, eval=TRUE, cache=FALSE}
+print(bib[key = "colina_diaz_casillas_HLS2018_glide"])
+```
+
+```{r, results='asis', echo=FALSE, eval=TRUE, cache=FALSE}
+print(bib[key = "lozano_sagarra_casillasHLS2018morph"])
+```
+
+```{r, results='asis', echo=FALSE, eval=TRUE, cache=FALSE}
+print(bib[key = "lozano_sagarra_casillasISBPAC2018morph"])
+```
+
+```{r, results='asis', echo=FALSE, eval=TRUE, cache=FALSE}
+print(bib[key = "lozano_sagarra_casillasISB2017morph"])
+```
+
+```{r, results='asis', echo=FALSE, eval=TRUE, cache=FALSE}
+print(bib[key = "casillasHLSa2017morph"])
+```
+
+```{r, results='asis', echo=FALSE, eval=TRUE, cache=FALSE}
+print(bib[key = "casillasHLSb2017morph"])
+```
+
+```{r, results='asis', echo=FALSE, eval=TRUE, cache=FALSE}
+print(bib[key = "casillasSLRF2017morph"])
+```
+
+```{r, results='asis', echo=FALSE, eval=TRUE, cache=FALSE}
+print(bib[key = "casillasLSRL2017morph"])
+```
+
+```{r, results='asis', echo=FALSE, eval=TRUE, cache=FALSE}
+print(bib[key = "casillasLSRL2017prodperc"])
+```
+
+```{r, results='asis', echo=FALSE, eval=TRUE, cache=FALSE}
+print(bib[key = "casillasSSHL2017"])
+```
+
+```{r, results='asis', echo=FALSE, eval=TRUE, cache=FALSE}
+print(bib[key = "CasillasHLS2016"])
+```
+
+```{r, results='asis', echo=FALSE, eval=TRUE, cache=FALSE}
+print(bib[key = "SimonetCasillasOsborneSOUNDWORD2016"])
+```
+
+```{r, results='asis', echo=FALSE, eval=TRUE, cache=FALSE}
+print(bib[key = "CasillasDiazSimonetHLS2015"])
+```
+
+```{r, results='asis', echo=FALSE, eval=TRUE, cache=FALSE}
+print(bib[key = "BessettCasillasMartinezWSS72014conf"])
+```
+
+```{r, results='asis', echo=FALSE, eval=TRUE, cache=FALSE}
+print(bib[key = "CasillasSLRF2013"])
+```
+
+```{r, results='asis', echo=FALSE, eval=TRUE, cache=FALSE}
+print(bib[key = "CasillasPAPI2013"])
+```
+
+```{r, results='asis', echo=FALSE, eval=TRUE, cache=FALSE}
+print(bib[key = "CasillasWSS6CONF2013conf"])
+```
+
+```{r, results='asis', echo=FALSE, eval=TRUE, cache=FALSE}
+print(bib[key = "CasillasSYMP2012conf"])
+```
+
+```{r, results='asis', echo=FALSE, eval=TRUE, cache=FALSE}
+print(bib[key = "CasillasCONF2011symp"])
+```
+
+```{r, results='asis', echo=FALSE, eval=TRUE, cache=FALSE}
+print(bib[key = "CasillasCONF2011share"])
+```
+
+
+
+
 
 ### Unrefereed Presentations
 
 ```{r, results='asis', echo=FALSE, eval=TRUE}
-print(
-  bib[key = "CasillasMidd2017"], 
-  .opts = list(check.entries = FALSE, style = "html", bib.style = "authortitle"))
-print(
-  bib[key = "SagarraCasillasLozanoEriksson2017poster"], 
-  .opts = list(check.entries = FALSE, style = "html", bib.style = "authortitle"))
-print(
-  bib[key = "SagarraCasillasLozanoRodriguez2017poster"], 
-  .opts = list(check.entries = FALSE, style = "html", bib.style = "authortitle"))
+print(bib[key = "CasillasMidd2017"])
 ```
+
+```{r, results='asis', echo=FALSE, eval=TRUE}
+print(bib[key = "SagarraCasillasLozanoEriksson2017poster"])
+```
+
+```{r, results='asis', echo=FALSE, eval=TRUE}
+print(bib[key = "SagarraCasillasLozanoRodriguez2017poster"])
+```
+
+
+
 
 ### Poster presentations
 
 ```{r, results='asis', echo=FALSE, eval=TRUE}
-print(
-  bib[key = "CasillasICPhS2019poster"], 
-  .opts = list(check.entries = FALSE, style = "html", bib.style = "authortitle"))
-print(
-  bib[key = "lozano_sagarra_casillas_IICPEB2018"], 
-  .opts = list(check.entries = FALSE, style = "html", bib.style = "authortitle"))
-print(
-  bib[key = "sagarra_casillas_SBL2P2018"], 
-  .opts = list(check.entries = FALSE, style = "html", bib.style = "authortitle"))
-print(
-  bib[key = "lozano_sagarra_casillas_BAP2018"], 
-  .opts = list(check.entries = FALSE, style = "html", bib.style = "authortitle"))
-print(
-  bib[key = "RamirezCasillasWSS82016poster"], 
-  .opts = list(check.entries = FALSE, style = "html", bib.style = "authortitle"))
-print(
-  bib[key = "CasillasDiazSimonetICPhS2015poster"], 
-  .opts = list(check.entries = FALSE, style = "html", bib.style = "authortitle"))
-print(
-  bib[key = "SimonetCasillasDiazHLS2014poster"], 
-  .opts = list(check.entries = FALSE, style = "html", bib.style = "authortitle"))
-print(
-  bib[key = "SimonetCasillasDiazSP72014poster"], 
-  .opts = list(check.entries = FALSE, style = "html", bib.style = "authortitle"))
-print(
-  bib[key = "CasillasPPLC2013"], 
-  .opts = list(check.entries = FALSE, style = "html", bib.style = "authortitle"))
+print(bib[key = "CasillasICPhS2019poster"])
+```
+
+```{r, results='asis', echo=FALSE, eval=TRUE}
+print(bib[key = "lozano_sagarra_casillas_IICPEB2018"])
+```
+
+```{r, results='asis', echo=FALSE, eval=TRUE}
+print(bib[key = "sagarra_casillas_SBL2P2018"])
+```
+
+```{r, results='asis', echo=FALSE, eval=TRUE}
+print(bib[key = "lozano_sagarra_casillas_BAP2018"])
+```
+
+```{r, results='asis', echo=FALSE, eval=TRUE}
+print(bib[key = "RamirezCasillasWSS82016poster"])
+```
+
+```{r, results='asis', echo=FALSE, eval=TRUE}
+print(bib[key = "CasillasDiazSimonetICPhS2015poster"])
+```
+
+```{r, results='asis', echo=FALSE, eval=TRUE}
+print(bib[key = "SimonetCasillasDiazHLS2014poster"])
+```
+
+```{r, results='asis', echo=FALSE, eval=TRUE}
+print(bib[key = "SimonetCasillasDiazSP72014poster"])
+```
+
+```{r, results='asis', echo=FALSE, eval=TRUE}
+print(bib[key = "CasillasPPLC2013"])
 ```
 
 </span>

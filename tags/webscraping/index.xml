@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>webscraping | Joseph V. Casillas</title>
-    <link>/tags/webscraping/</link>
-      <atom:link href="/tags/webscraping/index.xml" rel="self" type="application/rss+xml" />
+    <link>http://jvcasillas.github.io/tags/webscraping/</link>
+      <atom:link href="http://jvcasillas.github.io/tags/webscraping/index.xml" rel="self" type="application/rss+xml" />
     <description>webscraping</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Joseph V. Casillas © 2019 </copyright><lastBuildDate>Tue, 16 Jun 2015 21:13:14 -0500</lastBuildDate>
     <image>
-      <url>/img/jvc2016.png</url>
+      <url>http://jvcasillas.github.io/img/jvc2016.png</url>
       <title>webscraping</title>
-      <link>/tags/webscraping/</link>
+      <link>http://jvcasillas.github.io/tags/webscraping/</link>
     </image>
     
     <item>
       <title>How to scrape data from Google Sheets in R</title>
-      <link>/post/2015-06-16_google_sheets_in_r/</link>
+      <link>http://jvcasillas.github.io/post/2015-06-16_google_sheets_in_r/</link>
       <pubDate>Tue, 16 Jun 2015 21:13:14 -0500</pubDate>
-      <guid>/post/2015-06-16_google_sheets_in_r/</guid>
+      <guid>http://jvcasillas.github.io/post/2015-06-16_google_sheets_in_r/</guid>
       <description>
 
 

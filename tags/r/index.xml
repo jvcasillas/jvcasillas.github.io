@@ -2,77 +2,77 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>R | Joseph V. Casillas</title>
-    <link>/tags/r/</link>
-      <atom:link href="/tags/r/index.xml" rel="self" type="application/rss+xml" />
+    <link>http://jvcasillas.github.io/tags/r/</link>
+      <atom:link href="http://jvcasillas.github.io/tags/r/index.xml" rel="self" type="application/rss+xml" />
     <description>R</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Joseph V. Casillas © 2019 </copyright><lastBuildDate>Wed, 27 Apr 2016 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>/img/jvc2016.png</url>
+      <url>http://jvcasillas.github.io/img/jvc2016.png</url>
       <title>R</title>
-      <link>/tags/r/</link>
+      <link>http://jvcasillas.github.io/tags/r/</link>
     </image>
     
     <item>
       <title>Bivariate linear regression</title>
-      <link>/project/shiny_bivariate_regression/</link>
+      <link>http://jvcasillas.github.io/project/shiny_bivariate_regression/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>/project/shiny_bivariate_regression/</guid>
+      <guid>http://jvcasillas.github.io/project/shiny_bivariate_regression/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Central limit theorem</title>
-      <link>/project/shiny_clt/</link>
+      <link>http://jvcasillas.github.io/project/shiny_clt/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>/project/shiny_clt/</guid>
+      <guid>http://jvcasillas.github.io/project/shiny_clt/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Crossover</title>
-      <link>/project/shiny_crossover/</link>
+      <link>http://jvcasillas.github.io/project/shiny_crossover/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>/project/shiny_crossover/</guid>
+      <guid>http://jvcasillas.github.io/project/shiny_crossover/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Generalized linear model</title>
-      <link>/project/shiny_glm/</link>
+      <link>http://jvcasillas.github.io/project/shiny_glm/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>/project/shiny_glm/</guid>
+      <guid>http://jvcasillas.github.io/project/shiny_glm/</guid>
       <description></description>
     </item>
     
     <item>
       <title>lingStuff</title>
-      <link>/project/lingstuff/</link>
+      <link>http://jvcasillas.github.io/project/lingstuff/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>/project/lingstuff/</guid>
+      <guid>http://jvcasillas.github.io/project/lingstuff/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Power/Sample size calculator</title>
-      <link>/project/shiny_power/</link>
+      <link>http://jvcasillas.github.io/project/shiny_power/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>/project/shiny_power/</guid>
+      <guid>http://jvcasillas.github.io/project/shiny_power/</guid>
       <description></description>
     </item>
     
     <item>
       <title>R for linguists</title>
-      <link>/project/r_for_linguists/</link>
+      <link>http://jvcasillas.github.io/project/r_for_linguists/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>/project/r_for_linguists/</guid>
+      <guid>http://jvcasillas.github.io/project/r_for_linguists/</guid>
       <description></description>
     </item>
     
     <item>
       <title>R-Snippets</title>
-      <link>/project/r_snippets/</link>
+      <link>http://jvcasillas.github.io/project/r_snippets/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>/project/r_snippets/</guid>
+      <guid>http://jvcasillas.github.io/project/r_snippets/</guid>
       <description>&lt;!-- raw HTML omitted --&gt;
 &lt;!-- raw HTML omitted --&gt;
 &lt;p&gt;This repository is a collection of snippets that I use in &lt;a href=&#34;http://www.sublimetext.com&#34;&gt;SublimeText&lt;/a&gt; &lt;a href=&#34;http://www.sublimetext.com&#34;&gt;SublimeText&lt;/a&gt; for doing statistical analysis in &lt;a href=&#34;http://www.r-project.org&#34;&gt;R&lt;/a&gt;. The goal is straightforward: document the code that I use most often while doing linguistic research and make it readily available (and understandable) to other linguists. If you are interested in helping see the github &lt;a href=&#34;https://github.com/jvcasillas/R-snippets&#34;&gt;repository&lt;/a&gt;. To install R-snippets see the &lt;a href=&#34;https://sublime.wbond.net/packages/R-snippets&#34;&gt;package control&lt;/a&gt; page. To use a snippet, type the trigger and hit the tab key. For example, typing &lt;!-- raw HTML omitted --&gt;lm&lt;!-- raw HTML omitted --&gt; brings up the following window:&lt;/p&gt;
@@ -111,17 +111,17 @@ modelName
     
     <item>
       <title>Spanish allophones and distinctive features</title>
-      <link>/project/shiny_distinctivefeatures/</link>
+      <link>http://jvcasillas.github.io/project/shiny_distinctivefeatures/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>/project/shiny_distinctivefeatures/</guid>
+      <guid>http://jvcasillas.github.io/project/shiny_distinctivefeatures/</guid>
       <description></description>
     </item>
     
     <item>
       <title>tidyr tutorial</title>
-      <link>/post/2015-06-22_tidyr_tutorial/</link>
+      <link>http://jvcasillas.github.io/post/2015-06-22_tidyr_tutorial/</link>
       <pubDate>Mon, 22 Jun 2015 21:13:14 -0500</pubDate>
-      <guid>/post/2015-06-22_tidyr_tutorial/</guid>
+      <guid>http://jvcasillas.github.io/post/2015-06-22_tidyr_tutorial/</guid>
       <description>
 
 
@@ -131,9 +131,9 @@ modelName
     
     <item>
       <title>How to scrape data from Google Sheets in R</title>
-      <link>/post/2015-06-16_google_sheets_in_r/</link>
+      <link>http://jvcasillas.github.io/post/2015-06-16_google_sheets_in_r/</link>
       <pubDate>Tue, 16 Jun 2015 21:13:14 -0500</pubDate>
-      <guid>/post/2015-06-16_google_sheets_in_r/</guid>
+      <guid>http://jvcasillas.github.io/post/2015-06-16_google_sheets_in_r/</guid>
       <description>
 
 
@@ -380,9 +380,9 @@ df &amp;lt;- read.csv(textConnection(sheet))&lt;/code&gt;&lt;/pre&gt;
     
     <item>
       <title>Data pipelines in R</title>
-      <link>/post/2015-05-18_data_pipelines/</link>
+      <link>http://jvcasillas.github.io/post/2015-05-18_data_pipelines/</link>
       <pubDate>Mon, 18 May 2015 21:13:14 -0500</pubDate>
-      <guid>/post/2015-05-18_data_pipelines/</guid>
+      <guid>http://jvcasillas.github.io/post/2015-05-18_data_pipelines/</guid>
       <description>
 
 
@@ -443,9 +443,9 @@ associate each package with the corresponding step:&lt;/p&gt;
     
     <item>
       <title>Basic plotting in R</title>
-      <link>/post/2015-04-20_plotting_in_r/</link>
+      <link>http://jvcasillas.github.io/post/2015-04-20_plotting_in_r/</link>
       <pubDate>Mon, 20 Apr 2015 21:13:14 -0500</pubDate>
-      <guid>/post/2015-04-20_plotting_in_r/</guid>
+      <guid>http://jvcasillas.github.io/post/2015-04-20_plotting_in_r/</guid>
       <description>
 
 
@@ -455,9 +455,9 @@ associate each package with the corresponding step:&lt;/p&gt;
     
     <item>
       <title>HTML widgets in Rmarkdown</title>
-      <link>/post/2015-04-13_html_widgets/</link>
+      <link>http://jvcasillas.github.io/post/2015-04-13_html_widgets/</link>
       <pubDate>Mon, 13 Apr 2015 21:13:14 -0500</pubDate>
-      <guid>/post/2015-04-13_html_widgets/</guid>
+      <guid>http://jvcasillas.github.io/post/2015-04-13_html_widgets/</guid>
       <description>
 
 
@@ -467,9 +467,9 @@ associate each package with the corresponding step:&lt;/p&gt;
     
     <item>
       <title>Slidify tutorial</title>
-      <link>/post/2015-03-22_slidify_tutorial/</link>
+      <link>http://jvcasillas.github.io/post/2015-03-22_slidify_tutorial/</link>
       <pubDate>Sun, 22 Mar 2015 21:13:14 -0500</pubDate>
-      <guid>/post/2015-03-22_slidify_tutorial/</guid>
+      <guid>http://jvcasillas.github.io/post/2015-03-22_slidify_tutorial/</guid>
       <description>
 
 
@@ -499,13 +499,13 @@ associate each package with the corresponding step:&lt;/p&gt;
     
     <item>
       <title>TikzDevice tutorial III: standalone plots</title>
-      <link>/post/2014-05-28_tikz_-_standalone_plots/</link>
+      <link>http://jvcasillas.github.io/post/2014-05-28_tikz_-_standalone_plots/</link>
       <pubDate>Wed, 28 May 2014 21:13:14 -0500</pubDate>
-      <guid>/post/2014-05-28_tikz_-_standalone_plots/</guid>
+      <guid>http://jvcasillas.github.io/post/2014-05-28_tikz_-_standalone_plots/</guid>
       <description>
 
 
-&lt;p&gt;In this post I’m going to show you how to use &lt;code&gt;TikzDevice&lt;/code&gt; to create high quality plots that use the same font as your &lt;code&gt;LaTeX&lt;/code&gt; document. I’m assuming that you have already installed &lt;code&gt;tikz&lt;/code&gt;. If not, see &lt;a href=&#34;/blog/2013-05-11_tikz_-_installation/index.html&#34;&gt;part I&lt;/a&gt; in this series. Moreover, this tutorial assumes that you have set up your project in the same way outlined in &lt;a href=&#34;/blog/2013-05-17_tikz_-_projects/index.html&#34;&gt;part II&lt;/a&gt;. An added benefit to this approach is that it allows you to insert IPA symbols into the plot via the &lt;code&gt;tipa&lt;/code&gt; package.&lt;/p&gt;
+&lt;p&gt;In this post I’m going to show you how to use &lt;code&gt;TikzDevice&lt;/code&gt; to create high quality plots that use the same font as your &lt;code&gt;LaTeX&lt;/code&gt; document. I’m assuming that you have already installed &lt;code&gt;tikz&lt;/code&gt;. If not, see &lt;a href=&#34;http://jvcasillas.github.io/blog/2013-05-11_tikz_-_installation/index.html&#34;&gt;part I&lt;/a&gt; in this series. Moreover, this tutorial assumes that you have set up your project in the same way outlined in &lt;a href=&#34;http://jvcasillas.github.io/blog/2013-05-17_tikz_-_projects/index.html&#34;&gt;part II&lt;/a&gt;. An added benefit to this approach is that it allows you to insert IPA symbols into the plot via the &lt;code&gt;tipa&lt;/code&gt; package.&lt;/p&gt;
 &lt;div id=&#34;the-latex-file&#34; class=&#34;section level4&#34;&gt;
 &lt;h4&gt;The LaTeX file&lt;/h4&gt;
 &lt;p&gt;Ok. You should start with a &lt;code&gt;LaTeX&lt;/code&gt; file that looks like this:&lt;/p&gt;
@@ -578,13 +578,13 @@ dev.off()&lt;/code&gt;&lt;/pre&gt;
     
     <item>
       <title>Knitr bootstrap</title>
-      <link>/post/2014-05-26_knitr_bootstrap/</link>
+      <link>http://jvcasillas.github.io/post/2014-05-26_knitr_bootstrap/</link>
       <pubDate>Mon, 26 May 2014 21:13:14 -0500</pubDate>
-      <guid>/post/2014-05-26_knitr_bootstrap/</guid>
+      <guid>http://jvcasillas.github.io/post/2014-05-26_knitr_bootstrap/</guid>
       <description>
 
 
-&lt;p&gt;Knitr bootstrap makes generating standalone reports extremely easy and the output looks really neat. Check out the example &lt;a href=&#34;/blog/assets/knitr_bootstrap/knitr_bootstrap.html&#34;&gt;here&lt;/a&gt;. To recreate this you need to download the preview release of &lt;a href=&#34;http://rmarkdown.rstudio.com/index.html&#34;&gt;R Studio&lt;/a&gt;, and set up the front matter as follows:&lt;/p&gt;
+&lt;p&gt;Knitr bootstrap makes generating standalone reports extremely easy and the output looks really neat. Check out the example &lt;a href=&#34;http://jvcasillas.github.io/blog/assets/knitr_bootstrap/knitr_bootstrap.html&#34;&gt;here&lt;/a&gt;. To recreate this you need to download the preview release of &lt;a href=&#34;http://rmarkdown.rstudio.com/index.html&#34;&gt;R Studio&lt;/a&gt;, and set up the front matter as follows:&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;---
 output:
   knitrBootstrap::bootstrap_document:
@@ -599,32 +599,32 @@ output:
     
     <item>
       <title>Converting markdown files to HTML5 in RStudio</title>
-      <link>/post/2014-01-07_converting_rmarkdown_files_to_html5/</link>
+      <link>http://jvcasillas.github.io/post/2014-01-07_converting_rmarkdown_files_to_html5/</link>
       <pubDate>Tue, 07 Jan 2014 21:13:14 -0500</pubDate>
-      <guid>/post/2014-01-07_converting_rmarkdown_files_to_html5/</guid>
+      <guid>http://jvcasillas.github.io/post/2014-01-07_converting_rmarkdown_files_to_html5/</guid>
       <description>
 
 
 &lt;div id=&#34;html5-slides&#34; class=&#34;section level4&#34;&gt;
 &lt;h4&gt;HTML5 slides&lt;/h4&gt;
-&lt;p&gt;I recently learned how to create HTML5 slides using &lt;strong&gt;.Rmd&lt;/strong&gt; files and &lt;strong&gt;pandoc&lt;/strong&gt;. &lt;a href=&#34;/blog/assets/md_to_html5_ex/md_html_ex.html&#34;&gt;Click here&lt;/a&gt; to check out an example. I will be posting a tutorial on how to do this in the near future (I hope).&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Update&lt;/strong&gt; &lt;a href=&#34;/blog/assets/mages_ex/mages_ex.html&#34;&gt;Here&lt;/a&gt; is a much cooler example I found on &lt;a href=&#34;http://lamages.blogspot.com.au/2012/05/interactive-reports-in-r-with-knitr-and.html&#34;&gt;mages’ blog&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Update 2&lt;/strong&gt; This process has been streamlined in the newest update to RStudio (&lt;a href=&#34;http://rmarkdown.rstudio.com/index.html&#34;&gt;check it out here&lt;/a&gt;). The results are quite impressive (&lt;a href=&#34;/blog/assets/reveal/reaveal.html&#34;&gt;Ex. 1&lt;/a&gt;, &lt;a href=&#34;/blog/assets/ioslides/ioslides.html&#34;&gt;Ex. 2&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;I recently learned how to create HTML5 slides using &lt;strong&gt;.Rmd&lt;/strong&gt; files and &lt;strong&gt;pandoc&lt;/strong&gt;. &lt;a href=&#34;http://jvcasillas.github.io/blog/assets/md_to_html5_ex/md_html_ex.html&#34;&gt;Click here&lt;/a&gt; to check out an example. I will be posting a tutorial on how to do this in the near future (I hope).&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Update&lt;/strong&gt; &lt;a href=&#34;http://jvcasillas.github.io/blog/assets/mages_ex/mages_ex.html&#34;&gt;Here&lt;/a&gt; is a much cooler example I found on &lt;a href=&#34;http://lamages.blogspot.com.au/2012/05/interactive-reports-in-r-with-knitr-and.html&#34;&gt;mages’ blog&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Update 2&lt;/strong&gt; This process has been streamlined in the newest update to RStudio (&lt;a href=&#34;http://rmarkdown.rstudio.com/index.html&#34;&gt;check it out here&lt;/a&gt;). The results are quite impressive (&lt;a href=&#34;http://jvcasillas.github.io/blog/assets/reveal/reaveal.html&#34;&gt;Ex. 1&lt;/a&gt;, &lt;a href=&#34;http://jvcasillas.github.io/blog/assets/ioslides/ioslides.html&#34;&gt;Ex. 2&lt;/a&gt;)&lt;/p&gt;
 &lt;/div&gt;
 </description>
     </item>
     
     <item>
       <title>TikzDevice tutorial II: structuring a project</title>
-      <link>/post/2013-05-17_tikz_-_projects/</link>
+      <link>http://jvcasillas.github.io/post/2013-05-17_tikz_-_projects/</link>
       <pubDate>Fri, 17 May 2013 21:13:14 -0500</pubDate>
-      <guid>/post/2013-05-17_tikz_-_projects/</guid>
+      <guid>http://jvcasillas.github.io/post/2013-05-17_tikz_-_projects/</guid>
       <description>
 
 
 &lt;div id=&#34;overview&#34; class=&#34;section level4&#34;&gt;
 &lt;h4&gt;Overview&lt;/h4&gt;
-&lt;p&gt;This mini tutorial is part II about incorporating &lt;strong&gt;tikzDevice&lt;/strong&gt; into your workflow. It explains the file structure necessary to successfully include &lt;strong&gt;tikzDevice&lt;/strong&gt; plots into your &lt;strong&gt;LaTeX document&lt;/strong&gt;. You must first have &lt;strong&gt;tikzDevice&lt;/strong&gt; installed. If you don’t, see &lt;a href=&#34;/blog/2013-05-11_tikz_-_installation/index.html&#34;&gt;part I&lt;/a&gt; for more information.&lt;/p&gt;
+&lt;p&gt;This mini tutorial is part II about incorporating &lt;strong&gt;tikzDevice&lt;/strong&gt; into your workflow. It explains the file structure necessary to successfully include &lt;strong&gt;tikzDevice&lt;/strong&gt; plots into your &lt;strong&gt;LaTeX document&lt;/strong&gt;. You must first have &lt;strong&gt;tikzDevice&lt;/strong&gt; installed. If you don’t, see &lt;a href=&#34;http://jvcasillas.github.io/blog/2013-05-11_tikz_-_installation/index.html&#34;&gt;part I&lt;/a&gt; for more information.&lt;/p&gt;
 &lt;/div&gt;
 &lt;div id=&#34;the-structure&#34; class=&#34;section level4&#34;&gt;
 &lt;h4&gt;The structure&lt;/h4&gt;
@@ -635,16 +635,16 @@ output:
 &lt;div aligh=&#34;center&#34;&gt;
 &lt;p&gt;&lt;img width=&#34;100%&#34; src=&#34;./img/tikz_workflow.png&#34;&gt;&lt;/p&gt;
 &lt;/div&gt;
-&lt;p&gt;Check out &lt;a href=&#34;/blog/2014-05-28_tikz_-_standalone_plots/index.html&#34;&gt;part III&lt;/a&gt; to learn how to create standalone plots that can include IPA sybols.&lt;/p&gt;
+&lt;p&gt;Check out &lt;a href=&#34;http://jvcasillas.github.io/blog/2014-05-28_tikz_-_standalone_plots/index.html&#34;&gt;part III&lt;/a&gt; to learn how to create standalone plots that can include IPA sybols.&lt;/p&gt;
 &lt;/div&gt;
 </description>
     </item>
     
     <item>
       <title>TikzDevice tutorial I: install tikzDevice in R</title>
-      <link>/post/2013-05-11_tikz_-_installation/</link>
+      <link>http://jvcasillas.github.io/post/2013-05-11_tikz_-_installation/</link>
       <pubDate>Sat, 11 May 2013 21:13:14 -0500</pubDate>
-      <guid>/post/2013-05-11_tikz_-_installation/</guid>
+      <guid>http://jvcasillas.github.io/post/2013-05-11_tikz_-_installation/</guid>
       <description>
 
 
@@ -678,16 +678,16 @@ downloaded the file). This is what it looked like for me.&lt;/p&gt;
 &lt;h4&gt;Install dependencies&lt;/h4&gt;
 &lt;p&gt;In order for &lt;strong&gt;tikzDevice&lt;/strong&gt; to work, you must also install the &lt;strong&gt;filehash&lt;/strong&gt; package. This is much easier.&lt;/p&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;install.packages(&amp;#39;filehash&amp;#39;)&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;That’s it. Check out &lt;a href=&#34;/blog/2013-05-17_tikz_-_projects/index.html&#34;&gt;this&lt;/a&gt; tutorial to see how to set up a project.&lt;/p&gt;
+&lt;p&gt;That’s it. Check out &lt;a href=&#34;http://jvcasillas.github.io/blog/2013-05-17_tikz_-_projects/index.html&#34;&gt;this&lt;/a&gt; tutorial to see how to set up a project.&lt;/p&gt;
 &lt;/div&gt;
 </description>
     </item>
     
     <item>
       <title>Colored spectrograms in R</title>
-      <link>/post/2013-05-09_colored_spectrograms_in_r/</link>
+      <link>http://jvcasillas.github.io/post/2013-05-09_colored_spectrograms_in_r/</link>
       <pubDate>Thu, 09 May 2013 21:13:14 -0500</pubDate>
-      <guid>/post/2013-05-09_colored_spectrograms_in_r/</guid>
+      <guid>http://jvcasillas.github.io/post/2013-05-09_colored_spectrograms_in_r/</guid>
       <description>
 
 

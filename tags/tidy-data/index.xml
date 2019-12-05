@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>tidy data | Joseph V. Casillas</title>
-    <link>/tags/tidy-data/</link>
-      <atom:link href="/tags/tidy-data/index.xml" rel="self" type="application/rss+xml" />
+    <link>http://jvcasillas.github.io/tags/tidy-data/</link>
+      <atom:link href="http://jvcasillas.github.io/tags/tidy-data/index.xml" rel="self" type="application/rss+xml" />
     <description>tidy data</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Joseph V. Casillas © 2019 </copyright><lastBuildDate>Mon, 22 Jun 2015 21:13:14 -0500</lastBuildDate>
     <image>
-      <url>/img/jvc2016.png</url>
+      <url>http://jvcasillas.github.io/img/jvc2016.png</url>
       <title>tidy data</title>
-      <link>/tags/tidy-data/</link>
+      <link>http://jvcasillas.github.io/tags/tidy-data/</link>
     </image>
     
     <item>
       <title>tidyr tutorial</title>
-      <link>/post/2015-06-22_tidyr_tutorial/</link>
+      <link>http://jvcasillas.github.io/post/2015-06-22_tidyr_tutorial/</link>
       <pubDate>Mon, 22 Jun 2015 21:13:14 -0500</pubDate>
-      <guid>/post/2015-06-22_tidyr_tutorial/</guid>
+      <guid>http://jvcasillas.github.io/post/2015-06-22_tidyr_tutorial/</guid>
       <description>
 
 

@@ -2,27 +2,27 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>project | Joseph V. Casillas</title>
-    <link>/tags/project/</link>
-      <atom:link href="/tags/project/index.xml" rel="self" type="application/rss+xml" />
+    <link>http://jvcasillas.github.io/tags/project/</link>
+      <atom:link href="http://jvcasillas.github.io/tags/project/index.xml" rel="self" type="application/rss+xml" />
     <description>project</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Joseph V. Casillas © 2019 </copyright><lastBuildDate>Fri, 17 May 2013 21:13:14 -0500</lastBuildDate>
     <image>
-      <url>/img/jvc2016.png</url>
+      <url>http://jvcasillas.github.io/img/jvc2016.png</url>
       <title>project</title>
-      <link>/tags/project/</link>
+      <link>http://jvcasillas.github.io/tags/project/</link>
     </image>
     
     <item>
       <title>TikzDevice tutorial II: structuring a project</title>
-      <link>/post/2013-05-17_tikz_-_projects/</link>
+      <link>http://jvcasillas.github.io/post/2013-05-17_tikz_-_projects/</link>
       <pubDate>Fri, 17 May 2013 21:13:14 -0500</pubDate>
-      <guid>/post/2013-05-17_tikz_-_projects/</guid>
+      <guid>http://jvcasillas.github.io/post/2013-05-17_tikz_-_projects/</guid>
       <description>
 
 
 &lt;div id=&#34;overview&#34; class=&#34;section level4&#34;&gt;
 &lt;h4&gt;Overview&lt;/h4&gt;
-&lt;p&gt;This mini tutorial is part II about incorporating &lt;strong&gt;tikzDevice&lt;/strong&gt; into your workflow. It explains the file structure necessary to successfully include &lt;strong&gt;tikzDevice&lt;/strong&gt; plots into your &lt;strong&gt;LaTeX document&lt;/strong&gt;. You must first have &lt;strong&gt;tikzDevice&lt;/strong&gt; installed. If you don’t, see &lt;a href=&#34;/blog/2013-05-11_tikz_-_installation/index.html&#34;&gt;part I&lt;/a&gt; for more information.&lt;/p&gt;
+&lt;p&gt;This mini tutorial is part II about incorporating &lt;strong&gt;tikzDevice&lt;/strong&gt; into your workflow. It explains the file structure necessary to successfully include &lt;strong&gt;tikzDevice&lt;/strong&gt; plots into your &lt;strong&gt;LaTeX document&lt;/strong&gt;. You must first have &lt;strong&gt;tikzDevice&lt;/strong&gt; installed. If you don’t, see &lt;a href=&#34;http://jvcasillas.github.io/blog/2013-05-11_tikz_-_installation/index.html&#34;&gt;part I&lt;/a&gt; for more information.&lt;/p&gt;
 &lt;/div&gt;
 &lt;div id=&#34;the-structure&#34; class=&#34;section level4&#34;&gt;
 &lt;h4&gt;The structure&lt;/h4&gt;
@@ -33,7 +33,7 @@
 &lt;div aligh=&#34;center&#34;&gt;
 &lt;p&gt;&lt;img width=&#34;100%&#34; src=&#34;./img/tikz_workflow.png&#34;&gt;&lt;/p&gt;
 &lt;/div&gt;
-&lt;p&gt;Check out &lt;a href=&#34;/blog/2014-05-28_tikz_-_standalone_plots/index.html&#34;&gt;part III&lt;/a&gt; to learn how to create standalone plots that can include IPA sybols.&lt;/p&gt;
+&lt;p&gt;Check out &lt;a href=&#34;http://jvcasillas.github.io/blog/2014-05-28_tikz_-_standalone_plots/index.html&#34;&gt;part III&lt;/a&gt; to learn how to create standalone plots that can include IPA sybols.&lt;/p&gt;
 &lt;/div&gt;
 </description>
     </item>

@@ -2,14 +2,14 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Joseph V. Casillas</title>
-    <link>/authors/admin/</link>
-      <atom:link href="/authors/admin/index.xml" rel="self" type="application/rss+xml" />
+    <link>http://jvcasillas.github.io/authors/admin/</link>
+      <atom:link href="http://jvcasillas.github.io/authors/admin/index.xml" rel="self" type="application/rss+xml" />
     <description>Joseph V. Casillas</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Joseph V. Casillas © 2019 </copyright>
     <image>
-      <url>/img/jvc2016.png</url>
+      <url>http://jvcasillas.github.io/img/jvc2016.png</url>
       <title>Joseph V. Casillas</title>
-      <link>/authors/admin/</link>
+      <link>http://jvcasillas.github.io/authors/admin/</link>
     </image>
     
   </channel>

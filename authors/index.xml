@@ -2,53 +2,53 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Authors | Joseph V. Casillas</title>
-    <link>/authors/</link>
-      <atom:link href="/authors/index.xml" rel="self" type="application/rss+xml" />
+    <link>http://jvcasillas.github.io/authors/</link>
+      <atom:link href="http://jvcasillas.github.io/authors/index.xml" rel="self" type="application/rss+xml" />
     <description>Authors</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Joseph V. Casillas © 2019 </copyright><lastBuildDate>Fri, 20 Jul 2018 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>/img/jvc2016.png</url>
+      <url>http://jvcasillas.github.io/img/jvc2016.png</url>
       <title>Authors</title>
-      <link>/authors/</link>
+      <link>http://jvcasillas.github.io/authors/</link>
     </image>
     
     <item>
       <title>JV Casillas</title>
-      <link>/authors/jv-casillas/</link>
+      <link>http://jvcasillas.github.io/authors/jv-casillas/</link>
       <pubDate>Fri, 20 Jul 2018 00:00:00 +0000</pubDate>
-      <guid>/authors/jv-casillas/</guid>
+      <guid>http://jvcasillas.github.io/authors/jv-casillas/</guid>
       <description></description>
     </item>
     
     <item>
       <title>M Simonet</title>
-      <link>/authors/m-simonet/</link>
+      <link>http://jvcasillas.github.io/authors/m-simonet/</link>
       <pubDate>Fri, 20 Jul 2018 00:00:00 +0000</pubDate>
-      <guid>/authors/m-simonet/</guid>
+      <guid>http://jvcasillas.github.io/authors/m-simonet/</guid>
       <description></description>
     </item>
     
     <item>
       <title>N Sagarra</title>
-      <link>/authors/n-sagarra/</link>
+      <link>http://jvcasillas.github.io/authors/n-sagarra/</link>
       <pubDate>Fri, 20 Jul 2018 00:00:00 +0000</pubDate>
-      <guid>/authors/n-sagarra/</guid>
+      <guid>http://jvcasillas.github.io/authors/n-sagarra/</guid>
       <description></description>
     </item>
     
     <item>
       <title>M Llompart</title>
-      <link>/authors/m-llompart/</link>
+      <link>http://jvcasillas.github.io/authors/m-llompart/</link>
       <pubDate>Sun, 01 May 2016 00:00:00 +0000</pubDate>
-      <guid>/authors/m-llompart/</guid>
+      <guid>http://jvcasillas.github.io/authors/m-llompart/</guid>
       <description></description>
     </item>
     
     <item>
       <title></title>
-      <link>/authors/admin/</link>
+      <link>http://jvcasillas.github.io/authors/admin/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/authors/admin/</guid>
+      <guid>http://jvcasillas.github.io/authors/admin/</guid>
       <description>&lt;p&gt;I am an Assistant Professor of Hispanic Linguistics in the
 Spanish and Portuguese Department at Rutgers University, New
 Brunswick. My main interests are in phonetics, laboratory

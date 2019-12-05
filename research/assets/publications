@@ -6,11 +6,15 @@
 ### In press
 
 ```{r, results='asis', echo=FALSE, eval=TRUE}
-
 print(bib[key = "CasillasProdPercStops"])
-print(bib[key = "CasillasProdStops_ll2019"])
-print(bib[key = "SagarraLozanoCasillas_blc2019"])
+```
 
+```{r, results='asis', echo=FALSE, eval=TRUE}
+print(bib[key = "CasillasProdStops_ll2019"])
+```
+
+```{r, results='asis', echo=FALSE, eval=TRUE}
+print(bib[key = "SagarraLozanoCasillas_blc2019"])
 ```
 
 ### Recent Publications
@@ -74,9 +78,21 @@ print(bib[key = "casillas_dpbe_l2_2019"])
 
 ```{r, results='asis', echo=FALSE, eval=TRUE}
 print(bib[key = "CasillasProdSemantic"])
+```
+
+```{r, results='asis', echo=FALSE, eval=TRUE}
 print(bib[key = "CasillasStress"])
+```
+
+```{r, results='asis', echo=FALSE, eval=TRUE}
 print(bib[key = "SagarraCasillasETL2"])
+```
+
+```{r, results='asis', echo=FALSE, eval=TRUE}
 print(bib[key = "SagarraCasillasETheritage"])
+```
+
+```{r, results='asis', echo=FALSE, eval=TRUE}
 print(bib[key = "CasillasDICT2015"])
 ```
 

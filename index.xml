@@ -2,37 +2,37 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Joseph V. Casillas</title>
-    <link>/</link>
-      <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <link>http://jvcasillas.github.io/</link>
+      <atom:link href="http://jvcasillas.github.io/index.xml" rel="self" type="application/rss+xml" />
     <description>Joseph V. Casillas</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Joseph V. Casillas © 2019 </copyright><lastBuildDate>Sat, 27 Oct 2018 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>/img/jvc2016.png</url>
+      <url>http://jvcasillas.github.io/img/jvc2016.png</url>
       <title>Joseph V. Casillas</title>
-      <link>/</link>
+      <link>http://jvcasillas.github.io/</link>
     </image>
     
     <item>
       <title>Syllabic Affiliation of Prevocalic Glides in Sonoran Spanish: Dialectal variation in syllabic affiliation</title>
-      <link>/talk/future-talk/</link>
+      <link>http://jvcasillas.github.io/talk/future-talk/</link>
       <pubDate>Sat, 27 Oct 2018 00:00:00 +0000</pubDate>
-      <guid>/talk/future-talk/</guid>
+      <guid>http://jvcasillas.github.io/talk/future-talk/</guid>
       <description></description>
     </item>
     
     <item>
       <title>The use of lexical stress and vowel duration for morphological anticipation in L2 learners of Spanish</title>
-      <link>/talk/next-talk/</link>
+      <link>http://jvcasillas.github.io/talk/next-talk/</link>
       <pubDate>Fri, 26 Oct 2018 00:00:00 +0000</pubDate>
-      <guid>/talk/next-talk/</guid>
+      <guid>http://jvcasillas.github.io/talk/next-talk/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Setting up a whisper room sound booth</title>
-      <link>/post/2018-09-16_setting_up_a_whisper_room_sound_booth/</link>
+      <link>http://jvcasillas.github.io/post/2018-09-16_setting_up_a_whisper_room_sound_booth/</link>
       <pubDate>Sun, 16 Sep 2018 21:13:14 -0500</pubDate>
-      <guid>/post/2018-09-16_setting_up_a_whisper_room_sound_booth/</guid>
+      <guid>http://jvcasillas.github.io/post/2018-09-16_setting_up_a_whisper_room_sound_booth/</guid>
       <description>
 
 
@@ -168,25 +168,25 @@
     
     <item>
       <title>Perceptual categorization and bilingual language modes: Assessing the double phonemic boundary in early and late bilinguals</title>
-      <link>/publication/casillas_simonet_jphon_2018/</link>
+      <link>http://jvcasillas.github.io/publication/casillas_simonet_jphon_2018/</link>
       <pubDate>Fri, 20 Jul 2018 00:00:00 +0000</pubDate>
-      <guid>/publication/casillas_simonet_jphon_2018/</guid>
+      <guid>http://jvcasillas.github.io/publication/casillas_simonet_jphon_2018/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Suprasegmental information cues morphological anticipation during L1/L2 lexical access</title>
-      <link>/publication/sagarra_casillas_jsl_2018/</link>
+      <link>http://jvcasillas.github.io/publication/sagarra_casillas_jsl_2018/</link>
       <pubDate>Fri, 20 Jul 2018 00:00:00 +0000</pubDate>
-      <guid>/publication/sagarra_casillas_jsl_2018/</guid>
+      <guid>http://jvcasillas.github.io/publication/sagarra_casillas_jsl_2018/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Justin Bieber sings in Spanish: How&#39;d he do?</title>
-      <link>/post/2017-05-15_analysis_of_justin_bieber_singing_in_spanish_-_despacito/</link>
+      <link>http://jvcasillas.github.io/post/2017-05-15_analysis_of_justin_bieber_singing_in_spanish_-_despacito/</link>
       <pubDate>Mon, 15 May 2017 21:13:14 -0500</pubDate>
-      <guid>/post/2017-05-15_analysis_of_justin_bieber_singing_in_spanish_-_despacito/</guid>
+      <guid>http://jvcasillas.github.io/post/2017-05-15_analysis_of_justin_bieber_singing_in_spanish_-_despacito/</guid>
       <description>
 
 
@@ -371,73 +371,73 @@ grey {
     
     <item>
       <title>Technology for teaching: Using Praat to teach L2 pronunciation</title>
-      <link>/talk/previous-talk/</link>
+      <link>http://jvcasillas.github.io/talk/previous-talk/</link>
       <pubDate>Thu, 13 Apr 2017 00:00:00 +0000</pubDate>
-      <guid>/talk/previous-talk/</guid>
+      <guid>http://jvcasillas.github.io/talk/previous-talk/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Code</title>
-      <link>/code/</link>
+      <link>http://jvcasillas.github.io/code/</link>
       <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
-      <guid>/code/</guid>
+      <guid>http://jvcasillas.github.io/code/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Teaching</title>
-      <link>/teaching/</link>
+      <link>http://jvcasillas.github.io/teaching/</link>
       <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
-      <guid>/teaching/</guid>
+      <guid>http://jvcasillas.github.io/teaching/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Lexically driven selective adaptation by ambiguous auditory stimuli occurs after limited exposure to adaptors</title>
-      <link>/publication/llompart_casillas_jasa_2016/</link>
+      <link>http://jvcasillas.github.io/publication/llompart_casillas_jasa_2016/</link>
       <pubDate>Sun, 01 May 2016 00:00:00 +0000</pubDate>
-      <guid>/publication/llompart_casillas_jasa_2016/</guid>
+      <guid>http://jvcasillas.github.io/publication/llompart_casillas_jasa_2016/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Bivariate linear regression</title>
-      <link>/project/shiny_bivariate_regression/</link>
+      <link>http://jvcasillas.github.io/project/shiny_bivariate_regression/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>/project/shiny_bivariate_regression/</guid>
+      <guid>http://jvcasillas.github.io/project/shiny_bivariate_regression/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Central limit theorem</title>
-      <link>/project/shiny_clt/</link>
+      <link>http://jvcasillas.github.io/project/shiny_clt/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>/project/shiny_clt/</guid>
+      <guid>http://jvcasillas.github.io/project/shiny_clt/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Crossover</title>
-      <link>/project/shiny_crossover/</link>
+      <link>http://jvcasillas.github.io/project/shiny_crossover/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>/project/shiny_crossover/</guid>
+      <guid>http://jvcasillas.github.io/project/shiny_crossover/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Generalized linear model</title>
-      <link>/project/shiny_glm/</link>
+      <link>http://jvcasillas.github.io/project/shiny_glm/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>/project/shiny_glm/</guid>
+      <guid>http://jvcasillas.github.io/project/shiny_glm/</guid>
       <description></description>
     </item>
     
     <item>
       <title>LaTeX IPA</title>
-      <link>/project/latex_ipa/</link>
+      <link>http://jvcasillas.github.io/project/latex_ipa/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>/project/latex_ipa/</guid>
+      <guid>http://jvcasillas.github.io/project/latex_ipa/</guid>
       <description>&lt;!-- raw HTML omitted --&gt;
 &lt;!-- raw HTML omitted --&gt;
 &lt;p&gt;I made this repository to simplify the process of using IPA in $\LaTeX$. It is merely a collection of snippets for the package &lt;a href=&#34;http://www.ctan.org/pkg/tipa&#34;&gt;TIPA&lt;/a&gt;. To install LaTeX-IPA see the &lt;a href=&#34;https://sublime.wbond.net/packages/LaTeX-IPA&#34;&gt;package control&lt;/a&gt; page.&lt;/p&gt;
@@ -472,9 +472,9 @@ Ex. vowel-tense-high-front-unrounded.sublime-snippet = [i]&lt;/li&gt;
     
     <item>
       <title>lingreference.org</title>
-      <link>/project/lingreference/</link>
+      <link>http://jvcasillas.github.io/project/lingreference/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>/project/lingreference/</guid>
+      <guid>http://jvcasillas.github.io/project/lingreference/</guid>
       <description>&lt;!-- raw HTML omitted --&gt;
 &lt;!-- raw HTML omitted --&gt;
 &lt;p&gt;&lt;!-- raw HTML omitted --&gt;Follow @lingreference&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;
@@ -486,33 +486,33 @@ Ex. vowel-tense-high-front-unrounded.sublime-snippet = [i]&lt;/li&gt;
     
     <item>
       <title>lingStuff</title>
-      <link>/project/lingstuff/</link>
+      <link>http://jvcasillas.github.io/project/lingstuff/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>/project/lingstuff/</guid>
+      <guid>http://jvcasillas.github.io/project/lingstuff/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Power/Sample size calculator</title>
-      <link>/project/shiny_power/</link>
+      <link>http://jvcasillas.github.io/project/shiny_power/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>/project/shiny_power/</guid>
+      <guid>http://jvcasillas.github.io/project/shiny_power/</guid>
       <description></description>
     </item>
     
     <item>
       <title>R for linguists</title>
-      <link>/project/r_for_linguists/</link>
+      <link>http://jvcasillas.github.io/project/r_for_linguists/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>/project/r_for_linguists/</guid>
+      <guid>http://jvcasillas.github.io/project/r_for_linguists/</guid>
       <description></description>
     </item>
     
     <item>
       <title>R-Snippets</title>
-      <link>/project/r_snippets/</link>
+      <link>http://jvcasillas.github.io/project/r_snippets/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>/project/r_snippets/</guid>
+      <guid>http://jvcasillas.github.io/project/r_snippets/</guid>
       <description>&lt;!-- raw HTML omitted --&gt;
 &lt;!-- raw HTML omitted --&gt;
 &lt;p&gt;This repository is a collection of snippets that I use in &lt;a href=&#34;http://www.sublimetext.com&#34;&gt;SublimeText&lt;/a&gt; &lt;a href=&#34;http://www.sublimetext.com&#34;&gt;SublimeText&lt;/a&gt; for doing statistical analysis in &lt;a href=&#34;http://www.r-project.org&#34;&gt;R&lt;/a&gt;. The goal is straightforward: document the code that I use most often while doing linguistic research and make it readily available (and understandable) to other linguists. If you are interested in helping see the github &lt;a href=&#34;https://github.com/jvcasillas/R-snippets&#34;&gt;repository&lt;/a&gt;. To install R-snippets see the &lt;a href=&#34;https://sublime.wbond.net/packages/R-snippets&#34;&gt;package control&lt;/a&gt; page. To use a snippet, type the trigger and hit the tab key. For example, typing &lt;!-- raw HTML omitted --&gt;lm&lt;!-- raw HTML omitted --&gt; brings up the following window:&lt;/p&gt;
@@ -551,25 +551,25 @@ modelName
     
     <item>
       <title>Spanish allophones and distinctive features</title>
-      <link>/project/shiny_distinctivefeatures/</link>
+      <link>http://jvcasillas.github.io/project/shiny_distinctivefeatures/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>/project/shiny_distinctivefeatures/</guid>
+      <guid>http://jvcasillas.github.io/project/shiny_distinctivefeatures/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Production and perception of the English /æ/-/ɑ/ contrast in switched-dominance speakers</title>
-      <link>/publication/casillas_simonet_slr_2016/</link>
+      <link>http://jvcasillas.github.io/publication/casillas_simonet_slr_2016/</link>
       <pubDate>Thu, 01 Oct 2015 00:00:00 +0000</pubDate>
-      <guid>/publication/casillas_simonet_slr_2016/</guid>
+      <guid>http://jvcasillas.github.io/publication/casillas_simonet_slr_2016/</guid>
       <description></description>
     </item>
     
     <item>
       <title>tidyr tutorial</title>
-      <link>/post/2015-06-22_tidyr_tutorial/</link>
+      <link>http://jvcasillas.github.io/post/2015-06-22_tidyr_tutorial/</link>
       <pubDate>Mon, 22 Jun 2015 21:13:14 -0500</pubDate>
-      <guid>/post/2015-06-22_tidyr_tutorial/</guid>
+      <guid>http://jvcasillas.github.io/post/2015-06-22_tidyr_tutorial/</guid>
       <description>
 
 
@@ -579,9 +579,9 @@ modelName
     
     <item>
       <title>How to scrape data from Google Sheets in R</title>
-      <link>/post/2015-06-16_google_sheets_in_r/</link>
+      <link>http://jvcasillas.github.io/post/2015-06-16_google_sheets_in_r/</link>
       <pubDate>Tue, 16 Jun 2015 21:13:14 -0500</pubDate>
-      <guid>/post/2015-06-16_google_sheets_in_r/</guid>
+      <guid>http://jvcasillas.github.io/post/2015-06-16_google_sheets_in_r/</guid>
       <description>
 
 
@@ -828,9 +828,9 @@ df &amp;lt;- read.csv(textConnection(sheet))&lt;/code&gt;&lt;/pre&gt;
     
     <item>
       <title>Data pipelines in R</title>
-      <link>/post/2015-05-18_data_pipelines/</link>
+      <link>http://jvcasillas.github.io/post/2015-05-18_data_pipelines/</link>
       <pubDate>Mon, 18 May 2015 21:13:14 -0500</pubDate>
-      <guid>/post/2015-05-18_data_pipelines/</guid>
+      <guid>http://jvcasillas.github.io/post/2015-05-18_data_pipelines/</guid>
       <description>
 
 
@@ -891,17 +891,17 @@ associate each package with the corresponding step:&lt;/p&gt;
     
     <item>
       <title>Production and perception of the /i/-/ɪ/ vowel contrast: The case of L2-dominant early learners of English</title>
-      <link>/publication/casillas_phonetica_2015/</link>
+      <link>http://jvcasillas.github.io/publication/casillas_phonetica_2015/</link>
       <pubDate>Fri, 01 May 2015 00:00:00 +0000</pubDate>
-      <guid>/publication/casillas_phonetica_2015/</guid>
+      <guid>http://jvcasillas.github.io/publication/casillas_phonetica_2015/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Basic plotting in R</title>
-      <link>/post/2015-04-20_plotting_in_r/</link>
+      <link>http://jvcasillas.github.io/post/2015-04-20_plotting_in_r/</link>
       <pubDate>Mon, 20 Apr 2015 21:13:14 -0500</pubDate>
-      <guid>/post/2015-04-20_plotting_in_r/</guid>
+      <guid>http://jvcasillas.github.io/post/2015-04-20_plotting_in_r/</guid>
       <description>
 
 
@@ -911,9 +911,9 @@ associate each package with the corresponding step:&lt;/p&gt;
     
     <item>
       <title>HTML widgets in Rmarkdown</title>
-      <link>/post/2015-04-13_html_widgets/</link>
+      <link>http://jvcasillas.github.io/post/2015-04-13_html_widgets/</link>
       <pubDate>Mon, 13 Apr 2015 21:13:14 -0500</pubDate>
-      <guid>/post/2015-04-13_html_widgets/</guid>
+      <guid>http://jvcasillas.github.io/post/2015-04-13_html_widgets/</guid>
       <description>
 
 
@@ -923,9 +923,9 @@ associate each package with the corresponding step:&lt;/p&gt;
     
     <item>
       <title>Slidify tutorial</title>
-      <link>/post/2015-03-22_slidify_tutorial/</link>
+      <link>http://jvcasillas.github.io/post/2015-03-22_slidify_tutorial/</link>
       <pubDate>Sun, 22 Mar 2015 21:13:14 -0500</pubDate>
-      <guid>/post/2015-03-22_slidify_tutorial/</guid>
+      <guid>http://jvcasillas.github.io/post/2015-03-22_slidify_tutorial/</guid>
       <description>
 
 
@@ -955,13 +955,13 @@ associate each package with the corresponding step:&lt;/p&gt;
     
     <item>
       <title>TikzDevice tutorial III: standalone plots</title>
-      <link>/post/2014-05-28_tikz_-_standalone_plots/</link>
+      <link>http://jvcasillas.github.io/post/2014-05-28_tikz_-_standalone_plots/</link>
       <pubDate>Wed, 28 May 2014 21:13:14 -0500</pubDate>
-      <guid>/post/2014-05-28_tikz_-_standalone_plots/</guid>
+      <guid>http://jvcasillas.github.io/post/2014-05-28_tikz_-_standalone_plots/</guid>
       <description>
 
 
-&lt;p&gt;In this post I’m going to show you how to use &lt;code&gt;TikzDevice&lt;/code&gt; to create high quality plots that use the same font as your &lt;code&gt;LaTeX&lt;/code&gt; document. I’m assuming that you have already installed &lt;code&gt;tikz&lt;/code&gt;. If not, see &lt;a href=&#34;/blog/2013-05-11_tikz_-_installation/index.html&#34;&gt;part I&lt;/a&gt; in this series. Moreover, this tutorial assumes that you have set up your project in the same way outlined in &lt;a href=&#34;/blog/2013-05-17_tikz_-_projects/index.html&#34;&gt;part II&lt;/a&gt;. An added benefit to this approach is that it allows you to insert IPA symbols into the plot via the &lt;code&gt;tipa&lt;/code&gt; package.&lt;/p&gt;
+&lt;p&gt;In this post I’m going to show you how to use &lt;code&gt;TikzDevice&lt;/code&gt; to create high quality plots that use the same font as your &lt;code&gt;LaTeX&lt;/code&gt; document. I’m assuming that you have already installed &lt;code&gt;tikz&lt;/code&gt;. If not, see &lt;a href=&#34;http://jvcasillas.github.io/blog/2013-05-11_tikz_-_installation/index.html&#34;&gt;part I&lt;/a&gt; in this series. Moreover, this tutorial assumes that you have set up your project in the same way outlined in &lt;a href=&#34;http://jvcasillas.github.io/blog/2013-05-17_tikz_-_projects/index.html&#34;&gt;part II&lt;/a&gt;. An added benefit to this approach is that it allows you to insert IPA symbols into the plot via the &lt;code&gt;tipa&lt;/code&gt; package.&lt;/p&gt;
 &lt;div id=&#34;the-latex-file&#34; class=&#34;section level4&#34;&gt;
 &lt;h4&gt;The LaTeX file&lt;/h4&gt;
 &lt;p&gt;Ok. You should start with a &lt;code&gt;LaTeX&lt;/code&gt; file that looks like this:&lt;/p&gt;
@@ -1034,13 +1034,13 @@ dev.off()&lt;/code&gt;&lt;/pre&gt;
     
     <item>
       <title>Knitr bootstrap</title>
-      <link>/post/2014-05-26_knitr_bootstrap/</link>
+      <link>http://jvcasillas.github.io/post/2014-05-26_knitr_bootstrap/</link>
       <pubDate>Mon, 26 May 2014 21:13:14 -0500</pubDate>
-      <guid>/post/2014-05-26_knitr_bootstrap/</guid>
+      <guid>http://jvcasillas.github.io/post/2014-05-26_knitr_bootstrap/</guid>
       <description>
 
 
-&lt;p&gt;Knitr bootstrap makes generating standalone reports extremely easy and the output looks really neat. Check out the example &lt;a href=&#34;/blog/assets/knitr_bootstrap/knitr_bootstrap.html&#34;&gt;here&lt;/a&gt;. To recreate this you need to download the preview release of &lt;a href=&#34;http://rmarkdown.rstudio.com/index.html&#34;&gt;R Studio&lt;/a&gt;, and set up the front matter as follows:&lt;/p&gt;
+&lt;p&gt;Knitr bootstrap makes generating standalone reports extremely easy and the output looks really neat. Check out the example &lt;a href=&#34;http://jvcasillas.github.io/blog/assets/knitr_bootstrap/knitr_bootstrap.html&#34;&gt;here&lt;/a&gt;. To recreate this you need to download the preview release of &lt;a href=&#34;http://rmarkdown.rstudio.com/index.html&#34;&gt;R Studio&lt;/a&gt;, and set up the front matter as follows:&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;---
 output:
   knitrBootstrap::bootstrap_document:
@@ -1055,32 +1055,32 @@ output:
     
     <item>
       <title>Converting markdown files to HTML5 in RStudio</title>
-      <link>/post/2014-01-07_converting_rmarkdown_files_to_html5/</link>
+      <link>http://jvcasillas.github.io/post/2014-01-07_converting_rmarkdown_files_to_html5/</link>
       <pubDate>Tue, 07 Jan 2014 21:13:14 -0500</pubDate>
-      <guid>/post/2014-01-07_converting_rmarkdown_files_to_html5/</guid>
+      <guid>http://jvcasillas.github.io/post/2014-01-07_converting_rmarkdown_files_to_html5/</guid>
       <description>
 
 
 &lt;div id=&#34;html5-slides&#34; class=&#34;section level4&#34;&gt;
 &lt;h4&gt;HTML5 slides&lt;/h4&gt;
-&lt;p&gt;I recently learned how to create HTML5 slides using &lt;strong&gt;.Rmd&lt;/strong&gt; files and &lt;strong&gt;pandoc&lt;/strong&gt;. &lt;a href=&#34;/blog/assets/md_to_html5_ex/md_html_ex.html&#34;&gt;Click here&lt;/a&gt; to check out an example. I will be posting a tutorial on how to do this in the near future (I hope).&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Update&lt;/strong&gt; &lt;a href=&#34;/blog/assets/mages_ex/mages_ex.html&#34;&gt;Here&lt;/a&gt; is a much cooler example I found on &lt;a href=&#34;http://lamages.blogspot.com.au/2012/05/interactive-reports-in-r-with-knitr-and.html&#34;&gt;mages’ blog&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Update 2&lt;/strong&gt; This process has been streamlined in the newest update to RStudio (&lt;a href=&#34;http://rmarkdown.rstudio.com/index.html&#34;&gt;check it out here&lt;/a&gt;). The results are quite impressive (&lt;a href=&#34;/blog/assets/reveal/reaveal.html&#34;&gt;Ex. 1&lt;/a&gt;, &lt;a href=&#34;/blog/assets/ioslides/ioslides.html&#34;&gt;Ex. 2&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;I recently learned how to create HTML5 slides using &lt;strong&gt;.Rmd&lt;/strong&gt; files and &lt;strong&gt;pandoc&lt;/strong&gt;. &lt;a href=&#34;http://jvcasillas.github.io/blog/assets/md_to_html5_ex/md_html_ex.html&#34;&gt;Click here&lt;/a&gt; to check out an example. I will be posting a tutorial on how to do this in the near future (I hope).&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Update&lt;/strong&gt; &lt;a href=&#34;http://jvcasillas.github.io/blog/assets/mages_ex/mages_ex.html&#34;&gt;Here&lt;/a&gt; is a much cooler example I found on &lt;a href=&#34;http://lamages.blogspot.com.au/2012/05/interactive-reports-in-r-with-knitr-and.html&#34;&gt;mages’ blog&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Update 2&lt;/strong&gt; This process has been streamlined in the newest update to RStudio (&lt;a href=&#34;http://rmarkdown.rstudio.com/index.html&#34;&gt;check it out here&lt;/a&gt;). The results are quite impressive (&lt;a href=&#34;http://jvcasillas.github.io/blog/assets/reveal/reaveal.html&#34;&gt;Ex. 1&lt;/a&gt;, &lt;a href=&#34;http://jvcasillas.github.io/blog/assets/ioslides/ioslides.html&#34;&gt;Ex. 2&lt;/a&gt;)&lt;/p&gt;
 &lt;/div&gt;
 </description>
     </item>
     
     <item>
       <title>TikzDevice tutorial II: structuring a project</title>
-      <link>/post/2013-05-17_tikz_-_projects/</link>
+      <link>http://jvcasillas.github.io/post/2013-05-17_tikz_-_projects/</link>
       <pubDate>Fri, 17 May 2013 21:13:14 -0500</pubDate>
-      <guid>/post/2013-05-17_tikz_-_projects/</guid>
+      <guid>http://jvcasillas.github.io/post/2013-05-17_tikz_-_projects/</guid>
       <description>
 
 
 &lt;div id=&#34;overview&#34; class=&#34;section level4&#34;&gt;
 &lt;h4&gt;Overview&lt;/h4&gt;
-&lt;p&gt;This mini tutorial is part II about incorporating &lt;strong&gt;tikzDevice&lt;/strong&gt; into your workflow. It explains the file structure necessary to successfully include &lt;strong&gt;tikzDevice&lt;/strong&gt; plots into your &lt;strong&gt;LaTeX document&lt;/strong&gt;. You must first have &lt;strong&gt;tikzDevice&lt;/strong&gt; installed. If you don’t, see &lt;a href=&#34;/blog/2013-05-11_tikz_-_installation/index.html&#34;&gt;part I&lt;/a&gt; for more information.&lt;/p&gt;
+&lt;p&gt;This mini tutorial is part II about incorporating &lt;strong&gt;tikzDevice&lt;/strong&gt; into your workflow. It explains the file structure necessary to successfully include &lt;strong&gt;tikzDevice&lt;/strong&gt; plots into your &lt;strong&gt;LaTeX document&lt;/strong&gt;. You must first have &lt;strong&gt;tikzDevice&lt;/strong&gt; installed. If you don’t, see &lt;a href=&#34;http://jvcasillas.github.io/blog/2013-05-11_tikz_-_installation/index.html&#34;&gt;part I&lt;/a&gt; for more information.&lt;/p&gt;
 &lt;/div&gt;
 &lt;div id=&#34;the-structure&#34; class=&#34;section level4&#34;&gt;
 &lt;h4&gt;The structure&lt;/h4&gt;
@@ -1091,16 +1091,16 @@ output:
 &lt;div aligh=&#34;center&#34;&gt;
 &lt;p&gt;&lt;img width=&#34;100%&#34; src=&#34;./img/tikz_workflow.png&#34;&gt;&lt;/p&gt;
 &lt;/div&gt;
-&lt;p&gt;Check out &lt;a href=&#34;/blog/2014-05-28_tikz_-_standalone_plots/index.html&#34;&gt;part III&lt;/a&gt; to learn how to create standalone plots that can include IPA sybols.&lt;/p&gt;
+&lt;p&gt;Check out &lt;a href=&#34;http://jvcasillas.github.io/blog/2014-05-28_tikz_-_standalone_plots/index.html&#34;&gt;part III&lt;/a&gt; to learn how to create standalone plots that can include IPA sybols.&lt;/p&gt;
 &lt;/div&gt;
 </description>
     </item>
     
     <item>
       <title>TikzDevice tutorial I: install tikzDevice in R</title>
-      <link>/post/2013-05-11_tikz_-_installation/</link>
+      <link>http://jvcasillas.github.io/post/2013-05-11_tikz_-_installation/</link>
       <pubDate>Sat, 11 May 2013 21:13:14 -0500</pubDate>
-      <guid>/post/2013-05-11_tikz_-_installation/</guid>
+      <guid>http://jvcasillas.github.io/post/2013-05-11_tikz_-_installation/</guid>
       <description>
 
 
@@ -1134,16 +1134,16 @@ downloaded the file). This is what it looked like for me.&lt;/p&gt;
 &lt;h4&gt;Install dependencies&lt;/h4&gt;
 &lt;p&gt;In order for &lt;strong&gt;tikzDevice&lt;/strong&gt; to work, you must also install the &lt;strong&gt;filehash&lt;/strong&gt; package. This is much easier.&lt;/p&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;install.packages(&amp;#39;filehash&amp;#39;)&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;That’s it. Check out &lt;a href=&#34;/blog/2013-05-17_tikz_-_projects/index.html&#34;&gt;this&lt;/a&gt; tutorial to see how to set up a project.&lt;/p&gt;
+&lt;p&gt;That’s it. Check out &lt;a href=&#34;http://jvcasillas.github.io/blog/2013-05-17_tikz_-_projects/index.html&#34;&gt;this&lt;/a&gt; tutorial to see how to set up a project.&lt;/p&gt;
 &lt;/div&gt;
 </description>
     </item>
     
     <item>
       <title>Colored spectrograms in R</title>
-      <link>/post/2013-05-09_colored_spectrograms_in_r/</link>
+      <link>http://jvcasillas.github.io/post/2013-05-09_colored_spectrograms_in_r/</link>
       <pubDate>Thu, 09 May 2013 21:13:14 -0500</pubDate>
-      <guid>/post/2013-05-09_colored_spectrograms_in_r/</guid>
+      <guid>http://jvcasillas.github.io/post/2013-05-09_colored_spectrograms_in_r/</guid>
       <description>
 
 
@@ -1163,9 +1163,9 @@ downloaded the file). This is what it looked like for me.&lt;/p&gt;
     
     <item>
       <title>Research</title>
-      <link>/research/</link>
+      <link>http://jvcasillas.github.io/research/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/research/</guid>
+      <guid>http://jvcasillas.github.io/research/</guid>
       <description>
 
 
@@ -1300,35 +1300,23 @@ final publication in &lt;a href=&#34;http://scitation.aip.org/content/asa/journa
 &lt;!-- START TAB 3 --&gt;
 &lt;div id=&#34;publications&#34; class=&#34;tab-pane fade&#34; style=&#34;margin-left:2em;text-indent:-2em&#34;&gt;
 &lt;h3 id=&#34;in-press&#34;&gt;In press&lt;/h3&gt;
-&lt;p&gt;
-&lt;cite&gt;Casillas, J. V.
-“Phonetic category formation is perceptually driven during the early stages of adult L2 development”.
-In: &lt;em&gt;Language and Speech&lt;/em&gt;.
-DOI: &lt;a href=&#34;https://doi.org/https://doi.org/10.1177/0023830919866225&#34;&gt;https://doi.org/10.1177/0023830919866225&lt;/a&gt;.&lt;/cite&gt;
-&lt;/p&gt;
-&lt;p&gt;
-&lt;cite&gt;Casillas, J. V.
-“The longitudinal development of fine-phonetic detail: Stop production in a domestic immersion program”.
-In: &lt;em&gt;Language Learning&lt;/em&gt;.&lt;/cite&gt;
-&lt;/p&gt;
-&lt;p&gt;
-&lt;cite&gt;Lozano-Argüelles, C, N. Sagarra, and J. V. Casillas
-“Slowly but surely: Interpreting facilitates L2 morphological anticipation based on suprasegmental and segmental information”.
-In: &lt;em&gt;Bilingualism: Language and Cognition&lt;/em&gt;.
-DOI: &lt;a href=&#34;https://doi.org/https://doi.org/10.1017/S1366728919000634&#34;&gt;https://doi.org/10.1017/S1366728919000634&lt;/a&gt;.&lt;/cite&gt;
-&lt;/p&gt;
+&lt;p&gt;Casillas, J. V. “Phonetic category formation is perceptually driven
+during the early stages of adult L2 development”. In: &lt;em&gt;Language and
+Speech&lt;/em&gt;. DOI: &lt;a href=&#34;https://doi.org/10.1177/0023830919866225&#34; class=&#34;uri&#34;&gt;https://doi.org/10.1177/0023830919866225&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Casillas, J. V. “The longitudinal development of fine-phonetic detail:
+Stop production in a domestic immersion program”. In: &lt;em&gt;Language
+Learning&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;Lozano-Argüelles, C, N. Sagarra, and J. V. Casillas “Slowly but
+surely: Interpreting facilitates L2 morphological anticipation based on
+suprasegmental and segmental information”. In: &lt;em&gt;Bilingualism: Language
+and Cognition&lt;/em&gt;. DOI: &lt;a href=&#34;https://doi.org/10.1017/S1366728919000634&#34; class=&#34;uri&#34;&gt;https://doi.org/10.1017/S1366728919000634&lt;/a&gt;.&lt;/p&gt;
 &lt;h3 id=&#34;recent-publications&#34;&gt;Recent Publications&lt;/h3&gt;
 &lt;p&gt;&lt;span class=&#34;tempTimes&#34;&gt;&lt;/p&gt;
-&lt;p&gt;
-&lt;cite&gt;Casillas, J. V.
-(2019).
-“Semantic processing triggers cross-linguistic interference during early phonetic category development”.
-In:
-&lt;em&gt;ICPhS 19&lt;/em&gt;.
-Ed. by S. Calhoun, P. Escudero, M. Tabain and aul Warren.
-In Proceedings of the 19th International Congress of Phonetic Sciences.
-Melbourne, Australia 2019 (ISBN: 978-0-646-80069-1), pp. 3348-3352.&lt;/cite&gt;
-&lt;/p&gt;
+&lt;p&gt;Casillas, J. V. (2019). “Semantic processing triggers cross-linguistic
+interference during early phonetic category development”. In: &lt;em&gt;ICPhS
+19&lt;/em&gt;. Ed. by S. Calhoun, P. Escudero, M. Tabain and aul Warren. In
+Proceedings of the 19th International Congress of Phonetic Sciences.
+Melbourne, Australia 2019 (ISBN: 978-0-646-80069-1), pp. 3348-3352.&lt;/p&gt;
 &lt;!-- START METADATA --&gt;
 &lt;div style=&#34;text-indent:.25em;margin-top:-1em&#34; align=&#34;left&#34;&gt;
 &lt;p&gt;( &lt;a alt=&#34;ICPHS2019&#34; href=&#34;https://www.jvcasillas.com/immersion_stop_production_semantic_processing/docs/manuscript_beginners/icphs_2019/manuscript/master.pdf&#34; target=&#39;_new&#39;&gt;&lt;span class=&#34;showtooltip&#34; title=&#34;Read paper&#34;&gt;Link&lt;/span&gt;&lt;/a&gt; |
@@ -1356,9 +1344,11 @@ stages of learning.
 &lt;pre&gt;&lt;code&gt;@InProceedings{CasillasICPhS2019article,
   author = {Joseph Vincent Casillas},
   editor = {Sasha Calhoun and Paola Escudero and Marija Tabain and {aul Warren}},
-  organization = {In Proceedings of the 19th International Congress of Phonetic Sciences},
+  organization = {In Proceedings of the 19th International Congress of 
+    Phonetic Sciences},
   publisher = {Melbourne, Australia 2019 (ISBN: 978-0-646-80069-1)},
-  title = {Semantic processing triggers cross-linguistic interference during early phonetic category development},
+  title = {Semantic processing triggers cross-linguistic interference 
+    during early phonetic category development},
   booktitle = {ICPhS 19},
   pages = {3348-3352},
   year = {2019},
@@ -1366,13 +1356,10 @@ stages of learning.
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;!-- END METADATA --&gt;
-&lt;p&gt;
-&lt;cite&gt;Casillas, J. V. and M. Simonet
-(2018).
-“Perceptual categorization and bilingual language modes: Assessing the
-double phonemic boundary in early and late bilinguals”.
-In: &lt;em&gt;Journal of Phonetics&lt;/em&gt; 71, pp. 51–64.&lt;/cite&gt;
-&lt;/p&gt;
+&lt;p&gt;Casillas, J. V. and M. Simonet (2018). “Perceptual categorization and
+bilingual language modes: Assessing the double phonemic boundary in
+early and late bilinguals”. In: &lt;em&gt;Journal of Phonetics&lt;/em&gt; 71, pp. 51-64.
+DOI: &lt;a href=&#34;https://doi.org/10.1016/j.wocn.2018.07.002&#34; class=&#34;uri&#34;&gt;https://doi.org/10.1016/j.wocn.2018.07.002&lt;/a&gt;.&lt;/p&gt;
 &lt;!-- START METADATA --&gt;
 &lt;div style=&#34;text-indent:.25em;margin-top:-1em&#34; align=&#34;left&#34;&gt;
 &lt;p&gt;( &lt;a alt=&#34;JPHON2018&#34; href=&#34;https://www.sciencedirect.com/science/article/pii/S0095447018300111?via%3Dihub&#34; target=&#39;_new&#39;&gt;&lt;span class=&#34;showtooltip&#34; title=&#34;Read paper&#34;&gt;Link&lt;/span&gt;&lt;/a&gt; |
@@ -1405,21 +1392,20 @@ their sound systems.
 &lt;pre&gt;&lt;code&gt;@Article{CasillasSimonet_jphon2018,
   author = {Joseph Vincent Casillas and Miquel Simonet},
   journal = {Journal of Phonetics},
-  title = {{Perceptual categorization and bilingual language modes: Assessing the
-double phonemic boundary in early and late bilinguals}},
+  title = {{Perceptual categorization and bilingual language modes: 
+    Assessing the double phonemic boundary in early and late bilinguals}},
   volume = {71},
   year = {2018},
   pages = {51--64},
+  doi = {https://doi.org/10.1016/j.wocn.2018.07.002},
 }&lt;/code&gt;&lt;/pre&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;!-- END METADATA --&gt;
-&lt;p&gt;
-&lt;cite&gt;Sagarra, N. and J. V. Casillas
-(2018).
-“Suprasegmental information cues morphological anticipation during L1/L2 lexical access”.
-In: &lt;em&gt;Journal of Second Language Studies&lt;/em&gt; 1.1, pp. 31–59.&lt;/cite&gt;
-&lt;/p&gt;
+&lt;p&gt;Sagarra, N. and J. V. Casillas (2018). “Suprasegmental information cues
+morphological anticipation during L1/L2 lexical access”. In: &lt;em&gt;Journal
+of Second Language Studies&lt;/em&gt; 1.1, pp. 31-59. DOI:
+&lt;a href=&#34;https://doi.org/10.1075/jsls.17026.sag&#34; class=&#34;uri&#34;&gt;https://doi.org/10.1075/jsls.17026.sag&lt;/a&gt;.&lt;/p&gt;
 &lt;!-- START METADATA --&gt;
 &lt;div style=&#34;text-indent:.25em;margin-top:-1em&#34; align=&#34;left&#34;&gt;
 &lt;p&gt;( &lt;a alt=&#34;JSLS2018&#34; href=&#34;https://benjamins.com/catalog/jsls.17026.sag&#34; target=&#39;_new&#39;&gt;&lt;span class=&#34;showtooltip&#34; title=&#34;Read paper&#34;&gt;Link&lt;/span&gt;&lt;/a&gt; |
@@ -1450,21 +1436,21 @@ to monolinguals.
 &lt;pre&gt;&lt;code&gt;@Article{SagarraCasillas_JSLS2018,
   author = {Nuria Sagarra and Joseph Vincent Casillas},
   journal = {Journal of Second Language Studies},
-  title = {Suprasegmental information cues morphological anticipation during {L1/L2} lexical access},
+  title = {Suprasegmental information cues morphological anticipation during 
+    {L1/L2} lexical access},
   volume = {1},
   number = {1},
   year = {2018},
   pages = {31--59},
+  doi = {https://doi.org/10.1075/jsls.17026.sag},
 }&lt;/code&gt;&lt;/pre&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;!-- END METADATA --&gt;
-&lt;p&gt;
-&lt;cite&gt;Bessett, R. M, J. V. Casillas, and M. Ramírez Martínez
-(2017).
-“Language choice and accommodation: Casual encounters in San Ysidro and Nogales”.
-In: &lt;em&gt;Spanish in Context&lt;/em&gt; 14.1, pp. 78–98.&lt;/cite&gt;
-&lt;/p&gt;
+&lt;p&gt;Bessett, R. M, J. V. Casillas, and M. Ramírez Martínez
+(2017). “Language choice and accommodation: Casual encounters in San
+Ysidro and Nogales”. In: &lt;em&gt;Spanish in Context&lt;/em&gt; 14.1, pp. 78-98. DOI:
+&lt;a href=&#34;https://doi.org/10.1075/sic.14.1.04bes&#34; class=&#34;uri&#34;&gt;https://doi.org/10.1075/sic.14.1.04bes&lt;/a&gt;.&lt;/p&gt;
 &lt;!-- START METADATA --&gt;
 &lt;div style=&#34;text-indent:.25em;margin-top:-1em&#34; align=&#34;left&#34;&gt;
 &lt;p&gt;( &lt;a alt=&#34;SinC2017&#34; href=&#34;https://benjamins.com/catalog/sic.14.1.04bes&#34; target=&#39;_new&#39;&gt;&lt;span class=&#34;showtooltip&#34; title=&#34;Read paper&#34;&gt;Link&lt;/span&gt;&lt;/a&gt; |
@@ -1486,23 +1472,23 @@ are discussed.
 &lt;/div&gt;
 &lt;div id=&#34;BessettCasillasRamirezSpIC2017Bib&#34; class=&#34;minip&#34; style=&#34;display:none&#34;&gt;
 &lt;pre&gt;&lt;code&gt;@Article{BessettCasillasRamirezSpIC2017,
-  author = {Ryan Matthew Bessett and Joseph Vincent Casillas and Marta {Ram{\a&amp;#39;\i}rez Mart{\a&amp;#39;\i}nez}},
-  title = {Language choice and accommodation: Casual encounters in San Ysidro and Nogales},
+  author = {Ryan Matthew Bessett and Joseph Vincent Casillas and Marta {Ram&amp;amp;iacute;rez Mart&amp;amp;iacute;nez}},
+  title = {Language choice and accommodation: Casual encounters in San 
+    Ysidro and Nogales},
   journal = {Spanish in Context},
   volume = {14},
   number = {1},
   pages = {78--98},
   year = {2017},
+  doi = {https://doi.org/10.1075/sic.14.1.04bes},
 }&lt;/code&gt;&lt;/pre&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;!-- END METADATA --&gt;
-&lt;p&gt;
-&lt;cite&gt;Llompart, M. and J. V. Casillas
-(2016).
-“Lexically driven selective adaptation by ambiguous auditory stimuli occurs after limited exposure to adaptors”.
-In: &lt;em&gt;Journal of the Acoustical Society of America&lt;/em&gt; 139.5, pp. EL172–EL177.&lt;/cite&gt;
-&lt;/p&gt;
+&lt;p&gt;Llompart, M. and J. V. Casillas (2016). “Lexically driven selective
+adaptation by ambiguous auditory stimuli occurs after limited exposure
+to adaptors”. In: &lt;em&gt;Journal of the Acoustical Society of America&lt;/em&gt; 139.5,
+pp. EL172-EL177. DOI: &lt;a href=&#34;https://doi.org/10.1121/1.4951704&#34; class=&#34;uri&#34;&gt;https://doi.org/10.1121/1.4951704&lt;/a&gt;.&lt;/p&gt;
 &lt;!-- START METADATA --&gt;
 &lt;div style=&#34;text-indent:.25em;margin-top:-1em&#34; align=&#34;left&#34;&gt;
 &lt;p&gt;( &lt;a alt=&#34;JASAEL2016&#34; href=&#34;http://scitation.aip.org/content/asa/journal/jasa/139/5/10.1121/1.4951704&#34; target=&#39;_new&#39;&gt;&lt;span class=&#34;showtooltip&#34; title=&#34;Read paper&#34;&gt;Link&lt;/span&gt;&lt;/a&gt; |
@@ -1525,22 +1511,22 @@ parallelisms with the time course observed for SA with unambiguous stimuli.
 &lt;div id=&#34;LlmopartCasillasJASAEL2016Bib&#34; class=&#34;minip&#34; style=&#34;display:none&#34;&gt;
 &lt;pre&gt;&lt;code&gt;@Article{LlmopartCasillasJASAEL2016,
   author = {Miquel Llompart and Joseph Vincent Casillas},
-  title = {Lexically driven selective adaptation by ambiguous auditory stimuli occurs after limited exposure to adaptors},
+  title = {Lexically driven selective adaptation by ambiguous auditory 
+    stimuli occurs after limited exposure to adaptors},
   journal = {Journal of the Acoustical Society of America},
   volume = {139},
   number = {5},
   pages = {EL172--EL177},
   year = {2016},
+  doi = {https://doi.org/10.1121/1.4951704},
 }&lt;/code&gt;&lt;/pre&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;!-- END METADATA --&gt;
-&lt;p&gt;
-&lt;cite&gt;Casillas, J. V. and M. Simonet
-(2016).
-“Production and perception of the English /æ/-/ɑ/ contrast in switched-dominance speakers”.
-In: &lt;em&gt;Second Language Research&lt;/em&gt; 32.2, pp. 171-195.&lt;/cite&gt;
-&lt;/p&gt;
+&lt;p&gt;Casillas, J. V. and M. Simonet (2016). “Production and perception of
+the English /æ/-/ɑ/ contrast in switched-dominance
+speakers”. In: &lt;em&gt;Second Language Research&lt;/em&gt; 32.2, pp. 171-195. DOI:
+&lt;a href=&#34;https://doi.org/10.1177/0267658315608912&#34; class=&#34;uri&#34;&gt;https://doi.org/10.1177/0267658315608912&lt;/a&gt;.&lt;/p&gt;
 &lt;!-- START METADATA --&gt;
 &lt;div style=&#34;text-indent:.25em;margin-top:-1em&#34; align=&#34;left&#34;&gt;
 &lt;p&gt;( &lt;a alt=&#34;SDSLR2016&#34; href=&#34;http://slr.sagepub.com/content/32/2/171.abstract&#34; target=&#39;_new&#39;&gt;&lt;span class=&#34;showtooltip&#34; title=&#34;Read paper&#34;&gt;Link&lt;/span&gt;&lt;/a&gt; |
@@ -1566,22 +1552,22 @@ behavior even when speakers have become dominant in the target language.
 &lt;div id=&#34;CasillasSimonetSLR2016bib&#34; class=&#34;minip&#34; style=&#34;display:none&#34;&gt;
 &lt;pre&gt;&lt;code&gt;@Article{CasillasSimonetSLR2016,
   author = {Joseph V Casillas and Miquel Simonet},
-  title = {Production and perception of the English /æ/-/ɑ/ contrast in switched-dominance speakers},
+  title = {Production and perception of the English /&amp;amp;aelig;/-/&amp;amp;#593;/ 
+    contrast in switched-dominance speakers},
   year = {2016},
   volume = {32},
   number = {2},
   pages = {171-195},
   journal = {Second Language Research},
+  doi = {https://doi.org/10.1177/0267658315608912},
 }&lt;/code&gt;&lt;/pre&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;!-- END METADATA --&gt;
-&lt;p&gt;
-&lt;cite&gt;Casillas, J. V.
-(2015).
-“Production and perception of the /i/-/ɪ/ vowel contrast: The case of L2-dominant early learners of English”.
-In: &lt;em&gt;Phonetica&lt;/em&gt; 72.2-3, pp. 182-205.&lt;/cite&gt;
-&lt;/p&gt;
+&lt;p&gt;Casillas, J. V. (2015). “Production and perception of the /i/-/ɪ/
+vowel contrast: The case of L2-dominant early learners of English”. In:
+&lt;em&gt;Phonetica&lt;/em&gt; 72.2-3, pp. 182-205. DOI:
+&lt;a href=&#34;https://doi.org/10.1159/000431101&#34; class=&#34;uri&#34;&gt;https://doi.org/10.1159/000431101&lt;/a&gt;.&lt;/p&gt;
 &lt;!-- START METADATA --&gt;
 &lt;div style=&#34;text-indent:.25em;margin-top:-1em&#34; align=&#34;left&#34;&gt;
 &lt;p&gt;( &lt;a alt=&#34;SDPHON2015&#34; href=&#34;http://www.karger.com/Article/Abstract/431101&#34; target=&#39;_new&#39;&gt;&lt;span class=&#34;showtooltip&#34; title=&#34;Read paper&#34;&gt;Link&lt;/span&gt;&lt;/a&gt; |
@@ -1609,27 +1595,23 @@ experience on L2 phonetic behavior are discussed.
 &lt;div id=&#34;CasillasPhonetica2015bib&#34; class=&#34;minip&#34; style=&#34;display:none&#34;&gt;
 &lt;pre&gt;&lt;code&gt;@Article{CasillasPhonetica2015,
   author = {Joseph Vincent Casillas},
-  title = {Production and perception of the /i/-/ɪ/ vowel contrast: The case of L2-dominant early learners of English},
+  title = {Production and perception of the /i/-/&amp;amp;#618;/ vowel contrast: 
+    The case of L2-dominant early learners of English},
   journal = {Phonetica},
   volume = {72},
   number = {2-3},
   pages = {182-205},
   year = {2015},
+  doi = {https://doi.org/10.1159/000431101},
 }&lt;/code&gt;&lt;/pre&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;!-- END METADATA --&gt;
-&lt;p&gt;
-&lt;cite&gt;Casillas, J. V., Y. Díaz, and M. Simonet
-(2015).
-“Acoustics of Spanish and English coronal stops”.
-In:
-&lt;em&gt;ICPhS 18&lt;/em&gt;.
-Ed. by T. S. C. for
-ICPhS 2015.
-Proceedings of the 18th International Congress of Phonetic Sciences.
-University of Glasgow: Glasgow. &lt;a href=&#34;http://www.icphs2015.info&#34; class=&#34;uri&#34;&gt;http://www.icphs2015.info&lt;/a&gt;, ISSN: 241-0669, pp. 1-5.&lt;/cite&gt;
-&lt;/p&gt;
+&lt;p&gt;Casillas, J. V., Y. Díaz, and M. Simonet (2015). “Acoustics of
+Spanish and English coronal stops”. In: &lt;em&gt;ICPhS 18&lt;/em&gt;. Ed. by T. S. C. for
+ICPhS 2015. Proceedings of the 18th International Congress of Phonetic
+Sciences. University of Glasgow: Glasgow. &lt;a href=&#34;http://www.icphs2015.info&#34; class=&#34;uri&#34;&gt;http://www.icphs2015.info&lt;/a&gt;,
+ISSN: 241-0669, pp. 1-5.&lt;/p&gt;
 &lt;!-- START METADATA --&gt;
 &lt;div style=&#34;text-indent:.25em;margin-top:-1em&#34; align=&#34;left&#34;&gt;
 &lt;p&gt;( &lt;a alt=&#34;ICPhS2015&#34; href=&#34;https://www.researchgate.net/publication/280840068_ACOUSTICS_OF_SPANISH_AND_ENGLISH_CORONAL_STOPS&#34; target=&#39;_new&#39;&gt;&lt;span class=&#34;showtooltip&#34; title=&#34;Read paper&#34;&gt;Link&lt;/span&gt;&lt;/a&gt; |
@@ -1653,10 +1635,12 @@ articulation (or language).
 &lt;/div&gt;
 &lt;div id=&#34;CasillasDiazSimonetICPhS2015bib&#34; class=&#34;minip&#34; style=&#34;display:none&#34;&gt;
 &lt;pre&gt;&lt;code&gt;@InProceedings{CasillasDiazSimonetICPhS2015article,
-  author = {Joseph Vincent Casillas and Yamile D{\a&amp;#39;\i}az and Miquel Simonet},
+  author = {Joseph Vincent Casillas and Yamile D&amp;amp;iacute;az and Miquel Simonet},
   editor = {The Scottish Consortium {for ICPhS 2015}},
-  organization = {Proceedings of the 18th International Congress of Phonetic Sciences},
-  publisher = {University of Glasgow: Glasgow. http://www.icphs2015.info, ISSN: 241-0669},
+  organization = {Proceedings of the 18th International Congress of 
+    Phonetic Sciences},
+  publisher = {University of Glasgow: Glasgow. http://www.icphs2015.info, 
+    ISSN: 241-0669},
   title = {Acoustics of Spanish and English coronal stops},
   booktitle = {ICPhS 18},
   pages = {1-5},
@@ -1665,16 +1649,13 @@ articulation (or language).
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;!-- END METADATA --&gt;
-&lt;p&gt;
-&lt;cite&gt;Simonet, M., J. V. Casillas, and Y. Díaz
-(2014).
-“The effects of stress/accent on VOT depend on language (English, Spanish), consonant (/d/, /t/) and linguistic experience (monolinguals, bilinguals)”.
-In:
-&lt;em&gt;Speech Prosody 7&lt;/em&gt;.
-Ed. by N. Campbell, D. Gibbon and D. Hirst.
-Proceedings of the 7th international conference on Speech Prosody: Social and Linguistic Speech Prosody.
-Trinity College, Dublin. speechprosody2014.org, ISSN: 2333-2042, pp. 202-206.&lt;/cite&gt;
-&lt;/p&gt;
+&lt;p&gt;Simonet, M., J. V. Casillas, and Y. Díaz (2014). “The effects of
+stress/accent on VOT depend on language (English, Spanish), consonant
+(/d/, /t/) and linguistic experience (monolinguals, bilinguals)”. In:
+&lt;em&gt;Speech Prosody 7&lt;/em&gt;. Ed. by N. Campbell, D. Gibbon and D. Hirst.
+Proceedings of the 7th international conference on Speech Prosody:
+Social and Linguistic Speech Prosody. Trinity College, Dublin.
+speechprosody2014.org, ISSN: 2333-2042, pp. 202-206.&lt;/p&gt;
 &lt;!-- START METADATA --&gt;
 &lt;div style=&#34;text-indent:.25em;margin-top:-1em&#34; align=&#34;left&#34;&gt;
 &lt;p&gt;( &lt;a alt=&#34;SpeechProsody&#34; href=&#34;https://www.researchgate.net/publication/272090285_The_effects_of_stressaccent_on_VOT_depend_on_language_%28English_Spanish%29_consonant_%28d_t%29_and_linguistic_experience_%28monolinguals_bilinguals%29&#34; target=&#39;_new&#39;&gt;&lt;span class=&#34;showtooltip&#34; title=&#34;Read paper&#34;&gt;Link&lt;/span&gt;&lt;/a&gt; |
@@ -1697,11 +1678,15 @@ coordination as well as for feature theory are discussed.
 &lt;/div&gt;
 &lt;div id=&#34;SimonetCasillasDiazSP72014bib&#34; class=&#34;minip&#34; style=&#34;display:none&#34;&gt;
 &lt;pre&gt;&lt;code&gt;@InProceedings{SimonetCasillasDiazSP72014article,
-  author = {Miquel Simonet and Joseph Vincent Casillas and Yamile D{\a&amp;#39;\i}az},
+  author = {Miquel Simonet and Joseph Vincent Casillas and Yamile D&amp;amp;iacute;az},
   editor = {N Campbell and D Gibbon and D Hirst},
-  organization = {Proceedings of the 7th international conference on Speech Prosody: Social and Linguistic Speech Prosody},
-  publisher = {Trinity College, Dublin. speechprosody2014.org, ISSN: 2333-2042},
-  title = {The effects of stress/accent on VOT depend on language ({E}nglish, {S}panish), consonant (/d/, /t/) and linguistic experience (monolinguals, bilinguals)},
+  organization = {Proceedings of the 7th international conference on Speech 
+    Prosody: Social and Linguistic Speech Prosody},
+  publisher = {Trinity College, Dublin. speechprosody2014.org, 
+    ISSN: 2333-2042},
+  title = {The effects of stress/accent on VOT depend on language 
+    ({E}nglish, {S}panish), consonant (/d/, /t/) and linguistic experience 
+    (monolinguals, bilinguals)},
   booktitle = {Speech Prosody 7},
   pages = {202-206},
   year = {2014},
@@ -1709,14 +1694,11 @@ coordination as well as for feature theory are discussed.
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;!-- END METADATA --&gt;
-&lt;p&gt;
-&lt;cite&gt;Casillas, J. V. and R. M. Bessett
-(2013).
-&lt;em&gt;Cuadro de los rasgos distintivos y los alófonos del español [Table]&lt;/em&gt;.
-Ed. by R. A. N. Cedeño, S. Colina and T. G. Bradley.
-Georgetown University Press.
-URL: &lt;a href=&#34;https://github.com/jvcasill/rasgos_distintivos&#34;&gt;https://github.com/jvcasill/rasgos_distintivos&lt;/a&gt;.&lt;/cite&gt;
-&lt;/p&gt;
+&lt;p&gt;Casillas, J. V. and R. M. Bessett (2013). &lt;em&gt;Cuadro de los rasgos
+distintivos y los alófonos del español [Table]&lt;/em&gt;. Ed. by
+R. A. N. Cedeño, S. Colina and T. G. Bradley. Georgetown
+University Press. &amp;lt;URL:
+&lt;a href=&#34;https://github.com/jvcasill/rasgos_distintivos&#34; class=&#34;uri&#34;&gt;https://github.com/jvcasill/rasgos_distintivos&lt;/a&gt;&amp;gt;.&lt;/p&gt;
 &lt;!-- START METADATA --&gt;
 &lt;div style=&#34;text-indent:.25em;margin-top:-1em&#34; align=&#34;left&#34;&gt;
 &lt;p&gt;( &lt;a alt=&#34;RASGOS&#34; href=&#34;https://github.com/jvcasill/rasgos_distintivos&#34; target=&#39;_new&#39;&gt;&lt;span class=&#34;showtooltip&#34; title=&#34;RASGOS&#34;&gt;Link&lt;/span&gt;&lt;/a&gt; |
@@ -1731,9 +1713,11 @@ Fonología generativa contemporánea de la lengua española).
 &lt;div id=&#34;CasillasBessettDFTable2013Bib&#34; class=&#34;minip&#34; style=&#34;display:none&#34;&gt;
 &lt;pre&gt;&lt;code&gt;@Book{CasillasBessettDFTable2013,
   author = {Joseph Vincent Casillas and Ryan Matthew Bessett},
-  editor = {R. A. N. Cede{\~n}o and S. Colina and T. G. Bradley},
-  title = {Cuadro de los rasgos distintivos y los alófonos del español [Table]},
-  booktitle = {Fonología generativa contemporánea de la lengua española},
+  editor = {R. A. N. Cede&amp;amp;ntilde;o and S. Colina and T. G. Bradley},
+  title = {Cuadro de los rasgos distintivos y los al&amp;amp;oacute;fonos del 
+    espa&amp;amp;ntilde;ol [Table]},
+  booktitle = {Fonolog&amp;amp;iacute;a generativa contempor&amp;amp;aacute;nea de la lengua 
+    espa&amp;amp;ntilde;ola},
   publisher = {Georgetown University Press},
   year = {2013},
   url = {https://github.com/jvcasill/rasgos_distintivos},
@@ -1741,15 +1725,12 @@ Fonología generativa contemporánea de la lengua española).
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;!-- END METADATA --&gt;
-&lt;p&gt;
-&lt;cite&gt;Casillas, J. V.
-(2013).
-“La fricativización del africado /ʧ/: actitudes lingüísticas cerca de la frontera”.
-In:
-&lt;em&gt;Selected Proceedings of the 6th Workshop on Spanish Sociolinguistics&lt;/em&gt;.
-Ed. by A. M. Carvalho and S. Beaudrie.
-Somerville, MA: Cascadilla Proceedings Project. www.lingref.com, document #2867, pp. 177-188.&lt;/cite&gt;
-&lt;/p&gt;
+&lt;p&gt;Casillas, J. V. (2013). “La fricativización del africado
+/tʃ/: actitudes lingüísticas cerca de la frontera”.
+In: &lt;em&gt;Selected Proceedings of the 6th Workshop on Spanish
+Sociolinguistics&lt;/em&gt;. Ed. by A. M. Carvalho and S. Beaudrie. Somerville,
+MA: Cascadilla Proceedings Project. www.lingref.com, document #2867,
+pp. 177-188.&lt;/p&gt;
 &lt;!-- START METADATA --&gt;
 &lt;div style=&#34;text-indent:.25em;margin-top:-1em&#34; align=&#34;left&#34;&gt;
 &lt;p&gt;( &lt;a alt=&#34;WSS6&#34; href=&#34;http://www.lingref.com/cpp/wss/6/abstract2867.html&#34; target=&#39;_new&#39;&gt;&lt;span class=&#34;showtooltip&#34; title=&#34;WSS6 abstract&#34;&gt;Link&lt;/span&gt;&lt;/a&gt; |
@@ -1775,21 +1756,22 @@ variante estándar.
 &lt;pre&gt;&lt;code&gt;@InProceedings{CasillasWSS62013article,
   author = {Joseph Vincent Casillas},
   editor = {Ana M. Carvalho and Sara Beaudrie},
-  publisher = {Somerville, MA: Cascadilla Proceedings Project. www.lingref.com, document #2867},
-  title = {La fricativización del africado /ʧ/: actitudes lingüísticas cerca de la frontera},
-  booktitle = {Selected Proceedings of the 6th Workshop on Spanish Sociolinguistics},
+  publisher = {Somerville, MA: Cascadilla Proceedings Project. 
+    www.lingref.com, document #2867},
+  title = {La fricativizaci&amp;amp;oacute;n del africado /t&amp;amp;#643;/: actitudes 
+    ling&amp;amp;uuml;&amp;amp;iacute;sticas cerca de la frontera},
+  booktitle = {Selected Proceedings of the 6th Workshop on Spanish 
+    Sociolinguistics},
   pages = {177-188},
   year = {2013},
 }&lt;/code&gt;&lt;/pre&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;!-- END METADATA --&gt;
-&lt;p&gt;
-&lt;cite&gt;Casillas, J. V.
-(2012).
-“La fricativización del africado /ʧ/ en el habla de las mujeres del sur de Arizona”.
-In: &lt;em&gt;Divergencias: Revista de estudios lingüísticos y literarios&lt;/em&gt; 10.1, pp. 56-70.&lt;/cite&gt;
-&lt;/p&gt;
+&lt;p&gt;Casillas, J. V. (2012). “La fricativización del africado
+/tʃ/ en el habla de las mujeres del sur de Arizona”. In:
+&lt;em&gt;Divergencias: Revista de estudios lingüísticos y
+literarios&lt;/em&gt; 10.1, pp. 56-70.&lt;/p&gt;
 &lt;!-- START METADATA --&gt;
 &lt;div style=&#34;text-indent:.25em;margin-top:-1em&#34; align=&#34;left&#34;&gt;
 &lt;p&gt;( &lt;a alt=&#34;Divergencias&#34; href=&#34;http://divergencias.arizona.edu/sites/divergencias.arizona.edu/files/articles/FricativizacionDivergencias.pdf&#34; target=&#39;_new&#39;&gt;&lt;span class=&#34;showtooltip&#34; title=&#34;Read paper&#34;&gt;Link&lt;/span&gt;&lt;/a&gt; |
@@ -1810,9 +1792,11 @@ factores determinantes para la realización de la variante fricativa.
 &lt;div id=&#34;Casillas2012Bib&#34; class=&#34;minip&#34; style=&#34;display:none&#34;&gt;
 &lt;pre&gt;&lt;code&gt;@Article{Casillas2012divergencias,
   author = {Joseph Vincent Casillas},
-  journal = {Divergencias: Revista de estudios lingüísticos y literarios},
+  journal = {Divergencias: Revista de estudios ling&amp;amp;uuml;&amp;amp;iacute;sticos y 
+    literarios},
   number = {1},
-  title = {La fricativización del africado /ʧ/ en el habla de las mujeres del sur de {A}rizona},
+  title = {La fricativizaci&amp;amp;oacute;n del africado /t&amp;amp;#643;/ en el habla de 
+    las mujeres del sur de {A}rizona},
   volume = {10},
   pages = {56-70},
   year = {2012},
@@ -1820,13 +1804,10 @@ factores determinantes para la realización de la variante fricativa.
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;!-- END METADATA --&gt;
-&lt;p&gt;
-&lt;cite&gt;Casillas, J. V.
-(2010).
-“La vibrante múltiple intervocálica: los ejercicios de canto como ayuda a su pronunciación en español”.
-In: &lt;em&gt;La Gaceta Hispánica de Madrid&lt;/em&gt; VIII.
-ISSN: 1886-1741.&lt;/cite&gt;
-&lt;/p&gt;
+&lt;p&gt;Casillas, J. V. (2010). “La vibrante múltiple
+intervocálica: los ejercicios de canto como ayuda a su
+pronunciación en español”. In: &lt;em&gt;La Gaceta
+Hispánica de Madrid&lt;/em&gt; VIII. ISSN: 1886-1741.&lt;/p&gt;
 &lt;!-- START METADATA --&gt;
 &lt;div style=&#34;text-indent:.25em;margin-top:-1em&#34; align=&#34;left&#34;&gt;
 &lt;p&gt;( &lt;button class=&#34;button mybutton&#34; onclick=&#34;myFunction(&#39;Casillas2010Bib&#39;)&#34;&gt;Bib&lt;/button&gt; )&lt;/p&gt;
@@ -1834,21 +1815,17 @@ ISSN: 1886-1741.&lt;/cite&gt;
 &lt;pre&gt;&lt;code&gt;@Article{Casillas2010gaceta,
   author = {Joseph Vincent Casillas},
   issn = {1886-1741},
-  journal = {La Gaceta Hispánica de Madrid},
-  title = {La vibrante múltiple intervocálica: los ejercicios de canto como ayuda a su pronunciación en español},
+  journal = {La Gaceta Hisp&amp;amp;aacute;nica de Madrid},
+  title = {La vibrante m&amp;amp;uacute;ltiple intervoc&amp;amp;aacute;lica: los ejercicios 
+    de canto como ayuda a su pronunciaci&amp;amp;oacute;n en espa&amp;amp;ntilde;ol},
   volume = {VIII},
   year = {2010},
 }&lt;/code&gt;&lt;/pre&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;!-- END METADATA --&gt;
-&lt;p&gt;
-&lt;cite&gt;Casillas, J. V.
-(2009).
-“El uso de los refranes en El Quijote”.
-In: &lt;em&gt;La Gaceta Hispánica de Madrid&lt;/em&gt; VIII.
-ISSN: 1886-1741.&lt;/cite&gt;
-&lt;/p&gt;
+&lt;p&gt;Casillas, J. V. (2009). “El uso de los refranes en El Quijote”. In: &lt;em&gt;La
+Gaceta Hispánica de Madrid&lt;/em&gt; VIII. ISSN: 1886-1741.&lt;/p&gt;
 &lt;!-- START METADATA --&gt;
 &lt;div style=&#34;text-indent:.25em;margin-top:-1em&#34; align=&#34;left&#34;&gt;
 &lt;p&gt;( &lt;button class=&#34;button mybutton&#34; onclick=&#34;myFunction(&#39;Casillas2009Abstract&#39;)&#34;&gt;Abstract&lt;/button&gt; |
@@ -1875,7 +1852,7 @@ española.
 &lt;pre&gt;&lt;code&gt;@Article{Casillas2009gaceta,
   author = {Joseph Vincent Casillas},
   issn = {1886-1741},
-  journal = {La Gaceta Hispánica de Madrid},
+  journal = {La Gaceta Hisp&amp;amp;aacute;nica de Madrid},
   title = {El uso de los refranes en El Quijote},
   volume = {VIII},
   year = {2009},
@@ -1884,32 +1861,21 @@ española.
 &lt;/div&gt;
 &lt;!-- END METADATA --&gt;
 &lt;h3 id=&#34;submitted&#34;&gt;Submitted&lt;/h3&gt;
-&lt;p&gt;
-&lt;cite&gt;Lozano-Argüelles, C, L. F. Arroyo, N. Rodríguez, E. Durand, J. J. G. Pozu, J. M. Rojas, J. Varela, N. de
-Rocafiguera, and J. V. Casillas
-&lt;em&gt;Conceptually cued perceptual categorization in adult L2 learners&lt;/em&gt;.&lt;/cite&gt;
-&lt;/p&gt;
+&lt;p&gt;Lozano-Argüelles, C, L. F. Arroyo, N. Rodríguez, E. Durand,
+J. J. G. Pozu, J. M. Rojas, J. Varela, N. de Rocafiguera, and J. V.
+Casillas &lt;em&gt;Conceptually cued perceptual categorization in adult L2
+learners&lt;/em&gt;.&lt;/p&gt;
 &lt;h3 id=&#34;in-preparation&#34;&gt;In preparation&lt;/h3&gt;
-&lt;p&gt;
-&lt;cite&gt;Casillas, J. V.
-&lt;em&gt;Semantic processing affects L2 stop production in late learners&lt;/em&gt;.&lt;/cite&gt;
-&lt;/p&gt;
-&lt;p&gt;
-&lt;cite&gt;Casillas, J. V.
-&lt;em&gt;L1/L2 cue-weighting strategies in the perception of lexical stress&lt;/em&gt;.&lt;/cite&gt;
-&lt;/p&gt;
-&lt;p&gt;
-&lt;cite&gt;Sagarra, N. and J. V. Casillas
-&lt;em&gt;The use of lexical stress and vowel duration for morphological anticipation in L2 learners of Spanish&lt;/em&gt;.&lt;/cite&gt;
-&lt;/p&gt;
-&lt;p&gt;
-&lt;cite&gt;Sagarra, N. and J. V. Casillas
-&lt;em&gt;The use of stress in lexical access in early and late bilinguals&lt;/em&gt;.&lt;/cite&gt;
-&lt;/p&gt;
-&lt;p&gt;
-&lt;cite&gt;Casillas, J. V.
-&lt;em&gt;Community approaches to translating specialized terminology in linguistics: lingreference.org&lt;/em&gt;.&lt;/cite&gt;
-&lt;/p&gt;
+&lt;p&gt;Casillas, J. V. &lt;em&gt;Semantic processing affects L2 stop production in late
+learners&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;Casillas, J. V. &lt;em&gt;L1/L2 cue-weighting strategies in the perception of
+lexical stress&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;Sagarra, N. and J. V. Casillas &lt;em&gt;The use of lexical stress and vowel
+duration for morphological anticipation in L2 learners of Spanish&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;Sagarra, N. and J. V. Casillas &lt;em&gt;The use of stress in lexical access in
+early and late bilinguals&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;Casillas, J. V. &lt;em&gt;Community approaches to translating specialized
+terminology in linguistics: lingreference.org&lt;/em&gt;.&lt;/p&gt;
 &lt;p&gt;&lt;/span&gt;
 &lt;!-- &lt;/div&gt; --&gt;&lt;/p&gt;
 &lt;/div&gt;
@@ -1918,179 +1884,142 @@ Rocafiguera, and J. V. Casillas
 &lt;div id=&#34;presentations&#34; class=&#34;tab-pane fade&#34; style=&#34;margin-left:2em;text-indent:-2em&#34;&gt;
 &lt;h3 id=&#34;presentations&#34;&gt;Presentations&lt;/h3&gt;
 &lt;p&gt;&lt;span class=&#34;tempTimes&#34;&gt;&lt;/p&gt;
-&lt;p&gt;
-&lt;cite&gt;Lozano-Argüelles, C., L. F. Arroyo, N. Rodríguez, E. Durand, J. J. G. Pozu, J. M. Rojas, J. Varela, N. de
-Rocafiguera, and J. V. Casillas.
-&lt;em&gt;Conceptually cued perceptual categorization in late bilinguals&lt;/em&gt;.
-Hispanic Linguistics Symposium, University of Texas at El Paso, El Paso, TX, Oct. 2019.&lt;/cite&gt;
-&lt;/p&gt;
-&lt;p&gt;
-&lt;cite&gt;Lozano-Argüelles, C., N. Sagarra, and J. V. Casillas.
-&lt;em&gt;Predicting the end: monolinguals, L2 learners and interpreters’ use of prosody to predict word endings&lt;/em&gt;.
-Hispanic Linguistics Symposium, University of Texas at El Paso, El Paso, TX, Oct. 2019.&lt;/cite&gt;
-&lt;/p&gt;
-&lt;p&gt;
-&lt;cite&gt;Colina, S., J. V. Casillas, and Y. Díaz.
-&lt;em&gt;Syllabic Affiliation of Prevocalic Glides in Sonoran Spanish: Dialectal variation in syllabic affiliation&lt;/em&gt;.
-Hispanic Linguistics Symposium, University of Texas at Austin, Austin, TX, Oct. 2018.&lt;/cite&gt;
-&lt;/p&gt;
-&lt;p&gt;
-&lt;cite&gt;Lozano-Argüelles, C., N. Sagarra, and J. V. Casillas.
-&lt;em&gt;The use of lexical stress and vowel duration for morphological anticipation in L2 learners of Spanish&lt;/em&gt;.
-Hispanic Linguistics Symposium, University of Texas at Austin, Austin, TX, Oct. 2018.&lt;/cite&gt;
-&lt;/p&gt;
-&lt;p&gt;
-&lt;cite&gt;Lozano-Argüelles, C., N. Sagarra, and J. V. Casillas.
-&lt;em&gt;The time-course of verbal morphology anticipation: When interpreting experience makes a difference&lt;/em&gt;.
-International Symposium on Bilingual and L2 Processing in Adults and Children (ISBPAC). Universität Branschweig, Germany, Feb. 2018.&lt;/cite&gt;
-&lt;/p&gt;
-&lt;p&gt;
-&lt;cite&gt;Lozano-Argüelles, C., N. Sagarra, and J. V. Casillas.
-&lt;em&gt;Practice makes perfect. L2 morphological anticipation in simultaneous interpreters&lt;/em&gt;.
-International Symposium on Bilingualism. University of Limerick, Ireland, Jun. 2017.&lt;/cite&gt;
-&lt;/p&gt;
-&lt;p&gt;
-&lt;cite&gt;Lozano-Argüelles, C., N. Sagarra, and J. V. Casillas.
-&lt;em&gt;The Role of Stress in Morphological Anticipation: Evidence from Interpreters&lt;/em&gt;.
-Hispanic Linguistics Symposium, Texas Tech University, Lubbock, TX, Oct. 2017.&lt;/cite&gt;
-&lt;/p&gt;
-&lt;p&gt;
-&lt;cite&gt;Sagarra, N., J. V. Casillas, and N. Rodríguez.
-&lt;em&gt;The use of stress in lexical access in early and late bilinguals&lt;/em&gt;.
-Hispanic Linguistics Symposium, Texas Tech University, Lubbock, TX, Oct. 2017.&lt;/cite&gt;
-&lt;/p&gt;
-&lt;p&gt;
-&lt;cite&gt;Lozano-Argüelles, C., N. Sagarra, and J. V. Casillas.
-&lt;em&gt;Anticipatory eye-movements in morphological prediction: Evidence from interpreters and bilinguals&lt;/em&gt;.
-Second Language Research Forum, The Ohio State University, Oct. 2017.&lt;/cite&gt;
-&lt;/p&gt;
-&lt;p&gt;
-&lt;cite&gt;Sagarra, N. and J. V. Casillas.
-&lt;em&gt;Lexical stress predicts L1 and L2 morphosyntactic processing&lt;/em&gt;.
-47th Linguistics Symposium on Romance Languages. University of Delaware, Newark, DE, Apr. 2017.&lt;/cite&gt;
-&lt;/p&gt;
-&lt;p&gt;
-&lt;cite&gt;Casillas, J. V.
-&lt;em&gt;The longitudinal development of fine-phonetic detail: Production and perception of Spanish stops in a stateside immersion context&lt;/em&gt;.
-47th Linguistics Symposium on Romance Languages. University of Delaware, Newark, DE, Apr. 2017.&lt;/cite&gt;
-&lt;/p&gt;
-&lt;p&gt;
-&lt;cite&gt;Casillas, J. V.
-&lt;em&gt;Coronal stop production in Spanish heritage speakers&lt;/em&gt;.
-4th National Symposium on Spanish as a Heritage Language. University of California at Irvine, Irvine, CA, Feb. 2017.&lt;/cite&gt;
-&lt;/p&gt;
-&lt;p&gt;
-&lt;cite&gt;Casillas, J. V.
-&lt;em&gt;Learning to hear fine-phonetic detail: Longitudinal development of language-specific speech perception in adults&lt;/em&gt;.
-Hispanic Linguistic Symposium. Georgetown University, Washinton D.C., Oct. 2016.&lt;/cite&gt;
-&lt;/p&gt;
-&lt;p&gt;
-&lt;cite&gt;Simonet, M., J. V. Casillas, and D. Osborne.
-&lt;em&gt;Second language acquisition and the double perceptual boundary effect&lt;/em&gt;.
-Sound to Word in Bilingual and Second Language Speech Perception. University of Iowa, Iowa City, Iowa, Apr. 2016.&lt;/cite&gt;
-&lt;/p&gt;
-&lt;p&gt;
-&lt;cite&gt;Casillas, J. V., Y. Díaz, and M. Simonet.
-&lt;em&gt;Acoustics of coronal stops in Spanish-English bilingual speech&lt;/em&gt;.
-Hispanic Linguistics Symposium. University of Illinois at Urbana-Champaign, Urbana, IL, Sep. 2015.&lt;/cite&gt;
-&lt;/p&gt;
-&lt;p&gt;
-&lt;cite&gt;Bessett, R. M., J. V. Casillas, and M. Ramírez Martínez.
-&lt;em&gt;Language Choice and Accommodation: Casual Encounters Along the U.S. Border&lt;/em&gt;.
-7th Workshop on Spanish Sociolinguistics. University of Wisconsin-Madison, Madison, WI, Apr. 2014.&lt;/cite&gt;
-&lt;/p&gt;
-&lt;p&gt;
-&lt;cite&gt;Casillas, J. V.
-&lt;em&gt;Perception of English /i/-/ɪ/ tense/lax vowel contrast by early learners of English&lt;/em&gt;.
-Second Language Research Forum (SRLF). Brigham Young University. Provo, Utah, Oct. 2013.&lt;/cite&gt;
-&lt;/p&gt;
-&lt;p&gt;
-&lt;cite&gt;Casillas, J. V.
-&lt;em&gt;English-dominant early Spanish-English bilinguals production and perception of English tense lax vowel contrasts&lt;/em&gt;.
-Phonetics and Phonology in Iberia. Universidade de Lisboa, Lisbon. Portugal, Jun. 2013.&lt;/cite&gt;
-&lt;/p&gt;
-&lt;p&gt;
-&lt;cite&gt;Casillas, J. V.
-&lt;em&gt;La fricativización del africado /ʧ/: actitudes lingüísticas cerca de la frontera&lt;/em&gt;.
-6th Workshop on Spanish Sociolinguistics. University of Arizona, Tucson, AZ, Apr. 2013.&lt;/cite&gt;
-&lt;/p&gt;
-&lt;p&gt;
-&lt;cite&gt;Casillas, J. V.
-&lt;em&gt;Los piojos, las pulgas y el canto… ¡oh my! Una segunda mirada a la teoría de Dunbar, el cotilleo y el papel de la música en la evolución del lenguage&lt;/em&gt;.
-22nd Annual Symposium on Hispanic and Luso-Brazilian Literature, Language and Culture. University of Arizona, Tucson, AZ, Feb. 2012.&lt;/cite&gt;
-&lt;/p&gt;
-&lt;p&gt;
-&lt;cite&gt;Casillas, J. V.
-&lt;em&gt;La fricativización del africado /ʧ/ en el habla de las mujeres del sur de Arizona&lt;/em&gt;.
-21st Annual Symposium on Hispanic and Luso-Brazilian Literature. University of Arizona, Tucson, AZ, Mar. 2011.&lt;/cite&gt;
-&lt;/p&gt;
-&lt;p&gt;
-&lt;cite&gt;Casillas, J. V.
-&lt;em&gt;Going mental with vocabulary: the use of iDevice applications in the classroom&lt;/em&gt;.
-Spanish Heritage Language Program Share Day. University of Arizona, Tucson, AZ, Mar. 2011.&lt;/cite&gt;
-&lt;/p&gt;
+&lt;p&gt;Lozano-Argüelles, C., L. F. Arroyo, N. Rodríguez, E.
+Durand, J. J. G. Pozu, J. M. Rojas, J. Varela, N. de Rocafiguera, and
+J. V. Casillas (2019). &lt;em&gt;Conceptually cued perceptual categorization in
+late bilinguals&lt;/em&gt;. Hispanic Linguistics Symposium, University of Texas
+at El Paso, El Paso, TX.&lt;/p&gt;
+&lt;p&gt;Lozano-Argüelles, C., N. Sagarra, and J. V. Casillas (2019).
+&lt;em&gt;Predicting the end: monolinguals, L2 learners and interpreters’ use of
+prosody to predict word endings&lt;/em&gt;. Hispanic Linguistics Symposium,
+University of Texas at El Paso, El Paso, TX.&lt;/p&gt;
+&lt;p&gt;Colina, S., J. V. Casillas, and Y. Díaz (2018). &lt;em&gt;Syllabic
+Affiliation of Prevocalic Glides in Sonoran Spanish: Dialectal
+variation in syllabic affiliation&lt;/em&gt;. Hispanic Linguistics Symposium,
+University of Texas at Austin, Austin, TX.&lt;/p&gt;
+&lt;p&gt;Lozano-Argüelles, C., N. Sagarra, and J. V. Casillas (2018). &lt;em&gt;The
+use of lexical stress and vowel duration for morphological anticipation
+in L2 learners of Spanish&lt;/em&gt;. Hispanic Linguistics Symposium, University
+of Texas at Austin, Austin, TX.&lt;/p&gt;
+&lt;p&gt;Lozano-Argüelles, C., N. Sagarra, and J. V. Casillas (2018). &lt;em&gt;The
+time-course of verbal morphology anticipation: When interpreting
+experience makes a difference&lt;/em&gt;. International Symposium on Bilingual
+and L2 Processing in Adults and Children (ISBPAC). Universität
+Branschweig, Germany.&lt;/p&gt;
+&lt;p&gt;Lozano-Argüelles, C., N. Sagarra, and J. V. Casillas (2017).
+&lt;em&gt;Practice makes perfect. L2 morphological anticipation in simultaneous
+interpreters&lt;/em&gt;. International Symposium on Bilingualism. University of
+Limerick, Ireland.&lt;/p&gt;
+&lt;p&gt;Lozano-Argüelles, C., N. Sagarra, and J. V. Casillas (2017). &lt;em&gt;The
+Role of Stress in Morphological Anticipation: Evidence from
+Interpreters&lt;/em&gt;. Hispanic Linguistics Symposium, Texas Tech University,
+Lubbock, TX.&lt;/p&gt;
+&lt;p&gt;Sagarra, N., J. V. Casillas, and N. Rodríguez (2017). &lt;em&gt;The use
+of stress in lexical access in early and late bilinguals&lt;/em&gt;. Hispanic
+Linguistics Symposium, Texas Tech University, Lubbock, TX.&lt;/p&gt;
+&lt;p&gt;Lozano-Argüelles, C., N. Sagarra, and J. V. Casillas (2017).
+&lt;em&gt;Anticipatory eye-movements in morphological prediction: Evidence from
+interpreters and bilinguals&lt;/em&gt;. Second Language Research Forum, The Ohio
+State University.&lt;/p&gt;
+&lt;p&gt;Sagarra, N. and J. V. Casillas (2017). &lt;em&gt;Lexical stress predicts L1 and
+L2 morphosyntactic processing&lt;/em&gt;. 47th Linguistics Symposium on Romance
+Languages. University of Delaware, Newark, DE.&lt;/p&gt;
+&lt;p&gt;Casillas, J. V. (2017). &lt;em&gt;The longitudinal development of fine-phonetic
+detail: Production and perception of Spanish stops in a stateside
+immersion context&lt;/em&gt;. 47th Linguistics Symposium on Romance Languages.
+University of Delaware, Newark, DE.&lt;/p&gt;
+&lt;p&gt;Casillas, J. V. (2017). &lt;em&gt;Coronal stop production in Spanish heritage
+speakers&lt;/em&gt;. 4th National Symposium on Spanish as a Heritage Language.
+University of California at Irvine, Irvine, CA.&lt;/p&gt;
+&lt;p&gt;Casillas, J. V. (2016). &lt;em&gt;Learning to hear fine-phonetic detail:
+Longitudinal development of language-specific speech perception in
+adults&lt;/em&gt;. Hispanic Linguistic Symposium. Georgetown University,
+Washinton D.C.&lt;/p&gt;
+&lt;p&gt;Simonet, M., J. V. Casillas, and D. Osborne (2016). &lt;em&gt;Second language
+acquisition and the double perceptual boundary effect&lt;/em&gt;. Sound to Word
+in Bilingual and Second Language Speech Perception. University of Iowa,
+Iowa City, Iowa.&lt;/p&gt;
+&lt;p&gt;Casillas, J. V., Y. Díaz, and M. Simonet (2015). &lt;em&gt;Acoustics of
+coronal stops in Spanish-English bilingual speech&lt;/em&gt;. Hispanic
+Linguistics Symposium. University of Illinois at Urbana-Champaign,
+Urbana, IL.&lt;/p&gt;
+&lt;p&gt;Bessett, R. M., J. V. Casillas, and M. R. Martínez (2014).
+&lt;em&gt;Language Choice and Accommodation: Casual Encounters Along the U.S.
+Border&lt;/em&gt;. 7th Workshop on Spanish Sociolinguistics. University of
+Wisconsin-Madison, Madison, WI.&lt;/p&gt;
+&lt;p&gt;Casillas, J. V. (2013). &lt;em&gt;Perception of English /i/-/ɪ/ tense/lax
+vowel contrast by early learners of English&lt;/em&gt;. Second Language Research
+Forum (SRLF). Brigham Young University. Provo, Utah.&lt;/p&gt;
+&lt;p&gt;Casillas, J. V. (2013). &lt;em&gt;English-dominant early Spanish-English
+bilinguals production and perception of English tense lax vowel
+contrasts&lt;/em&gt;. Phonetics and Phonology in Iberia. Universidade de Lisboa,
+Lisbon. Portugal.&lt;/p&gt;
+&lt;p&gt;Casillas, J. V. (2013). &lt;em&gt;La fricativización del africado
+/tʃ/: actitudes lingüísticas cerca de la frontera&lt;/em&gt;.
+6th Workshop on Spanish Sociolinguistics. University of Arizona,
+Tucson, AZ.&lt;/p&gt;
+&lt;p&gt;Casillas, J. V. (2012). &lt;em&gt;Los piojos, las pulgas y el canto… ¡oh my!
+Una segunda mirada a la teoría de Dunbar, el cotilleo y el papel
+de la música en la evolución del lenguage&lt;/em&gt;. 22nd Annual
+Symposium on Hispanic and Luso-Brazilian Literature, Language and
+Culture. University of Arizona, Tucson, AZ.&lt;/p&gt;
+&lt;p&gt;Casillas, J. V. (2011). &lt;em&gt;La fricativización del africado
+/tʃ/ en el habla de las mujeres del sur de Arizona&lt;/em&gt;. 21st Annual
+Symposium on Hispanic and Luso-Brazilian Literature. University of
+Arizona, Tucson, AZ.&lt;/p&gt;
+&lt;p&gt;Casillas, J. V. (2011). &lt;em&gt;Going mental with vocabulary: the use of
+iDevice applications in the classroom&lt;/em&gt;. Spanish Heritage Language
+Program Share Day. University of Arizona, Tucson, AZ.&lt;/p&gt;
 &lt;h3 id=&#34;unrefereed-presentations&#34;&gt;Unrefereed Presentations&lt;/h3&gt;
-&lt;p&gt;
-&lt;cite&gt;Casillas, J. V.
-&lt;em&gt;Crossing borders? The status and future of Spanish in the U.S.&lt;/em&gt;.
-School of Spanish Round Table, Middlebury College, Middlebury, VT, Jul. 2017.&lt;/cite&gt;
-&lt;/p&gt;
-&lt;p&gt;
-&lt;cite&gt;Sagarra, N., J. V. Casillas, C. Lozano-Argüelles, F. Eriksson, J. Uscamayta, and J. Overton.
-&lt;em&gt;Using lexical stress to predict inflectional morphology&lt;/em&gt;.
-Aresty Undergraduate Research Symposium. Rutgers University, New Brunswick, Apr. 2017.&lt;/cite&gt;
-&lt;/p&gt;
-&lt;p&gt;
-&lt;cite&gt;Sagarra, N., J. V. Casillas, C. Lozano-Argüelles, and N. Rodríguez.
-&lt;em&gt;Eye-tracking reveals bilinguals use stress to predict morphology&lt;/em&gt;.
-11th annual Perceptual and Cognitive Science Forum. Rutgers University, New Brunswick, Apr. 2017.&lt;/cite&gt;
-&lt;/p&gt;
+&lt;p&gt;Casillas, J. V. (2017). &lt;em&gt;Crossing borders? The status and future of
+Spanish in the U.S.&lt;/em&gt;. School of Spanish Round Table, Middlebury
+College, Middlebury, VT.&lt;/p&gt;
+&lt;p&gt;Sagarra, N., J. V. Casillas, C. Lozano-Argüelles, F. Eriksson, J.
+Uscamayta, and J. Overton (2017). &lt;em&gt;Using lexical stress to predict
+inflectional morphology&lt;/em&gt;. Aresty Undergraduate Research Symposium.
+Rutgers University, New Brunswick.&lt;/p&gt;
+&lt;p&gt;Sagarra, N., J. V. Casillas, C. Lozano-Argüelles, and N.
+Rodríguez (2017). &lt;em&gt;Eye-tracking reveals bilinguals use stress to
+predict morphology&lt;/em&gt;. 11th annual Perceptual and Cognitive Science
+Forum. Rutgers University, New Brunswick.&lt;/p&gt;
 &lt;h3 id=&#34;poster-presentations&#34;&gt;Poster presentations&lt;/h3&gt;
-&lt;p&gt;
-&lt;cite&gt;Casillas, J. V.
-&lt;em&gt;Semantic processing triggers cross-linguistic interference during early phonetic category development&lt;/em&gt;.
-The 19th International Congress of Phonetic Sciences (ICPhS), Aug. 2019.&lt;/cite&gt;
-&lt;/p&gt;
-&lt;p&gt;
-&lt;cite&gt;Lozano-Argüelles, C., N. Sagarra, and J. V. Casillas.
-&lt;em&gt;Anticipación de morfología en hablantes de español como L2&lt;/em&gt;.
-II Congreso para profesionales de la educación bilingüe. Madrid, Spain, Jun. 2018.&lt;/cite&gt;
-&lt;/p&gt;
-&lt;p&gt;
-&lt;cite&gt;Sagarra, N. and J. V. Casillas.
-&lt;em&gt;Prosodic cues facilitate morphological anticipation in monolinguals and bilinguals&lt;/em&gt;.
-International Symposium on Bilingual and L2 Processing in Adults and Children. Universität Braunschweig, Germany, May. 2018.&lt;/cite&gt;
-&lt;/p&gt;
-&lt;p&gt;
-&lt;cite&gt;Lozano-Argüelles, C., N. Sagarra, and J. V. Casillas.
+&lt;p&gt;Casillas, J. V. (2019). &lt;em&gt;Semantic processing triggers cross-linguistic
+interference during early phonetic category development&lt;/em&gt;. The 19th
+International Congress of Phonetic Sciences (ICPhS).&lt;/p&gt;
+&lt;p&gt;Lozano-Argüelles, C., N. Sagarra, and J. V. Casillas (2018).
+&lt;em&gt;Anticipación de morfología en hablantes de
+español como L2&lt;/em&gt;. II Congreso para profesionales de la
+educación bilingüe. Madrid, Spain.&lt;/p&gt;
+&lt;p&gt;Sagarra, N. and J. V. Casillas (2018). &lt;em&gt;Prosodic cues facilitate
+morphological anticipation in monolinguals and bilinguals&lt;/em&gt;.
+International Symposium on Bilingual and L2 Processing in Adults and
+Children. Universität Braunschweig, Germany.&lt;/p&gt;
+&lt;p&gt;Lozano-Argüelles, C., N. Sagarra, and J. V. Casillas (2018).
 &lt;em&gt;Anticipation in Professional Interpreters: Predicting Morphology&lt;/em&gt;.
-Bridging Attention and Prediction. Universitat de Barcelona, Spain, Feb. 2018.&lt;/cite&gt;
-&lt;/p&gt;
-&lt;p&gt;
-&lt;cite&gt;Ramírez Martínez, M. and J. V. Casillas.
-&lt;em&gt;La producción de la vibrante múltiple en los estudiantes de español como lengua heredada y en los estudiantes de español como lengua extranjera&lt;/em&gt;.
-8th Workshop on Spanish Sociolinguistics. University of Puerto Rico, Río Piedras, PR, Apr. 2016.&lt;/cite&gt;
-&lt;/p&gt;
-&lt;p&gt;
-&lt;cite&gt;Casillas, J. V., Y. Díaz, and M. Simonet.
-&lt;em&gt;Acoustics of Spanish and English coronal stops&lt;/em&gt;.
-Proceedings of the 18th International Congress of Phonetic Sciences. University of Glasgow, Glasgow, Scotland, Aug. 2015.&lt;/cite&gt;
-&lt;/p&gt;
-&lt;p&gt;
-&lt;cite&gt;Simonet, M., J. V. Casillas, and Y. Díaz.
-&lt;em&gt;A contrastive acoustic analysis of dental and alveolar stops in Spanish and English&lt;/em&gt;.
-Hispanic Linguistics Symposium. Purdue University, West Lafayette, IN., Nov. 2014.&lt;/cite&gt;
-&lt;/p&gt;
-&lt;p&gt;
-&lt;cite&gt;Simonet, M., J. V. Casillas, and Y. Díaz.
-&lt;em&gt;The effects of stress/accent on VOT depend on language (English, Spanish), consonant (/d/, /t/) and linguistic experience (monolinguals, bilinguals)&lt;/em&gt;.
-Speech Prosody 7: Social and Linguistic Speech Prosody. Trinity College, Dublin, Ireland, May. 2014.&lt;/cite&gt;
-&lt;/p&gt;
-&lt;p&gt;
-&lt;cite&gt;Casillas, J. V. and M. Simonet.
-&lt;em&gt;English-dominant early Spanish/English bilinguals perception of English tense-lax vowel contrasts&lt;/em&gt;.
-PPLC 13: Phonetics, phonology and languages in contact: Contact varieties, multilingualism, and second language learning. Paris, Délégation Générale Wallonie-Bruxelles, Aug. 2013.&lt;/cite&gt;
-&lt;/p&gt;
+Bridging Attention and Prediction. Universitat de Barcelona, Spain.&lt;/p&gt;
+&lt;p&gt;Martínez, M. R. and J. V. Casillas (2016). &lt;em&gt;La producción
+de la vibrante múltiple en los estudiantes de español
+como lengua heredada y en los estudiantes de español como lengua
+extranjera&lt;/em&gt;. 8th Workshop on Spanish Sociolinguistics. University of
+Puerto Rico, Río Piedras, PR.&lt;/p&gt;
+&lt;p&gt;Casillas, J. V., Y. Díaz, and M. Simonet (2015). &lt;em&gt;Acoustics of
+Spanish and English coronal stops&lt;/em&gt;. Proceedings of the 18th
+International Congress of Phonetic Sciences. University of Glasgow,
+Glasgow, Scotland.&lt;/p&gt;
+&lt;p&gt;Simonet, M., J. V. Casillas, and Y. Díaz (2014). &lt;em&gt;A contrastive
+acoustic analysis of dental and alveolar stops in Spanish and English&lt;/em&gt;.
+Hispanic Linguistics Symposium. Purdue University, West Lafayette, IN.&lt;/p&gt;
+&lt;p&gt;Simonet, M., J. V. Casillas, and Y. Díaz (2014). &lt;em&gt;The effects of
+stress/accent on VOT depend on language (English, Spanish), consonant
+(/d/, /t/) and linguistic experience (monolinguals, bilinguals)&lt;/em&gt;.
+Speech Prosody 7: Social and Linguistic Speech Prosody. Trinity
+College, Dublin, Ireland.&lt;/p&gt;
+&lt;p&gt;Casillas, J. V. and M. Simonet (2013). &lt;em&gt;English-dominant early
+Spanish/English bilinguals perception of English tense-lax vowel
+contrasts&lt;/em&gt;. PPLC 13: Phonetics, phonology and languages in contact:
+Contact varieties, multilingualism, and second language learning.
+Paris, Délégation Générale
+Wallonie-Bruxelles.&lt;/p&gt;
 &lt;p&gt;&lt;/span&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;p&gt;&lt;!-- END FOURTH TAB --&gt;&lt;/p&gt;

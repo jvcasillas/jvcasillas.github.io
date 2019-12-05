@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>snippets | Joseph V. Casillas</title>
-    <link>/tags/snippets/</link>
-      <atom:link href="/tags/snippets/index.xml" rel="self" type="application/rss+xml" />
+    <link>http://jvcasillas.github.io/tags/snippets/</link>
+      <atom:link href="http://jvcasillas.github.io/tags/snippets/index.xml" rel="self" type="application/rss+xml" />
     <description>snippets</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Joseph V. Casillas © 2019 </copyright><lastBuildDate>Wed, 27 Apr 2016 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>/img/jvc2016.png</url>
+      <url>http://jvcasillas.github.io/img/jvc2016.png</url>
       <title>snippets</title>
-      <link>/tags/snippets/</link>
+      <link>http://jvcasillas.github.io/tags/snippets/</link>
     </image>
     
     <item>
       <title>R-Snippets</title>
-      <link>/project/r_snippets/</link>
+      <link>http://jvcasillas.github.io/project/r_snippets/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>/project/r_snippets/</guid>
+      <guid>http://jvcasillas.github.io/project/r_snippets/</guid>
       <description>&lt;!-- raw HTML omitted --&gt;
 &lt;!-- raw HTML omitted --&gt;
 &lt;p&gt;This repository is a collection of snippets that I use in &lt;a href=&#34;http://www.sublimetext.com&#34;&gt;SublimeText&lt;/a&gt; &lt;a href=&#34;http://www.sublimetext.com&#34;&gt;SublimeText&lt;/a&gt; for doing statistical analysis in &lt;a href=&#34;http://www.r-project.org&#34;&gt;R&lt;/a&gt;. The goal is straightforward: document the code that I use most often while doing linguistic research and make it readily available (and understandable) to other linguists. If you are interested in helping see the github &lt;a href=&#34;https://github.com/jvcasillas/R-snippets&#34;&gt;repository&lt;/a&gt;. To install R-snippets see the &lt;a href=&#34;https://sublime.wbond.net/packages/R-snippets&#34;&gt;package control&lt;/a&gt; page. To use a snippet, type the trigger and hit the tab key. For example, typing &lt;!-- raw HTML omitted --&gt;lm&lt;!-- raw HTML omitted --&gt; brings up the following window:&lt;/p&gt;

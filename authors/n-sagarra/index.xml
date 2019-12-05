@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>N Sagarra | Joseph V. Casillas</title>
-    <link>/authors/n-sagarra/</link>
-      <atom:link href="/authors/n-sagarra/index.xml" rel="self" type="application/rss+xml" />
+    <link>http://jvcasillas.github.io/authors/n-sagarra/</link>
+      <atom:link href="http://jvcasillas.github.io/authors/n-sagarra/index.xml" rel="self" type="application/rss+xml" />
     <description>N Sagarra</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Joseph V. Casillas © 2019 </copyright><lastBuildDate>Fri, 20 Jul 2018 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>/img/jvc2016.png</url>
+      <url>http://jvcasillas.github.io/img/jvc2016.png</url>
       <title>N Sagarra</title>
-      <link>/authors/n-sagarra/</link>
+      <link>http://jvcasillas.github.io/authors/n-sagarra/</link>
     </image>
     
     <item>
       <title>Suprasegmental information cues morphological anticipation during L1/L2 lexical access</title>
-      <link>/publication/sagarra_casillas_jsl_2018/</link>
+      <link>http://jvcasillas.github.io/publication/sagarra_casillas_jsl_2018/</link>
       <pubDate>Fri, 20 Jul 2018 00:00:00 +0000</pubDate>
-      <guid>/publication/sagarra_casillas_jsl_2018/</guid>
+      <guid>http://jvcasillas.github.io/publication/sagarra_casillas_jsl_2018/</guid>
       <description></description>
     </item>
     

@@ -2,53 +2,53 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>JV Casillas | Joseph V. Casillas</title>
-    <link>/authors/jv-casillas/</link>
-      <atom:link href="/authors/jv-casillas/index.xml" rel="self" type="application/rss+xml" />
+    <link>http://jvcasillas.github.io/authors/jv-casillas/</link>
+      <atom:link href="http://jvcasillas.github.io/authors/jv-casillas/index.xml" rel="self" type="application/rss+xml" />
     <description>JV Casillas</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Joseph V. Casillas © 2019 </copyright><lastBuildDate>Fri, 20 Jul 2018 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>/img/jvc2016.png</url>
+      <url>http://jvcasillas.github.io/img/jvc2016.png</url>
       <title>JV Casillas</title>
-      <link>/authors/jv-casillas/</link>
+      <link>http://jvcasillas.github.io/authors/jv-casillas/</link>
     </image>
     
     <item>
       <title>Perceptual categorization and bilingual language modes: Assessing the double phonemic boundary in early and late bilinguals</title>
-      <link>/publication/casillas_simonet_jphon_2018/</link>
+      <link>http://jvcasillas.github.io/publication/casillas_simonet_jphon_2018/</link>
       <pubDate>Fri, 20 Jul 2018 00:00:00 +0000</pubDate>
-      <guid>/publication/casillas_simonet_jphon_2018/</guid>
+      <guid>http://jvcasillas.github.io/publication/casillas_simonet_jphon_2018/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Suprasegmental information cues morphological anticipation during L1/L2 lexical access</title>
-      <link>/publication/sagarra_casillas_jsl_2018/</link>
+      <link>http://jvcasillas.github.io/publication/sagarra_casillas_jsl_2018/</link>
       <pubDate>Fri, 20 Jul 2018 00:00:00 +0000</pubDate>
-      <guid>/publication/sagarra_casillas_jsl_2018/</guid>
+      <guid>http://jvcasillas.github.io/publication/sagarra_casillas_jsl_2018/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Lexically driven selective adaptation by ambiguous auditory stimuli occurs after limited exposure to adaptors</title>
-      <link>/publication/llompart_casillas_jasa_2016/</link>
+      <link>http://jvcasillas.github.io/publication/llompart_casillas_jasa_2016/</link>
       <pubDate>Sun, 01 May 2016 00:00:00 +0000</pubDate>
-      <guid>/publication/llompart_casillas_jasa_2016/</guid>
+      <guid>http://jvcasillas.github.io/publication/llompart_casillas_jasa_2016/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Production and perception of the English /æ/-/ɑ/ contrast in switched-dominance speakers</title>
-      <link>/publication/casillas_simonet_slr_2016/</link>
+      <link>http://jvcasillas.github.io/publication/casillas_simonet_slr_2016/</link>
       <pubDate>Thu, 01 Oct 2015 00:00:00 +0000</pubDate>
-      <guid>/publication/casillas_simonet_slr_2016/</guid>
+      <guid>http://jvcasillas.github.io/publication/casillas_simonet_slr_2016/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Production and perception of the /i/-/ɪ/ vowel contrast: The case of L2-dominant early learners of English</title>
-      <link>/publication/casillas_phonetica_2015/</link>
+      <link>http://jvcasillas.github.io/publication/casillas_phonetica_2015/</link>
       <pubDate>Fri, 01 May 2015 00:00:00 +0000</pubDate>
-      <guid>/publication/casillas_phonetica_2015/</guid>
+      <guid>http://jvcasillas.github.io/publication/casillas_phonetica_2015/</guid>
       <description></description>
     </item>
     

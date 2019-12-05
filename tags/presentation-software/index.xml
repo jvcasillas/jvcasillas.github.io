@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>presentation software | Joseph V. Casillas</title>
-    <link>/tags/presentation-software/</link>
-      <atom:link href="/tags/presentation-software/index.xml" rel="self" type="application/rss+xml" />
+    <link>http://jvcasillas.github.io/tags/presentation-software/</link>
+      <atom:link href="http://jvcasillas.github.io/tags/presentation-software/index.xml" rel="self" type="application/rss+xml" />
     <description>presentation software</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Joseph V. Casillas © 2019 </copyright><lastBuildDate>Sun, 22 Mar 2015 21:13:14 -0500</lastBuildDate>
     <image>
-      <url>/img/jvc2016.png</url>
+      <url>http://jvcasillas.github.io/img/jvc2016.png</url>
       <title>presentation software</title>
-      <link>/tags/presentation-software/</link>
+      <link>http://jvcasillas.github.io/tags/presentation-software/</link>
     </image>
     
     <item>
       <title>Slidify tutorial</title>
-      <link>/post/2015-03-22_slidify_tutorial/</link>
+      <link>http://jvcasillas.github.io/post/2015-03-22_slidify_tutorial/</link>
       <pubDate>Sun, 22 Mar 2015 21:13:14 -0500</pubDate>
-      <guid>/post/2015-03-22_slidify_tutorial/</guid>
+      <guid>http://jvcasillas.github.io/post/2015-03-22_slidify_tutorial/</guid>
       <description>
 
 

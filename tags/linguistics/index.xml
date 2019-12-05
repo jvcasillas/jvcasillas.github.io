@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Linguistics | Joseph V. Casillas</title>
-    <link>/tags/linguistics/</link>
-      <atom:link href="/tags/linguistics/index.xml" rel="self" type="application/rss+xml" />
+    <link>http://jvcasillas.github.io/tags/linguistics/</link>
+      <atom:link href="http://jvcasillas.github.io/tags/linguistics/index.xml" rel="self" type="application/rss+xml" />
     <description>Linguistics</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Joseph V. Casillas © 2019 </copyright><lastBuildDate>Sun, 16 Sep 2018 21:13:14 -0500</lastBuildDate>
     <image>
-      <url>/img/jvc2016.png</url>
+      <url>http://jvcasillas.github.io/img/jvc2016.png</url>
       <title>Linguistics</title>
-      <link>/tags/linguistics/</link>
+      <link>http://jvcasillas.github.io/tags/linguistics/</link>
     </image>
     
     <item>
       <title>Setting up a whisper room sound booth</title>
-      <link>/post/2018-09-16_setting_up_a_whisper_room_sound_booth/</link>
+      <link>http://jvcasillas.github.io/post/2018-09-16_setting_up_a_whisper_room_sound_booth/</link>
       <pubDate>Sun, 16 Sep 2018 21:13:14 -0500</pubDate>
-      <guid>/post/2018-09-16_setting_up_a_whisper_room_sound_booth/</guid>
+      <guid>http://jvcasillas.github.io/post/2018-09-16_setting_up_a_whisper_room_sound_booth/</guid>
       <description>
 
 
@@ -152,9 +152,9 @@
     
     <item>
       <title>Justin Bieber sings in Spanish: How&#39;d he do?</title>
-      <link>/post/2017-05-15_analysis_of_justin_bieber_singing_in_spanish_-_despacito/</link>
+      <link>http://jvcasillas.github.io/post/2017-05-15_analysis_of_justin_bieber_singing_in_spanish_-_despacito/</link>
       <pubDate>Mon, 15 May 2017 21:13:14 -0500</pubDate>
-      <guid>/post/2017-05-15_analysis_of_justin_bieber_singing_in_spanish_-_despacito/</guid>
+      <guid>http://jvcasillas.github.io/post/2017-05-15_analysis_of_justin_bieber_singing_in_spanish_-_despacito/</guid>
       <description>
 
 
@@ -339,17 +339,17 @@ grey {
     
     <item>
       <title>Crossover</title>
-      <link>/project/shiny_crossover/</link>
+      <link>http://jvcasillas.github.io/project/shiny_crossover/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>/project/shiny_crossover/</guid>
+      <guid>http://jvcasillas.github.io/project/shiny_crossover/</guid>
       <description></description>
     </item>
     
     <item>
       <title>LaTeX IPA</title>
-      <link>/project/latex_ipa/</link>
+      <link>http://jvcasillas.github.io/project/latex_ipa/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>/project/latex_ipa/</guid>
+      <guid>http://jvcasillas.github.io/project/latex_ipa/</guid>
       <description>&lt;!-- raw HTML omitted --&gt;
 &lt;!-- raw HTML omitted --&gt;
 &lt;p&gt;I made this repository to simplify the process of using IPA in $\LaTeX$. It is merely a collection of snippets for the package &lt;a href=&#34;http://www.ctan.org/pkg/tipa&#34;&gt;TIPA&lt;/a&gt;. To install LaTeX-IPA see the &lt;a href=&#34;https://sublime.wbond.net/packages/LaTeX-IPA&#34;&gt;package control&lt;/a&gt; page.&lt;/p&gt;
@@ -384,17 +384,17 @@ Ex. vowel-tense-high-front-unrounded.sublime-snippet = [i]&lt;/li&gt;
     
     <item>
       <title>lingStuff</title>
-      <link>/project/lingstuff/</link>
+      <link>http://jvcasillas.github.io/project/lingstuff/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>/project/lingstuff/</guid>
+      <guid>http://jvcasillas.github.io/project/lingstuff/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Spanish allophones and distinctive features</title>
-      <link>/project/shiny_distinctivefeatures/</link>
+      <link>http://jvcasillas.github.io/project/shiny_distinctivefeatures/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>/project/shiny_distinctivefeatures/</guid>
+      <guid>http://jvcasillas.github.io/project/shiny_distinctivefeatures/</guid>
       <description></description>
     </item>
     
