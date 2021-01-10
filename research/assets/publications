@@ -6,11 +6,7 @@
 ### In press
 
 ```{r, results='asis', echo=FALSE, eval=TRUE}
-print(bib[key = "CasillasProdPercStops"])
-```
-
-```{r, results='asis', echo=FALSE, eval=TRUE}
-print(bib[key = "CasillasProdStops_ll2019"])
+print(bib[key = "casillas_dpbe_l2_2020"])
 ```
 
 ```{r, results='asis', echo=FALSE, eval=TRUE}
@@ -20,6 +16,18 @@ print(bib[key = "SagarraLozanoCasillas_blc2019"])
 ### Recent Publications
 
 <span class="tempTimes">
+
+```{r, child='./pub_assets/casillas_perfomance_mismatches_2021', cache=F}
+```
+
+```{r, child='./pub_assets/CasillasProdStops_ll2020', cache=F}
+```
+
+```{r, child='./pub_assets/SagarraLozanoCasillas_blc2019', cache=F, eval=F}
+```
+
+```{r, child='./pub_assets/CasillasProdPercStops', cache=F}
+```
 
 ```{r, child='./pub_assets/CasillasICPhS2019article', cache=F}
 ```

@@ -1,0 +1,26 @@
+
+```{r, results='asis', echo=FALSE, eval=TRUE}
+print(bib[key = "casillas_perfomance_mismatches_2021"])
+```
+
+<!-- START METADATA -->
+<div style="text-indent:.25em;margin-top:-1em" align="left">
+( <a alt="L2021" href="https://doi.org/10.3390/languages6010009" target='_new'><span class="showtooltip" title="Read paper">Link</span></a> |
+<button class="button mybutton" onclick="myFunction('casillas_perfomance_mismatches_2021Abstract')">Abstract</button> |
+<button class="button mybutton" onclick="myFunction('casillas_perfomance_mismatches_2021Bib')">Bib</button> )
+
+<div id="casillas_perfomance_mismatches_2021Abstract" style="display:none;margin-left:2em;text-indent:0em">
+<p class="minip">Previous studies attest that some early bilinguals produce the sounds of their languages in a manner that is characterized as “compromise” with regard to monolingual speakers. The present study uses meta-analytic techniques and coronal stop data from early bilinguals in order to assess this claim. The goal was to evaluate the cumulative evidence for “compromise” voice-onset time (VOT) in the speech of early bilinguals by providing a comprehensive assessment of the literature and presenting an acoustic analysis of coronal stops from early Spanish–English bilinguals. The studies were coded for linguistic and methodological features, as well as effect sizes, and then analyzed using a cross-classified Bayesian meta-analysis. The pooled effect for “compromise” VOT was negligible (&beta; = &minus;0.13). The acoustic analysis of the coronal stop data showed that the early Spanish–English bilinguals often produced Spanish and English targets with mismatched features from their other language. These performance mismatches presumably occurred as a result of interlingual interactions elicited by the experimental task. Taken together, the results suggest that early bilinguals do not have “compromise” VOT, though their speech involves dynamic phonetic interactions that can surface as performance mismatches during speech production.</p>
+</div>
+
+<div id="casillas_perfomance_mismatches_2021Bib" style="display:none" class="minip">
+
+```{r, echo=FALSE, comment='', eval=TRUE}
+toBiblatex(
+  bib[key = "casillas_perfomance_mismatches_2021"], 
+  .opts = list(style = "html"))
+```
+
+</div>
+</div> 
+<!-- END METADATA -->
