@@ -606,22 +606,32 @@ function myFunction(d) {
   <div class="article-container">
 
     <div class="article-style">
-      <!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
-<p>This repository is a collection of snippets that I use in <a href="http://www.sublimetext.com">SublimeText</a> <a href="http://www.sublimetext.com">SublimeText</a> for doing statistical analysis in <a href="http://www.r-project.org">R</a>. The goal is straightforward: document the code that I use most often while doing linguistic research and make it readily available (and understandable) to other linguists. If you are interested in helping see the github <a href="https://github.com/jvcasillas/R-snippets">repository</a>. To install R-snippets see the <a href="https://sublime.wbond.net/packages/R-snippets">package control</a> page. To use a snippet, type the trigger and hit the tab key. For example, typing <!-- raw HTML omitted -->lm<!-- raw HTML omitted --> brings up the following window:</p>
-<!-- raw HTML omitted -->
-<p>Selecting <code>Random slope and random intercept model</code> expands to&hellip;</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-r" data-lang="r"><span style="color:#75715e"># load lme4 for mixed models</span>
-<span style="color:#a6e22e">library</span>(lme4)
+      <iframe src="http://ghbtns.com/github-btn.html?user=jvcasillas&repo=R-snippets&type=watch&count=true&size=large" height="30" width="170" frameborder="0" scrolling="0" style="width:130px; height: 30px;" allowTransparency="true"></iframe>
+<iframe src="http://ghbtns.com/github-btn.html?user=jvcasillas&repo=R-snippets&type=fork&count=true&size=large" height="30" width="170" frameborder="0" scrolling="0" style="width:130px; height: 30px;" allowTransparency="true"></iframe>
+<iframe src="http://ghbtns.com/github-btn.html?user=jvcasillas&type=follow&count=true&size=large" height="30" width="240" frameborder="0" scrolling="0" style="width:240px; height: 30px;" allowTransparency="true"></iframe>
 
-<span style="color:#75715e"># random intercept and random slope model</span>
-modelName <span style="color:#f92672">=</span> <span style="color:#a6e22e">lmer</span>(DV <span style="color:#f92672">~</span> fixedFactor1 <span style="color:#f92672">+</span><span style="color:#f92672">*</span> fixedFactor2 <span style="color:#f92672">+</span> (<span style="color:#ae81ff">1</span> <span style="color:#f92672">+</span> randomSlope<span style="color:#f92672">|</span>randomInt), data<span style="color:#f92672">=</span>df)
+<p></p>
+
+<p>This repository is a collection of snippets that I use in <a href="http://www.sublimetext.com" target="_blank">SublimeText</a> for doing statistical analysis in <a href="http://www.r-project.org" target="_blank">R</a>. The goal is straightforward: document the code that I use most often while doing linguistic research and make it readily available (and understandable) to other linguists. If you are interested in helping see the github <a href="https://github.com/jvcasillas/R-snippets" target="_blank">repository</a>. To install R-snippets see the <a href="https://sublime.wbond.net/packages/R-snippets" target="_blank">package control</a> page. To use a snippet, type the trigger and hit the tab key. For example, typing <code>lm</code> brings up the following window:</p>
+
+<p><img id='rcorners' width="100%" src="../../../img/thumbnails/lm2.png" alt="lm image"></p>
+
+<p>Selecting <code>Random slope and random intercept model</code> expands to&hellip;</p>
+
+<pre><code class="language-r"># load lme4 for mixed models
+library(lme4)
+
+# random intercept and random slope model
+modelName = lmer(DV ~ fixedFactor1 +* fixedFactor2 + (1 + randomSlope|randomInt), data=df)
 modelName
 
-<span style="color:#a6e22e">hist</span>(<span style="color:#a6e22e">residuals</span>(modelName))
-<span style="color:#a6e22e">qqnorm</span>(<span style="color:#a6e22e">residuals</span>(modelName))
-<span style="color:#a6e22e">qqline</span>(<span style="color:#a6e22e">residuals</span>(modelName))
-</code></pre></div><p>Main triggers:</p>
+hist(residuals(modelName))
+qqnorm(residuals(modelName))
+qqline(residuals(modelName))
+</code></pre>
+
+<p>Main triggers:</p>
+
 <ul>
 <li>&ldquo;plot&rdquo;: templates for plotting in base R</li>
 <li>&ldquo;edit&rdquo;: options useful for data cleansing and saving</li>
@@ -631,14 +641,17 @@ modelName
 <li>&ldquo;lm&rdquo;: linear and logistic regression</li>
 <li>&ldquo;lmem&rdquo;: linear mixed effects models</li>
 </ul>
+
 <p>Extras:</p>
+
 <ul>
 <li>&ldquo;subset&rdquo;: make subsets of a DF</li>
 <li>&ldquo;read&rdquo;: read/load/install data/packages into R</li>
 <li>&ldquo;save&rdquo;: save plots, dfs, tables, etc.</li>
 <li>&ldquo;tikz&rdquo;: template for creating R plots in LaTeX</li>
 </ul>
-<!-- raw HTML omitted -->
+
+<!-- links -->
 
     </div>
 
@@ -1083,7 +1096,7 @@ modelName
   <div class="container">
     <footer class="site-footer">
   <p class="powered-by">
-    Joseph V. Casillas <!-- raw HTML omitted --> © 2021 <!-- raw HTML omitted -->
+    Joseph V. Casillas <br /> &copy; 2021 <br />
 
     
     <span class="center" aria-hidden="true">

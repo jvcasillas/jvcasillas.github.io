@@ -7,6 +7,13 @@
 
 <span class="tempTimes">
 
+```{r, results='asis', echo=FALSE, eval=TRUE, cache=FALSE}
+print(bib[key = "casillas_dpbe_CASPSLAP2020"])
+```
+
+```{r, results='asis', echo=FALSE, eval=TRUE, cache=FALSE}
+print(bib[key = "casillas_wise_2020"])
+```
 
 ```{r, results='asis', echo=FALSE, eval=TRUE, cache=FALSE}
 print(bib[key = "casillas_dpbe_HLS2019"])

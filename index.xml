@@ -438,34 +438,52 @@ grey {
       <link>http://jvcasillas.github.io/project/latex_ipa/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
       <guid>http://jvcasillas.github.io/project/latex_ipa/</guid>
-      <description>&lt;!-- raw HTML omitted --&gt;
-&lt;!-- raw HTML omitted --&gt;
-&lt;p&gt;I made this repository to simplify the process of using IPA in $\LaTeX$. It is merely a collection of snippets for the package &lt;a href=&#34;http://www.ctan.org/pkg/tipa&#34;&gt;TIPA&lt;/a&gt;. To install LaTeX-IPA see the &lt;a href=&#34;https://sublime.wbond.net/packages/LaTeX-IPA&#34;&gt;package control&lt;/a&gt; page.&lt;/p&gt;
+      <description>
+
+&lt;iframe src=&#34;http://ghbtns.com/github-btn.html?user=jvcasillas&amp;repo=LaTeX-IPA&amp;type=watch&amp;count=true&amp;size=large&#34; height=&#34;30&#34; width=&#34;170&#34; frameborder=&#34;0&#34; scrolling=&#34;0&#34; style=&#34;width:130px; height: 30px;&#34; allowTransparency=&#34;true&#34;&gt;&lt;/iframe&gt;
+&lt;iframe src=&#34;http://ghbtns.com/github-btn.html?user=jvcasillas&amp;repo=LaTeX-IPA&amp;type=fork&amp;count=true&amp;size=large&#34; height=&#34;30&#34; width=&#34;170&#34; frameborder=&#34;0&#34; scrolling=&#34;0&#34; style=&#34;width:130px; height: 30px;&#34; allowTransparency=&#34;true&#34;&gt;&lt;/iframe&gt;
+&lt;iframe src=&#34;http://ghbtns.com/github-btn.html?user=jvcasillas&amp;type=follow&amp;count=true&amp;size=large&#34; height=&#34;30&#34; width=&#34;240&#34; frameborder=&#34;0&#34; scrolling=&#34;0&#34; style=&#34;width:240px; height: 30px;&#34; allowTransparency=&#34;true&#34;&gt;&lt;/iframe&gt;
+
+&lt;p&gt;&lt;/p&gt;
+
+&lt;p&gt;I made this repository to simplify the process of using IPA in $\LaTeX$. It is merely a collection of snippets for the package &lt;a href=&#34;http://www.ctan.org/pkg/tipa&#34; target=&#34;_blank&#34;&gt;TIPA&lt;/a&gt;. To install LaTeX-IPA see the &lt;a href=&#34;https://sublime.wbond.net/packages/LaTeX-IPA&#34; target=&#34;_blank&#34;&gt;package control&lt;/a&gt; page.&lt;/p&gt;
+
 &lt;h3 id=&#34;file-naming&#34;&gt;File naming&lt;/h3&gt;
+
 &lt;p&gt;Consonants are labeled in the following way:&lt;/p&gt;
+
 &lt;ul&gt;
-&lt;li&gt;voicing -&amp;gt; point of articulation -&amp;gt; mode of articulation&lt;br&gt;
-Ex. voiceless-bilabial-aprox.sublime-snippet = [β]&lt;/li&gt;
+&lt;li&gt;voicing -&amp;gt; point of articulation -&amp;gt; mode of articulation&lt;br /&gt;
+Ex. voiceless-bilabial-aprox.sublime-snippet = [&amp;beta;]&lt;/li&gt;
 &lt;/ul&gt;
+
 &lt;p&gt;Vowels are labeled in the following way:&lt;/p&gt;
+
 &lt;ul&gt;
-&lt;li&gt;vowel -&amp;gt; tense/lax -&amp;gt; height -&amp;gt; frontedness -&amp;gt; rounding&lt;br&gt;
+&lt;li&gt;vowel -&amp;gt; tense/lax -&amp;gt; height -&amp;gt; frontedness -&amp;gt; rounding&lt;br /&gt;
 Ex. vowel-tense-high-front-unrounded.sublime-snippet = [i]&lt;/li&gt;
 &lt;/ul&gt;
+
 &lt;h3 id=&#34;tab-triggers&#34;&gt;Tab triggers&lt;/h3&gt;
+
 &lt;p&gt;There are 6 main groups:&lt;/p&gt;
+
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Diacritics&lt;/strong&gt;: type &amp;ldquo;diac&amp;rdquo; + tab&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Vowels&lt;/strong&gt;: type &amp;ldquo;vowel&amp;rdquo; + tab&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Diacritics&lt;/strong&gt;: type &amp;ldquo;diac&amp;rdquo; + tab&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Vowels&lt;/strong&gt;: type &amp;ldquo;vowel&amp;rdquo; + tab&lt;br /&gt;&lt;/li&gt;
 &lt;/ul&gt;
+
 &lt;p&gt;Consonants are divided into four subcategories:&lt;/p&gt;
+
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Fricatives&lt;/strong&gt; type &amp;ldquo;fric&amp;rdquo; + tab&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Affricates&lt;/strong&gt; type &amp;ldquo;affr&amp;rdquo; + tab&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Liquids&lt;/strong&gt;: type &amp;ldquo;liquid&amp;rdquo; + tab&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Fricatives&lt;/strong&gt; type &amp;ldquo;fric&amp;rdquo; + tab&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Affricates&lt;/strong&gt; type &amp;ldquo;affr&amp;rdquo; + tab&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Liquids&lt;/strong&gt;: type &amp;ldquo;liquid&amp;rdquo; + tab&lt;br /&gt;&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Nasals&lt;/strong&gt;: type &amp;ldquo;nasal&amp;rdquo; + tab&lt;/li&gt;
 &lt;/ul&gt;
+
 &lt;h3 id=&#34;notes&#34;&gt;Notes&lt;/h3&gt;
+
 &lt;p&gt;As of now (10/19/2013), I have only included the symbols that I use the most in English and Spanish. I will continue adding to the repository over time. It should be noted that the consonants do not include all categories (i.e. stops). This is because they are not represented by unsual symbols in IPA.&lt;/p&gt;
 </description>
     </item>
@@ -475,12 +493,16 @@ Ex. vowel-tense-high-front-unrounded.sublime-snippet = [i]&lt;/li&gt;
       <link>http://jvcasillas.github.io/project/lingreference/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
       <guid>http://jvcasillas.github.io/project/lingreference/</guid>
-      <description>&lt;!-- raw HTML omitted --&gt;
-&lt;!-- raw HTML omitted --&gt;
-&lt;p&gt;&lt;!-- raw HTML omitted --&gt;Follow @lingreference&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;
-&lt;!-- raw HTML omitted --&gt;
-&lt;!-- raw HTML omitted --&gt;
-&lt;p&gt;Under development. Created specifically for linguistic terminology, the &lt;a href=&#34;http://www.lingreference.org&#34;&gt;lingreference.org&lt;/a&gt; database currently contains approx. 0,000 terms, phrases and abbreviations. This dictionary is in no way intended to be exhaustive, but rather is a technical resource specializing in the fields of phonetics, phonology, syntax, and sociolinguistics. The terms included were compiled over the past several years during graduate coursework, as well as taken from journal articles, and books.&lt;/p&gt;
+      <description>&lt;iframe src=&#34;http://ghbtns.com/github-btn.html?user=lingreference&amp;repo=lingreference.github.io&amp;type=watch&amp;count=true&amp;size=large&#34; height=&#34;30&#34; width=&#34;170&#34; frameborder=&#34;0&#34; scrolling=&#34;0&#34; style=&#34;width:77px; height: 30px;&#34; allowTransparency=&#34;true&#34;&gt;&lt;/iframe&gt;
+
+&lt;iframe src=&#34;http://ghbtns.com/github-btn.html?user=lingreference&amp;repo=lingreference.github.io&amp;type=fork&amp;count=true&amp;size=large&#34; height=&#34;30&#34; width=&#34;170&#34; frameborder=&#34;0&#34; scrolling=&#34;0&#34; style=&#34;width:130px; height: 30px;&#34; allowTransparency=&#34;true&#34;&gt;&lt;/iframe&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://twitter.com/lingreference&#34; class=&#34;twitter-follow-button&#34; data-show-count=&#34;false&#34; data-size=&#34;large&#34;&gt;Follow @lingreference&lt;/a&gt;
+&lt;script&gt;!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?&amp;lsquo;http&amp;rsquo;:&amp;lsquo;https&amp;rsquo;;if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+&amp;rsquo;://platform.twitter.com/widgets.js&amp;rsquo;;fjs.parentNode.insertBefore(js,fjs);}}(document, &amp;lsquo;script&amp;rsquo;, &amp;lsquo;twitter-wjs&amp;rsquo;);&lt;/script&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;
+
+&lt;p&gt;Under development. Created specifically for linguistic terminology, the &lt;a href=&#34;http://www.lingreference.org&#34; target=&#34;_blank&#34;&gt;lingreference.org&lt;/a&gt; database currently contains approx. 0,000 terms, phrases and abbreviations. This dictionary is in no way intended to be exhaustive, but rather is a technical resource specializing in the fields of phonetics, phonology, syntax, and sociolinguistics. The terms included were compiled over the past several years during graduate coursework, as well as taken from journal articles, and books.&lt;/p&gt;
 </description>
     </item>
     
@@ -513,22 +535,32 @@ Ex. vowel-tense-high-front-unrounded.sublime-snippet = [i]&lt;/li&gt;
       <link>http://jvcasillas.github.io/project/r_snippets/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
       <guid>http://jvcasillas.github.io/project/r_snippets/</guid>
-      <description>&lt;!-- raw HTML omitted --&gt;
-&lt;!-- raw HTML omitted --&gt;
-&lt;p&gt;This repository is a collection of snippets that I use in &lt;a href=&#34;http://www.sublimetext.com&#34;&gt;SublimeText&lt;/a&gt; &lt;a href=&#34;http://www.sublimetext.com&#34;&gt;SublimeText&lt;/a&gt; for doing statistical analysis in &lt;a href=&#34;http://www.r-project.org&#34;&gt;R&lt;/a&gt;. The goal is straightforward: document the code that I use most often while doing linguistic research and make it readily available (and understandable) to other linguists. If you are interested in helping see the github &lt;a href=&#34;https://github.com/jvcasillas/R-snippets&#34;&gt;repository&lt;/a&gt;. To install R-snippets see the &lt;a href=&#34;https://sublime.wbond.net/packages/R-snippets&#34;&gt;package control&lt;/a&gt; page. To use a snippet, type the trigger and hit the tab key. For example, typing &lt;!-- raw HTML omitted --&gt;lm&lt;!-- raw HTML omitted --&gt; brings up the following window:&lt;/p&gt;
-&lt;!-- raw HTML omitted --&gt;
-&lt;p&gt;Selecting &lt;code&gt;Random slope and random intercept model&lt;/code&gt; expands to&amp;hellip;&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-r&#34; data-lang=&#34;r&#34;&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# load lme4 for mixed models&lt;/span&gt;
-&lt;span style=&#34;color:#a6e22e&#34;&gt;library&lt;/span&gt;(lme4)
+      <description>&lt;iframe src=&#34;http://ghbtns.com/github-btn.html?user=jvcasillas&amp;repo=R-snippets&amp;type=watch&amp;count=true&amp;size=large&#34; height=&#34;30&#34; width=&#34;170&#34; frameborder=&#34;0&#34; scrolling=&#34;0&#34; style=&#34;width:130px; height: 30px;&#34; allowTransparency=&#34;true&#34;&gt;&lt;/iframe&gt;
+&lt;iframe src=&#34;http://ghbtns.com/github-btn.html?user=jvcasillas&amp;repo=R-snippets&amp;type=fork&amp;count=true&amp;size=large&#34; height=&#34;30&#34; width=&#34;170&#34; frameborder=&#34;0&#34; scrolling=&#34;0&#34; style=&#34;width:130px; height: 30px;&#34; allowTransparency=&#34;true&#34;&gt;&lt;/iframe&gt;
+&lt;iframe src=&#34;http://ghbtns.com/github-btn.html?user=jvcasillas&amp;type=follow&amp;count=true&amp;size=large&#34; height=&#34;30&#34; width=&#34;240&#34; frameborder=&#34;0&#34; scrolling=&#34;0&#34; style=&#34;width:240px; height: 30px;&#34; allowTransparency=&#34;true&#34;&gt;&lt;/iframe&gt;
 
-&lt;span style=&#34;color:#75715e&#34;&gt;# random intercept and random slope model&lt;/span&gt;
-modelName &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;lmer&lt;/span&gt;(DV &lt;span style=&#34;color:#f92672&#34;&gt;~&lt;/span&gt; fixedFactor1 &lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;*&lt;/span&gt; fixedFactor2 &lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt; (&lt;span style=&#34;color:#ae81ff&#34;&gt;1&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt; randomSlope&lt;span style=&#34;color:#f92672&#34;&gt;|&lt;/span&gt;randomInt), data&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;df)
+&lt;p&gt;&lt;/p&gt;
+
+&lt;p&gt;This repository is a collection of snippets that I use in &lt;a href=&#34;http://www.sublimetext.com&#34; target=&#34;_blank&#34;&gt;SublimeText&lt;/a&gt; for doing statistical analysis in &lt;a href=&#34;http://www.r-project.org&#34; target=&#34;_blank&#34;&gt;R&lt;/a&gt;. The goal is straightforward: document the code that I use most often while doing linguistic research and make it readily available (and understandable) to other linguists. If you are interested in helping see the github &lt;a href=&#34;https://github.com/jvcasillas/R-snippets&#34; target=&#34;_blank&#34;&gt;repository&lt;/a&gt;. To install R-snippets see the &lt;a href=&#34;https://sublime.wbond.net/packages/R-snippets&#34; target=&#34;_blank&#34;&gt;package control&lt;/a&gt; page. To use a snippet, type the trigger and hit the tab key. For example, typing &lt;code&gt;lm&lt;/code&gt; brings up the following window:&lt;/p&gt;
+
+&lt;p&gt;&lt;img id=&#39;rcorners&#39; width=&#34;100%&#34; src=&#34;../../../img/thumbnails/lm2.png&#34; alt=&#34;lm image&#34;&gt;&lt;/p&gt;
+
+&lt;p&gt;Selecting &lt;code&gt;Random slope and random intercept model&lt;/code&gt; expands to&amp;hellip;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;# load lme4 for mixed models
+library(lme4)
+
+# random intercept and random slope model
+modelName = lmer(DV ~ fixedFactor1 +* fixedFactor2 + (1 + randomSlope|randomInt), data=df)
 modelName
 
-&lt;span style=&#34;color:#a6e22e&#34;&gt;hist&lt;/span&gt;(&lt;span style=&#34;color:#a6e22e&#34;&gt;residuals&lt;/span&gt;(modelName))
-&lt;span style=&#34;color:#a6e22e&#34;&gt;qqnorm&lt;/span&gt;(&lt;span style=&#34;color:#a6e22e&#34;&gt;residuals&lt;/span&gt;(modelName))
-&lt;span style=&#34;color:#a6e22e&#34;&gt;qqline&lt;/span&gt;(&lt;span style=&#34;color:#a6e22e&#34;&gt;residuals&lt;/span&gt;(modelName))
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Main triggers:&lt;/p&gt;
+hist(residuals(modelName))
+qqnorm(residuals(modelName))
+qqline(residuals(modelName))
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Main triggers:&lt;/p&gt;
+
 &lt;ul&gt;
 &lt;li&gt;&amp;ldquo;plot&amp;rdquo;: templates for plotting in base R&lt;/li&gt;
 &lt;li&gt;&amp;ldquo;edit&amp;rdquo;: options useful for data cleansing and saving&lt;/li&gt;
@@ -538,14 +570,17 @@ modelName
 &lt;li&gt;&amp;ldquo;lm&amp;rdquo;: linear and logistic regression&lt;/li&gt;
 &lt;li&gt;&amp;ldquo;lmem&amp;rdquo;: linear mixed effects models&lt;/li&gt;
 &lt;/ul&gt;
+
 &lt;p&gt;Extras:&lt;/p&gt;
+
 &lt;ul&gt;
 &lt;li&gt;&amp;ldquo;subset&amp;rdquo;: make subsets of a DF&lt;/li&gt;
 &lt;li&gt;&amp;ldquo;read&amp;rdquo;: read/load/install data/packages into R&lt;/li&gt;
 &lt;li&gt;&amp;ldquo;save&amp;rdquo;: save plots, dfs, tables, etc.&lt;/li&gt;
 &lt;li&gt;&amp;ldquo;tikz&amp;rdquo;: template for creating R plots in LaTeX&lt;/li&gt;
 &lt;/ul&gt;
-&lt;!-- raw HTML omitted --&gt;
+
+&lt;!-- links --&gt;
 </description>
     </item>
     

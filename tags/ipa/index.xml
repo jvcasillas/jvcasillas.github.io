@@ -17,34 +17,52 @@
       <link>http://jvcasillas.github.io/project/latex_ipa/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
       <guid>http://jvcasillas.github.io/project/latex_ipa/</guid>
-      <description>&lt;!-- raw HTML omitted --&gt;
-&lt;!-- raw HTML omitted --&gt;
-&lt;p&gt;I made this repository to simplify the process of using IPA in $\LaTeX$. It is merely a collection of snippets for the package &lt;a href=&#34;http://www.ctan.org/pkg/tipa&#34;&gt;TIPA&lt;/a&gt;. To install LaTeX-IPA see the &lt;a href=&#34;https://sublime.wbond.net/packages/LaTeX-IPA&#34;&gt;package control&lt;/a&gt; page.&lt;/p&gt;
+      <description>
+
+&lt;iframe src=&#34;http://ghbtns.com/github-btn.html?user=jvcasillas&amp;repo=LaTeX-IPA&amp;type=watch&amp;count=true&amp;size=large&#34; height=&#34;30&#34; width=&#34;170&#34; frameborder=&#34;0&#34; scrolling=&#34;0&#34; style=&#34;width:130px; height: 30px;&#34; allowTransparency=&#34;true&#34;&gt;&lt;/iframe&gt;
+&lt;iframe src=&#34;http://ghbtns.com/github-btn.html?user=jvcasillas&amp;repo=LaTeX-IPA&amp;type=fork&amp;count=true&amp;size=large&#34; height=&#34;30&#34; width=&#34;170&#34; frameborder=&#34;0&#34; scrolling=&#34;0&#34; style=&#34;width:130px; height: 30px;&#34; allowTransparency=&#34;true&#34;&gt;&lt;/iframe&gt;
+&lt;iframe src=&#34;http://ghbtns.com/github-btn.html?user=jvcasillas&amp;type=follow&amp;count=true&amp;size=large&#34; height=&#34;30&#34; width=&#34;240&#34; frameborder=&#34;0&#34; scrolling=&#34;0&#34; style=&#34;width:240px; height: 30px;&#34; allowTransparency=&#34;true&#34;&gt;&lt;/iframe&gt;
+
+&lt;p&gt;&lt;/p&gt;
+
+&lt;p&gt;I made this repository to simplify the process of using IPA in $\LaTeX$. It is merely a collection of snippets for the package &lt;a href=&#34;http://www.ctan.org/pkg/tipa&#34; target=&#34;_blank&#34;&gt;TIPA&lt;/a&gt;. To install LaTeX-IPA see the &lt;a href=&#34;https://sublime.wbond.net/packages/LaTeX-IPA&#34; target=&#34;_blank&#34;&gt;package control&lt;/a&gt; page.&lt;/p&gt;
+
 &lt;h3 id=&#34;file-naming&#34;&gt;File naming&lt;/h3&gt;
+
 &lt;p&gt;Consonants are labeled in the following way:&lt;/p&gt;
+
 &lt;ul&gt;
-&lt;li&gt;voicing -&amp;gt; point of articulation -&amp;gt; mode of articulation&lt;br&gt;
-Ex. voiceless-bilabial-aprox.sublime-snippet = [β]&lt;/li&gt;
+&lt;li&gt;voicing -&amp;gt; point of articulation -&amp;gt; mode of articulation&lt;br /&gt;
+Ex. voiceless-bilabial-aprox.sublime-snippet = [&amp;beta;]&lt;/li&gt;
 &lt;/ul&gt;
+
 &lt;p&gt;Vowels are labeled in the following way:&lt;/p&gt;
+
 &lt;ul&gt;
-&lt;li&gt;vowel -&amp;gt; tense/lax -&amp;gt; height -&amp;gt; frontedness -&amp;gt; rounding&lt;br&gt;
+&lt;li&gt;vowel -&amp;gt; tense/lax -&amp;gt; height -&amp;gt; frontedness -&amp;gt; rounding&lt;br /&gt;
 Ex. vowel-tense-high-front-unrounded.sublime-snippet = [i]&lt;/li&gt;
 &lt;/ul&gt;
+
 &lt;h3 id=&#34;tab-triggers&#34;&gt;Tab triggers&lt;/h3&gt;
+
 &lt;p&gt;There are 6 main groups:&lt;/p&gt;
+
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Diacritics&lt;/strong&gt;: type &amp;ldquo;diac&amp;rdquo; + tab&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Vowels&lt;/strong&gt;: type &amp;ldquo;vowel&amp;rdquo; + tab&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Diacritics&lt;/strong&gt;: type &amp;ldquo;diac&amp;rdquo; + tab&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Vowels&lt;/strong&gt;: type &amp;ldquo;vowel&amp;rdquo; + tab&lt;br /&gt;&lt;/li&gt;
 &lt;/ul&gt;
+
 &lt;p&gt;Consonants are divided into four subcategories:&lt;/p&gt;
+
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Fricatives&lt;/strong&gt; type &amp;ldquo;fric&amp;rdquo; + tab&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Affricates&lt;/strong&gt; type &amp;ldquo;affr&amp;rdquo; + tab&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Liquids&lt;/strong&gt;: type &amp;ldquo;liquid&amp;rdquo; + tab&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Fricatives&lt;/strong&gt; type &amp;ldquo;fric&amp;rdquo; + tab&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Affricates&lt;/strong&gt; type &amp;ldquo;affr&amp;rdquo; + tab&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Liquids&lt;/strong&gt;: type &amp;ldquo;liquid&amp;rdquo; + tab&lt;br /&gt;&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Nasals&lt;/strong&gt;: type &amp;ldquo;nasal&amp;rdquo; + tab&lt;/li&gt;
 &lt;/ul&gt;
+
 &lt;h3 id=&#34;notes&#34;&gt;Notes&lt;/h3&gt;
+
 &lt;p&gt;As of now (10/19/2013), I have only included the symbols that I use the most in English and Spanish. I will continue adding to the repository over time. It should be noted that the consonants do not include all categories (i.e. stops). This is because they are not represented by unsual symbols in IPA.&lt;/p&gt;
 </description>
     </item>
