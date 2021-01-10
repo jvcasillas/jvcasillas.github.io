@@ -77,7 +77,7 @@ print(bib[key = "SagarraLozanoCasillas_blc2019"])
 
 ```{r, results='asis', echo=FALSE, eval=TRUE}
 
-print(bib[key = "casillas_dpbe_l2_2019"])
+print(bib[key = "jimenez_casillas_trans_processing_2021"])
 
 ```
 
