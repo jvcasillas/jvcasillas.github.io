@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0">
+  <channel>
+    <title>JVC</title>
+    <link>https://www.jvcasillas.com</link>
+    <atom:link href="https://www.jvcasillas.com/blog.xml" rel="self" type="application/rss+xml"/>
+    <description>Joseph Casillas' academic website/blog.
+</description>
+    <image>
+      <title>JVC</title>
+      <url>https://www.jvcasillas.com/images/brain_small.png</url>
+      <link>https://www.jvcasillas.com</link>
+    </image>
+    <generator>Distill</generator>
+    <lastBuildDate>Sun, 16 Sep 2018 00:00:00 +0000</lastBuildDate>
+    <item>
+      <title>Setting up a whisper room sound booth</title>
+      <dc:creator>Joseph V. Casillas</dc:creator>
+      <link>https://www.jvcasillas.com/posts/2018-09-16_setting_up_a_whisper_room_sound_booth</link>
+      <description>It is harder than it looks.</description>
+      <guid>https://www.jvcasillas.com/posts/2018-09-16_setting_up_a_whisper_room_sound_booth</guid>
+      <pubDate>Sun, 16 Sep 2018 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Justin Bieber sings in Spanish: How'd he do?</title>
+      <dc:creator>Joseph V. Casillas</dc:creator>
+      <link>https://www.jvcasillas.com/posts/2017-05-15_analysis_of_justin_bieber_singing_in_spanish_-_despacito</link>
+      <description>The title really says it all.</description>
+      <category>phonetics</category>
+      <category>stops</category>
+      <category>vot</category>
+      <guid>https://www.jvcasillas.com/posts/2017-05-15_analysis_of_justin_bieber_singing_in_spanish_-_despacito</guid>
+      <pubDate>Mon, 15 May 2017 00:00:00 +0000</pubDate>
+      <media:content url="http://media2.giphy.com/media/vVj7DgouGmmqI/giphy.gif" medium="image" type="image/gif"/>
+    </item>
+    <item>
+      <title>tidyr tutorial</title>
+      <dc:creator>Joseph V. Casillas</dc:creator>
+      <link>https://www.jvcasillas.com/posts/2015-06-22_tidyr_tutorial</link>
+      <description>Tutorial showing the functionality of the tidyr package for data wrangling.</description>
+      <category>r</category>
+      <category>tidyverse</category>
+      <category>data</category>
+      <guid>https://www.jvcasillas.com/posts/2015-06-22_tidyr_tutorial</guid>
+      <pubDate>Mon, 22 Jun 2015 00:00:00 +0000</pubDate>
+      <media:content url="https://www.jvcasillas.com/posts/2015-06-22_tidyr_tutorial/tidyr.png" medium="image" type="image/png" width="2206" height="2547"/>
+    </item>
+    <item>
+      <title>How to scrape data from Google Sheets in R</title>
+      <dc:creator>Joseph V. Casillas</dc:creator>
+      <link>https://www.jvcasillas.com/posts/2015-06-16_google_sheets_in_r</link>
+      <description>How to get data from a google sheet into R.</description>
+      <category>r</category>
+      <category>research</category>
+      <guid>https://www.jvcasillas.com/posts/2015-06-16_google_sheets_in_r</guid>
+      <pubDate>Tue, 16 Jun 2015 00:00:00 +0000</pubDate>
+      <media:content url="https://www.jvcasillas.com/posts/2015-06-16_google_sheets_in_r/assets/img/data.png" medium="image" type="image/png" width="967" height="1575"/>
+    </item>
+    <item>
+      <title>Data pipelines in R</title>
+      <dc:creator>Joseph V. Casillas</dc:creator>
+      <link>https://www.jvcasillas.com/posts/2015-05-18_data_pipelines</link>
+      <description>What button do I press to learn the truth?</description>
+      <category>r</category>
+      <category>research</category>
+      <category>workflow</category>
+      <guid>https://www.jvcasillas.com/posts/2015-05-18_data_pipelines</guid>
+      <pubDate>Mon, 18 May 2015 00:00:00 +0000</pubDate>
+      <media:content url="https://www.jvcasillas.com/posts/2015-05-18_data_pipelines/assets/img/pipeline1.png" medium="image" type="image/png" width="16298" height="3862"/>
+    </item>
+  </channel>
+</rss>

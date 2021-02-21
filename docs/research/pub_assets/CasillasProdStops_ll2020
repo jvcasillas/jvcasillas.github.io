@@ -1,0 +1,26 @@
+
+```{r, results='asis', echo=FALSE, eval=TRUE}
+print(bib[key = "CasillasProdStops_ll2020"])
+```
+
+<!-- START METADATA -->
+<div style="text-indent:.25em;margin-top:-1em" align="left">
+( <a alt="LL2020" href="https://doi.org/10.1111/lang.12392" target='_new'><span class="showtooltip" title="Read paper">Link</span></a> |
+<button class="button mybutton" onclick="myFunction('CasillasProdStops_ll2020Abstract')">Abstract</button> |
+<button class="button mybutton" onclick="myFunction('CasillasProdStops_ll2020Bib')">Bib</button> )
+
+<div id="CasillasProdStops_ll2020Abstract" style="display:none;margin-left:2em;text-indent:0em">
+<p class="minip">This study explored the initial stages of adult second language (L2) learning with a special focus on the acquisition of the target language sound system. The aim was to analyze the longitudinal development of Spanish stop voicing contrasts in an immersion learning context. Native English‐speaking late learners of Spanish provided production data for Spanish stops on a weekly basis throughout a domestic immersion program. The data were analyzed using Bayesian multilevel models and generalized additive mixed models. The analyses revealed phonetic learning in voiced stops over the course of the immersion program, though learners’ production was inconsistent and did not fall within native ranges for most stop segments. The results suggest that L2 phonetic category formation can occur at an early stage of development and follows a nonlinear trajectory that is subject to individual and segment‐specific variability. Furthermore, L2 phonetic representations are unstable during the early stages of learning.</p>
+</div>
+
+<div id="CasillasProdStops_ll2020Bib" style="display:none" class="minip">
+
+```{r, echo=FALSE, comment='', eval=TRUE}
+toBiblatex(
+  bib[key = "CasillasProdStops_ll2020"], 
+  .opts = list(style = "html"))
+```
+
+</div>
+</div> 
+<!-- END METADATA -->

@@ -1,0 +1,297 @@
+[
+  {
+    "path": "posts/2018-09-16_setting_up_a_whisper_room_sound_booth/",
+    "title": "Setting up a whisper room sound booth",
+    "description": "It is harder than it looks.",
+    "author": [
+      {
+        "name": "Joseph V. Casillas",
+        "url": "https://www.jvcasillas.com"
+      }
+    ],
+    "date": "2018-09-16",
+    "categories": [],
+    "contents": "\n\n\n\nPackaging\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPrevious\n\n\n\nNext\n\n\n\nAssembly\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPrevious\n\n\n\nNext\n\n\n\nAftermath\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPrevious\n\n\n\nNext\n\n\n\nWalkthrough\n\n\n\n\n\n\n\n\n\n\nPrevious\n\n\n\nNext\n\n\n\n\n\n\n\n",
+    "preview": {},
+    "last_modified": "2021-02-20T16:36:51-05:00",
+    "input_file": {}
+  },
+  {
+    "path": "posts/2017-05-15_analysis_of_justin_bieber_singing_in_spanish_-_despacito/",
+    "title": "Justin Bieber sings in Spanish: How'd he do?",
+    "description": "The title really says it all.",
+    "author": [
+      {
+        "name": "Joseph V. Casillas",
+        "url": "https://www.jvcasillas.com"
+      }
+    ],
+    "date": "2017-05-15",
+    "categories": [
+      "phonetics",
+      "stops",
+      "vot"
+    ],
+    "contents": "\nTL;DR\n\n\n\nIn the remixed version of the song “despacito”, Justin Bieber sings in Spanish. Some articles online criticize his pronunciation. I analyzed his realization of “p” and “t” in Praat and find that, while his pronunciation is not perfect, it is pretty good. I don’t believe he commits the “errors” suggested in the article.\nOverview\nI recently heard the song despacito featuring teen hero Justin Bieber (my wife mentioned to me that he sings in Spanish and my curiosity got the best of me). I distinctly remember being rather impressed by how well he sang in Spanish, so I was surprised when I saw this article pop up in my facebook feed. Basically, J Balvin and Nicky Jam (I have no idea who these guys are) make fun of J Biebs accent. Specifically, they harp on his pronunciation of the title of the song, suggesting the /t/ in the diminutive form of “despacio” (slow) is realized as [ɹ]. In fact, they sing it a few times [des.pa.si.ɹo] (des-pa-see-row, if you aren’t familiar with IPA) and, in jest, claim at one point that he sings ‘dorito’ [ðo.ɹi.ɾo]. You can watch this specific part here:\n\n\n\n\n\n\nNow, this type of non-native pronunciation actually makes a lot of sense, at least I think the ‘dorito’ comment does. In American and Canadian English an intervocalic “t” (and “d”) is usually pronounced as a flap, which in essence corresponds with Spanish “r” in the same position (note: it has to be in the same position, otherwise it would pronounced as a trill). This leads to all kinds of difficulties for learners of Spanish because they have to avoid a phonological process of their native language. For example, a common mispronunciation of the Spanish word “todo” (all) is [to.ɾo], which actually means “toro” (bull). That is, English speakers (mis)pronounce the intervocalic /d/ as a flap, which is most perceptually similar to Spanish “r”. On the other hand, when they try to pronounce “toro”, the “r” is realized as the English rhotic [ɹ].\nThus, if Bieber were pronouncing /ito/ as most native English speakers do, as a flap, it would be perceived as a Spanish “r” (the flap, not the trill). However, there is no real explanation for why he would pronounce it with an English rhotic ([ɹ]) as J Balvin and Nicky Jam claim. I personally did not hear this pronunciation, so I assume they were just teasing the teenage heart throb. Nonetheless, I noticed a lot of comments in the article were also making fun of his pronunciation, so I decided I would take a look in praat to determine if I am going crazy or if the internet is just full of haters. Here is an example of what we will look at:\n\n\n\nYour browser does not support the audio element. \n\nThe analysis\nI downloaded the music video from youtube and converted the .mp4 file to .m4a, and then to .wav. In praat I converted the .wav from stereo to mono. Justin sings the chorus as well as some of the verses. I’m just going to look at the chorus because the verses are accompanied by Daddy Yankee and/or Luis Fonsi. Luckily, pretty much every time he says “despacito” in the chorus there is silence, so we can use that for our analysis. I am going to focus on how he pronounces the stop /t/ (though I did get formant frequency measurements for all the vowels… maybe for another post). This only leaves us with about 5 useful tokens, but there are also a good amount of /p/’s that we can compare them with. Here is arguably the best token:\n\n\n\nIt’s clear—at least to me—that Justin is not producing an English rhotic where he should be producing [t]. In other words, he is not saying des-pa-see-row. How do I know? Well, if we zoom in on the final /ito/, we notice two things: 1) there is clearly a closure and 2) there is a burst. These are characteristics of a stop consonant. Now, you might be thinking “Yeah, but a flap looks pretty similar in a spectrogram” and you wouldn’t be wrong, but the clear difference here is that after the release there is a short gap before the voicing of the final /o/. This short gap is called voice-onset time (VOT). Stops have VOT; flaps do not. Here is a close up:\n\n\n\nNow a characteristic of English voiceless stops (“p”, “t”, “k”) is that in word initial position they are produced with aspiration and have long-lag VOT, usually around 60 ms. We refer to them in IPA with: [ph, th, kh]. Voiceless stops are different in Spanish, as they are not aspirated and have short-lag VOT, usually from 0 to 25 ms. The “ito” of “despacito” is word internal, thus, in theory, for an English speaker it should not be aspirated because it is normally realized as a flap, though in emphatic speech it could be realized as [th]. Hopefully I have already convinced you that Biebs is not flapping. So our next question is: what kind of VOT do his stops have? If they are short-lag, we can conclude that they are more Spanish-like. If, on the other hand, they are aspirated, then they would be more English-like. So let’s take a look!\nI measured VOT of every p and t every time Justin sings “despacito”. First, let’s load some packages we will need.\n\n\nlibrary(lingStuff)\nlibrary(tidyverse)\n\n\n\nNow we can load the data and check the structure.\n\n\n# Load data\nbieber_vot <- read_csv(\"./assets/data/despacito.csv\")\n\n\n\n\n\n\n\n\n# Check structure of dataframe\nbieber_vot %>%\n  select(., prefix, votP, votT) %>%\n  gather(., key = phon, value = vot, -prefix) %>%\n  str(.)\n\n\ntibble [10 × 3] (S3: tbl_df/tbl/data.frame)\n $ prefix: chr [1:10] \"despacito\" \"despacito1\" \"despacito2\" \"despacito3\" ...\n $ phon  : chr [1:10] \"votP\" \"votP\" \"votP\" \"votP\" ...\n $ vot   : num [1:10] 23.3 19.2 19 19.4 15.6 ...\n\nLooks good. Let’s plot the VOT of the p’s and t’s and see how they look. I’ve set the x-limit to range from 0 to 60.\n\n\n# Plot vot as a function of phon\nbieber_vot %>%\n  select(., prefix, votP, votT) %>%\n  gather(., key = phon, value = vot, -prefix) %>%\n  ggplot(., aes(x = phon, y = vot, color = phon)) + \n    stat_summary(fun.data = 'mean_cl_boot', geom = 'pointrange', size = 1.1) +\n    stat_summary(fun.y = 'mean', geom = 'point', color = 'darkred', size = 2.75) +\n    ylim(0, 60) + ylab(\"VOT (ms)\") + xlab(\"\") + \n    scale_x_discrete(labels = c('/p/', '/t/')) + \n    coord_flip() + \n    scale_color_brewer(name = '', guide = F) + \n    theme_dark(base_size = 22, base_family = \"Times\")\n\n\n\n\n\n\n\nRecall that an English-like VOT would be around 60 ms (but could range from around 40 to over 100!). We can see that the p’s have a VOT of approximately 20 ms (19.29 ms ± 2.72 sd, to be exact), and the t’s have a VOT of around 25 ms (23.1 ms ± 7.39 sd). Both are certainly within range of native Spanish pronunciations.\nInterim conclusion: the internet is full of haters.\n\nNot so fast…\nThere is one last thing to keep in mind before we give JBiebs a pass on his Spanish and it’s an important one. Spanish /t/ and English /t/ are articulated at different places in the mouth. Specifically, Spanish /t/ is dental and English /t/ is alveolar. What this means is that when an English speaker pronounces a word with a “t” in Spanish, like ‘despacito’, she also needs to change the place of articulation, i.e. the tongue needs to make contact with the back of the top teeth, and not the hard ridge right above them. When we looked at VOT in the present analysis we didn’t take this difference into account. My personal opinion is that el señorito does a pretty good job, but if you listen closely to the very last ‘despacito’ in the song, it does sound rather alveolar, i.e. gringo-y.\nConclusion: the internet is full of haters.\n\n\nblue {\n    color: #0000CC;\n    font-weight: normal;\n    font-size: 20px;\n}\n\ngrey {\n    color: #515151;\n    font-size: 22px;\n    font-weight: normal;\n}\n\n.video-container {\n    position: relative;\n    padding-bottom: 50%;\n    padding-top: 35px;\n    height: 0;\n    overflow: hidden;\n    width: 70%;\n}\n\n.video-container iframe {\n    position: center;\n    top:0;\n    left: 0;\n    width: 100%;\n    height: 100%;\n}\n\n\n\n\n",
+    "preview": "http://media2.giphy.com/media/vVj7DgouGmmqI/giphy.gif",
+    "last_modified": "2021-02-20T23:34:57-05:00",
+    "input_file": {}
+  },
+  {
+    "path": "posts/2015-06-22_tidyr_tutorial/",
+    "title": "tidyr tutorial",
+    "description": "Tutorial showing the functionality of the tidyr package for data wrangling.",
+    "author": [
+      {
+        "name": "Joseph V. Casillas",
+        "url": "https://www.jvcasillas.com"
+      }
+    ],
+    "date": "2015-06-22",
+    "categories": [
+      "r",
+      "tidyverse",
+      "data"
+    ],
+    "contents": "\n\n\n\n\n\n\n",
+    "preview": "posts/2015-06-22_tidyr_tutorial/tidyr.png",
+    "last_modified": "2021-02-20T23:38:09-05:00",
+    "input_file": {},
+    "preview_width": 2206,
+    "preview_height": 2547
+  },
+  {
+    "path": "posts/2015-06-16_google_sheets_in_r/",
+    "title": "How to scrape data from Google Sheets in R",
+    "description": "How to get data from a google sheet into R.",
+    "author": [
+      {
+        "name": "Joseph V. Casillas",
+        "url": "https://www.jvcasillas.com"
+      }
+    ],
+    "date": "2015-06-16",
+    "categories": [
+      "r",
+      "research"
+    ],
+    "contents": "\nGoogle Forms offers a convenient way to collect data online. It is particularly useful because you can embed the form in a webpage, link the results with a spreadsheet and publish the results online. This post shows how to scrape the data from the spreadsheet (google form) in r using the package RCurl. You should be able to follow along by copying and pasting the code into an R session.\nIdeally you can use this method once you have collected data using a google form. For our purposes I just created a google sheet and I will scrape the data from there.\nGet some data\nTo show how this works, I simulated some data with the following code:\n\n\n# create fake data\n# to save in google sheet\n\nset.seed(1)\ndf <- data.frame(\n  subj = 1:30, \n  group = gl(2, 15, labels = c(\"mono\", \"bi\")), \n  score = c(rnorm(15, 87, 8), rnorm(15, 94, 3))\n  )\n\n\n\nI then copy and pasted the data frame into a google sheet. To do this, open google drive and create a new sheet.\n\n\n\nOnce you have some data in a sheet you need to do a few things before you are ready to fire up R.\nFirst, you need to publish your sheet to the web (File > Publish to the web…):\n\nPublish the sheet and copy the public link from the window.\n\nAs you can see, my link is:\nhttps://docs.google.com/spreadsheets/d/1AqS_DAThPUJuS2L2E-S5X7fM1kpIdhXQdBDZUyt-bWM/pubhtml\nCopy your link and save it somewhere. We will need it in just a second.\nNow we’re ready for R. Here are the packages I used:\n\n\n# load libraries\n\nlibrary(dplyr)\nlibrary(tidyr)\nlibrary(RCurl)\nlibrary(ggplot2)\nlibrary(DT)\nlibrary(pander)\n\n\n\n\nScrape\nWe will use the RCurl package to scrape the data. The command we need is getForm(). The first arguement represents the URI to which the form is posted. You can just use the one shown below for a google sheet. The important part here is the key arguement. You need to copy it from the link you saved above. The key can be found in the last part of the link. Here is my link again:\n\nhttps://docs.google.com/spreadsheets/d/1AqS_DAThPUJuS2L2E-S5X7fM1kpIdhXQdBDZUyt-bWM/pubhtml\n\nSpecifically we want:\n1AqS_DAThPUJuS2L2E-S5X7fM1kpIdhXQdBDZUyt-bWM\nTherefore we can delete https://docs.google.com/spreadsheets/d/ from the beginning, as well as /pubhtml from the end. Check the key arguement below. Finally, we use the read.csv() command to import the data.\n\n\n# scrape data\n\nsheet = getForm(\"https://spreadsheets.google.com/spreadsheet/pub\", \n                hl =\"en_US\", \n                key = \"1AqS_DAThPUJuS2L2E-S5X7fM1kpIdhXQdBDZUyt-bWM\", \n                output = \"csv\", \n                .opts = list(followlocation = TRUE, \n                             verbose = TRUE, \n                             ssl.verifypeer = FALSE)) \n\ndf <- read.csv(textConnection(sheet))\n\n\n\nLet’s see if it worked…\n\n\npandoc.table(df, style = \"rmarkdown\", round = 2)\n\n\n\nsubj\ngroup\nscore\n1\nmono\n81.99\n2\nmono\n88.47\n3\nmono\n80.31\n4\nmono\n99.76\n5\nmono\n89.64\n6\nmono\n80.44\n7\nmono\n90.9\n8\nmono\n92.91\n9\nmono\n91.61\n10\nmono\n84.56\n11\nmono\n99.09\n12\nmono\n90.12\n13\nmono\n82.03\n14\nmono\n69.28\n15\nmono\n96\n16\nbi\n93.87\n17\nbi\n93.95\n18\nbi\n96.83\n19\nbi\n96.46\n20\nbi\n95.78\n21\nbi\n96.76\n22\nbi\n96.35\n23\nbi\n94.22\n24\nbi\n88.03\n25\nbi\n95.86\n26\nbi\n93.83\n27\nbi\n93.53\n28\nbi\n89.59\n29\nbi\n92.57\n30\nbi\n95.25\nLooks good. Now we can visualize and analyze the data.\n\n\ndf %>%\n  ggplot(., aes(x = as.numeric(group), y = score)) +\n  scale_x_discrete(limits = c(2, 1), labels = c(\"Bilingual\", \"Monolingual\")) +\n  geom_jitter() +\n  geom_point() +\n  geom_smooth(method = \"lm\") + \n  labs(x = \"Group\", y = \"Score\")\n\n\n\n\nAnd that’s it.\n\n\n\n",
+    "preview": "posts/2015-06-16_google_sheets_in_r/assets/img/data.png",
+    "last_modified": "2021-02-20T23:45:42-05:00",
+    "input_file": {},
+    "preview_width": 967,
+    "preview_height": 1575
+  },
+  {
+    "path": "posts/2015-05-18_data_pipelines/",
+    "title": "Data pipelines in R",
+    "description": "What button do I press to learn the truth?",
+    "author": [
+      {
+        "name": "Joseph V. Casillas",
+        "url": "https://www.jvcasillas.com"
+      }
+    ],
+    "date": "2015-05-18",
+    "categories": [
+      "r",
+      "research",
+      "workflow"
+    ],
+    "contents": "\nOverview\nSo you thought up a clever experiment, got IRB approval, recruited participants and collected data… now what? New researchers are often confronted with an unfortunate surprise when it comes time to perform some kind of analysis on their data: they don’t know how, or even where to start. This can be a problem for something trivial, like obtaining simple descriptive statistics, or something much more complex, like fitting models, creating plots and making predictions. When we conduct experiments we don’t usually begin by thinking about how we will analyze our data, and in many academic programs this is not explicitly taught to new students. For most people, especially beginners, the data analysis issue arises later on in the process, usually after the data have already been collected (although I think this ultimately changes with experience).\nIn light of all of this, I think that something handy to learn and evaluate early on is how data analysis typically flows: from obtaining data to obtaining new insight from the data. This is the data analysis pipeline, which usually looks something like this:\n\n\n\n\n\n\nIn essence, the process is simple. After collecting your data, you need to tidy it (step 2) so that it can be loaded and analyzed by your statistical software. After tidying your data, you usually have to transform it (step 3) in some way (also called data preprocessing). This can be occur via the creation of new variables, combining variables, sub-setting variables, etc. Once you have transformed your data, it’s time to visualize it (step 4a) via graphs/plots, and, finally, analyze it. In exploratory data analysis the visualization and analysis steps are often iterative: you might notice something in a graph that leads you to a new analysis, or some kind of insight that requires more data transformation and a new analysis, and so on and so forth until you have obtained new insight that might lead you to generate new research question(s).\nSo, at the heart of data analysis is tidy data. Most new researchers don’t know what it means to tidy and transform their data, nor that it is probably the most important part of any data analysis. Basically, if your data are not formatted in a way in which they can be easily analyzed (via excel, SPSS, R, etc.), then you can’t do anything with them.\nIn order to facilitate the data analysis pipeline, it is crucial to have tidy data. What this means is that every column in your data frame represents a variable and every row represents an observation. This is also referred to as long format (as opposed to wide format). Most statistical software requires your data to be in long format, with few exceptions (i.e. repeated measures ANOVA in SPSS).\nIn what follows, I take you through three packages that have been created in order to facilitate the data analysis pipeline in R. Each package was created by Hadley Wickham with steps 2, 3, and 4a of the pipeline in mind. Thus we can associate each package with the corresponding step:\n\n\n\n\ntidyr\ndplyr\nbasic plotting in r / ggvis\n(coming soon)\n\n\n\n",
+    "preview": "posts/2015-05-18_data_pipelines/assets/img/pipeline1.png",
+    "last_modified": "2021-02-20T23:41:07-05:00",
+    "input_file": {},
+    "preview_width": 16298,
+    "preview_height": 3862
+  },
+  {
+    "path": "posts/2015-04-20_plotting_in_r/",
+    "title": "Basic plotting in R",
+    "description": "Step-by-step examples for using the three main plotting systems in R.",
+    "author": [
+      {
+        "name": "Joseph V. Casillas",
+        "url": "https://www.jvcasillas.com"
+      }
+    ],
+    "date": "2015-04-20",
+    "categories": [
+      "r",
+      "dataviz"
+    ],
+    "contents": "\n\n\n\n\n\n\n",
+    "preview": "posts/2015-04-20_plotting_in_r/featured.png",
+    "last_modified": "2021-02-20T23:43:19-05:00",
+    "input_file": {},
+    "preview_width": 469,
+    "preview_height": 348
+  },
+  {
+    "path": "posts/2015-04-13_html_widgets/",
+    "title": "HTML widgets in Rmarkdown",
+    "description": "Walkthrough for incorporating HTML widgets into an Rmarkdown document.",
+    "author": [
+      {
+        "name": "Joseph V. Casillas",
+        "url": "https://www.jvcasillas.com"
+      }
+    ],
+    "date": "2015-04-13",
+    "categories": [
+      "r",
+      "rmarkdown",
+      "html"
+    ],
+    "contents": "\n\n\n\n\n\n\n",
+    "preview": "posts/2015-04-13_html_widgets/featured.png",
+    "last_modified": "2021-02-20T23:48:17-05:00",
+    "input_file": {},
+    "preview_width": 404,
+    "preview_height": 314
+  },
+  {
+    "path": "posts/2015-03-22_slidify_tutorial/",
+    "title": "Slidify tutorial",
+    "description": "Tutorial for creating HTML presentations using R and slidify.",
+    "author": [
+      {
+        "name": "Joseph V. Casillas",
+        "url": "https://www.jvcasillas.com"
+      }
+    ],
+    "date": "2015-03-22",
+    "categories": [
+      "r",
+      "rmarkdown",
+      "html"
+    ],
+    "contents": "\n\n\n\n\n\n\n",
+    "preview": "posts/2015-03-22_slidify_tutorial/featured.png",
+    "last_modified": "2021-02-20T23:52:02-05:00",
+    "input_file": {},
+    "preview_width": 412,
+    "preview_height": 310
+  },
+  {
+    "path": "posts/2014-05-28_tikz_-_standalone_plots/",
+    "title": "TikzDevice tutorial III: standalone plots",
+    "description": "Quick and dirty test for knitr boostrap framework.",
+    "author": [
+      {
+        "name": "Joseph V. Casillas",
+        "url": "https://www.jvcasillas.com"
+      }
+    ],
+    "date": "2014-05-28",
+    "categories": [
+      "ipa",
+      "r",
+      "research",
+      "latex"
+    ],
+    "contents": "\nIn this post I’m going to show you how to use tikzDevice to create high quality plots that use the same font as your \\(\\LaTeX\\) document. I’m assuming that you have already installed tikz. If not, see part I in this series. Moreover, this tutorial assumes that you have set up your project in the same way outlined in part II. An added benefit to this approach is that it allows you to insert IPA symbols into the plot via the tipa package.\nThe LaTeX file\nOk. You should start with a \\(\\LaTeX\\) file that looks like this:\n\\documentclass{article}\n\\usepackage{tikz}\n\\usepackage{tipa}\n\n\\begin{document}\n\n<<>>=\nrequire(tikzDevice)\ntikz('plot.tex', standAlone=TRUE)\nlibrary(stats)\nplot(cars)\nlines(lowess(cars))\ndev.off()\n@\n\n\\end{document}\nIf you have experience working with \\(\\LaTeX\\), the preamble should be pretty straightforward (If you need a quick primer on \\(\\LaTeX\\), see this tutorial). The important part so far is that you have to include \\usepackage{tikz} and \\usepackage{tipa} before \\begin{document}.\nThe R code\nIn knitr, R code goes between <<>>= and ends with @. So all of this is R code:\n\n\nrequire(tikzDevice)\ntikz('plots/cars-plot.tex', standAlone=TRUE)\nlibrary(stats)\nplot(cars)\nlines(lowess(cars))\ndev.off()\n\n\n\nThe command require(tikzDevice) loads tikz into the R workspace. Then, tikz('plots/cars-plot.tex', standAlone=TRUE) calls the tikz device and creates the file cars-plot.tex in the folder plots. It is important to set standAlone to TRUE if you want to have a separate .tex file (this is what allows us to keep the fonts the same as the rest of the document). From this point on until the call dev.off(), we enter what we want to appear in our .tex file. In this case I have plotted the typical cars data from the library stats. Here is the PDF output produced when cars-plot.tex is compiled. Notice the font is different from what you typical get in R.\n\nNow let’s try something a little more involved and add some IPA. I will use a fake dataset and load it into R.\n\n\nmy_data <- read.delim(\"assets/my_data.txt\")\n\n\n\nWe will use ggplot2 for this plot.\n\n\nlibrary(ggplot2)\n\n\n\nNow we will call tikz device.\n\n\nrequire(tikzDevice)\noptions(tikzLatexPackages = c(getOption(\"tikzLatexPackages\"), \"\\\\usepackage{tipa}\"))\ntikz('plots/ipa_plot.tex', standAlone=TRUE, width=10, height=6)\nmy_data$group <- factor(my_data$group, levels = c(\"EL\", \"NE\", \"LL\"))\ndf<-with(my_data, aggregate(fpro, list(group=group, fstim=fstim), mean))\ndf$se<-with(my_data, aggregate(fpro, list(group=group, fstim=fstim), function(x) sd(x)/sqrt(10)))[,3]\ngp <- ggplot(df, aes(x=fstim, y=x, colour=group, ymin=x-se, ymax=x+se))\ngp + geom_line(aes(linetype=group), size = .5) + \n    geom_point(aes(shape=group)) + \n    geom_ribbon(alpha = 0.15, linetype=0) + \n    ylim(0, 1) + \n    scale_x_continuous(breaks=seq(0, 10, by=1)) +\n    labs(list(title = \"[\\\\textesh ip/\\\\textesh\\\\textsci p]\", \n            x = \"Stimuli\", y = \"\\\\% [\\\\textesh\\\\textsci p]\")) +\n    theme_bw() +\n    theme(legend.background = element_rect(colour = 'grey50', \n        fill = 'grey97', size = .75, linetype='solid')) +\n    scale_linetype_discrete(\"Group\") +\n    scale_shape_discrete(\"Group\") +\n    scale_colour_discrete(\"Group\")\ndev.off()\n\n\n\nNotice that after the require(tikzDevice) call, we included\n\n\noptions(tikzLatexPackages = c(getOption(\"tikzLatexPackages\"), \"\\\\usepackage{tipa}\")) \n\n\n\nThe key component here is \\\\usepackage{tipa}. This means that tipa will be included in the .tex produced from the code, which, in turn, means that we can include IPA sybols in the plot before it is produced. The tikz('plots/ipa_plot.tex', standAlone=TRUE, width=5, height=5) call creates ipa_plot.tex in the folder plots. The rest of the code (up to dev.off()) is the actual plot. Notice that we have included ipa in the following command:\n\n\nlabs(list(title = \"[\\\\textesh ip/\\\\textesh\\\\textsci p]\", \n          x = \"Stimuli\", y = \"\\\\% [\\\\textesh\\\\textsci p]\"))\n\n\n\nThis is the plot that is produced when the resulting .tex file is compiled:\n\n\n\nAnd that’s it. We have produced a beautiful plot that uses the same font as our document and includes IPA symbols. You can download all the files here and try it yourself.\n\n\n\n",
+    "preview": "posts/2014-05-28_tikz_-_standalone_plots/assets/img/ipa_plot.png",
+    "last_modified": "2021-02-20T23:53:48-05:00",
+    "input_file": {},
+    "preview_width": 1440,
+    "preview_height": 864
+  },
+  {
+    "path": "posts/2014-05-26_knitr_bootstrap/",
+    "title": "Knitr bootstrap",
+    "description": "Quick and dirty test for knitr boostrap framework.",
+    "author": [
+      {
+        "name": "Joseph V. Casillas",
+        "url": "https://www.jvcasillas.com"
+      }
+    ],
+    "date": "2014-05-26",
+    "categories": [],
+    "contents": "\nKnitr bootstrap makes generating standalone reports extremely easy and the output looks really neat. Check out the example here. To recreate this you need to download the preview release of R Studio, and set up the front matter as follows:\n---\noutput:\n  knitrBootstrap::bootstrap_document:\n    title: \"\"\n    theme: default\n    highlight: sunburst\n    theme.chooser: TRUE\n    highlight.chooser: TRUE\n---\n\n\n\n",
+    "preview": {},
+    "last_modified": "2021-02-20T15:43:48-05:00",
+    "input_file": {}
+  },
+  {
+    "path": "posts/2014-01-07_converting_rmarkdown_files_to_html5/",
+    "title": "Using Rmarkdown to knit HTML5 documents in RStudio",
+    "description": "Some simple examples of how to go from .Rmd to .html.",
+    "author": [
+      {
+        "name": "Joseph V. Casillas",
+        "url": "https://www.jvcasillas.com"
+      }
+    ],
+    "date": "2014-01-07",
+    "categories": [],
+    "contents": "\nHTML5 slides\nI recently learned how to create HTML5 slides using .Rmd files and pandoc. Click here to check out an example. I will be posting a tutorial on how to do this in the near future (I hope).\nUpdate Here is a much cooler example I found on mages’ blog\nUpdate 2 This process has been streamlined in the newest update to RStudio (check it out here). The results are quite impressive (Ex. 1, Ex. 2)\n\n\n\n",
+    "preview": {},
+    "last_modified": "2021-02-20T15:35:20-05:00",
+    "input_file": {}
+  },
+  {
+    "path": "posts/2013-05-17_tikz_-_projects/",
+    "title": "TikzDevice tutorial II: structuring a project",
+    "description": "How to setup a reproducible workflow that integrates `tikzDevice`.",
+    "author": [
+      {
+        "name": "Joseph V. Casillas",
+        "url": "https://www.jvcasillas.com"
+      }
+    ],
+    "date": "2013-05-17",
+    "categories": [
+      "r",
+      "latex",
+      "tikz"
+    ],
+    "contents": "\nOverview\nThis mini tutorial is part II about incorporating tikzDevice into your workflow. It explains the file structure necessary to successfully include tikzDevice plots into your \\(\\LaTeX\\) document. You must first have tikzDevice installed. If you don’t, see part I for more information.\nThe structure\nA simple yet effective way to do reproducible research is to use R (for statistical analysis) directly in a \\(\\LaTeX\\) environment. There are two ways to accomplish this: (1) Sweave and (2) knitr. knitr seems to be the better choice, as it builds on some of the deficiencies of Sweave, and is what I am currently using in my workflow. In order to successfully “knit” R code into a .tex format we must use a no-web (.nw) file to create the .tex file. There are two types of no-web files: .Rnw and .Snw. I am not completely sure what the differences are between then, but I use .Rnw and that is what I will mention in this tutorial.\nThe first step is to create a project folder. For the purposes of this tutorial let’s call this folder “master”. Next, we will need some data and some R code that analyzes it. The most common, no-hassle way to accomplish this in R is to save your R code in a separate .R file. For this tutorial, we will call our data “my-data.txt” and our R code “example.R”. The fake data we are going to analyze is for a two-alternative forced choice identification experiment. So, our fake data is in the “my-data.txt” file and the R code that analyzes it is in the example.R file.\nThe next step is to create the “no web” .Rnw file. This is as simple as creating a document in your text editor of choice (I use TextMate 2 and Sublime Text 3) and saving it with a .Rnw extension. For this tutorial we will call this file “example.Rnw”. Its purpose is to call the R code written in “example.R” (which uses the fake data in “my-data.txt”) in order to produce a .tex file (in this case “example.tex”). Still with me? Good.\nNext we need to prepare where we are going to keep the plots produced by tikzDevice. I find it most convenient to have a specific folder, “plots_folder”, where I only keep the tikzDevice plots. So, create this folder inside the “master” folder. tikzDevice creates the R plots and converts them to a \\(\\LaTeX\\) format (the benefits of this are further explained in part III of this tutorial), saves them in “plots_folder” and we will then include them in the example.tex file which can be compiled into a PDF. The image below shows what this should look like when it’s all said and done.\n\n\n\nCheck out part III to learn how to create standalone plots that can include IPA sybols.\n\n\n\n",
+    "preview": "posts/2013-05-17_tikz_-_projects/assets/img/tikz_workflow.png",
+    "last_modified": "2021-02-20T23:56:07-05:00",
+    "input_file": {},
+    "preview_width": 2330,
+    "preview_height": 880
+  },
+  {
+    "path": "posts/2013-05-11_tikz_-_installation/",
+    "title": "TikzDevice tutorial I: install tikzDevice in R",
+    "description": "How to install tikzDevice for plotting in R.",
+    "author": [
+      {
+        "name": "Joseph V. Casillas",
+        "url": "https://www.jvcasillas.com"
+      }
+    ],
+    "date": "2013-05-11",
+    "categories": [],
+    "contents": "\nOverview\nThis is a short tutorial for getting tikzDevice running on R version 3.0. If you write in LaTeX and use R for statistics, this is a good way to get your plots/graphs/etc. into your .tex document. The advantages are:\nmuch higher quality and\nyou can use IPA symbols\nDownload tiksDevice\ntiksDevice is no longer officially supported by CRAN because the author was having trouble keeping it updated in a timely manner (check out this webpage if you want to read a little more it). Nonetheless, the tikzdevice package is very usable and still available for download. You can download the tar.gz file directly by clicking here.\nInstall tiksDevice\nInstalling a package that is no longer supported is by no means difficult, but not as simple as install.package('tikzDevice') (try it if you want to see why). Use the following code install the tar file (make sure to specify your file path to wherever you downloaded the file). This is what it looked like for me.\n\n\ninstall.packages(\"/Users/USERNAME/Downloads/tikzDevice_0.6.2.tar\", \n  repos = NULL, type = \"source\")\n\n\n\nInstall dependencies\nIn order for tikzDevice to work, you must also install the filehash package. This is much easier.\n\n\ninstall.packages('filehash')\n\n\n\nThat’s it. Check out this tutorial to see how to set up a project.\n\n\n\n",
+    "preview": {},
+    "last_modified": "2021-02-20T15:21:30-05:00",
+    "input_file": {}
+  },
+  {
+    "path": "posts/2013-05-09_colored_spectrograms_in_r/",
+    "title": "Colored spectrograms in R",
+    "description": "How to make colored spectrograms in R with phonTools.",
+    "author": [
+      {
+        "name": "Joseph V. Casillas",
+        "url": "https://www.jvcasillas.com"
+      }
+    ],
+    "date": "2013-05-05",
+    "categories": [
+      "r",
+      "phonetics",
+      "acoustics"
+    ],
+    "contents": "\nThis is how I made the colored spectrogram from the homepage (it’s me saying ‘welcome’). You need to load the package phonTools into R.\n\n\nlibrary(phonTools)\n\n\n\nNow you have to load the sound you want to make a spectrogram of (it has to be in your working directory). I recorded mine in Praat.\n\n\nsound <- loadsound('welcome.wav')\n\n\n\nNow we’re ready to make a spectrogram.\n\n\nspectrogram(sound, fs = 44100, colors = TRUE, \n            maintitle = \"Welcome\", maxfreq = 5500)\n\n\n\n\n\n\nWe can also see the oscillogram by using\n\n\nplot(sound)\n\n\n\n\n\n\nThat’s it.\n\n\n\n",
+    "preview": "posts/2013-05-09_colored_spectrograms_in_r/assets/img/spectrogram.png",
+    "last_modified": "2021-02-20T23:57:54-05:00",
+    "input_file": {},
+    "preview_width": 593,
+    "preview_height": 308
+  }
+]

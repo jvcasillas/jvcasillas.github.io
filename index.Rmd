@@ -1,0 +1,54 @@
+---
+title: ""
+site: distill::distill_website
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo=F, message=F, warning=F)
+```
+
+```{css echo=FALSE}
+
+d-title h1 {
+  font-size: 0px;
+}
+
+```
+
+
+```{r, landing-img, fig.retina=2, out.width="100%", fig.asp=1, layout="l-screen"}
+library("tidyverse")
+library("brms")
+library("tidybayes")
+library("networkD3")
+
+# mod <- brm(
+#   mpg ~ drat, 
+#   file = here::here("assets", "mod"), 
+#   data = mtcars)
+
+# mod_post <- mod %>% 
+#   as_tibble() %>% 
+#   select(intercept = b_Intercept, slope = b_drat)
+
+# post_samp <- sample_n(mod_post, 500)
+# post_avg  <- summarize(mod_post, across(c("intercept", "slope"), mean))
+
+# mtcars %>% 
+#   select(mpg, drat) %>% 
+#   ggplot() + 
+#   aes(x = drat, y = mpg) + 
+#     geom_abline(data = post_samp, aes(intercept = intercept, slope = slope), 
+#                 alpha = 0.025, color = "grey10") + 
+#     geom_abline(data = post_avg, aes(intercept = intercept, slope = slope), 
+#                 color = "white", size = 1.5) + 
+#     geom_point(size = 1.5, color = "#cc0033") + 
+#     theme_void()
+
+data(MisLinks, MisNodes)
+forceNetwork(Links = MisLinks, Nodes = MisNodes, Source = "source",
+             Target = "target", Value = "value", NodeID = "name",
+             Group = "group", opacity = 0.7)
+
+
+```

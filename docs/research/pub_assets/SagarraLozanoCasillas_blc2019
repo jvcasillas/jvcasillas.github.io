@@ -1,0 +1,26 @@
+
+```{r, results='asis', echo=FALSE, eval=TRUE}
+print(bib[key = "SagarraLozanoCasillas_blc2019"])
+```
+
+<!-- START METADATA -->
+<div style="text-indent:.25em;margin-top:-1em" align="left">
+( <a alt="BLC2019" href="https://doi.org/10.1017/S1366728919000634" target='_new'><span class="showtooltip" title="Read paper">Link</span></a> |
+<button class="button mybutton" onclick="myFunction('SagarraLozanoCasillas_blc2019Abstract')">Abstract</button> |
+<button class="button mybutton" onclick="myFunction('SagarraLozanoCasillas_blc2019Bib')">Bib</button> )
+
+<div id="SagarraLozanoCasillas_blc2019Abstract" style="display:none;margin-left:2em;text-indent:0em">
+<p class="minip">Native speakers use suprasegmental information to predict words, but less is known about segmental information. Moreover, anticipatory studies with non-native speakers are scarce and mix proficiency with anticipatory experience. To address these limitations, we investigated whether Spanish monolinguals and advanced English learners of Spanish use suprasegmentals (stress: oxytone, paroxytone) and segmentals (syllabic structure: CVC, CV) to predict word suffixes, and whether increased anticipatory experience acquired via interpreting will facilitate anticipation in non-interpreting L2 situations. Eye-tracking data revealed that: (1) the three groups made use of the linguistic variables, and L2 groups did not anticipate in CV paroxytones; (2) everybody anticipated better with the less frequent conditions (oxytones, CVC) having fewer lexical competitors; (3) monolinguals anticipated earlier than L2 learners; and (4) interpreters anticipated at a faster rate in some conditions. These findings indicate that less frequent suprasegmental and segmental information and anticipatory experience facilitate native and non-native spoken word prediction.</p>
+</div>
+
+<div id="SagarraLozanoCasillas_blc2019Bib" style="display:none" class="minip">
+
+```{r, echo=FALSE, comment='', eval=TRUE}
+toBiblatex(
+  bib[key = "SagarraLozanoCasillas_blc2019"], 
+  .opts = list(style = "html"))
+```
+
+</div>
+</div> 
+<!-- END METADATA -->

@@ -1,0 +1,45 @@
+---
+title: "Teaching"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+Here are some of the classes I have taught or am currently teaching, as well as information about some invited talks and specialized workshops I have done. 
+Feel free to contact me if you would like information about any of them.
+
+# Undergraduate
+
+- Beginning Spanish
+- Elementary Spanish
+- Intermediate Spanish
+- Introduction to Data Science
+- Introduction to the study of language
+- Introduction to Spanish Phonetics and Phonology
+- Introduction to Spanish Phonetics and Phonology for the Heritage Speaker
+- Culture and composition for Heritage Speakers
+- Introduction to Hispanic Linguistics
+- Current Issues in Second Language Acquisition
+- History of the Spanish Language
+- Applied Linguistics
+- High Beginner Spanish in Context (Middlebury College)
+
+# Graduate
+
+- Spanish phonetics/phonology
+- The phonetics/phonology of bilingualism
+- Data science for linguists
+- Research methods: Open science and reproducible research in Linguistics
+- Spanish Phonetics for Teachers
+
+# Workshops
+
+- Spanish pronunciation workshop for beginners
+- Using PsychoPy for linguistic research
+- Introduction to Praat
+- Introduction to R
+- LaTeX for linguists
+- Introduction to Open Science and Reproducible Research
+- Bayesian Data Analysis for Linguists
+

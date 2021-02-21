@@ -1,0 +1,39 @@
+```{r, results='asis', echo=FALSE, eval=TRUE}
+print(bib[key = "CasillasPhonetica2015"])
+```
+
+<!-- START METADATA -->
+<div style="text-indent:.25em;margin-top:-1em" align="left">
+( <a alt="SDPHON2015" href="http://www.karger.com/Article/Abstract/431101" target='_new'><span class="showtooltip" title="Read paper">Link</span></a> |
+<button class="button mybutton" onclick="myFunction('CasillasPhonetica2015abstract')">Abstract</button> |
+<button class="button mybutton" onclick="myFunction('CasillasPhonetica2015bib')">Bib</button> )
+
+<div id="CasillasPhonetica2015abstract" style="display:none;margin-left:2em;text-indent:0em">
+<p class="minip">The present study explored the production and perception of the 
+/i/-/ɪ/ vowel contrast in second language (L2)-dominant early learners of 
+American English who no longer fluently speak their first language (L1, 
+Spanish). The production task analyzed the extent to which the early learner 
+group differed from controls (native English speakers and L1-Spanish late-onset 
+learners of English) with regard to duration and spectral centroids. The 
+perception experiment examined how these early learners classified resynthesized 
+stimuli drawn from the /i/-/ɪ/ con- trast using distinct acoustic cues – 
+spectral and temporal – in a 2-alternative forced choice identification task. 
+The first experiment revealed that the early learners produced the contrast in 
+a native-like manner in terms of the spectral envelope and duration use. The 
+second experiment found that early learners differed from both control groups 
+in how they categorized the /i/-/ɪ/ continua based on spectrum and duration, 
+and the extent to which they rely on these two cues. The effects of linguistic 
+experience on L2 phonetic behavior are discussed.</p>
+</div>
+
+<div id="CasillasPhonetica2015bib" style="display:none" class="minip">
+
+```{r, echo=FALSE, eval=TRUE, comment=''}
+toBiblatex(
+  bib[key = "CasillasPhonetica2015"], 
+  .opts = list(style = "html"))
+```
+
+</div>
+</div> 
+<!-- END METADATA -->

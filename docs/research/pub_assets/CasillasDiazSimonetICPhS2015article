@@ -1,0 +1,36 @@
+```{r, results='asis', echo=FALSE, eval=TRUE}
+print(bib[key = "CasillasDiazSimonetICPhS2015article"])
+```
+
+<!-- START METADATA -->
+<div style="text-indent:.25em;margin-top:-1em" align="left">
+( <a alt="ICPhS2015" href="https://www.researchgate.net/publication/280840068_ACOUSTICS_OF_SPANISH_AND_ENGLISH_CORONAL_STOPS" target='_new'><span class="showtooltip" title="Read paper">Link</span></a> |
+<button class="button mybutton" onclick="myFunction('CasillasDiazSimonetICPhS2015article')">Abstract</button> |
+<button class="button mybutton" onclick="myFunction('CasillasDiazSimonetICPhS2015bib')">Bib</button> )
+
+<div id="CasillasDiazSimonetICPhS2015article" style="display:none;margin-left:2em;text-indent:0em">
+<p class="minip">This study explores the acoustic correlates that distinguish 
+coronal stops (/t/, /d/) between English and Spanish. English and Spanish 
+coronal stops are hypothesized to differ in terms of voice-onset time and place 
+of articulation. We are particularly concerned with capturing the place of 
+articulation difference with acoustic data, as the voice-onset time difference 
+is well known. Specifically, we focus on English /d/ and Spanish /t/, which are 
+phonetically-voiceless stops with a short-lag voice-onset time. Spanish /t/ has 
+been described as being articulated at dental place, whereas English /d/ is 
+articulated at alveolar place. Mixed-effects models explored various spectral 
+measurements of the consonant burst and found that standard deviation, relative 
+burst intensity, and center of gravity differed as a function of place of 
+articulation (or language).</p>
+</div>
+
+<div id="CasillasDiazSimonetICPhS2015bib" style="display:none" class="minip">
+
+```{r, echo=FALSE, comment='', eval=TRUE}
+toBiblatex(
+  bib[key = "CasillasDiazSimonetICPhS2015article"], 
+  .opts = list(style = "html"))
+```
+
+</div>
+</div> 
+<!-- END METADATA -->

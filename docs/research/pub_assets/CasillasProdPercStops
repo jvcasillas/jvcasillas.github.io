@@ -1,0 +1,26 @@
+
+```{r, results='asis', echo=FALSE, eval=TRUE}
+print(bib[key = "CasillasProdPercStops"])
+```
+
+<!-- START METADATA -->
+<div style="text-indent:.25em;margin-top:-1em" align="left">
+( <a alt="LS2020" href="https://doi.org/10.1177/0023830919866225" target='_new'><span class="showtooltip" title="Read paper">Link</span></a> |
+<button class="button mybutton" onclick="myFunction('CasillasProdPercStops_JSLS2018Abstract')">Abstract</button> |
+<button class="button mybutton" onclick="myFunction('CasillasProdPercStops_LS2020Bib')">Bib</button> )
+
+<div id="CasillasProdPercStops_JSLS2018Abstract" style="display:none;margin-left:2em;text-indent:0em">
+<p class="minip">Research on the acquisition of L2 phonology in sequential language learners has stressed the importance of language use and input as a means to accurate production and perception; however, the two constructs are difficult to evaluate and control. This study focuses on the role of language use during the initial stages of development of phonetic categories related to stop voicing and analyzes the relationship between production and perception. Native English-speaking late learners of Spanish provided production/perception data on a weekly basis throughout the course of a seven-week immersion program in which L1 use was prohibited. The production/perception data were analyzed using generalized linear mixed effects models. Generalized additive mixed models were used to analyze and compare the learning trajectories of each modality. The analyses revealed phonetic learning in both production and perception over the course of the program. Perception gains paralleled those of native bilinguals by the conclusion of the program and preceded production gains. This study is novel in that it provides production/perception data in a semi-longitudinal design. Moreover, the beginning adult learners are examined in a learning context in which L1 use was minimal and L2 input was maximized. Taken together, the experiments suggest that L2 phonetic category formation can occur abruptly, at an early stage of development, is perceptually driven, and appears to be particularly fragile during the initial stages of learning.</p>
+</div>
+
+<div id="CasillasProdPercStops_LS2020Bib" style="display:none" class="minip">
+
+```{r, echo=FALSE, comment='', eval=TRUE}
+toBiblatex(
+  bib[key = "CasillasProdPercStops"], 
+  .opts = list(style = "html"))
+```
+
+</div>
+</div> 
+<!-- END METADATA -->

@@ -1,0 +1,106 @@
+.distill-site-nav {
+  color: white;
+  background-color: #5f6a72;
+  font-size: 18px;
+  font-weight: 300;
+}
+
+.distill-site-nav a {
+  color: white;
+  text-decoration: none;
+}
+
+.distill-site-nav a:hover {
+  color: #cc0033;
+}
+
+.distill-site-header {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 2px;
+}
+
+.distill-site-footer {
+  background-color: white;
+  padding: 0;
+  color: black;
+}
+
+.distill-site-footer a {
+  color: black;
+  text-decoration: none;
+}
+
+@media print {
+  .distill-site-nav {
+    display: none;
+  }
+}
+
+
+/*My additions*/
+
+.nav-dropdown {
+  color: white;
+  text-decoration: none;
+}
+
+.nav-dropdown a:hover {
+  color: #cc0033;
+}
+
+.nav-dropdown-content {
+  color: #5f6a72;
+  background-color: #5f6a72;
+}
+
+.nav-dropdown-content a:hover {
+  color: #cc0033;
+  background-color: #5f6a72;
+}
+
+.distill-site-header .logo img {
+  display: inline-block;
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  max-height: 41px;
+  width: auto;
+  margin-bottom: 5px;
+  padding-right: 5px;
+  vertical-align: bottom;
+}
+
+
+
+/*
+.logo {
+  display: inline-block;
+  width: 120px;
+  height: 46px;
+  background-image:url(./images/ru.png);
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  vertical-align: bottom;
+}
+*/
+
+/*ru_colors <- c('RUred' =  '#cc0033',*/
+               /*'RUgrey' = '#5f6a72',*/
+               /*'RUblack' = '#000000')*/
+
+
+
+
+/* image zoom */
+.zoom {
+  border: none;
+  margin: 0 auto;
+  transition: all .4s ease-in-out;
+}
+.zoom:hover {
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -o-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+}

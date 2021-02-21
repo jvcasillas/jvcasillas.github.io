@@ -1,0 +1,36 @@
+
+```{r, results='asis', echo=FALSE, eval=TRUE}
+print(bib[key = "SimonetCasillasDiazSP72014article"])
+```
+
+<!-- START METADATA -->
+<div style="text-indent:.25em;margin-top:-1em" align="left">
+( <a alt="SpeechProsody" href="https://www.researchgate.net/publication/272090285_The_effects_of_stressaccent_on_VOT_depend_on_language_%28English_Spanish%29_consonant_%28d_t%29_and_linguistic_experience_%28monolinguals_bilinguals%29" target='_new'><span class="showtooltip" title="Read paper">Link</span></a> |
+<button class="button mybutton" onclick="myFunction('SimonetCasillasDiazSP72014abstract')">Abstract</button> |
+<button class="button mybutton" onclick="myFunction('SimonetCasillasDiazSP72014bib')">Bib</button> )
+
+<div id="SimonetCasillasDiazSP72014abstract" style="display:none;margin-left:2em;text-indent:0em">
+<p class="minip">This study examines Voice Onset Times of coronal stops in 
+utterance-initial position in two languages. Crucially, the effects of lexical 
+stress (stressed, unstressed syllable) on VOT are analyzed. The study 
+investigates aspirated stops (English /t/), short-lag voiceless stops (English 
+/d/, Spanish /t/) and pre-voiced stops (Spanish /d/). Three groups of speakers 
+provide data: English monolinguals, Spanish monolinguals, and proficient 
+Spanish-English bilinguals. The study finds that lexical stress lengthens 
+aspiration (English /t/) and prevoicing (Spanish /d/) but it does not alter 
+significantly short-lag stops (Spanish /t/, English /d/). Monolinguals and 
+bilinguals differ slightly in their phonetic behavior. Implications for gestural 
+coordination as well as for feature theory are discussed.</p>
+</div>
+
+<div id="SimonetCasillasDiazSP72014bib" style="display:none" class="minip">
+
+```{r, echo=FALSE, comment='', eval=TRUE}
+toBiblatex(
+  bib[key = "SimonetCasillasDiazSP72014article"], 
+  .opts = list(style = "html"))
+```
+
+</div>
+</div> 
+<!-- END METADATA -->

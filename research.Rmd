@@ -1,0 +1,96 @@
+---
+title: "Research"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+```{js}
+<!-- Javascript to hide/show divs -->
+function myFunction(d) {
+  var x = document.getElementById(d);
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+```
+
+```{css}
+
+d-article a {
+  border-bottom: none;
+  text-decoration: none;
+}
+
+d-article a:hover {
+  border-bottom: none;
+  text-decoration: none;
+}
+
+/* My button */
+.mybutton {
+  background-color: transparent;
+  color: inherit;
+  border: 0 solid white;
+  padding-left: 2px;
+  padding-right: 2px;
+  text-align: center;
+  text-decoration: none;
+  font-size: inherit;
+  transition-duration: 0.4s;
+}
+
+.mybutton:hover {
+  background-color: white; 
+  color: #cc0033;
+}
+
+```
+
+
+<!-- 
+Updating the bib:
+    - must update by hand the file publicationsCVclean.bib in mybib repo
+    - once updated, below code downloads current version and loads into R
+    - must reference relevant article in relevant pane (publications or presentations)
+Afterwards, update the following:
+    - Your CV
+    - Research Gate
+    - Google scholar
+-->
+
+```{r, eval=T, echo=F, warning=F, message=F}
+library("RefManageR")
+library("here")
+
+# Url to github repo
+fileUrl <- "https://raw.githubusercontent.com/jvcasillas/mybib/master/publications_html.bib"
+
+# Download .bib file
+download.file(fileUrl, destfile = here("assets", "publications_html.bib"), method = "curl")
+
+# Load bib
+bib <- ReadBib(here("assets", "publications_html.bib"), check = FALSE)
+
+# Set bib options
+BibOptions(bib.style = "authoryear", style = "text", max.names = 10, 
+           first.inits = TRUE, check.entries = FALSE)
+```
+
+```{r panelset, echo=FALSE}
+xaringanExtra::use_panelset()
+xaringanExtra::style_panelset_tabs(
+  font_family         = "Roboto", 
+  active_foreground   = "#cc0033", 
+  hover_foreground    = "#cc0033", 
+  foreground          = "#cc0033", 
+  active_border_color = "#000000", 
+  hover_border_color  = "#000000", 
+  inactive_opacity    = 1)
+```
+
+```{r, child='./research/main', cache=F}
+```

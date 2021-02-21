@@ -1,0 +1,7 @@
+---
+title: "Blog posts"
+description: |
+  Occassionaly I like to write about research related topics.
+site: distill::distill_website
+listing: posts
+---

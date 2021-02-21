@@ -1,0 +1,347 @@
+[
+  {
+    "path": "code/r_academicwriter/",
+    "title": "academicWriteR",
+    "description": "An R package of helper functions that are useful for writing \nacademic reports/manuscripts.",
+    "author": [
+      {
+        "name": "Joseph V. Casillas",
+        "url": "https://www.jvcasillas.com"
+      }
+    ],
+    "date": "2018-04-06",
+    "categories": [
+      "r",
+      "statistics",
+      "programming",
+      "linguistics"
+    ],
+    "contents": "\n\n\n\n\n\n\n",
+    "preview": "code/r_academicwriter/academicWriteR.png",
+    "last_modified": "2021-02-20T23:30:56-05:00",
+    "input_file": {},
+    "preview_width": 518,
+    "preview_height": 600
+  },
+  {
+    "path": "code/r_contributor/",
+    "title": "contributoR",
+    "description": "An R package for documenting scholarly contributions.",
+    "author": [
+      {
+        "name": "Joseph V. Casillas",
+        "url": "https://www.jvcasillas.com"
+      }
+    ],
+    "date": "2018-04-06",
+    "categories": [
+      "r",
+      "statistics",
+      "programming",
+      "linguistics"
+    ],
+    "contents": "\n\n\n\n\n\n\n",
+    "preview": "code/r_contributor/index_files/figure-html5/contirbutor-ex-1.png",
+    "last_modified": "2021-02-20T22:40:34-05:00",
+    "input_file": {},
+    "preview_width": 1248,
+    "preview_height": 768
+  },
+  {
+    "path": "code/r_ds4ling/",
+    "title": "ds4ling",
+    "description": "An R package of datasets and functions made to complement the ds4ling \ncourse.",
+    "author": [
+      {
+        "name": "Joseph V. Casillas",
+        "url": "https://www.jvcasillas.com"
+      }
+    ],
+    "date": "2018-04-06",
+    "categories": [
+      "r",
+      "statistics",
+      "programming",
+      "linguistics"
+    ],
+    "contents": "\n\n\n\n\n\n\n",
+    "preview": "code/r_ds4ling/ds4ling.png",
+    "last_modified": "2021-02-20T22:46:45-05:00",
+    "input_file": {},
+    "preview_width": 518,
+    "preview_height": 600
+  },
+  {
+    "path": "code/r_lingstuff/",
+    "title": "lingStuff",
+    "description": "An R package with handy functions I use in my linguistic\nresearch.",
+    "author": [
+      {
+        "name": "Joseph V. Casillas",
+        "url": "https://www.jvcasillas.com"
+      }
+    ],
+    "date": "2018-04-06",
+    "categories": [
+      "r",
+      "statistics",
+      "programming",
+      "linguistics"
+    ],
+    "contents": "\n\n\n\n\n\n\n",
+    "preview": "code/r_lingstuff/lingStuff.png",
+    "last_modified": "2021-02-20T22:38:39-05:00",
+    "input_file": {},
+    "preview_width": 518,
+    "preview_height": 600
+  },
+  {
+    "path": "code/r_untidydata/",
+    "title": "untidydata",
+    "description": "An R package of untidy datasets made for the purpose of teaching the \ntidyverse.",
+    "author": [
+      {
+        "name": "Joseph V. Casillas",
+        "url": "https://www.jvcasillas.com"
+      }
+    ],
+    "date": "2018-04-06",
+    "categories": [
+      "r",
+      "statistics",
+      "programming",
+      "linguistics"
+    ],
+    "contents": "\n\n\n\n\n\n\n",
+    "preview": "code/r_untidydata/untidydata.png",
+    "last_modified": "2021-02-20T22:43:42-05:00",
+    "input_file": {},
+    "preview_width": 518,
+    "preview_height": 600
+  },
+  {
+    "path": "code/shiny_bivariate_regression/",
+    "title": "Bivariate linear regression",
+    "description": "A shiny web app built in R for teaching the linear model.",
+    "author": [
+      {
+        "name": "Joseph V. Casillas",
+        "url": "https://www.jvcasillas.com"
+      }
+    ],
+    "date": "2018-04-06",
+    "categories": [
+      "r",
+      "statistics",
+      "shiny",
+      "teaching",
+      "programming"
+    ],
+    "contents": "\n\n\nknitr::include_graphics(\"featured.png\")\n\n\n\n\n\n\n\n",
+    "preview": "code/shiny_bivariate_regression/featured.png",
+    "last_modified": "2021-02-20T22:50:07-05:00",
+    "input_file": {},
+    "preview_width": 2332,
+    "preview_height": 683
+  },
+  {
+    "path": "code/shiny_clt/",
+    "title": "Central limit theorem",
+    "description": "A shiny web app built in R for teaching the central limit theorem.",
+    "author": [
+      {
+        "name": "Joseph V. Casillas",
+        "url": "https://www.jvcasillas.com"
+      }
+    ],
+    "date": "2018-04-06",
+    "categories": [
+      "r",
+      "statistics",
+      "shiny",
+      "teaching",
+      "programming"
+    ],
+    "contents": "\n\n\nknitr::include_graphics(\"featured.png\")\n\n\n\n\n\n\n\n",
+    "preview": "code/shiny_clt/featured.png",
+    "last_modified": "2021-02-20T22:52:09-05:00",
+    "input_file": {},
+    "preview_width": 2522,
+    "preview_height": 739
+  },
+  {
+    "path": "code/shiny_crossover/",
+    "title": "Crossover",
+    "description": "A shiny web app built in R for calculating boundary crossover points in \nlogistic regression.",
+    "author": [
+      {
+        "name": "Joseph V. Casillas",
+        "url": "https://www.jvcasillas.com"
+      }
+    ],
+    "date": "2018-04-06",
+    "categories": [
+      "r",
+      "statistics",
+      "shiny",
+      "teaching",
+      "programming"
+    ],
+    "contents": "\n\n\n\n\n\n\n",
+    "preview": "code/shiny_crossover/featured.png",
+    "last_modified": "2021-02-20T22:55:02-05:00",
+    "input_file": {},
+    "preview_width": 885,
+    "preview_height": 471
+  },
+  {
+    "path": "code/shiny_distinctive_features/",
+    "title": "Spanish allophones and distinctive features",
+    "description": "A shiny web app built in R for teaching the distinctive features of \nSpanish speech sounds.",
+    "author": [
+      {
+        "name": "Joseph V. Casillas",
+        "url": "https://www.jvcasillas.com"
+      }
+    ],
+    "date": "2018-04-06",
+    "categories": [
+      "r",
+      "shiny",
+      "teaching",
+      "programming",
+      "spanish",
+      "phonology"
+    ],
+    "contents": "\n\n\n\n\n\n\n",
+    "preview": "code/shiny_distinctive_features/featured.png",
+    "last_modified": "2021-02-20T22:56:54-05:00",
+    "input_file": {},
+    "preview_width": 2761,
+    "preview_height": 809
+  },
+  {
+    "path": "code/shiny_glm/",
+    "title": "Generalized linear model",
+    "description": "A shiny web app built in R for teaching the generalized linear model.",
+    "author": [
+      {
+        "name": "Joseph V. Casillas",
+        "url": "https://www.jvcasillas.com"
+      }
+    ],
+    "date": "2018-04-06",
+    "categories": [
+      "r",
+      "shiny",
+      "teaching",
+      "programming",
+      "statistics"
+    ],
+    "contents": "\n\n\n\n\n\n\n",
+    "preview": "code/shiny_glm/featured.png",
+    "last_modified": "2021-02-20T22:58:29-05:00",
+    "input_file": {},
+    "preview_width": 3120,
+    "preview_height": 914
+  },
+  {
+    "path": "code/shiny_power_ss/",
+    "title": "Power/Sample size calculator",
+    "description": "A shiny web app built in R for teaching statistical power and sample sizes.",
+    "author": [
+      {
+        "name": "Joseph V. Casillas",
+        "url": "https://www.jvcasillas.com"
+      }
+    ],
+    "date": "2018-04-06",
+    "categories": [
+      "r",
+      "shiny",
+      "teaching",
+      "programming",
+      "statistics"
+    ],
+    "contents": "\n\n\n\n\n\n\n",
+    "preview": "code/shiny_power_ss/featured.png",
+    "last_modified": "2021-02-20T23:04:53-05:00",
+    "input_file": {},
+    "preview_width": 1316,
+    "preview_height": 547
+  },
+  {
+    "path": "code/shiny_r4linguists/",
+    "title": "R for linguists",
+    "description": "A shiny web app built in R for teaching R using the tidyverse.",
+    "author": [
+      {
+        "name": "Joseph V. Casillas",
+        "url": "https://www.jvcasillas.com"
+      }
+    ],
+    "date": "2018-04-06",
+    "categories": [
+      "r",
+      "shiny",
+      "teaching",
+      "programming"
+    ],
+    "contents": "\n\n\n\n\n\n\n",
+    "preview": "code/shiny_r4linguists/featured.png",
+    "last_modified": "2021-02-20T23:06:24-05:00",
+    "input_file": {},
+    "preview_width": 3441,
+    "preview_height": 1008
+  },
+  {
+    "path": "code/snippets_latex_ipa/",
+    "title": "LaTeX IPA",
+    "description": "A collection of snippets for SublimeText that simplify the process of \nusing IPA in LaTeX.",
+    "author": [
+      {
+        "name": "Joseph V. Casillas",
+        "url": "https://www.jvcasillas.com"
+      }
+    ],
+    "date": "2018-04-06",
+    "categories": [
+      "teaching",
+      "programming",
+      "ipa",
+      "latex",
+      "sublimtext"
+    ],
+    "contents": "\n\n\n\nI made this repository to simplify the process of using IPA in \\(\\LaTeX\\). It is merely a collection of snippets for the package TIPA. To install LaTeX-IPA see the package control page.\nFile naming\nConsonants are labeled in the following way:\nvoicing -> point of articulation -> mode of articulation\nEx. voiceless-bilabial-aprox.sublime-snippet = [β]\nVowels are labeled in the following way:\nvowel -> tense/lax -> height -> frontedness -> rounding\nEx. vowel-tense-high-front-unrounded.sublime-snippet = [i]\nTab triggers\nThere are 6 main groups:\nDiacritics: type “diac” + tab\nVowels: type “vowel” + tab\nConsonants are divided into four subcategories:\nFricatives type “fric” + tab\nAffricates type “affr” + tab\nLiquids: type “liquid” + tab\nNasals: type “nasal” + tab\nNotes\nAs of now (10/19/2013), I have only included the symbols that I use the most in English and Spanish. I will continue adding to the repository over time. It should be noted that the consonants do not include all categories (i.e. stops). This is because they are not represented by unsual symbols in IPA.\n\n\n\n",
+    "preview": "code/snippets_latex_ipa/featured.png",
+    "last_modified": "2021-02-20T23:14:14-05:00",
+    "input_file": {},
+    "preview_width": 500,
+    "preview_height": 361
+  },
+  {
+    "path": "code/snippets_rsnippets/",
+    "title": "R-Snippets",
+    "description": "A collection of snippets for SublimeText that facilitate doing statistical \nanalysis in R.",
+    "author": [
+      {
+        "name": "Joseph V. Casillas",
+        "url": "https://www.jvcasillas.com"
+      }
+    ],
+    "date": "2018-04-06",
+    "categories": [
+      "teaching",
+      "programming",
+      "r",
+      "workflow",
+      "sublimtext"
+    ],
+    "contents": "\nThis repository is a collection of snippets that I use in SublimeText SublimeText for doing statistical analysis in R. The goal is straightforward: document the code that I use most often while doing linguistic research and make it readily available (and understandable) to other linguists. If you are interested in helping see the github repository. To install R-snippets see the package control page. To use a snippet, type the trigger and hit the tab key. For example, typing lm brings up the following window:\n\n\n\nSelecting Random slope and random intercept model expands to…\n# load lme4 for mixed models\nlibrary(lme4)\n\n# random intercept and random slope model\nmodelName = lmer(DV ~ fixedFactor1 +* fixedFactor2 + (1 + randomSlope|randomInt), data=df)\nmodelName\n\nhist(residuals(modelName))\nqqnorm(residuals(modelName))\nqqline(residuals(modelName))\nMain triggers:\n“plot”: templates for plotting in base R\n“edit”: options useful for data cleansing and saving\n“desc”: descriptive statistics of data\n“ttest”: distinct types of t-test\n“aov”: distinct analysis of variance models\n“lm”: linear and logistic regression\n“lmem”: linear mixed effects models\nExtras:\n“subset”: make subsets of a DF\n“read”: read/load/install data/packages into R\n“save”: save plots, dfs, tables, etc.\n“tikz”: template for creating R plots in LaTeX\n\n\n\n",
+    "preview": "code/snippets_rsnippets/featured.png",
+    "last_modified": "2021-02-20T23:29:00-05:00",
+    "input_file": {},
+    "preview_width": 1528,
+    "preview_height": 448
+  }
+]

@@ -1,0 +1,36 @@
+```{r, results='asis', echo=FALSE, eval=TRUE}
+print(bib[key = "CasillasICPhS2019article"])
+```
+
+<!-- START METADATA -->
+<div style="text-indent:.25em;margin-top:-1em" align="left">
+( <a alt="ICPHS2019" href="https://www.jvcasillas.com/immersion_stop_production_semantic_processing/docs/manuscript_beginners/icphs_2019/manuscript/master.pdf" target='_new'><span class="showtooltip" title="Read paper">Link</span></a> |
+<button class="button mybutton" onclick="myFunction('CasillasICPhS2019Abstract')">Abstract</button> |
+<button class="button mybutton" onclick="myFunction('CasillasICPhS2019Bib')">Bib</button> )
+
+<div id="CasillasICPhS2019Abstract" style="display:none;margin-left:2em;text-indent:0em">
+<p class="minip">The present work explored the initial stages of adult L2 
+learning with a focus on the acquisition of the target language sound system. 
+Specifically, the study analyzed the development of Spanish stop voicing in an 
+immersion learning context in which L1 use was minimal and L2 input was 
+maximized. Native English speaking learners of Spanish and bilinguals provided 
+production data that were analyzed using Bayesian multilevel models. The 
+analyses included a pre/post program evaluation of stop voicing in a delayed 
+shadowing task, as well as a comparison with the participants' post-program 
+production in a task that required semantic processing. The analyses revealed 
+phonetic learning for stop voicing over the course of the program, though 
+production gains diminished when the task required semantic processing. The 
+results suggest L2 phonetic category formation can occur at an early stage of 
+development, but L2 phonetic representations are unstable during initial 
+stages of learning.</p>
+</div>
+
+<div id="CasillasICPhS2019Bib" style="display:none" class="minip">
+
+```{r, echo=FALSE, comment='', eval=TRUE}
+toBiblatex(bib[key = "CasillasICPhS2019article"], .opts = list(style = "html"))
+```
+
+</div>
+</div> 
+<!-- END METADATA -->
