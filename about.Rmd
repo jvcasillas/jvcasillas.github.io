@@ -51,6 +51,17 @@ h4 {
   border-radius: 10px;
 }
 
+.p-3 {
+  vertical-align: middle;
+  padding: 1.5rem!important;
+  box-sizing: border-box;
+}
+
+.p-3 img {
+  // border: 1px solid black;
+  border-radius: 50%!important;
+}
+
 ```
 
 ```{r, printing-fuctions, echo=F}
