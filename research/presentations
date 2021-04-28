@@ -4,6 +4,14 @@
 <span class="tempTimes">
 
 ```{r, results='asis', echo=FALSE, eval=TRUE, cache=FALSE}
+print(bib[key = "sagarra_casillas_eurosla_2021"])
+```
+
+```{r, results='asis', echo=FALSE, eval=TRUE, cache=FALSE}
+print(bib[key = "lozano_sagarra_casillas_isbpac_2021"])
+```
+
+```{r, results='asis', echo=FALSE, eval=TRUE, cache=FALSE}
 print(bib[key = "casillas_dpbe_CASPSLAP2020"])
 ```
 

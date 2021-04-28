@@ -53,7 +53,7 @@ d-article a:hover {
 
 <!-- 
 Updating the bib:
-    - must update by hand the file publicationsCVclean.bib in mybib repo
+    - must update by hand the file publications_html.bib in mybib repo
     - once updated, below code downloads current version and loads into R
     - must reference relevant article in relevant pane (publications or presentations)
 Afterwards, update the following:

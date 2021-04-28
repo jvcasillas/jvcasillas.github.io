@@ -4,11 +4,7 @@
 **In press**
 
 ```{r, results='asis', echo=FALSE, eval=TRUE}
-print(bib[key = "casillas_dpbe_l2_2020"])
-```
-
-```{r, results='asis', echo=FALSE, eval=TRUE}
-print(bib[key = "SagarraLozanoCasillas_blc2019"])
+print(bib[key = "jimenez_casillas_trans_processing_2021"])
 ```
 
 **Recent Publications**
@@ -16,10 +12,13 @@ print(bib[key = "SagarraLozanoCasillas_blc2019"])
 ```{r, child='./pub_assets/casillas_perfomance_mismatches_2021', cache=F}
 ```
 
+```{r, child='./pub_assets/casillas_dpbe_l2_2020', cache=F}
+```
+
 ```{r, child='./pub_assets/CasillasProdStops_ll2020', cache=F}
 ```
 
-```{r, child='./pub_assets/SagarraLozanoCasillas_blc2019', cache=F, eval=F}
+```{r, child='./pub_assets/SagarraLozanoCasillas_blc2019', cache=F, eval=T}
 ```
 
 ```{r, child='./pub_assets/CasillasProdPercStops', cache=F}
@@ -72,11 +71,15 @@ print(bib[key = "SagarraLozanoCasillas_blc2019"])
 **Submitted**
 
 ```{r, results='asis', echo=FALSE, eval=TRUE}
-print(bib[key = "jimenez_casillas_trans_processing_2021"])
+print(bib[key = "coretta_casillas_roettger_many_analyses"])
 ```
 
 
 **In preparation**
+
+```{r, results='asis', echo=FALSE, eval=TRUE}
+print(bib[key = "Casillas_et_al_empathy_intonation"])
+```
 
 ```{r, results='asis', echo=FALSE, eval=TRUE}
 print(bib[key = "CasillasProdSemantic"])
