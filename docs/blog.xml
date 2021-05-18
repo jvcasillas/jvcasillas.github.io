@@ -12,7 +12,21 @@
       <link>https://www.jvcasillas.com</link>
     </image>
     <generator>Distill</generator>
-    <lastBuildDate>Sun, 16 Sep 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 16 May 2021 00:00:00 +0000</lastBuildDate>
+    <item>
+      <title>Exploring phonemic boundaries using logistic regression</title>
+      <dc:creator>Joseph V. Casillas</dc:creator>
+      <link>https://www.jvcasillas.com/posts/2021-05-15_logistic_regression_and_phonemic_boundaries</link>
+      <description>In this post I show how to use logistic regression to get interesting info 
+about bilinguals in a two-alternative forced choice task.</description>
+      <category>stats</category>
+      <category>glm</category>
+      <category>bilinguals</category>
+      <category>double phonemic boundary</category>
+      <guid>https://www.jvcasillas.com/posts/2021-05-15_logistic_regression_and_phonemic_boundaries</guid>
+      <pubDate>Sun, 16 May 2021 00:00:00 +0000</pubDate>
+      <media:content url="https://www.jvcasillas.com/posts/2021-05-15_logistic_regression_and_phonemic_boundaries/2021-05-15_logistic_regression_and_phonemic_boundaries_files/figure-html5/sigmoids-1.png" medium="image" type="image/png" width="1248" height="768"/>
+    </item>
     <item>
       <title>Setting up a whisper room sound booth</title>
       <dc:creator>Joseph V. Casillas</dc:creator>
@@ -55,18 +69,6 @@
       <guid>https://www.jvcasillas.com/posts/2015-06-16_google_sheets_in_r</guid>
       <pubDate>Tue, 16 Jun 2015 00:00:00 +0000</pubDate>
       <media:content url="https://www.jvcasillas.com/posts/2015-06-16_google_sheets_in_r/assets/img/data.png" medium="image" type="image/png" width="967" height="1575"/>
-    </item>
-    <item>
-      <title>Data pipelines in R</title>
-      <dc:creator>Joseph V. Casillas</dc:creator>
-      <link>https://www.jvcasillas.com/posts/2015-05-18_data_pipelines</link>
-      <description>What button do I press to learn the truth?</description>
-      <category>r</category>
-      <category>research</category>
-      <category>workflow</category>
-      <guid>https://www.jvcasillas.com/posts/2015-05-18_data_pipelines</guid>
-      <pubDate>Mon, 18 May 2015 00:00:00 +0000</pubDate>
-      <media:content url="https://www.jvcasillas.com/posts/2015-05-18_data_pipelines/assets/img/pipeline1.png" medium="image" type="image/png" width="16298" height="3862"/>
     </item>
   </channel>
 </rss>
