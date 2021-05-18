@@ -1,0 +1,546 @@
+---
+title: "Exploring phonemic boundaries using logistic regression"
+description: |
+  In this post I show how to use logistic regression to get interesting info 
+  about bilinguals in a two-alternative forced choice task. 
+date: 05-16-2021
+author:
+  - name: Joseph V. Casillas 
+    url: https://www.jvcasillas.com
+    affiliation: Rutgers University
+    affiliation_url: https://www.rutgers.edu
+base_url: https://www.jvcasillas.com
+categories: [stats, glm, bilinguals, double phonemic boundary]
+twitter:
+  creator: "@jvcasill"
+output:
+  distill::distill_article:
+    self_contained: false
+    code_folding: false
+    highlight: haddock
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(collapse = TRUE, fig.retina=2)
+
+library("ggplot2")    # Plotting
+library("dplyr")      # Data wrangling
+library("tidyr")      # Data wrangling
+library("purrr")      # Iteration on lists
+library("lme4")       # Model fitting
+library("AICcmodavg") # Model preds
+```
+
+This post is about phonemic boundaries. 
+Imagine we are interested in understanding stop voicing distinctions in English/Spanish bilinguals. 
+English and Spanish have the same stop voicing contrasts at bilabial (/b, p/), coronal (/d, t/), and velar (/g, k/) place, but the phonetic realizations differ in a variety of ways. 
+We will focus on voice-onset time (VOT). 
+English has contrasts between lag stops (short-lag vs. long-lag VOT) and Spanish is a true voicing language, i.e., the contrasts are between phonetically voiced and short-lag stops. 
+
+```{r, 'stops', echo=F}
+tribble(
+  ~"Language", ~"Stops", ~"Phonetic realization", 
+   "English",   "/bdg/",  "short-lag VOT", 
+   " "      ,   "/ptk/",  "long-lag VOT", 
+   "Spanish",   "/bdg/",  "lead VOT", 
+   " "      ,   "/ptk/",  "short-lag VOT"
+) %>% 
+  gt::gt()
+```
+
+
+For an adult English speaker that wants to learn Spanish, one difficulty they encounter is related to VOT, that is, they have to learn the VOT patterns of Spanish, which differ from those of English. 
+As a method of assessing phonological learning in second language acquisition (SLA), we might be interested in knowing if the boundary between a voiced/voiceless pair is different in English than in Spanish for a group of individuals who learned Spanish as adults. 
+
+One way researchers do this is by (re)synthesizing acoustic stimuli to create a VOT continuum and then asking learners to categorize the sounds. 
+What we typically see is that for one end of the continuum all the stimuli are categorized as being 'voiced' and then at some point there is a shift to 'voiceless'. 
+Where this shift occurs is what we are after in this post. 
+
+```{r, sigmoids, echo=F, layout="l-body-outset"}
+# Logistic function 
+log_fun <- function(x, shift = 1) {
+  y <- exp(x) / (shift + exp(x))
+  return(y)
+}
+
+# Plot labels stored in tibble
+sigmoid_text <- tibble::tibble(
+  x = c(3.0, -3.0), y = c(0.65, 0.65), 
+  info = c("English-like\nphonemic boundary", 
+           "Spanish-like\nphonemic boundary\nshifted to the left"), 
+  labs = c("English", "Spanish")
+)
+
+# Create logistic function plot
+ggplot(data.frame(x = c(-6, 6)), aes(x = x)) + 
+  geom_hline(yintercept = 0.5, lty = 3) + 
+  stat_function(fun = log_fun, color = "grey60", size = 1.5, 
+                args = list(shift = 1.2)) +
+  stat_function(fun = log_fun, args = list(shift = 3), 
+                color = "darkblue", size = 1.5) + 
+  geom_text(data = sigmoid_text, aes(y = y, label = info, color = labs), 
+            hjust = 0, show.legend = F, size = 3, family = "Times") + 
+  scale_color_manual(values = c("darkblue", "grey40")) + 
+  scale_x_continuous(breaks = seq(-6, 6, 2), labels = seq(-60, 60, 20)) + 
+  labs(x = "VOT (ms)", y = "P(response = /p/)") + 
+  ds4ling::ds4ling_bw_theme(base_family = "Times", base_size = 10)
+```
+
+The shift usually occurs further to the left for Spanish speakers than for English speakers, which is a consequence of the phonetic nature of the voicing contrasts, i.e., lead vs. short-lag (Spanish) or short-lag vs. long-lag (English). 
+So, for an adult English speaker that is proficient in Spanish, one might expect different identification functions depending on which language they are identifying, Spanish or English. 
+
+In this post I am going to simulate data from this type of experiment and analyze them in a variety of ways. 
+One fun detail, the experimental design assumes that the participants are always identifying the same stimuli, but we will tell them that they are hearing a different language, Spanish or English, in different experimental sessions. 
+
+<aside>
+There are a series of experiments that do this. 
+I won't go into more detail here, but check out XXX, XXX and XXX. 
+</aside>
+
+These are the packages I will be using: 
+
+```{r, load-libs, eval=F}
+library("dplyr")      # Data wrangling
+library("tidyr")      # Data wrangling
+library("purrr")      # Iteration on lists
+library("lme4")       # Model fitting
+library("AICcmodavg") # Model preds
+library("ggplot2")    # Plotting
+```
+
+## Getting data
+
+The first thing we need to do is get some data. 
+In this post I am going to simulate data that is similar to the output you would get from a two-alternative forced choice (2AFC) task, but before we simulate we need to discuss the experimental paradigm a bit so that everything makes sense. 
+
+A 2AFC task is quite simple. 
+The participant is presented something---in this case auditory stimuli---and then make a binary decision about it. 
+
+<aside>
+You can see code and examples of this type of task in python [here](). 
+</aside>
+
+In this particular hypothetical experiment participants are presented stimuli that is randomly drawn from a VOT continuum ranging from -60 to 60 ms in 10 ms steps (that's 13 steps total). 
+We will present the entire continuum 15 times, so each participant will provide `r 13 * 15` responses. 
+This would be an extremely boring experiment, but that's another discussion. 
+We will assume the experiment is given in two sessions, a Spanish session and an English session. 
+The only difference between sessions is that the participants will be told that they are going to categorize English stimuli in the English session and Spanish stimuli in the Spanish session. 
+That is, the actual continuum of stimuli they hear is **exactly the same**. 
+Tricky, right?
+
+<aside>
+The crucial question here is whether or not proficient adult language learners adjust their perceptual boundaries based on their underlying expectations about the language. 
+It turns out they do! 
+See [here](). 
+</aside>
+
+
+We will simulate data for 25 participants, and two language sessions (or language modes), English and Spanish. 
+If you're doing the math, that is 25 participant $\times$ 13 steps $\times$ 15 item repetitions $\times$ 2 language modes, which gives us a data set with a grand total of `r 25 * 13 * 15 * 2` responses (i.e., `r 25 * 13 * 15 * 2` rows in the dataframe). 
+(Note: If you aren't interested in the whole simulation process just skip to the next section.)
+
+## Specifying the model
+
+Our criterion is binary (0/1) responses. 
+Specifically, this refers to whether the participant responds 'voiced' (0) or 'voiceless' (1) to each pull from the VOT continuum. 
+For this reason we will simulate from the binomial distribution. 
+Our model will look something like this: 
+
+$$
+\begin{aligned}
+response_{i} \sim & \ Binomial(p_{i}, m_{i}) \\
+logit(p_{i}) = & \ \beta_{0} + \beta_{1} * VOT_{1} + \beta_{2} * I_{(language_{i} = Spanish)2} + \beta_{3} * VOT_{1} * I_{2}
+\end{aligned}
+$$
+
+...where we analyze the log odds of 'voiceless' responses as a function of VOT, i.e., the step in the continuum, language mode (if they think they are hearing English or Spanish) and the interaction between the two. 
+
+```{r, sim-setup}
+# Set seed for reproducibility
+set.seed(20210514)
+
+# dataframe params
+n_ids       <- 25
+n_steps     <- 13
+n_lang      <- 2
+n_item_reps <- 15
+
+# Set up dataframe
+id        <- rep(glue::glue("id_{1:n_ids}"), each = n_steps * n_lang)
+vot       <- rep(seq(-60, 60, 10), times = n_ids * n_lang)
+language  <- rep(c("English", "Spanish"), each = n_steps, times = n_ids)
+dat       <- data.frame(id, vot, language, n_item_reps)
+
+# Model params
+b0          <- -1.10 # intercept
+b1          <-  0.09 # slope VOT
+b2          <-  0.80 # language effect
+b12         <- -0.01 # slope adj. for Spanish
+id_var      <-  0.20 # id variability
+step_var    <-  0.50 # step variability
+lang_var    <-  0.11 # lang variability
+
+# Simulate random effects
+id_eff   <- rep(rnorm(n = n_ids, mean = 0, sd = id_var), each = n_steps * n_lang)
+step_eff <- replicate(n = n_ids, rep(rnorm(n_steps, 0, step_var), times = n_lang), 
+              simplify = F) %>% 
+            unlist()
+
+# Get log odds from linear predictor and convert to probability
+log_odds <- b0 + 
+            b1 * vot + 
+            b2 * (language == "Spanish") + 
+            b1 * vot * b12 * (language == "Spanish") + 
+            id_eff + step_eff 
+prop     <- plogis(log_odds)
+
+# Generate binomial responses
+dat$response <- rbinom(n = n_ids * n_steps * n_lang, size = n_item_reps, prob = prop)
+
+# Expand binomial responses to binary
+dat_long <- dat %>%
+  nest(data = c(response, n_item_reps)) %>%
+  mutate(response = map(data, ~c(rep(1, .x$response),
+                                 rep(0, .x$n_item_reps - .x$response)))) %>%
+  select(-data) %>%
+  unnest(response) %>% 
+  group_by(id, vot, language) %>% 
+  mutate(item_rep = seq_along(vot)) %>% 
+  ungroup() %>% 
+  mutate(item_rep = (item_rep - mean(item_rep)) / sd(item_rep), 
+         vot_std = (vot - mean(vot)) / sd(vot))
+  
+```
+
+Here is what the output of one block of the experiment for one participant looks like: 
+
+```{r, show-data-frame}
+dat_long %>% 
+  filter(item_rep == 0) %>% 
+  select(-item_rep, -vot_std) %>% 
+  head(., 13) %>% 
+  gt::gt()
+```
+
+Looks good. 
+Now we are ready to fit the model. 
+
+## Omnibus logistic regression model
+
+As mentioned above, our data is binary, so we will fit a multilevel logistic regression model. 
+A key part here is the random effects structure, which will allow us to do some interesting individual differences analyses post-hoc. 
+
+```{r, partial-pooling-model, eval=F}
+# Fit partial pooling model
+mod <- glmer(
+  formula = response ~ vot_std * language + 
+    (1 | id) + 
+    (1 + vot_std + item_rep | id:language), 
+  control = glmerControl(optimizer = "bobyqa", optCtrl = list(maxfun = 2e6)), 
+  family = binomial(link = "logit"), 
+  data = dat_long
+  )
+```
+
+```{r, save-mod, echo=F, eval=F}
+saveRDS(mod, file = here::here("_posts", "2021-05-15_logistic_regression_and_phonemic_boundaries", "pp_mod.rds"))
+```
+
+
+```{r, mod-table, echo=F}
+mod <- readRDS("pp_mod.rds")
+sjPlot::tab_model(mod, transform = NULL)
+```
+
+We won't focus on interpreting the output. 
+Instead let's use the model to generate predictions and plot those. 
+
+```{r, model-preds, layout="l-body-outset"}
+# Setup new dataframe to predict on
+new_dat <- select(dat, -n_item_reps, -response) %>% 
+  mutate(vot_std = (vot - mean(vot)) / sd(vot))
+
+# Get model predictions and SE
+fits <- predictSE(mod, new_dat) %>%
+  as_tibble %>%
+  mutate(ymin = fit - se.fit, ymax = fit + se.fit) %>%
+  bind_cols(new_dat) 
+
+# Plot it
+p_sigmoids <- fits %>% 
+  ggplot(., aes(x = vot_std, y = fit, color = language, fill = language)) + 
+    geom_ribbon(aes(ymax = ymax, ymin = ymin), 
+      alpha = 0.2, color = NA, show.legend = F) +
+    geom_line(size = 0.75) + 
+    geom_point(color = "white", stroke = 1.5, size = 4, pch = 21) + 
+    geom_jitter(data = dat_long, 
+      width = 0.2, height = 0.01, alpha = 0.02, pch = 21, 
+      aes(x = vot_std, 
+        y = if_else(response == 1, response + 0.05, response - 0.05))) + 
+    labs(y = "P(response = /p/)", x = "VOT (ms)") + 
+    scale_y_continuous(breaks = seq(0, 1, 0.25)) + 
+    scale_x_continuous(breaks = unique(fits$vot_std)[c(TRUE, FALSE)], 
+      labels = seq(-60, 60, 20)) + 
+    scale_fill_viridis_d(name = NULL, end = 0.8) + 
+    scale_color_viridis_d(name = NULL, end = 0.8) + 
+    ds4ling::ds4ling_bw_theme() + 
+    theme(legend.position = c(0.1, 0.87))
+
+p_sigmoids
+```
+
+Cool. 
+We can see that in our simulated data the Spanish sigmoid function is shifted to the left with regard to the English sigmoid function. 
+This equates to more 'voiceless' responses when the participants believe they are hearing Spanish. 
+
+### Category boundaries
+
+One way this literature has assessed categorical perception in bilinguals is by calculating and comparing the 50% cross over point for each language. 
+This is the point where the probability of responding 'voiceless' is exactly 0.5. 
+If we just eyeball the plot above, we can guess that this is around -5 ms for Spanish and around 13 ms for English, but we can do better than just eyeballing it. 
+We will use the following formula to calculate the boundary, which we'll just call the "crossover" (CO), between /b-p/ for each language session: 
+
+$$
+CO_{En} = \frac{\beta_{0}}{\beta_{1}} * -1
+$$
+
+This means, for English, we can calculate the 50% crossover by dividing the intercept by the slope for VOT and multiplying by -1. 
+In case it's not clear, `intercept` and `slope` refer to the fixed effect parameters we just estimated in the model. 
+We can grab those estimates using `fixef`. 
+
+```{r, coef-ex}
+fixef(mod)
+```
+
+The `fixef` function returns a vector containing the parameter estimates. 
+Since English is the reference level, we just need the first two elements of the vector and we can calculate the boundary like this: 
+
+```{r, en-boundary}
+en_co <- (fixef(mod)[1] / fixef(mod)[2]) * -1
+en_co
+```
+
+So the boundary is at `r round(fixef(mod)[1] / fixef(mod)[2] * -1, 3)` standard deviations above the mean (0). 
+We can make this value easier to interpret by back-transforming to milliseconds. 
+We do this by adding the mean of the original VOT vector of the dataframe and  multiplying by the standard deviation:
+
+```{r, back-transform}
+# Calculate En CO in ms (note the mean is 0, so we could skip that)
+(en_co + mean(dat_long$vot)) * sd(dat_long$vot)
+```
+
+So the English boundary is at about 12.17 ms (my guess was pretty close!). 
+Let's calculate the boundary for Spanish and plot them: 
+
+```{r, sp-boundary}
+# Add language effect on the intercept and slope adj for language == Spanish
+sp_co <- (fixef(mod)[1] + fixef(mod)[3]) / (fixef(mod)[2] + fixef(mod)[4]) * -1
+sp_co
+```
+
+```{r, add-co-to-plot, layout="l-body-outset"}
+# Create tibble with boundaries and text
+co_text <- tribble(
+  ~'vot_std', ~'fit', ~'language', ~'text', 
+  -1.6, 0.5, "Spanish", paste0("Spanish boundary = ", round(sp_co * sd(dat_long$vot), 2), " ms"), 
+   0.6, 0.5, "English", paste0("English boundary = ", round(en_co * sd(dat_long$vot), 2), " ms")
+)
+
+# Add to base plot
+p_sigmoids + 
+  geom_vline(xintercept = c(en_co, sp_co), lty = 3) + 
+  geom_text(data = co_text, aes(label = text), 
+            hjust = 0, size = 4, family = "Times") 
+
+```
+
+### Contrast coefficient slopes
+
+Another way we can assess how the acoustic stimuli are categorized is by looking at the slope of the sigmoid functions at the category boundary (i.e., the 50% crossover point). 
+We do this by calculating the contrast coefficient slope (CCS). 
+Essentially the CCS in the logistic space is related to the slope of the sigmoid function and represents the rate of change from one category to another (i.e., from /b/ to /p/ in our case) in the probability space. 
+
+Morrison (2007) describes CCSs as "indicators of the crispness of the boundary between the two categories" (p. 232). 
+Native speakers typically have crisp boundaries between categories, whereas non-native speakers can have "fuzzier" boundaries for a number of reasons. 
+
+I will spare you the calculus, but in a few words the CCS in the probability space is the partial derivative of the slope of the sigmoid function at its steepest point. 
+Conveniently, the steepest value of the slope in the binomial case is when the probability of the criterion is 0.5, i.e., at the crossover boundary. 
+We can calculate the CCS by multiplying the slope of the continuous measure by 0.25:
+
+$$
+CCS_{En} = \beta_{VOT} * 0.25
+$$
+
+So for English, the CCS is calculated as: 
+
+```{r, ccs-en}
+en_ccs <- fixef(mod)[2] * 0.25
+en_ccs
+```
+
+This means that when the the probability of responding 'voiceless' is 0.5, the slope of the sigmoid for English is `r en_ccs %>% round(., 2)` in the probability space. 
+We can calculate this for both languages and plot the lines: 
+
+```{r, plot-ccs, layout="l-body-outset"}
+sp_ccs <- (fixef(mod)[2] + fixef(mod)[4]) * 0.25
+
+ccs_text <- tribble(
+  ~'vot_std', ~'fit', ~'language', ~'text', 
+  -1.2, 0.5, "Spanish", paste0("Spanish CCS = ", round(sp_ccs, 2)), 
+   0.6, 0.5, "English", paste0("English CCS = ", round(en_ccs, 2))
+)
+
+p_sigmoids + 
+  geom_abline(intercept = 0.5 - en_ccs * en_co, slope = en_ccs, lty = 2) + 
+  geom_abline(intercept = 0.5 - sp_ccs * sp_co, slope = sp_ccs, lty = 2) + 
+  geom_text(data = ccs_text, aes(label = text), 
+            hjust = 0, size = 4, family = "Times") 
+```
+
+As you can see, the two category boundaries are 'crisp' in both cases. 
+This is because I simulated the data to be this way, but this leads us to more interesting territory... we can explore crossover boundaries and contrast coefficient slopes for individuals. 
+Perhaps we are interested in 50% crossover differences as a function of language dominance, or boundary crispness as a function of proficiency. 
+We'll look at a few ways to do that now.
+
+## Individual differences
+
+There are at least 2 ways to calculate 50% crossover boundaries and contrast coefficient slopes for individual participants. 
+One method is to use the random effects from the omnibus model we fit above (i.e., `mod`). 
+Another method is fit a logistic regression to the data of each participant. 
+I'll go with this no-pooling method, but one should certainly give careful thought to both methods and decide which makes the most sense for the research questions of interest. 
+
+We can easily fit a model to each individual using the `lmList` function from the `lme4` package: 
+
+```{r, no-pooling}
+# Fit no pooling model(s)
+no_pool_full <- lmList(response ~ vot_std * language + item_rep | id, family = "binomial", 
+  data = as.data.frame(dat_long))
+```
+
+I'll use the `coef` and `head` functions to take a peak at the structure of the resulting object. 
+
+```{r, no-pool-peak}
+coef(no_pool_full) %>% head
+```
+
+Nice!
+With a little bit of wrangling and the formulas we looked at previously, we can calculate the CO and CCS of each individual for English and Spanish.
+
+```{r, calculate-crossovers}
+id_diffs <- no_pool_full %>% 
+  coef() %>% 
+  as_tibble() %>% 
+  transmute(
+    id = rownames(coef(no_pool_full)), 
+    int_English = `(Intercept)`, 
+    vot_English = vot_std, 
+    int_Spanish = int_English + languageSpanish, 
+    vot_Spanish = vot_English + `vot_std:languageSpanish`, 
+    co_English  = int_English / vot_English * -1, 
+    co_Spanish  = int_Spanish / vot_Spanish * -1, 
+    ccs_English = vot_English * 0.25, 
+    ccs_Spanish = vot_Spanish * 0.25) %>% 
+  select(-vot_English, -vot_Spanish) %>% 
+  pivot_longer(
+    cols = -id, 
+    names_to = c(".value", "language"), 
+    names_sep = "_"
+    ) %>% 
+  mutate(co_ms = co * sd(dat_long$vot))
+
+head(id_diffs)
+```
+
+Now we are ready to make some plots. 
+
+```{r, co-plot1, layout="l-body-outset"}
+# COs
+p_co <- id_diffs %>% 
+  ggplot(., aes(x = co_ms, y = language)) + 
+    geom_jitter(width = 0.1, height = 0.2, alpha = 0.5, pch = 16) + 
+    stat_summary(fun.data = mean_sdl, geom = "pointrange", pch = 21, 
+      fill = "white", size = 1.2, fun.args = list(mult = 1)) + 
+    labs(y = "Language", x = "Crossover boundary (ms)", caption = "") + 
+    ds4ling::ds4ling_bw_theme()
+
+# CCSs
+p_ccs <- id_diffs %>% 
+  ggplot(., aes(x = ccs, y = language)) + 
+    geom_jitter(width = 0.1, height = 0.2, alpha = 0.5, pch = 16) + 
+    stat_summary(fun.data = mean_sdl, geom = "pointrange", pch = 21, 
+      fill = "white", size = 1.2, fun.args = list(mult = 1)) + 
+    labs(y = NULL, x = "Contrast coefficient slopes", caption = "Mean +/- SD") + 
+    ds4ling::ds4ling_bw_theme() + 
+    theme(axis.text.y = element_blank())
+
+p_co + p_ccs
+
+```
+
+We can also plot the sigmoids of individuals along with the 50% crossovers. 
+Let's find the individuals with the largest and smallest differences between English and Spanish boundaries, plus 8 more at random. 
+
+```{r, co-plot2, layout="l-page", fig.retina=2}
+# Calculate boundary diffs
+co_diffs <- id_diffs %>% 
+  select(id, language, co) %>% 
+  pivot_wider(names_from = language, values_from = co) %>% 
+  mutate(diff = English - Spanish) 
+
+# Find smallest and largest diffs
+co_min_max <- c(
+  slice_max(co_diffs, diff, n = 1) %>% pull(id), 
+  slice_min(co_diffs, diff, n = 1) %>% pull(id)
+)
+
+# Vector of min, max, plus 8 random subjects
+n_10 <- c(
+  co_min_max, 
+  filter(dat_long, (!id %in% co_min_max)) %>% 
+  distinct(id) %>% 
+  sample_n(8) %>% pull
+)
+
+# Use diff column to order from smallest to largest
+ordered_10 <- co_diffs %>% 
+  filter(id %in% n_10) %>% 
+  arrange(diff) %>% 
+  pull(id)
+
+co_base <- dat_long %>% 
+  filter(id %in% n_10) %>% 
+  mutate(id = forcats::fct_relevel(id, ordered_10)) %>% 
+  ggplot(., aes(x = vot_std, y = response, color = language)) + 
+    facet_wrap(~id, nrow = 2) + 
+    geom_jitter(width = 0.2, height = 0.01, alpha = 0.1, pch = 21, size = 0.6, 
+      aes(y = if_else(response == 1, response + 0.05, response - 0.05))) + 
+    geom_smooth(method = "glm", method.args = list(family = "binomial"), 
+      formula = "y ~ x", se = F) + 
+    labs(y = "P(response = /p/)", x = "VOT (ms)") + 
+    scale_y_continuous(breaks = seq(0, 1, 0.25)) + 
+    scale_x_continuous(breaks = unique(fits$vot_std)[c(TRUE, FALSE, FALSE)], 
+      labels = seq(-60, 60, 30)) + 
+    scale_fill_viridis_d(name = NULL, end = 0.8) + 
+    scale_color_viridis_d(name = NULL, end = 0.8) + 
+    ds4ling::ds4ling_bw_theme(base_family = "Times", base_size = 10) + 
+    theme(legend.position = "bottom")
+
+co_base + 
+  geom_vline(
+    data = filter(id_diffs, id %in% n_10) %>% 
+      mutate(id = forcats::fct_relevel(id, ordered_10)), 
+    aes(xintercept = co, color = language), lty = 2, show.legend = F)
+
+co_base + 
+  geom_abline(
+    data = filter(id_diffs, id %in% n_10) %>% 
+      mutate(id = forcats::fct_relevel(id, ordered_10)),
+    aes(intercept = 0.5 - co * ccs, slope = ccs, color = language), lty = 2, 
+    show.legend = F)
+```
+
+
+
+<!--
+Morrison G (2007) Logistic regression modeling for first- and second-language perception data. In: Solé M-J, Prieto P, and Mascaró J (eds) Segmental and prosodic issues in Romance phonology. Amsterdam: John Benjamins, 219–36.
+-->
