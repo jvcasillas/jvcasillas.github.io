@@ -31,6 +31,8 @@ library("lme4")       # Model fitting
 library("AICcmodavg") # Model preds
 ```
 
+## A bit of background
+
 This post is about phonemic boundaries. 
 Imagine we are interested in understanding stop voicing distinctions in English/Spanish bilinguals. 
 English and Spanish have the same stop voicing contrasts at bilabial (/b, p/), coronal (/d, t/), and velar (/g, k/) place, but the phonetic realizations differ in a variety of ways. 
@@ -67,7 +69,7 @@ log_fun <- function(x, shift = 1) {
 sigmoid_text <- tibble::tibble(
   x = c(3.0, -3.0), y = c(0.65, 0.65), 
   info = c("English-like\nphonemic boundary", 
-           "Spanish-like\nphonemic boundary\nshifted to the left"), 
+           "Spanish-like\nphonemic boundary"), 
   labs = c("English", "Spanish")
 )
 
@@ -79,7 +81,7 @@ ggplot(data.frame(x = c(-6, 6)), aes(x = x)) +
   stat_function(fun = log_fun, args = list(shift = 3), 
                 color = "darkblue", size = 1.5) + 
   geom_text(data = sigmoid_text, aes(y = y, label = info, color = labs), 
-            hjust = 0, show.legend = F, size = 3, family = "Times") + 
+            hjust = 0, show.legend = F, size = 4, family = "Times") + 
   scale_color_manual(values = c("darkblue", "grey40")) + 
   scale_x_continuous(breaks = seq(-6, 6, 2), labels = seq(-60, 60, 20)) + 
   labs(x = "VOT (ms)", y = "P(response = /p/)") + 
@@ -94,10 +96,10 @@ One fun detail, the experimental design assumes that the participants are always
 
 <aside>
 There are a series of experiments that do this. 
-I won't go into more detail here, but check out XXX, XXX and XXX. 
+I won't go into more detail here, but check out [Gonzales et. al (2019)](https://doi.org/10.1016/j.cognition.2018.08.021), and [Lozano et. al (2020)](https://doi.org/10.1017/S0272263120000273) for recent examples. 
 </aside>
 
-These are the packages I will be using: 
+These are the packages I will primarily be using: 
 
 ```{r, load-libs, eval=F}
 library("dplyr")      # Data wrangling
@@ -117,7 +119,7 @@ A 2AFC task is quite simple.
 The participant is presented something---in this case auditory stimuli---and then make a binary decision about it. 
 
 <aside>
-You can see code and examples of this type of task in python [here](). 
+You can see code and examples of this type of task in python [here](https://osf.io/g6dcu/). 
 </aside>
 
 In this particular hypothetical experiment participants are presented stimuli that is randomly drawn from a VOT continuum ranging from -60 to 60 ms in 10 ms steps (that's 13 steps total). 
@@ -125,19 +127,19 @@ We will present the entire continuum 15 times, so each participant will provide 
 This would be an extremely boring experiment, but that's another discussion. 
 We will assume the experiment is given in two sessions, a Spanish session and an English session. 
 The only difference between sessions is that the participants will be told that they are going to categorize English stimuli in the English session and Spanish stimuli in the Spanish session. 
-That is, the actual continuum of stimuli they hear is **exactly the same**. 
+Importantly, the actual continuum of stimuli they hear is **exactly the same**. 
 Tricky, right?
 
 <aside>
 The crucial question here is whether or not proficient adult language learners adjust their perceptual boundaries based on their underlying expectations about the language. 
 It turns out they do! 
-See [here](). 
+Here is second shameless plug for the [Lozano et. al (2020)](https://doi.org/10.1017/S0272263120000273) paper. `r emojifont::emoji("smile")`
 </aside>
 
 
 We will simulate data for 25 participants, and two language sessions (or language modes), English and Spanish. 
-If you're doing the math, that is 25 participant $\times$ 13 steps $\times$ 15 item repetitions $\times$ 2 language modes, which gives us a data set with a grand total of `r 25 * 13 * 15 * 2` responses (i.e., `r 25 * 13 * 15 * 2` rows in the dataframe). 
-(Note: If you aren't interested in the whole simulation process just skip to the next section.)
+If you're doing the math, that is 25 participants $\times$ 13 steps $\times$ 15 item repetitions $\times$ 2 language modes, which gives us a data set with a grand total of `r 25 * 13 * 15 * 2` responses (i.e., `r 25 * 13 * 15 * 2` rows in the dataframe). 
+(Note: If you aren't interested in the whole simulation process just skip the next section.)
 
 ## Specifying the model
 
@@ -212,6 +214,15 @@ dat_long <- dat %>%
   
 ```
 
+The code above simulates the data set. 
+I won't go into detail about how it works (maybe for another post), but I do want to point out two things: 1) I've added an `item_rep` variable to keep track of what repetition (out of 15) a given response comes from, and 2) I have standardized `vot` (`vot_std`) and `item_rep` in order to improve computational efficiency of the model. 
+It will be important to keep this in mind when we begin analyzing and plotting the results. 
+
+<aside>
+These models are notoriously slow in `lme4` and often have convergence issues. 
+I normally work in a Bayesian framework, so I might update this at some point. 
+</aside>
+
 Here is what the output of one block of the experiment for one participant looks like: 
 
 ```{r, show-data-frame}
@@ -225,9 +236,10 @@ dat_long %>%
 Looks good. 
 Now we are ready to fit the model. 
 
-## Omnibus logistic regression model
+## Multilevel logistic regression model
 
-As mentioned above, our data is binary, so we will fit a multilevel logistic regression model. 
+As mentioned above, our data is binary and we have repeated measures. 
+We will fit a multilevel logistic regression model to account for nesting in the data. 
 A key part here is the random effects structure, which will allow us to do some interesting individual differences analyses post-hoc. 
 
 ```{r, partial-pooling-model, eval=F}
