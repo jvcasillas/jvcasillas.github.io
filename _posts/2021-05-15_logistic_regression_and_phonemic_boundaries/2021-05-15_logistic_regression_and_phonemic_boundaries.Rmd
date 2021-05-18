@@ -177,7 +177,7 @@ dat       <- data.frame(id, vot, language, n_item_reps)
 b0          <- -1.10 # intercept
 b1          <-  0.09 # slope VOT
 b2          <-  0.80 # language effect
-b12         <- -0.01 # slope adj. for Spanish
+b12         <- -0.06 # slope adj. for Spanish
 id_var      <-  0.20 # id variability
 step_var    <-  0.50 # step variability
 lang_var    <-  0.11 # lang variability
@@ -261,6 +261,7 @@ saveRDS(mod, file = here::here("_posts", "2021-05-15_logistic_regression_and_pho
 
 ```{r, mod-table, echo=F}
 mod <- readRDS("pp_mod.rds")
+#mod <- readRDS(here::here("_posts", "2021-05-15_logistic_regression_and_phonemic_boundaries", "pp_mod.rds"))
 sjPlot::tab_model(mod, transform = NULL)
 ```
 
@@ -293,10 +294,10 @@ p_sigmoids <- fits %>%
     scale_y_continuous(breaks = seq(0, 1, 0.25)) + 
     scale_x_continuous(breaks = unique(fits$vot_std)[c(TRUE, FALSE)], 
       labels = seq(-60, 60, 20)) + 
-    scale_fill_viridis_d(name = NULL, end = 0.8) + 
-    scale_color_viridis_d(name = NULL, end = 0.8) + 
+    scale_fill_viridis_d(name = NULL, begin = 0.3, end = 0.7) + 
+    scale_color_viridis_d(name = NULL, begin = 0.3, end = 0.7) + 
     ds4ling::ds4ling_bw_theme() + 
-    theme(legend.position = c(0.1, 0.87))
+    theme(legend.position = c(0.1, 0.87), legend.background = element_blank())
 
 p_sigmoids
 ```
@@ -375,6 +376,10 @@ Essentially the CCS in the logistic space is related to the slope of the sigmoid
 Morrison (2007) describes CCSs as "indicators of the crispness of the boundary between the two categories" (p. 232). 
 Native speakers typically have crisp boundaries between categories, whereas non-native speakers can have "fuzzier" boundaries for a number of reasons. 
 
+<aside>
+See: Morrison, G. (2007). Logistic regression modeling for first- and second-language perception data. In: Solé M-J, Prieto P, and Mascaró J (eds), *Segmental and prosodic issues in Romance phonology*. Amsterdam: John Benjamins, 219–36.
+</aside>
+
 I will spare you the calculus, but in a few words the CCS in the probability space is the partial derivative of the slope of the sigmoid function at its steepest point. 
 Conveniently, the steepest value of the slope in the binomial case is when the probability of the criterion is 0.5, i.e., at the crossover boundary. 
 We can calculate the CCS by multiplying the slope of the continuous measure by 0.25:
@@ -425,7 +430,7 @@ We can easily fit a model to each individual using the `lmList` function from th
 
 ```{r, no-pooling}
 # Fit no pooling model(s)
-no_pool_full <- lmList(response ~ vot_std * language + item_rep | id, family = "binomial", 
+no_pool_full <- lmList(response ~ vot_std * language | id, family = "binomial", 
   data = as.data.frame(dat_long))
 ```
 
@@ -483,14 +488,13 @@ p_ccs <- id_diffs %>%
       fill = "white", size = 1.2, fun.args = list(mult = 1)) + 
     labs(y = NULL, x = "Contrast coefficient slopes", caption = "Mean +/- SD") + 
     ds4ling::ds4ling_bw_theme() + 
-    theme(axis.text.y = element_blank())
+    theme(axis.text.y = element_blank(), axis.ticks.y = element_blank())
 
 p_co + p_ccs
-
 ```
 
-We can also plot the sigmoids of individuals along with the 50% crossovers. 
-Let's find the individuals with the largest and smallest differences between English and Spanish boundaries, plus 8 more at random. 
+We can also plot the sigmoids of individuals along with the 50% crossovers, as well as the contrast coefficient slopes. 
+Let's find the individuals with the largest and smallest differences between English and Spanish boundaries, plus 6 more participants at random. 
 
 ```{r, co-plot2, layout="l-page", fig.retina=2}
 # Calculate boundary diffs
@@ -505,54 +509,84 @@ co_min_max <- c(
   slice_min(co_diffs, diff, n = 1) %>% pull(id)
 )
 
-# Vector of min, max, plus 8 random subjects
-n_10 <- c(
+# Vector of min, max, plus 6 random subjects
+n_8 <- c(
   co_min_max, 
   filter(dat_long, (!id %in% co_min_max)) %>% 
   distinct(id) %>% 
-  sample_n(8) %>% pull
+  sample_n(6) %>% pull
 )
 
 # Use diff column to order from smallest to largest
-ordered_10 <- co_diffs %>% 
-  filter(id %in% n_10) %>% 
+ordered_8 <- co_diffs %>% 
+  filter(id %in% n_8) %>% 
   arrange(diff) %>% 
   pull(id)
 
 co_base <- dat_long %>% 
-  filter(id %in% n_10) %>% 
-  mutate(id = forcats::fct_relevel(id, ordered_10)) %>% 
+  filter(id %in% n_8) %>% 
+  mutate(id = forcats::fct_relevel(id, ordered_8)) %>% 
   ggplot(., aes(x = vot_std, y = response, color = language)) + 
     facet_wrap(~id, nrow = 2) + 
     geom_jitter(width = 0.2, height = 0.01, alpha = 0.1, pch = 21, size = 0.6, 
       aes(y = if_else(response == 1, response + 0.05, response - 0.05))) + 
-    geom_smooth(method = "glm", method.args = list(family = "binomial"), 
-      formula = "y ~ x", se = F) + 
+    stat_summary(fun = mean, geom = "line", 
+      aes(y = fitted(no_pool_full)[names(fitted(no_pool_full)) %in% ordered_8])) + 
     labs(y = "P(response = /p/)", x = "VOT (ms)") + 
     scale_y_continuous(breaks = seq(0, 1, 0.25)) + 
-    scale_x_continuous(breaks = unique(fits$vot_std)[c(TRUE, FALSE, FALSE)], 
+    scale_x_continuous(breaks = unique(dat_long$vot_std)[c(TRUE, FALSE, FALSE)], 
       labels = seq(-60, 60, 30)) + 
-    scale_fill_viridis_d(name = NULL, end = 0.8) + 
-    scale_color_viridis_d(name = NULL, end = 0.8) + 
+    scale_fill_viridis_d(name = NULL, begin = 0.3, end = 0.7) + 
+    scale_color_viridis_d(name = NULL, begin = 0.3, end = 0.7) + 
     ds4ling::ds4ling_bw_theme(base_family = "Times", base_size = 10) + 
     theme(legend.position = "bottom")
 
 co_base + 
   geom_vline(
-    data = filter(id_diffs, id %in% n_10) %>% 
-      mutate(id = forcats::fct_relevel(id, ordered_10)), 
-    aes(xintercept = co, color = language), lty = 2, show.legend = F)
+    data = filter(id_diffs, id %in% n_8) %>% 
+      mutate(id = forcats::fct_relevel(id, ordered_8)), 
+    aes(xintercept = co, color = language), lty = 3, show.legend = F)
 
 co_base + 
   geom_abline(
-    data = filter(id_diffs, id %in% n_10) %>% 
-      mutate(id = forcats::fct_relevel(id, ordered_10)),
-    aes(intercept = 0.5 - co * ccs, slope = ccs, color = language), lty = 2, 
+    data = filter(id_diffs, id %in% n_8) %>% 
+      mutate(id = forcats::fct_relevel(id, ordered_8)),
+    aes(intercept = 0.5 - co * ccs, slope = ccs, group = language), lty = 3, 
     show.legend = F)
 ```
 
+Awesome! 
+We can see that there are some individuals that have categorize boundaries in essentially the same place, while others show clear differences between English and Spanish. 
+I simulated the data to have similar slopes (the VOT x language interaction), but we still a bit of variability in CCS plot. 
 
+## Wrapping up
 
-<!--
-Morrison G (2007) Logistic regression modeling for first- and second-language perception data. In: Solé M-J, Prieto P, and Mascaró J (eds) Segmental and prosodic issues in Romance phonology. Amsterdam: John Benjamins, 219–36.
--->
+Multilevel logistic regression is an awesome tool for exploring different aspects of bilingualism and second language acquisition. 
+
+### Bonus
+
+I mentioned that you could calculate the individual boundaries using the random effects from the omnibus model or fit a model to each individual. 
+Crossover boundaries tend to be a bit unwieldy in the wild, i.e., when you aren't simulating data with 15 item repetitions. 
+It may be the case that having the regularization that comes with partial pooling is preferable when assessing different areas of individual differences. 
+This is just as easy to do by using the `ranef` function with the original model object, `mod`. 
+
+```{r, ranef-partial-pooling}
+ranef(mod)[[1]] %>% 
+  tibble::rownames_to_column(var = "id") %>% 
+  separate(col = id, into = c("id", "language"), sep = ":") %>% 
+  pivot_wider(names_from = language, 
+    values_from = c("(Intercept)", "vot_std", "item_rep")) %>% 
+  transmute(
+    id = id, 
+    int_English = fixef(mod)[1] + `(Intercept)_English`, 
+    int_Spanish = fixef(mod)[1] + fixef(mod)[3] + `(Intercept)_Spanish`, 
+    slope_English = fixef(mod)[2] + vot_std_English, 
+    slope_Spanish = fixef(mod)[2] + fixef(mod)[4] + vot_std_Spanish, 
+    co_English  = int_English / slope_English * -1, 
+    co_Spanish  = int_Spanish / slope_Spanish * -1, 
+    ccs_English = slope_English * 0.25, 
+    ccs_Spanish = slope_Spanish * 0.25) %>% 
+  select(-c(2:5)) %>% 
+  head
+```
+
