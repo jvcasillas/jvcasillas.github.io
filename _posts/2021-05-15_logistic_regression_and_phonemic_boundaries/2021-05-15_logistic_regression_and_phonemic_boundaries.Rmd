@@ -556,12 +556,14 @@ co_base +
 ```
 
 Awesome! 
-We can see that there are some individuals that have categorize boundaries in essentially the same place, while others show clear differences between English and Spanish. 
-I simulated the data to have similar slopes (the VOT x language interaction), but we still a bit of variability in CCS plot. 
+We can see that there are some individuals that have category boundaries in essentially the same place, while others show clear differences between English and Spanish. 
+I simulated the data to have similar slopes (the VOT x language interaction), but we still see a bit of variability in CCS plot. 
 
 ## Wrapping up
 
-Multilevel logistic regression is an awesome tool for exploring different aspects of bilingualism and second language acquisition. 
+I think that is enough for one post. 
+We've seen that multilevel logistic regression is an awesome tool for exploring different aspects of bilingualism and second language acquisition. 
+Category boundaries and contrast coefficient slopes are a few metrics I have found to be quite handy in my research. 
 
 ### Bonus
 
@@ -590,3 +592,15 @@ ranef(mod)[[1]] %>%
   head
 ```
 
+## Reproducibility information
+
+**About this document**  
+
+This document was written in RMarkdown using `distill`.
+
+**Session info**  
+
+```{r, session-info}
+devtools::session_info()$platform
+as.data.frame(devtools::package_info())[, c(3, 8)]
+```
