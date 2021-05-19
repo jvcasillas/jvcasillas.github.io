@@ -342,7 +342,7 @@ We do this by adding the mean of the original VOT vector of the dataframe and  m
 (en_co + mean(dat_long$vot)) * sd(dat_long$vot)
 ```
 
-So the English boundary is at about 12.17 ms (my guess was pretty close!). 
+So the English boundary is at about `r round((en_co + mean(dat_long$vot)) * sd(dat_long$vot), 2)` ms (my guess was pretty close!). 
 Let's calculate the boundary for Spanish and plot them: 
 
 ```{r, sp-boundary}
@@ -539,7 +539,9 @@ co_base <- dat_long %>%
     scale_fill_viridis_d(name = NULL, begin = 0.3, end = 0.7) + 
     scale_color_viridis_d(name = NULL, begin = 0.3, end = 0.7) + 
     ds4ling::ds4ling_bw_theme(base_family = "Times", base_size = 10) + 
-    theme(legend.position = "bottom")
+    theme(legend.position = "bottom", 
+      strip.background = element_blank(),
+      strip.placement = "outside")
 
 co_base + 
   geom_vline(
