@@ -5,7 +5,7 @@ description: |
   Joseph Casillas' academic website/blog.
 base_url: https://www.jvcasillas.com
 google_analytics: "UA-49437230-1"
-favicon: images/brain_small.png
+favicon: images/jvc_logo_small.png
 twitter:
   site: "@jvcasill"
 collections:
