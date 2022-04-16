@@ -81,12 +81,12 @@ print_list <- function(text = "text", fa = "fas fa-graduation-cap") {
 
 ```
 
-### Assistant Professor of Spanish Linguistics
+### Associate Professor of Spanish Linguistics
 
 #### Rutgers University
 
 <p align="justify">
-I am an Assistant Professor of Spanish Linguistics in the Spanish and Portuguese Department at Rutgers University, New Brunswick. 
+I am an Associate Professor of Spanish Linguistics in the Spanish and Portuguese Department at Rutgers University, New Brunswick. 
 My main interests are in phonetics, laboratory phonology, and second language acquisition. 
 A principle aim of my research is to better understand the relationship between language use and sound representation in the mind, as well as the structure of sound systems in human languages. 
 Most of my research is conducted on bilinguals of varying proficiency and linguistic experience. 
