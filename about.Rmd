@@ -1,6 +1,6 @@
 ---
 title: "Joseph V. Casillas<br>PhD"
-image: "images/jvc2016.png"
+image: "images/jvc2022.png"
 links:
   - label: <i id="icons" class="fas fa-envelope big-icon"></i>
     url: "mailto:joseph.casillas@rutgers.edu"
