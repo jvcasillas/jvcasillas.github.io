@@ -1,6 +1,6 @@
 
 # jvcasillas.github.io
 
-Last update: `r Sys.Date()`
+Last update: 2023-04-09
 
 Personal website built using quarto.
