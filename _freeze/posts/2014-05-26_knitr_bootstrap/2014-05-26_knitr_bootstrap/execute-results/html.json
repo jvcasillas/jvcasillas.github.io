@@ -1,0 +1,16 @@
+{
+  "hash": "6c78f97dced1079e1cf35c4857bda5f5",
+  "result": {
+    "markdown": "---\ntitle: \"Knitr bootstrap\"\ndescription: |\n  Quick and dirty test for knitr boostrap framework. \ndate: 05-26-2014\nauthor:\n  - name: Joseph V. Casillas \n    url: https://www.jvcasillas.com\n    affiliation: Rutgers University\n    affiliation_url: https://www.rutgers.edu\nbase_url: http://www.jvcasillas.com\ncategories: [r, rmarkdown, knitr]\ntwitter:\n  creator: \"@jvcasill\"\nengine: knitr\n---\n\n\n\n\nKnitr bootstrap makes generating standalone reports extremely easy and the output looks really neat. \nCheck out the example [here][here]. \nTo recreate this you need to download the preview release of [R Studio][R Studio], and set up the front matter as follows:\n\n```\n---\noutput:\n  knitrBootstrap::bootstrap_document:\n    title: \"\"\n    theme: default\n    highlight: sunburst\n    theme.chooser: TRUE\n    highlight.chooser: TRUE\n---\n```\n\n[here]: /blog/assets/knitr_bootstrap/knitr_bootstrap.html\n[R Studio]: http://rmarkdown.rstudio.com/index.html\n",
+    "supporting": [
+      "2014-05-26_knitr_bootstrap_files"
+    ],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

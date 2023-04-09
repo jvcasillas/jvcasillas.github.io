@@ -1,0 +1,16 @@
+{
+  "hash": "918e65ae3150bc5a8d794a42c59ff62d",
+  "result": {
+    "markdown": "---\ntitle: \"Basic plotting in R\"\ndescription: |\n  Step-by-step examples for using the three main plotting systems in R. \ndate: 04-20-2015\nauthor:\n  - name: Joseph V. Casillas \n    url: https://www.jvcasillas.com\n    affiliation: Rutgers University\n    affiliation_url: https://www.rutgers.edu\nbase_url: http://www.jvcasillas.com\ncategories: [r, dataviz]\ntwitter:\n  creator: \"@jvcasill\"\nengine: knitr\nimage: \"featured.png\"\n---\n\n\n\n<meta http-equiv=\"refresh\" content=\"0;url= https://www.jvcasillas.com/base_lattice_ggplot/\"/>\n\n\n::: {.cell}\n::: {.cell-output-display}\n![](featured.png){width=234}\n:::\n:::\n",
+    "supporting": [
+      "2015-04-20_plotting_in_r_files"
+    ],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

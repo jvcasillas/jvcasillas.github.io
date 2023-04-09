@@ -1,0 +1,48 @@
+project:
+  type: website
+  output-dir: docs
+  render: 
+    - "*.qmd"
+  resources: 
+    - "assets"
+
+website:
+  title: "JVC"
+  favicon: "./assets/img/jvc_favicon.png"
+  twitter-card: true
+  site-url: "https://www.jvcasillas.com"
+  open-graph: true
+  google-analytics: "UA-49437230-1"
+  navbar:
+    background: white
+    left:
+      - text: "About"
+        href: about.html
+      - text: "Research"
+        href: research.html
+      - text: "Code"
+        href: code.html
+      - text: "Teaching"
+        href: teaching.html
+      - text: "Posts"
+        href: blog.html
+    right:
+      - icon: github
+        href: https://github.com/jvcasillas
+      - icon: twitter
+        href: https://twitter.com/jvcasill
+      - icon: rss
+        href: blog.xml
+  page-footer:
+    center: 
+      - text: "© Copyright 2023"
+
+format:
+  html:
+    theme:
+      light: ./assets/css/theme-light.scss
+      dark: [darkly, ./assets/css/theme-dark.scss]
+    toc: true
+
+
+

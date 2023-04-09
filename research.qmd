@@ -1,0 +1,288 @@
+---
+title: "Research"
+toc: false
+bibliography: ./assets/bib/publications_html.bib
+engine: knitr
+execute: 
+  echo: false
+---
+
+```{css}
+cite {
+  color: #515151;
+  font-style: normal;
+}
+
+p {
+  line-height: 1.25;
+  padding-left: 30px;
+  text-indent: -30px;
+}
+
+.relax {
+  line-height: 1.5;
+  padding-left: 0px;
+  text-indent: 0px;
+}
+
+```
+
+<!-- 
+Updating the bib:
+    - must update by hand the file publications_html.bib in mybib repo
+    - once updated, below code downloads current version and loads into R
+    - must reference relevant article in relevant pane (publications or presentations)
+Afterwards, update the following:
+    - Your CV
+    - Research Gate
+    - Google scholar
+-->
+
+```{r}
+#| label: bib-setup
+#| eval: true
+#| message: false
+
+library("RefManageR")
+library("here")
+library("dplyr")
+library("tidyr")
+
+# Url to github repo
+fileUrl <- "https://raw.githubusercontent.com/jvcasillas/mybib/master/publications_html.bib"
+
+# Download .bib file
+download.file(
+  url = fileUrl, 
+  destfile = here("assets", "bib", "publications_html.bib"), 
+  method = "curl"
+  )
+
+# Load bib
+bib <- ReadBib(here("assets", "bib", "publications_html.bib"), check = FALSE)
+
+# Create csv of citekeys
+cite_key_list <- bind_cols(
+  bib$key %>% unlist %>% tibble::enframe(name = NULL), 
+  bib$bibtype %>% unlist %>% tibble::enframe(name = NULL), 
+  bib$year %>% unlist %>% tibble::enframe(name = NULL)
+  ) %>% 
+  rename(citekey = value...1, type = value...2, year = value...3) |> 
+  separate(
+    col = citekey, 
+    into = c("authors", "info", "year_check"), 
+    sep = "_", 
+    remove = F
+  ) |>
+  separate(
+    col = info, 
+    into = c("info", "type_check"), 
+    sep = "-"
+  ) |>
+  mutate(refd = if_else(stringr::str_detect(info, "UNREF"), 0, 1))
+
+# Set bib options
+BibOptions(
+  bib.style = "authoryear", 
+  style = "markdown", 
+  dashed = FALSE, 
+  sorting = "ynt", 
+  max.names = 10, 
+  first.inits = TRUE, 
+  check.entries = FALSE
+  )
+
+# Printer function for refs
+ref_printer <- function(pubs) {
+  for (i in pubs) {
+    print(bib[key = i]); cat("\n")
+  }
+}
+```
+
+
+::: panel-tabset
+
+## Overview
+
+<p class="relax">
+I am currently in the process of setting up my research laboratory at Rutgers University. 
+You can find more information here: <https://RAP-group.github.io>. 
+My main interests are in phonetics, laboratory phonology, and second language acquisition. 
+A principle aim of my research is to better understand the relationship between language use and sound representation in the mind, as well as the structure of sound systems in human languages. 
+Most of my research is conducted on bilinguals of varying proficiency and linguistic experience. 
+Feel free to explore the tabs on this page if you are interested in knowing more about my research projects.
+</p>
+
+## Projects
+
+### Current projects
+
+::: {.callout-note collapse="true" appearance="simple" icon="false"}
+## Longitudinal development of fine-phonetic detail in late learners 
+
+<p class="relax">
+This ongoing project explores L2 category formation and the relationship 
+between speech production and speech perception during the early stages of L2 
+acquisition. 
+The data were/are collected in a stateside immersion program over the course 
+of a summer. 
+The participants complete a variety of tasks aimed at analyzing their 
+acquisition of various L2 segments, such as: stops, trills, laterals and 
+vowels.
+</p>
+:::
+
+::: {.callout-note collapse="true" appearance="simple" icon="false"}
+## Language-specific perceptual normalization in adult L2 acquisition
+
+<p class="relax">
+This project explores a long history of 'language set' experiments with the goal 
+of furthering our understanding of how bilinguals deal with the lack of invariance 
+in the speech signal, both between and within languages. 
+The project has implications for category formation and the development of bilingual language modes.  
+(with Miquel Simonet)
+</p>
+:::
+
+::: {.callout-note collapse="true" appearance="simple" icon="false"}
+## Production/perception of English/Spanish coronal stops
+
+<p class="relax">
+This project has explored the acoustic characteristics of coronal stops in Spanish and English ([link](https://www.researchgate.net/publication/280840068_ACOUSTICS_OF_SPANISH_AND_ENGLISH_CORONAL_STOPS)), the effects of stress on VOT in the Spanish/English monolinguals and bilinguals ([link](https://www.researchgate.net/publication/272090285_The_effects_of_stressaccent_on_VOT_depend_on_language_%28English_Spanish%29_consonant_%28d_t%29_and_linguistic_experience_%28monolinguals_bilinguals%29)), as well as acoustic evidence for language-specific places of articulation (in preparation).  
+(with Miquel Simonet and Yamile Díaz)
+</p>
+:::
+
+::: {.callout-note collapse="true" appearance="simple" icon="false"}
+## Semantic predictability and speech rate effects in second language speech 
+categorization
+
+<p class="relax">
+More info coming soon.  
+(with Miquel Simonet and Imanol Suárez Palma)
+</p>
+:::
+
+::: {.callout-note collapse="true" appearance="simple" icon="false"}
+## Morphosyntactic predictability
+
+<p class="relax">
+More info coming soon.  
+</p>
+:::
+
+### Previous Projects
+
+::: {.callout-note collapse="true" appearance="simple" icon="false"}
+## Production/perception of switch dominance speakers of English
+
+<p class="relax">
+You can read about this project in my 2015 article published in [Phonetica](http://www.karger.com/Article/Abstract/431101), or in a 
+co-authored 2016 article that appeared in [Second Language Research](http://slr.sagepub.com/content/32/2/171.abstract). 
+</p>
+:::
+
+::: {.callout-note collapse="true" appearance="simple" icon="false"}
+## Selective adaptation
+
+<p class="relax">
+This project was co-authored with Miquel Llompart García. You can read the 
+final publication in [JASA](http://scitation.aip.org/content/asa/journal/jasa/139/5/10.1121/1.4951704). 
+</p>
+:::
+
+
+## Publications
+
+### In press
+
+```{r}
+#| label: print-in-press
+#| results: 'asis'
+filter(cite_key_list, type_check == "article" & year == "in press") |> 
+  arrange(desc(year)) |>
+  pull(citekey) |> 
+  ref_printer()
+```
+
+### Recent Publications
+
+```{r}
+#| label: print-recent-pubs
+#| results: 'asis'
+cite_key_list |>
+  filter(
+    type_check == "article", 
+    !(year %in% c("in press", "under review", "in preparation"))
+    ) |> 
+  arrange(desc(year)) |>
+  pull(citekey) |> 
+  ref_printer()
+```
+
+### Under review
+
+```{r}
+#| label: print-submitted
+#| results: 'asis'
+cite_key_list |>
+  filter(year == "under review") |>
+  arrange(desc(year)) |>
+  pull(citekey) |> 
+  ref_printer()
+```
+
+### In preparation
+
+```{r}
+#| label: print-in-prep
+#| results: 'asis'
+cite_key_list |>
+  filter(year == "in preparation") |>
+  arrange(desc(year)) |>
+  pull(citekey) |> 
+  ref_printer()
+```
+
+
+## Presentations
+
+### Refereed Presentations
+
+```{r}
+#| label: print-refereed-presentations
+#| results: 'asis'
+cite_key_list |>
+  filter(type_check == "pres") |>
+  arrange(desc(year)) |>
+  pull(citekey) |> 
+  ref_printer()
+```
+
+### Unrefereed Presentations
+
+```{r}
+#| label: print-unrefereed-presentations
+#| results: 'asis'
+cite_key_list |>
+  filter(refd == 0) |>
+  arrange(desc(year)) |>
+  pull(citekey) |> 
+  ref_printer()
+```
+
+
+### Poster presentations
+
+```{r}
+#| label: print-poster-presentations
+#| results: 'asis'
+cite_key_list |>
+  filter(refd == 1, type_check == "poster") |>
+  arrange(desc(year)) |>
+  pull(citekey) |> 
+  ref_printer()
+```
+
+::: 

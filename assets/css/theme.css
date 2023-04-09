@@ -1,0 +1,14 @@
+.myfooter {  
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  margin-bottom: 0;
+  margin-left: 0;
+  padding: 0;
+  height: 0;
+  color: #5f6a72;
+  background-color: #ffffff;
+  font-size: 0.75em;
+}
+

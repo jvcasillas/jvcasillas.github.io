@@ -1,0 +1,16 @@
+{
+  "hash": "4b27888adbb798a34d51972fcb30f1f0",
+  "result": {
+    "markdown": "---\ntitle: \"Using Rmarkdown to knit HTML5 documents in RStudio\"\ndescription: |\n  Some simple examples of how to go from .Rmd to .html. \ndate: 01-07-2014\nauthor:\n  - name: Joseph V. Casillas \n    url: https://www.jvcasillas.com\n    affiliation: Rutgers University\n    affiliation_url: https://www.rutgers.edu\nbase_url: http://www.jvcasillas.com\ncategories: [r, rmarkdown, html]\ntwitter:\n  creator: \"@jvcasill\"\nengine: knitr\n---\n\n\n\n#### HTML5 slides\n\nI recently learned how to create HTML5 slides using **.Rmd** files and **pandoc**. \n[Click here][Click here] to check out an example. \nI will be posting a tutorial on how to do this in the near future (I hope).\n\n**Update** [Here][Here] is a much cooler example I found on [mages' blog][mages' blog]\n\n**Update 2** This process has been streamlined in the newest update to RStudio ([check it out here][check it out here]). \nThe results are quite impressive ([Ex. 1][Ex. 1], [Ex. 2][Ex. 2])\n\n\n[Click here]: /assets/md_to_html5_ex/md_html_ex.html\n[Here]: /assets/mages_ex/mages_ex.html\n[mages' blog]: http://lamages.blogspot.com.au/2012/05/interactive-reports-in-r-with-knitr-and.html\n[check it out here]: http://rmarkdown.rstudio.com/index.html\n[Ex. 1]: /assets/reveal/reaveal.html\n[Ex. 2]: /assets/ioslides/ioslides.html\n",
+    "supporting": [
+      "2014-01-07_converting_rmarkdown_files_to_html5_files"
+    ],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

@@ -1,0 +1,27 @@
+---
+title: "tidyr tutorial"
+description: |
+  Tutorial showing the functionality of the tidyr package for data wrangling. 
+date: 06-22-2015
+author:
+  - name: Joseph V. Casillas 
+    url: https://www.jvcasillas.com
+    affiliation: Rutgers University
+    affiliation_url: https://www.rutgers.edu
+base_url: http://www.jvcasillas.com
+categories: [r, tidyverse, data]
+twitter:
+  creator: "@jvcasill"
+engine: knitr
+image: "tidyr.png"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(collapse = TRUE)
+```
+
+```{r, tidyr-hex, echo=F}
+knitr::include_graphics("tidyr.png")
+```
+
+<meta http-equiv="refresh" content="0; url='https://www.jvcasillas.com/tidyr_tutorial/'"/>

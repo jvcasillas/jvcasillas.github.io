@@ -1,0 +1,71 @@
+---
+title: "R-Snippets"
+date: "2018-04-06"
+author:
+  - name: Joseph V. Casillas
+    url: https://www.jvcasillas.com
+    affiliation: Rutgers University
+    affiliation_url: https://www.rutgers.edu
+description: |
+  A collection of snippets for SublimeText that facilitate doing statistical 
+  analysis in R.
+categories: [teaching, programming, r, workflow, sublimtext]
+base_url: https://www.jvcasillas.com
+twitter:
+  creator: "@jvcasill"
+engine: knitr
+image: featured.png
+---
+
+This repository is a collection of snippets that I use in [SublimeText][SublimeText] for doing statistical analysis in [R][R]. 
+The goal is straightforward: document the code that I use most often while doing linguistic research and make it readily available (and understandable) to other linguists. 
+If you are interested in helping see the github [repository](https://github.com/jvcasillas/R-snippets). 
+To install R-snippets see the [package control][package control R-snippets] page. 
+To use a snippet, type the trigger and hit the tab key. 
+For example, typing <code>lm</code> brings up the following window:  
+
+```{r, shiny-bivariate-reg, echo=F, fig.retina=2, fig.align='center', out.width="100%"}
+knitr::include_graphics("featured.png")
+```
+
+Selecting ```Random slope and random intercept model``` expands to...
+
+```r
+# load lme4 for mixed models
+library(lme4)
+
+# random intercept and random slope model
+modelName = lmer(DV ~ fixedFactor1 +* fixedFactor2 + (1 + randomSlope|randomInt), data=df)
+modelName
+
+hist(residuals(modelName))
+qqnorm(residuals(modelName))
+qqline(residuals(modelName))
+```
+
+Main triggers:  
+
+- "plot": templates for plotting in base R
+- "edit": options useful for data cleansing and saving
+- "desc": descriptive statistics of data
+- "ttest": distinct types of t-test
+- "aov": distinct analysis of variance models
+- "lm": linear and logistic regression
+- "lmem": linear mixed effects models
+
+Extras:  
+
+- "subset": make subsets of a DF
+- "read": read/load/install data/packages into R
+- "save": save plots, dfs, tables, etc.
+- "tikz": template for creating R plots in LaTeX
+
+
+
+
+
+<!-- links -->
+
+[SublimeText]: http://www.sublimetext.com
+[R]: http://www.r-project.org
+[package control R-snippets]: https://sublime.wbond.net/packages/R-snippets

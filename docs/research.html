@@ -1,2543 +1,192 @@
 <!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
-<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.3.299">
 
-<head>
-  <meta charset="utf-8"/>
-  <meta name="viewport" content="width=device-width, initial-scale=1"/>
-  <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1"/>
-  <meta name="generator" content="distill" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-  <style type="text/css">
-  /* Hide doc at startup (prevent jankiness while JS renders/transforms) */
-  body {
-    visibility: hidden;
-  }
-  </style>
 
- <!--radix_placeholder_import_source-->
- <!--/radix_placeholder_import_source-->
-
-<style type="text/css">code{white-space: pre;}</style>
-<style type="text/css" data-origin="pandoc">
-pre > code.sourceCode { white-space: pre; position: relative; }
-pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
-pre > code.sourceCode > span:empty { height: 1.2em; }
-.sourceCode { overflow: visible; }
-code.sourceCode > span { color: inherit; text-decoration: inherit; }
-div.sourceCode { margin: 1em 0; }
-pre.sourceCode { margin: 0; }
-@media screen {
-div.sourceCode { overflow: auto; }
+<title>JVC - Research</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
 }
-@media print {
-pre > code.sourceCode { white-space: pre-wrap; }
-pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
-}
-pre.numberSource code
-  { counter-reset: source-line 0; }
-pre.numberSource code > span
-  { position: relative; left: -4em; counter-increment: source-line; }
-pre.numberSource code > span > a:first-child::before
-  { content: counter(source-line);
-    position: relative; left: -1em; text-align: right; vertical-align: baseline;
-    border: none; display: inline-block;
-    -webkit-touch-callout: none; -webkit-user-select: none;
-    -khtml-user-select: none; -moz-user-select: none;
-    -ms-user-select: none; user-select: none;
-    padding: 0 4px; width: 4em;
-    color: #aaaaaa;
-  }
-pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
-div.sourceCode
-  { color: #00769e; background-color: #f1f3f5; }
-@media screen {
-pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
-}
-code span { color: #00769e; } /* Normal */
-code span.al { color: #ad0000; } /* Alert */
-code span.an { color: #5e5e5e; } /* Annotation */
-code span.at { color: #657422; } /* Attribute */
-code span.bn { color: #ad0000; } /* BaseN */
-code span.bu { } /* BuiltIn */
-code span.cf { color: #00769e; } /* ControlFlow */
-code span.ch { color: #20794d; } /* Char */
-code span.cn { color: #8f5902; } /* Constant */
-code span.co { color: #5e5e5e; } /* Comment */
-code span.cv { color: #5e5e5e; font-style: italic; } /* CommentVar */
-code span.do { color: #5e5e5e; font-style: italic; } /* Documentation */
-code span.dt { color: #ad0000; } /* DataType */
-code span.dv { color: #ad0000; } /* DecVal */
-code span.er { color: #ad0000; } /* Error */
-code span.ex { } /* Extension */
-code span.fl { color: #ad0000; } /* Float */
-code span.fu { color: #4758ab; } /* Function */
-code span.im { } /* Import */
-code span.in { color: #5e5e5e; } /* Information */
-code span.kw { color: #00769e; } /* Keyword */
-code span.op { color: #5e5e5e; } /* Operator */
-code span.ot { color: #00769e; } /* Other */
-code span.pp { color: #ad0000; } /* Preprocessor */
-code span.sc { color: #5e5e5e; } /* SpecialChar */
-code span.ss { color: #20794d; } /* SpecialString */
-code span.st { color: #20794d; } /* String */
-code span.va { color: #111111; } /* Variable */
-code span.vs { color: #20794d; } /* VerbatimString */
-code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 </style>
 
 
-  <!--radix_placeholder_meta_tags-->
-  <title>JVC: Research</title>
-
-
-  <link rel="icon" type="image/png" href="images/jvc_favicon.png"/>
-
-
-  <!--  https://developers.facebook.com/docs/sharing/webmasters#markup -->
-  <meta property="og:title" content="JVC: Research"/>
-  <meta property="og:type" content="article"/>
-  <meta property="og:locale" content="en_US"/>
-  <meta property="og:site_name" content="JVC"/>
-
-  <!--  https://dev.twitter.com/cards/types/summary -->
-  <meta property="twitter:card" content="summary"/>
-  <meta property="twitter:title" content="JVC: Research"/>
-  <meta property="twitter:site" content="@jvcasill"/>
-
-  <!--/radix_placeholder_meta_tags-->
-  <!--radix_placeholder_rmarkdown_metadata-->
-
-  <script type="text/json" id="radix-rmarkdown-metadata">
-  {"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title"]}},"value":[{"type":"character","attributes":{},"value":["Research"]}]}
-  </script>
-  <!--/radix_placeholder_rmarkdown_metadata-->
-  <!--radix_placeholder_navigation_in_header-->
-  <meta name="distill:offset" content=""/>
-
-  <script type="application/javascript">
-
-    window.headroom_prevent_pin = false;
-
-    window.document.addEventListener("DOMContentLoaded", function (event) {
-
-      // initialize headroom for banner
-      var header = $('header').get(0);
-      var headerHeight = header.offsetHeight;
-      var headroom = new Headroom(header, {
-        tolerance: 5,
-        onPin : function() {
-          if (window.headroom_prevent_pin) {
-            window.headroom_prevent_pin = false;
-            headroom.unpin();
-          }
-        }
-      });
-      headroom.init();
-      if(window.location.hash)
-        headroom.unpin();
-      $(header).addClass('headroom--transition');
-
-      // offset scroll location for banner on hash change
-      // (see: https://github.com/WickyNilliams/headroom.js/issues/38)
-      window.addEventListener("hashchange", function(event) {
-        window.scrollTo(0, window.pageYOffset - (headerHeight + 25));
-      });
-
-      // responsive menu
-      $('.distill-site-header').each(function(i, val) {
-        var topnav = $(this);
-        var toggle = topnav.find('.nav-toggle');
-        toggle.on('click', function() {
-          topnav.toggleClass('responsive');
-        });
-      });
-
-      // nav dropdowns
-      $('.nav-dropbtn').click(function(e) {
-        $(this).next('.nav-dropdown-content').toggleClass('nav-dropdown-active');
-        $(this).parent().siblings('.nav-dropdown')
-           .children('.nav-dropdown-content').removeClass('nav-dropdown-active');
-      });
-      $("body").click(function(e){
-        $('.nav-dropdown-content').removeClass('nav-dropdown-active');
-      });
-      $(".nav-dropdown").click(function(e){
-        e.stopPropagation();
-      });
-    });
-  </script>
-
-  <style type="text/css">
-
-  /* Theme (user-documented overrideables for nav appearance) */
-
-  .distill-site-nav {
-    color: rgba(255, 255, 255, 0.8);
-    background-color: #0F2E3D;
-    font-size: 15px;
-    font-weight: 300;
-  }
-
-  .distill-site-nav a {
-    color: inherit;
-    text-decoration: none;
-  }
-
-  .distill-site-nav a:hover {
-    color: white;
-  }
-
-  @media print {
-    .distill-site-nav {
-      display: none;
-    }
-  }
-
-  .distill-site-header {
-
-  }
-
-  .distill-site-footer {
-
-  }
-
-
-  /* Site Header */
-
-  .distill-site-header {
-    width: 100%;
-    box-sizing: border-box;
-    z-index: 3;
-  }
-
-  .distill-site-header .nav-left {
-    display: inline-block;
-    margin-left: 8px;
-  }
-
-  @media screen and (max-width: 768px) {
-    .distill-site-header .nav-left {
-      margin-left: 0;
-    }
-  }
-
-
-  .distill-site-header .nav-right {
-    float: right;
-    margin-right: 8px;
-  }
-
-  .distill-site-header a,
-  .distill-site-header .title {
-    display: inline-block;
-    text-align: center;
-    padding: 14px 10px 14px 10px;
-  }
-
-  .distill-site-header .title {
-    font-size: 18px;
-    min-width: 150px;
-  }
-
-  .distill-site-header .logo {
-    padding: 0;
-  }
-
-  .distill-site-header .logo img {
-    display: none;
-    max-height: 20px;
-    width: auto;
-    margin-bottom: -4px;
-  }
-
-  .distill-site-header .nav-image img {
-    max-height: 18px;
-    width: auto;
-    display: inline-block;
-    margin-bottom: -3px;
-  }
-
-
-
-  @media screen and (min-width: 1000px) {
-    .distill-site-header .logo img {
-      display: inline-block;
-    }
-    .distill-site-header .nav-left {
-      margin-left: 20px;
-    }
-    .distill-site-header .nav-right {
-      margin-right: 20px;
-    }
-    .distill-site-header .title {
-      padding-left: 12px;
-    }
-  }
-
-
-  .distill-site-header .nav-toggle {
-    display: none;
-  }
-
-  .nav-dropdown {
-    display: inline-block;
-    position: relative;
-  }
-
-  .nav-dropdown .nav-dropbtn {
-    border: none;
-    outline: none;
-    color: rgba(255, 255, 255, 0.8);
-    padding: 16px 10px;
-    background-color: transparent;
-    font-family: inherit;
-    font-size: inherit;
-    font-weight: inherit;
-    margin: 0;
-    margin-top: 1px;
-    z-index: 2;
-  }
-
-  .nav-dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: white;
-    min-width: 200px;
-    border: 1px solid rgba(0,0,0,0.15);
-    border-radius: 4px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.1);
-    z-index: 1;
-    margin-top: 2px;
-    white-space: nowrap;
-    padding-top: 4px;
-    padding-bottom: 4px;
-  }
-
-  .nav-dropdown-content hr {
-    margin-top: 4px;
-    margin-bottom: 4px;
-    border: none;
-    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
-  }
-
-  .nav-dropdown-active {
-    display: block;
-  }
-
-  .nav-dropdown-content a, .nav-dropdown-content .nav-dropdown-header {
-    color: black;
-    padding: 6px 24px;
-    text-decoration: none;
-    display: block;
-    text-align: left;
-  }
-
-  .nav-dropdown-content .nav-dropdown-header {
-    display: block;
-    padding: 5px 24px;
-    padding-bottom: 0;
-    text-transform: uppercase;
-    font-size: 14px;
-    color: #999999;
-    white-space: nowrap;
-  }
-
-  .nav-dropdown:hover .nav-dropbtn {
-    color: white;
-  }
-
-  .nav-dropdown-content a:hover {
-    background-color: #ddd;
-    color: black;
-  }
-
-  .nav-right .nav-dropdown-content {
-    margin-left: -45%;
-    right: 0;
-  }
-
-  @media screen and (max-width: 768px) {
-    .distill-site-header a, .distill-site-header .nav-dropdown  {display: none;}
-    .distill-site-header a.nav-toggle {
-      float: right;
-      display: block;
-    }
-    .distill-site-header .title {
-      margin-left: 0;
-    }
-    .distill-site-header .nav-right {
-      margin-right: 0;
-    }
-    .distill-site-header {
-      overflow: hidden;
-    }
-    .nav-right .nav-dropdown-content {
-      margin-left: 0;
-    }
-  }
-
-
-  @media screen and (max-width: 768px) {
-    .distill-site-header.responsive {position: relative; min-height: 500px; }
-    .distill-site-header.responsive a.nav-toggle {
-      position: absolute;
-      right: 0;
-      top: 0;
-    }
-    .distill-site-header.responsive a,
-    .distill-site-header.responsive .nav-dropdown {
-      display: block;
-      text-align: left;
-    }
-    .distill-site-header.responsive .nav-left,
-    .distill-site-header.responsive .nav-right {
-      width: 100%;
-    }
-    .distill-site-header.responsive .nav-dropdown {float: none;}
-    .distill-site-header.responsive .nav-dropdown-content {position: relative;}
-    .distill-site-header.responsive .nav-dropdown .nav-dropbtn {
-      display: block;
-      width: 100%;
-      text-align: left;
-    }
-  }
-
-  /* Site Footer */
-
-  .distill-site-footer {
-    width: 100%;
-    overflow: hidden;
-    box-sizing: border-box;
-    z-index: 3;
-    margin-top: 30px;
-    padding-top: 30px;
-    padding-bottom: 30px;
-    text-align: center;
-  }
-
-  /* Headroom */
-
-  d-title {
-    padding-top: 6rem;
-  }
-
-  @media print {
-    d-title {
-      padding-top: 4rem;
-    }
-  }
-
-  .headroom {
-    z-index: 1000;
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-  }
-
-  .headroom--transition {
-    transition: all .4s ease-in-out;
-  }
-
-  .headroom--unpinned {
-    top: -100px;
-  }
-
-  .headroom--pinned {
-    top: 0;
-  }
-
-  /* adjust viewport for navbar height */
-  /* helps vertically center bootstrap (non-distill) content */
-  .min-vh-100 {
-    min-height: calc(100vh - 100px) !important;
-  }
-
-  </style>
-
-  <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
-  <link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet"/>
-  <link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet"/>
-  <script src="site_libs/headroom-0.9.4/headroom.min.js"></script>
-  <script src="site_libs/autocomplete-0.37.1/autocomplete.min.js"></script>
-  <script src="site_libs/fuse-6.4.1/fuse.min.js"></script>
-
-  <script type="application/javascript">
-
-  function getMeta(metaName) {
-    var metas = document.getElementsByTagName('meta');
-    for (let i = 0; i < metas.length; i++) {
-      if (metas[i].getAttribute('name') === metaName) {
-        return metas[i].getAttribute('content');
-      }
-    }
-    return '';
-  }
-
-  function offsetURL(url) {
-    var offset = getMeta('distill:offset');
-    return offset ? offset + '/' + url : url;
-  }
-
-  function createFuseIndex() {
-
-    // create fuse index
-    var options = {
-      keys: [
-        { name: 'title', weight: 20 },
-        { name: 'categories', weight: 15 },
-        { name: 'description', weight: 10 },
-        { name: 'contents', weight: 5 },
-      ],
-      ignoreLocation: true,
-      threshold: 0
-    };
-    var fuse = new window.Fuse([], options);
-
-    // fetch the main search.json
-    return fetch(offsetURL('search.json'))
-      .then(function(response) {
-        if (response.status == 200) {
-          return response.json().then(function(json) {
-            // index main articles
-            json.articles.forEach(function(article) {
-              fuse.add(article);
-            });
-            // download collections and index their articles
-            return Promise.all(json.collections.map(function(collection) {
-              return fetch(offsetURL(collection)).then(function(response) {
-                if (response.status === 200) {
-                  return response.json().then(function(articles) {
-                    articles.forEach(function(article) {
-                      fuse.add(article);
-                    });
-                  })
-                } else {
-                  return Promise.reject(
-                    new Error('Unexpected status from search index request: ' +
-                              response.status)
-                  );
-                }
-              });
-            })).then(function() {
-              return fuse;
-            });
-          });
-
-        } else {
-          return Promise.reject(
-            new Error('Unexpected status from search index request: ' +
-                        response.status)
-          );
-        }
-      });
-  }
-
-  window.document.addEventListener("DOMContentLoaded", function (event) {
-
-    // get search element (bail if we don't have one)
-    var searchEl = window.document.getElementById('distill-search');
-    if (!searchEl)
-      return;
-
-    createFuseIndex()
-      .then(function(fuse) {
-
-        // make search box visible
-        searchEl.classList.remove('hidden');
-
-        // initialize autocomplete
-        var options = {
-          autoselect: true,
-          hint: false,
-          minLength: 2,
-        };
-        window.autocomplete(searchEl, options, [{
-          source: function(query, callback) {
-            const searchOptions = {
-              isCaseSensitive: false,
-              shouldSort: true,
-              minMatchCharLength: 2,
-              limit: 10,
-            };
-            var results = fuse.search(query, searchOptions);
-            callback(results
-              .map(function(result) { return result.item; })
-            );
-          },
-          templates: {
-            suggestion: function(suggestion) {
-              var img = suggestion.preview && Object.keys(suggestion.preview).length > 0
-                ? `<img src="${offsetURL(suggestion.preview)}"</img>`
-                : '';
-              var html = `
-                <div class="search-item">
-                  <h3>${suggestion.title}</h3>
-                  <div class="search-item-description">
-                    ${suggestion.description || ''}
-                  </div>
-                  <div class="search-item-preview">
-                    ${img}
-                  </div>
-                </div>
-              `;
-              return html;
-            }
-          }
-        }]).on('autocomplete:selected', function(event, suggestion) {
-          window.location.href = offsetURL(suggestion.path);
-        });
-        // remove inline display style on autocompleter (we want to
-        // manage responsive display via css)
-        $('.algolia-autocomplete').css("display", "");
-      })
-      .catch(function(error) {
-        console.log(error);
-      });
-
-  });
-
-  </script>
-
-  <style type="text/css">
-
-  .nav-search {
-    font-size: x-small;
-  }
-
-  /* Algolioa Autocomplete */
-
-  .algolia-autocomplete {
-    display: inline-block;
-    margin-left: 10px;
-    vertical-align: sub;
-    background-color: white;
-    color: black;
-    padding: 6px;
-    padding-top: 8px;
-    padding-bottom: 0;
-    border-radius: 6px;
-    border: 1px #0F2E3D solid;
-    width: 180px;
-  }
-
-
-  @media screen and (max-width: 768px) {
-    .distill-site-nav .algolia-autocomplete {
-      display: none;
-      visibility: hidden;
-    }
-    .distill-site-nav.responsive .algolia-autocomplete {
-      display: inline-block;
-      visibility: visible;
-    }
-    .distill-site-nav.responsive .algolia-autocomplete .aa-dropdown-menu {
-      margin-left: 0;
-      width: 400px;
-      max-height: 400px;
-    }
-  }
-
-  .algolia-autocomplete .aa-input, .algolia-autocomplete .aa-hint {
-    width: 90%;
-    outline: none;
-    border: none;
-  }
-
-  .algolia-autocomplete .aa-hint {
-    color: #999;
-  }
-  .algolia-autocomplete .aa-dropdown-menu {
-    width: 550px;
-    max-height: 70vh;
-    overflow-x: visible;
-    overflow-y: scroll;
-    padding: 5px;
-    margin-top: 3px;
-    margin-left: -150px;
-    background-color: #fff;
-    border-radius: 5px;
-    border: 1px solid #999;
-    border-top: none;
-  }
-
-  .algolia-autocomplete .aa-dropdown-menu .aa-suggestion {
-    cursor: pointer;
-    padding: 5px 4px;
-    border-bottom: 1px solid #eee;
-  }
-
-  .algolia-autocomplete .aa-dropdown-menu .aa-suggestion:last-of-type {
-    border-bottom: none;
-    margin-bottom: 2px;
-  }
-
-  .algolia-autocomplete .aa-dropdown-menu .aa-suggestion .search-item {
-    overflow: hidden;
-    font-size: 0.8em;
-    line-height: 1.4em;
-  }
-
-  .algolia-autocomplete .aa-dropdown-menu .aa-suggestion .search-item h3 {
-    font-size: 1rem;
-    margin-block-start: 0;
-    margin-block-end: 5px;
-  }
-
-  .algolia-autocomplete .aa-dropdown-menu .aa-suggestion .search-item-description {
-    display: inline-block;
-    overflow: hidden;
-    height: 2.8em;
-    width: 80%;
-    margin-right: 4%;
-  }
-
-  .algolia-autocomplete .aa-dropdown-menu .aa-suggestion .search-item-preview {
-    display: inline-block;
-    width: 15%;
-  }
-
-  .algolia-autocomplete .aa-dropdown-menu .aa-suggestion .search-item-preview img {
-    height: 3em;
-    width: auto;
-    display: none;
-  }
-
-  .algolia-autocomplete .aa-dropdown-menu .aa-suggestion .search-item-preview img[src] {
-    display: initial;
-  }
-
-  .algolia-autocomplete .aa-dropdown-menu .aa-suggestion.aa-cursor {
-    background-color: #eee;
-  }
-  .algolia-autocomplete .aa-dropdown-menu .aa-suggestion em {
-    font-weight: bold;
-    font-style: normal;
-  }
-
-  </style>
-
-
-  <!--/radix_placeholder_navigation_in_header-->
-  <!--radix_placeholder_distill-->
-
-  <style type="text/css">
-
-  body {
-    background-color: white;
-  }
-
-  .pandoc-table {
-    width: 100%;
-  }
-
-  .pandoc-table>caption {
-    margin-bottom: 10px;
-  }
-
-  .pandoc-table th:not([align]) {
-    text-align: left;
-  }
-
-  .pagedtable-footer {
-    font-size: 15px;
-  }
-
-  d-byline .byline {
-    grid-template-columns: 2fr 2fr;
-  }
-
-  d-byline .byline h3 {
-    margin-block-start: 1.5em;
-  }
-
-  d-byline .byline .authors-affiliations h3 {
-    margin-block-start: 0.5em;
-  }
-
-  .authors-affiliations .orcid-id {
-    width: 16px;
-    height:16px;
-    margin-left: 4px;
-    margin-right: 4px;
-    vertical-align: middle;
-    padding-bottom: 2px;
-  }
-
-  d-title .dt-tags {
-    margin-top: 1em;
-    grid-column: text;
-  }
-
-  .dt-tags .dt-tag {
-    text-decoration: none;
-    display: inline-block;
-    color: rgba(0,0,0,0.6);
-    padding: 0em 0.4em;
-    margin-right: 0.5em;
-    margin-bottom: 0.4em;
-    font-size: 70%;
-    border: 1px solid rgba(0,0,0,0.2);
-    border-radius: 3px;
-    text-transform: uppercase;
-    font-weight: 500;
-  }
-
-  d-article table.gt_table td,
-  d-article table.gt_table th {
-    border-bottom: none;
-    font-size: 100%;
-  }
-
-  .html-widget {
-    margin-bottom: 2.0em;
-  }
-
-  .l-screen-inset {
-    padding-right: 16px;
-  }
-
-  .l-screen .caption {
-    margin-left: 10px;
-  }
-
-  .shaded {
-    background: rgb(247, 247, 247);
-    padding-top: 20px;
-    padding-bottom: 20px;
-    border-top: 1px solid rgba(0, 0, 0, 0.1);
-    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
-  }
-
-  .shaded .html-widget {
-    margin-bottom: 0;
-    border: 1px solid rgba(0, 0, 0, 0.1);
-  }
-
-  .shaded .shaded-content {
-    background: white;
-  }
-
-  .text-output {
-    margin-top: 0;
-    line-height: 1.5em;
-  }
-
-  .hidden {
-    display: none !important;
-  }
-
-  d-article {
-    padding-top: 2.5rem;
-    padding-bottom: 30px;
-  }
-
-  d-appendix {
-    padding-top: 30px;
-  }
-
-  d-article>p>img {
-    width: 100%;
-  }
-
-  d-article h2 {
-    margin: 1rem 0 1.5rem 0;
-  }
-
-  d-article h3 {
-    margin-top: 1.5rem;
-  }
-
-  d-article iframe {
-    border: 1px solid rgba(0, 0, 0, 0.1);
-    margin-bottom: 2.0em;
-    width: 100%;
-  }
-
-  /* Tweak code blocks */
-
-  d-article div.sourceCode code,
-  d-article pre code {
-    font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
-  }
-
-  d-article pre,
-  d-article div.sourceCode,
-  d-article div.sourceCode pre {
-    overflow: auto;
-  }
-
-  d-article div.sourceCode {
-    background-color: white;
-  }
-
-  d-article div.sourceCode pre {
-    padding-left: 10px;
-    font-size: 12px;
-    border-left: 2px solid rgba(0,0,0,0.1);
-  }
-
-  d-article pre {
-    font-size: 12px;
-    color: black;
-    background: none;
-    margin-top: 0;
-    text-align: left;
-    white-space: pre;
-    word-spacing: normal;
-    word-break: normal;
-    word-wrap: normal;
-    line-height: 1.5;
-
-    -moz-tab-size: 4;
-    -o-tab-size: 4;
-    tab-size: 4;
-
-    -webkit-hyphens: none;
-    -moz-hyphens: none;
-    -ms-hyphens: none;
-    hyphens: none;
-  }
-
-  d-article pre a {
-    border-bottom: none;
-  }
-
-  d-article pre a:hover {
-    border-bottom: none;
-    text-decoration: underline;
-  }
-
-  d-article details {
-    grid-column: text;
-    margin-bottom: 0.8em;
-  }
-
-  @media(min-width: 768px) {
-
-  d-article pre,
-  d-article div.sourceCode,
-  d-article div.sourceCode pre {
-    overflow: visible !important;
-  }
-
-  d-article div.sourceCode pre {
-    padding-left: 18px;
-    font-size: 14px;
-  }
-
-  d-article pre {
-    font-size: 14px;
-  }
-
-  }
-
-  figure img.external {
-    background: white;
-    border: 1px solid rgba(0, 0, 0, 0.1);
-    box-shadow: 0 1px 8px rgba(0, 0, 0, 0.1);
-    padding: 18px;
-    box-sizing: border-box;
-  }
-
-  /* CSS for d-contents */
-
-  .d-contents {
-    grid-column: text;
-    color: rgba(0,0,0,0.8);
-    font-size: 0.9em;
-    padding-bottom: 1em;
-    margin-bottom: 1em;
-    padding-bottom: 0.5em;
-    margin-bottom: 1em;
-    padding-left: 0.25em;
-    justify-self: start;
-  }
-
-  @media(min-width: 1000px) {
-    .d-contents.d-contents-float {
-      height: 0;
-      grid-column-start: 1;
-      grid-column-end: 4;
-      justify-self: center;
-      padding-right: 3em;
-      padding-left: 2em;
-    }
-  }
-
-  .d-contents nav h3 {
-    font-size: 18px;
-    margin-top: 0;
-    margin-bottom: 1em;
-  }
-
-  .d-contents li {
-    list-style-type: none
-  }
-
-  .d-contents nav > ul {
-    padding-left: 0;
-  }
-
-  .d-contents ul {
-    padding-left: 1em
-  }
-
-  .d-contents nav ul li {
-    margin-top: 0.6em;
-    margin-bottom: 0.2em;
-  }
-
-  .d-contents nav a {
-    font-size: 13px;
-    border-bottom: none;
-    text-decoration: none
-    color: rgba(0, 0, 0, 0.8);
-  }
-
-  .d-contents nav a:hover {
-    text-decoration: underline solid rgba(0, 0, 0, 0.6)
-  }
-
-  .d-contents nav > ul > li > a {
-    font-weight: 600;
-  }
-
-  .d-contents nav > ul > li > ul {
-    font-weight: inherit;
-  }
-
-  .d-contents nav > ul > li > ul > li {
-    margin-top: 0.2em;
-  }
-
-
-  .d-contents nav ul {
-    margin-top: 0;
-    margin-bottom: 0.25em;
-  }
-
-  .d-article-with-toc h2:nth-child(2) {
-    margin-top: 0;
-  }
-
-
-  /* Figure */
-
-  .figure {
-    position: relative;
-    margin-bottom: 2.5em;
-    margin-top: 1.5em;
-  }
-
-  .figure .caption {
-    color: rgba(0, 0, 0, 0.6);
-    font-size: 12px;
-    line-height: 1.5em;
-  }
-
-  .figure img.external {
-    background: white;
-    border: 1px solid rgba(0, 0, 0, 0.1);
-    box-shadow: 0 1px 8px rgba(0, 0, 0, 0.1);
-    padding: 18px;
-    box-sizing: border-box;
-  }
-
-  .figure .caption a {
-    color: rgba(0, 0, 0, 0.6);
-  }
-
-  .figure .caption b,
-  .figure .caption strong, {
-    font-weight: 600;
-    color: rgba(0, 0, 0, 1.0);
-  }
-
-  /* Citations */
-
-  d-article .citation {
-    color: inherit;
-    cursor: inherit;
-  }
-
-  div.hanging-indent{
-    margin-left: 1em; text-indent: -1em;
-  }
-
-  /* Citation hover box */
-
-  .tippy-box[data-theme~=light-border] {
-    background-color: rgba(250, 250, 250, 0.95);
-  }
-
-  .tippy-content > p {
-    margin-bottom: 0;
-    padding: 2px;
-  }
-
-
-  /* Tweak 1000px media break to show more text */
-
-  @media(min-width: 1000px) {
-    .base-grid,
-    distill-header,
-    d-title,
-    d-abstract,
-    d-article,
-    d-appendix,
-    distill-appendix,
-    d-byline,
-    d-footnote-list,
-    d-citation-list,
-    distill-footer {
-      grid-template-columns: [screen-start] 1fr [page-start kicker-start] 80px [middle-start] 50px [text-start kicker-end] 65px 65px 65px 65px 65px 65px 65px 65px [text-end gutter-start] 65px [middle-end] 65px [page-end gutter-end] 1fr [screen-end];
-      grid-column-gap: 16px;
-    }
-
-    .grid {
-      grid-column-gap: 16px;
-    }
-
-    d-article {
-      font-size: 1.06rem;
-      line-height: 1.7em;
-    }
-    figure .caption, .figure .caption, figure figcaption {
-      font-size: 13px;
-    }
-  }
-
-  @media(min-width: 1180px) {
-    .base-grid,
-    distill-header,
-    d-title,
-    d-abstract,
-    d-article,
-    d-appendix,
-    distill-appendix,
-    d-byline,
-    d-footnote-list,
-    d-citation-list,
-    distill-footer {
-      grid-template-columns: [screen-start] 1fr [page-start kicker-start] 60px [middle-start] 60px [text-start kicker-end] 60px 60px 60px 60px 60px 60px 60px 60px [text-end gutter-start] 60px [middle-end] 60px [page-end gutter-end] 1fr [screen-end];
-      grid-column-gap: 32px;
-    }
-
-    .grid {
-      grid-column-gap: 32px;
-    }
-  }
-
-
-  /* Get the citation styles for the appendix (not auto-injected on render since
-     we do our own rendering of the citation appendix) */
-
-  d-appendix .citation-appendix,
-  .d-appendix .citation-appendix {
-    font-size: 11px;
-    line-height: 15px;
-    border-left: 1px solid rgba(0, 0, 0, 0.1);
-    padding-left: 18px;
-    border: 1px solid rgba(0,0,0,0.1);
-    background: rgba(0, 0, 0, 0.02);
-    padding: 10px 18px;
-    border-radius: 3px;
-    color: rgba(150, 150, 150, 1);
-    overflow: hidden;
-    margin-top: -12px;
-    white-space: pre-wrap;
-    word-wrap: break-word;
-  }
-
-  /* Include appendix styles here so they can be overridden */
-
-  d-appendix {
-    contain: layout style;
-    font-size: 0.8em;
-    line-height: 1.7em;
-    margin-top: 60px;
-    margin-bottom: 0;
-    border-top: 1px solid rgba(0, 0, 0, 0.1);
-    color: rgba(0,0,0,0.5);
-    padding-top: 60px;
-    padding-bottom: 48px;
-  }
-
-  d-appendix h3 {
-    grid-column: page-start / text-start;
-    font-size: 15px;
-    font-weight: 500;
-    margin-top: 1em;
-    margin-bottom: 0;
-    color: rgba(0,0,0,0.65);
-  }
-
-  d-appendix h3 + * {
-    margin-top: 1em;
-  }
-
-  d-appendix ol {
-    padding: 0 0 0 15px;
-  }
-
-  @media (min-width: 768px) {
-    d-appendix ol {
-      padding: 0 0 0 30px;
-      margin-left: -30px;
-    }
-  }
-
-  d-appendix li {
-    margin-bottom: 1em;
-  }
-
-  d-appendix a {
-    color: rgba(0, 0, 0, 0.6);
-  }
-
-  d-appendix > * {
-    grid-column: text;
-  }
-
-  d-appendix > d-footnote-list,
-  d-appendix > d-citation-list,
-  d-appendix > distill-appendix {
-    grid-column: screen;
-  }
-
-  /* Include footnote styles here so they can be overridden */
-
-  d-footnote-list {
-    contain: layout style;
-  }
-
-  d-footnote-list > * {
-    grid-column: text;
-  }
-
-  d-footnote-list a.footnote-backlink {
-    color: rgba(0,0,0,0.3);
-    padding-left: 0.5em;
-  }
-
-
-
-  /* Anchor.js */
-
-  .anchorjs-link {
-    /*transition: all .25s linear; */
-    text-decoration: none;
-    border-bottom: none;
-  }
-  *:hover > .anchorjs-link {
-    margin-left: -1.125em !important;
-    text-decoration: none;
-    border-bottom: none;
-  }
-
-  /* Social footer */
-
-  .social_footer {
-    margin-top: 30px;
-    margin-bottom: 0;
-    color: rgba(0,0,0,0.67);
-  }
-
-  .disqus-comments {
-    margin-right: 30px;
-  }
-
-  .disqus-comment-count {
-    border-bottom: 1px solid rgba(0, 0, 0, 0.4);
-    cursor: pointer;
-  }
-
-  #disqus_thread {
-    margin-top: 30px;
-  }
-
-  .article-sharing a {
-    border-bottom: none;
-    margin-right: 8px;
-  }
-
-  .article-sharing a:hover {
-    border-bottom: none;
-  }
-
-  .sidebar-section.subscribe {
-    font-size: 12px;
-    line-height: 1.6em;
-  }
-
-  .subscribe p {
-    margin-bottom: 0.5em;
-  }
-
-
-  .article-footer .subscribe {
-    font-size: 15px;
-    margin-top: 45px;
-  }
-
-
-  .sidebar-section.custom {
-    font-size: 12px;
-    line-height: 1.6em;
-  }
-
-  .custom p {
-    margin-bottom: 0.5em;
-  }
-
-  /* Styles for listing layout (hide title) */
-  .layout-listing d-title, .layout-listing .d-title {
-    display: none;
-  }
-
-  /* Styles for posts lists (not auto-injected) */
-
-
-  .posts-with-sidebar {
-    padding-left: 45px;
-    padding-right: 45px;
-  }
-
-  .posts-list .description h2,
-  .posts-list .description p {
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Arial, sans-serif;
-  }
-
-  .posts-list .description h2 {
-    font-weight: 700;
-    border-bottom: none;
-    padding-bottom: 0;
-  }
-
-  .posts-list h2.post-tag {
-    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
-    padding-bottom: 12px;
-  }
-  .posts-list {
-    margin-top: 60px;
-    margin-bottom: 24px;
-  }
-
-  .posts-list .post-preview {
-    text-decoration: none;
-    overflow: hidden;
-    display: block;
-    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
-    padding: 24px 0;
-  }
-
-  .post-preview-last {
-    border-bottom: none !important;
-  }
-
-  .posts-list .posts-list-caption {
-    grid-column: screen;
-    font-weight: 400;
-  }
-
-  .posts-list .post-preview h2 {
-    margin: 0 0 6px 0;
-    line-height: 1.2em;
-    font-style: normal;
-    font-size: 24px;
-  }
-
-  .posts-list .post-preview p {
-    margin: 0 0 12px 0;
-    line-height: 1.4em;
-    font-size: 16px;
-  }
-
-  .posts-list .post-preview .thumbnail {
-    box-sizing: border-box;
-    margin-bottom: 24px;
-    position: relative;
-    max-width: 500px;
-  }
-  .posts-list .post-preview img {
-    width: 100%;
-    display: block;
-  }
-
-  .posts-list .metadata {
-    font-size: 12px;
-    line-height: 1.4em;
-    margin-bottom: 18px;
-  }
-
-  .posts-list .metadata > * {
-    display: inline-block;
-  }
-
-  .posts-list .metadata .publishedDate {
-    margin-right: 2em;
-  }
-
-  .posts-list .metadata .dt-authors {
-    display: block;
-    margin-top: 0.3em;
-    margin-right: 2em;
-  }
-
-  .posts-list .dt-tags {
-    display: block;
-    line-height: 1em;
-  }
-
-  .posts-list .dt-tags .dt-tag {
-    display: inline-block;
-    color: rgba(0,0,0,0.6);
-    padding: 0.3em 0.4em;
-    margin-right: 0.2em;
-    margin-bottom: 0.4em;
-    font-size: 60%;
-    border: 1px solid rgba(0,0,0,0.2);
-    border-radius: 3px;
-    text-transform: uppercase;
-    font-weight: 500;
-  }
-
-  .posts-list img {
-    opacity: 1;
-  }
-
-  .posts-list img[data-src] {
-    opacity: 0;
-  }
-
-  .posts-more {
-    clear: both;
-  }
-
-
-  .posts-sidebar {
-    font-size: 16px;
-  }
-
-  .posts-sidebar h3 {
-    font-size: 16px;
-    margin-top: 0;
-    margin-bottom: 0.5em;
-    font-weight: 400;
-    text-transform: uppercase;
-  }
-
-  .sidebar-section {
-    margin-bottom: 30px;
-  }
-
-  .categories ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-  }
-
-  .categories li {
-    color: rgba(0, 0, 0, 0.8);
-    margin-bottom: 0;
-  }
-
-  .categories li>a {
-    border-bottom: none;
-  }
-
-  .categories li>a:hover {
-    border-bottom: 1px solid rgba(0, 0, 0, 0.4);
-  }
-
-  .categories .active {
-    font-weight: 600;
-  }
-
-  .categories .category-count {
-    color: rgba(0, 0, 0, 0.4);
-  }
-
-
-  @media(min-width: 768px) {
-    .posts-list .post-preview h2 {
-      font-size: 26px;
-    }
-    .posts-list .post-preview .thumbnail {
-      float: right;
-      width: 30%;
-      margin-bottom: 0;
-    }
-    .posts-list .post-preview .description {
-      float: left;
-      width: 45%;
-    }
-    .posts-list .post-preview .metadata {
-      float: left;
-      width: 20%;
-      margin-top: 8px;
-    }
-    .posts-list .post-preview p {
-      margin: 0 0 12px 0;
-      line-height: 1.5em;
-      font-size: 16px;
-    }
-    .posts-with-sidebar .posts-list {
-      float: left;
-      width: 75%;
-    }
-    .posts-with-sidebar .posts-sidebar {
-      float: right;
-      width: 20%;
-      margin-top: 60px;
-      padding-top: 24px;
-      padding-bottom: 24px;
-    }
-  }
-
-
-  /* Improve display for browsers without grid (IE/Edge <= 15) */
-
-  .downlevel {
-    line-height: 1.6em;
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Arial, sans-serif;
-    margin: 0;
-  }
-
-  .downlevel .d-title {
-    padding-top: 6rem;
-    padding-bottom: 1.5rem;
-  }
-
-  .downlevel .d-title h1 {
-    font-size: 50px;
-    font-weight: 700;
-    line-height: 1.1em;
-    margin: 0 0 0.5rem;
-  }
-
-  .downlevel .d-title p {
-    font-weight: 300;
-    font-size: 1.2rem;
-    line-height: 1.55em;
-    margin-top: 0;
-  }
-
-  .downlevel .d-byline {
-    padding-top: 0.8em;
-    padding-bottom: 0.8em;
-    font-size: 0.8rem;
-    line-height: 1.8em;
-  }
-
-  .downlevel .section-separator {
-    border: none;
-    border-top: 1px solid rgba(0, 0, 0, 0.1);
-  }
-
-  .downlevel .d-article {
-    font-size: 1.06rem;
-    line-height: 1.7em;
-    padding-top: 1rem;
-    padding-bottom: 2rem;
-  }
-
-
-  .downlevel .d-appendix {
-    padding-left: 0;
-    padding-right: 0;
-    max-width: none;
-    font-size: 0.8em;
-    line-height: 1.7em;
-    margin-bottom: 0;
-    color: rgba(0,0,0,0.5);
-    padding-top: 40px;
-    padding-bottom: 48px;
-  }
-
-  .downlevel .footnotes ol {
-    padding-left: 13px;
-  }
-
-  .downlevel .base-grid,
-  .downlevel .distill-header,
-  .downlevel .d-title,
-  .downlevel .d-abstract,
-  .downlevel .d-article,
-  .downlevel .d-appendix,
-  .downlevel .distill-appendix,
-  .downlevel .d-byline,
-  .downlevel .d-footnote-list,
-  .downlevel .d-citation-list,
-  .downlevel .distill-footer,
-  .downlevel .appendix-bottom,
-  .downlevel .posts-container {
-    padding-left: 40px;
-    padding-right: 40px;
-  }
-
-  @media(min-width: 768px) {
-    .downlevel .base-grid,
-    .downlevel .distill-header,
-    .downlevel .d-title,
-    .downlevel .d-abstract,
-    .downlevel .d-article,
-    .downlevel .d-appendix,
-    .downlevel .distill-appendix,
-    .downlevel .d-byline,
-    .downlevel .d-footnote-list,
-    .downlevel .d-citation-list,
-    .downlevel .distill-footer,
-    .downlevel .appendix-bottom,
-    .downlevel .posts-container {
-    padding-left: 150px;
-    padding-right: 150px;
-    max-width: 900px;
-  }
-  }
-
-  .downlevel pre code {
-    display: block;
-    border-left: 2px solid rgba(0, 0, 0, .1);
-    padding: 0 0 0 20px;
-    font-size: 14px;
-  }
-
-  .downlevel code, .downlevel pre {
-    color: black;
-    background: none;
-    font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
-    text-align: left;
-    white-space: pre;
-    word-spacing: normal;
-    word-break: normal;
-    word-wrap: normal;
-    line-height: 1.5;
-
-    -moz-tab-size: 4;
-    -o-tab-size: 4;
-    tab-size: 4;
-
-    -webkit-hyphens: none;
-    -moz-hyphens: none;
-    -ms-hyphens: none;
-    hyphens: none;
-  }
-
-  .downlevel .posts-list .post-preview {
-    color: inherit;
-  }
-
-
-
-  </style>
-
-  <script type="application/javascript">
-
-  function is_downlevel_browser() {
-    if (bowser.isUnsupportedBrowser({ msie: "12", msedge: "16"},
-                                   window.navigator.userAgent)) {
-      return true;
-    } else {
-      return window.load_distill_framework === undefined;
-    }
-  }
-
-  // show body when load is complete
-  function on_load_complete() {
-
-    // add anchors
-    if (window.anchors) {
-      window.anchors.options.placement = 'left';
-      window.anchors.add('d-article > h2, d-article > h3, d-article > h4, d-article > h5');
-    }
-
-
-    // set body to visible
-    document.body.style.visibility = 'visible';
-
-    // force redraw for leaflet widgets
-    if (window.HTMLWidgets) {
-      var maps = window.HTMLWidgets.findAll(".leaflet");
-      $.each(maps, function(i, el) {
-        var map = this.getMap();
-        map.invalidateSize();
-        map.eachLayer(function(layer) {
-          if (layer instanceof L.TileLayer)
-            layer.redraw();
-        });
-      });
-    }
-
-    // trigger 'shown' so htmlwidgets resize
-    $('d-article').trigger('shown');
-  }
-
-  function init_distill() {
-
-    init_common();
-
-    // create front matter
-    var front_matter = $('<d-front-matter></d-front-matter>');
-    $('#distill-front-matter').wrap(front_matter);
-
-    // create d-title
-    $('.d-title').changeElementType('d-title');
-
-    // create d-byline
-    var byline = $('<d-byline></d-byline>');
-    $('.d-byline').replaceWith(byline);
-
-    // create d-article
-    var article = $('<d-article></d-article>');
-    $('.d-article').wrap(article).children().unwrap();
-
-    // move posts container into article
-    $('.posts-container').appendTo($('d-article'));
-
-    // create d-appendix
-    $('.d-appendix').changeElementType('d-appendix');
-
-    // flag indicating that we have appendix items
-    var appendix = $('.appendix-bottom').children('h3').length > 0;
-
-    // replace footnotes with <d-footnote>
-    $('.footnote-ref').each(function(i, val) {
-      appendix = true;
-      var href = $(this).attr('href');
-      var id = href.replace('#', '');
-      var fn = $('#' + id);
-      var fn_p = $('#' + id + '>p');
-      fn_p.find('.footnote-back').remove();
-      var text = fn_p.html();
-      var dtfn = $('<d-footnote></d-footnote>');
-      dtfn.html(text);
-      $(this).replaceWith(dtfn);
-    });
-    // remove footnotes
-    $('.footnotes').remove();
-
-    // move refs into #references-listing
-    $('#references-listing').replaceWith($('#refs'));
-
-    $('h1.appendix, h2.appendix').each(function(i, val) {
-      $(this).changeElementType('h3');
-    });
-    $('h3.appendix').each(function(i, val) {
-      var id = $(this).attr('id');
-      $('.d-contents a[href="#' + id + '"]').parent().remove();
-      appendix = true;
-      $(this).nextUntil($('h1, h2, h3')).addBack().appendTo($('d-appendix'));
-    });
-
-    // show d-appendix if we have appendix content
-    $("d-appendix").css('display', appendix ? 'grid' : 'none');
-
-    // localize layout chunks to just output
-    $('.layout-chunk').each(function(i, val) {
-
-      // capture layout
-      var layout = $(this).attr('data-layout');
-
-      // apply layout to markdown level block elements
-      var elements = $(this).children().not('details, div.sourceCode, pre, script');
-      elements.each(function(i, el) {
-        var layout_div = $('<div class="' + layout + '"></div>');
-        if (layout_div.hasClass('shaded')) {
-          var shaded_content = $('<div class="shaded-content"></div>');
-          $(this).wrap(shaded_content);
-          $(this).parent().wrap(layout_div);
-        } else {
-          $(this).wrap(layout_div);
-        }
-      });
-
-
-      // unwrap the layout-chunk div
-      $(this).children().unwrap();
-    });
-
-    // remove code block used to force  highlighting css
-    $('.distill-force-highlighting-css').parent().remove();
-
-    // remove empty line numbers inserted by pandoc when using a
-    // custom syntax highlighting theme
-    $('code.sourceCode a:empty').remove();
-
-    // load distill framework
-    load_distill_framework();
-
-    // wait for window.distillRunlevel == 4 to do post processing
-    function distill_post_process() {
-
-      if (!window.distillRunlevel || window.distillRunlevel < 4)
-        return;
-
-      // hide author/affiliations entirely if we have no authors
-      var front_matter = JSON.parse($("#distill-front-matter").html());
-      var have_authors = front_matter.authors && front_matter.authors.length > 0;
-      if (!have_authors)
-        $('d-byline').addClass('hidden');
-
-      // article with toc class
-      $('.d-contents').parent().addClass('d-article-with-toc');
-
-      // strip links that point to #
-      $('.authors-affiliations').find('a[href="#"]').removeAttr('href');
-
-      // add orcid ids
-      $('.authors-affiliations').find('.author').each(function(i, el) {
-        var orcid_id = front_matter.authors[i].orcidID;
-        if (orcid_id) {
-          var a = $('<a></a>');
-          a.attr('href', 'https://orcid.org/' + orcid_id);
-          var img = $('<img></img>');
-          img.addClass('orcid-id');
-          img.attr('alt', 'ORCID ID');
-          img.attr('src','data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2ZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo1N0NEMjA4MDI1MjA2ODExOTk0QzkzNTEzRjZEQTg1NyIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDozM0NDOEJGNEZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDozM0NDOEJGM0ZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M1IE1hY2ludG9zaCI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOkZDN0YxMTc0MDcyMDY4MTE5NUZFRDc5MUM2MUUwNEREIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjU3Q0QyMDgwMjUyMDY4MTE5OTRDOTM1MTNGNkRBODU3Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+84NovQAAAR1JREFUeNpiZEADy85ZJgCpeCB2QJM6AMQLo4yOL0AWZETSqACk1gOxAQN+cAGIA4EGPQBxmJA0nwdpjjQ8xqArmczw5tMHXAaALDgP1QMxAGqzAAPxQACqh4ER6uf5MBlkm0X4EGayMfMw/Pr7Bd2gRBZogMFBrv01hisv5jLsv9nLAPIOMnjy8RDDyYctyAbFM2EJbRQw+aAWw/LzVgx7b+cwCHKqMhjJFCBLOzAR6+lXX84xnHjYyqAo5IUizkRCwIENQQckGSDGY4TVgAPEaraQr2a4/24bSuoExcJCfAEJihXkWDj3ZAKy9EJGaEo8T0QSxkjSwORsCAuDQCD+QILmD1A9kECEZgxDaEZhICIzGcIyEyOl2RkgwAAhkmC+eAm0TAAAAABJRU5ErkJggg==');
-          a.append(img);
-          $(this).append(a);
-        }
-      });
-
-      // hide elements of author/affiliations grid that have no value
-      function hide_byline_column(caption) {
-        $('d-byline').find('h3:contains("' + caption + '")').parent().css('visibility', 'hidden');
-      }
-
-      // affiliations
-      var have_affiliations = false;
-      for (var i = 0; i<front_matter.authors.length; ++i) {
-        var author = front_matter.authors[i];
-        if (author.affiliation !== "&nbsp;") {
-          have_affiliations = true;
-          break;
-        }
-      }
-      if (!have_affiliations)
-        $('d-byline').find('h3:contains("Affiliations")').css('visibility', 'hidden');
-
-      // published date
-      if (!front_matter.publishedDate)
-        hide_byline_column("Published");
-
-      // document object identifier
-      var doi = $('d-byline').find('h3:contains("DOI")');
-      var doi_p = doi.next().empty();
-      if (!front_matter.doi) {
-        // if we have a citation and valid citationText then link to that
-        if ($('#citation').length > 0 && front_matter.citationText) {
-          doi.html('Citation');
-          $('<a href="#citation"></a>')
-            .text(front_matter.citationText)
-            .appendTo(doi_p);
-        } else {
-          hide_byline_column("DOI");
-        }
-      } else {
-        $('<a></a>')
-           .attr('href', "https://doi.org/" + front_matter.doi)
-           .html(front_matter.doi)
-           .appendTo(doi_p);
-      }
-
-       // change plural form of authors/affiliations
-      if (front_matter.authors.length === 1) {
-        var grid = $('.authors-affiliations');
-        grid.children('h3:contains("Authors")').text('Author');
-        grid.children('h3:contains("Affiliations")').text('Affiliation');
-      }
-
-      // remove d-appendix and d-footnote-list local styles
-      $('d-appendix > style:first-child').remove();
-      $('d-footnote-list > style:first-child').remove();
-
-      // move appendix-bottom entries to the bottom
-      $('.appendix-bottom').appendTo('d-appendix').children().unwrap();
-      $('.appendix-bottom').remove();
-
-      // hoverable references
-      $('span.citation[data-cites]').each(function() {
-        const citeChild = $(this).children()[0]
-        // Do not process if @xyz has been used without escaping and without bibliography activated
-        // https://github.com/rstudio/distill/issues/466
-        if (citeChild === undefined) return true
-
-        if (citeChild.nodeName == "D-FOOTNOTE") {
-          var fn = citeChild
-          $(this).html(fn.shadowRoot.querySelector("sup"))
-          $(this).id = fn.id
-          fn.remove()
-        }
-        var refs = $(this).attr('data-cites').split(" ");
-        var refHtml = refs.map(function(ref) {
-          // Could use CSS.escape too here, we insure backward compatibility in navigator
-          return "<p>" + $('div[id="ref-' + ref + '"]').html() + "</p>";
-        }).join("\n");
-        window.tippy(this, {
-          allowHTML: true,
-          content: refHtml,
-          maxWidth: 500,
-          interactive: true,
-          interactiveBorder: 10,
-          theme: 'light-border',
-          placement: 'bottom-start'
-        });
-      });
-
-      // fix footnotes in tables (#411)
-      // replacing broken distill.pub feature
-      $('table d-footnote').each(function() {
-        // we replace internal showAtNode methode which is triggered when hovering a footnote
-        this.hoverBox.showAtNode = function(node) {
-          // ported from https://github.com/distillpub/template/pull/105/files
-          calcOffset = function(elem) {
-              let x = elem.offsetLeft;
-              let y = elem.offsetTop;
-              // Traverse upwards until an `absolute` element is found or `elem`
-              // becomes null.
-              while (elem = elem.offsetParent && elem.style.position != 'absolute') {
-                  x += elem.offsetLeft;
-                  y += elem.offsetTop;
-              }
-
-              return { left: x, top: y };
-          }
-          // https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement/offsetTop
-          const bbox = node.getBoundingClientRect();
-          const offset = calcOffset(node);
-          this.show([offset.left + bbox.width, offset.top + bbox.height]);
-        }
-      })
-
-      // clear polling timer
-      clearInterval(tid);
-
-      // show body now that everything is ready
-      on_load_complete();
-    }
-
-    var tid = setInterval(distill_post_process, 50);
-    distill_post_process();
-
-  }
-
-  function init_downlevel() {
-
-    init_common();
-
-     // insert hr after d-title
-    $('.d-title').after($('<hr class="section-separator"/>'));
-
-    // check if we have authors
-    var front_matter = JSON.parse($("#distill-front-matter").html());
-    var have_authors = front_matter.authors && front_matter.authors.length > 0;
-
-    // manage byline/border
-    if (!have_authors)
-      $('.d-byline').remove();
-    $('.d-byline').after($('<hr class="section-separator"/>'));
-    $('.d-byline a').remove();
-
-    // remove toc
-    $('.d-contents').remove();
-
-    // move appendix elements
-    $('h1.appendix, h2.appendix').each(function(i, val) {
-      $(this).changeElementType('h3');
-    });
-    $('h3.appendix').each(function(i, val) {
-      $(this).nextUntil($('h1, h2, h3')).addBack().appendTo($('.d-appendix'));
-    });
-
-
-    // inject headers into references and footnotes
-    var refs_header = $('<h3></h3>');
-    refs_header.text('References');
-    $('#refs').prepend(refs_header);
-
-    var footnotes_header = $('<h3></h3');
-    footnotes_header.text('Footnotes');
-    $('.footnotes').children('hr').first().replaceWith(footnotes_header);
-
-    // move appendix-bottom entries to the bottom
-    $('.appendix-bottom').appendTo('.d-appendix').children().unwrap();
-    $('.appendix-bottom').remove();
-
-    // remove appendix if it's empty
-    if ($('.d-appendix').children().length === 0)
-      $('.d-appendix').remove();
-
-    // prepend separator above appendix
-    $('.d-appendix').before($('<hr class="section-separator" style="clear: both"/>'));
-
-    // trim code
-    $('pre>code').each(function(i, val) {
-      $(this).html($.trim($(this).html()));
-    });
-
-    // move posts-container right before article
-    $('.posts-container').insertBefore($('.d-article'));
-
-    $('body').addClass('downlevel');
-
-    on_load_complete();
-  }
-
-
-  function init_common() {
-
-    // jquery plugin to change element types
-    (function($) {
-      $.fn.changeElementType = function(newType) {
-        var attrs = {};
-
-        $.each(this[0].attributes, function(idx, attr) {
-          attrs[attr.nodeName] = attr.nodeValue;
-        });
-
-        this.replaceWith(function() {
-          return $("<" + newType + "/>", attrs).append($(this).contents());
-        });
-      };
-    })(jQuery);
-
-    // prevent underline for linked images
-    $('a > img').parent().css({'border-bottom' : 'none'});
-
-    // mark non-body figures created by knitr chunks as 100% width
-    $('.layout-chunk').each(function(i, val) {
-      var figures = $(this).find('img, .html-widget');
-      // ignore leaflet img layers (#106)
-      figures = figures.filter(':not(img[class*="leaflet"])')
-      if ($(this).attr('data-layout') !== "l-body") {
-        figures.css('width', '100%');
-      } else {
-        figures.css('max-width', '100%');
-        figures.filter("[width]").each(function(i, val) {
-          var fig = $(this);
-          fig.css('width', fig.attr('width') + 'px');
-        });
-
-      }
-    });
-
-    // auto-append index.html to post-preview links in file: protocol
-    // and in rstudio ide preview
-    $('.post-preview').each(function(i, val) {
-      if (window.location.protocol === "file:")
-        $(this).attr('href', $(this).attr('href') + "index.html");
-    });
-
-    // get rid of index.html references in header
-    if (window.location.protocol !== "file:") {
-      $('.distill-site-header a[href]').each(function(i,val) {
-        $(this).attr('href', $(this).attr('href').replace(/^index[.]html/, "./"));
-      });
-    }
-
-    // add class to pandoc style tables
-    $('tr.header').parent('thead').parent('table').addClass('pandoc-table');
-    $('.kable-table').children('table').addClass('pandoc-table');
-
-    // add figcaption style to table captions
-    $('caption').parent('table').addClass("figcaption");
-
-    // initialize posts list
-    if (window.init_posts_list)
-      window.init_posts_list();
-
-    // implmement disqus comment link
-    $('.disqus-comment-count').click(function() {
-      window.headroom_prevent_pin = true;
-      $('#disqus_thread').toggleClass('hidden');
-      if (!$('#disqus_thread').hasClass('hidden')) {
-        var offset = $(this).offset();
-        $(window).resize();
-        $('html, body').animate({
-          scrollTop: offset.top - 35
-        });
-      }
-    });
-  }
-
-  document.addEventListener('DOMContentLoaded', function() {
-    if (is_downlevel_browser())
-      init_downlevel();
-    else
-      window.addEventListener('WebComponentsReady', init_distill);
-  });
-
-  </script>
-
-  <style type="text/css">
-  /* base variables */
-
-  /* Edit the CSS properties in this file to create a custom
-     Distill theme. Only edit values in the right column
-     for each row; values shown are the CSS defaults.
-     To return any property to the default,
-     you may set its value to: unset
-     All rows must end with a semi-colon.                      */
-
-  /* Optional: embed custom fonts here with `@import`          */
-  /* This must remain at the top of this file.                 */
-
-
-
-  html {
-    /*-- Main font sizes --*/
-    --title-size:      50px;
-    --body-size:       1.06rem;
-    --code-size:       14px;
-    --aside-size:      12px;
-    --fig-cap-size:    13px;
-    /*-- Main font colors --*/
-    --title-color:     #000000;
-    --header-color:    rgba(0, 0, 0, 0.8);
-    --body-color:      rgba(0, 0, 0, 0.8);
-    --aside-color:     rgba(0, 0, 0, 0.6);
-    --fig-cap-color:   rgba(0, 0, 0, 0.6);
-    /*-- Specify custom fonts ~~~ must be imported above   --*/
-    --heading-font:    sans-serif;
-    --mono-font:       monospace;
-    --body-font:       sans-serif;
-    --navbar-font:     sans-serif;  /* websites + blogs only */
-  }
-
-  /*-- ARTICLE METADATA --*/
-  d-byline {
-    --heading-size:    0.6rem;
-    --heading-color:   rgba(0, 0, 0, 0.5);
-    --body-size:       0.8rem;
-    --body-color:      rgba(0, 0, 0, 0.8);
-  }
-
-  /*-- ARTICLE TABLE OF CONTENTS --*/
-  .d-contents {
-    --heading-size:    18px;
-    --contents-size:   13px;
-  }
-
-  /*-- ARTICLE APPENDIX --*/
-  d-appendix {
-    --heading-size:    15px;
-    --heading-color:   rgba(0, 0, 0, 0.65);
-    --text-size:       0.8em;
-    --text-color:      rgba(0, 0, 0, 0.5);
-  }
-
-  /*-- WEBSITE HEADER + FOOTER --*/
-  /* These properties only apply to Distill sites and blogs  */
-
-  .distill-site-header {
-    --title-size:       18px;
-    --text-color:       rgba(255, 255, 255, 0.8);
-    --text-size:        15px;
-    --hover-color:      white;
-    --bkgd-color:       #0F2E3D;
-  }
-
-  .distill-site-footer {
-    --text-color:       rgba(255, 255, 255, 0.8);
-    --text-size:        15px;
-    --hover-color:      white;
-    --bkgd-color:       #0F2E3D;
-  }
-
-  /*-- Additional custom styles --*/
-  /* Add any additional CSS rules below                      */
-  </style>
-  <style type="text/css">
-  /* base variables */
-
-  /* Edit the CSS properties in this file to create a custom
-     Distill theme. Only edit values in the right column
-     for each row; values shown are the CSS defaults.
-     To return any property to the default,
-     you may set its value to: unset
-     All rows must end with a semi-colon.                      */
-
-  /* Optional: embed custom fonts here with `@import`          */
-  /* This must remain at the top of this file.                 */
-
-  @import url('https://fonts.googleapis.com/css2?family=Roboto');
-  @import url('https://fonts.googleapis.com/css2?family=Fira+Mono');
-  @import url('https://fonts.googleapis.com/css2?family=Montserrat');
-  @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
-
-  html {
-    /*-- Main font sizes --*/
-    --title-size:      40px;
-    --body-size:       1.06rem;
-    --code-size:       14px;
-    --aside-size:      12px;
-    --fig-cap-size:    13px;
-    /*-- Main font colors --*/
-    --title-color:     #cc0033; /* light = "#6ec6ff" dark = "#0069c0" */
-    --header-color:    #5f6a72;
-    --body-color:      #5f6a72;
-    --aside-color:     #5f6a72;
-    --fig-cap-color:   #5f6a72;
-    /*-- Specify custom fonts ~~~ must be imported above   --*/
-    --heading-font:    'Montserrat', sans-serif; /* edited */
-    --mono-font:       'Fira Mono', monospace;   /* edited */
-    --body-font:       'Roboto', sans-serif;     /* edited */
-    --navbar-font:     'Lato', sans-serif;       /* edited */
-  }
-
-  /*-- ARTICLE METADATA --*/
-  d-byline {
-    --heading-size:    0.6rem;
-    --heading-color:   rgba(0, 0, 0, 0.5);
-    --body-size:       0.8rem;
-    --body-color:      rgba(0, 0, 0, 0.8);
-  }
-
-  /*-- ARTICLE TABLE OF CONTENTS --*/
-  .d-contents {
-    --heading-size:    18px;
-    --contents-size:   13px;
-  }
-
-  /*-- ARTICLE APPENDIX --*/
-  d-appendix {
-    --heading-size:    15px;
-    --heading-color:   rgba(0, 0, 0, 0.65);
-    --text-size:       0.8em;
-    --text-color:      rgba(0, 0, 0, 0.5);
-  }
-
-  /*-- WEBSITE HEADER + FOOTER --*/
-  /* These properties only apply to Distill sites and blogs  */
-
-  .distill-site-header {
-    --title-size:       20px;
-    --text-color:       #5f6a72;
-    --text-size:        20px;
-    --hover-color:      #cc0033;
-    --bkgd-color:       #ffffff; /* 5f6a72 */
-  }
-
-  .distill-site-footer {
-    --text-color:       #5f6a72;
-    --text-size:        15px;
-    --hover-color:      black;
-    --bkgd-color:       #ffffff;
-    margin-top: 0px;
-    padding-top: 0px;
-    padding-bottom: 0px;
-    position: fixed;
-    bottom: 0;
-  }
-
-  /*-- Additional custom styles --*/
-  /* Add any additional CSS rules below                      */
-
-  .distill-site-header .title {
-    min-width: 30px;
-  }
-
-  d-article {
-    border-top: none;
-    margin-top: 0px;
-    padding-top: 0px;
-  }
-
-  d-article title {
-    margin-bottom: 0px;
-    padding-bottom: 0px;
-  }
-
-  d-article li {
-    margin: 2px 0;
-  }
-
-  /* ---- particles.js container ---- */
-
-  #particles-js{
-    width: 100%;
-    height: 100%;
-    background-color: #ffffff;
-    background-image: url('');
-    background-size: cover;
-    background-position: 50% 50%;
-    background-repeat: no-repeat;
-  }</style>
-  <style type="text/css">
-  /* base style */
-
-  /* FONT FAMILIES */
-
-  :root {
-    --heading-default: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Arial, sans-serif;
-    --mono-default: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
-    --body-default: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Arial, sans-serif;
-  }
-
-  body,
-  .posts-list .post-preview p,
-  .posts-list .description p {
-    font-family: var(--body-font), var(--body-default);
-  }
-
-  h1, h2, h3, h4, h5, h6,
-  .posts-list .post-preview h2,
-  .posts-list .description h2 {
-    font-family: var(--heading-font), var(--heading-default);
-  }
-
-  d-article div.sourceCode code,
-  d-article pre code {
-    font-family: var(--mono-font), var(--mono-default);
-  }
-
-
-  /*-- TITLE --*/
-  d-title h1,
-  .posts-list > h1 {
-    color: var(--title-color, black);
-  }
-
-  d-title h1 {
-    font-size: var(--title-size, 50px);
-  }
-
-  /*-- HEADERS --*/
-  d-article h1,
-  d-article h2,
-  d-article h3,
-  d-article h4,
-  d-article h5,
-  d-article h6 {
-    color: var(--header-color, rgba(0, 0, 0, 0.8));
-  }
-
-  /*-- BODY --*/
-  d-article > p,  /* only text inside of <p> tags */
-  d-article > ul, /* lists */
-  d-article > ol {
-    color: var(--body-color, rgba(0, 0, 0, 0.8));
-    font-size: var(--body-size, 1.06rem);
-  }
-
-
-  /*-- CODE --*/
-  d-article div.sourceCode code,
-  d-article pre code {
-    font-size: var(--code-size, 14px);
-  }
-
-  /*-- ASIDE --*/
-  d-article aside {
-    font-size: var(--aside-size, 12px);
-    color: var(--aside-color, rgba(0, 0, 0, 0.6));
-  }
-
-  /*-- FIGURE CAPTIONS --*/
-  figure .caption,
-  figure figcaption,
-  .figure .caption {
-    font-size: var(--fig-cap-size, 13px);
-    color: var(--fig-cap-color, rgba(0, 0, 0, 0.6));
-  }
-
-  /*-- METADATA --*/
-  d-byline h3 {
-    font-size: var(--heading-size, 0.6rem);
-    color: var(--heading-color, rgba(0, 0, 0, 0.5));
-  }
-
-  d-byline {
-    font-size: var(--body-size, 0.8rem);
-    color: var(--body-color, rgba(0, 0, 0, 0.8));
-  }
-
-  d-byline a,
-  d-article d-byline a {
-    color: var(--body-color, rgba(0, 0, 0, 0.8));
-  }
-
-  /*-- TABLE OF CONTENTS --*/
-  .d-contents nav h3 {
-    font-size: var(--heading-size, 18px);
-  }
-
-  .d-contents nav a {
-    font-size: var(--contents-size, 13px);
-  }
-
-  /*-- APPENDIX --*/
-  d-appendix h3 {
-    font-size: var(--heading-size, 15px);
-    color: var(--heading-color, rgba(0, 0, 0, 0.65));
-  }
-
-  d-appendix {
-    font-size: var(--text-size, 0.8em);
-    color: var(--text-color, rgba(0, 0, 0, 0.5));
-  }
-
-  d-appendix d-footnote-list a.footnote-backlink {
-    color: var(--text-color, rgba(0, 0, 0, 0.5));
-  }
-
-  /*-- WEBSITE HEADER + FOOTER --*/
-  .distill-site-header .title {
-    font-size: var(--title-size, 18px);
-    font-family: var(--navbar-font), var(--heading-default);
-  }
-
-  .distill-site-header a,
-  .nav-dropdown .nav-dropbtn {
-    font-family: var(--navbar-font), var(--heading-default);
-  }
-
-  .nav-dropdown .nav-dropbtn {
-    color: var(--text-color, rgba(255, 255, 255, 0.8));
-    font-size: var(--text-size, 15px);
-  }
-
-  .distill-site-header a:hover,
-  .nav-dropdown:hover .nav-dropbtn {
-    color: var(--hover-color, white);
-  }
-
-  .distill-site-header {
-    font-size: var(--text-size, 15px);
-    color: var(--text-color, rgba(255, 255, 255, 0.8));
-    background-color: var(--bkgd-color, #0F2E3D);
-  }
-
-  .distill-site-footer {
-    font-size: var(--text-size, 15px);
-    color: var(--text-color, rgba(255, 255, 255, 0.8));
-    background-color: var(--bkgd-color, #0F2E3D);
-  }
-
-  .distill-site-footer a:hover {
-    color: var(--hover-color, white);
-  }</style>
-  <!--/radix_placeholder_distill-->
-  <script src="site_libs/header-attrs-2.20/header-attrs.js"></script>
-  <link href="site_libs/panelset-0.2.6/panelset.css" rel="stylesheet" />
-  <script src="site_libs/panelset-0.2.6/panelset.js"></script>
-  <script src="site_libs/popper-2.6.0/popper.min.js"></script>
-  <link href="site_libs/tippy-6.2.7/tippy.css" rel="stylesheet" />
-  <link href="site_libs/tippy-6.2.7/tippy-light-border.css" rel="stylesheet" />
-  <script src="site_libs/tippy-6.2.7/tippy.umd.min.js"></script>
-  <script src="site_libs/anchor-4.2.2/anchor.min.js"></script>
-  <script src="site_libs/bowser-1.9.3/bowser.min.js"></script>
-  <script src="site_libs/webcomponents-2.0.0/webcomponents.js"></script>
-  <script src="site_libs/distill-2.2.21/template.v2.js"></script>
-  <!--radix_placeholder_site_in_header-->
-  <script type="text/javascript" cookie-consent="tracking" async src="https://www.googletagmanager.com/gtag/js?id=UA-49437230-1"></script>
-  <script type="text/javascript" cookie-consent="tracking">
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-  gtag('config', 'UA-49437230-1');
-  </script>
-  <!--/radix_placeholder_site_in_header-->
-
-
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<link href="././assets/img/jvc_favicon.png" rel="icon" type="image/png">
+<script src="site_libs/quarto-html/quarto.js"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-dark.min.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 20,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit"
+  }
+}</script>
+
+<script type="text/javascript">
+
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+ga('create', 'UA-49437230-1', 'auto');
+
+ga('send', {
+  hitType: 'pageview',
+  'anonymizeIp': true,
+});
+</script>
+
+
+<meta property="og:title" content="JVC - Research">
+<meta property="og:site-name" content="JVC">
+<meta name="twitter:title" content="JVC - Research">
+<meta name="twitter:card" content="summary">
 </head>
 
-<body>
+<body class="nav-fixed fullcontent">
 
-<!--radix_placeholder_front_matter-->
-
-<script id="distill-front-matter" type="text/json">
-{"title":"Research","authors":[]}
-</script>
-
-<!--/radix_placeholder_front_matter-->
-<!--radix_placeholder_navigation_before_body-->
-<header class="header header--fixed" role="banner">
-<nav class="distill-site-nav distill-site-header">
-<div class="nav-left">
-<a class="logo" href="https://www.jvcasillas.com">
-<img src="images/brain_small.png" alt="Logo"/>
-</a>
-<a href="index.html" class="title">JVC</a>
-<a href="about.html">About</a>
-<a href="research.html">Research</a>
-<a href="code.html">Code</a>
-<a href="teaching.html">Teaching</a>
-<a href="blog.html">Posts</a>
-<input id="distill-search" class="nav-search hidden" type="text" placeholder="Search..."/>
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark ">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container">
+    <a class="navbar-brand" href="./index.html">
+    <span class="navbar-title">JVC</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="./about.html" rel="" target="">
+ <span class="menu-text">About</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link active" href="./research.html" rel="" target="" aria-current="page">
+ <span class="menu-text">Research</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./code.html" rel="" target="">
+ <span class="menu-text">Code</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./teaching.html" rel="" target="">
+ <span class="menu-text">Teaching</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./blog.html" rel="" target="">
+ <span class="menu-text">Posts</span></a>
+  </li>  
+</ul>
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/jvcasillas" rel="" target=""><i class="bi bi-github" role="img">
+</i> 
+ <span class="menu-text"></span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://twitter.com/jvcasill" rel="" target=""><i class="bi bi-twitter" role="img">
+</i> 
+ <span class="menu-text"></span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="./blog.xml" rel="" target=""><i class="bi bi-rss" role="img">
+</i> 
+ <span class="menu-text"></span></a>
+  </li>  
+</ul>
+            <div class="quarto-navbar-tools">
+  <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
 </div>
-<div class="nav-right">
-<a href="https://github.com/jvcasillas">
-<i class="fab fa-github" aria-hidden="true"></i>
-</a>
-<a href="https://twitter.com/jvcasill">
-<i class="fab fa-twitter" aria-hidden="true"></i>
-</a>
-<a href="blog.xml">
-<i class="fa fa-rss" aria-hidden="true"></i>
-</a>
-<a href="javascript:void(0);" class="nav-toggle">&#9776;</a>
-</div>
-</nav>
+          </div> <!-- /navcollapse -->
+      </div> <!-- /container-fluid -->
+    </nav>
 </header>
-<!--/radix_placeholder_navigation_before_body-->
-<!--radix_placeholder_site_before_body-->
-<!--/radix_placeholder_site_before_body-->
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    
+<!-- main -->
+<main class="content" id="quarto-document-content">
 
-<div class="d-title">
-<h1>Research</h1>
-<!--radix_placeholder_categories-->
-<!--/radix_placeholder_categories-->
-
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Research</h1>
 </div>
 
 
-<div class="d-article">
-<div class="layout-chunk" data-layout="l-body">
-<script type="text/javascript">
-<!-- Javascript to hide/show divs -->
-function myFunction(d) {
-  var x = document.getElementById(d);
-  if (x.style.display === "none") {
-    x.style.display = "block";
-  } else {
-    x.style.display = "none";
-  }
-}
-</script>
-</div>
-<div class="layout-chunk" data-layout="l-body">
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+</header>
+
+<div class="cell">
 <style type="text/css">
-
-d-article a {
-  border-bottom: none;
-  text-decoration: none;
+cite {
+  color: #515151;
+  font-style: normal;
 }
 
-d-article a:hover {
-  border-bottom: none;
-  text-decoration: none;
+p {
+  line-height: 1.25;
+  padding-left: 30px;
+  text-indent: -30px;
 }
 
-/* My button */
-.mybutton {
-  background-color: transparent;
-  color: inherit;
-  border: 0 solid white;
-  padding-left: 2px;
-  padding-right: 2px;
-  text-align: center;
-  text-decoration: none;
-  font-size: inherit;
-  transition-duration: 0.4s;
-}
-
-.mybutton:hover {
-  background-color: white; 
-  color: #cc0033;
+.relax {
+  line-height: 1.5;
+  padding-left: 0px;
+  text-indent: 0px;
 }
 
 </style>
@@ -2552,1231 +201,620 @@ Afterwards, update the following:
     - Research Gate
     - Google scholar
 -->
-<div class="layout-chunk" data-layout="l-body">
-
-</div>
-<div class="layout-chunk" data-layout="l-body">
-<style>.panelset{--panel-tab-foreground: #cc0033;--panel-tab-active-foreground: #cc0033;--panel-tab-active-border-color: #000000;--panel-tab-hover-foreground: #cc0033;--panel-tab-hover-border-color: #000000;--panel-tab-inactive-opacity: 1;--panel-tab-font-family: Roboto;}</style>
-</div>
-<div class="panelset">
-<section id="overview" class="overview panel">
-<h3 class="overview">Overview</h3>
-<p>I am currently in the process of setting up my research laboratory at Rutgers University.
-You can find more information here: <a href="https://RAP-group.github.io">https://RAP-group.github.io</a>.
-My main interests are in phonetics, laboratory phonology, and second language
-acquisition.
-A principle aim of my research is to better understand the relationship between language use and sound representation in the mind, as well as the structure of sound systems in human languages.
-Most of my research is conducted on bilinguals of varying proficiency and linguistic experience.
-Feel free to explore the tabs on this page if you are interested in knowing
-more about my research projects.</p>
-<div class="sourceCode" id="cb1"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
-</section>
-<section id="projects" class="projects panel">
-<h3 class="projects">Projects</h3>
-<p><strong>Current projects</strong></p>
-<ul>
-<li><h5bio>Longitudinal development of fine-phonetic detail in late learners</h5bio>
-(<button class="button mybutton" onclick="myFunction('longitudinalDevelopment')">Info</button>)</li>
-</ul>
-<div id="longitudinalDevelopment" style="display:none;margin-left:3em;text-indent:0em">
-<p class="minip">
-This ongoing project explores L2 category formation and the relationship
-between speech production and speech perception during the early stages of L2
-acquisition.
-The data were/are collected in a stateside immersion program over the course
-of a summer.
-The participants complete a variety of tasks aimed at analyzing their
-acquisition of various L2 segments, such as: stops, trills, laterals and
-vowels.
+<div class="tabset-margin-container"></div><div class="panel-tabset">
+<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-1-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-1" role="tab" aria-controls="tabset-1-1" aria-selected="true">Overview</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-2" role="tab" aria-controls="tabset-1-2" aria-selected="false">Projects</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-3-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-3" role="tab" aria-controls="tabset-1-3" aria-selected="false">Publications</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-4-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-4" role="tab" aria-controls="tabset-1-4" aria-selected="false">Presentations</a></li></ul>
+<div class="tab-content">
+<div id="tabset-1-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-1-1-tab">
+<p class="relax">
+I am currently in the process of setting up my research laboratory at Rutgers University. You can find more information here: <a href="https://RAP-group.github.io" class="uri">https://RAP-group.github.io</a>. My main interests are in phonetics, laboratory phonology, and second language acquisition. A principle aim of my research is to better understand the relationship between language use and sound representation in the mind, as well as the structure of sound systems in human languages. Most of my research is conducted on bilinguals of varying proficiency and linguistic experience. Feel free to explore the tabs on this page if you are interested in knowing more about my research projects.
 </p>
 </div>
-<ul>
-<li><h5bio>Language-specific perceptual normalization in adult L2 acquisition</h5bio>
-(<button class="button mybutton" onclick="myFunction('languageSets')">Info</button>)</li>
-</ul>
-<div id="languageSets" style="display:none;margin-left:3em;text-indent:0em">
-<p class="minip">
-This project explores a long history of ‘language set’ experiments with the goal
-of furthering our understanding of how bilinguals deal with the lack of invariance
-in the speech signal, both between and within languages. The project has
-implications for category formation and the development of bilingual language
-modes. (with Miquel Simonet)
+<div id="tabset-1-2" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-2-tab">
+<section id="current-projects" class="level3">
+<h3 class="anchored" data-anchor-id="current-projects">Current projects</h3>
+<div class="callout callout-style-simple callout-note no-icon callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-1-contents" aria-controls="callout-1" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Longitudinal development of fine-phonetic detail in late learners
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-1" class="callout-1-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p class="relax">
+This ongoing project explores L2 category formation and the relationship between speech production and speech perception during the early stages of L2 acquisition. The data were/are collected in a stateside immersion program over the course of a summer. The participants complete a variety of tasks aimed at analyzing their acquisition of various L2 segments, such as: stops, trills, laterals and vowels.
 </p>
 </div>
-<ul>
-<li><h5bio>Production/perception of English/Spanish coronal stops</h5bio>
-(<button class="button mybutton" onclick="myFunction('coronalStops')">Info</button>)</li>
-</ul>
-<div id="coronalStops" style="display:none;margin-left:3em;text-indent:0em">
-<p class="minip">
-This project has explored the acoustic characteristics of coronal stops in
-Spanish and English (<a href="https://www.researchgate.net/publication/280840068_ACOUSTICS_OF_SPANISH_AND_ENGLISH_CORONAL_STOPS">link</a>), the effects of stress on VOT in the
-Spanish/English monolinguals and bilinguals (<a href="https://www.researchgate.net/publication/272090285_The_effects_of_stressaccent_on_VOT_depend_on_language_%28English_Spanish%29_consonant_%28d_t%29_and_linguistic_experience_%28monolinguals_bilinguals%29">link</a>), as well as acoustic evidence for
-language-specific places of articulation (in preparation). (with Miquel Simonet
-and Yamile Díaz)
+</div>
+</div>
+<div class="callout callout-style-simple callout-note no-icon callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-2-contents" aria-controls="callout-2" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Language-specific perceptual normalization in adult L2 acquisition
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-2" class="callout-2-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p class="relax">
+This project explores a long history of ‘language set’ experiments with the goal of furthering our understanding of how bilinguals deal with the lack of invariance in the speech signal, both between and within languages. The project has implications for category formation and the development of bilingual language modes.<br>
+(with Miquel Simonet)
 </p>
 </div>
-<ul>
-<li><h5bio>Semantic predictability and speech rate effects in second language speech
-categorization</h5bio>
-(<button class="button mybutton" onclick="myFunction('semanticPredictability')">Info</button>)</li>
-</ul>
-<div id="semanticPredictability" style="display:none;margin-left:3em;text-indent:0em">
-<p class="minip">
-More info coming soon. (with Miquel Simonet and Imanol Suárez Palma)
+</div>
+</div>
+<div class="callout callout-style-simple callout-note no-icon callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-3-contents" aria-controls="callout-3" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Production/perception of English/Spanish coronal stops
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-3" class="callout-3-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p class="relax">
+This project has explored the acoustic characteristics of coronal stops in Spanish and English (<a href="https://www.researchgate.net/publication/280840068_ACOUSTICS_OF_SPANISH_AND_ENGLISH_CORONAL_STOPS">link</a>), the effects of stress on VOT in the Spanish/English monolinguals and bilinguals (<a href="https://www.researchgate.net/publication/272090285_The_effects_of_stressaccent_on_VOT_depend_on_language_%28English_Spanish%29_consonant_%28d_t%29_and_linguistic_experience_%28monolinguals_bilinguals%29">link</a>), as well as acoustic evidence for language-specific places of articulation (in preparation).<br>
+(with Miquel Simonet and Yamile Díaz)
 </p>
 </div>
-<ul>
-<li><h5bio>Morphosyntactic predictability</h5bio>
-(<button class="button mybutton" onclick="myFunction('morphosyntacticPredictability')">Info</button>)</li>
-</ul>
-<div id="morphosyntacticPredictability" style="display:none;margin-left:3em;text-indent:0em">
-<p class="minip">
+</div>
+</div>
+<div class="callout callout-style-simple callout-note no-icon callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-4-contents" aria-controls="callout-4" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Semantic predictability and speech rate effects in second language speech
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-4" class="callout-4-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>categorization</p>
+<p class="relax">
+More info coming soon.<br>
+(with Miquel Simonet and Imanol Suárez Palma)
+</p>
+</div>
+</div>
+</div>
+<div class="callout callout-style-simple callout-note no-icon callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-5-contents" aria-controls="callout-5" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Morphosyntactic predictability
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-5" class="callout-5-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p class="relax">
 More info coming soon.
 </p>
 </div>
-<p><strong>Previous Projects</strong></p>
-<ul>
-<li><h5bio>Production/perception of switch dominance speakers of English</h5bio>
-(<button class="button mybutton" onclick="myFunction('switchDominance')">Info</button>)</li>
+</div>
+</div>
+</section>
+<section id="previous-projects" class="level3">
+<h3 class="anchored" data-anchor-id="previous-projects">Previous Projects</h3>
+<div class="callout callout-style-simple callout-note no-icon callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-6-contents" aria-controls="callout-6" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Production/perception of switch dominance speakers of English
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-6" class="callout-6-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p class="relax">
+You can read about this project in my 2015 article published in <a href="http://www.karger.com/Article/Abstract/431101">Phonetica</a>, or in a co-authored 2016 article that appeared in <a href="http://slr.sagepub.com/content/32/2/171.abstract">Second Language Research</a>.
+</p>
+</div>
+</div>
+</div>
+<div class="callout callout-style-simple callout-note no-icon callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-7-contents" aria-controls="callout-7" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Selective adaptation
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-7" class="callout-7-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p class="relax">
+This project was co-authored with Miquel Llompart García. You can read the final publication in <a href="http://scitation.aip.org/content/asa/journal/jasa/139/5/10.1121/1.4951704">JASA</a>.
+</p>
+</div>
+</div>
+</div>
+</section>
+</div>
+<div id="tabset-1-3" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-3-tab">
+<section id="in-press" class="level3">
+<h3 class="anchored" data-anchor-id="in-press">In press</h3>
+<p>Coretta, S., J. V. Casillas, and T. Roettger “Multidimensional signals and analytic flexibility: Estimating degrees of freedom in human speech analyses”. In: <em>Advances in Methods and Practices in Psychological Science</em>.</p>
+</section>
+<section id="recent-publications" class="level3">
+<h3 class="anchored" data-anchor-id="recent-publications">Recent Publications</h3>
+<p>Jiménez-Crespo, M. and J. V. Casillas (2021). “Literal is not always easier: Literal and default translation, post-editing effort, and comparable corpora”. In: <em>Translation, Cognition &amp; Behavior</em> 4.1. DOI: <a href="https://doi.org/https%3A%2F%2Fdoi.org%2F10.1075%2Ftcb.00048.jim">https://doi.org/10.1075/tcb.00048.jim</a>.</p>
+<p>Casillas, J. V. (2021). “Interlingual Interactions Elicit Performance Mismatches Not ‘Compromise’ Categories in Early Bilinguals: Evidence from Meta-Analysis and Coronal Stops”. In: <em>Languages</em> 6.9, pp.&nbsp;1-20. DOI: <a href="https://doi.org/https%3A%2F%2Fdoi.org%2F10.3390%2Flanguages6010009">https://doi.org/10.3390/languages6010009</a>.</p>
+<p>Lozano-Argüelles, C., L. F. Arroyo, N. Rodríguez, E. Durand, J. J. G. Pozú, J. M. Rojas, J. Varela, N. de Rocafiguera, and J. V. Casillas (2021). “Conceptually cued perceptual categorization in adult L2 learners”. In: <em>Studies in Second Language Acquisition</em> 43.1, pp. 204-219. DOI: <a href="https://doi.org/https%3A%2F%2Fdoi.org%2F10.1017%2FS0272263120000273">https://doi.org/10.1017/S0272263120000273</a>.</p>
+<p>Casillas, J. V. (2020). “The longitudinal development of fine-phonetic detail: Stop production in a domestic immersion program”. In: <em>Language Learning</em> 70.3, pp.&nbsp;768-806. DOI: <a href="https://doi.org/https%3A%2F%2Fdoi.org%2Fhttps%3A%2F%2Fdoi.org%2F10.1111%2Flang.12392">https://doi.org/https://doi.org/10.1111/lang.12392</a>.</p>
+<p>Casillas, J. V. (2020). “Phonetic category formation is perceptually driven during the early stages of adult L2 development”. In: <em>Language and Speech</em> 63.3, pp.&nbsp;550-581. DOI: <a href="https://doi.org/https%3A%2F%2Fdoi.org%2F10.1177%2F0023830919866225">https://doi.org/10.1177/0023830919866225</a>.</p>
+<p>Lozano-Argüelles, C., N. Sagarra, and J. V. Casillas (2020). “Slowly but surely: Interpreting facilitates L2 morphological anticipation based on suprasegmental and segmental information”. In: <em>Bilingualism: Language and Cognition</em> 23.4, pp.&nbsp;752-762. DOI: <a href="https://doi.org/https%3A%2F%2Fdoi.org%2F10.1017%2FS1366728919000634">https://doi.org/10.1017/S1366728919000634</a>.</p>
+<p>Casillas, J. V. (2019). “Semantic processing triggers cross-linguistic interference during early phonetic category development”. In: <em>ICPhS 19</em>. Ed. by S. Calhoun, P. Escudero, M. Tabain and aul Warren. In Proceedings of the 19th International Congress of Phonetic Sciences. Melbourne, Australia 2019 (ISBN: 978-0-646-80069-1), pp.&nbsp;3348-3352.</p>
+<p>Casillas, J. V. and M. Simonet (2018). “Perceptual categorization and bilingual language modes: Assessing the double phonemic boundary in early and late bilinguals”. In: <em>Journal of Phonetics</em> 71, pp.&nbsp;51-64. DOI: <a href="https://doi.org/https%3A%2F%2Fdoi.org%2F10.1016%2Fj.wocn.2018.07.002">https://doi.org/10.1016/j.wocn.2018.07.002</a>.</p>
+<p>Sagarra, N. and J. V. Casillas (2018). “Suprasegmental information cues morphological anticipation during L1/L2 lexical access”. In: <em>Journal of Second Language Studies</em> 1.1, pp.&nbsp;31-59. DOI: <a href="https://doi.org/https%3A%2F%2Fdoi.org%2F10.1075%2Fjsls.17026.sag">https://doi.org/10.1075/jsls.17026.sag</a>.</p>
+<p>Bessett, R. M., J. V. Casillas, and M. Ramírez Martínez (2017). “Language choice and accommodation: Casual encounters in San Ysidro and Nogales”. In: <em>Spanish in Context</em> 14.1, pp.&nbsp;78-98. DOI: <a href="https://doi.org/https%3A%2F%2Fdoi.org%2F10.1075%2Fsic.14.1.04bes">https://doi.org/10.1075/sic.14.1.04bes</a>.</p>
+<p>Llompart, M. and J. V. Casillas (2016). “Lexically driven selective adaptation by ambiguous auditory stimuli occurs after limited exposure to adaptors”. In: <em>Journal of the Acoustical Society of America</em> 139.5, pp.&nbsp;EL172-EL177. DOI: <a href="https://doi.org/https%3A%2F%2Fdoi.org%2F10.1121%2F1.4951704">https://doi.org/10.1121/1.4951704</a>.</p>
+<p>Casillas, J. V. and M. Simonet (2016). “Production and perception of the English /æ/-/ɑ/ contrast in switched-dominance speakers”. In: <em>Second Language Research</em> 32.2, pp.&nbsp;171-195. DOI: <a href="https://doi.org/https%3A%2F%2Fdoi.org%2F10.1177%2F0267658315608912">https://doi.org/10.1177/0267658315608912</a>.</p>
+<p>Casillas, J. V. (2015). “Production and perception of the /i/-/ɪ/ vowel contrast: The case of L2-dominant early learners of English”. In: <em>Phonetica</em> 72.2-3, pp.&nbsp;182-205. DOI: <a href="https://doi.org/https%3A%2F%2Fdoi.org%2F10.1159%2F000431101">https://doi.org/10.1159/000431101</a>.</p>
+<p>Casillas, J. V., Y. Díaz, and M. Simonet (2015). “Acoustics of Spanish and English coronal stops”. In: <em>ICPhS 18</em>. Ed. by T. S. C. for ICPhS 2015. Proceedings of the 18th International Congress of Phonetic Sciences. University of Glasgow: Glasgow. http://www.icphs2015.info, ISSN: 241-0669, pp.&nbsp;1-5.</p>
+<p>Simonet, M., J. V. Casillas, and Y. Díaz (2014). “The effects of stress/accent on VOT depend on language (English, Spanish), consonant (/d/, /t/) and linguistic experience (monolinguals, bilinguals)”. In: <em>Speech Prosody 7</em>. Ed. by N. Campbell, D. Gibbon and D. Hirst. Proceedings of the 7th international conference on Speech Prosody: Social and Linguistic Speech Prosody. Trinity College, Dublin. speechprosody2014.org, ISSN: 2333-2042, pp.&nbsp;202-206.</p>
+<p>Casillas, J. V. (2013). “La fricativización del africado /tʃ/: actitudes lingüísticas cerca de la frontera”. In: <em>Selected Proceedings of the 6th Workshop on Spanish Sociolinguistics</em>. Ed. by A. M. Carvalho and S. Beaudrie. Somerville, MA: Cascadilla Proceedings Project. www.lingref.com, document #2867, pp.&nbsp;177-188.</p>
+<p>Casillas, J. V. (2012). “La fricativización del africado /tʃ/ en el habla de las mujeres del sur de Arizona”. In: <em>Divergencias: Revista de estudios lingüísticos y literarios</em> 10.1, pp.&nbsp;56-70.</p>
+<p>Casillas, J. V. (2010). “La vibrante múltiple intervocálica: los ejercicios de canto como ayuda a su pronunciación en español”. In: <em>La Gaceta Hispánica de Madrid</em> VIII. ISSN: 1886-1741.</p>
+<p>Casillas, J. V. (2009). “El uso de los refranes en El Quijote”. In: <em>La Gaceta Hispánica de Madrid</em> VIII. ISSN: 1886-1741.</p>
+</section>
+<section id="under-review" class="level3">
+<h3 class="anchored" data-anchor-id="under-review">Under review</h3>
+<p>Casillas, J. V., N. Rodríguez, L. F. Arroyo, J. J. G. Pozú, K. Parrish, R. Esposito, K. Gómez, and I. Chang <em>Using intonation to disambiguate meaning: The role of empathy and proficiency in L2 perceptual development</em>.</p>
+</section>
+<section id="in-preparation" class="level3">
+<h3 class="anchored" data-anchor-id="in-preparation">In preparation</h3>
+<p>Casillas, J. V., M. Simonet, and A. Aldrich <em>Production of coronal stops in English and Spanish</em>.</p>
+<p>Casillas, J. V. <em>Semantic processing affects L2 stop production in late learners</em>.</p>
+<p>Casillas, J. V. <em>L1/L2 cue-weighting strategies in the perception of lexical stress</em>.</p>
+<p>Sagarra, N. and J. V. Casillas <em>The use of lexical stress and vowel duration for morphological anticipation in L2 learners of Spanish</em>.</p>
+<p>Sagarra, N. and J. V. Casillas <em>The use of stress in lexical access in early and late bilinguals</em>.</p>
+</section>
+</div>
+<div id="tabset-1-4" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-4-tab">
+<section id="refereed-presentations" class="level3">
+<h3 class="anchored" data-anchor-id="refereed-presentations">Refereed Presentations</h3>
+<p>Sagarra, N. and J. V. Casillas (2021). <em>The effects of prosody, proficiency and working memory on L2 lexical prediction</em>. EuroSLA, Online, Universitat de Barcelona, Spain.</p>
+<p>Lozano-Argüelles, C., N. Sagarra, and J. V. Casillas (2021). <em>The role of working memory during L2 prediction of morphology: Evidence from professional interpreters</em>. 3rd International Symposium on Bilingual and L2 Processing in Adults and Children (ISBPAC 2021), Online.</p>
+<p>Rodríguez, N., C. Lozano-Argüelles, L. F. Arroyo, E. Durand, J. J. G. Pozu, J. M. Rojas, J. Varela, N. de Rocafiguera, and J. V. Casillas (2020). <em>If you can believe it you can perceive it: Conceptually cueing the double phonemic boundary effect in late bilinguals</em>. Current Approaches to Spanish and Portuguese Second Language Phonology (CASPSLaP), San José State University, San José, CA.</p>
+<p>Wiseman, A. M., J. V. Casillas, M. Lacorte, and A. C. Lara (2020). <em>How do you pull off all that intercultural stuff at home? Enhancing intercultural development in the L2 classroom in a domestic immersion environment</em>. Workshop on Intercultural Skills Enhancement (WISE) Conference, Wake Forest University, Winston-Salem, NC.</p>
+<p>Lozano-Argüelles, C., L. F. Arroyo, N. Rodríguez, E. Durand, J. J. G. Pozú, J. M. Rojas, J. Varela, N. de Rocafiguera, and J. V. Casillas (2019). <em>Conceptually cued perceptual categorization in late bilinguals</em>. Hispanic Linguistics Symposium, University of Texas at El Paso, El Paso, TX.</p>
+<p>Lozano-Argüelles, C., N. Sagarra, and J. V. Casillas (2019). <em>Predicting the end: monolinguals, L2 learners and interpreters’ use of prosody to predict word endings</em>. Hispanic Linguistics Symposium, University of Texas at El Paso, El Paso, TX.</p>
+<p>Simonet, M. and J. V. Casillas (2019). <em>Perceptual normalization in bilinguals and second language learner</em>. Coloquio del Laboratorio de Adquisición del Lenguaje, Valladolid, Spain: Universidad de Valladolid, Department of English Studies.</p>
+<p>Colina, S., J. V. Casillas, and Y. Díaz (2018). <em>Syllabic Affiliation of Prevocalic Glides in Sonoran Spanish: Dialectal variation in syllabic affiliation</em>. Hispanic Linguistics Symposium, University of Texas at Austin, Austin, TX.</p>
+<p>Lozano-Argüelles, C., N. Sagarra, and J. V. Casillas (2018). <em>The use of lexical stress and vowel duration for morphological anticipation in L2 learners of Spanish</em>. Hispanic Linguistics Symposium, University of Texas at Austin, Austin, TX.</p>
+<p>Lozano-Argüelles, C., N. Sagarra, and J. V. Casillas (2018). <em>The time-course of verbal morphology anticipation: When interpreting experience makes a difference</em>. International Symposium on Bilingual and L2 Processing in Adults and Children (ISBPAC). Universität Branschweig, Germany.</p>
+<p>Lozano-Argüelles, C., N. Sagarra, and J. V. Casillas (2017). <em>Practice makes perfect. L2 morphological anticipation in simultaneous interpreters</em>. International Symposium on Bilingualism. University of Limerick, Ireland.</p>
+<p>Lozano-Argüelles, C., N. Sagarra, and J. V. Casillas (2017). <em>The Role of Stress in Morphological Anticipation: Evidence from Interpreters</em>. Hispanic Linguistics Symposium, Texas Tech University, Lubbock, TX.</p>
+<p>Sagarra, N., J. V. Casillas, and N. Rodríguez (2017). <em>The use of stress in lexical access in early and late bilinguals</em>. Hispanic Linguistics Symposium, Texas Tech University, Lubbock, TX.</p>
+<p>Lozano-Argüelles, C., N. Sagarra, and J. V. Casillas (2017). <em>Anticipatory eye-movements in morphological prediction: Evidence from interpreters and bilinguals</em>. Second Language Research Forum, The Ohio State University.</p>
+<p>Sagarra, N. and J. V. Casillas (2017). <em>Lexical stress predicts L1 and L2 morphosyntactic processing</em>. 47th Linguistics Symposium on Romance Languages. University of Delaware, Newark, DE.</p>
+<p>Casillas, J. V. (2017). <em>The longitudinal development of fine-phonetic detail: Production and perception of Spanish stops in a stateside immersion context</em>. 47th Linguistics Symposium on Romance Languages. University of Delaware, Newark, DE.</p>
+<p>Casillas, J. V. (2017). <em>Coronal stop production in Spanish heritage speakers</em>. 4th National Symposium on Spanish as a Heritage Language. University of California at Irvine, Irvine, CA.</p>
+<p>Casillas, J. V. (2017). <em>Crossing borders? The status and future of Spanish in the U.S.</em>. School of Spanish Round Table, Middlebury College, Middlebury, VT.</p>
+<p>Casillas, J. V. (2016). <em>Learning to hear fine-phonetic detail: Longitudinal development of language-specific speech perception in adults</em>. Hispanic Linguistic Symposium. Georgetown University, Washinton D.C.</p>
+<p>Simonet, M., J. V. Casillas, and D. Osborne (2016). <em>Second language acquisition and the double perceptual boundary effect</em>. Sound to Word in Bilingual and Second Language Speech Perception. University of Iowa, Iowa City, Iowa.</p>
+<p>Simonet, M., J. V. Casillas, and D. Osborne (2016). <em>Second language acquisition and the double perceptual boundary effect</em>. Colloquium of the Institute for Phonetics and Speech Processing, Ludwig-Maximilian University of Munich, Munich, Germany.</p>
+<p>Simonet, M., J. V. Casillas, and D. Osborne (2016). <em>Second language acquisition and the double perceptual boundary effect</em>. Colloquium of the Second Language Acquisition and Teaching Program, University of Arizona, Tucson, Arizona.</p>
+<p>Casillas, J. V., Y. Díaz, and M. Simonet (2015). <em>Acoustics of coronal stops in Spanish-English bilingual speech</em>. Hispanic Linguistics Symposium. University of Illinois at Urbana-Champaign, Urbana, IL.</p>
+<p>Bessett, R. M., J. V. Casillas, and M. R. Martínez (2014). <em>Language Choice and Accommodation: Casual Encounters Along the U.S. Border</em>. 7th Workshop on Spanish Sociolinguistics. University of Wisconsin-Madison, Madison, WI.</p>
+<p>Casillas, J. V. (2013). <em>Perception of English /i/-/ɪ/ tense/lax vowel contrast by early learners of English</em>. Second Language Research Forum (SRLF). Brigham Young University. Provo, Utah.</p>
+<p>Casillas, J. V. (2013). <em>English-dominant early Spanish-English bilinguals production and perception of English tense lax vowel contrasts</em>. Phonetics and Phonology in Iberia. Universidade de Lisboa, Lisbon. Portugal.</p>
+<p>Casillas, J. V. (2013). <em>La fricativización del africado /tʃ/: actitudes lingüísticas cerca de la frontera</em>. 6th Workshop on Spanish Sociolinguistics. University of Arizona, Tucson, AZ.</p>
+<p>Casillas, J. V. (2012). <em>Los piojos, las pulgas y el canto… ¡oh my! Una segunda mirada a la teoría de Dunbar, el cotilleo y el papel de la música en la evolución del lenguage</em>. 22nd Annual Symposium on Hispanic and Luso-Brazilian Literature, Language and Culture. University of Arizona, Tucson, AZ.</p>
+<p>Casillas, J. V. (2011). <em>La fricativización del africado /tʃ/ en el habla de las mujeres del sur de Arizona</em>. 21st Annual Symposium on Hispanic and Luso-Brazilian Literature. University of Arizona, Tucson, AZ.</p>
+<p>Casillas, J. V. (2011). <em>Going mental with vocabulary: the use of iDevice applications in the classroom</em>. Spanish Heritage Language Program Share Day. University of Arizona, Tucson, AZ.</p>
+</section>
+<section id="unrefereed-presentations" class="level3">
+<h3 class="anchored" data-anchor-id="unrefereed-presentations">Unrefereed Presentations</h3>
+<p>Chang, I., K. Gómez, and J. V. Casillas (2021). <em>Intonation acquisition in adult L2 learners of Spanish</em>. Aresty Undergraduate Research Symposium, Rutgers University, New Brunswick.</p>
+<p>Field, A. and J. V. Casillas (2020). <em>Semantic processing effects on L2 stop production</em>. Aresty Undergraduate Research Symposium, Rutgers University, New Brunswick.</p>
+<p>Casillas, J. V. (2017). <em>Crossing borders? The status and future of Spanish in the U.S.</em>. School of Spanish Round Table, Middlebury College, Middlebury, VT.</p>
+<p>Sagarra, N., J. V. Casillas, C. Lozano-Argüelles, F. Eriksson, J. Uscamayta, and J. Overton (2017). <em>Using lexical stress to predict inflectional morphology</em>. Aresty Undergraduate Research Symposium. Rutgers University, New Brunswick.</p>
+</section>
+<section id="poster-presentations" class="level3">
+<h3 class="anchored" data-anchor-id="poster-presentations">Poster presentations</h3>
+<p>Casillas, J. V. (2019). <em>Semantic processing triggers cross-linguistic interference during early phonetic category development</em>. The 19th International Congress of Phonetic Sciences (ICPhS).</p>
+<p>Lozano-Argüelles, C., N. Sagarra, and J. V. Casillas (2018). <em>Anticipación de morfología en hablantes de español como L2</em>. II Congreso para profesionales de la educación bilingüe. Madrid, Spain.</p>
+<p>Sagarra, N. and J. V. Casillas (2018). <em>Prosodic cues facilitate morphological anticipation in monolinguals and bilinguals</em>. International Symposium on Bilingual and L2 Processing in Adults and Children. Universität Braunschweig, Germany.</p>
+<p>Lozano-Argüelles, C., N. Sagarra, and J. V. Casillas (2018). <em>Anticipation in Professional Interpreters: Predicting Morphology</em>. Bridging Attention and Prediction. Universitat de Barcelona, Spain.</p>
+<p>Sagarra, N., J. V. Casillas, C. Lozano-Argüelles, and N. Rodríguez (2017). <em>Eye-tracking reveals bilinguals use stress to predict morphology</em>. 11th annual Perceptual and Cognitive Science Forum. Rutgers University, New Brunswick.</p>
+<p>Martínez, M. R. and J. V. Casillas (2016). <em>La producción de la vibrante múltiple en los estudiantes de español como lengua heredada y en los estudiantes de español como lengua extranjera</em>. 8th Workshop on Spanish Sociolinguistics. University of Puerto Rico, Río Piedras, PR.</p>
+<p>Casillas, J. V., Y. Díaz, and M. Simonet (2015). <em>Acoustics of Spanish and English coronal stops</em>. Proceedings of the 18th International Congress of Phonetic Sciences. University of Glasgow, Glasgow, Scotland.</p>
+<p>Simonet, M., J. V. Casillas, and Y. Díaz (2014). <em>A contrastive acoustic analysis of dental and alveolar stops in Spanish and English</em>. Hispanic Linguistics Symposium. Purdue University, West Lafayette, IN.</p>
+<p>Simonet, M., J. V. Casillas, and Y. Díaz (2014). <em>The effects of stress/accent on VOT depend on language (English, Spanish), consonant (/d/, /t/) and linguistic experience (monolinguals, bilinguals)</em>. Speech Prosody 7: Social and Linguistic Speech Prosody. Trinity College, Dublin, Ireland.</p>
+<p>Casillas, J. V. and M. Simonet (2013). <em>English-dominant early Spanish/English bilinguals perception of English tense-lax vowel contrasts</em>. PPLC 13: Phonetics, phonology and languages in contact: Contact varieties, multilingualism, and second language learning. Paris, Délégation Générale Wallonie-Bruxelles.</p>
+</section>
+</div>
+</div>
+</div>
+
+
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const disableStylesheet = (stylesheets) => {
+    for (let i=0; i < stylesheets.length; i++) {
+      const stylesheet = stylesheets[i];
+      stylesheet.rel = 'prefetch';
+    }
+  }
+  const enableStylesheet = (stylesheets) => {
+    for (let i=0; i < stylesheets.length; i++) {
+      const stylesheet = stylesheets[i];
+      stylesheet.rel = 'stylesheet';
+    }
+  }
+  const manageTransitions = (selector, allowTransitions) => {
+    const els = window.document.querySelectorAll(selector);
+    for (let i=0; i < els.length; i++) {
+      const el = els[i];
+      if (allowTransitions) {
+        el.classList.remove('notransition');
+      } else {
+        el.classList.add('notransition');
+      }
+    }
+  }
+  const toggleColorMode = (alternate) => {
+    // Switch the stylesheets
+    const alternateStylesheets = window.document.querySelectorAll('link.quarto-color-scheme.quarto-color-alternate');
+    manageTransitions('#quarto-margin-sidebar .nav-link', false);
+    if (alternate) {
+      enableStylesheet(alternateStylesheets);
+      for (const sheetNode of alternateStylesheets) {
+        if (sheetNode.id === "quarto-bootstrap") {
+          toggleBodyColorMode(sheetNode);
+        }
+      }
+    } else {
+      disableStylesheet(alternateStylesheets);
+      toggleBodyColorPrimary();
+    }
+    manageTransitions('#quarto-margin-sidebar .nav-link', true);
+    // Switch the toggles
+    const toggles = window.document.querySelectorAll('.quarto-color-scheme-toggle');
+    for (let i=0; i < toggles.length; i++) {
+      const toggle = toggles[i];
+      if (toggle) {
+        if (alternate) {
+          toggle.classList.add("alternate");     
+        } else {
+          toggle.classList.remove("alternate");
+        }
+      }
+    }
+    // Hack to workaround the fact that safari doesn't
+    // properly recolor the scrollbar when toggling (#1455)
+    if (navigator.userAgent.indexOf('Safari') > 0 && navigator.userAgent.indexOf('Chrome') == -1) {
+      manageTransitions("body", false);
+      window.scrollTo(0, 1);
+      setTimeout(() => {
+        window.scrollTo(0, 0);
+        manageTransitions("body", true);
+      }, 40);  
+    }
+  }
+  const isFileUrl = () => { 
+    return window.location.protocol === 'file:';
+  }
+  const hasAlternateSentinel = () => {  
+    let styleSentinel = getColorSchemeSentinel();
+    if (styleSentinel !== null) {
+      return styleSentinel === "alternate";
+    } else {
+      return false;
+    }
+  }
+  const setStyleSentinel = (alternate) => {
+    const value = alternate ? "alternate" : "default";
+    if (!isFileUrl()) {
+      window.localStorage.setItem("quarto-color-scheme", value);
+    } else {
+      localAlternateSentinel = value;
+    }
+  }
+  const getColorSchemeSentinel = () => {
+    if (!isFileUrl()) {
+      const storageValue = window.localStorage.getItem("quarto-color-scheme");
+      return storageValue != null ? storageValue : localAlternateSentinel;
+    } else {
+      return localAlternateSentinel;
+    }
+  }
+  let localAlternateSentinel = 'default';
+  // Dark / light mode switch
+  window.quartoToggleColorScheme = () => {
+    // Read the current dark / light value 
+    let toAlternate = !hasAlternateSentinel();
+    toggleColorMode(toAlternate);
+    setStyleSentinel(toAlternate);
+  };
+  // Ensure there is a toggle, if there isn't float one in the top right
+  if (window.document.querySelector('.quarto-color-scheme-toggle') === null) {
+    const a = window.document.createElement('a');
+    a.classList.add('top-right');
+    a.classList.add('quarto-color-scheme-toggle');
+    a.href = "";
+    a.onclick = function() { try { window.quartoToggleColorScheme(); } catch {} return false; };
+    const i = window.document.createElement("i");
+    i.classList.add('bi');
+    a.appendChild(i);
+    window.document.body.appendChild(a);
+  }
+  // Switch to dark mode if need be
+  if (hasAlternateSentinel()) {
+    toggleColorMode(true);
+  } else {
+    toggleColorMode(false);
+  }
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+      &nbsp;
+    </div>   
+    <div class="nav-footer-center">
+      <ul class="footer-items list-unstyled">
+    <li class="nav-item">
+ © Copyright 2023
+  </li>  
 </ul>
-<div id="switchDominance" style="display:none;margin-left:3em;text-indent:0em">
-<p class="minip">
-You can read about this project in my 2015 article published in <a href="http://www.karger.com/Article/Abstract/431101">Phonetica</a>, or in a
-co-authored 2016 article that appeared in <a href="http://slr.sagepub.com/content/32/2/171.abstract">Second Language Research</a>.
-</p>
-</div>
-<ul>
-<li><h5bio>Selective adaptation</h5bio>
-(<button class="button mybutton" onclick="myFunction('selectiveAdaptation')">Info</button>)</li>
-</ul>
-<div id="selectiveAdaptation" style="display:none;margin-left:3em;text-indent:0em">
-<p class="minip">
-This project was co-authored with Miquel Llompart García. You can read the
-final publication in <a href="http://scitation.aip.org/content/asa/journal/jasa/139/5/10.1121/1.4951704">JASA</a>.
-</p>
-</div>
-<div class="sourceCode" id="cb2"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
-</section>
-<section id="publications" class="publications panel">
-<h3 class="publications">Publications</h3>
-<p><strong>In press</strong></p>
-<div class="layout-chunk" data-layout="l-body">
-<p>Jiménez-Crespo, M. and J. V. Casillas “Literal is not
-always easier: Literal and default translation, post-editing
-effort, and comparable corpora”. In: <em>Translation, Cognition &amp;
-Behavior</em>.</p>
-</div>
-<p><strong>Recent Publications</strong></p>
-<div class="layout-chunk" data-layout="l-body">
-<p>Casillas, J. V. (2021). “Interlingual Interactions Elicit
-Performance Mismatches Not ‘Compromise’ Categories in Early
-Bilinguals: Evidence from Meta-Analysis and Coronal Stops”.
-In: <em>Languages</em> 6.9, pp. 1-20. DOI:
-<a href="https://doi.org/10.3390/languages6010009" class="uri">https://doi.org/10.3390/languages6010009</a>.</p>
-</div>
-<!-- START METADATA -->
-<div style="text-indent:.25em;margin-top:-1em" data-align="left">
-<p>( <a alt="L2021" href="https://doi.org/10.3390/languages6010009" target='_new'><span class="showtooltip" title="Read paper">Link</span></a> |
-<button class="button mybutton" onclick="myFunction('casillas_perfomance_mismatches_2021Abstract')">Abstract</button> |
-<button class="button mybutton" onclick="myFunction('casillas_perfomance_mismatches_2021Bib')">Bib</button> )</p>
-<div id="casillas_perfomance_mismatches_2021Abstract" style="display:none;margin-left:2em;text-indent:0em">
-<p class="minip">
-Previous studies attest that some early bilinguals produce the sounds of their languages in a manner that is characterized as “compromise” with regard to monolingual speakers. The present study uses meta-analytic techniques and coronal stop data from early bilinguals in order to assess this claim. The goal was to evaluate the cumulative evidence for “compromise” voice-onset time (VOT) in the speech of early bilinguals by providing a comprehensive assessment of the literature and presenting an acoustic analysis of coronal stops from early Spanish–English bilinguals. The studies were coded for linguistic and methodological features, as well as effect sizes, and then analyzed using a cross-classified Bayesian meta-analysis. The pooled effect for “compromise” VOT was negligible (β = −0.13). The acoustic analysis of the coronal stop data showed that the early Spanish–English bilinguals often produced Spanish and English targets with mismatched features from their other language. These performance mismatches presumably occurred as a result of interlingual interactions elicited by the experimental task. Taken together, the results suggest that early bilinguals do not have “compromise” VOT, though their speech involves dynamic phonetic interactions that can surface as performance mismatches during speech production.
-</p>
-</div>
-<div id="casillas_perfomance_mismatches_2021Bib" class="minip" style="display:none">
-<div class="layout-chunk" data-layout="l-body">
-<pre><code>@Article{casillas_perfomance_mismatches_2021,
-  author = {Joseph Vicent Casillas},
-  title = {Interlingual Interactions Elicit Performance Mismatches Not 
-    {&#39;Compromise&#39;} Categories in Early Bilinguals: {E}vidence from Meta-Analysis 
-    and Coronal Stops},
-  year = {2021},
-  journal = {Languages},
-  volume = {6},
-  number = {9},
-  pages = {1--20},
-  doi = {https://doi.org/10.3390/languages6010009},
-}</code></pre>
-</div>
-</div>
-</div>
-<!-- END METADATA -->
-<div class="sourceCode" id="cb4"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
-<div class="layout-chunk" data-layout="l-body">
-<p>Lozano-Argüelles, C., L. F. Arroyo, N. Rodríguez,
-E. Durand, J. J. G. Pozu, J. M. Rojas, J. Varela, N. de
-Rocafiguera, and J. V. Casillas (2021). “Conceptually cued
-perceptual categorization in adult L2 learners”. In: <em>Studies
-in Second Language Acquisition</em> 43.1, pp. 204-219. DOI:
-<a href="https://doi.org/10.1017/S0272263120000273" class="uri">https://doi.org/10.1017/S0272263120000273</a>.</p>
-</div>
-<!-- START METADATA -->
-<div style="text-indent:.25em;margin-top:-1em" data-align="left">
-<p>( <a alt="L2021" href="https://doi.org/10.1017/S0272263120000273" target='_new'><span class="showtooltip" title="Read paper">Link</span></a> |
-<button class="button mybutton" onclick="myFunction('casillas_dpbe_l2_2020Abstract')">Abstract</button> |
-<button class="button mybutton" onclick="myFunction('casillas_dpbe_l2_2020Bib')">Bib</button> )</p>
-<div id="casillas_dpbe_l2_2020Abstract" style="display:none;margin-left:2em;text-indent:0em">
-<p class="minip">
-Previous studies attest that early bilinguals can modify their perceptual identification according to the fine-grained phonetic detail of the language they believe they are hearing. Following Gonzales et al. (2019), we replicate the double phonemic boundary effect in late learners (LBs) using conceptual-based cueing. We administered a forced choice identification task to 169 native English adult learners of Spanish in two sessions. In both sessions, participants identified the same /b/-/p/ voicing continuum, but language context was cued conceptually using the instructions. The data were analyzed using Bayesian multilevel regression. Learners categorized the continuum in a similar manner when they believed they were hearing English. However, when they believed they were hearing Spanish, “voiceless” responses increased as a function of L2 proficiency. This research demonstrates the double phonemic boundary effect can be conceptually cued in LBs and supports accounts positing selective activation of independent perception grammars in L2 learning.
-</p>
-</div>
-<div id="casillas_dpbe_l2_2020Bib" class="minip" style="display:none">
-<div class="layout-chunk" data-layout="l-body">
-<pre><code>@Article{casillas_dpbe_l2_2020,
-  author = {Cristina Lozano-Arg&amp;uuml;elles and Laura Fern&amp;aacute;ndez Arroyo and Nicole Rodr&amp;iacute;guez and Ezequiel Durand and Juan Jos&amp;eacute; Garrido Pozu and Jennifer Markovits Rojas and Jessica Varela and N&amp;uacute;ria {de Rocafiguera} and Joseph Vicent Casillas},
-  title = {Conceptually cued perceptual categorization in adult {L}2 learners},
-  year = {2021},
-  volume = {43},
-  number = {1},
-  pages = {204-219},
-  journal = {Studies in Second Language Acquisition},
-  doi = {https://doi.org/10.1017/S0272263120000273},
-}</code></pre>
-</div>
-</div>
-</div>
-<!-- END METADATA -->
-<div class="sourceCode" id="cb6"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
-<div class="layout-chunk" data-layout="l-body">
-<p>Casillas, J. V. (2020). “The longitudinal development of
-fine-phonetic detail: Stop production in a domestic immersion
-program”. In: <em>Language Learning</em> 70.3, pp. 768-806. DOI:
-<a href="https://doi.org/10.1111/lang.12392" class="uri">https://doi.org/10.1111/lang.12392</a>.</p>
-</div>
-<!-- START METADATA -->
-<div style="text-indent:.25em;margin-top:-1em" data-align="left">
-<p>( <a alt="LL2020" href="https://doi.org/10.1111/lang.12392" target='_new'><span class="showtooltip" title="Read paper">Link</span></a> |
-<button class="button mybutton" onclick="myFunction('CasillasProdStops_ll2020Abstract')">Abstract</button> |
-<button class="button mybutton" onclick="myFunction('CasillasProdStops_ll2020Bib')">Bib</button> )</p>
-<div id="CasillasProdStops_ll2020Abstract" style="display:none;margin-left:2em;text-indent:0em">
-<p class="minip">
-This study explored the initial stages of adult second language (L2) learning with a special focus on the acquisition of the target language sound system. The aim was to analyze the longitudinal development of Spanish stop voicing contrasts in an immersion learning context. Native English‐speaking late learners of Spanish provided production data for Spanish stops on a weekly basis throughout a domestic immersion program. The data were analyzed using Bayesian multilevel models and generalized additive mixed models. The analyses revealed phonetic learning in voiced stops over the course of the immersion program, though learners’ production was inconsistent and did not fall within native ranges for most stop segments. The results suggest that L2 phonetic category formation can occur at an early stage of development and follows a nonlinear trajectory that is subject to individual and segment‐specific variability. Furthermore, L2 phonetic representations are unstable during the early stages of learning.
-</p>
-</div>
-<div id="CasillasProdStops_ll2020Bib" class="minip" style="display:none">
-<div class="layout-chunk" data-layout="l-body">
-<pre><code>@Article{CasillasProdStops_ll2020,
-  author = {Joseph Vincent Casillas},
-  title = {The longitudinal development of fine-phonetic detail: 
-    {S}top production in a domestic immersion program},
-  year = {2020},
-  journal = {Language Learning},
-  doi = {https://doi.org/10.1111/lang.12392},
-  volume = {70},
-  number = {3},
-  pages = {768--806},
-}</code></pre>
-</div>
-</div>
-</div>
-<!-- END METADATA -->
-<div class="sourceCode" id="cb8"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
-<div class="layout-chunk" data-layout="l-body">
-<p>Lozano-Argüelles, C., N. Sagarra, and J. V. Casillas
-(2020). “Slowly but surely: Interpreting facilitates L2
-morphological anticipation based on suprasegmental and
-segmental information”. In: <em>Bilingualism: Language and
-Cognition</em> 23.4, pp. 752-762. DOI:
-<a href="https://doi.org/10.1017/S1366728919000634" class="uri">https://doi.org/10.1017/S1366728919000634</a>.</p>
-</div>
-<!-- START METADATA -->
-<div style="text-indent:.25em;margin-top:-1em" data-align="left">
-<p>( <a alt="BLC2019" href="https://doi.org/10.1017/S1366728919000634" target='_new'><span class="showtooltip" title="Read paper">Link</span></a> |
-<button class="button mybutton" onclick="myFunction('SagarraLozanoCasillas_blc2019Abstract')">Abstract</button> |
-<button class="button mybutton" onclick="myFunction('SagarraLozanoCasillas_blc2019Bib')">Bib</button> )</p>
-<div id="SagarraLozanoCasillas_blc2019Abstract" style="display:none;margin-left:2em;text-indent:0em">
-<p class="minip">
-Native speakers use suprasegmental information to predict words, but less is known about segmental information. Moreover, anticipatory studies with non-native speakers are scarce and mix proficiency with anticipatory experience. To address these limitations, we investigated whether Spanish monolinguals and advanced English learners of Spanish use suprasegmentals (stress: oxytone, paroxytone) and segmentals (syllabic structure: CVC, CV) to predict word suffixes, and whether increased anticipatory experience acquired via interpreting will facilitate anticipation in non-interpreting L2 situations. Eye-tracking data revealed that: (1) the three groups made use of the linguistic variables, and L2 groups did not anticipate in CV paroxytones; (2) everybody anticipated better with the less frequent conditions (oxytones, CVC) having fewer lexical competitors; (3) monolinguals anticipated earlier than L2 learners; and (4) interpreters anticipated at a faster rate in some conditions. These findings indicate that less frequent suprasegmental and segmental information and anticipatory experience facilitate native and non-native spoken word prediction.
-</p>
-</div>
-<div id="SagarraLozanoCasillas_blc2019Bib" class="minip" style="display:none">
-<div class="layout-chunk" data-layout="l-body">
-<pre><code>@Article{SagarraLozanoCasillas_blc2019,
-  author = {Cristina Lozano-Arg&amp;uuml;elles and Nuria Sagarra and Joseph Vincent Casillas},
-  title = {Slowly but surely: {I}nterpreting facilitates {L}2 morphological 
-    anticipation based on suprasegmental and segmental information},
-  year = {2020},
-  volume = {23},
-  number = {4},
-  pages = {752-762},
-  journal = {Bilingualism: Language and Cognition},
-  doi = {https://doi.org/10.1017/S1366728919000634},
-}</code></pre>
-</div>
-</div>
-</div>
-<!-- END METADATA -->
-<div class="sourceCode" id="cb10"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
-<div class="layout-chunk" data-layout="l-body">
-<p>Casillas, J. V. (2020). “Phonetic category formation is
-perceptually driven during the early stages of adult L2
-development”. In: <em>Language and Speech</em> 63.3, pp. 550-581.
-DOI: <a href="https://doi.org/10.1177/0023830919866225" class="uri">https://doi.org/10.1177/0023830919866225</a>.</p>
-</div>
-<!-- START METADATA -->
-<div style="text-indent:.25em;margin-top:-1em" data-align="left">
-<p>( <a alt="LS2020" href="https://doi.org/10.1177/0023830919866225" target='_new'><span class="showtooltip" title="Read paper">Link</span></a> |
-<button class="button mybutton" onclick="myFunction('CasillasProdPercStops_JSLS2018Abstract')">Abstract</button> |
-<button class="button mybutton" onclick="myFunction('CasillasProdPercStops_LS2020Bib')">Bib</button> )</p>
-<div id="CasillasProdPercStops_JSLS2018Abstract" style="display:none;margin-left:2em;text-indent:0em">
-<p class="minip">
-Research on the acquisition of L2 phonology in sequential language learners has stressed the importance of language use and input as a means to accurate production and perception; however, the two constructs are difficult to evaluate and control. This study focuses on the role of language use during the initial stages of development of phonetic categories related to stop voicing and analyzes the relationship between production and perception. Native English-speaking late learners of Spanish provided production/perception data on a weekly basis throughout the course of a seven-week immersion program in which L1 use was prohibited. The production/perception data were analyzed using generalized linear mixed effects models. Generalized additive mixed models were used to analyze and compare the learning trajectories of each modality. The analyses revealed phonetic learning in both production and perception over the course of the program. Perception gains paralleled those of native bilinguals by the conclusion of the program and preceded production gains. This study is novel in that it provides production/perception data in a semi-longitudinal design. Moreover, the beginning adult learners are examined in a learning context in which L1 use was minimal and L2 input was maximized. Taken together, the experiments suggest that L2 phonetic category formation can occur abruptly, at an early stage of development, is perceptually driven, and appears to be particularly fragile during the initial stages of learning.
-</p>
-</div>
-<div id="CasillasProdPercStops_LS2020Bib" class="minip" style="display:none">
-<div class="layout-chunk" data-layout="l-body">
-<pre><code>@Article{CasillasProdPercStops,
-  author = {Joseph Vincent Casillas},
-  title = {Phonetic category formation is perceptually driven during the 
-    early stages of adult {L}2 development},
-  journal = {Language and Speech},
-  year = {2020},
-  doi = {https://doi.org/10.1177/0023830919866225},
-  volume = {63},
-  number = {3},
-  pages = {550--581},
-}</code></pre>
-</div>
-</div>
-</div>
-<!-- END METADATA -->
-<div class="sourceCode" id="cb12"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
-<div class="layout-chunk" data-layout="l-body">
-<p>Casillas, J. V. (2019). “Semantic processing triggers
-cross-linguistic interference during early phonetic category
-development”. In: <em>ICPhS 19</em>. Ed. by S. Calhoun, P. Escudero,
-M. Tabain and aul Warren. In Proceedings of the 19th
-International Congress of Phonetic Sciences. Melbourne,
-Australia 2019 (ISBN: 978-0-646-80069-1), pp. 3348-3352.</p>
-</div>
-<!-- START METADATA -->
-<div style="text-indent:.25em;margin-top:-1em" data-align="left">
-<p>( <a alt="ICPHS2019" href="https://www.jvcasillas.com/immersion_stop_production_semantic_processing/docs/manuscript_beginners/icphs_2019/manuscript/master.pdf" target='_new'><span class="showtooltip" title="Read paper">Link</span></a> |
-<button class="button mybutton" onclick="myFunction('CasillasICPhS2019Abstract')">Abstract</button> |
-<button class="button mybutton" onclick="myFunction('CasillasICPhS2019Bib')">Bib</button> )</p>
-<div id="CasillasICPhS2019Abstract" style="display:none;margin-left:2em;text-indent:0em">
-<p class="minip">
-The present work explored the initial stages of adult L2
-learning with a focus on the acquisition of the target language sound system.
-Specifically, the study analyzed the development of Spanish stop voicing in an
-immersion learning context in which L1 use was minimal and L2 input was
-maximized. Native English speaking learners of Spanish and bilinguals provided
-production data that were analyzed using Bayesian multilevel models. The
-analyses included a pre/post program evaluation of stop voicing in a delayed
-shadowing task, as well as a comparison with the participants’ post-program
-production in a task that required semantic processing. The analyses revealed
-phonetic learning for stop voicing over the course of the program, though
-production gains diminished when the task required semantic processing. The
-results suggest L2 phonetic category formation can occur at an early stage of
-development, but L2 phonetic representations are unstable during initial
-stages of learning.
-</p>
-</div>
-<div id="CasillasICPhS2019Bib" class="minip" style="display:none">
-<div class="layout-chunk" data-layout="l-body">
-<pre><code>@InProceedings{CasillasICPhS2019article,
-  author = {Joseph Vincent Casillas},
-  editor = {Sasha Calhoun and Paola Escudero and Marija Tabain and {aul Warren}},
-  organization = {In Proceedings of the 19th International Congress of Phonetic Sciences},
-  publisher = {Melbourne, Australia 2019 (ISBN: 978-0-646-80069-1)},
-  title = {Semantic processing triggers cross-linguistic interference during early phonetic category development},
-  booktitle = {ICPhS 19},
-  pages = {3348-3352},
-  year = {2019},
-}</code></pre>
-</div>
-</div>
-</div>
-<!-- END METADATA -->
-<div class="sourceCode" id="cb14"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
-<div class="layout-chunk" data-layout="l-body">
-<p>Casillas, J. V. and M. Simonet (2018). “Perceptual
-categorization and bilingual language modes: Assessing the
-double phonemic boundary in early and late bilinguals”. In:
-<em>Journal of Phonetics</em> 71, pp. 51-64. DOI:
-<a href="https://doi.org/10.1016/j.wocn.2018.07.002" class="uri">https://doi.org/10.1016/j.wocn.2018.07.002</a>.</p>
-</div>
-<!-- START METADATA -->
-<div style="text-indent:.25em;margin-top:-1em" data-align="left">
-<p>( <a alt="JPHON2018" href="https://www.sciencedirect.com/science/article/pii/S0095447018300111?via%3Dihub" target='_new'><span class="showtooltip" title="Read paper">Link</span></a> |
-<button class="button mybutton" onclick="myFunction('CasillasSimonet_jphon2018Abstract')">Abstract</button> |
-<button class="button mybutton" onclick="myFunction('CasillasSimonet_jphon2018Bib')">Bib</button> )</p>
-<div id="CasillasSimonet_jphon2018Abstract" style="display:none;margin-left:2em;text-indent:0em">
-<p class="minip">
-In the present study, Spanish-English bilinguals’ perceptual
-boundaries between voiced and voiceless stops (a /b/-/p/ continuum including
-pre-voiced, voiceless unaspirated, and voiceless aspirated tokens) are shown
-to be modulated by whether participants are “led to believe” they are
-classifying Spanish or English sounds. In Experiment 1, simultaneous
-Spanish-English bilinguals and beginner second-language learners of Spanish
-labeled the same acoustic continuum in two experimental sessions (Spanish
-mode, English mode), and both groups were found to display language-specific
-perceptual boundaries (or session effects). In Experiment 2, early bilinguals
-and late second-language learners of various levels of proficiency
-participated in a single session in which, in random order, they labeled
-nonwords that were designed to prime either Spanish or English language modes.
-Early bilinguals and relatively proficient second-language learners, but not
-less proficient learners, displayed mode-specific perceptual normalization
-criteria even in conditions of rapid, random mode switching. Along with
-similar ones, the experiments reported here demonstrate that bilinguals are
-able to exploit language-specific perceptual processes (or norms) when
-processing speech sounds, which entails some degree of separation between
-their sound systems.
-</p>
-</div>
-<div id="CasillasSimonet_jphon2018Bib" class="minip" style="display:none">
-<div class="layout-chunk" data-layout="l-body">
-<pre><code>@Article{CasillasSimonet_jphon2018,
-  author = {Joseph Vincent Casillas and Miquel Simonet},
-  journal = {Journal of Phonetics},
-  title = {{Perceptual categorization and bilingual language modes: 
-    Assessing the double phonemic boundary in early and late bilinguals}},
-  volume = {71},
-  year = {2018},
-  pages = {51--64},
-  doi = {https://doi.org/10.1016/j.wocn.2018.07.002},
-}</code></pre>
-</div>
-</div>
-</div>
-<!-- END METADATA -->
-<div class="sourceCode" id="cb16"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
-<div class="layout-chunk" data-layout="l-body">
-<p>Sagarra, N. and J. V. Casillas (2018). “Suprasegmental
-information cues morphological anticipation during L1/L2
-lexical access”. In: <em>Journal of Second Language Studies</em> 1.1,
-pp. 31-59. DOI: <a href="https://doi.org/10.1075/jsls.17026.sag" class="uri">https://doi.org/10.1075/jsls.17026.sag</a>.</p>
-</div>
-<!-- START METADATA -->
-<div style="text-indent:.25em;margin-top:-1em" data-align="left">
-<p>( <a alt="JSLS2018" href="https://benjamins.com/catalog/jsls.17026.sag" target='_new'><span class="showtooltip" title="Read paper">Link</span></a> |
-<button class="button mybutton" onclick="myFunction('SagarraCasillas_JSLS2018Abstract')">Abstract</button> |
-<button class="button mybutton" onclick="myFunction('SagarraCasillas_JSLS2018Bib')">Bib</button> )</p>
-<div id="SagarraCasillas_JSLS2018Abstract" style="display:none;margin-left:2em;text-indent:0em">
-<p class="minip">
-We use visual-world eye-tracking and gating methods to
-investigate whether Spanish monolinguals and English late learners of Spanish
-use prosodic cues (lexical stress) to anticipate morphological information
-(suffixes) during spoken word recognition, and if they do, whether L2
-proficiency and working memory (WM) mediate their anticipatory abilities. Our
-findings show that the monolinguals used prosodic information to predict word
-endings in both tasks, regardless of first-syllable stress (stressed,
-unstressed) and structure (CV, CVC). In contrast, the beginning learners did
-not use prosodic information to anticipate word suffixes in any task or
-condition. Importantly, the advanced learners mirrored the monolinguals, except
-in words with first-syllable CV structure, but were slower than the
-monolinguals. Finally, WM was not associated with anticipatory eye movements,
-though results were inconclusive for offline processing. Taken together, the
-present study shows that suprasegmental information facilitates morphological
-anticipation during spoken word recognition, and that adult learners can gain
-anticipatory processing patterns qualitatively, but not quantitatively, similar
-to monolinguals.
-</p>
-</div>
-<div id="SagarraCasillas_JSLS2018Bib" class="minip" style="display:none">
-<div class="layout-chunk" data-layout="l-body">
-<pre><code>@Article{SagarraCasillas_JSLS2018,
-  author = {Nuria Sagarra and Joseph Vincent Casillas},
-  journal = {Journal of Second Language Studies},
-  title = {Suprasegmental information cues morphological anticipation during 
-    {L1/L2} lexical access},
-  volume = {1},
-  number = {1},
-  year = {2018},
-  pages = {31--59},
-  doi = {https://doi.org/10.1075/jsls.17026.sag},
-}</code></pre>
-</div>
-</div>
-</div>
-<!-- END METADATA -->
-<div class="sourceCode" id="cb18"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
-<div class="layout-chunk" data-layout="l-body">
-<p>Bessett, R. M., J. V. Casillas, and M. Ramírez
-Martínez (2017). “Language choice and accommodation:
-Casual encounters in San Ysidro and Nogales”. In: <em>Spanish in
-Context</em> 14.1, pp. 78-98. DOI:
-<a href="https://doi.org/10.1075/sic.14.1.04bes" class="uri">https://doi.org/10.1075/sic.14.1.04bes</a>.</p>
-</div>
-<!-- START METADATA -->
-<div style="text-indent:.25em;margin-top:-1em" data-align="left">
-<p>( <a alt="SinC2017" href="https://benjamins.com/catalog/sic.14.1.04bes" target='_new'><span class="showtooltip" title="Read paper">Link</span></a> |
-<button class="button mybutton" onclick="myFunction('BessettCasillasRamirezSpIC2017Abstract')">Abstract</button> |
-<button class="button mybutton" onclick="myFunction('BessettCasillasRamirezSpIC2017Bib')">Bib</button> )</p>
-<div id="BessettCasillasRamirezSpIC2017Abstract" style="display:none;margin-left:2em;text-indent:0em">
-<p class="minip">
-The present study investigates language choice in two
-bilingual speech communities in the United States: Nogales, AZ and San Ysidro,
-CA. Ethnically distinct fieldworkers approached members of these two
-communities under the guise of being lost tourists in order to engage in casual
-speech encounters. It was found that language choice varied between the two
-communities, with participants of the San Ysidro community more likely to
-engage in codeswitching. Ethnicity was also found to be a significant predictor
-of language choice, with more codeswitching taking place with the fieldworker
-of a Hispanic phenotype. Potential explanations and factors for future research
-are discussed.
-</p>
-</div>
-<div id="BessettCasillasRamirezSpIC2017Bib" class="minip" style="display:none">
-<div class="layout-chunk" data-layout="l-body">
-<pre><code>@Article{BessettCasillasRamirezSpIC2017,
-  author = {Ryan Matthew Bessett and Joseph Vincent Casillas and Marta {Ram&amp;iacute;rez Mart&amp;iacute;nez}},
-  title = {Language choice and accommodation: Casual encounters in San 
-    Ysidro and Nogales},
-  journal = {Spanish in Context},
-  volume = {14},
-  number = {1},
-  pages = {78--98},
-  year = {2017},
-  doi = {https://doi.org/10.1075/sic.14.1.04bes},
-}</code></pre>
-</div>
-</div>
-</div>
-<!-- END METADATA -->
-<div class="sourceCode" id="cb20"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
-<div class="layout-chunk" data-layout="l-body">
-<p>Llompart, M. and J. V. Casillas (2016). “Lexically driven
-selective adaptation by ambiguous auditory stimuli occurs
-after limited exposure to adaptors”. In: <em>Journal of the
-Acoustical Society of America</em> 139.5, pp. EL172-EL177. DOI:
-<a href="https://doi.org/10.1121/1.4951704" class="uri">https://doi.org/10.1121/1.4951704</a>.</p>
-</div>
-<!-- START METADATA -->
-<div style="text-indent:.25em;margin-top:-1em" data-align="left">
-<p>( <a alt="JASAEL2016" href="http://scitation.aip.org/content/asa/journal/jasa/139/5/10.1121/1.4951704" target='_new'><span class="showtooltip" title="Read paper">Link</span></a> |
-<button class="button mybutton" onclick="myFunction('LlmopartCasillasJASAEL2016Abstract')">Abstract</button> |
-<button class="button mybutton" onclick="myFunction('LlmopartCasillasJASAEL2016Bib')">Bib</button> )</p>
-<div id="LlmopartCasillasJASAEL2016Abstract" style="display:none;margin-left:2em;text-indent:0em">
-<p class="minip">
-Limited exposure to ambiguous auditory stimuli results in
-perceptual recalibration. When unambiguous stimuli are used instead, selective
-adaptation (SA) effects have been reported, even after few adaptor
-presentations. Crucially, selective adaptation by an ambiguous sound in biasing
-lexical contexts had previously been found only after massive adaptor repetition
-[Samuel (2001). Psychol. Sci. 12(4), 348–351]. The present study shows that
-extensive exposure is not necessary for lexically driven selective adaptation to
-occur. Lexically driven selective adaptation can arise after as few as nine
-adaptor presentations. Additionally, build-up course inspection reveals several
-parallelisms with the time course observed for SA with unambiguous stimuli.
-</p>
-</div>
-<div id="LlmopartCasillasJASAEL2016Bib" class="minip" style="display:none">
-<div class="layout-chunk" data-layout="l-body">
-<pre><code>@Article{LlmopartCasillasJASAEL2016,
-  author = {Miquel Llompart and Joseph Vincent Casillas},
-  title = {Lexically driven selective adaptation by ambiguous auditory 
-    stimuli occurs after limited exposure to adaptors},
-  journal = {Journal of the Acoustical Society of America},
-  volume = {139},
-  number = {5},
-  pages = {EL172--EL177},
-  year = {2016},
-  doi = {https://doi.org/10.1121/1.4951704},
-}</code></pre>
-</div>
-</div>
-</div>
-<!-- END METADATA -->
-<div class="sourceCode" id="cb22"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
-<div class="layout-chunk" data-layout="l-body">
-<p>Casillas, J. V. and M. Simonet (2016). “Production and
-perception of the English /æ/-/ɑ/ contrast in
-switched-dominance speakers”. In: <em>Second Language Research</em>
-32.2, pp. 171-195. DOI:
-<a href="https://doi.org/10.1177/0267658315608912" class="uri">https://doi.org/10.1177/0267658315608912</a>.</p>
-</div>
-<!-- START METADATA -->
-<div style="text-indent:.25em;margin-top:-1em" data-align="left">
-<p>( <a alt="SDSLR2016" href="http://slr.sagepub.com/content/32/2/171.abstract" target='_new'><span class="showtooltip" title="Read paper">Link</span></a> |
-<button class="button mybutton" onclick="myFunction('CasillasSimonetSLR2016abstract')">Abstract</button> |
-<button class="button mybutton" onclick="myFunction('CasillasSimonetSLR2016bib')">Bib</button> )</p>
-<div id="CasillasSimonetSLR2016abstract" style="display:none;margin-left:2em;text-indent:0em">
-<p class="minip">
-This study investigates how fluent second-language (L2)
-learners of English produce and perceive the /æ/–/ɑ/ vowel contrast of
-Southwestern American English. Two learner groups are examined: (1) early,
-proficient English speakers who were raised by Spanish-speaking families but
-who became dominant in English during childhood and, as adults, lack
-communicative abilities in Spanish, and (2) Spanish-speaking late learners of
-English who continue to be dominant in Spanish. The participants provided data
-in three tasks: one production and two perceptual. The study finds that both
-learner groups differ from native controls in their production and perception
-of the /æ/–/ɑ/ contrast. The findings shed light on our understanding of the
-relative effects of age (at onset of language exposure) and language dominance
-(at time of testing) by showing that sequential bilingualism impacts phonetic
-behavior even when speakers have become dominant in the target language.
-</p>
-</div>
-<div id="CasillasSimonetSLR2016bib" class="minip" style="display:none">
-<div class="layout-chunk" data-layout="l-body">
-<pre><code>@Article{CasillasSimonetSLR2016,
-  author = {Joseph V Casillas and Miquel Simonet},
-  title = {Production and perception of the English /&amp;aelig;/-/&amp;#593;/ 
-    contrast in switched-dominance speakers},
-  year = {2016},
-  volume = {32},
-  number = {2},
-  pages = {171-195},
-  journal = {Second Language Research},
-  doi = {https://doi.org/10.1177/0267658315608912},
-}</code></pre>
-</div>
-</div>
-</div>
-<!-- END METADATA -->
-<div class="sourceCode" id="cb24"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
-<div class="layout-chunk" data-layout="l-body">
-<p>Casillas, J. V. (2015). “Production and perception of the
-/i/-/ɪ/ vowel contrast: The case of L2-dominant early
-learners of English”. In: <em>Phonetica</em> 72.2-3, pp. 182-205.
-DOI: <a href="https://doi.org/10.1159/000431101" class="uri">https://doi.org/10.1159/000431101</a>.</p>
-</div>
-<!-- START METADATA -->
-<div style="text-indent:.25em;margin-top:-1em" data-align="left">
-<p>( <a alt="SDPHON2015" href="http://www.karger.com/Article/Abstract/431101" target='_new'><span class="showtooltip" title="Read paper">Link</span></a> |
-<button class="button mybutton" onclick="myFunction('CasillasPhonetica2015abstract')">Abstract</button> |
-<button class="button mybutton" onclick="myFunction('CasillasPhonetica2015bib')">Bib</button> )</p>
-<div id="CasillasPhonetica2015abstract" style="display:none;margin-left:2em;text-indent:0em">
-<p class="minip">
-The present study explored the production and perception of the
-/i/-/ɪ/ vowel contrast in second language (L2)-dominant early learners of
-American English who no longer fluently speak their first language (L1,
-Spanish). The production task analyzed the extent to which the early learner
-group differed from controls (native English speakers and L1-Spanish late-onset
-learners of English) with regard to duration and spectral centroids. The
-perception experiment examined how these early learners classified resynthesized
-stimuli drawn from the /i/-/ɪ/ con- trast using distinct acoustic cues –
-spectral and temporal – in a 2-alternative forced choice identification task.
-The first experiment revealed that the early learners produced the contrast in
-a native-like manner in terms of the spectral envelope and duration use. The
-second experiment found that early learners differed from both control groups
-in how they categorized the /i/-/ɪ/ continua based on spectrum and duration,
-and the extent to which they rely on these two cues. The effects of linguistic
-experience on L2 phonetic behavior are discussed.
-</p>
-</div>
-<div id="CasillasPhonetica2015bib" class="minip" style="display:none">
-<div class="layout-chunk" data-layout="l-body">
-<pre><code>@Article{CasillasPhonetica2015,
-  author = {Joseph Vincent Casillas},
-  title = {Production and perception of the /i/-/&amp;#618;/ vowel contrast: 
-    The case of L2-dominant early learners of English},
-  journal = {Phonetica},
-  volume = {72},
-  number = {2-3},
-  pages = {182-205},
-  year = {2015},
-  doi = {https://doi.org/10.1159/000431101},
-}</code></pre>
-</div>
-</div>
-</div>
-<!-- END METADATA -->
-<div class="sourceCode" id="cb26"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
-<div class="layout-chunk" data-layout="l-body">
-<p>Casillas, J. V., Y. Díaz, and M. Simonet (2015).
-“Acoustics of Spanish and English coronal stops”. In: <em>ICPhS
-18</em>. Ed. by T. S. C. for ICPhS 2015. Proceedings of the 18th
-International Congress of Phonetic Sciences. University of
-Glasgow: Glasgow. <a href="http://www.icphs2015.info" class="uri">http://www.icphs2015.info</a>, ISSN: 241-0669,
-pp. 1-5.</p>
-</div>
-<!-- START METADATA -->
-<div style="text-indent:.25em;margin-top:-1em" data-align="left">
-<p>( <a alt="ICPhS2015" href="https://www.researchgate.net/publication/280840068_ACOUSTICS_OF_SPANISH_AND_ENGLISH_CORONAL_STOPS" target='_new'><span class="showtooltip" title="Read paper">Link</span></a> |
-<button class="button mybutton" onclick="myFunction('CasillasDiazSimonetICPhS2015article')">Abstract</button> |
-<button class="button mybutton" onclick="myFunction('CasillasDiazSimonetICPhS2015bib')">Bib</button> )</p>
-<div id="CasillasDiazSimonetICPhS2015article" style="display:none;margin-left:2em;text-indent:0em">
-<p class="minip">
-This study explores the acoustic correlates that distinguish
-coronal stops (/t/, /d/) between English and Spanish. English and Spanish
-coronal stops are hypothesized to differ in terms of voice-onset time and place
-of articulation. We are particularly concerned with capturing the place of
-articulation difference with acoustic data, as the voice-onset time difference
-is well known. Specifically, we focus on English /d/ and Spanish /t/, which are
-phonetically-voiceless stops with a short-lag voice-onset time. Spanish /t/ has
-been described as being articulated at dental place, whereas English /d/ is
-articulated at alveolar place. Mixed-effects models explored various spectral
-measurements of the consonant burst and found that standard deviation, relative
-burst intensity, and center of gravity differed as a function of place of
-articulation (or language).
-</p>
-</div>
-<div id="CasillasDiazSimonetICPhS2015bib" class="minip" style="display:none">
-<div class="layout-chunk" data-layout="l-body">
-<pre><code>@InProceedings{CasillasDiazSimonetICPhS2015article,
-  author = {Joseph Vincent Casillas and Yamile D&amp;iacute;az and Miquel Simonet},
-  editor = {The Scottish Consortium {for ICPhS 2015}},
-  organization = {Proceedings of the 18th International Congress of Phonetic Sciences},
-  publisher = {University of Glasgow: Glasgow. http://www.icphs2015.info, 
-    ISSN: 241-0669},
-  title = {Acoustics of Spanish and English coronal stops},
-  booktitle = {ICPhS 18},
-  pages = {1-5},
-  year = {2015},
-}</code></pre>
-</div>
-</div>
-</div>
-<!-- END METADATA -->
-<div class="sourceCode" id="cb28"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
-<div class="layout-chunk" data-layout="l-body">
-<p>Simonet, M., J. V. Casillas, and Y. Díaz (2014). “The
-effects of stress/accent on VOT depend on language (English,
-Spanish), consonant (/d/, /t/) and linguistic experience
-(monolinguals, bilinguals)”. In: <em>Speech Prosody 7</em>. Ed. by N.
-Campbell, D. Gibbon and D. Hirst. Proceedings of the 7th
-international conference on Speech Prosody: Social and
-Linguistic Speech Prosody. Trinity College, Dublin.
-speechprosody2014.org, ISSN: 2333-2042, pp. 202-206.</p>
-</div>
-<!-- START METADATA -->
-<div style="text-indent:.25em;margin-top:-1em" data-align="left">
-<p>( <a alt="SpeechProsody" href="https://www.researchgate.net/publication/272090285_The_effects_of_stressaccent_on_VOT_depend_on_language_%28English_Spanish%29_consonant_%28d_t%29_and_linguistic_experience_%28monolinguals_bilinguals%29" target='_new'><span class="showtooltip" title="Read paper">Link</span></a> |
-<button class="button mybutton" onclick="myFunction('SimonetCasillasDiazSP72014abstract')">Abstract</button> |
-<button class="button mybutton" onclick="myFunction('SimonetCasillasDiazSP72014bib')">Bib</button> )</p>
-<div id="SimonetCasillasDiazSP72014abstract" style="display:none;margin-left:2em;text-indent:0em">
-<p class="minip">
-This study examines Voice Onset Times of coronal stops in
-utterance-initial position in two languages. Crucially, the effects of lexical
-stress (stressed, unstressed syllable) on VOT are analyzed. The study
-investigates aspirated stops (English /t/), short-lag voiceless stops (English
-/d/, Spanish /t/) and pre-voiced stops (Spanish /d/). Three groups of speakers
-provide data: English monolinguals, Spanish monolinguals, and proficient
-Spanish-English bilinguals. The study finds that lexical stress lengthens
-aspiration (English /t/) and prevoicing (Spanish /d/) but it does not alter
-significantly short-lag stops (Spanish /t/, English /d/). Monolinguals and
-bilinguals differ slightly in their phonetic behavior. Implications for gestural
-coordination as well as for feature theory are discussed.
-</p>
-</div>
-<div id="SimonetCasillasDiazSP72014bib" class="minip" style="display:none">
-<div class="layout-chunk" data-layout="l-body">
-<pre><code>@InProceedings{SimonetCasillasDiazSP72014article,
-  author = {Miquel Simonet and Joseph Vincent Casillas and Yamile D&amp;iacute;az},
-  editor = {N Campbell and D Gibbon and D Hirst},
-  organization = {Proceedings of the 7th international conference on Speech 
-    Prosody: Social and Linguistic Speech Prosody},
-  publisher = {Trinity College, Dublin. speechprosody2014.org, 
-    ISSN: 2333-2042},
-  title = {The effects of stress/accent on VOT depend on language ({E}nglish, {S}panish), consonant (/d/, /t/) and linguistic experience (monolinguals, bilinguals)},
-  booktitle = {Speech Prosody 7},
-  pages = {202-206},
-  year = {2014},
-}</code></pre>
-</div>
-</div>
-</div>
-<!-- END METADATA -->
-<div class="sourceCode" id="cb30"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
-<div class="layout-chunk" data-layout="l-body">
-<p>Casillas, J. V. and R. M. Bessett (2013). <em>Cuadro de los
-rasgos distintivos y los alófonos del español
-[Table]</em>. Ed. by R. A. N. Cedeño, S. Colina and T. G.
-Bradley. Georgetown University Press.
-<a href="https://github.com/jvcasill/rasgos_distintivos" class="uri">https://github.com/jvcasill/rasgos_distintivos</a>.</p>
-</div>
-<!-- START METADATA -->
-<div style="text-indent:.25em;margin-top:-1em" data-align="left">
-<p>( <a alt="RASGOS" href="https://github.com/jvcasill/rasgos_distintivos" target='_new'><span class="showtooltip" title="RASGOS">Link</span></a> |
-<button class="button mybutton" onclick="myFunction('CasillasBessettDFTable2013Abstract')">Abstract</button> |
-<button class="button mybutton" onclick="myFunction('CasillasBessettDFTable2013Bib')">Bib</button> )</p>
-<div id="CasillasBessettDFTable2013Abstract" style="display:none;margin-left:2em;text-indent:0em">
-<p class="minip">
-Table of allophones and distinctive features of Spanish (in
-Fonología generativa contemporánea de la lengua española).
-</p>
-</div>
-<div id="CasillasBessettDFTable2013Bib" class="minip" style="display:none">
-<div class="layout-chunk" data-layout="l-body">
-<pre><code>@Book{CasillasBessettDFTable2013,
-  author = {Joseph Vincent Casillas and Ryan Matthew Bessett},
-  editor = {R. A. N. Cede&amp;ntilde;o and S. Colina and T. G. Bradley},
-  title = {Cuadro de los rasgos distintivos y los al&amp;oacute;fonos del 
-    espa&amp;ntilde;ol [Table]},
-  booktitle = {Fonolog&amp;iacute;a generativa contempor&amp;aacute;nea de la lengua 
-    espa&amp;ntilde;ola},
-  publisher = {Georgetown University Press},
-  year = {2013},
-  url = {https://github.com/jvcasill/rasgos_distintivos},
-}</code></pre>
-</div>
-</div>
-</div>
-<!-- END METADATA -->
-<div class="sourceCode" id="cb32"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
-<div class="layout-chunk" data-layout="l-body">
-<p>Casillas, J. V. (2013). “La fricativización del
-africado /tʃ/: actitudes lingüísticas cerca
-de la frontera”. In: <em>Selected Proceedings of the 6th Workshop
-on Spanish Sociolinguistics</em>. Ed. by A. M. Carvalho and S.
-Beaudrie. Somerville, MA: Cascadilla Proceedings Project.
-www.lingref.com, document #2867, pp. 177-188.</p>
-</div>
-<!-- START METADATA -->
-<div style="text-indent:.25em;margin-top:-1em" data-align="left">
-<p>( <a alt="WSS6" href="http://www.lingref.com/cpp/wss/6/abstract2867.html" target='_new'><span class="showtooltip" title="WSS6 abstract">Link</span></a> |
-<button class="button mybutton" onclick="myFunction('CasillasWSS62013AbstractAbstract')">Abstract</button> |
-<button class="button mybutton" onclick="myFunction('CasillasWSS62013AbstractBib')">Bib</button> )</p>
-<div id="CasillasWSS62013Abstract" style="display:none;margin-left:2em;text-indent:0em">
-<p class="minip">
-La presente investigación examina las actitudes lingüísticas
-que tienen los hablantes de español de la comunidad de habla de Tucson, Arizona
-hacia el dialecto sonorense. Concretamente, se investiga el efecto que tiene la
-realización del africado prepalatal sordo y su variante fricativa no estándar
-sobre las percepciones de credibilidad de 4 candidatos a un puesto de trabajo
-hipotético. Un cuestionario basado en los índices de credibilidad utilizados
-por McCroskey (1999) se distribuyó a 111 participantes para medir sus actitudes
-hacia los 4 candidatos. El experimento consistió en una variación de la técnica
-matched-guise para asignar a los participantes a uno de dos grupos, el primero
-escuchó la variante estándar y el segundo la variante fricativa. Se demuestra
-que la variante fricativa recibe valoraciones de credibilidad más bajas que la
-variante estándar.
-</p>
-</div>
-<div id="CasillasWSS62013Bib" class="minip" style="display:none">
-<div class="layout-chunk" data-layout="l-body">
-<pre><code>@InProceedings{CasillasWSS62013article,
-  author = {Joseph Vincent Casillas},
-  editor = {Ana M. Carvalho and Sara Beaudrie},
-  publisher = {Somerville, MA: Cascadilla Proceedings Project. 
-    www.lingref.com, document #2867},
-  title = {La fricativizaci&amp;oacute;n del africado /t&amp;#643;/: actitudes ling&amp;uuml;&amp;iacute;sticas cerca de la frontera},
-  booktitle = {Selected Proceedings of the 6th Workshop on Spanish Sociolinguistics},
-  pages = {177-188},
-  year = {2013},
-}</code></pre>
-</div>
-</div>
-</div>
-<!-- END METADATA -->
-<div class="sourceCode" id="cb34"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
-<div class="layout-chunk" data-layout="l-body">
-<p>Casillas, J. V. (2012). “La fricativización del
-africado /tʃ/ en el habla de las mujeres del sur de
-Arizona”. In: <em>Divergencias: Revista de estudios
-lingüísticos y literarios</em> 10.1, pp. 56-70.</p>
-</div>
-<!-- START METADATA -->
-<div style="text-indent:.25em;margin-top:-1em" data-align="left">
-<p>( <a alt="Divergencias" href="http://divergencias.arizona.edu/sites/divergencias.arizona.edu/files/articles/FricativizacionDivergencias.pdf" target='_new'><span class="showtooltip" title="Read paper">Link</span></a> |
-<button class="button mybutton" onclick="myFunction('Casillas2012Abstract')">Abstract</button> |
-<button class="button mybutton" onclick="myFunction('Casillas2012Bib')">Bib</button> )</p>
-<div id="Casillas2012Abstract" style="display:none;margin-left:2em;text-indent:0em">
-<p class="minip">
-La fricativización del fonema /ʧ/ supone uno de los procesos
-fonológicos más productivos del español mexicano, sin embargo, actualmente sigue
-siendo uno de los menos estudiados. Partiendo de las investigaciones de
-Cedergren (1973), Brown (1989) y Herrera (2006), el presente estudio analiza la
-fricativización del fonema /ʧ/ en el español de las mujeres del sur de Arizona.
-El uso de una regresión de subida y bajada de Goldvarb X determinó que la edad
-de las participantes, el contexto posterior a /ʧ/ y el lugar de nacimiento son
-factores determinantes para la realización de la variante fricativa.
-</p>
-</div>
-<div id="Casillas2012Bib" class="minip" style="display:none">
-<div class="layout-chunk" data-layout="l-body">
-<pre><code>@Article{Casillas2012divergencias,
-  author = {Joseph Vincent Casillas},
-  journal = {Divergencias: Revista de estudios ling&amp;uuml;&amp;iacute;sticos y literarios},
-  number = {1},
-  title = {La fricativizaci&amp;oacute;n del africado /t&amp;#643;/ en el habla de las mujeres del sur de {A}rizona},
-  volume = {10},
-  pages = {56-70},
-  year = {2012},
-}</code></pre>
-</div>
-</div>
-</div>
-<!-- END METADATA -->
-<div class="sourceCode" id="cb36"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
-<div class="layout-chunk" data-layout="l-body">
-<p>Casillas, J. V. (2010). “La vibrante múltiple
-intervocálica: los ejercicios de canto como ayuda a su
-pronunciación en español”. In: <em>La Gaceta
-Hispánica de Madrid</em> VIII. ISSN: 1886-1741.</p>
-</div>
-<!-- START METADATA -->
-<div style="text-indent:.25em;margin-top:-1em" data-align="left">
-<p>( <button class="button mybutton" onclick="myFunction('Casillas2010Bib')">Bib</button> )</p>
-<div id="Casillas2010Bib" class="minip" style="display:none">
-<div class="layout-chunk" data-layout="l-body">
-<pre><code>@Article{Casillas2010gaceta,
-  author = {Joseph Vincent Casillas},
-  issn = {1886-1741},
-  journal = {La Gaceta Hisp&amp;aacute;nica de Madrid},
-  title = {La vibrante m&amp;uacute;ltiple intervoc&amp;aacute;lica: los ejercicios 
-    de canto como ayuda a su pronunciaci&amp;oacute;n en espa&amp;ntilde;ol},
-  volume = {VIII},
-  year = {2010},
-}</code></pre>
-</div>
-</div>
-</div>
-<!-- END METADATA -->
-<div class="sourceCode" id="cb38"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
-<div class="layout-chunk" data-layout="l-body">
-<p>Casillas, J. V. (2009). “El uso de los refranes en El
-Quijote”. In: <em>La Gaceta Hispánica de Madrid</em> VIII.
-ISSN: 1886-1741.</p>
-</div>
-<!-- START METADATA -->
-<div style="text-indent:.25em;margin-top:-1em" data-align="left">
-<p>( <button class="button mybutton" onclick="myFunction('Casillas2009Abstract')">Abstract</button> |
-<button class="button mybutton" onclick="myFunction('Casillas2009Bib')">Bib</button> )</p>
-<div id="Casillas2009Abstract" style="display:none;margin-left:2em;text-indent:0em">
-<p class="minip">
-El refrán es una de las partes fundamentales de la lengua
-castellana que vemos plasmada en toda la cultura española, tanto en el habla
-cotidiana como en la literatura. El refrán ha tenido y sigue teniendo suma
-importancia a la hora de conocer y entender la cultura hispana, ya sea oral o
-en textos escritos. Es algo que los estudiantes de español como segunda lengua
-pueden comprobar puesto que supone un reto en su aprendizaje. Como es bien
-sabido, El Quijote, novela estudiada exhaustivamente desde que fue publicada
-por primera vez, es una fuente paremiológica imprescindible para quien quiera
-aprender, investigar o simplemente gozar del refranero cervantino. En palabras
-de Tarnovska: “No hay otra obra literaria que sea ni pueda ser considerada
-refranero popular de la misma importancia que El Quijote” (287). Además de ser
-una de las obras de literatura más esenciales de todos los tiempos, también es
-un recurso, una vía por medio de la cual el lector puede acercarse a la cultura
-española.
-</p>
-</div>
-<div id="Casillas2009Bib" class="minip" style="display:none">
-<div class="layout-chunk" data-layout="l-body">
-<pre><code>@Article{Casillas2009gaceta,
-  author = {Joseph Vincent Casillas},
-  issn = {1886-1741},
-  journal = {La Gaceta Hisp&amp;aacute;nica de Madrid},
-  title = {El uso de los refranes en El Quijote},
-  volume = {VIII},
-  year = {2009},
-}</code></pre>
-</div>
-</div>
-</div>
-<!-- END METADATA -->
-<div class="sourceCode" id="cb40"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
-<p><strong>Submitted</strong></p>
-<div class="layout-chunk" data-layout="l-body">
-<p>Coretta, S., J. V. Casillas, and T. Roettger <em>Multidimensional
-signals and analytic flexibility: Estimating degrees of
-freedom in human speech analyses</em>.</p>
-</div>
-<p><strong>In preparation</strong></p>
-<div class="layout-chunk" data-layout="l-body">
-<p>Casillas, J. V., N. Rodríguez, L. F. Arroyo, J. J. G.
-Pozú, K. Parrish, R. Esposito, K. Gómez, and I.
-Chang <em>Using intonation to disambiguate meaning: The role of
-empathy and proficiency in L2 perceptual development</em>.</p>
-</div>
-<div class="layout-chunk" data-layout="l-body">
-<p>Casillas, J. V. <em>Semantic processing affects L2 stop
-production in late learners</em>.</p>
-</div>
-<div class="layout-chunk" data-layout="l-body">
-<p>Casillas, J. V. <em>L1/L2 cue-weighting strategies in the
-perception of lexical stress</em>.</p>
-</div>
-<div class="layout-chunk" data-layout="l-body">
-<p>Sagarra, N. and J. V. Casillas <em>The use of lexical stress and
-vowel duration for morphological anticipation in L2 learners
-of Spanish</em>.</p>
-</div>
-<div class="layout-chunk" data-layout="l-body">
-<p>Sagarra, N. and J. V. Casillas <em>The use of stress in lexical
-access in early and late bilinguals</em>.</p>
-</div>
-<div class="layout-chunk" data-layout="l-body">
-<p>Casillas, J. V. <em>Community approaches to translating
-specialized terminology in linguistics: lingreference.org</em>.</p>
-</div>
-<div class="sourceCode" id="cb41"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
-</section>
-<section id="presentations" class="presentations panel">
-<h4 class="presentations">Presentations</h4>
-<p><strong>Presentations</strong></p>
-<p><span class="tempTimes"></p>
-<div class="layout-chunk" data-layout="l-body">
-<p>Sagarra, N. and J. V. Casillas (2021). <em>The effects of
-prosody, proficiency and working memory on L2 lexical
-prediction</em>. EuroSLA, Online, Universitat de Barcelona, Spain.</p>
-</div>
-<div class="layout-chunk" data-layout="l-body">
-<p>Lozano-Arüelles, C., N. Sagarra, and J. V. Casillas
-(2021). <em>The role of working memory during L2 prediction of
-morphology: Evidence from professional interpreters</em>. 3rd
-International Symposium on Bilingual and L2 Processing in
-Adults and Children (ISBPAC 2021), Online.</p>
-</div>
-<div class="layout-chunk" data-layout="l-body">
-<p>Rodríguez, N., C. Lozano-Argüelles, L. F. Arroyo,
-E. Durand, J. J. G. Pozu, J. M. Rojas, J. Varela, N. de
-Rocafiguera, and J. V. Casillas (2020). <em>If you can believe it
-you can perceive it: Conceptually cueing the double phonemic
-boundary effect in late bilinguals</em>. Current Approaches to
-Spanish and Portuguese Second Language Phonology (CASPSLaP),
-San José State University, San José, CA.</p>
-</div>
-<div class="layout-chunk" data-layout="l-body">
-<p>Wiseman, A. M., J. V. Casillas, M. Lacorte, and A. C. Lara
-(2020). <em>How do you pull off all that intercultural stuff at
-home? Enhancing intercultural development in the L2 classroom
-in a domestic immersion environment</em>. Workshop on
-Intercultural Skills Enhancement (WISE) Conference, Wake
-Forest University, Winston-Salem, NC.</p>
-</div>
-<div class="layout-chunk" data-layout="l-body">
-<p>Lozano-Argüelles, C., L. F. Arroyo, N. Rodríguez,
-E. Durand, J. J. G. Pozu, J. M. Rojas, J. Varela, N. de
-Rocafiguera, and J. V. Casillas (2019). <em>Conceptually cued
-perceptual categorization in late bilinguals</em>. Hispanic
-Linguistics Symposium, University of Texas at El Paso, El
-Paso, TX.</p>
-</div>
-<div class="layout-chunk" data-layout="l-body">
-<p>Lozano-Argüelles, C., N. Sagarra, and J. V. Casillas
-(2019). <em>Predicting the end: monolinguals, L2 learners and
-interpreters’ use of prosody to predict word endings</em>.
-Hispanic Linguistics Symposium, University of Texas at El
-Paso, El Paso, TX.</p>
-</div>
-<div class="layout-chunk" data-layout="l-body">
-<p>Colina, S., J. V. Casillas, and Y. Díaz (2018).
-<em>Syllabic Affiliation of Prevocalic Glides in Sonoran Spanish:
-Dialectal variation in syllabic affiliation</em>. Hispanic
-Linguistics Symposium, University of Texas at Austin, Austin,
-TX.</p>
-</div>
-<div class="layout-chunk" data-layout="l-body">
-<p>Lozano-Argüelles, C., N. Sagarra, and J. V. Casillas
-(2018). <em>The use of lexical stress and vowel duration for
-morphological anticipation in L2 learners of Spanish</em>.
-Hispanic Linguistics Symposium, University of Texas at Austin,
-Austin, TX.</p>
-</div>
-<div class="layout-chunk" data-layout="l-body">
-<p>Lozano-Argüelles, C., N. Sagarra, and J. V. Casillas
-(2018). <em>The time-course of verbal morphology anticipation:
-When interpreting experience makes a difference</em>.
-International Symposium on Bilingual and L2 Processing in
-Adults and Children (ISBPAC). Universität Branschweig,
-Germany.</p>
-</div>
-<div class="layout-chunk" data-layout="l-body">
-<p>Lozano-Argüelles, C., N. Sagarra, and J. V. Casillas
-(2017). <em>Practice makes perfect. L2 morphological anticipation
-in simultaneous interpreters</em>. International Symposium on
-Bilingualism. University of Limerick, Ireland.</p>
-</div>
-<div class="layout-chunk" data-layout="l-body">
-<p>Lozano-Argüelles, C., N. Sagarra, and J. V. Casillas
-(2017). <em>The Role of Stress in Morphological Anticipation:
-Evidence from Interpreters</em>. Hispanic Linguistics Symposium,
-Texas Tech University, Lubbock, TX.</p>
-</div>
-<div class="layout-chunk" data-layout="l-body">
-<p>Sagarra, N., J. V. Casillas, and N. Rodríguez (2017).
-<em>The use of stress in lexical access in early and late
-bilinguals</em>. Hispanic Linguistics Symposium, Texas Tech
-University, Lubbock, TX.</p>
-</div>
-<div class="layout-chunk" data-layout="l-body">
-<p>Lozano-Argüelles, C., N. Sagarra, and J. V. Casillas
-(2017). <em>Anticipatory eye-movements in morphological
-prediction: Evidence from interpreters and bilinguals</em>. Second
-Language Research Forum, The Ohio State University.</p>
-</div>
-<div class="layout-chunk" data-layout="l-body">
-<p>Sagarra, N. and J. V. Casillas (2017). <em>Lexical stress
-predicts L1 and L2 morphosyntactic processing</em>. 47th
-Linguistics Symposium on Romance Languages. University of
-Delaware, Newark, DE.</p>
-</div>
-<div class="layout-chunk" data-layout="l-body">
-<p>Casillas, J. V. (2017). <em>The longitudinal development of
-fine-phonetic detail: Production and perception of Spanish
-stops in a stateside immersion context</em>. 47th Linguistics
-Symposium on Romance Languages. University of Delaware,
-Newark, DE.</p>
-</div>
-<div class="layout-chunk" data-layout="l-body">
-<p>Casillas, J. V. (2017). <em>Coronal stop production in Spanish
-heritage speakers</em>. 4th National Symposium on Spanish as a
-Heritage Language. University of California at Irvine,
-Irvine, CA.</p>
-</div>
-<div class="layout-chunk" data-layout="l-body">
-<p>Casillas, J. V. (2016). <em>Learning to hear fine-phonetic
-detail: Longitudinal development of language-specific speech
-perception in adults</em>. Hispanic Linguistic Symposium.
-Georgetown University, Washinton D.C.</p>
-</div>
-<div class="layout-chunk" data-layout="l-body">
-<p>Simonet, M., J. V. Casillas, and D. Osborne (2016). <em>Second
-language acquisition and the double perceptual boundary
-effect</em>. Sound to Word in Bilingual and Second Language Speech
-Perception. University of Iowa, Iowa City, Iowa.</p>
-</div>
-<div class="layout-chunk" data-layout="l-body">
-<p>Casillas, J. V., Y. Díaz, and M. Simonet (2015).
-<em>Acoustics of coronal stops in Spanish-English bilingual
-speech</em>. Hispanic Linguistics Symposium. University of
-Illinois at Urbana-Champaign, Urbana, IL.</p>
-</div>
-<div class="layout-chunk" data-layout="l-body">
-<p>Bessett, R. M., J. V. Casillas, and M. R. Martínez
-(2014). <em>Language Choice and Accommodation: Casual Encounters
-Along the U.S. Border</em>. 7th Workshop on Spanish
-Sociolinguistics. University of Wisconsin-Madison, Madison,
-WI.</p>
-</div>
-<div class="layout-chunk" data-layout="l-body">
-<p>Casillas, J. V. (2013). <em>Perception of English /i/-/ɪ/
-tense/lax vowel contrast by early learners of English</em>. Second
-Language Research Forum (SRLF). Brigham Young University.
-Provo, Utah.</p>
-</div>
-<div class="layout-chunk" data-layout="l-body">
-<p>Casillas, J. V. (2013). <em>English-dominant early
-Spanish-English bilinguals production and perception of
-English tense lax vowel contrasts</em>. Phonetics and Phonology in
-Iberia. Universidade de Lisboa, Lisbon. Portugal.</p>
-</div>
-<div class="layout-chunk" data-layout="l-body">
-<p>Casillas, J. V. (2013). <em>La fricativización del
-africado /tʃ/: actitudes lingüísticas cerca
-de la frontera</em>. 6th Workshop on Spanish Sociolinguistics.
-University of Arizona, Tucson, AZ.</p>
-</div>
-<div class="layout-chunk" data-layout="l-body">
-<p>Casillas, J. V. (2012). <em>Los piojos, las pulgas y el canto…
-¡oh my! Una segunda mirada a la teoría de Dunbar, el
-cotilleo y el papel de la música en la evolución
-del lenguage</em>. 22nd Annual Symposium on Hispanic and
-Luso-Brazilian Literature, Language and Culture. University of
-Arizona, Tucson, AZ.</p>
-</div>
-<div class="layout-chunk" data-layout="l-body">
-<p>Casillas, J. V. (2011). <em>La fricativización del
-africado /tʃ/ en el habla de las mujeres del sur de
-Arizona</em>. 21st Annual Symposium on Hispanic and Luso-Brazilian
-Literature. University of Arizona, Tucson, AZ.</p>
-</div>
-<div class="layout-chunk" data-layout="l-body">
-<p>Casillas, J. V. (2011). <em>Going mental with vocabulary: the use
-of iDevice applications in the classroom</em>. Spanish Heritage
-Language Program Share Day. University of Arizona, Tucson, AZ.</p>
-</div>
-<p><strong>Unrefereed Presentations</strong></p>
-<div class="layout-chunk" data-layout="l-body">
-<p>Casillas, J. V. (2017). <em>Crossing borders? The status and
-future of Spanish in the U.S.</em>. School of Spanish Round Table,
-Middlebury College, Middlebury, VT.</p>
-</div>
-<div class="layout-chunk" data-layout="l-body">
-<p>Sagarra, N., J. V. Casillas, C. Lozano-Argüelles, F.
-Eriksson, J. Uscamayta, and J. Overton (2017). <em>Using lexical
-stress to predict inflectional morphology</em>. Aresty
-Undergraduate Research Symposium. Rutgers University, New
-Brunswick.</p>
-</div>
-<div class="layout-chunk" data-layout="l-body">
-<p>Sagarra, N., J. V. Casillas, C. Lozano-Argüelles, and N.
-Rodríguez (2017). <em>Eye-tracking reveals bilinguals use
-stress to predict morphology</em>. 11th annual Perceptual and
-Cognitive Science Forum. Rutgers University, New Brunswick.</p>
-</div>
-<p><strong>Poster presentations</strong></p>
-<div class="layout-chunk" data-layout="l-body">
-<p>Casillas, J. V. (2019). <em>Semantic processing triggers
-cross-linguistic interference during early phonetic category
-development</em>. The 19th International Congress of Phonetic
-Sciences (ICPhS).</p>
-</div>
-<div class="layout-chunk" data-layout="l-body">
-<p>Lozano-Argüelles, C., N. Sagarra, and J. V. Casillas
-(2018). <em>Anticipación de morfología en hablantes
-de español como L2</em>. II Congreso para profesionales de
-la educación bilingüe. Madrid, Spain.</p>
-</div>
-<div class="layout-chunk" data-layout="l-body">
-<p>Sagarra, N. and J. V. Casillas (2018). <em>Prosodic cues
-facilitate morphological anticipation in monolinguals and
-bilinguals</em>. International Symposium on Bilingual and L2
-Processing in Adults and Children. Universität
-Braunschweig, Germany.</p>
-</div>
-<div class="layout-chunk" data-layout="l-body">
-<p>Lozano-Argüelles, C., N. Sagarra, and J. V. Casillas
-(2018). <em>Anticipation in Professional Interpreters: Predicting
-Morphology</em>. Bridging Attention and Prediction. Universitat de
-Barcelona, Spain.</p>
-</div>
-<div class="layout-chunk" data-layout="l-body">
-<p>Martínez, M. R. and J. V. Casillas (2016). <em>La
-producción de la vibrante múltiple en los
-estudiantes de español como lengua heredada y en los
-estudiantes de español como lengua extranjera</em>. 8th
-Workshop on Spanish Sociolinguistics. University of Puerto
-Rico, Río Piedras, PR.</p>
-</div>
-<div class="layout-chunk" data-layout="l-body">
-<p>Casillas, J. V., Y. Díaz, and M. Simonet (2015).
-<em>Acoustics of Spanish and English coronal stops</em>. Proceedings
-of the 18th International Congress of Phonetic Sciences.
-University of Glasgow, Glasgow, Scotland.</p>
-</div>
-<div class="layout-chunk" data-layout="l-body">
-<p>Simonet, M., J. V. Casillas, and Y. Díaz (2014). <em>A
-contrastive acoustic analysis of dental and alveolar stops in
-Spanish and English</em>. Hispanic Linguistics Symposium. Purdue
-University, West Lafayette, IN.</p>
-</div>
-<div class="layout-chunk" data-layout="l-body">
-<p>Simonet, M., J. V. Casillas, and Y. Díaz (2014). <em>The
-effects of stress/accent on VOT depend on language (English,
-Spanish), consonant (/d/, /t/) and linguistic experience
-(monolinguals, bilinguals)</em>. Speech Prosody 7: Social and
-Linguistic Speech Prosody. Trinity College, Dublin, Ireland.</p>
-</div>
-<div class="layout-chunk" data-layout="l-body">
-<p>Casillas, J. V. and M. Simonet (2013). <em>English-dominant early
-Spanish/English bilinguals perception of English tense-lax
-vowel contrasts</em>. PPLC 13: Phonetics, phonology and languages
-in contact: Contact varieties, multilingualism, and second
-language learning. Paris, Délégation
-Générale Wallonie-Bruxelles.</p>
-</div>
-<div class="sourceCode" id="cb42"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
-</section>
-</div>
-<div class="sourceCode" id="cb43"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
-<div class="sourceCode" id="cb44"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
-<!--radix_placeholder_article_footer-->
-<!--/radix_placeholder_article_footer-->
-</div>
-
-<div class="d-appendix">
-</div>
+    </div>
+    <div class="nav-footer-right">
+      &nbsp;
+    </div>
+  </div>
+</footer>
 
 
-<!--radix_placeholder_site_after_body-->
-<!--/radix_placeholder_site_after_body-->
-<!--radix_placeholder_appendices-->
-<div class="appendix-bottom"></div>
-<!--/radix_placeholder_appendices-->
-<!--radix_placeholder_navigation_after_body-->
-<div class="distill-site-nav distill-site-footer">
-<p><a href="https://www.jvcasillas.com"><img width="40px" src="images/jvc_logo_small.png"/></a><br />
-© Copyright 2022</p>
-</div>
-<!--/radix_placeholder_navigation_after_body-->
 
-
-</body>
-
-</html>
+</body></html>

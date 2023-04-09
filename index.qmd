@@ -1,0 +1,30 @@
+---
+page-layout: full
+engine: knitr
+---
+
+
+```{css}
+/*| echo: false */
+
+.title {
+  font-size: 0 !important;
+}
+
+```
+
+
+```{ojs}
+//| output: hide
+//| echo: false
+P5 = require("p5")
+```
+
+
+
+
+<div class="column-screen">
+<div id="particles-js"></div>
+</div>
+<script src="./assets/particles/particles.min.js"></script>
+<script src="./assets/particles/app.js"></script>

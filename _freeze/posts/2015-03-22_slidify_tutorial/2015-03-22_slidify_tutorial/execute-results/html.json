@@ -1,0 +1,16 @@
+{
+  "hash": "b966fa5df0145366d639bbe01ae02f2a",
+  "result": {
+    "markdown": "---\ntitle: \"Slidify tutorial\"\ndescription: |\n  Tutorial for creating HTML presentations using R and slidify. \ndate: 03-22-2015\nauthor:\n  - name: Joseph V. Casillas \n    url: https://www.jvcasillas.com\n    affiliation: Rutgers University\n    affiliation_url: https://www.rutgers.edu\nbase_url: http://www.jvcasillas.com\ncategories: [r, rmarkdown, html]\ntwitter:\n  creator: \"@jvcasill\"\nengine: knitr\nimage: \"featured.png\"\n---\n\n\n\n<meta http-equiv=\"refresh\" content=\"0; url='https://www.jvcasillas.com/slidify_tutorial/'\"/>\n\n\n::: {.cell}\n::: {.cell-output-display}\n![](featured.png){width=206}\n:::\n:::\n",
+    "supporting": [
+      "2015-03-22_slidify_tutorial_files"
+    ],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

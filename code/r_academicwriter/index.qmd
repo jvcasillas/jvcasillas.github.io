@@ -1,0 +1,24 @@
+---
+title: "academicWriteR"
+date: "2018-04-06"
+author:
+  - name: Joseph V. Casillas
+    url: https://www.jvcasillas.com
+    affiliation: Rutgers University
+    affiliation_url: https://www.rutgers.edu
+description: |
+  An R package of helper functions that are useful for writing 
+  academic reports/manuscripts.
+categories: [r, statistics, programming, linguistics]
+base_url: https://www.jvcasillas.com
+twitter:
+  creator: "@jvcasill"
+engine: knitr
+image: "academicWriteR.png"
+---
+
+<meta http-equiv="refresh" content="0; url='https://www.jvcasillas.com/academicWriteR/'"/>
+
+```{r, academicWriteR-hex, echo=F}
+knitr::include_graphics('academicWriteR.png')
+```
