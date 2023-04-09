@@ -1,0 +1,16 @@
+{
+  "hash": "ed56f1410b6c5bb07f5b61400d8d42b4",
+  "result": {
+    "markdown": "---\ntitle: \"untidydata\"\ndate: \"2018-04-06\"\nauthor:\n  - name: Joseph V. Casillas\n    url: https://www.jvcasillas.com\n    affiliation: Rutgers University\n    affiliation_url: https://www.rutgers.edu\ndescription: |\n  An R package of untidy datasets made for the purpose of teaching the \n  tidyverse.\ncategories: [r, statistics, programming, linguistics]\nbase_url: https://www.jvcasillas.com\ntwitter:\n  creator: \"@jvcasill\"\nengine: knitr\nimage: untidydata.png\n---\n\n\n<meta http-equiv=\"refresh\" content=\"0; url='https://www.jvcasillas.com/untidydata/'\"/>\n\n\n::: {.cell}\n::: {.cell-output-display}\n![](untidydata.png){width=259}\n:::\n:::\n",
+    "supporting": [
+      "index_files"
+    ],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

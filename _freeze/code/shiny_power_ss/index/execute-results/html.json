@@ -1,0 +1,16 @@
+{
+  "hash": "0f564cba68ec40e893ac22859d9564fe",
+  "result": {
+    "markdown": "---\ntitle: \"Power/Sample size calculator\"\ndate: \"2018-04-06\"\nauthor:\n  - name: Joseph V. Casillas\n    url: https://www.jvcasillas.com\n    affiliation: Rutgers University\n    affiliation_url: https://www.rutgers.edu\ndescription: |\n  A shiny web app built in R for teaching statistical power and sample sizes.\ncategories: [r, shiny, teaching, programming, statistics]\nbase_url: https://www.jvcasillas.com\ntwitter:\n  creator: \"@jvcasill\"\nengine: knitr\nimage: featured.png\n---\n\n\n<meta http-equiv=\"refresh\" content=\"0; url='https://jvcasillas.shinyapps.io/shiny_power/'\"/>\n\n\n::: {.cell}\n::: {.cell-output-display}\n![](featured.png){width=658}\n:::\n:::\n",
+    "supporting": [
+      "index_files"
+    ],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

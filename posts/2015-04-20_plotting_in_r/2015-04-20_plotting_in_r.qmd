@@ -1,0 +1,24 @@
+---
+title: "Basic plotting in R"
+description: |
+  Step-by-step examples for using the three main plotting systems in R. 
+date: 04-20-2015
+author:
+  - name: Joseph V. Casillas 
+    url: https://www.jvcasillas.com
+    affiliation: Rutgers University
+    affiliation_url: https://www.rutgers.edu
+base_url: http://www.jvcasillas.com
+categories: [r, dataviz]
+twitter:
+  creator: "@jvcasill"
+engine: knitr
+image: "featured.png"
+---
+
+
+<meta http-equiv="refresh" content="0;url= https://www.jvcasillas.com/base_lattice_ggplot/"/>
+
+```{r, plot-ex, echo=F}
+knitr::include_graphics("featured.png")
+```

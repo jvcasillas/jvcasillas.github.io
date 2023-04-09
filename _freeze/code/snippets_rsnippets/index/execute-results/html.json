@@ -1,0 +1,14 @@
+{
+  "hash": "2f08936999f0ea8eac674266e41493a5",
+  "result": {
+    "markdown": "---\ntitle: \"R-Snippets\"\ndate: \"2018-04-06\"\nauthor:\n  - name: Joseph V. Casillas\n    url: https://www.jvcasillas.com\n    affiliation: Rutgers University\n    affiliation_url: https://www.rutgers.edu\ndescription: |\n  A collection of snippets for SublimeText that facilitate doing statistical \n  analysis in R.\ncategories: [teaching, programming, r, workflow, sublimtext]\nbase_url: https://www.jvcasillas.com\ntwitter:\n  creator: \"@jvcasill\"\nengine: knitr\nimage: featured.png\n---\n\n\nThis repository is a collection of snippets that I use in [SublimeText][SublimeText] for doing statistical analysis in [R][R]. \nThe goal is straightforward: document the code that I use most often while doing linguistic research and make it readily available (and understandable) to other linguists. \nIf you are interested in helping see the github [repository](https://github.com/jvcasillas/R-snippets). \nTo install R-snippets see the [package control][package control R-snippets] page. \nTo use a snippet, type the trigger and hit the tab key. \nFor example, typing <code>lm</code> brings up the following window:  \n\n\n::: {.cell layout-align=\"center\"}\n::: {.cell-output-display}\n![](featured.png){fig-align='center' width=100%}\n:::\n:::\n\n\nSelecting ```Random slope and random intercept model``` expands to...\n\n```r\n# load lme4 for mixed models\nlibrary(lme4)\n\n# random intercept and random slope model\nmodelName = lmer(DV ~ fixedFactor1 +* fixedFactor2 + (1 + randomSlope|randomInt), data=df)\nmodelName\n\nhist(residuals(modelName))\nqqnorm(residuals(modelName))\nqqline(residuals(modelName))\n```\n\nMain triggers:  \n\n- \"plot\": templates for plotting in base R\n- \"edit\": options useful for data cleansing and saving\n- \"desc\": descriptive statistics of data\n- \"ttest\": distinct types of t-test\n- \"aov\": distinct analysis of variance models\n- \"lm\": linear and logistic regression\n- \"lmem\": linear mixed effects models\n\nExtras:  \n\n- \"subset\": make subsets of a DF\n- \"read\": read/load/install data/packages into R\n- \"save\": save plots, dfs, tables, etc.\n- \"tikz\": template for creating R plots in LaTeX\n\n\n\n\n\n<!-- links -->\n\n[SublimeText]: http://www.sublimetext.com\n[R]: http://www.r-project.org\n[package control R-snippets]: https://sublime.wbond.net/packages/R-snippets\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

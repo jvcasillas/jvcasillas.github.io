@@ -1,0 +1,16 @@
+{
+  "hash": "ab343c04c90d8543ac03f3fb74765345",
+  "result": {
+    "markdown": "---\ntitle: \"Generalized linear model\"\ndate: \"2018-04-06\"\nauthor:\n  - name: Joseph V. Casillas\n    url: https://www.jvcasillas.com\n    affiliation: Rutgers University\n    affiliation_url: https://www.rutgers.edu\ndescription: |\n  A shiny web app built in R for teaching the generalized linear model.\ncategories: [r, shiny, teaching, programming, statistics]\nbase_url: https://www.jvcasillas.com\ntwitter:\n  creator: \"@jvcasill\"\nengine: knitr\nimage: featured.png\n---\n\n\n<meta http-equiv=\"refresh\" content=\"0; url='https://jvcasillas.shinyapps.io/shiny_glm/'\"/>\n\n\n::: {.cell}\n::: {.cell-output-display}\n![](featured.png){width=1560}\n:::\n:::\n",
+    "supporting": [
+      "index_files"
+    ],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

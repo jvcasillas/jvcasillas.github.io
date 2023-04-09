@@ -1,0 +1,24 @@
+---
+title: "untidydata"
+date: "2018-04-06"
+author:
+  - name: Joseph V. Casillas
+    url: https://www.jvcasillas.com
+    affiliation: Rutgers University
+    affiliation_url: https://www.rutgers.edu
+description: |
+  An R package of untidy datasets made for the purpose of teaching the 
+  tidyverse.
+categories: [r, statistics, programming, linguistics]
+base_url: https://www.jvcasillas.com
+twitter:
+  creator: "@jvcasill"
+engine: knitr
+image: untidydata.png
+---
+
+<meta http-equiv="refresh" content="0; url='https://www.jvcasillas.com/untidydata/'"/>
+
+```{r, lingStuff-hex, echo=F}
+knitr::include_graphics("untidydata.png")
+```

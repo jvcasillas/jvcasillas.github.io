@@ -1,0 +1,16 @@
+{
+  "hash": "52876dcd57fa75791ea23cf209b70e18",
+  "result": {
+    "markdown": "---\ntitle: \"HTML widgets in Rmarkdown\"\ndescription: |\n  Walkthrough for incorporating HTML widgets into an Rmarkdown document. \ndate: 04-13-2015\nauthor:\n  - name: Joseph V. Casillas \n    url: https://www.jvcasillas.com\n    affiliation: Rutgers University\n    affiliation_url: https://www.rutgers.edu\nbase_url: http://www.jvcasillas.com\ncategories: [r, rmarkdown, html]\ntwitter:\n  creator: \"@jvcasill\"\nengine: knitr\nimage: \"featured.png\"\n---\n\n\n<meta http-equiv=\"refresh\" content=\"0; url='https://www.jvcasillas.com/html_widgets/index.html'\"/>\n\n\n::: {.cell}\n::: {.cell-output-display}\n![](featured.png){width=202}\n:::\n:::\n",
+    "supporting": [
+      "2015-04-13_html_widgets_files"
+    ],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

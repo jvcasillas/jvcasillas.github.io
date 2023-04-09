@@ -1,0 +1,23 @@
+---
+title: "Central limit theorem"
+date: "2018-04-06"
+author:
+  - name: Joseph V. Casillas
+    url: https://www.jvcasillas.com
+    affiliation: Rutgers University
+    affiliation_url: https://www.rutgers.edu
+description: |
+  A shiny web app built in R for teaching the central limit theorem.
+categories: [r, statistics, shiny, teaching, programming]
+base_url: https://www.jvcasillas.com
+twitter:
+  creator: "@jvcasill"
+engine: knitr
+image: featured.png
+---
+
+<meta http-equiv="refresh" content="0; url='https://jvcasillas.shinyapps.io/shiny_clt/'"/>
+
+```{r, shiny-bivariate-reg, fig.retina=2}
+knitr::include_graphics("featured.png")
+```

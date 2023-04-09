@@ -1,0 +1,16 @@
+{
+  "hash": "15062f20ba8bdf5f84ef6cfe50945cf7",
+  "result": {
+    "markdown": "---\ntitle: \"tidyr tutorial\"\ndescription: |\n  Tutorial showing the functionality of the tidyr package for data wrangling. \ndate: 06-22-2015\nauthor:\n  - name: Joseph V. Casillas \n    url: https://www.jvcasillas.com\n    affiliation: Rutgers University\n    affiliation_url: https://www.rutgers.edu\nbase_url: http://www.jvcasillas.com\ncategories: [r, tidyverse, data]\ntwitter:\n  creator: \"@jvcasill\"\nengine: knitr\nimage: \"tidyr.png\"\n---\n\n\n\n::: {.cell}\n::: {.cell-output-display}\n![](tidyr.png){width=1103}\n:::\n:::\n\n\n<meta http-equiv=\"refresh\" content=\"0; url='https://www.jvcasillas.com/tidyr_tutorial/'\"/>\n",
+    "supporting": [
+      "2015-06-22_tidyr_tutorial_files"
+    ],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

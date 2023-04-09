@@ -1,0 +1,24 @@
+---
+title: "ds4ling"
+date: "2018-04-06"
+author:
+  - name: Joseph V. Casillas
+    url: https://www.jvcasillas.com
+    affiliation: Rutgers University
+    affiliation_url: https://www.rutgers.edu
+description: |
+  An R package of datasets and functions made to complement the ds4ling 
+  course.
+categories: [r, statistics, programming, linguistics, teaching]
+base_url: https://www.jvcasillas.com
+twitter:
+  creator: "@jvcasill"
+engine: knitr
+image: ds4ling.png
+---
+
+<meta http-equiv="refresh" content="0; url='https://www.jvcasillas.com/ds4ling/'"/>
+
+```{r, lingStuff-hex, echo=F}
+knitr::include_graphics("ds4ling.png")
+```

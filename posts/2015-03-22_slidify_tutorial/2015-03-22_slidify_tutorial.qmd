@@ -1,0 +1,24 @@
+---
+title: "Slidify tutorial"
+description: |
+  Tutorial for creating HTML presentations using R and slidify. 
+date: 03-22-2015
+author:
+  - name: Joseph V. Casillas 
+    url: https://www.jvcasillas.com
+    affiliation: Rutgers University
+    affiliation_url: https://www.rutgers.edu
+base_url: http://www.jvcasillas.com
+categories: [r, rmarkdown, html]
+twitter:
+  creator: "@jvcasill"
+engine: knitr
+image: "featured.png"
+---
+
+
+<meta http-equiv="refresh" content="0; url='https://www.jvcasillas.com/slidify_tutorial/'"/>
+
+```{r, featured, echo=F}
+knitr::include_graphics("featured.png")
+```

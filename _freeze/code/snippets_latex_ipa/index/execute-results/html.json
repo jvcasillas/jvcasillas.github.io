@@ -1,0 +1,16 @@
+{
+  "hash": "708d9f9e106ae4cc1339c7f78cb60df4",
+  "result": {
+    "markdown": "---\ntitle: \"LaTeX IPA\"\ndate: \"2018-04-06\"\nauthor:\n  - name: Joseph V. Casillas\n    url: https://www.jvcasillas.com\n    affiliation: Rutgers University\n    affiliation_url: https://www.rutgers.edu\ndescription: |\n  A collection of snippets for SublimeText that simplify the process of \n  using IPA in LaTeX.\ncategories: [teaching, programming, ipa, latex, sublimtext]\nbase_url: https://www.jvcasillas.com\ntwitter:\n  creator: \"@jvcasill\"\nengine: knitr\nimage: featured.png\n---\n\n::: {.cell layout-align=\"center\"}\n::: {.cell-output-display}\n![](featured.png){fig-align='center' width=60%}\n:::\n:::\n\n\nI made this repository to simplify the process of using IPA in $\\LaTeX$. \nIt is merely a collection of snippets for the package [TIPA][TIPA]. \nTo install LaTeX-IPA see the [package control][package control LaTeX-IPA] page.\n\n\n### File naming  \n\nConsonants are labeled in the following way:  \n\n- voicing -> point of articulation -> mode of articulation  \nEx. voiceless-bilabial-aprox.sublime-snippet = [&beta;]\n\n\nVowels are labeled in the following way:  \n\n- vowel -> tense/lax -> height -> frontedness -> rounding  \nEx. vowel-tense-high-front-unrounded.sublime-snippet = [i]\n\n\n### Tab triggers\n\nThere are 6 main groups:  \n\n- **Diacritics**: type \"diac\" + tab  \n- **Vowels**: type \"vowel\" + tab  \n\nConsonants are divided into four subcategories:  \n\n- **Fricatives** type \"fric\" + tab  \n- **Affricates** type \"affr\" + tab  \n- **Liquids**: type \"liquid\" + tab  \n- **Nasals**: type \"nasal\" + tab\n\n### Notes  \n\nAs of now (10/19/2013), I have only included the symbols that I use the most in English and Spanish. \nI will continue adding to the repository over time. \nIt should be noted that the consonants do not include all categories (i.e. stops). \nThis is because they are not represented by unsual symbols in IPA. \n\n[project page]: http://www.jvcasillas.com/LaTeX-IPA\n\n\n[TIPA]: http://www.ctan.org/pkg/tipa\n[package control LaTeX-IPA]: https://sublime.wbond.net/packages/LaTeX-IPA\n\n",
+    "supporting": [
+      "index_files"
+    ],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

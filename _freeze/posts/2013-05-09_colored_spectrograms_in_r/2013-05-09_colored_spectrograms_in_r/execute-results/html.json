@@ -1,0 +1,16 @@
+{
+  "hash": "f9bbd889d02338bf65e27ba83aa71cc8",
+  "result": {
+    "markdown": "---\ntitle: \"Colored spectrograms in R\"\ndescription: |\n  How to make colored spectrograms in R with phonTools.\nauthor:\n  - name: Joseph V. Casillas \n    url: https://www.jvcasillas.com\n    affiliation: Rutgers University\n    affiliation_url: https://www.rutgers.edu\nbase_url: http://www.jvcasillas.com\ncategories: [r, phonetics, acoustics]\ntwitter:\n  creator: \"@jvcasill\"\ndate: \"2013-05-05\"\nengine: knitr\n---\n\n\n\n\nThis is how I made the colored spectrogram from the homepage (it's me saying 'welcome'). You need to load the package phonTools into R.\n\n\n\n::: {.cell}\n\n```{.r .cell-code}\nlibrary(phonTools)\n```\n:::\n\n\nNow you have to load the sound you want to make a spectrogram of (it has to be in your working directory). I recorded mine in Praat.\n\n\n::: {.cell}\n\n```{.r .cell-code}\nsound <- loadsound('welcome.wav')\n```\n:::\n\n\nNow we're ready to make a spectrogram.\n\n\n::: {.cell}\n\n```{.r .cell-code}\nspectrogram(sound, fs = 44100, colors = TRUE, \n            maintitle = \"Welcome\", maxfreq = 5500)\n```\n:::\n\n::: {.cell}\n::: {.cell-output-display}\n![](./assets/img/spectrogram.png){width=100%}\n:::\n:::\n\nWe can also see the oscillogram by using\n\n\n::: {.cell}\n\n```{.r .cell-code}\nplot(sound)\n```\n:::\n\n::: {.cell}\n::: {.cell-output-display}\n![](./assets/img/waveform.png){width=100%}\n:::\n:::\n\n\nThat's it. \n\n",
+    "supporting": [
+      "2013-05-09_colored_spectrograms_in_r_files"
+    ],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

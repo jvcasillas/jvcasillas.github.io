@@ -1,0 +1,7 @@
+---
+title: "Oh no!"
+description: |
+  We couldn't retrieve the page you are looking for.
+---
+
+![](./assets/img/kino_maya.png)

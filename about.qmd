@@ -1,0 +1,157 @@
+---
+title: "Joseph V. Casillas, Ph.D."
+image: "./assets/img/jvc2022.png"
+page-layout: full
+toc: false
+about:
+  id: hero-heading
+  template: trestles
+  image-width: 15em
+  image-shape: round
+  links:
+    - text: "{{< fa envelope size=2xl >}}"
+      href: mailto:joseph.casillas@rutgers.edu
+    - text: "{{< fa brands github size=2xl >}}"
+      href: https://github.com/jvcasillas
+    - text: "{{< ai orcid size=2xl >}}"
+      href: https://orcid.org/0000-0001-8735-9910
+    - text: "{{< ai google-scholar size=2xl >}}"
+      href: https://scholar.google.com/citations?user=6sd7cVAAAAAJ&amp;hl
+    - text: "{{< ai researchgate size=2xl >}}"
+      href: https://www.researchgate.net/profile/Joseph_Casillas
+    - text: "{{< fa brands twitter size=2xl >}}"
+      href: https://twitter.com/jvcasill
+engine: knitr
+---
+
+```{css}
+/*| echo: false */
+
+.about-entity {
+  padding-top: 100px;
+}
+
+.about-link {
+  color: #cc0033 !important;
+  padding: 10px !important;
+  border: 0 !important;
+  border-radius: 5px !important;
+  background-color: transparent !important;
+}
+
+.about-link:hover {
+  background-color: #717171 !important;
+
+}
+
+h1 {
+  line-height: 1.1;
+  margin-bottom: 4px;
+  font-size: 1.5em;
+  color: #515151 !important;
+}
+
+h3 {
+  color: #5F6A72;
+  margin-bottom: 8px;
+  margin-top: 0px;
+}
+
+h4 {
+  color: #cc0033;
+  text-transform: none;
+  font-size: 18px;
+  margin-top: 0px;
+}
+
+.myfooter {
+  color: #fff;
+  background-color: #fff;
+  font-size: 0;
+}
+
+.myfooter img {
+  width: 0;
+}
+
+```
+
+```{r}
+#| label: printing-fuctions
+#| echo: false
+
+wrap_li <- function(text = "text", fa = "fas fa-graduation-cap") {
+  li <- paste0("<li><i class='fa-li ", fa, "'></i>", text, "</li>\n")
+  return(li)
+}
+
+print_list <- function(text = "text", fa = "fas fa-graduation-cap") {
+  open_ul  <- "<ul class='ul-edu fa-ul'>"
+  close_ul <- "</ul>"
+  items    <- wrap_li(text, fa)
+
+  cat(paste0(open_ul, "\n"), items, paste0("\n", close_ul))
+}
+
+```
+
+### Associate Professor of Spanish Linguistics
+
+#### Rutgers University
+
+<p align="justify">
+I am an Associate Professor of Spanish Linguistics in the Spanish and Portuguese Department at Rutgers University, New Brunswick. 
+My main interests are in phonetics, laboratory phonology, and second language acquisition. 
+A principle aim of my research is to better understand the relationship between language use and sound representation in the mind, as well as the structure of sound systems in human languages. 
+Most of my research is conducted on bilinguals of varying proficiency and linguistic experience. 
+Some of my recent projects have focused on native phonetic experience and its influence on L2 speech production, perception and lexical processing. 
+Though my main passions are centered around coding, statistical analysis, data visualization, and reproducible research, I also enjoy playing music, Casio watches and anything related to el andalú.
+</p>
+
+
+<br>
+
+:::: {style="display: grid; grid-template-columns: 1fr 1fr; grid-column-gap: 10px;"}
+
+::: {}
+
+##### Interests
+
+```{r}
+#| label: interests
+#| echo: false
+#| results: 'asis'
+
+ul <- "- "
+elements <- c(
+ "Phonetics/Phonology",
+ "Speech production, perception,<br>spoken-word recognition",
+ "Second language acquisition",
+ "Bilingualism",
+ "Statistics/Data visualization"
+)
+glue::glue("{ul}{elements}")
+```
+
+:::
+
+::: {}
+
+##### Education
+
+```{r}
+#| label: print-ed
+#| echo: false
+#| results: 'asis'
+print_list(
+  text = c(
+    "PhD in Spanish Linguistics, 2016 <br>University of Arizona", 
+    "MA in Spanish Linguistics, 2012 <br>University of Arizona", 
+    "BA in Psychology, 2006 <br>Western Washington University"
+    )
+  )
+```
+
+:::
+
+::::

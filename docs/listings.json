@@ -1,0 +1,41 @@
+[
+  {
+    "listing": "/blog.html",
+    "items": [
+      "/posts/2021-05-15_logistic_regression_and_phonemic_boundaries/2021-05-15_logistic_regression_and_phonemic_boundaries.html",
+      "/posts/2018-09-16_setting_up_a_whisper_room_sound_booth/2018-09-16_setting_up_a_whisper_room_sound_booth.html",
+      "/posts/2017-05-15_analysis_of_justin_bieber_singing_in_spanish_-_despacito/2017-05-15_analysis_of_justin_bieber_singing_in_spanish_-_despacito.html",
+      "/posts/2015-06-22_tidyr_tutorial/2015-06-22_tidyr_tutorial.html",
+      "/posts/2015-06-16_google_sheets_in_r/2015-06-16_google_sheets_in_r.html",
+      "/posts/2015-05-18_data_pipelines/2015-05-18_data_pipelines.html",
+      "/posts/2015-04-20_plotting_in_r/2015-04-20_plotting_in_r.html",
+      "/posts/2015-04-13_html_widgets/2015-04-13_html_widgets.html",
+      "/posts/2015-03-22_slidify_tutorial/2015-03-22_slidify_tutorial.html",
+      "/posts/2014-05-28_tikz_-_standalone_plots/2014-05-28_tikz_-_standalone_plots.html",
+      "/posts/2014-05-26_knitr_bootstrap/2014-05-26_knitr_bootstrap.html",
+      "/posts/2014-01-07_converting_rmarkdown_files_to_html5/2014-01-07_converting_rmarkdown_files_to_html5.html",
+      "/posts/2013-05-17_tikz_-_projects/2013-05-17_tikz_-_projects.html",
+      "/posts/2013-05-11_tikz_-_installation/2013-05-11_tikz_-_installation.html",
+      "/posts/2013-05-09_colored_spectrograms_in_r/2013-05-09_colored_spectrograms_in_r.html"
+    ]
+  },
+  {
+    "listing": "/code.html",
+    "items": [
+      "/code/r_academicwriter/index.html",
+      "/code/r_contributor/index.html",
+      "/code/r_ds4ling/index.html",
+      "/code/r_lingstuff/index.html",
+      "/code/r_untidydata/index.html",
+      "/code/shiny_bivariate_regression/index.html",
+      "/code/shiny_clt/index.html",
+      "/code/shiny_crossover/index.html",
+      "/code/shiny_distinctive_features/index.html",
+      "/code/shiny_glm/index.html",
+      "/code/shiny_power_ss/index.html",
+      "/code/shiny_r4linguists/index.html",
+      "/code/snippets_latex_ipa/index.html",
+      "/code/snippets_rsnippets/index.html"
+    ]
+  }
+]

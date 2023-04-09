@@ -1,0 +1,16 @@
+{
+  "hash": "0bfa42cf288aea837a770a00de8e626e",
+  "result": {
+    "markdown": "---\ntitle: \"academicWriteR\"\ndate: \"2018-04-06\"\nauthor:\n  - name: Joseph V. Casillas\n    url: https://www.jvcasillas.com\n    affiliation: Rutgers University\n    affiliation_url: https://www.rutgers.edu\ndescription: |\n  An R package of helper functions that are useful for writing \n  academic reports/manuscripts.\ncategories: [r, statistics, programming, linguistics]\nbase_url: https://www.jvcasillas.com\ntwitter:\n  creator: \"@jvcasill\"\nengine: knitr\nimage: \"academicWriteR.png\"\n---\n\n\n<meta http-equiv=\"refresh\" content=\"0; url='https://www.jvcasillas.com/academicWriteR/'\"/>\n\n\n::: {.cell}\n::: {.cell-output-display}\n![](academicWriteR.png){width=259}\n:::\n:::\n",
+    "supporting": [
+      "index_files"
+    ],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

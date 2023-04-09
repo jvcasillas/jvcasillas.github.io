@@ -1,0 +1,24 @@
+---
+title: "lingStuff"
+date: "2018-04-06"
+author:
+  - name: Joseph V. Casillas
+    url: https://www.jvcasillas.com
+    affiliation: Rutgers University
+    affiliation_url: https://www.rutgers.edu
+description: |
+  An R package with handy functions I use in my linguistic
+  research.
+categories: [r, statistics, programming, linguistics]
+base_url: https://www.jvcasillas.com
+twitter:
+  creator: "@jvcasill"
+engine: knitr
+image: lingStuff.png
+---
+
+<meta http-equiv="refresh" content="0; url='https://www.jvcasillas.com/lingStuff/'"/>
+
+```{r, lingStuff-hex, echo=F}
+knitr::include_graphics("lingStuff.png")
+```

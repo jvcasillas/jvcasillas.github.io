@@ -1,0 +1,16 @@
+{
+  "hash": "4d82359b592335d1182ce93c8440ff59",
+  "result": {
+    "markdown": "---\ntitle: \"TikzDevice tutorial I: install tikzDevice in R\"\ndescription: |\n  How to install tikzDevice for plotting in R. \ndate: 05-11-2013\nauthor:\n  - name: Joseph V. Casillas \n    url: https://www.jvcasillas.com\n    affiliation: Rutgers University\n    affiliation_url: https://www.rutgers.edu\nbase_url: http://www.jvcasillas.com\ncategories: [r, tikz, latex, ipa]\ntwitter:\n  creator: \"@jvcasill\"\nengine: knitr\nimage: \"image.jpg\"\n---\n\n\n#### Overview\n\nThis is a short tutorial for getting **tikzDevice** running on **R** version 3.0. If you write in **LaTeX** and use **R** for statistics, this is a good way to get your plots/graphs/etc. into your .tex document. \nThe advantages are:\n\n1. much higher quality and\n2. you can use IPA symbols\n\n#### Download tiksDevice\n\n`tiksDevice` is no longer officially supported by CRAN because the author was having trouble keeping it updated in a timely manner (check out [this][why] webpage if you want to read a little more it). \nNonetheless, the `tikzdevice` package is very usable and still available for download. \nYou can download the tar.gz file directly by clicking [here][download].\n\n#### Install tiksDevice\n\nInstalling a package that is no longer supported is by no means difficult, but not as simple as `install.package('tikzDevice')` (try it if you want to see why). \nUse the following code install the tar file (make sure to specify your file path to wherever you downloaded the file). \nThis is what it looked like for me.\n\n\n::: {.cell}\n\n```{.r .cell-code}\ninstall.packages(\"/Users/USERNAME/Downloads/tikzDevice_0.6.2.tar\", \n  repos = NULL, type = \"source\")\n```\n:::\n\n\n#### Install dependencies\n\nIn order for `tikzDevice` to work, you must also install the `filehash` package. \nThis is much easier.\n\n\n::: {.cell}\n\n```{.r .cell-code}\ninstall.packages('filehash')\n```\n:::\n\n\nThat's it. \nCheck out [this][tikz-latex] tutorial to see how to set up a project.\n\n[why]: http://cran.r-project.org/web/packages/tikzDevice/index.html\n[download]: http://cran.r-project.org/src/contrib/Archive/tikzDevice/tikzDevice_0.6.2.tar.gz\n[tikz-latex]: /blog/2013-05-17_tikz_-_projects/index.html\n\n",
+    "supporting": [
+      "2013-05-11_tikz_-_installation_files"
+    ],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}
