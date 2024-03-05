@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.3.299">
+<meta name="generator" content="quarto-1.4.550">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -48,7 +48,13 @@ ul.task-list li input[type="checkbox"] {
   "collapse-after": 3,
   "panel-placement": "end",
   "type": "overlay",
-  "limit": 20,
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
   "language": {
     "search-no-results-text": "No results",
     "search-matching-documents-text": "matching documents",
@@ -57,8 +63,10 @@ ul.task-list li input[type="checkbox"] {
     "search-more-match-text": "more match in this document",
     "search-more-matches-text": "more matches in this document",
     "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
     "search-detached-cancel-button-title": "Cancel",
-    "search-submit-button-title": "Submit"
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
   }
 }</script>
 
@@ -78,7 +86,7 @@ ga('send', {
 
 
 <meta property="og:title" content="JVC - Research">
-<meta property="og:site-name" content="JVC">
+<meta property="og:site_name" content="JVC">
 <meta name="twitter:title" content="JVC - Research">
 <meta name="twitter:card" content="summary">
 </head>
@@ -87,9 +95,9 @@ ga('send', {
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
-    <nav class="navbar navbar-expand-lg navbar-dark ">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
-      <div class="navbar-brand-container">
+      <div class="navbar-brand-container mx-auto">
     <a class="navbar-brand" href="./index.html">
     <span class="navbar-title">JVC</span>
     </a>
@@ -101,47 +109,47 @@ ga('send', {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./about.html" rel="" target="">
- <span class="menu-text">About</span></a>
+    <a class="nav-link" href="./about.html"> 
+<span class="menu-text">About</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./research.html" rel="" target="" aria-current="page">
- <span class="menu-text">Research</span></a>
+    <a class="nav-link active" href="./research.html" aria-current="page"> 
+<span class="menu-text">Research</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./code.html" rel="" target="">
- <span class="menu-text">Code</span></a>
+    <a class="nav-link" href="./code.html"> 
+<span class="menu-text">Code</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./teaching.html" rel="" target="">
- <span class="menu-text">Teaching</span></a>
+    <a class="nav-link" href="./teaching.html"> 
+<span class="menu-text">Teaching</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./blog.html" rel="" target="">
- <span class="menu-text">Posts</span></a>
+    <a class="nav-link" href="./blog.html"> 
+<span class="menu-text">Posts</span></a>
   </li>  
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item compact">
-    <a class="nav-link" href="https://github.com/jvcasillas" rel="" target=""><i class="bi bi-github" role="img">
+    <a class="nav-link" href="https://github.com/jvcasillas"> <i class="bi bi-github" role="img">
 </i> 
- <span class="menu-text"></span></a>
+<span class="menu-text"></span></a>
   </li>  
   <li class="nav-item compact">
-    <a class="nav-link" href="https://twitter.com/jvcasill" rel="" target=""><i class="bi bi-twitter" role="img">
+    <a class="nav-link" href="https://twitter.com/jvcasill"> <i class="bi bi-twitter" role="img">
 </i> 
- <span class="menu-text"></span></a>
+<span class="menu-text"></span></a>
   </li>  
   <li class="nav-item compact">
-    <a class="nav-link" href="./blog.xml" rel="" target=""><i class="bi bi-rss" role="img">
+    <a class="nav-link" href="./blog.xml"> <i class="bi bi-rss" role="img">
 </i> 
- <span class="menu-text"></span></a>
+<span class="menu-text"></span></a>
   </li>  
 </ul>
-            <div class="quarto-navbar-tools">
+          </div> <!-- /navcollapse -->
+          <div class="quarto-navbar-tools">
   <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
 </div>
-          </div> <!-- /navcollapse -->
       </div> <!-- /container-fluid -->
     </nav>
 </header>
@@ -168,7 +176,9 @@ ga('send', {
   </div>
   
 
+
 </header>
+
 
 <div class="cell">
 <style type="text/css">
@@ -350,11 +360,22 @@ This project was co-authored with Miquel Llompart García. You can read the fina
 <div id="tabset-1-3" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-3-tab">
 <section id="in-press" class="level3">
 <h3 class="anchored" data-anchor-id="in-press">In press</h3>
-<p>Coretta, S., J. V. Casillas, and T. Roettger “Multidimensional signals and analytic flexibility: Estimating degrees of freedom in human speech analyses”. In: <em>Advances in Methods and Practices in Psychological Science</em>.</p>
 </section>
 <section id="recent-publications" class="level3">
 <h3 class="anchored" data-anchor-id="recent-publications">Recent Publications</h3>
-<p>Jiménez-Crespo, M. and J. V. Casillas (2021). “Literal is not always easier: Literal and default translation, post-editing effort, and comparable corpora”. In: <em>Translation, Cognition &amp; Behavior</em> 4.1. DOI: <a href="https://doi.org/https%3A%2F%2Fdoi.org%2F10.1075%2Ftcb.00048.jim">https://doi.org/10.1075/tcb.00048.jim</a>.</p>
+<p>Colina, S. and J. V. Casillas <em>Variation in syllabification: Onglides in Sonoran Spanish</em>.</p>
+<p>Andreu Rascón, I. and J. V. Casillas <em>From Eyes to Ears: L2 visual and audio perception of Spanish vowels</em>.</p>
+<p>Casillas, J. V., G. Constantin-Dureci, I. Andreu Rascón, J. Shao, S. A. Rodríguez, A. Gadamsetty, A. Minetti, K. Laungani, J. Thatcher, R. T. Gardere, et al.&nbsp;<em>Opening open science to all: Demystifying reproducibility and transparency practices in linguistic research</em>.</p>
+<p>Casillas, J. V. <em>Bayesian statistics in Applied Linguistics. The Encyclopedia of Applied Linguistics, 2nd Edition</em>.</p>
+<p>Coretta, S. and J. V. Casillas <em>Generalized Additive Models for bilingual speech data</em>.</p>
+<p>Lozano-Argüelles, C., N. Sagarra, and J. V. Casillas <em>Unraveling the Complexities of L2 Lexical Stress: L1 Transfer, L2 Proficiency, and L2 Exposure</em>.</p>
+<p>Bochynska, A., L. Keeble, C. Halfacre, J. V. Casillas, I. Champagne, K. Chen, M. Röthlisberger, E. M. Buchanan, and T. B. Roettger (2023). “Reproducible research practices and transparency across Linguistics”. In: <em>Glossa Psycholinguistics</em> 2 (1), pp.&nbsp;1-36. DOI: <a href="https://doi.org/10.5070%2FG6011239">10.5070/G6011239</a>.</p>
+<p>Sagarra, N. and J. V. Casillas (2023). “Practice beats age: Co-activation shapes heritage speakers’ lexical access more than age of onset”. In: <em>Frontiers in Psychology</em> 14, pp.&nbsp;1-18. DOI: <a href="https://doi.org/10.3389%2Ffpsyg.2023.1141174">10.3389/fpsyg.2023.1141174</a>.</p>
+<p>Lozano-Argüelles, C., N. Sagarra, and J. V. Casillas (2023). “Interpreting experience and working memory effects on L1 and L2 morphological prediction”. In: <em>Frontiers in Language Sciences</em> 1, pp. 1-16. DOI: <a href="https://doi.org/10.3389%2Fflang.2022.1065014">10.3389/flang.2022.1065014</a>.</p>
+<p>Coretta, S., J. V. Casillas, S. Roessig, M. Franke, B. Ahn, A. H. Al-Hoorie, J. Al-Tamimi, N. E. Alotaibi, M. K. AlShakhori, R. M. Altmiller, et al.&nbsp;(2023). “Multidimensional Signals and Analytic Flexibility: Estimating Degrees of Freedom in Human-Speech Analyses”. In: <em>Advances in Methods and Practices in Psychological Science</em> 6.3, pp.&nbsp;1-29. DOI: <a href="https://doi.org/10.1177%2F25152459231162567">10.1177/25152459231162567</a>.</p>
+<p>Casillas, J. V., J. J. Garrido-Pozú, K. Parrish, L. Fernández Arroyo, N. Rodríguez, R. Esposito, I. Chang, K. Gómez, G. Constantin-Dureci, J. Shao, et al.&nbsp;(2023). “Using intonation to disambiguate meaning: The role of empathy and proficiency in L2 perceptual development”. In: <em>Applied Psycholinguistics</em> 44.5, pp.&nbsp;913-940. DOI: <a href="https://doi.org/10.1017%2FS0142716423000310">10.1017/S0142716423000310</a>.</p>
+<p>Carignan, C., J. V. Casillas, E. Chodroff, and G. Zellou (2022). “Editorial: Fuzzy boundaries: Ambiguity in speech production and comprehension”. In: <em>Frontiers in Communication</em> 7, pp.&nbsp;1-3. DOI: <a href="https://doi.org/10.3389%2Ffcomm.2022.1112753">10.3389/fcomm.2022.1112753</a>.</p>
+<p>Jiménez-Crespo, M. and J. V. Casillas (2021). “Literal is not always easier: Literal and default translation, post-editing effort, and comparable corpora”. In: <em>Translation, Cognition &amp; Behavior</em> 4.1, pp. 98-123. DOI: <a href="https://doi.org/https%3A%2F%2Fdoi.org%2F10.1075%2Ftcb.00048.jim">https://doi.org/10.1075/tcb.00048.jim</a>.</p>
 <p>Casillas, J. V. (2021). “Interlingual Interactions Elicit Performance Mismatches Not ‘Compromise’ Categories in Early Bilinguals: Evidence from Meta-Analysis and Coronal Stops”. In: <em>Languages</em> 6.9, pp.&nbsp;1-20. DOI: <a href="https://doi.org/https%3A%2F%2Fdoi.org%2F10.3390%2Flanguages6010009">https://doi.org/10.3390/languages6010009</a>.</p>
 <p>Lozano-Argüelles, C., L. F. Arroyo, N. Rodríguez, E. Durand, J. J. G. Pozú, J. M. Rojas, J. Varela, N. de Rocafiguera, and J. V. Casillas (2021). “Conceptually cued perceptual categorization in adult L2 learners”. In: <em>Studies in Second Language Acquisition</em> 43.1, pp. 204-219. DOI: <a href="https://doi.org/https%3A%2F%2Fdoi.org%2F10.1017%2FS0272263120000273">https://doi.org/10.1017/S0272263120000273</a>.</p>
 <p>Casillas, J. V. (2020). “The longitudinal development of fine-phonetic detail: Stop production in a domestic immersion program”. In: <em>Language Learning</em> 70.3, pp.&nbsp;768-806. DOI: <a href="https://doi.org/https%3A%2F%2Fdoi.org%2Fhttps%3A%2F%2Fdoi.org%2F10.1111%2Flang.12392">https://doi.org/https://doi.org/10.1111/lang.12392</a>.</p>
@@ -376,22 +397,32 @@ This project was co-authored with Miquel Llompart García. You can read the fina
 </section>
 <section id="under-review" class="level3">
 <h3 class="anchored" data-anchor-id="under-review">Under review</h3>
-<p>Casillas, J. V., N. Rodríguez, L. F. Arroyo, J. J. G. Pozú, K. Parrish, R. Esposito, K. Gómez, and I. Chang <em>Using intonation to disambiguate meaning: The role of empathy and proficiency in L2 perceptual development</em>.</p>
 </section>
 <section id="in-preparation" class="level3">
 <h3 class="anchored" data-anchor-id="in-preparation">In preparation</h3>
+<p>Garrido Pozú, J. J. and J. V. Casillas <em>Assessing language proficiency via vocabulary size</em>.</p>
+<p>Rodríguez, N. and J. V. Casillas <em>A cross-sectional look at the production of lexical stress in Spanish-English early bilingual children</em>.</p>
+<p>Rodríguez, N. and J. V. Casillas <em>The perception of lexical stress in early heritage bilinguals</em>.</p>
+<p>Rodríguez, N. and J. V. Casillas <em>Perceptual gains via instructional games: An examination of perception and production of lexical stress in heritage bilingual children</em>.</p>
 <p>Casillas, J. V., M. Simonet, and A. Aldrich <em>Production of coronal stops in English and Spanish</em>.</p>
 <p>Casillas, J. V. <em>Semantic processing affects L2 stop production in late learners</em>.</p>
 <p>Casillas, J. V. <em>L1/L2 cue-weighting strategies in the perception of lexical stress</em>.</p>
-<p>Sagarra, N. and J. V. Casillas <em>The use of lexical stress and vowel duration for morphological anticipation in L2 learners of Spanish</em>.</p>
-<p>Sagarra, N. and J. V. Casillas <em>The use of stress in lexical access in early and late bilinguals</em>.</p>
 </section>
 </div>
 <div id="tabset-1-4" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-4-tab">
 <section id="refereed-presentations" class="level3">
 <h3 class="anchored" data-anchor-id="refereed-presentations">Refereed Presentations</h3>
+<p>Roettger T., B. and J. V. Casillas (2023). <em>Changing research culture: Toward big team speech science</em>. The 20th International Congress of Phonetic Sciences (ICPhS). Prague Congress Center, Prague, Czech Republic.</p>
+<p>Andreu Rascón, I. and J. V. Casillas (2023). <em>The impact of visual articulation on L2 perception of vowels</em>. Hispanic Linguistics Symposium. Bringham Young University, Provo, UT.</p>
+<p>Garrido-Pozú, J. J. and J. V. Casillas (2022). <em>L2 learners’ intuitions in explicit syllabification of Spanish and English</em>. Hispanic Linguistics Symposium, Online. Arizona State University, Tempe, AZ.</p>
+<p>Sagarra, N. and J. V. Casillas (2022). <em>Language Proficiency And Use Affect Stress-Suffix Connections Differently In Early And Late Bilinguals</em>. Hispanic Linguistics Symposium, Online. Arizona State University, Tempe, AZ.</p>
+<p>Casillas, J. V. (2022). <em>Open Science practices and reproducible research in the classroom: A case study</em>. Linguistic Associaition of Great Britain (LAGB) Annual Meeting. Ulster University, Belfast, Northern Ireland.</p>
+<p>Casillas, J. V. (2022). <em>Forking paths and researchers degrees of freedom: Analytic considerations in perception-production research</em>. The 10th International Symposium on the Acquisition of Second Language Speech (NewSounds). University of Barcelona, Barcelona, Spain.</p>
+<p>Casillas, J. V., J. J. Garrido-Pozú, N. Rodríguez, K. Parrish, L. Fernández Arroyo, R. Esposito, I. Chang, K. Gómez, G. Constantin-Dureci, J. Shao, et al.&nbsp;(2022). <em>Inferring meaning from intonation: The effects of proficiency and empathy on L2 pragmatic skills</em>. Current Approaches to Spanish and Portuguese Second Language Phonology (CASPSLaP), Online. University of Wisconsin-Madison, Madison, WI.</p>
+<p>Casillas, J. V., J. J. Garrido-Pozú, N. Rodríguez, K. Parrish, L. Fernández Arroyo, R. Esposito, I. Chang, and K. Gómez (2021). <em>Using intonation to disambiguate meaning: The role of empathy and proficiency in L2 perceptual development</em>. Hispanic Linguistics Symposium, Online. Wake Forest University, Winston-Salem, NC.</p>
 <p>Sagarra, N. and J. V. Casillas (2021). <em>The effects of prosody, proficiency and working memory on L2 lexical prediction</em>. EuroSLA, Online, Universitat de Barcelona, Spain.</p>
 <p>Lozano-Argüelles, C., N. Sagarra, and J. V. Casillas (2021). <em>The role of working memory during L2 prediction of morphology: Evidence from professional interpreters</em>. 3rd International Symposium on Bilingual and L2 Processing in Adults and Children (ISBPAC 2021), Online.</p>
+<p>Jimémez-Crespo, M. A. and J. V. Casillas (2020). <em>Are ‘literal translations’ always easier to process?: A process-based study of effort based on comparable corpus data</em>. Translation in Transition: Human and Machine Aspects, Online. Kent State University, Kent, OH.</p>
 <p>Rodríguez, N., C. Lozano-Argüelles, L. F. Arroyo, E. Durand, J. J. G. Pozu, J. M. Rojas, J. Varela, N. de Rocafiguera, and J. V. Casillas (2020). <em>If you can believe it you can perceive it: Conceptually cueing the double phonemic boundary effect in late bilinguals</em>. Current Approaches to Spanish and Portuguese Second Language Phonology (CASPSLaP), San José State University, San José, CA.</p>
 <p>Wiseman, A. M., J. V. Casillas, M. Lacorte, and A. C. Lara (2020). <em>How do you pull off all that intercultural stuff at home? Enhancing intercultural development in the L2 classroom in a domestic immersion environment</em>. Workshop on Intercultural Skills Enhancement (WISE) Conference, Wake Forest University, Winston-Salem, NC.</p>
 <p>Lozano-Argüelles, C., L. F. Arroyo, N. Rodríguez, E. Durand, J. J. G. Pozú, J. M. Rojas, J. Varela, N. de Rocafiguera, and J. V. Casillas (2019). <em>Conceptually cued perceptual categorization in late bilinguals</em>. Hispanic Linguistics Symposium, University of Texas at El Paso, El Paso, TX.</p>
@@ -423,6 +454,8 @@ This project was co-authored with Miquel Llompart García. You can read the fina
 </section>
 <section id="unrefereed-presentations" class="level3">
 <h3 class="anchored" data-anchor-id="unrefereed-presentations">Unrefereed Presentations</h3>
+<p>Subina, M., K. Parrish, I. Andreu Rascón, G. Constantin-Dureci, J. Shao, I. Chang, A. Gadamsetty, K. Taveras, and J. V. Casillas (2023). <em>Fostering Open Science in Linguistics</em>. Aresty Undergraduate Research Symposium. Rutgers University, New Brunswick.</p>
+<p>Taveras, K. and J. V. Casillas (2022). <em>The Development of Intonation Perception During Second Language Acquisition: the Role of Empathy and Proficiency</em>. Aresty Undergraduate Research Symposium. Rutgers University, New Brunswick.</p>
 <p>Chang, I., K. Gómez, and J. V. Casillas (2021). <em>Intonation acquisition in adult L2 learners of Spanish</em>. Aresty Undergraduate Research Symposium, Rutgers University, New Brunswick.</p>
 <p>Field, A. and J. V. Casillas (2020). <em>Semantic processing effects on L2 stop production</em>. Aresty Undergraduate Research Symposium, Rutgers University, New Brunswick.</p>
 <p>Casillas, J. V. (2017). <em>Crossing borders? The status and future of Spanish in the U.S.</em>. School of Spanish Round Table, Middlebury College, Middlebury, VT.</p>
@@ -430,16 +463,17 @@ This project was co-authored with Miquel Llompart García. You can read the fina
 </section>
 <section id="poster-presentations" class="level3">
 <h3 class="anchored" data-anchor-id="poster-presentations">Poster presentations</h3>
-<p>Casillas, J. V. (2019). <em>Semantic processing triggers cross-linguistic interference during early phonetic category development</em>. The 19th International Congress of Phonetic Sciences (ICPhS).</p>
-<p>Lozano-Argüelles, C., N. Sagarra, and J. V. Casillas (2018). <em>Anticipación de morfología en hablantes de español como L2</em>. II Congreso para profesionales de la educación bilingüe. Madrid, Spain.</p>
-<p>Sagarra, N. and J. V. Casillas (2018). <em>Prosodic cues facilitate morphological anticipation in monolinguals and bilinguals</em>. International Symposium on Bilingual and L2 Processing in Adults and Children. Universität Braunschweig, Germany.</p>
-<p>Lozano-Argüelles, C., N. Sagarra, and J. V. Casillas (2018). <em>Anticipation in Professional Interpreters: Predicting Morphology</em>. Bridging Attention and Prediction. Universitat de Barcelona, Spain.</p>
+<p>Coretta, S., J. V. Casillas, and T. B. Roettger (2022). <em>Research Management in “Many Analysts” Projects: Lessons From the Many Speech Analyses Project</em>. Edinburgh Open Research Conference (poster presentation). University of Edinburgh, Edinburgh, Scotland.</p>
+<p>Casillas, J. V. (2019). <em>Semantic processing triggers cross-linguistic interference during early phonetic category development</em>. The 19th International Congress of Phonetic Sciences (ICPhS) (poster presentation).</p>
+<p>Lozano-Argüelles, C., N. Sagarra, and J. V. Casillas (2018). <em>Anticipación de morfología en hablantes de español como L2</em>. II Congreso para profesionales de la educación bilingüe (poster presentation). Madrid, Spain.</p>
+<p>Sagarra, N. and J. V. Casillas (2018). <em>Prosodic cues facilitate morphological anticipation in monolinguals and bilinguals</em>. International Symposium on Bilingual and L2 Processing in Adults and Children (poster presentation). Universität Braunschweig, Germany.</p>
+<p>Lozano-Argüelles, C., N. Sagarra, and J. V. Casillas (2018). <em>Anticipation in Professional Interpreters: Predicting Morphology</em>. Bridging Attention and Prediction (poster presentation). Universitat de Barcelona, Spain.</p>
 <p>Sagarra, N., J. V. Casillas, C. Lozano-Argüelles, and N. Rodríguez (2017). <em>Eye-tracking reveals bilinguals use stress to predict morphology</em>. 11th annual Perceptual and Cognitive Science Forum. Rutgers University, New Brunswick.</p>
-<p>Martínez, M. R. and J. V. Casillas (2016). <em>La producción de la vibrante múltiple en los estudiantes de español como lengua heredada y en los estudiantes de español como lengua extranjera</em>. 8th Workshop on Spanish Sociolinguistics. University of Puerto Rico, Río Piedras, PR.</p>
-<p>Casillas, J. V., Y. Díaz, and M. Simonet (2015). <em>Acoustics of Spanish and English coronal stops</em>. Proceedings of the 18th International Congress of Phonetic Sciences. University of Glasgow, Glasgow, Scotland.</p>
-<p>Simonet, M., J. V. Casillas, and Y. Díaz (2014). <em>A contrastive acoustic analysis of dental and alveolar stops in Spanish and English</em>. Hispanic Linguistics Symposium. Purdue University, West Lafayette, IN.</p>
-<p>Simonet, M., J. V. Casillas, and Y. Díaz (2014). <em>The effects of stress/accent on VOT depend on language (English, Spanish), consonant (/d/, /t/) and linguistic experience (monolinguals, bilinguals)</em>. Speech Prosody 7: Social and Linguistic Speech Prosody. Trinity College, Dublin, Ireland.</p>
-<p>Casillas, J. V. and M. Simonet (2013). <em>English-dominant early Spanish/English bilinguals perception of English tense-lax vowel contrasts</em>. PPLC 13: Phonetics, phonology and languages in contact: Contact varieties, multilingualism, and second language learning. Paris, Délégation Générale Wallonie-Bruxelles.</p>
+<p>Martínez, M. R. and J. V. Casillas (2016). <em>La producción de la vibrante múltiple en los estudiantes de español como lengua heredada y en los estudiantes de español como lengua extranjera</em>. 8th Workshop on Spanish Sociolinguistics (poster presentation). University of Puerto Rico, Río Piedras, PR.</p>
+<p>Casillas, J. V., Y. Díaz, and M. Simonet (2015). <em>Acoustics of Spanish and English coronal stops</em>. Proceedings of the 18th International Congress of Phonetic Sciences (poster presentation). University of Glasgow, Glasgow, Scotland.</p>
+<p>Simonet, M., J. V. Casillas, and Y. Díaz (2014). <em>A contrastive acoustic analysis of dental and alveolar stops in Spanish and English</em>. Hispanic Linguistics Symposium (poster presentation). Purdue University, West Lafayette, IN.</p>
+<p>Simonet, M., J. V. Casillas, and Y. Díaz (2014). <em>The effects of stress/accent on VOT depend on language (English, Spanish), consonant (/d/, /t/) and linguistic experience (monolinguals, bilinguals)</em>. Speech Prosody 7: Social and Linguistic Speech Prosody (poster presentation). Trinity College, Dublin, Ireland.</p>
+<p>Casillas, J. V. and M. Simonet (2013). <em>English-dominant early Spanish/English bilinguals perception of English tense-lax vowel contrasts</em>. PPLC 13: Phonetics, phonology and languages in contact: Contact varieties, multilingualism, and second language learning (poster presentation). Paris, Délégation Générale Wallonie-Bruxelles.</p>
 </section>
 </div>
 </div>
@@ -489,6 +523,33 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       } else {
         el.classList.add('notransition');
       }
+    }
+  }
+  const toggleGiscusIfUsed = (isAlternate, darkModeDefault) => {
+    const baseTheme = document.querySelector('#giscus-base-theme')?.value ?? 'light';
+    const alternateTheme = document.querySelector('#giscus-alt-theme')?.value ?? 'dark';
+    let newTheme = '';
+    if(darkModeDefault) {
+      newTheme = isAlternate ? baseTheme : alternateTheme;
+    } else {
+      newTheme = isAlternate ? alternateTheme : baseTheme;
+    }
+    const changeGiscusTheme = () => {
+      // From: https://github.com/giscus/giscus/issues/336
+      const sendMessage = (message) => {
+        const iframe = document.querySelector('iframe.giscus-frame');
+        if (!iframe) return;
+        iframe.contentWindow.postMessage({ giscus: message }, 'https://giscus.app');
+      }
+      sendMessage({
+        setConfig: {
+          theme: newTheme
+        }
+      });
+    }
+    const isGiscussLoaded = window.document.querySelector('iframe.giscus-frame') !== null;
+    if (isGiscussLoaded) {
+      changeGiscusTheme();
     }
   }
   const toggleColorMode = (alternate) => {
@@ -557,13 +618,15 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       return localAlternateSentinel;
     }
   }
-  let localAlternateSentinel = 'default';
+  const darkModeDefault = false;
+  let localAlternateSentinel = darkModeDefault ? 'alternate' : 'default';
   // Dark / light mode switch
   window.quartoToggleColorScheme = () => {
     // Read the current dark / light value 
     let toAlternate = !hasAlternateSentinel();
     toggleColorMode(toAlternate);
     setStyleSentinel(toAlternate);
+    toggleGiscusIfUsed(toAlternate, darkModeDefault);
   };
   // Ensure there is a toggle, if there isn't float one in the top right
   if (window.document.querySelector('.quarto-color-scheme-toggle') === null) {
@@ -642,10 +705,9 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     // clear code selection
     e.clearSelection();
   });
-  function tippyHover(el, contentFn) {
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
     const config = {
       allowHTML: true,
-      content: contentFn,
       maxWidth: 500,
       delay: 100,
       arrow: false,
@@ -655,8 +717,17 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       interactive: true,
       interactiveBorder: 10,
       theme: 'quarto',
-      placement: 'bottom-start'
+      placement: 'bottom-start',
     };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
     window.tippy(el, config); 
   }
   const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
@@ -669,6 +740,125 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       const id = href.replace(/^#\/?/, "");
       const note = window.document.getElementById(id);
       return note.innerHTML;
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      // TODO in 1.5, we should make sure this works without a callout special case
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
     });
   }
       let selectedAnnoteEl;
@@ -712,6 +902,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
             }
             div.style.top = top - 2 + "px";
             div.style.height = height + 4 + "px";
+            div.style.left = 0;
             let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
             if (gutterDiv === null) {
               gutterDiv = window.document.createElement("div");
@@ -737,6 +928,32 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
         });
         selectedAnnoteEl = undefined;
       };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
       // Attach click handler to the DT
       const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
       for (const annoteDlNode of annoteDls) {
@@ -814,6 +1031,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     </div>
   </div>
 </footer>
+
 
 
 
