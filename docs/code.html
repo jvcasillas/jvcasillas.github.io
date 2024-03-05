@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.3.299">
+<meta name="generator" content="quarto-1.4.550">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -51,7 +51,13 @@ ul.task-list li input[type="checkbox"] {
   "collapse-after": 3,
   "panel-placement": "end",
   "type": "overlay",
-  "limit": 20,
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
   "language": {
     "search-no-results-text": "No results",
     "search-matching-documents-text": "matching documents",
@@ -60,8 +66,10 @@ ul.task-list li input[type="checkbox"] {
     "search-more-match-text": "more match in this document",
     "search-more-matches-text": "more matches in this document",
     "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
     "search-detached-cancel-button-title": "Cancel",
-    "search-submit-button-title": "Submit"
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
   }
 }</script>
 <script>
@@ -111,10 +119,37 @@ ga('send', {
   <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
   <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
 <meta property="og:title" content="JVC - Code">
 <meta property="og:description" content="A collection of packages, shiny apps, and other things.">
 <meta property="og:image" content="https://www.jvcasillas.com/code/shiny_bivariate_regression/featured.png">
-<meta property="og:site-name" content="JVC">
+<meta property="og:site_name" content="JVC">
 <meta property="og:image:height" content="683">
 <meta property="og:image:width" content="2332">
 <meta name="twitter:title" content="JVC - Code">
@@ -128,10 +163,10 @@ ga('send', {
 <body class="nav-fixed">
 
 <div id="quarto-search-results"></div>
-  <header id="quarto-header" class="headroom fixed-top">
-    <nav class="navbar navbar-expand-lg navbar-dark ">
+  <header id="quarto-header" class="headroom fixed-top quarto-banner">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
-      <div class="navbar-brand-container">
+      <div class="navbar-brand-container mx-auto">
     <a class="navbar-brand" href="./index.html">
     <span class="navbar-title">JVC</span>
     </a>
@@ -143,47 +178,47 @@ ga('send', {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./about.html" rel="" target="">
- <span class="menu-text">About</span></a>
+    <a class="nav-link" href="./about.html"> 
+<span class="menu-text">About</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./research.html" rel="" target="">
- <span class="menu-text">Research</span></a>
+    <a class="nav-link" href="./research.html"> 
+<span class="menu-text">Research</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./code.html" rel="" target="" aria-current="page">
- <span class="menu-text">Code</span></a>
+    <a class="nav-link active" href="./code.html" aria-current="page"> 
+<span class="menu-text">Code</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./teaching.html" rel="" target="">
- <span class="menu-text">Teaching</span></a>
+    <a class="nav-link" href="./teaching.html"> 
+<span class="menu-text">Teaching</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./blog.html" rel="" target="">
- <span class="menu-text">Posts</span></a>
+    <a class="nav-link" href="./blog.html"> 
+<span class="menu-text">Posts</span></a>
   </li>  
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item compact">
-    <a class="nav-link" href="https://github.com/jvcasillas" rel="" target=""><i class="bi bi-github" role="img">
+    <a class="nav-link" href="https://github.com/jvcasillas"> <i class="bi bi-github" role="img">
 </i> 
- <span class="menu-text"></span></a>
+<span class="menu-text"></span></a>
   </li>  
   <li class="nav-item compact">
-    <a class="nav-link" href="https://twitter.com/jvcasill" rel="" target=""><i class="bi bi-twitter" role="img">
+    <a class="nav-link" href="https://twitter.com/jvcasill"> <i class="bi bi-twitter" role="img">
 </i> 
- <span class="menu-text"></span></a>
+<span class="menu-text"></span></a>
   </li>  
   <li class="nav-item compact">
-    <a class="nav-link" href="./blog.xml" rel="" target=""><i class="bi bi-rss" role="img">
+    <a class="nav-link" href="./blog.xml"> <i class="bi bi-rss" role="img">
 </i> 
- <span class="menu-text"></span></a>
+<span class="menu-text"></span></a>
   </li>  
 </ul>
-            <div class="quarto-navbar-tools">
+          </div> <!-- /navcollapse -->
+          <div class="quarto-navbar-tools">
   <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
 </div>
-          </div> <!-- /navcollapse -->
       </div> <!-- /container-fluid -->
     </nav>
 </header>
@@ -201,7 +236,7 @@ ga('send', {
   </div>
     
   
-  <div class="quarto-title-meta">
+  <div class="quarto-title-meta column-page-left">
 
       
     
@@ -225,21 +260,22 @@ ga('send', {
 
 
 
+
 <div class="quarto-listing quarto-listing-container-default" id="listing-listing">
 <div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-categories="r,statistics,programming,linguistics" data-listing-date-sort="1522987200000" data-listing-file-modified-sort="1681025140152" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<div class="quarto-post image-right" data-index="0" data-categories="r,statistics,programming,linguistics" data-listing-date-sort="1522987200000" data-listing-file-modified-sort="1681025140152" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="6">
 <div class="thumbnail">
-<p><a href="./code/r_academicwriter/index.html"> <img src="./code/r_academicwriter/academicWriteR.png" class="thumbnail-image"> </a></p>
+<p><a href="./code/r_academicwriter/index.html" class="no-external"></a></p><a href="./code/r_academicwriter/index.html" class="no-external">
+<p><img src="./code/r_academicwriter/academicWriteR.png" class="thumbnail-image"></p>
+</a><p><a href="./code/r_academicwriter/index.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="./code/r_academicwriter/index.html">
 <h3 class="no-anchor listing-title">
-academicWriteR
+<a href="./code/r_academicwriter/index.html" class="no-external">academicWriteR</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="./code/r_academicwriter/index.html" class="no-external"></a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('r'); return false;">
 r
@@ -254,14 +290,12 @@ programming
 linguistics
 </div>
 </div>
-<a href="./code/r_academicwriter/index.html">
 <div class="listing-description">
-<p>An R package of helper functions that are useful for writing academic reports/manuscripts.</p>
+<a href="./code/r_academicwriter/index.html" class="no-external">An R package of helper functions that are useful for writing academic reports/manuscripts. </a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./code/r_academicwriter/index.html">
+<a href="./code/r_academicwriter/index.html" class="no-external">
 <div class="listing-date">
 Apr 6, 2018
 </div>
@@ -271,19 +305,19 @@ Joseph V. Casillas
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="1" data-categories="r,statistics,programming,linguistics" data-listing-date-sort="1522987200000" data-listing-file-modified-sort="1681025140152" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<div class="quarto-post image-right" data-index="1" data-categories="r,statistics,programming,linguistics" data-listing-date-sort="1522987200000" data-listing-file-modified-sort="1681025140152" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="55">
 <div class="thumbnail">
-<p><a href="./code/r_contributor/index.html"> <p class="card-img-top"><img src="code/r_contributor/index_files/figure-html/contirbutor-ex-1.png"  class="thumbnail-image card-img"/></p> </a></p>
+<p><a href="./code/r_contributor/index.html" class="no-external"></a></p><a href="./code/r_contributor/index.html" class="no-external">
+<p class="card-img-top"><img src="code/r_contributor/index_files/figure-html/contirbutor-ex-1.png"  class="thumbnail-image card-img"/></p>
+</a><p><a href="./code/r_contributor/index.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="./code/r_contributor/index.html">
 <h3 class="no-anchor listing-title">
-contributoR
+<a href="./code/r_contributor/index.html" class="no-external">contributoR</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="./code/r_contributor/index.html" class="no-external"></a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('r'); return false;">
 r
@@ -298,14 +332,12 @@ programming
 linguistics
 </div>
 </div>
-<a href="./code/r_contributor/index.html">
 <div class="listing-description">
-<p>An R package for documenting scholarly contributions.</p>
+<a href="./code/r_contributor/index.html" class="no-external">An R package for documenting scholarly contributions. </a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./code/r_contributor/index.html">
+<a href="./code/r_contributor/index.html" class="no-external">
 <div class="listing-date">
 Apr 6, 2018
 </div>
@@ -315,19 +347,19 @@ Joseph V. Casillas
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="2" data-categories="r,statistics,programming,linguistics,teaching" data-listing-date-sort="1522987200000" data-listing-file-modified-sort="1681025140157" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<div class="quarto-post image-right" data-index="2" data-categories="r,statistics,programming,linguistics,teaching" data-listing-date-sort="1522987200000" data-listing-file-modified-sort="1681025140157" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="6">
 <div class="thumbnail">
-<p><a href="./code/r_ds4ling/index.html"> <img src="./code/r_ds4ling/ds4ling.png" class="thumbnail-image"> </a></p>
+<p><a href="./code/r_ds4ling/index.html" class="no-external"></a></p><a href="./code/r_ds4ling/index.html" class="no-external">
+<p><img src="./code/r_ds4ling/ds4ling.png" class="thumbnail-image"></p>
+</a><p><a href="./code/r_ds4ling/index.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="./code/r_ds4ling/index.html">
 <h3 class="no-anchor listing-title">
-ds4ling
+<a href="./code/r_ds4ling/index.html" class="no-external">ds4ling</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="./code/r_ds4ling/index.html" class="no-external"></a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('r'); return false;">
 r
@@ -345,14 +377,12 @@ linguistics
 teaching
 </div>
 </div>
-<a href="./code/r_ds4ling/index.html">
 <div class="listing-description">
-<p>An R package of datasets and functions made to complement the ds4ling course.</p>
+<a href="./code/r_ds4ling/index.html" class="no-external">An R package of datasets and functions made to complement the ds4ling course. </a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./code/r_ds4ling/index.html">
+<a href="./code/r_ds4ling/index.html" class="no-external">
 <div class="listing-date">
 Apr 6, 2018
 </div>
@@ -362,19 +392,19 @@ Joseph V. Casillas
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="3" data-categories="r,statistics,programming,linguistics" data-listing-date-sort="1522987200000" data-listing-file-modified-sort="1681025140157" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<div class="quarto-post image-right" data-index="3" data-categories="r,statistics,programming,linguistics" data-listing-date-sort="1522987200000" data-listing-file-modified-sort="1681025140157" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="6">
 <div class="thumbnail">
-<p><a href="./code/r_lingstuff/index.html"> <img src="./code/r_lingstuff/lingStuff.png" class="thumbnail-image"> </a></p>
+<p><a href="./code/r_lingstuff/index.html" class="no-external"></a></p><a href="./code/r_lingstuff/index.html" class="no-external">
+<p><img src="./code/r_lingstuff/lingStuff.png" class="thumbnail-image"></p>
+</a><p><a href="./code/r_lingstuff/index.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="./code/r_lingstuff/index.html">
 <h3 class="no-anchor listing-title">
-lingStuff
+<a href="./code/r_lingstuff/index.html" class="no-external">lingStuff</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="./code/r_lingstuff/index.html" class="no-external"></a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('r'); return false;">
 r
@@ -389,14 +419,12 @@ programming
 linguistics
 </div>
 </div>
-<a href="./code/r_lingstuff/index.html">
 <div class="listing-description">
-<p>An R package with handy functions I use in my linguistic research.</p>
+<a href="./code/r_lingstuff/index.html" class="no-external">An R package with handy functions I use in my linguistic research. </a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./code/r_lingstuff/index.html">
+<a href="./code/r_lingstuff/index.html" class="no-external">
 <div class="listing-date">
 Apr 6, 2018
 </div>
@@ -406,19 +434,19 @@ Joseph V. Casillas
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="4" data-categories="r,statistics,programming,linguistics" data-listing-date-sort="1522987200000" data-listing-file-modified-sort="1681025140157" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<div class="quarto-post image-right" data-index="4" data-categories="r,statistics,programming,linguistics" data-listing-date-sort="1522987200000" data-listing-file-modified-sort="1681025140157" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="6">
 <div class="thumbnail">
-<p><a href="./code/r_untidydata/index.html"> <img src="./code/r_untidydata/untidydata.png" class="thumbnail-image"> </a></p>
+<p><a href="./code/r_untidydata/index.html" class="no-external"></a></p><a href="./code/r_untidydata/index.html" class="no-external">
+<p><img src="./code/r_untidydata/untidydata.png" class="thumbnail-image"></p>
+</a><p><a href="./code/r_untidydata/index.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="./code/r_untidydata/index.html">
 <h3 class="no-anchor listing-title">
-untidydata
+<a href="./code/r_untidydata/index.html" class="no-external">untidydata</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="./code/r_untidydata/index.html" class="no-external"></a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('r'); return false;">
 r
@@ -433,14 +461,12 @@ programming
 linguistics
 </div>
 </div>
-<a href="./code/r_untidydata/index.html">
 <div class="listing-description">
-<p>An R package of untidy datasets made for the purpose of teaching the tidyverse.</p>
+<a href="./code/r_untidydata/index.html" class="no-external">An R package of untidy datasets made for the purpose of teaching the tidyverse. </a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./code/r_untidydata/index.html">
+<a href="./code/r_untidydata/index.html" class="no-external">
 <div class="listing-date">
 Apr 6, 2018
 </div>
@@ -450,19 +476,19 @@ Joseph V. Casillas
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="5" data-categories="r,statistics,shiny,teaching,programming" data-listing-date-sort="1522987200000" data-listing-file-modified-sort="1681025140159" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<div class="quarto-post image-right" data-index="5" data-categories="r,statistics,shiny,teaching,programming" data-listing-date-sort="1522987200000" data-listing-file-modified-sort="1681025140159" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="6">
 <div class="thumbnail">
-<p><a href="./code/shiny_bivariate_regression/index.html"> <img src="./code/shiny_bivariate_regression/featured.png" class="thumbnail-image"> </a></p>
+<p><a href="./code/shiny_bivariate_regression/index.html" class="no-external"></a></p><a href="./code/shiny_bivariate_regression/index.html" class="no-external">
+<p><img src="./code/shiny_bivariate_regression/featured.png" class="thumbnail-image"></p>
+</a><p><a href="./code/shiny_bivariate_regression/index.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="./code/shiny_bivariate_regression/index.html">
 <h3 class="no-anchor listing-title">
-Bivariate linear regression
+<a href="./code/shiny_bivariate_regression/index.html" class="no-external">Bivariate linear regression</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="./code/shiny_bivariate_regression/index.html" class="no-external"></a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('r'); return false;">
 r
@@ -480,14 +506,12 @@ teaching
 programming
 </div>
 </div>
-<a href="./code/shiny_bivariate_regression/index.html">
 <div class="listing-description">
-<p>A shiny web app built in R for teaching the linear model.</p>
+<a href="./code/shiny_bivariate_regression/index.html" class="no-external">A shiny web app built in R for teaching the linear model. </a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./code/shiny_bivariate_regression/index.html">
+<a href="./code/shiny_bivariate_regression/index.html" class="no-external">
 <div class="listing-date">
 Apr 6, 2018
 </div>
@@ -497,19 +521,19 @@ Joseph V. Casillas
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="6" data-categories="r,statistics,shiny,teaching,programming" data-listing-date-sort="1522987200000" data-listing-file-modified-sort="1681025140159" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<div class="quarto-post image-right" data-index="6" data-categories="r,statistics,shiny,teaching,programming" data-listing-date-sort="1522987200000" data-listing-file-modified-sort="1681025140159" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="6">
 <div class="thumbnail">
-<p><a href="./code/shiny_clt/index.html"> <img src="./code/shiny_clt/featured.png" class="thumbnail-image"> </a></p>
+<p><a href="./code/shiny_clt/index.html" class="no-external"></a></p><a href="./code/shiny_clt/index.html" class="no-external">
+<p><img src="./code/shiny_clt/featured.png" class="thumbnail-image"></p>
+</a><p><a href="./code/shiny_clt/index.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="./code/shiny_clt/index.html">
 <h3 class="no-anchor listing-title">
-Central limit theorem
+<a href="./code/shiny_clt/index.html" class="no-external">Central limit theorem</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="./code/shiny_clt/index.html" class="no-external"></a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('r'); return false;">
 r
@@ -527,14 +551,12 @@ teaching
 programming
 </div>
 </div>
-<a href="./code/shiny_clt/index.html">
 <div class="listing-description">
-<p>A shiny web app built in R for teaching the central limit theorem.</p>
+<a href="./code/shiny_clt/index.html" class="no-external">A shiny web app built in R for teaching the central limit theorem. </a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./code/shiny_clt/index.html">
+<a href="./code/shiny_clt/index.html" class="no-external">
 <div class="listing-date">
 Apr 6, 2018
 </div>
@@ -544,19 +566,19 @@ Joseph V. Casillas
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="7" data-categories="r,statistics,shiny,teaching,programming" data-listing-date-sort="1522987200000" data-listing-file-modified-sort="1681025140160" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<div class="quarto-post image-right" data-index="7" data-categories="r,statistics,shiny,teaching,programming" data-listing-date-sort="1522987200000" data-listing-file-modified-sort="1681025140160" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="7">
 <div class="thumbnail">
-<p><a href="./code/shiny_crossover/index.html"> <img src="./code/shiny_crossover/featured.png" class="thumbnail-image"> </a></p>
+<p><a href="./code/shiny_crossover/index.html" class="no-external"></a></p><a href="./code/shiny_crossover/index.html" class="no-external">
+<p><img src="./code/shiny_crossover/featured.png" class="thumbnail-image"></p>
+</a><p><a href="./code/shiny_crossover/index.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="./code/shiny_crossover/index.html">
 <h3 class="no-anchor listing-title">
-Crossover
+<a href="./code/shiny_crossover/index.html" class="no-external">Crossover</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="./code/shiny_crossover/index.html" class="no-external"></a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('r'); return false;">
 r
@@ -574,14 +596,12 @@ teaching
 programming
 </div>
 </div>
-<a href="./code/shiny_crossover/index.html">
 <div class="listing-description">
-<p>A shiny web app built in R for calculating boundary crossover points in logistic regression.</p>
+<a href="./code/shiny_crossover/index.html" class="no-external">A shiny web app built in R for calculating boundary crossover points in logistic regression. </a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./code/shiny_crossover/index.html">
+<a href="./code/shiny_crossover/index.html" class="no-external">
 <div class="listing-date">
 Apr 6, 2018
 </div>
@@ -591,19 +611,19 @@ Joseph V. Casillas
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="8" data-categories="r,shiny,teaching,programming,spanish,phonology" data-listing-date-sort="1522987200000" data-listing-file-modified-sort="1681025140161" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<div class="quarto-post image-right" data-index="8" data-categories="r,shiny,teaching,programming,spanish,phonology" data-listing-date-sort="1522987200000" data-listing-file-modified-sort="1681025140161" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="7">
 <div class="thumbnail">
-<p><a href="./code/shiny_distinctive_features/index.html"> <img src="./code/shiny_distinctive_features/featured.png" class="thumbnail-image"> </a></p>
+<p><a href="./code/shiny_distinctive_features/index.html" class="no-external"></a></p><a href="./code/shiny_distinctive_features/index.html" class="no-external">
+<p><img src="./code/shiny_distinctive_features/featured.png" class="thumbnail-image"></p>
+</a><p><a href="./code/shiny_distinctive_features/index.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="./code/shiny_distinctive_features/index.html">
 <h3 class="no-anchor listing-title">
-Spanish allophones and distinctive features
+<a href="./code/shiny_distinctive_features/index.html" class="no-external">Spanish allophones and distinctive features</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="./code/shiny_distinctive_features/index.html" class="no-external"></a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('r'); return false;">
 r
@@ -624,14 +644,12 @@ spanish
 phonology
 </div>
 </div>
-<a href="./code/shiny_distinctive_features/index.html">
 <div class="listing-description">
-<p>A shiny web app built in R for teaching the distinctive features of Spanish speech sounds.</p>
+<a href="./code/shiny_distinctive_features/index.html" class="no-external">A shiny web app built in R for teaching the distinctive features of Spanish speech sounds. </a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./code/shiny_distinctive_features/index.html">
+<a href="./code/shiny_distinctive_features/index.html" class="no-external">
 <div class="listing-date">
 Apr 6, 2018
 </div>
@@ -641,19 +659,19 @@ Joseph V. Casillas
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="9" data-categories="r,shiny,teaching,programming,statistics" data-listing-date-sort="1522987200000" data-listing-file-modified-sort="1681025140162" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<div class="quarto-post image-right" data-index="9" data-categories="r,shiny,teaching,programming,statistics" data-listing-date-sort="1522987200000" data-listing-file-modified-sort="1681025140162" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="7">
 <div class="thumbnail">
-<p><a href="./code/shiny_glm/index.html"> <img src="./code/shiny_glm/featured.png" class="thumbnail-image"> </a></p>
+<p><a href="./code/shiny_glm/index.html" class="no-external"></a></p><a href="./code/shiny_glm/index.html" class="no-external">
+<p><img src="./code/shiny_glm/featured.png" class="thumbnail-image"></p>
+</a><p><a href="./code/shiny_glm/index.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="./code/shiny_glm/index.html">
 <h3 class="no-anchor listing-title">
-Generalized linear model
+<a href="./code/shiny_glm/index.html" class="no-external">Generalized linear model</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="./code/shiny_glm/index.html" class="no-external"></a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('r'); return false;">
 r
@@ -671,14 +689,12 @@ programming
 statistics
 </div>
 </div>
-<a href="./code/shiny_glm/index.html">
 <div class="listing-description">
-<p>A shiny web app built in R for teaching the generalized linear model.</p>
+<a href="./code/shiny_glm/index.html" class="no-external">A shiny web app built in R for teaching the generalized linear model. </a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./code/shiny_glm/index.html">
+<a href="./code/shiny_glm/index.html" class="no-external">
 <div class="listing-date">
 Apr 6, 2018
 </div>
@@ -688,19 +704,19 @@ Joseph V. Casillas
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="10" data-categories="r,shiny,teaching,programming,statistics" data-listing-date-sort="1522987200000" data-listing-file-modified-sort="1681025140163" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<div class="quarto-post image-right" data-index="10" data-categories="r,shiny,teaching,programming,statistics" data-listing-date-sort="1522987200000" data-listing-file-modified-sort="1681025140163" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="7">
 <div class="thumbnail">
-<p><a href="./code/shiny_power_ss/index.html"> <img src="./code/shiny_power_ss/featured.png" class="thumbnail-image"> </a></p>
+<p><a href="./code/shiny_power_ss/index.html" class="no-external"></a></p><a href="./code/shiny_power_ss/index.html" class="no-external">
+<p><img src="./code/shiny_power_ss/featured.png" class="thumbnail-image"></p>
+</a><p><a href="./code/shiny_power_ss/index.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="./code/shiny_power_ss/index.html">
 <h3 class="no-anchor listing-title">
-Power/Sample size calculator
+<a href="./code/shiny_power_ss/index.html" class="no-external">Power/Sample size calculator</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="./code/shiny_power_ss/index.html" class="no-external"></a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('r'); return false;">
 r
@@ -718,14 +734,12 @@ programming
 statistics
 </div>
 </div>
-<a href="./code/shiny_power_ss/index.html">
 <div class="listing-description">
-<p>A shiny web app built in R for teaching statistical power and sample sizes.</p>
+<a href="./code/shiny_power_ss/index.html" class="no-external">A shiny web app built in R for teaching statistical power and sample sizes. </a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./code/shiny_power_ss/index.html">
+<a href="./code/shiny_power_ss/index.html" class="no-external">
 <div class="listing-date">
 Apr 6, 2018
 </div>
@@ -735,19 +749,19 @@ Joseph V. Casillas
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="11" data-categories="r,shiny,teaching,programming" data-listing-date-sort="1522987200000" data-listing-file-modified-sort="1681025140164" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<div class="quarto-post image-right" data-index="11" data-categories="r,shiny,teaching,programming" data-listing-date-sort="1522987200000" data-listing-file-modified-sort="1681025140164" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="7">
 <div class="thumbnail">
-<p><a href="./code/shiny_r4linguists/index.html"> <img src="./code/shiny_r4linguists/featured.png" class="thumbnail-image"> </a></p>
+<p><a href="./code/shiny_r4linguists/index.html" class="no-external"></a></p><a href="./code/shiny_r4linguists/index.html" class="no-external">
+<p><img src="./code/shiny_r4linguists/featured.png" class="thumbnail-image"></p>
+</a><p><a href="./code/shiny_r4linguists/index.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="./code/shiny_r4linguists/index.html">
 <h3 class="no-anchor listing-title">
-R for linguists
+<a href="./code/shiny_r4linguists/index.html" class="no-external">R for linguists</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="./code/shiny_r4linguists/index.html" class="no-external"></a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('r'); return false;">
 r
@@ -762,14 +776,12 @@ teaching
 programming
 </div>
 </div>
-<a href="./code/shiny_r4linguists/index.html">
 <div class="listing-description">
-<p>A shiny web app built in R for teaching R using the tidyverse.</p>
+<a href="./code/shiny_r4linguists/index.html" class="no-external">A shiny web app built in R for teaching R using the tidyverse. </a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./code/shiny_r4linguists/index.html">
+<a href="./code/shiny_r4linguists/index.html" class="no-external">
 <div class="listing-date">
 Apr 6, 2018
 </div>
@@ -779,19 +791,19 @@ Joseph V. Casillas
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="12" data-categories="teaching,programming,ipa,latex,sublimtext" data-listing-date-sort="1522987200000" data-listing-file-modified-sort="1681025140164" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2">
+<div class="quarto-post image-right" data-index="12" data-categories="teaching,programming,ipa,latex,sublimtext" data-listing-date-sort="1522987200000" data-listing-file-modified-sort="1681025140164" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="201">
 <div class="thumbnail">
-<p><a href="./code/snippets_latex_ipa/index.html"> <img src="./code/snippets_latex_ipa/featured.png" class="thumbnail-image"> </a></p>
+<p><a href="./code/snippets_latex_ipa/index.html" class="no-external"></a></p><a href="./code/snippets_latex_ipa/index.html" class="no-external">
+<p><img src="./code/snippets_latex_ipa/featured.png" class="thumbnail-image"></p>
+</a><p><a href="./code/snippets_latex_ipa/index.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="./code/snippets_latex_ipa/index.html">
 <h3 class="no-anchor listing-title">
-LaTeX IPA
+<a href="./code/snippets_latex_ipa/index.html" class="no-external">LaTeX IPA</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="./code/snippets_latex_ipa/index.html" class="no-external"></a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('teaching'); return false;">
 teaching
@@ -809,14 +821,12 @@ latex
 sublimtext
 </div>
 </div>
-<a href="./code/snippets_latex_ipa/index.html">
 <div class="listing-description">
-<p>A collection of snippets for SublimeText that simplify the process of using IPA in LaTeX.</p>
+<a href="./code/snippets_latex_ipa/index.html" class="no-external">A collection of snippets for SublimeText that simplify the process of using IPA in LaTeX. </a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./code/snippets_latex_ipa/index.html">
+<a href="./code/snippets_latex_ipa/index.html" class="no-external">
 <div class="listing-date">
 Apr 6, 2018
 </div>
@@ -826,19 +836,19 @@ Joseph V. Casillas
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="13" data-categories="teaching,programming,r,workflow,sublimtext" data-listing-date-sort="1522987200000" data-listing-file-modified-sort="1681025140165" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<div class="quarto-post image-right" data-index="13" data-categories="teaching,programming,r,workflow,sublimtext" data-listing-date-sort="1522987200000" data-listing-file-modified-sort="1681025140165" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="195">
 <div class="thumbnail">
-<p><a href="./code/snippets_rsnippets/index.html"> <img src="./code/snippets_rsnippets/featured.png" class="thumbnail-image"> </a></p>
+<p><a href="./code/snippets_rsnippets/index.html" class="no-external"></a></p><a href="./code/snippets_rsnippets/index.html" class="no-external">
+<p><img src="./code/snippets_rsnippets/featured.png" class="thumbnail-image"></p>
+</a><p><a href="./code/snippets_rsnippets/index.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="./code/snippets_rsnippets/index.html">
 <h3 class="no-anchor listing-title">
-R-Snippets
+<a href="./code/snippets_rsnippets/index.html" class="no-external">R-Snippets</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="./code/snippets_rsnippets/index.html" class="no-external"></a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('teaching'); return false;">
 teaching
@@ -856,14 +866,12 @@ workflow
 sublimtext
 </div>
 </div>
-<a href="./code/snippets_rsnippets/index.html">
 <div class="listing-description">
-<p>A collection of snippets for SublimeText that facilitate doing statistical analysis in R.</p>
+<a href="./code/snippets_rsnippets/index.html" class="no-external">A collection of snippets for SublimeText that facilitate doing statistical analysis in R. </a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./code/snippets_rsnippets/index.html">
+<a href="./code/snippets_rsnippets/index.html" class="no-external">
 <div class="listing-date">
 Apr 6, 2018
 </div>
@@ -919,6 +927,33 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       } else {
         el.classList.add('notransition');
       }
+    }
+  }
+  const toggleGiscusIfUsed = (isAlternate, darkModeDefault) => {
+    const baseTheme = document.querySelector('#giscus-base-theme')?.value ?? 'light';
+    const alternateTheme = document.querySelector('#giscus-alt-theme')?.value ?? 'dark';
+    let newTheme = '';
+    if(darkModeDefault) {
+      newTheme = isAlternate ? baseTheme : alternateTheme;
+    } else {
+      newTheme = isAlternate ? alternateTheme : baseTheme;
+    }
+    const changeGiscusTheme = () => {
+      // From: https://github.com/giscus/giscus/issues/336
+      const sendMessage = (message) => {
+        const iframe = document.querySelector('iframe.giscus-frame');
+        if (!iframe) return;
+        iframe.contentWindow.postMessage({ giscus: message }, 'https://giscus.app');
+      }
+      sendMessage({
+        setConfig: {
+          theme: newTheme
+        }
+      });
+    }
+    const isGiscussLoaded = window.document.querySelector('iframe.giscus-frame') !== null;
+    if (isGiscussLoaded) {
+      changeGiscusTheme();
     }
   }
   const toggleColorMode = (alternate) => {
@@ -987,13 +1022,15 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       return localAlternateSentinel;
     }
   }
-  let localAlternateSentinel = 'default';
+  const darkModeDefault = false;
+  let localAlternateSentinel = darkModeDefault ? 'alternate' : 'default';
   // Dark / light mode switch
   window.quartoToggleColorScheme = () => {
     // Read the current dark / light value 
     let toAlternate = !hasAlternateSentinel();
     toggleColorMode(toAlternate);
     setStyleSentinel(toAlternate);
+    toggleGiscusIfUsed(toAlternate, darkModeDefault);
   };
   // Ensure there is a toggle, if there isn't float one in the top right
   if (window.document.querySelector('.quarto-color-scheme-toggle') === null) {
@@ -1072,10 +1109,9 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     // clear code selection
     e.clearSelection();
   });
-  function tippyHover(el, contentFn) {
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
     const config = {
       allowHTML: true,
-      content: contentFn,
       maxWidth: 500,
       delay: 100,
       arrow: false,
@@ -1085,8 +1121,17 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       interactive: true,
       interactiveBorder: 10,
       theme: 'quarto',
-      placement: 'bottom-start'
+      placement: 'bottom-start',
     };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
     window.tippy(el, config); 
   }
   const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
@@ -1099,6 +1144,125 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       const id = href.replace(/^#\/?/, "");
       const note = window.document.getElementById(id);
       return note.innerHTML;
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      // TODO in 1.5, we should make sure this works without a callout special case
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
     });
   }
       let selectedAnnoteEl;
@@ -1142,6 +1306,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
             }
             div.style.top = top - 2 + "px";
             div.style.height = height + 4 + "px";
+            div.style.left = 0;
             let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
             if (gutterDiv === null) {
               gutterDiv = window.document.createElement("div");
@@ -1167,6 +1332,32 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
         });
         selectedAnnoteEl = undefined;
       };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
       // Attach click handler to the DT
       const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
       for (const annoteDlNode of annoteDls) {
@@ -1235,7 +1426,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     <div class="nav-footer-center">
       <ul class="footer-items list-unstyled">
     <li class="nav-item">
- © Copyright 2023
+ © Copyright 2024
   </li>  
 </ul>
     </div>
@@ -1244,6 +1435,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     </div>
   </div>
 </footer>
+
 
 
 
