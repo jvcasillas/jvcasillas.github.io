@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.3.299">
+<meta name="generator" content="quarto-1.4.550">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -51,7 +51,13 @@ ul.task-list li input[type="checkbox"] {
   "collapse-after": 3,
   "panel-placement": "end",
   "type": "overlay",
-  "limit": 20,
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
   "language": {
     "search-no-results-text": "No results",
     "search-matching-documents-text": "matching documents",
@@ -60,8 +66,10 @@ ul.task-list li input[type="checkbox"] {
     "search-more-match-text": "more match in this document",
     "search-more-matches-text": "more matches in this document",
     "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
     "search-detached-cancel-button-title": "Cancel",
-    "search-submit-button-title": "Submit"
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
   }
 }</script>
 <script>
@@ -111,10 +119,37 @@ ga('send', {
   <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
   <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
 <meta property="og:title" content="JVC - Blog posts">
 <meta property="og:description" content="Occassionaly I like to write about research related topics.">
 <meta property="og:image" content="https://www.jvcasillas.com/posts/2015-04-20_plotting_in_r/featured.png">
-<meta property="og:site-name" content="JVC">
+<meta property="og:site_name" content="JVC">
 <meta property="og:image:height" content="348">
 <meta property="og:image:width" content="469">
 <meta name="twitter:title" content="JVC - Blog posts">
@@ -128,10 +163,10 @@ ga('send', {
 <body class="nav-fixed">
 
 <div id="quarto-search-results"></div>
-  <header id="quarto-header" class="headroom fixed-top">
-    <nav class="navbar navbar-expand-lg navbar-dark ">
+  <header id="quarto-header" class="headroom fixed-top quarto-banner">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
-      <div class="navbar-brand-container">
+      <div class="navbar-brand-container mx-auto">
     <a class="navbar-brand" href="./index.html">
     <span class="navbar-title">JVC</span>
     </a>
@@ -143,47 +178,47 @@ ga('send', {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./about.html" rel="" target="">
- <span class="menu-text">About</span></a>
+    <a class="nav-link" href="./about.html"> 
+<span class="menu-text">About</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./research.html" rel="" target="">
- <span class="menu-text">Research</span></a>
+    <a class="nav-link" href="./research.html"> 
+<span class="menu-text">Research</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./code.html" rel="" target="">
- <span class="menu-text">Code</span></a>
+    <a class="nav-link" href="./code.html"> 
+<span class="menu-text">Code</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./teaching.html" rel="" target="">
- <span class="menu-text">Teaching</span></a>
+    <a class="nav-link" href="./teaching.html"> 
+<span class="menu-text">Teaching</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./blog.html" rel="" target="" aria-current="page">
- <span class="menu-text">Posts</span></a>
+    <a class="nav-link active" href="./blog.html" aria-current="page"> 
+<span class="menu-text">Posts</span></a>
   </li>  
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item compact">
-    <a class="nav-link" href="https://github.com/jvcasillas" rel="" target=""><i class="bi bi-github" role="img">
+    <a class="nav-link" href="https://github.com/jvcasillas"> <i class="bi bi-github" role="img">
 </i> 
- <span class="menu-text"></span></a>
+<span class="menu-text"></span></a>
   </li>  
   <li class="nav-item compact">
-    <a class="nav-link" href="https://twitter.com/jvcasill" rel="" target=""><i class="bi bi-twitter" role="img">
+    <a class="nav-link" href="https://twitter.com/jvcasill"> <i class="bi bi-twitter" role="img">
 </i> 
- <span class="menu-text"></span></a>
+<span class="menu-text"></span></a>
   </li>  
   <li class="nav-item compact">
-    <a class="nav-link" href="./blog.xml" rel="" target=""><i class="bi bi-rss" role="img">
+    <a class="nav-link" href="./blog.xml"> <i class="bi bi-rss" role="img">
 </i> 
- <span class="menu-text"></span></a>
+<span class="menu-text"></span></a>
   </li>  
 </ul>
-            <div class="quarto-navbar-tools">
+          </div> <!-- /navcollapse -->
+          <div class="quarto-navbar-tools">
   <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
 </div>
-          </div> <!-- /navcollapse -->
       </div> <!-- /container-fluid -->
     </nav>
 </header>
@@ -201,7 +236,7 @@ ga('send', {
   </div>
     
   
-  <div class="quarto-title-meta">
+  <div class="quarto-title-meta column-page-left">
 
       
     
@@ -225,21 +260,22 @@ ga('send', {
 
 
 
+
 <div class="quarto-listing quarto-listing-container-default" id="listing-listing">
 <div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-categories="stats,glm,bilinguals,double phonemic boundary" data-listing-date-sort="1621137600000" data-listing-file-modified-sort="1681025141941" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="23">
+<div class="quarto-post image-right" data-index="0" data-categories="stats,glm,bilinguals,double phonemic boundary" data-listing-date-sort="1621137600000" data-listing-file-modified-sort="1681025141941" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="23" data-listing-word-count-sort="4497">
 <div class="thumbnail">
-<p><a href="./posts/2021-05-15_logistic_regression_and_phonemic_boundaries/2021-05-15_logistic_regression_and_phonemic_boundaries.html"> <p class="card-img-top"><img src="posts/2021-05-15_logistic_regression_and_phonemic_boundaries/2021-05-15_logistic_regression_and_phonemic_boundaries_files/figure-html/sigmoids-1.png"  class="thumbnail-image card-img"/></p> </a></p>
+<p><a href="./posts/2021-05-15_logistic_regression_and_phonemic_boundaries/2021-05-15_logistic_regression_and_phonemic_boundaries.html" class="no-external"></a></p><a href="./posts/2021-05-15_logistic_regression_and_phonemic_boundaries/2021-05-15_logistic_regression_and_phonemic_boundaries.html" class="no-external">
+<p class="card-img-top"><img src="posts/2021-05-15_logistic_regression_and_phonemic_boundaries/2021-05-15_logistic_regression_and_phonemic_boundaries_files/figure-html/sigmoids-1.png"  class="thumbnail-image card-img"/></p>
+</a><p><a href="./posts/2021-05-15_logistic_regression_and_phonemic_boundaries/2021-05-15_logistic_regression_and_phonemic_boundaries.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="./posts/2021-05-15_logistic_regression_and_phonemic_boundaries/2021-05-15_logistic_regression_and_phonemic_boundaries.html">
 <h3 class="no-anchor listing-title">
-Exploring phonemic boundaries using logistic regression
+<a href="./posts/2021-05-15_logistic_regression_and_phonemic_boundaries/2021-05-15_logistic_regression_and_phonemic_boundaries.html" class="no-external">Exploring phonemic boundaries using logistic regression</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="./posts/2021-05-15_logistic_regression_and_phonemic_boundaries/2021-05-15_logistic_regression_and_phonemic_boundaries.html" class="no-external"></a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('stats'); return false;">
 stats
@@ -254,14 +290,12 @@ bilinguals
 double phonemic boundary
 </div>
 </div>
-<a href="./posts/2021-05-15_logistic_regression_and_phonemic_boundaries/2021-05-15_logistic_regression_and_phonemic_boundaries.html">
 <div class="listing-description">
-<p>In this post I show how to use logistic regression to get interesting info about bilinguals in a two-alternative forced choice task.</p>
+<a href="./posts/2021-05-15_logistic_regression_and_phonemic_boundaries/2021-05-15_logistic_regression_and_phonemic_boundaries.html" class="no-external">In this post I show how to use logistic regression to get interesting info about bilinguals in a two-alternative forced choice task. </a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./posts/2021-05-15_logistic_regression_and_phonemic_boundaries/2021-05-15_logistic_regression_and_phonemic_boundaries.html">
+<a href="./posts/2021-05-15_logistic_regression_and_phonemic_boundaries/2021-05-15_logistic_regression_and_phonemic_boundaries.html" class="no-external">
 <div class="listing-date">
 May 16, 2021
 </div>
@@ -271,19 +305,19 @@ Joseph V. Casillas
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="1" data-categories="phonetics,soundbooth" data-listing-date-sort="1537070400000" data-listing-file-modified-sort="1681025140914" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2">
+<div class="quarto-post image-right" data-index="1" data-categories="phonetics,soundbooth" data-listing-date-sort="1537070400000" data-listing-file-modified-sort="1681025140914" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="221">
 <div class="thumbnail">
-<p><a href="./posts/2018-09-16_setting_up_a_whisper_room_sound_booth/2018-09-16_setting_up_a_whisper_room_sound_booth.html"> <img src="./posts/2018-09-16_setting_up_a_whisper_room_sound_booth/assets/img/16.png" class="thumbnail-image"> </a></p>
+<p><a href="./posts/2018-09-16_setting_up_a_whisper_room_sound_booth/2018-09-16_setting_up_a_whisper_room_sound_booth.html" class="no-external"></a></p><a href="./posts/2018-09-16_setting_up_a_whisper_room_sound_booth/2018-09-16_setting_up_a_whisper_room_sound_booth.html" class="no-external">
+<p><img src="./posts/2018-09-16_setting_up_a_whisper_room_sound_booth/assets/img/16.png" class="thumbnail-image"></p>
+</a><p><a href="./posts/2018-09-16_setting_up_a_whisper_room_sound_booth/2018-09-16_setting_up_a_whisper_room_sound_booth.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="./posts/2018-09-16_setting_up_a_whisper_room_sound_booth/2018-09-16_setting_up_a_whisper_room_sound_booth.html">
 <h3 class="no-anchor listing-title">
-Setting up a whisper room sound booth
+<a href="./posts/2018-09-16_setting_up_a_whisper_room_sound_booth/2018-09-16_setting_up_a_whisper_room_sound_booth.html" class="no-external">Setting up a whisper room sound booth</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="./posts/2018-09-16_setting_up_a_whisper_room_sound_booth/2018-09-16_setting_up_a_whisper_room_sound_booth.html" class="no-external"></a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('phonetics'); return false;">
 phonetics
@@ -292,14 +326,12 @@ phonetics
 soundbooth
 </div>
 </div>
-<a href="./posts/2018-09-16_setting_up_a_whisper_room_sound_booth/2018-09-16_setting_up_a_whisper_room_sound_booth.html">
 <div class="listing-description">
-<p>It is harder than it looks.</p>
+<a href="./posts/2018-09-16_setting_up_a_whisper_room_sound_booth/2018-09-16_setting_up_a_whisper_room_sound_booth.html" class="no-external">It is harder than it looks. </a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./posts/2018-09-16_setting_up_a_whisper_room_sound_booth/2018-09-16_setting_up_a_whisper_room_sound_booth.html">
+<a href="./posts/2018-09-16_setting_up_a_whisper_room_sound_booth/2018-09-16_setting_up_a_whisper_room_sound_booth.html" class="no-external">
 <div class="listing-date">
 Sep 16, 2018
 </div>
@@ -309,19 +341,19 @@ Joseph V. Casillas
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="2" data-categories="phonetics,stops,vot" data-listing-date-sort="1494820800000" data-listing-file-modified-sort="1681025140418" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="12">
+<div class="quarto-post image-right" data-index="2" data-categories="phonetics,stops,vot" data-listing-date-sort="1494820800000" data-listing-file-modified-sort="1681025140418" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="12" data-listing-word-count-sort="2377">
 <div class="thumbnail">
-<p><a href="./posts/2017-05-15_analysis_of_justin_bieber_singing_in_spanish_-_despacito/2017-05-15_analysis_of_justin_bieber_singing_in_spanish_-_despacito.html"> <img src="http://media2.giphy.com/media/vVj7DgouGmmqI/giphy.gif" class="thumbnail-image"> </a></p>
+<p><a href="./posts/2017-05-15_analysis_of_justin_bieber_singing_in_spanish_-_despacito/2017-05-15_analysis_of_justin_bieber_singing_in_spanish_-_despacito.html" class="no-external"></a></p><a href="./posts/2017-05-15_analysis_of_justin_bieber_singing_in_spanish_-_despacito/2017-05-15_analysis_of_justin_bieber_singing_in_spanish_-_despacito.html" class="no-external">
+<p><img src="http://media2.giphy.com/media/vVj7DgouGmmqI/giphy.gif" class="thumbnail-image"></p>
+</a><p><a href="./posts/2017-05-15_analysis_of_justin_bieber_singing_in_spanish_-_despacito/2017-05-15_analysis_of_justin_bieber_singing_in_spanish_-_despacito.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="./posts/2017-05-15_analysis_of_justin_bieber_singing_in_spanish_-_despacito/2017-05-15_analysis_of_justin_bieber_singing_in_spanish_-_despacito.html">
 <h3 class="no-anchor listing-title">
-Justin Bieber sings in Spanish: How’d he do?
+<a href="./posts/2017-05-15_analysis_of_justin_bieber_singing_in_spanish_-_despacito/2017-05-15_analysis_of_justin_bieber_singing_in_spanish_-_despacito.html" class="no-external">Justin Bieber sings in Spanish: How’d he do?</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="./posts/2017-05-15_analysis_of_justin_bieber_singing_in_spanish_-_despacito/2017-05-15_analysis_of_justin_bieber_singing_in_spanish_-_despacito.html" class="no-external"></a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('phonetics'); return false;">
 phonetics
@@ -333,14 +365,12 @@ stops
 vot
 </div>
 </div>
-<a href="./posts/2017-05-15_analysis_of_justin_bieber_singing_in_spanish_-_despacito/2017-05-15_analysis_of_justin_bieber_singing_in_spanish_-_despacito.html">
 <div class="listing-description">
-<p>The title really says it all.</p>
+<a href="./posts/2017-05-15_analysis_of_justin_bieber_singing_in_spanish_-_despacito/2017-05-15_analysis_of_justin_bieber_singing_in_spanish_-_despacito.html" class="no-external">The title really says it all. </a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./posts/2017-05-15_analysis_of_justin_bieber_singing_in_spanish_-_despacito/2017-05-15_analysis_of_justin_bieber_singing_in_spanish_-_despacito.html">
+<a href="./posts/2017-05-15_analysis_of_justin_bieber_singing_in_spanish_-_despacito/2017-05-15_analysis_of_justin_bieber_singing_in_spanish_-_despacito.html" class="no-external">
 <div class="listing-date">
 May 15, 2017
 </div>
@@ -350,19 +380,19 @@ Joseph V. Casillas
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="3" data-categories="r,tidyverse,data" data-listing-date-sort="1434945600000" data-listing-file-modified-sort="1681025140412" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<div class="quarto-post image-right" data-index="3" data-categories="r,tidyverse,data" data-listing-date-sort="1434945600000" data-listing-file-modified-sort="1681025140412" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="10">
 <div class="thumbnail">
-<p><a href="./posts/2015-06-22_tidyr_tutorial/2015-06-22_tidyr_tutorial.html"> <img src="./posts/2015-06-22_tidyr_tutorial/tidyr.png" class="thumbnail-image"> </a></p>
+<p><a href="./posts/2015-06-22_tidyr_tutorial/2015-06-22_tidyr_tutorial.html" class="no-external"></a></p><a href="./posts/2015-06-22_tidyr_tutorial/2015-06-22_tidyr_tutorial.html" class="no-external">
+<p><img src="./posts/2015-06-22_tidyr_tutorial/tidyr.png" class="thumbnail-image"></p>
+</a><p><a href="./posts/2015-06-22_tidyr_tutorial/2015-06-22_tidyr_tutorial.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="./posts/2015-06-22_tidyr_tutorial/2015-06-22_tidyr_tutorial.html">
 <h3 class="no-anchor listing-title">
-tidyr tutorial
+<a href="./posts/2015-06-22_tidyr_tutorial/2015-06-22_tidyr_tutorial.html" class="no-external">tidyr tutorial</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="./posts/2015-06-22_tidyr_tutorial/2015-06-22_tidyr_tutorial.html" class="no-external"></a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('r'); return false;">
 r
@@ -374,14 +404,12 @@ tidyverse
 data
 </div>
 </div>
-<a href="./posts/2015-06-22_tidyr_tutorial/2015-06-22_tidyr_tutorial.html">
 <div class="listing-description">
-<p>Tutorial showing the functionality of the tidyr package for data wrangling.</p>
+<a href="./posts/2015-06-22_tidyr_tutorial/2015-06-22_tidyr_tutorial.html" class="no-external">Tutorial showing the functionality of the tidyr package for data wrangling. </a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./posts/2015-06-22_tidyr_tutorial/2015-06-22_tidyr_tutorial.html">
+<a href="./posts/2015-06-22_tidyr_tutorial/2015-06-22_tidyr_tutorial.html" class="no-external">
 <div class="listing-date">
 Jun 22, 2015
 </div>
@@ -391,19 +419,19 @@ Joseph V. Casillas
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="4" data-categories="r,research" data-listing-date-sort="1434427200000" data-listing-file-modified-sort="1681025140408" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="6">
+<div class="quarto-post image-right" data-index="4" data-categories="r,research" data-listing-date-sort="1434427200000" data-listing-file-modified-sort="1681025140408" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="6" data-listing-word-count-sort="1095">
 <div class="thumbnail">
-<p><a href="./posts/2015-06-16_google_sheets_in_r/2015-06-16_google_sheets_in_r.html"> <p class="card-img-top"><img src="posts/2015-06-16_google_sheets_in_r/assets/img/data.png"  class="thumbnail-image card-img"/></p> </a></p>
+<p><a href="./posts/2015-06-16_google_sheets_in_r/2015-06-16_google_sheets_in_r.html" class="no-external"></a></p><a href="./posts/2015-06-16_google_sheets_in_r/2015-06-16_google_sheets_in_r.html" class="no-external">
+<p class="card-img-top"><img src="posts/2015-06-16_google_sheets_in_r/assets/img/data.png"  class="thumbnail-image card-img"/></p>
+</a><p><a href="./posts/2015-06-16_google_sheets_in_r/2015-06-16_google_sheets_in_r.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="./posts/2015-06-16_google_sheets_in_r/2015-06-16_google_sheets_in_r.html">
 <h3 class="no-anchor listing-title">
-How to scrape data from Google Sheets in R
+<a href="./posts/2015-06-16_google_sheets_in_r/2015-06-16_google_sheets_in_r.html" class="no-external">How to scrape data from Google Sheets in R</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="./posts/2015-06-16_google_sheets_in_r/2015-06-16_google_sheets_in_r.html" class="no-external"></a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('r'); return false;">
 r
@@ -412,14 +440,12 @@ r
 research
 </div>
 </div>
-<a href="./posts/2015-06-16_google_sheets_in_r/2015-06-16_google_sheets_in_r.html">
 <div class="listing-description">
-<p>How to get data from a google sheet into R.</p>
+<a href="./posts/2015-06-16_google_sheets_in_r/2015-06-16_google_sheets_in_r.html" class="no-external">How to get data from a google sheet into R. </a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./posts/2015-06-16_google_sheets_in_r/2015-06-16_google_sheets_in_r.html">
+<a href="./posts/2015-06-16_google_sheets_in_r/2015-06-16_google_sheets_in_r.html" class="no-external">
 <div class="listing-date">
 Jun 16, 2015
 </div>
@@ -429,19 +455,19 @@ Joseph V. Casillas
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="5" data-categories="r,research,workflow" data-listing-date-sort="1431921600000" data-listing-file-modified-sort="1681025140380" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="5">
+<div class="quarto-post image-right" data-index="5" data-categories="r,research,workflow" data-listing-date-sort="1431921600000" data-listing-file-modified-sort="1681025140380" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="5" data-listing-word-count-sort="928">
 <div class="thumbnail">
-<p><a href="./posts/2015-05-18_data_pipelines/2015-05-18_data_pipelines.html"> <img src="./posts/2015-05-18_data_pipelines/assets/img/pipeline1.png" class="thumbnail-image"> </a></p>
+<p><a href="./posts/2015-05-18_data_pipelines/2015-05-18_data_pipelines.html" class="no-external"></a></p><a href="./posts/2015-05-18_data_pipelines/2015-05-18_data_pipelines.html" class="no-external">
+<p><img src="./posts/2015-05-18_data_pipelines/assets/img/pipeline1.png" class="thumbnail-image"></p>
+</a><p><a href="./posts/2015-05-18_data_pipelines/2015-05-18_data_pipelines.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="./posts/2015-05-18_data_pipelines/2015-05-18_data_pipelines.html">
 <h3 class="no-anchor listing-title">
-Data pipelines in R
+<a href="./posts/2015-05-18_data_pipelines/2015-05-18_data_pipelines.html" class="no-external">Data pipelines in R</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="./posts/2015-05-18_data_pipelines/2015-05-18_data_pipelines.html" class="no-external"></a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('r'); return false;">
 r
@@ -453,14 +479,12 @@ research
 workflow
 </div>
 </div>
-<a href="./posts/2015-05-18_data_pipelines/2015-05-18_data_pipelines.html">
 <div class="listing-description">
-<p>What button do I press to learn the truth?</p>
+<a href="./posts/2015-05-18_data_pipelines/2015-05-18_data_pipelines.html" class="no-external">What button do I press to learn the truth? </a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./posts/2015-05-18_data_pipelines/2015-05-18_data_pipelines.html">
+<a href="./posts/2015-05-18_data_pipelines/2015-05-18_data_pipelines.html" class="no-external">
 <div class="listing-date">
 May 18, 2015
 </div>
@@ -470,19 +494,19 @@ Joseph V. Casillas
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="6" data-categories="r,dataviz" data-listing-date-sort="1429502400000" data-listing-file-modified-sort="1681025140380" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<div class="quarto-post image-right" data-index="6" data-categories="r,dataviz" data-listing-date-sort="1429502400000" data-listing-file-modified-sort="1681025140380" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="6">
 <div class="thumbnail">
-<p><a href="./posts/2015-04-20_plotting_in_r/2015-04-20_plotting_in_r.html"> <img src="./posts/2015-04-20_plotting_in_r/featured.png" class="thumbnail-image"> </a></p>
+<p><a href="./posts/2015-04-20_plotting_in_r/2015-04-20_plotting_in_r.html" class="no-external"></a></p><a href="./posts/2015-04-20_plotting_in_r/2015-04-20_plotting_in_r.html" class="no-external">
+<p><img src="./posts/2015-04-20_plotting_in_r/featured.png" class="thumbnail-image"></p>
+</a><p><a href="./posts/2015-04-20_plotting_in_r/2015-04-20_plotting_in_r.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="./posts/2015-04-20_plotting_in_r/2015-04-20_plotting_in_r.html">
 <h3 class="no-anchor listing-title">
-Basic plotting in R
+<a href="./posts/2015-04-20_plotting_in_r/2015-04-20_plotting_in_r.html" class="no-external">Basic plotting in R</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="./posts/2015-04-20_plotting_in_r/2015-04-20_plotting_in_r.html" class="no-external"></a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('r'); return false;">
 r
@@ -491,14 +515,12 @@ r
 dataviz
 </div>
 </div>
-<a href="./posts/2015-04-20_plotting_in_r/2015-04-20_plotting_in_r.html">
 <div class="listing-description">
-<p>Step-by-step examples for using the three main plotting systems in R.</p>
+<a href="./posts/2015-04-20_plotting_in_r/2015-04-20_plotting_in_r.html" class="no-external">Step-by-step examples for using the three main plotting systems in R. </a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./posts/2015-04-20_plotting_in_r/2015-04-20_plotting_in_r.html">
+<a href="./posts/2015-04-20_plotting_in_r/2015-04-20_plotting_in_r.html" class="no-external">
 <div class="listing-date">
 Apr 20, 2015
 </div>
@@ -508,19 +530,19 @@ Joseph V. Casillas
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="7" data-categories="r,rmarkdown,html" data-listing-date-sort="1428897600000" data-listing-file-modified-sort="1681025140380" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<div class="quarto-post image-right" data-index="7" data-categories="r,rmarkdown,html" data-listing-date-sort="1428897600000" data-listing-file-modified-sort="1681025140380" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="6">
 <div class="thumbnail">
-<p><a href="./posts/2015-04-13_html_widgets/2015-04-13_html_widgets.html"> <img src="./posts/2015-04-13_html_widgets/featured.png" class="thumbnail-image"> </a></p>
+<p><a href="./posts/2015-04-13_html_widgets/2015-04-13_html_widgets.html" class="no-external"></a></p><a href="./posts/2015-04-13_html_widgets/2015-04-13_html_widgets.html" class="no-external">
+<p><img src="./posts/2015-04-13_html_widgets/featured.png" class="thumbnail-image"></p>
+</a><p><a href="./posts/2015-04-13_html_widgets/2015-04-13_html_widgets.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="./posts/2015-04-13_html_widgets/2015-04-13_html_widgets.html">
 <h3 class="no-anchor listing-title">
-HTML widgets in Rmarkdown
+<a href="./posts/2015-04-13_html_widgets/2015-04-13_html_widgets.html" class="no-external">HTML widgets in Rmarkdown</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="./posts/2015-04-13_html_widgets/2015-04-13_html_widgets.html" class="no-external"></a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('r'); return false;">
 r
@@ -532,14 +554,12 @@ rmarkdown
 html
 </div>
 </div>
-<a href="./posts/2015-04-13_html_widgets/2015-04-13_html_widgets.html">
 <div class="listing-description">
-<p>Walkthrough for incorporating HTML widgets into an Rmarkdown document.</p>
+<a href="./posts/2015-04-13_html_widgets/2015-04-13_html_widgets.html" class="no-external">Walkthrough for incorporating HTML widgets into an Rmarkdown document. </a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./posts/2015-04-13_html_widgets/2015-04-13_html_widgets.html">
+<a href="./posts/2015-04-13_html_widgets/2015-04-13_html_widgets.html" class="no-external">
 <div class="listing-date">
 Apr 13, 2015
 </div>
@@ -549,19 +569,19 @@ Joseph V. Casillas
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="8" data-categories="r,rmarkdown,html" data-listing-date-sort="1426996800000" data-listing-file-modified-sort="1681025140379" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<div class="quarto-post image-right" data-index="8" data-categories="r,rmarkdown,html" data-listing-date-sort="1426996800000" data-listing-file-modified-sort="1681025140379" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="6">
 <div class="thumbnail">
-<p><a href="./posts/2015-03-22_slidify_tutorial/2015-03-22_slidify_tutorial.html"> <img src="./posts/2015-03-22_slidify_tutorial/featured.png" class="thumbnail-image"> </a></p>
+<p><a href="./posts/2015-03-22_slidify_tutorial/2015-03-22_slidify_tutorial.html" class="no-external"></a></p><a href="./posts/2015-03-22_slidify_tutorial/2015-03-22_slidify_tutorial.html" class="no-external">
+<p><img src="./posts/2015-03-22_slidify_tutorial/featured.png" class="thumbnail-image"></p>
+</a><p><a href="./posts/2015-03-22_slidify_tutorial/2015-03-22_slidify_tutorial.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="./posts/2015-03-22_slidify_tutorial/2015-03-22_slidify_tutorial.html">
 <h3 class="no-anchor listing-title">
-Slidify tutorial
+<a href="./posts/2015-03-22_slidify_tutorial/2015-03-22_slidify_tutorial.html" class="no-external">Slidify tutorial</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="./posts/2015-03-22_slidify_tutorial/2015-03-22_slidify_tutorial.html" class="no-external"></a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('r'); return false;">
 r
@@ -573,14 +593,12 @@ rmarkdown
 html
 </div>
 </div>
-<a href="./posts/2015-03-22_slidify_tutorial/2015-03-22_slidify_tutorial.html">
 <div class="listing-description">
-<p>Tutorial for creating HTML presentations using R and slidify.</p>
+<a href="./posts/2015-03-22_slidify_tutorial/2015-03-22_slidify_tutorial.html" class="no-external">Tutorial for creating HTML presentations using R and slidify. </a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./posts/2015-03-22_slidify_tutorial/2015-03-22_slidify_tutorial.html">
+<a href="./posts/2015-03-22_slidify_tutorial/2015-03-22_slidify_tutorial.html" class="no-external">
 <div class="listing-date">
 Mar 22, 2015
 </div>
@@ -590,19 +608,19 @@ Joseph V. Casillas
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="9" data-categories="ipa,r,research,latex" data-listing-date-sort="1401249600000" data-listing-file-modified-sort="1681025140374" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4">
+<div class="quarto-post image-right" data-index="9" data-categories="ipa,r,research,latex" data-listing-date-sort="1401249600000" data-listing-file-modified-sort="1681025140374" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="618">
 <div class="thumbnail">
-<p><a href="./posts/2014-05-28_tikz_-_standalone_plots/2014-05-28_tikz_-_standalone_plots.html"> <img src="./posts/2014-05-28_tikz_-_standalone_plots/assets/img/ipa_plot.png" class="thumbnail-image"> </a></p>
+<p><a href="./posts/2014-05-28_tikz_-_standalone_plots/2014-05-28_tikz_-_standalone_plots.html" class="no-external"></a></p><a href="./posts/2014-05-28_tikz_-_standalone_plots/2014-05-28_tikz_-_standalone_plots.html" class="no-external">
+<p><img src="./posts/2014-05-28_tikz_-_standalone_plots/assets/img/ipa_plot.png" class="thumbnail-image"></p>
+</a><p><a href="./posts/2014-05-28_tikz_-_standalone_plots/2014-05-28_tikz_-_standalone_plots.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="./posts/2014-05-28_tikz_-_standalone_plots/2014-05-28_tikz_-_standalone_plots.html">
 <h3 class="no-anchor listing-title">
-TikzDevice tutorial III: standalone plots
+<a href="./posts/2014-05-28_tikz_-_standalone_plots/2014-05-28_tikz_-_standalone_plots.html" class="no-external">TikzDevice tutorial III: standalone plots</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="./posts/2014-05-28_tikz_-_standalone_plots/2014-05-28_tikz_-_standalone_plots.html" class="no-external"></a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('ipa'); return false;">
 ipa
@@ -617,14 +635,12 @@ research
 latex
 </div>
 </div>
-<a href="./posts/2014-05-28_tikz_-_standalone_plots/2014-05-28_tikz_-_standalone_plots.html">
 <div class="listing-description">
-<p>Quick and dirty test for knitr boostrap framework.</p>
+<a href="./posts/2014-05-28_tikz_-_standalone_plots/2014-05-28_tikz_-_standalone_plots.html" class="no-external">Quick and dirty test for knitr boostrap framework. </a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./posts/2014-05-28_tikz_-_standalone_plots/2014-05-28_tikz_-_standalone_plots.html">
+<a href="./posts/2014-05-28_tikz_-_standalone_plots/2014-05-28_tikz_-_standalone_plots.html" class="no-external">
 <div class="listing-date">
 May 28, 2014
 </div>
@@ -634,19 +650,19 @@ Joseph V. Casillas
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="10" data-categories="r,rmarkdown,knitr" data-listing-date-sort="1401076800000" data-listing-file-modified-sort="1681025140373" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<div class="quarto-post image-right" data-index="10" data-categories="r,rmarkdown,knitr" data-listing-date-sort="1401076800000" data-listing-file-modified-sort="1681025140373" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="75">
 <div class="thumbnail">
-<p><a href="./posts/2014-05-26_knitr_bootstrap/2014-05-26_knitr_bootstrap.html"> <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div> </a></p>
+<p><a href="./posts/2014-05-26_knitr_bootstrap/2014-05-26_knitr_bootstrap.html" class="no-external"></a></p><a href="./posts/2014-05-26_knitr_bootstrap/2014-05-26_knitr_bootstrap.html" class="no-external">
+<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
+</a><p><a href="./posts/2014-05-26_knitr_bootstrap/2014-05-26_knitr_bootstrap.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="./posts/2014-05-26_knitr_bootstrap/2014-05-26_knitr_bootstrap.html">
 <h3 class="no-anchor listing-title">
-Knitr bootstrap
+<a href="./posts/2014-05-26_knitr_bootstrap/2014-05-26_knitr_bootstrap.html" class="no-external">Knitr bootstrap</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="./posts/2014-05-26_knitr_bootstrap/2014-05-26_knitr_bootstrap.html" class="no-external"></a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('r'); return false;">
 r
@@ -658,14 +674,12 @@ rmarkdown
 knitr
 </div>
 </div>
-<a href="./posts/2014-05-26_knitr_bootstrap/2014-05-26_knitr_bootstrap.html">
 <div class="listing-description">
-<p>Quick and dirty test for knitr boostrap framework.</p>
+<a href="./posts/2014-05-26_knitr_bootstrap/2014-05-26_knitr_bootstrap.html" class="no-external">Quick and dirty test for knitr boostrap framework. </a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./posts/2014-05-26_knitr_bootstrap/2014-05-26_knitr_bootstrap.html">
+<a href="./posts/2014-05-26_knitr_bootstrap/2014-05-26_knitr_bootstrap.html" class="no-external">
 <div class="listing-date">
 May 26, 2014
 </div>
@@ -675,19 +689,19 @@ Joseph V. Casillas
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="11" data-categories="r,rmarkdown,html" data-listing-date-sort="1389070800000" data-listing-file-modified-sort="1681025140325" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<div class="quarto-post image-right" data-index="11" data-categories="r,rmarkdown,html" data-listing-date-sort="1389070800000" data-listing-file-modified-sort="1681025140325" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="93">
 <div class="thumbnail">
-<p><a href="./posts/2014-01-07_converting_rmarkdown_files_to_html5/2014-01-07_converting_rmarkdown_files_to_html5.html"> <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div> </a></p>
+<p><a href="./posts/2014-01-07_converting_rmarkdown_files_to_html5/2014-01-07_converting_rmarkdown_files_to_html5.html" class="no-external"></a></p><a href="./posts/2014-01-07_converting_rmarkdown_files_to_html5/2014-01-07_converting_rmarkdown_files_to_html5.html" class="no-external">
+<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
+</a><p><a href="./posts/2014-01-07_converting_rmarkdown_files_to_html5/2014-01-07_converting_rmarkdown_files_to_html5.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="./posts/2014-01-07_converting_rmarkdown_files_to_html5/2014-01-07_converting_rmarkdown_files_to_html5.html">
 <h3 class="no-anchor listing-title">
-Using Rmarkdown to knit HTML5 documents in RStudio
+<a href="./posts/2014-01-07_converting_rmarkdown_files_to_html5/2014-01-07_converting_rmarkdown_files_to_html5.html" class="no-external">Using Rmarkdown to knit HTML5 documents in RStudio</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="./posts/2014-01-07_converting_rmarkdown_files_to_html5/2014-01-07_converting_rmarkdown_files_to_html5.html" class="no-external"></a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('r'); return false;">
 r
@@ -699,14 +713,12 @@ rmarkdown
 html
 </div>
 </div>
-<a href="./posts/2014-01-07_converting_rmarkdown_files_to_html5/2014-01-07_converting_rmarkdown_files_to_html5.html">
 <div class="listing-description">
-<p>Some simple examples of how to go from .Rmd to .html.</p>
+<a href="./posts/2014-01-07_converting_rmarkdown_files_to_html5/2014-01-07_converting_rmarkdown_files_to_html5.html" class="no-external">Some simple examples of how to go from .Rmd to .html. </a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./posts/2014-01-07_converting_rmarkdown_files_to_html5/2014-01-07_converting_rmarkdown_files_to_html5.html">
+<a href="./posts/2014-01-07_converting_rmarkdown_files_to_html5/2014-01-07_converting_rmarkdown_files_to_html5.html" class="no-external">
 <div class="listing-date">
 Jan 7, 2014
 </div>
@@ -716,19 +728,19 @@ Joseph V. Casillas
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="12" data-categories="r,latex,tikz" data-listing-date-sort="1368763200000" data-listing-file-modified-sort="1681025140325" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3">
+<div class="quarto-post image-right" data-index="12" data-categories="r,latex,tikz" data-listing-date-sort="1368763200000" data-listing-file-modified-sort="1681025140325" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="476">
 <div class="thumbnail">
-<p><a href="./posts/2013-05-17_tikz_-_projects/2013-05-17_tikz_-_projects.html"> <img src="./posts/2013-05-17_tikz_-_projects/assets/img/tikz_workflow.png" class="thumbnail-image"> </a></p>
+<p><a href="./posts/2013-05-17_tikz_-_projects/2013-05-17_tikz_-_projects.html" class="no-external"></a></p><a href="./posts/2013-05-17_tikz_-_projects/2013-05-17_tikz_-_projects.html" class="no-external">
+<p><img src="./posts/2013-05-17_tikz_-_projects/assets/img/tikz_workflow.png" class="thumbnail-image"></p>
+</a><p><a href="./posts/2013-05-17_tikz_-_projects/2013-05-17_tikz_-_projects.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="./posts/2013-05-17_tikz_-_projects/2013-05-17_tikz_-_projects.html">
 <h3 class="no-anchor listing-title">
-TikzDevice tutorial II: structuring a project
+<a href="./posts/2013-05-17_tikz_-_projects/2013-05-17_tikz_-_projects.html" class="no-external">TikzDevice tutorial II: structuring a project</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="./posts/2013-05-17_tikz_-_projects/2013-05-17_tikz_-_projects.html" class="no-external"></a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('r'); return false;">
 r
@@ -740,14 +752,12 @@ latex
 tikz
 </div>
 </div>
-<a href="./posts/2013-05-17_tikz_-_projects/2013-05-17_tikz_-_projects.html">
 <div class="listing-description">
-<p>How to setup a reproducible workflow that integrates <code>tikzDevice</code>.</p>
+<a href="./posts/2013-05-17_tikz_-_projects/2013-05-17_tikz_-_projects.html" class="no-external">How to setup a reproducible workflow that integrates <code>tikzDevice</code>. </a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./posts/2013-05-17_tikz_-_projects/2013-05-17_tikz_-_projects.html">
+<a href="./posts/2013-05-17_tikz_-_projects/2013-05-17_tikz_-_projects.html" class="no-external">
 <div class="listing-date">
 May 17, 2013
 </div>
@@ -757,19 +767,19 @@ Joseph V. Casillas
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="13" data-categories="r,tikz,latex,ipa" data-listing-date-sort="1368244800000" data-listing-file-modified-sort="1681025140325" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2">
+<div class="quarto-post image-right" data-index="13" data-categories="r,tikz,latex,ipa" data-listing-date-sort="1368244800000" data-listing-file-modified-sort="1681025140325" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="206">
 <div class="thumbnail">
-<p><a href="./posts/2013-05-11_tikz_-_installation/2013-05-11_tikz_-_installation.html"> <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div> </a></p>
+<p><a href="./posts/2013-05-11_tikz_-_installation/2013-05-11_tikz_-_installation.html" class="no-external"></a></p><a href="./posts/2013-05-11_tikz_-_installation/2013-05-11_tikz_-_installation.html" class="no-external">
+<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
+</a><p><a href="./posts/2013-05-11_tikz_-_installation/2013-05-11_tikz_-_installation.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="./posts/2013-05-11_tikz_-_installation/2013-05-11_tikz_-_installation.html">
 <h3 class="no-anchor listing-title">
-TikzDevice tutorial I: install tikzDevice in R
+<a href="./posts/2013-05-11_tikz_-_installation/2013-05-11_tikz_-_installation.html" class="no-external">TikzDevice tutorial I: install tikzDevice in R</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="./posts/2013-05-11_tikz_-_installation/2013-05-11_tikz_-_installation.html" class="no-external"></a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('r'); return false;">
 r
@@ -784,14 +794,12 @@ latex
 ipa
 </div>
 </div>
-<a href="./posts/2013-05-11_tikz_-_installation/2013-05-11_tikz_-_installation.html">
 <div class="listing-description">
-<p>How to install tikzDevice for plotting in R.</p>
+<a href="./posts/2013-05-11_tikz_-_installation/2013-05-11_tikz_-_installation.html" class="no-external">How to install tikzDevice for plotting in R. </a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./posts/2013-05-11_tikz_-_installation/2013-05-11_tikz_-_installation.html">
+<a href="./posts/2013-05-11_tikz_-_installation/2013-05-11_tikz_-_installation.html" class="no-external">
 <div class="listing-date">
 May 11, 2013
 </div>
@@ -801,19 +809,19 @@ Joseph V. Casillas
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="14" data-categories="r,phonetics,acoustics" data-listing-date-sort="1367726400000" data-listing-file-modified-sort="1681025140324" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<div class="quarto-post image-right" data-index="14" data-categories="r,phonetics,acoustics" data-listing-date-sort="1367726400000" data-listing-file-modified-sort="1681025140324" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="105">
 <div class="thumbnail">
-<p><a href="./posts/2013-05-09_colored_spectrograms_in_r/2013-05-09_colored_spectrograms_in_r.html"> <img src="./posts/2013-05-09_colored_spectrograms_in_r/assets/img/spectrogram.png" class="thumbnail-image"> </a></p>
+<p><a href="./posts/2013-05-09_colored_spectrograms_in_r/2013-05-09_colored_spectrograms_in_r.html" class="no-external"></a></p><a href="./posts/2013-05-09_colored_spectrograms_in_r/2013-05-09_colored_spectrograms_in_r.html" class="no-external">
+<p><img src="./posts/2013-05-09_colored_spectrograms_in_r/assets/img/spectrogram.png" class="thumbnail-image"></p>
+</a><p><a href="./posts/2013-05-09_colored_spectrograms_in_r/2013-05-09_colored_spectrograms_in_r.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="./posts/2013-05-09_colored_spectrograms_in_r/2013-05-09_colored_spectrograms_in_r.html">
 <h3 class="no-anchor listing-title">
-Colored spectrograms in R
+<a href="./posts/2013-05-09_colored_spectrograms_in_r/2013-05-09_colored_spectrograms_in_r.html" class="no-external">Colored spectrograms in R</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="./posts/2013-05-09_colored_spectrograms_in_r/2013-05-09_colored_spectrograms_in_r.html" class="no-external"></a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('r'); return false;">
 r
@@ -825,14 +833,12 @@ phonetics
 acoustics
 </div>
 </div>
-<a href="./posts/2013-05-09_colored_spectrograms_in_r/2013-05-09_colored_spectrograms_in_r.html">
 <div class="listing-description">
-<p>How to make colored spectrograms in R with phonTools.</p>
+<a href="./posts/2013-05-09_colored_spectrograms_in_r/2013-05-09_colored_spectrograms_in_r.html" class="no-external">How to make colored spectrograms in R with phonTools. </a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./posts/2013-05-09_colored_spectrograms_in_r/2013-05-09_colored_spectrograms_in_r.html">
+<a href="./posts/2013-05-09_colored_spectrograms_in_r/2013-05-09_colored_spectrograms_in_r.html" class="no-external">
 <div class="listing-date">
 May 5, 2013
 </div>
@@ -888,6 +894,33 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       } else {
         el.classList.add('notransition');
       }
+    }
+  }
+  const toggleGiscusIfUsed = (isAlternate, darkModeDefault) => {
+    const baseTheme = document.querySelector('#giscus-base-theme')?.value ?? 'light';
+    const alternateTheme = document.querySelector('#giscus-alt-theme')?.value ?? 'dark';
+    let newTheme = '';
+    if(darkModeDefault) {
+      newTheme = isAlternate ? baseTheme : alternateTheme;
+    } else {
+      newTheme = isAlternate ? alternateTheme : baseTheme;
+    }
+    const changeGiscusTheme = () => {
+      // From: https://github.com/giscus/giscus/issues/336
+      const sendMessage = (message) => {
+        const iframe = document.querySelector('iframe.giscus-frame');
+        if (!iframe) return;
+        iframe.contentWindow.postMessage({ giscus: message }, 'https://giscus.app');
+      }
+      sendMessage({
+        setConfig: {
+          theme: newTheme
+        }
+      });
+    }
+    const isGiscussLoaded = window.document.querySelector('iframe.giscus-frame') !== null;
+    if (isGiscussLoaded) {
+      changeGiscusTheme();
     }
   }
   const toggleColorMode = (alternate) => {
@@ -956,13 +989,15 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       return localAlternateSentinel;
     }
   }
-  let localAlternateSentinel = 'default';
+  const darkModeDefault = false;
+  let localAlternateSentinel = darkModeDefault ? 'alternate' : 'default';
   // Dark / light mode switch
   window.quartoToggleColorScheme = () => {
     // Read the current dark / light value 
     let toAlternate = !hasAlternateSentinel();
     toggleColorMode(toAlternate);
     setStyleSentinel(toAlternate);
+    toggleGiscusIfUsed(toAlternate, darkModeDefault);
   };
   // Ensure there is a toggle, if there isn't float one in the top right
   if (window.document.querySelector('.quarto-color-scheme-toggle') === null) {
@@ -1041,10 +1076,9 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     // clear code selection
     e.clearSelection();
   });
-  function tippyHover(el, contentFn) {
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
     const config = {
       allowHTML: true,
-      content: contentFn,
       maxWidth: 500,
       delay: 100,
       arrow: false,
@@ -1054,8 +1088,17 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       interactive: true,
       interactiveBorder: 10,
       theme: 'quarto',
-      placement: 'bottom-start'
+      placement: 'bottom-start',
     };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
     window.tippy(el, config); 
   }
   const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
@@ -1068,6 +1111,125 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       const id = href.replace(/^#\/?/, "");
       const note = window.document.getElementById(id);
       return note.innerHTML;
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      // TODO in 1.5, we should make sure this works without a callout special case
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
     });
   }
       let selectedAnnoteEl;
@@ -1111,6 +1273,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
             }
             div.style.top = top - 2 + "px";
             div.style.height = height + 4 + "px";
+            div.style.left = 0;
             let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
             if (gutterDiv === null) {
               gutterDiv = window.document.createElement("div");
@@ -1136,6 +1299,32 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
         });
         selectedAnnoteEl = undefined;
       };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
       // Attach click handler to the DT
       const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
       for (const annoteDlNode of annoteDls) {
@@ -1204,7 +1393,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     <div class="nav-footer-center">
       <ul class="footer-items list-unstyled">
     <li class="nav-item">
- © Copyright 2023
+ © Copyright 2024
   </li>  
 </ul>
     </div>
@@ -1213,6 +1402,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     </div>
   </div>
 </footer>
+
 
 
 
