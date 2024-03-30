@@ -1,0 +1,213 @@
+---
+title: "How to load many csv files at once"
+description: |
+  In this post I show how to load many .csv files in a single data frame in R. 
+date: "2024-03-30"
+author:
+  - name: Joseph V. Casillas 
+    url: https://www.jvcasillas.com
+    affiliation: Rutgers University
+    affiliation_url: https://www.rutgers.edu
+base_url: https://www.jvcasillas.com
+categories: [stats, tidy, programming]
+twitter:
+  creator: "@jvcasill"
+engine: knitr
+---
+
+```{r}
+#| label: setup
+#| include: false
+# Delete all csv files
+file.remove(list.files(pattern = ".csv"))
+```
+
+# The problem
+
+Sometimes we collect data from different sources and need to load it all into a single data frame in R. 
+In my research this happens quite often, usually when collecting behavioral data. 
+For example, I tend to use `psychopy` a lot to present stimuli. 
+This outputs a separate .csv file for each participant. 
+So, how do you get all of those .csv files into R? 
+In this post, I show you the way I usually do it, as well as a new(er) (to me) method that is more flexible. 
+
+# Some data
+
+Since the issue we are trying to solve occurs when we have more than one csv file, we will generate some test files to play with.
+
+```{r}
+#| label: generate-data
+# Create 2 data frames with different columns
+# and save them as .csv files
+
+# df1
+data.frame(x = 1:3, y = c('a', 'b', 'c')) |> 
+  write.csv(file = "df1.csv", row.names = F)
+
+# df2
+data.frame(x = 4:6, y = c('d', 'e', 'f')) |> 
+  write.csv(file = "df2.csv", row.names = F)
+```
+
+The data frames look like this: 
+
+```{r}
+#| label: tbl-ex1
+#| tbl-cap: Two toy data frames
+#| tbl-subcap: ["df1", "df2"]
+#| layout-ncol: 2
+#| echo: false
+
+data.frame(x = 1:3, y = c('a', 'b', 'c')) |> 
+  knitr::kable()
+
+data.frame(x = 4:6, y = c('d', 'e', 'f')) |> 
+  knitr::kable()
+```
+
+but this is our desired output: 
+
+```{r}
+#| label: tbl-ex2
+#| tbl-cap: Combined data frames
+#| echo: false
+
+rbind(
+    data.frame(x = 1:3, y = c('a', 'b', 'c')), 
+    data.frame(x = 4:6, y = c('d', 'e', 'f'))
+  ) |> 
+  knitr::kable()
+```
+
+
+
+# Solution 1
+
+So, let's assume we have these two csv files in the root directory of our project folder and we want to load all of them and combine them into a single data frame. 
+Here is a nice two-liner using `readr`^[Note: this strategy won't work with the base R function `read.csv` because it is not vectorized.]: 
+
+```{r}
+#| label: solution1
+#| message: false
+# Load packages
+library("readr")
+
+# Get csv files in project root, read as df
+list.files(pattern = ".csv") |> 
+  read_csv()
+
+```
+
+The output is just what we described above. 
+This works quite well for most use cases. 
+
+# A bigger problem 
+
+Now imagine that we also have the following csv files: 
+
+```{r}
+#| label: add-more-csvs
+# Add z column
+data.frame(x = 4:6, y = c('d', 'e', 'f'), z = c(TRUE, TRUE, FALSE)) |> 
+  write.csv(file = "df3.csv", row.names = F)
+
+# Add foo column
+data.frame(x = 7:9, y = c('g', 'h', 'i'), foo = c(FALSE, TRUE, FALSE)) |> 
+  write.csv(file = "df4.csv", row.names = F)
+```
+
+If we look at all 4 of them side-by-side, we can see that `df3` and `df4` have an additional column and they aren't the same (`z` and `foo`). 
+
+```{r}
+#| label: tbl-ex3
+#| tbl-cap: "4 toy data frames"
+#| tbl-subcap: ["df1", "df2", "df3", "df4"]
+#| layout-ncol: 4
+#| echo: false
+
+data.frame(x = 1:3, y = c('a', 'b', 'c')) |> 
+  knitr::kable()
+
+data.frame(x = 4:6, y = c('d', 'e', 'f')) |> 
+  knitr::kable()
+
+data.frame(x = 4:6, y = c('d', 'e', 'f'), z = c(TRUE, TRUE, FALSE)) |> 
+  knitr::kable()
+
+data.frame(x = 7:9, y = c('g', 'h', 'i'), foo = c(FALSE, TRUE, FALSE)) |> 
+  knitr::kable()
+```
+
+Even though we are not interested in `z` nor `foo`, our previous solution will not work becuase of the different column names/lengths. 
+
+```{r}
+#| label: solution1-fail
+#| eval: false
+# Get csv files in project root, read as df
+list.files(pattern = ".csv") |> 
+  read_csv()
+```
+
+```
+! Files must all have 2 columns:
+* File 3 has 3 columns
+```
+
+# Solution 2
+
+The logic is as follows. 
+We can create a list containing all the data frames, select just the columns we want, and then bind them all into a single data frame. 
+We will use `purrr` to make this happen. 
+
+```{r}
+#| label: solution2
+#| message: false
+library("purrr")
+
+# Make vector of the columns you want
+my_cols <- c("x", "y")
+
+# Get a list of all csv files
+list.files(pattern = ".csv") |> 
+  as.list() |> 
+  # Read elements of list into a separate list as data frames
+  map(read_csv) |> 
+  # From each data frame in the list, select only the columns in my_cols, i.e., 
+  # drop any other columns (z and foo)
+  map(.f = function(x) {x[, names(x) %in% my_cols]}) |> 
+  # Bind all the data frames in the list to a single data frame
+  do.call(what = "rbind", args = _) 
+```
+
+Success! 
+
+Here is a template to copy/paste for future me when I forget how I did this: 
+
+```r
+# Make vector of the columns you want
+my_cols <- c("col1", "col2")
+
+# Get a list of all csv files
+# Load them as individual data frames inside a list
+# Select only the columns you want (my_cols)
+# Bind all the list elements into a single data frame
+list.files(pattern = ".csv") |> 
+  as.list() |> 
+  map(read_csv) |> 
+  map(.f = function(x) {x[, names(x) %in% my_cols]}) |> 
+  do.call(what = "rbind", args = _) 
+```
+
+
+## Reproducibility information
+
+This document was written in `quarto`.
+
+**Session info**  
+
+```{r}
+#| label: session-info
+#| echo: false
+devtools::session_info()$platform
+as.data.frame(devtools::package_info())[, c(3, 8)]
+```
