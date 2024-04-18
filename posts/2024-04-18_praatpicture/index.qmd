@@ -1,0 +1,114 @@
+---
+title: "How to create elegant waveform/spectrogram images in R"
+description: |
+  In this post I show how to generate waveform/spectrogram graphics in R. 
+date: "2024-04-18"
+author:
+  - name: Joseph V. Casillas 
+    url: https://www.jvcasillas.com
+    affiliation: Rutgers University
+    affiliation_url: https://www.rutgers.edu
+base_url: https://www.jvcasillas.com
+categories: [phonetics, praat, dataviz]
+twitter:
+  creator: "@jvcasill"
+engine: knitr
+---
+
+```{r}
+#| label: setup
+#| include: false
+
+library("praatpicture")
+library("here")
+```
+
+# The problem
+
+Generating elegant dataviz for spectrogram/waveforms can be cumbersome. 
+[Praat](https://www.fon.hum.uva.nl/praat/) has excellent plotting capabilities, but can be rather difficult to teach, especially if you want to plot the waveform/spectrogram/textgrid combination. 
+I posted on the topic [a long time ago](https://www.jvcasillas.com/posts/2013-05-09_colored_spectrograms_in_r/2013-05-09_colored_spectrograms_in_r.html) for a solution in R, and this post is an update of sorts, particularly for those not interested in working in Praat directly. 
+
+# The solution
+
+[Rasmus Puggaard-Rode's](https://rpuggaardrode.github.io) fantastic package [praatpicture](https://github.com/rpuggaardrode/praatpicture) makes the process trivial. 
+Assume we have a wav file called `welcome.wav` and the corresponding textgrid `welcome.TextGrid`. 
+We can plot the wavform/spectrogram/textgrid combination with a simple call to `praatpicture()`:  
+
+```{r}
+#| label: fig-welcome-simple
+#| fig-asp: 0.56 
+#| out-width: "100%"
+#| fig-dpi: 300
+praatpicture(sound = "welcome.wav")
+```
+
+I won't go through all of the capabilities of the package (the documentation is great), but here are a few of my common use cases. 
+
+
+```{r}
+#| label: fig-welcome-formants
+#| fig-asp: 0.56 
+#| out-width: "100%"
+#| fig-dpi: 300
+praatpicture(
+  sound = "welcome.wav", 
+  spec_freqRange = c(0, 4900),
+  frames = c('sound', 'spectrogram', 'TextGrid'), 
+  formant_plotOnSpec = TRUE, 
+  formant_color = '#cc0033'
+)
+```
+
+```{r}
+#| label: fig-welcome-color
+#| fig-asp: 0.56 
+#| out-width: "100%"
+#| fig-dpi: 300
+praatpicture(
+  sound = "welcome.wav", 
+  spec_freqRange = c(0, 4900),
+  frames = c('spectrogram'), 
+  spec_color = c(
+    'darkblue', 'blue', 'cyan', 'yellow', 'orange', 'brown', '#cc0033')
+  )
+```
+
+```{r}
+#| label: fig-welcome-more-color
+#| fig-asp: 0.56 
+#| out-width: "100%"
+#| fig-dpi: 300
+praatpicture(
+  sound = "welcome.wav", 
+  spec_freqRange = c(0, 4900),
+  frames = 'spectrogram', 
+  spec_color = c("white", scales::pal_brewer(palette = "Reds")(9))
+  )
+```
+
+```{r}
+#| label: fig-welcome-even-more-color
+#| fig-asp: 0.56 
+#| out-width: "100%"
+#| fig-dpi: 300
+praatpicture(
+  sound = "welcome.wav", 
+  spec_freqRange = c(0, 4900),
+  frames = 'spectrogram', 
+  spec_color = c(viridis::viridis_pal(option = "B")(8), "#cc0033")
+  )
+```
+
+## Reproducibility information
+
+This document was written in `quarto`.
+
+**Session info**  
+
+```{r}
+#| label: session-info
+#| echo: false
+devtools::session_info()$platform
+as.data.frame(devtools::package_info())[, c(3, 8)]
+```
