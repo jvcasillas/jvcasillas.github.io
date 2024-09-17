@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.4.550">
+<meta name="generator" content="quarto-1.5.45">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -10,7 +10,7 @@
 <meta name="dcterms.date" content="2017-05-15">
 <meta name="description" content="The title really says it all.">
 
-<title>JVC - Justin Bieber sings in Spanish: How’d he do?</title>
+<title>Justin Bieber sings in Spanish: How’d he do? – JVC</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -36,7 +36,7 @@ div.sourceCode { overflow: auto; }
 }
 @media print {
 pre > code.sourceCode { white-space: pre-wrap; }
-pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+pre > code.sourceCode > span { display: inline-block; text-indent: -5em; padding-left: 5em; }
 }
 pre.numberSource code
   { counter-reset: source-line 0; }
@@ -144,7 +144,7 @@ ga('send', {
     </a>
   </div>
             <div id="quarto-search" class="" title="Search"></div>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
   <span class="navbar-toggler-icon"></span>
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
@@ -188,7 +188,7 @@ ga('send', {
   </li>  
 </ul>
           </div> <!-- /navcollapse -->
-          <div class="quarto-navbar-tools">
+            <div class="quarto-navbar-tools">
   <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
 </div>
       </div> <!-- /container-fluid -->
@@ -250,8 +250,6 @@ ga('send', {
   <ul>
   <li><a href="#tldr" id="toc-tldr" class="nav-link active" data-scroll-target="#tldr">TL;DR</a></li>
   <li><a href="#overview" id="toc-overview" class="nav-link" data-scroll-target="#overview">Overview</a></li>
-  <li><a href="#the-analysis" id="toc-the-analysis" class="nav-link" data-scroll-target="#the-analysis">The analysis</a></li>
-  <li><a href="#not-so-fast" id="toc-not-so-fast" class="nav-link" data-scroll-target="#not-so-fast">Not so fast…</a></li>
   </ul>
 </nav>
     </div>
@@ -287,13 +285,12 @@ ga('send', {
 <p>Now, this type of non-native pronunciation actually makes a lot of sense, at least I think the ‘dorito’ comment does. In American and Canadian English an intervocalic “t” (and “d”) is usually pronounced as a flap, which in essence corresponds with Spanish “r” in the same position (note: it has to be in the same position, otherwise it would pronounced as a trill). This leads to all kinds of difficulties for learners of Spanish because they have to avoid a phonological process of their native language. For example, a common mispronunciation of the Spanish word “todo” (all) is [to.ɾo], which actually means “toro” (bull). That is, English speakers (mis)pronounce the intervocalic /d/ as a flap, which is most perceptually similar to Spanish “r”. On the other hand, when they try to pronounce “toro”, the “r” is realized as the English rhotic [ɹ].</p>
 <p>Thus, if Bieber were pronouncing /ito/ as most native English speakers do, as a flap, it would be perceived as a Spanish “r” (the flap, not the trill). However, there is no real explanation for why he would pronounce it with an English rhotic ([ɹ]) as J Balvin and Nicky Jam claim. I personally did not hear this pronunciation, so I assume they were just teasing the teenage heart throb. Nonetheless, I noticed a lot of comments in the article were also making fun of his pronunciation, so I decided I would take a look in praat to determine if I am going crazy or if the internet is just full of haters. Here is an example of what we will look at:</p>
 <br>
-<div align="center">
+<div data-align="center">
 <audio controls="">
 <source src="./assets/wavs/segmented/despacito.wav" type="audio/mpeg">
 Your browser does not support the audio element. </audio>
 </div>
 <p><br></p>
-</section>
 <section id="the-analysis" class="level3">
 <h3 class="anchored" data-anchor-id="the-analysis">The analysis</h3>
 <p>I downloaded the music video from youtube and converted the .mp4 file to .m4a, and then to .wav. In praat I converted the .wav from stereo to mono. Justin sings the chorus as well as some of the verses. I’m just going to look at the chorus because the verses are accompanied by Daddy Yankee and/or Luis Fonsi. Luckily, pretty much every time he says “despacito” in the chorus there is silence, so we can use that for our analysis. I am going to focus on how he pronounces the stop /t/ (though I did get formant frequency measurements for all the vowels… maybe for another post). This only leaves us with about 5 useful tokens, but there are also a good amount of /p/’s that we can compare them with. Here is arguably the best token:</p>
@@ -385,8 +382,10 @@ grey {
 
 
 </section>
+</section></main></div>
 
-</main> <!-- /main -->
+
+ <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
@@ -566,18 +565,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
     return false;
   }
-  const clipboard = new window.ClipboardJS('.code-copy-button', {
-    text: function(trigger) {
-      const codeEl = trigger.previousElementSibling.cloneNode(true);
-      for (const childEl of codeEl.children) {
-        if (isCodeAnnotation(childEl)) {
-          childEl.remove();
-        }
-      }
-      return codeEl.innerText;
-    }
-  });
-  clipboard.on('success', function(e) {
+  const onCopySuccess = function(e) {
     // button target
     const button = e.trigger;
     // don't keep focus
@@ -609,7 +597,47 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }, 1000);
     // clear code selection
     e.clearSelection();
+  }
+  const getTextToCopy = function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+    text: getTextToCopy
   });
+  clipboard.on('success', onCopySuccess);
+  if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+    // For code content inside modals, clipBoardJS needs to be initialized with a container option
+    // TODO: Check when it could be a function (https://github.com/zenorocha/clipboard.js/issues/860)
+    const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+      text: getTextToCopy,
+      container: window.document.getElementById('quarto-embedded-source-code-modal')
+    });
+    clipboardModal.on('success', onCopySuccess);
+  }
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp("https:\/\/www\.jvcasillas\.com");
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+        // undo the damage that might have been done by quarto-nav.js in the case of
+        // links that we want to consider external
+        if (link.dataset.originalHref !== undefined) {
+          link.href = link.dataset.originalHref;
+        }
+      }
+    }
   function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
     const config = {
       allowHTML: true,
@@ -644,7 +672,11 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       try { href = new URL(href).hash; } catch {}
       const id = href.replace(/^#\/?/, "");
       const note = window.document.getElementById(id);
-      return note.innerHTML;
+      if (note) {
+        return note.innerHTML;
+      } else {
+        return "";
+      }
     });
   }
   const xrefs = window.document.querySelectorAll('a.quarto-xref');
@@ -918,7 +950,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
 });
 </script>
-</div> <!-- /content -->
+ <!-- /content -->
 <footer class="footer">
   <div class="nav-footer">
     <div class="nav-footer-left">
