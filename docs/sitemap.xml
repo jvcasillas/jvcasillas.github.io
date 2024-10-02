@@ -29,6 +29,26 @@
     <lastmod>2023-04-09T07:25:40.412Z</lastmod>
   </url>
   <url>
+    <loc>https://www.jvcasillas.com/code/shiny_power_ss/index.html</loc>
+    <lastmod>2024-10-02T20:16:37.234Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.jvcasillas.com/code/shiny_msa/index.html</loc>
+    <lastmod>2024-10-02T20:24:23.935Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.jvcasillas.com/code/shiny_fran/index.html</loc>
+    <lastmod>2024-10-02T20:25:28.046Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.jvcasillas.com/code/shiny_crossover/index.html</loc>
+    <lastmod>2024-10-02T20:15:21.322Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.jvcasillas.com/code/r_worldlanguages/index.html</loc>
+    <lastmod>2024-10-02T20:36:36.358Z</lastmod>
+  </url>
+  <url>
     <loc>https://www.jvcasillas.com/posts/2015-04-20_plotting_in_r/2015-04-20_plotting_in_r.html</loc>
     <lastmod>2023-04-09T07:25:40.380Z</lastmod>
   </url>
@@ -45,24 +65,12 @@
     <lastmod>2023-04-09T07:25:40.164Z</lastmod>
   </url>
   <url>
-    <loc>https://www.jvcasillas.com/code/shiny_power_ss/index.html</loc>
-    <lastmod>2023-04-09T07:25:40.163Z</lastmod>
+    <loc>https://www.jvcasillas.com/code/shiny_bivariate_regression/index.html</loc>
+    <lastmod>2024-10-02T19:50:17.069Z</lastmod>
   </url>
   <url>
-    <loc>https://www.jvcasillas.com/code/shiny_distinctive_features/index.html</loc>
-    <lastmod>2023-04-09T07:25:40.161Z</lastmod>
-  </url>
-  <url>
-    <loc>https://www.jvcasillas.com/code/shiny_clt/index.html</loc>
-    <lastmod>2023-04-09T07:25:40.159Z</lastmod>
-  </url>
-  <url>
-    <loc>https://www.jvcasillas.com/code/r_untidydata/index.html</loc>
-    <lastmod>2023-04-09T07:25:40.157Z</lastmod>
-  </url>
-  <url>
-    <loc>https://www.jvcasillas.com/code/r_ds4ling/index.html</loc>
-    <lastmod>2023-04-09T07:25:40.157Z</lastmod>
+    <loc>https://www.jvcasillas.com/code/r_lingstuff/index.html</loc>
+    <lastmod>2024-10-02T20:24:10.593Z</lastmod>
   </url>
   <url>
     <loc>https://www.jvcasillas.com/code/r_academicwriter/index.html</loc>
@@ -85,24 +93,12 @@
     <lastmod>2023-04-09T07:25:41.968Z</lastmod>
   </url>
   <url>
-    <loc>https://www.jvcasillas.com/code/r_contributor/index.html</loc>
-    <lastmod>2023-04-09T07:25:40.152Z</lastmod>
-  </url>
-  <url>
-    <loc>https://www.jvcasillas.com/code/r_lingstuff/index.html</loc>
+    <loc>https://www.jvcasillas.com/code/r_ds4ling/index.html</loc>
     <lastmod>2023-04-09T07:25:40.157Z</lastmod>
   </url>
   <url>
-    <loc>https://www.jvcasillas.com/code/shiny_bivariate_regression/index.html</loc>
-    <lastmod>2023-04-09T07:25:40.159Z</lastmod>
-  </url>
-  <url>
-    <loc>https://www.jvcasillas.com/code/shiny_crossover/index.html</loc>
-    <lastmod>2023-04-09T07:25:40.160Z</lastmod>
-  </url>
-  <url>
-    <loc>https://www.jvcasillas.com/code/shiny_glm/index.html</loc>
-    <lastmod>2023-04-09T07:25:40.162Z</lastmod>
+    <loc>https://www.jvcasillas.com/code/r_untidydata/index.html</loc>
+    <lastmod>2023-04-09T07:25:40.157Z</lastmod>
   </url>
   <url>
     <loc>https://www.jvcasillas.com/code/shiny_r4linguists/index.html</loc>
@@ -119,6 +115,26 @@
   <url>
     <loc>https://www.jvcasillas.com/posts/2015-04-13_html_widgets/2015-04-13_html_widgets.html</loc>
     <lastmod>2023-04-09T07:25:40.380Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.jvcasillas.com/code/r_contributor/index.html</loc>
+    <lastmod>2024-10-02T20:23:26.596Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.jvcasillas.com/code/shiny_clt/index.html</loc>
+    <lastmod>2024-10-02T20:12:09.959Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.jvcasillas.com/code/shiny_distinctive_features/index.html</loc>
+    <lastmod>2024-10-02T20:25:49.604Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.jvcasillas.com/code/shiny_glm/index.html</loc>
+    <lastmod>2024-10-02T20:09:43.974Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.jvcasillas.com/code/shiny_parameter_space/index.html</loc>
+    <lastmod>2024-10-02T20:24:37.629Z</lastmod>
   </url>
   <url>
     <loc>https://www.jvcasillas.com/posts/2013-05-11_tikz_-_installation/2013-05-11_tikz_-_installation.html</loc>

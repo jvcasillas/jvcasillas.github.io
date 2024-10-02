@@ -16,7 +16,7 @@ engine: knitr
 image: featured.png
 ---
 
-<meta http-equiv="refresh" content="0; url='https://jvcasillas.shinyapps.io/shiny_bivariate_regression/'"/>
+<meta http-equiv="refresh" content="0; url='https://www.jvcasillas.com/shiny_bivariate_regression/'"/>
 
 ```{r, shiny-bivariate-reg, fig.retina=2}
 knitr::include_graphics("featured.png")

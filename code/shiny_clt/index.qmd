@@ -16,8 +16,10 @@ engine: knitr
 image: featured.png
 ---
 
-<meta http-equiv="refresh" content="0; url='https://jvcasillas.shinyapps.io/shiny_clt/'"/>
+<meta http-equiv="refresh" content="0; url='https://www.jvcasillas.com/shiny_clt/'"/>
 
-```{r, shiny-bivariate-reg, fig.retina=2}
+```{r}
+#| label: shiny-clt
+#| echo: false
 knitr::include_graphics("featured.png")
 ```

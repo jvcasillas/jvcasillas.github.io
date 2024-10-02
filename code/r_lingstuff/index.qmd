@@ -1,6 +1,6 @@
 ---
 title: "lingStuff"
-date: "2018-04-06"
+date: "2017-04-06"
 author:
   - name: Joseph V. Casillas
     url: https://www.jvcasillas.com

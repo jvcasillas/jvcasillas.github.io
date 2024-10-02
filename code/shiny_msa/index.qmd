@@ -1,0 +1,25 @@
+---
+title: "Many Speech Analyses"
+date: "2023-10-02"
+author:
+  - name: Joseph V. Casillas
+    url: https://www.jvcasillas.com
+    affiliation: Rutgers University
+    affiliation_url: https://www.rutgers.edu
+description: |
+  A shiny web app for exploring the MSA dataset.
+categories: [r, shiny, MSA, programming, statistics, phonetics]
+base_url: https://www.jvcasillas.com
+twitter:
+  creator: "@jvcasill"
+engine: knitr
+image: featured.png
+---
+
+<meta http-equiv="refresh" content="0; url='https://www.jvcasillas.com/shiny_msa/'"/>
+
+```{r}
+#| label: shiny-msa
+#| echo: false
+knitr::include_graphics("featured.png")
+```

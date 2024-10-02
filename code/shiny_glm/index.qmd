@@ -16,8 +16,10 @@ engine: knitr
 image: featured.png
 ---
 
-<meta http-equiv="refresh" content="0; url='https://jvcasillas.shinyapps.io/shiny_glm/'"/>
+<meta http-equiv="refresh" content="0; url='https://www.jvcasillas.com/shiny_glm/'"/>
 
-```{r, shiny-bivariate-reg, echo=F, fig.retina=2}
+```{r}
+#| label: shiny-glm
+#| echo: false
 knitr::include_graphics("featured.png")
 ```

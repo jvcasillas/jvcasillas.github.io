@@ -1,0 +1,25 @@
+---
+title: "Understanding parameter space"
+date: "2021-10-02"
+author:
+  - name: Joseph V. Casillas
+    url: https://www.jvcasillas.com
+    affiliation: Rutgers University
+    affiliation_url: https://www.rutgers.edu
+description: |
+  A shiny web app for understanding parameter space.
+categories: [r, shiny, programming, statistics, r]
+base_url: https://www.jvcasillas.com
+twitter:
+  creator: "@jvcasill"
+engine: knitr
+image: featured.png
+---
+
+<meta http-equiv="refresh" content="0; url='https://www.jvcasillas.com/shiny_parameter_space/'"/>
+
+```{r}
+#| label: shiny-parameter-space
+#| echo: false
+knitr::include_graphics("featured.png")
+```

@@ -1,6 +1,6 @@
 ---
 title: "Spanish allophones and distinctive features"
-date: "2018-04-06"
+date: "2017-04-06"
 author:
   - name: Joseph V. Casillas
     url: https://www.jvcasillas.com
@@ -17,8 +17,10 @@ engine: knitr
 image: featured.png
 ---
 
-<meta http-equiv="refresh" content="0; url='https://jvcasillas.shinyapps.io/shiny_distinctiveFeatures/'"/>
+<meta http-equiv="refresh" content="0; url='https://www.jvcasillas.com/shiny_distinctiveFeatures/'"/>
 
-```{r, shiny-bivariate-reg, echo=F, fig.retina=2}
+```{r}
+#| label: shiny-df
+#| echo: false
 knitr::include_graphics("featured.png")
 ```

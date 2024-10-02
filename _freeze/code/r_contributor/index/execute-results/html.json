@@ -1,7 +1,8 @@
 {
-  "hash": "eac8965b174a28d02d1697ec3932bcca",
+  "hash": "716f1dda7d351d914c8f561a30b0c538",
   "result": {
-    "markdown": "---\ntitle: \"contributoR\"\ndate: \"2018-04-06\"\nauthor:\n  - name: Joseph V. Casillas\n    url: https://www.jvcasillas.com\n    affiliation: Rutgers University\n    affiliation_url: https://www.rutgers.edu\ndescription: |\n  An R package for documenting scholarly contributions.\ncategories: [r, statistics, programming, linguistics]\nbase_url: https://www.jvcasillas.com\ntwitter:\n  creator: \"@jvcasill\"\nengine: knitr\n---\n\n\n<meta http-equiv=\"refresh\" content=\"0; url='https://www.jvcasillas.com/contributoR/'\"/>\n\n\n::: {.cell}\n::: {.cell-output-display}\n![](index_files/figure-html/contirbutor-ex-1.png){width=672}\n:::\n:::\n",
+    "engine": "knitr",
+    "markdown": "---\ntitle: \"contributoR\"\ndate: \"2020-01-01\"\nauthor:\n  - name: Joseph V. Casillas\n    url: https://www.jvcasillas.com\n    affiliation: Rutgers University\n    affiliation_url: https://www.rutgers.edu\ndescription: |\n  An R package for documenting scholarly contributions.\ncategories: [r, statistics, programming, linguistics]\nbase_url: https://www.jvcasillas.com\ntwitter:\n  creator: \"@jvcasill\"\nengine: knitr\n---\n\n\n\n\n<meta http-equiv=\"refresh\" content=\"0; url='https://www.jvcasillas.com/contributoR/'\"/>\n\n\n\n\n::: {.cell}\n::: {.cell-output-display}\n![](index_files/figure-html/contirbutor-ex-1.png){width=672}\n:::\n:::\n",
     "supporting": [
       "index_files/figure-html"
     ],

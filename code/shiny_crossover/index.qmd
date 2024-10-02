@@ -17,8 +17,10 @@ engine: knitr
 image: featured.png
 ---
 
-<meta http-equiv="refresh" content="0; url='https://jvcasillas.shinyapps.io/shiny_crossOver/'"/>
+<meta http-equiv="refresh" content="0; url='https://www.jvcasillas.com/shiny_crossOver/'"/>
 
-```{r, shiny-bivariate-reg, echo=F, fig.retina=2}
+```{r}
+#| label: shiny-co
+#| echo: false
 knitr::include_graphics("featured.png")
 ```

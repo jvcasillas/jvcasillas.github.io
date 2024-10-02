@@ -24,20 +24,24 @@
   {
     "listing": "/code.html",
     "items": [
-      "/code/r_academicwriter/index.html",
+      "/code/shiny_msa/index.html",
+      "/code/r_worldlanguages/index.html",
+      "/code/shiny_parameter_space/index.html",
       "/code/r_contributor/index.html",
+      "/code/shiny_fran/index.html",
+      "/code/r_academicwriter/index.html",
       "/code/r_ds4ling/index.html",
-      "/code/r_lingstuff/index.html",
       "/code/r_untidydata/index.html",
       "/code/shiny_bivariate_regression/index.html",
-      "/code/shiny_clt/index.html",
-      "/code/shiny_crossover/index.html",
-      "/code/shiny_distinctive_features/index.html",
-      "/code/shiny_glm/index.html",
-      "/code/shiny_power_ss/index.html",
       "/code/shiny_r4linguists/index.html",
       "/code/snippets_latex_ipa/index.html",
-      "/code/snippets_rsnippets/index.html"
+      "/code/snippets_rsnippets/index.html",
+      "/code/shiny_clt/index.html",
+      "/code/shiny_crossover/index.html",
+      "/code/shiny_glm/index.html",
+      "/code/shiny_power_ss/index.html",
+      "/code/r_lingstuff/index.html",
+      "/code/shiny_distinctive_features/index.html"
     ]
   }
 ]
