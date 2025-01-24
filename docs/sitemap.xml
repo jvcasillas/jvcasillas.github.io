@@ -1,52 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://www.jvcasillas.com/posts/2021-05-15_logistic_regression_and_phonemic_boundaries/2021-05-15_logistic_regression_and_phonemic_boundaries.html</loc>
-    <lastmod>2023-04-09T07:25:41.941Z</lastmod>
+    <loc>https://www.jvcasillas.com/teaching.html</loc>
+    <lastmod>2023-04-09T07:25:41.968Z</lastmod>
   </url>
   <url>
-    <loc>https://www.jvcasillas.com/research.html</loc>
-    <lastmod>2024-03-05T17:37:27.924Z</lastmod>
+    <loc>https://www.jvcasillas.com/posts/2024-04-18_praatpicture/index.html</loc>
+    <lastmod>2024-04-18T21:10:26.719Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.jvcasillas.com/posts/2021-05-15_logistic_regression_and_phonemic_boundaries/2021-05-15_logistic_regression_and_phonemic_boundaries.html</loc>
+    <lastmod>2023-04-09T07:25:41.941Z</lastmod>
   </url>
   <url>
     <loc>https://www.jvcasillas.com/posts/2017-05-15_analysis_of_justin_bieber_singing_in_spanish_-_despacito/2017-05-15_analysis_of_justin_bieber_singing_in_spanish_-_despacito.html</loc>
     <lastmod>2023-04-09T07:25:40.418Z</lastmod>
   </url>
   <url>
-    <loc>https://www.jvcasillas.com/posts/2014-05-28_tikz_-_standalone_plots/2014-05-28_tikz_-_standalone_plots.html</loc>
-    <lastmod>2023-04-09T07:25:40.374Z</lastmod>
-  </url>
-  <url>
-    <loc>https://www.jvcasillas.com/posts/2013-05-09_colored_spectrograms_in_r/2013-05-09_colored_spectrograms_in_r.html</loc>
-    <lastmod>2023-04-09T07:25:40.324Z</lastmod>
-  </url>
-  <url>
-    <loc>https://www.jvcasillas.com/posts/2015-05-18_data_pipelines/2015-05-18_data_pipelines.html</loc>
-    <lastmod>2023-04-09T07:25:40.380Z</lastmod>
-  </url>
-  <url>
-    <loc>https://www.jvcasillas.com/posts/2015-06-22_tidyr_tutorial/2015-06-22_tidyr_tutorial.html</loc>
-    <lastmod>2023-04-09T07:25:40.412Z</lastmod>
-  </url>
-  <url>
-    <loc>https://www.jvcasillas.com/code/shiny_power_ss/index.html</loc>
-    <lastmod>2024-10-02T20:16:37.234Z</lastmod>
-  </url>
-  <url>
-    <loc>https://www.jvcasillas.com/code/shiny_msa/index.html</loc>
-    <lastmod>2024-10-02T20:24:23.935Z</lastmod>
-  </url>
-  <url>
-    <loc>https://www.jvcasillas.com/code/shiny_fran/index.html</loc>
-    <lastmod>2024-10-02T20:25:28.046Z</lastmod>
-  </url>
-  <url>
-    <loc>https://www.jvcasillas.com/code/shiny_crossover/index.html</loc>
-    <lastmod>2024-10-02T20:15:21.322Z</lastmod>
-  </url>
-  <url>
-    <loc>https://www.jvcasillas.com/code/r_worldlanguages/index.html</loc>
-    <lastmod>2024-10-02T20:36:36.358Z</lastmod>
+    <loc>https://www.jvcasillas.com/posts/2015-06-16_google_sheets_in_r/2015-06-16_google_sheets_in_r.html</loc>
+    <lastmod>2023-04-09T07:25:40.408Z</lastmod>
   </url>
   <url>
     <loc>https://www.jvcasillas.com/posts/2015-04-20_plotting_in_r/2015-04-20_plotting_in_r.html</loc>
@@ -57,40 +29,68 @@
     <lastmod>2023-04-09T07:25:40.379Z</lastmod>
   </url>
   <url>
+    <loc>https://www.jvcasillas.com/posts/2014-05-26_knitr_bootstrap/2014-05-26_knitr_bootstrap.html</loc>
+    <lastmod>2023-04-09T07:25:40.373Z</lastmod>
+  </url>
+  <url>
     <loc>https://www.jvcasillas.com/posts/2013-05-17_tikz_-_projects/2013-05-17_tikz_-_projects.html</loc>
     <lastmod>2023-04-09T07:25:40.325Z</lastmod>
   </url>
   <url>
-    <loc>https://www.jvcasillas.com/code/snippets_latex_ipa/index.html</loc>
+    <loc>https://www.jvcasillas.com/posts/2013-05-09_colored_spectrograms_in_r/2013-05-09_colored_spectrograms_in_r.html</loc>
+    <lastmod>2023-04-09T07:25:40.324Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.jvcasillas.com/code/snippets_rsnippets/index.html</loc>
+    <lastmod>2023-04-09T07:25:40.165Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.jvcasillas.com/code/shiny_r4linguists/index.html</loc>
     <lastmod>2023-04-09T07:25:40.164Z</lastmod>
   </url>
   <url>
-    <loc>https://www.jvcasillas.com/code/shiny_bivariate_regression/index.html</loc>
-    <lastmod>2024-10-02T19:50:17.069Z</lastmod>
+    <loc>https://www.jvcasillas.com/code/shiny_parameter_space/index.html</loc>
+    <lastmod>2024-10-02T20:24:37.629Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.jvcasillas.com/code/shiny_glm/index.html</loc>
+    <lastmod>2024-10-02T20:09:43.974Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.jvcasillas.com/code/shiny_distinctive_features/index.html</loc>
+    <lastmod>2024-10-02T20:25:49.604Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.jvcasillas.com/code/shiny_clt/index.html</loc>
+    <lastmod>2024-10-02T20:12:09.959Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.jvcasillas.com/code/r_worldlanguages/index.html</loc>
+    <lastmod>2024-12-26T13:59:43.777Z</lastmod>
   </url>
   <url>
     <loc>https://www.jvcasillas.com/code/r_lingstuff/index.html</loc>
     <lastmod>2024-10-02T20:24:10.593Z</lastmod>
   </url>
   <url>
-    <loc>https://www.jvcasillas.com/code/r_academicwriter/index.html</loc>
-    <lastmod>2023-04-09T07:25:40.152Z</lastmod>
-  </url>
-  <url>
-    <loc>https://www.jvcasillas.com/posts/2014-01-07_converting_rmarkdown_files_to_html5/2014-01-07_converting_rmarkdown_files_to_html5.html</loc>
-    <lastmod>2023-04-09T07:25:40.325Z</lastmod>
-  </url>
-  <url>
-    <loc>https://www.jvcasillas.com/blog.html</loc>
-    <lastmod>2023-04-09T07:25:40.151Z</lastmod>
+    <loc>https://www.jvcasillas.com/code/r_contributor/index.html</loc>
+    <lastmod>2024-10-02T20:23:26.596Z</lastmod>
   </url>
   <url>
     <loc>https://www.jvcasillas.com/code.html</loc>
     <lastmod>2023-04-09T07:25:40.151Z</lastmod>
   </url>
   <url>
-    <loc>https://www.jvcasillas.com/teaching.html</loc>
-    <lastmod>2023-04-09T07:25:41.968Z</lastmod>
+    <loc>https://www.jvcasillas.com/about.html</loc>
+    <lastmod>2023-05-17T16:16:12.560Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.jvcasillas.com/blog.html</loc>
+    <lastmod>2023-04-09T07:25:40.151Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.jvcasillas.com/code/r_academicwriter/index.html</loc>
+    <lastmod>2023-04-09T07:25:40.152Z</lastmod>
   </url>
   <url>
     <loc>https://www.jvcasillas.com/code/r_ds4ling/index.html</loc>
@@ -101,67 +101,67 @@
     <lastmod>2023-04-09T07:25:40.157Z</lastmod>
   </url>
   <url>
-    <loc>https://www.jvcasillas.com/code/shiny_r4linguists/index.html</loc>
+    <loc>https://www.jvcasillas.com/code/shiny_bivariate_regression/index.html</loc>
+    <lastmod>2024-10-02T19:50:17.069Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.jvcasillas.com/code/shiny_crossover/index.html</loc>
+    <lastmod>2024-10-02T20:15:21.322Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.jvcasillas.com/code/shiny_fran/index.html</loc>
+    <lastmod>2024-10-02T20:25:28.046Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.jvcasillas.com/code/shiny_msa/index.html</loc>
+    <lastmod>2024-10-02T20:24:23.935Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.jvcasillas.com/code/shiny_power_ss/index.html</loc>
+    <lastmod>2024-10-02T20:16:37.234Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.jvcasillas.com/code/snippets_latex_ipa/index.html</loc>
     <lastmod>2023-04-09T07:25:40.164Z</lastmod>
-  </url>
-  <url>
-    <loc>https://www.jvcasillas.com/code/snippets_rsnippets/index.html</loc>
-    <lastmod>2023-04-09T07:25:40.165Z</lastmod>
-  </url>
-  <url>
-    <loc>https://www.jvcasillas.com/posts/2014-05-26_knitr_bootstrap/2014-05-26_knitr_bootstrap.html</loc>
-    <lastmod>2023-04-09T07:25:40.373Z</lastmod>
-  </url>
-  <url>
-    <loc>https://www.jvcasillas.com/posts/2015-04-13_html_widgets/2015-04-13_html_widgets.html</loc>
-    <lastmod>2023-04-09T07:25:40.380Z</lastmod>
-  </url>
-  <url>
-    <loc>https://www.jvcasillas.com/code/r_contributor/index.html</loc>
-    <lastmod>2024-10-02T20:23:26.596Z</lastmod>
-  </url>
-  <url>
-    <loc>https://www.jvcasillas.com/code/shiny_clt/index.html</loc>
-    <lastmod>2024-10-02T20:12:09.959Z</lastmod>
-  </url>
-  <url>
-    <loc>https://www.jvcasillas.com/code/shiny_distinctive_features/index.html</loc>
-    <lastmod>2024-10-02T20:25:49.604Z</lastmod>
-  </url>
-  <url>
-    <loc>https://www.jvcasillas.com/code/shiny_glm/index.html</loc>
-    <lastmod>2024-10-02T20:09:43.974Z</lastmod>
-  </url>
-  <url>
-    <loc>https://www.jvcasillas.com/code/shiny_parameter_space/index.html</loc>
-    <lastmod>2024-10-02T20:24:37.629Z</lastmod>
-  </url>
-  <url>
-    <loc>https://www.jvcasillas.com/posts/2013-05-11_tikz_-_installation/2013-05-11_tikz_-_installation.html</loc>
-    <lastmod>2023-04-09T07:25:40.325Z</lastmod>
   </url>
   <url>
     <loc>https://www.jvcasillas.com/index.html</loc>
     <lastmod>2023-04-09T07:25:40.323Z</lastmod>
   </url>
   <url>
+    <loc>https://www.jvcasillas.com/posts/2013-05-11_tikz_-_installation/2013-05-11_tikz_-_installation.html</loc>
+    <lastmod>2023-04-09T07:25:40.325Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.jvcasillas.com/posts/2014-01-07_converting_rmarkdown_files_to_html5/2014-01-07_converting_rmarkdown_files_to_html5.html</loc>
+    <lastmod>2023-04-09T07:25:40.325Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.jvcasillas.com/posts/2014-05-28_tikz_-_standalone_plots/2014-05-28_tikz_-_standalone_plots.html</loc>
+    <lastmod>2023-04-09T07:25:40.374Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.jvcasillas.com/posts/2015-04-13_html_widgets/2015-04-13_html_widgets.html</loc>
+    <lastmod>2023-04-09T07:25:40.380Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.jvcasillas.com/posts/2015-05-18_data_pipelines/2015-05-18_data_pipelines.html</loc>
+    <lastmod>2023-04-09T07:25:40.380Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.jvcasillas.com/posts/2015-06-22_tidyr_tutorial/2015-06-22_tidyr_tutorial.html</loc>
+    <lastmod>2023-04-09T07:25:40.412Z</lastmod>
+  </url>
+  <url>
     <loc>https://www.jvcasillas.com/posts/2018-09-16_setting_up_a_whisper_room_sound_booth/2018-09-16_setting_up_a_whisper_room_sound_booth.html</loc>
     <lastmod>2023-04-09T07:25:40.914Z</lastmod>
   </url>
   <url>
-    <loc>https://www.jvcasillas.com/about.html</loc>
-    <lastmod>2023-05-17T16:16:12.560Z</lastmod>
-  </url>
-  <url>
-    <loc>https://www.jvcasillas.com/posts/2015-06-16_google_sheets_in_r/2015-06-16_google_sheets_in_r.html</loc>
-    <lastmod>2023-04-09T07:25:40.408Z</lastmod>
-  </url>
-  <url>
-    <loc>https://www.jvcasillas.com/posts/2024-04-18_praatpicture/index.html</loc>
-    <lastmod>2024-04-18T21:10:26.719Z</lastmod>
-  </url>
-  <url>
     <loc>https://www.jvcasillas.com/posts/2024-03-30_load_many_files/index.html</loc>
     <lastmod>2024-03-30T23:12:32.109Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.jvcasillas.com/research.html</loc>
+    <lastmod>2024-12-26T15:45:03.407Z</lastmod>
   </url>
 </urlset>

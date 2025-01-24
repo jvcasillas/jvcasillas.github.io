@@ -200,7 +200,7 @@ final publication in [JASA](http://scitation.aip.org/content/asa/journal/jasa/13
 ```{r}
 #| label: print-in-press
 #| results: 'asis'
-filter(cite_key_list, type_check == "article" & year == "In press") |> 
+filter(cite_key_list, year == "In press") |> 
   arrange(desc(year)) |>
   pull(citekey) |> 
   ref_printer()
