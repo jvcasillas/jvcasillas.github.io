@@ -17,6 +17,7 @@ engine: knitr
 ```{ojs}
 //| output: hide
 //| echo: false
+//| eval: false
 P5 = require("p5")
 ```
 
