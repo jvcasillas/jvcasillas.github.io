@@ -1,6 +1,6 @@
 ---
 title: "Joseph V. Casillas, Ph.D."
-image: "./assets/img/jvc2022.png"
+image: "./assets/img/jvc2025_side.png"
 page-layout: full
 toc: false
 about:
